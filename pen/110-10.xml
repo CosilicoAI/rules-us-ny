@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-110.10"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-110.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="110.10"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-110.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-110.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-110.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-110.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_110_10">
+        <num>110.10</num>
+        <heading>Attempt to commit a crime; no defense</heading>
+        <content>
+          <p>§ 110.10 Attempt to commit a crime; no defense.\n  If the conduct in which a person engages otherwise constitutes an\nattempt to commit a crime pursuant to section 110.00, it is no defense\nto a prosecution for such attempt that the crime charged to have been\nattempted was, under the attendant circumstances, factually or legally\nimpossible of commission, if such crime could have been committed had\nthe attendant circumstances been as such person believed them to be.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

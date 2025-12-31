@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3850-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3850-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3850-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3850-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3850-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3850-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3850-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3850_A">
+        <num>3850-A</num>
+        <heading>Legislative declaration of need for state intervention</heading>
+        <content>
+          <p>  § 3850-a. Legislative declaration of need for state intervention. The\nlegislature hereby finds and declares that the city of Buffalo is facing\na severe fiscal crisis, and that the crisis cannot be resolved absent\nassistance from the state. The legislature finds that the city has\nrepeatedly relied on annual extraordinary increases in state aid to\nbalance its budget, and that the state cannot continue to take such\nextraordinary actions on the city's behalf. The legislature further\nfinds and declares that maintenance of a balanced budget by the city of\nBuffalo is a matter of overriding state concern, requiring the\nlegislature to intervene to provide a means whereby: the long-term\nfiscal stability of the city will be assured, the confidence of\ninvestors in the city's bonds and notes is preserved, and the economy of\nboth the region and the state as a whole is protected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

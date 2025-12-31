@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-808"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-808"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="808"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-808/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-808/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_808">
+        <num>808</num>
+        <heading>Instruction in fire and arson prevention</heading>
+        <content>
+          <p>  § 808. Instruction in fire and arson prevention. 1. The commissioner\nis hereby directed to provide and prescribe a course of instruction in\nfire and arson prevention, injury prevention and life safety education\nrelating to the protection against injury or death and protection of\nproperty against loss or damage as a result of criminally initiated or\nother preventable fire, for use in the schools of the state, as\nprescribed by this section. Such course of instruction shall include\nmaterials to educate children on the dangers of falsely reporting a\ncriminal incident, an impending explosion or fire emergency involving\ndanger to life or property, an impending catastrophe, or a life safety\nemergency.\n  2. The board of education, trustees, principal or other person in\ncharge of every public, private and parochial school in the state shall\narrange for giving such course of instruction in every school under its\nor his control or direction. Such instruction shall be given to all of\nthe pupils in every such school for a period of not less than forty-five\nminutes in each month during which such school is in session.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

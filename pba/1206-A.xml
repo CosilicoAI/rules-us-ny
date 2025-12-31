@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1206-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1206_A">
+        <num>1206-A</num>
+        <heading>Transit construction fund</heading>
+        <subsection eId="sec_1206_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>acquire and\nuse any transit facility in accordance with the terms and conditions of\nany sublease or other agreement with the transit construction fund;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1206_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nauthorize the use by the transit construction fund, either with or\nwithout compensation to the authority, of the agents, employees and\nfacilities of the authority;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1206_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>make and execute contracts, leases,\nsubleases and all other instruments or agreements deemed necessary or\nconvenient including agreements with the metropolitan transportation\nauthority and the transit construction fund; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1206_A__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>do any and all\nother things deemed necessary or convenient.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

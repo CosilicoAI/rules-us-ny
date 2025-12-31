@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="57"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_57">
+        <num>57</num>
+        <heading>License fees; when due and payable; fee for part of year</heading>
+        <subsection eId="sec_57__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as otherwise provided pursuant to section fifty-seven-a, each\nlicense issued pursuant to this article other than the one specified in\nparagraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_57__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of this subdivision shall be effective for a license year\nexpiring on the thirtieth day of June following the date of its issuance\nand the license fee prescribed therefor shall be the license fee due and\npayable therefor and shall be paid in advance at the time of the\napplication as provided for in this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_57__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each license issued pursuant to section fifty-five-a of this\narticle shall be effective for a license year expiring on the\nthirty-first day of March following the date of its issuance and the\nlicense fee prescribed therefor shall be the license fee due and payable\ntherefor and shall be paid in advance of the time of the application as\nprovided for in this article.\n  2. When application for any license under this article is made after\nthe commencement of the license year hereinbefore provided the license\nfee therefor shall, for the balance of the license year, be in\nproportion as the remainder of such year shall bear to the whole year,\nexcept that it shall in no case be for less than one-half of such year.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

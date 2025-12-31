@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-542"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-542"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="542"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-542/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-542/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-542/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-542/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_542">
+        <num>542</num>
+        <heading>Composition of the board</heading>
+        <content>
+          <p>  § 542. Composition of the board. The board shall consist of not less\nthan fourteen members, ten of whom shall be physicians representing the\nspecialties of neurology, cardiovascular medicine, internal medicine,\nfamily practice, opthalmology, psychiatry, orthopedics, emergency\nmedicine, rehabilitative medicine and gerontology. At least two members\nof the board shall be lay persons. One member shall be an optometrist\nand one member shall be a psychologist who respectively are licensed to\npractice optometry or psychology in the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

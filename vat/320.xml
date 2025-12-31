@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-320"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-320"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="320"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-320/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-320/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-320/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-320/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_320">
+        <num>320</num>
+        <heading>Notice to other jurisdictions</heading>
+        <content>
+          <p>  § 320. Notice to other jurisdictions. The commissioner shall transmit\na certified copy of any record of any conviction under this article or\nof any action taken pursuant to this article resulting in revocation of\na non-resident's privilege to operate a motor vehicle in this state or\nthe privilege of the operation within this state of any motor vehicle\nowned by him to the motor vehicle commissioner or officer performing\nsimilar functions in the state in which such non-resident resides.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

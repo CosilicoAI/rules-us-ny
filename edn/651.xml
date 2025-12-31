@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-651"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-651"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="651"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-651/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-651/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-651/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-651/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_651">
+        <num>651</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 651. Definitions. As used in this article, the following terms shall\nhave the following meanings unless otherwise specified:\n  1. "Corporation" shall mean the New York state higher education\nservices corporation.\n  2. "Board" shall mean the board of trustees of the New York state\nhigher education services corporation.\n  3. "President" shall mean the president of the corporation.\n  4. "College", "vocational institution" and "approved program" shall\nhave the same meanings as defined in article thirteen.\n  5. "Academic year" shall mean the regular school year beginning July\nfirst and ending June thirtieth.\n  6. "Federal student aid programs" shall mean the programs of the\nUnited States government making financial aid available to pay for the\ncost of attending post-secondary institutions and established under\nTitle IV of the Higher Education Act of nineteen hundred sixty-five, as\namended, or any successor statute.\n  7. "Lend" shall include one or more of the following services: the\norigination, disbursement, servicing, and/or collection of any student\nor parent education loan made by or on behalf of a lending institution a\ngovernment entity, or an institution of higher education for the purpose\nof paying for higher education expenses as well as serving as a\nsecondary market for these loans.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

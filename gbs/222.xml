@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-222"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-222"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="222"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-222/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-222/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222">
+        <num>222</num>
+        <heading>Compliance with industry standards</heading>
+        <content>
+          <p>  § 222. Compliance with industry standards. A trampoline park owner\nshall ensure that the trampoline park complies with standards developed\nin conjunction with industry safety organizations regarding:\n  1. signage and notification for proper use of the trampoline park,\nsafety procedures, and education of risk as provided for in section two\nhundred twenty-seven of this article;\n  2. equipment and facilities, including materials, layout, condition,\nand maintenance;\n  3. staff training, including safety procedures and emergency response;\n  4. participant activities and behaviors that should be restricted;\n  5. separation of participants within the trampoline park based on age,\nsize, or other necessary factors;\n  6. operational issues, including maintenance and injury logs and\nemergency response plans;\n  7. staff supervision and monitoring of activities;\n  8. statistical tracking of injuries in a manner that does not\npersonally identify the injured participant; and\n  9. appropriate insurance coverage.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

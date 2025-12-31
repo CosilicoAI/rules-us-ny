@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-348"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-348"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="348"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-348/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-348/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-348/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-348/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_348">
+        <num>348</num>
+        <heading>Article not to affect other policies</heading>
+        <subsection eId="sec_348__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>This article shall\nnot be held to apply to or affect policies of automobile insurance\nagainst liability which may now or hereafter be required by any other\nlaw of this state, and such policies, if endorsed to conform to the\nrequirements of this article shall be accepted as proof of financial\nresponsibility when required under this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_348__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>This article shall not be held to apply to or affect policies\ninsuring solely the insured named in the policy against liability\nresulting from the maintenance, or use by persons in the insured's\nemploy or in his behalf of motor vehicles not owned by the insured.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

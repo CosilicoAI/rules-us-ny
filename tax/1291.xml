@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1291"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1291"/>
+          <FRBRdate date="2017-06-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1291"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1291/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1291/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1291/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1291/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1291">
+        <num>1291</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_1291__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Person" means an individual, partnership,\nlimited liability company, society, association, joint stock company,\ncorporation, estate, receiver, trustee, assignee, referee or any other\nperson acting in a fiduciary or representative capacity, whether\nappointed by a court or otherwise, any combination of individuals and\nany other form of unincorporated enterprise owned or conducted by two or\nmore persons.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"City" means a city of a million or more located in the\nmetropolitan commuter transportation district established by section\ntwelve hundred sixty-two of the public authorities law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Transportation network company" or "TNC" shall have the same\nmeaning as the term is defined in article forty-four-B of the vehicle\nand traffic law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"TNC prearranged trip" shall have the same meaning as the term is\ndefined in article forty-four-B of the vehicle and traffic law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>"TNC driver" shall have the same meaning as the term is defined in\narticle forty-four-B of the vehicle and traffic law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>"TNC vehicle" shall have the same meaning as the term is defined\nin article forty-four-B of the vehicle and traffic law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1291__subsec_g">
+          <num>(g)</num>
+          <content>
+            <p>"Gross trip fare" means the sum of the base fare charge, distance\ncharge and time charge for a complete TNC prearranged trip at the\napplicable rate charged by the TNC at the time such trip is arranged.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

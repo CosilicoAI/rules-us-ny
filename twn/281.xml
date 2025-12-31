@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-281"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-281"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="281"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-281/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-281/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281">
+        <num>281</num>
+        <heading>Municipal improvements in streets</heading>
+        <content>
+          <p>  § 281. Municipal improvements in streets. No public municipal street\nutility or improvement shall be constructed by the town in any street or\nhighway within that part of the town outside the limits of any\nincorporated city or village until it has become a public street or\nhighway and is duly placed on the official map or plan, provided,\nhowever, that subject to the discretion of the town board, a subsurface\nutility or improvement operated for revenue by the town or by a special\ndistrict may be constructed by the town in a private street, provided a\npublic easement satisfactory to the town board is obtained for such\nutility or improvement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

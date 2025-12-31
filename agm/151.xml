@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="151"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151">
+        <num>151</num>
+        <heading>Agricultural environmental management program</heading>
+        <content>
+          <p>  § 151. Agricultural environmental management program. There is hereby\nestablished within the department an agricultural environmental\nmanagement program to assist farmers in maintaining the economic\nviability of their farm operations while addressing environmental\nimpacts from those operations, including, but not limited to, soil, air\nand water pollution and greenhouse gas emissions. The program may also\ninclude assistance to farmers for the development of\nagriculturally-derived renewable energy sources. The program may consist\nof planner certification to qualify persons to prepare AEM plans;\ntechnical assistance to farmers participating in the program; financial\nassistance, within funds available, to soil and water conservation\ndistricts and farmers to prepare and implement plans; other incentives\nfor program participation; and evaluation of program procedures and\nprojects to assess effectiveness.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

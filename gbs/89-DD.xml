@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-DD"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-DD"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="89-DD"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-DD/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-DD/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-DD/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-DD/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_89_DD">
+        <num>89-DD</num>
+        <heading>Process serving agency records</heading>
+        <subsection eId="sec_89_DD__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The name of the process server to whom process is distributed,\nassigned or delivered to be served;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_89_DD__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The titles or a reasonable abbreviation thereof and index numbers\nof each case if filed in court by the agency;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_89_DD__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The date that such papers were assigned for service, and the date\nthat service was effected;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_89_DD__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The person from whom such papers were received for service;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_89_DD__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>The date of filing of papers with the court if filed by the\nagency;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_89_DD__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>The type of service effected whether personal, substituted or\nconspicuous.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

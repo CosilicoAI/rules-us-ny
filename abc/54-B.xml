@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-B"/>
+          <FRBRdate date="2023-10-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="54-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_54_B">
+        <num>54-B</num>
+        <heading>Beer tasting</heading>
+        <subsection eId="sec_54_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Tastings of beer shall be conducted by the licensee or an\nauthorized agent of the licensee. Provided, however, a licensed beer or\ncider wholesaler shall not serve as the authorized agent for another\nentity, nor shall a licensed beer or cider wholesaler be involved in any\nmanner with a beer tasting conducted by another entity.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_54_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No more than three samples of beer may be provided to a person in\none calendar day.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_54_B__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>No sample may exceed three fluid ounces.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_54_B__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>No tasting shall be held during the hours prohibited by the\nprovisions of section one hundred five of this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_54_B__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>Any liability stemming from a right of action resulting from a\ntasting authorized by this section and in accordance with the provisions\nof sections 11-100 and 11-101 of the general obligations law shall\naccrue to the licensee.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_54_B__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>No person under the age of twenty-one shall be permitted to serve\na sample or handle an open container of beer.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

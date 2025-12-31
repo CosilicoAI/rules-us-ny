@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2960"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2960"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2960"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2960/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2960/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2960/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2960/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2960">
+        <num>2960</num>
+        <heading>Interest rates</heading>
+        <content>
+          <p>  § 2960. Interest rates. Notwithstanding any other provisions of this\nchapter or the provisions of any other general, special or local law,\nany public authority may agree or contract to pay interest on its\ncertificates, notes or bonds, including those now outstanding, at such\nrate or rates, without limit, as may be necessary for an authority to\nsell such notes or bonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

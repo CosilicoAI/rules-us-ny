@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-63"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-63"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="63"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-63/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-63/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-63/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-63/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_63">
+        <num>63</num>
+        <heading>Certain property to be kept in separate piles</heading>
+        <content>
+          <p>  § 63. Certain property to be kept in separate piles. Every junk dealer\nshall on purchasing any of the property described in the last section\nplace and keep each separate purchase in a separate and distinct pile,\nbundle or package, in the usual place of business of such junk dealer,\nwithout removing, melting, cutting or destroying any article thereof,\nfor a period of five days immediately succeeding such purchase, on which\npackage, bundle or pile shall be placed and kept by such dealer a tag\nbearing the name and residence of the seller, with the date, hour and\nplace of purchase, and the weight thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

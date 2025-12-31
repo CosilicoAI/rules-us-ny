@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.21"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.21"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_21">
+        <num>130.21</num>
+        <heading>Jurisdiction of courts-martial not exclusive</heading>
+        <content>
+          <p>  § 130.21. Jurisdiction of courts-martial not exclusive.  The\nprovisions of this code conferring jurisdiction upon courts-martial\nshall not be construed as depriving provost courts or other military\ntribunals of concurrent jurisdiction in respect to offenders or offenses\nthat by statute or by the law of war may be tried by such provost courts\nor other military tribunals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

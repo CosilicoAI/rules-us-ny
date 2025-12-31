@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-23-1901"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-23-1901"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="23-1901"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-23-1901/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-23-1901/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-23-1901/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-23-1901/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_1901">
+        <num>23-1901</num>
+        <heading>Construction of title</heading>
+        <content>
+          <p>§ 23-1901. Construction of title.\n  1. Nothing contained herein shall release a person from any obligation\nimposed by the provisions of this article or rules and regulations\npromulgated thereunder.\n  2. This title shall supersede all other laws enacted by local\ngovernments or agencies concerning the imposition of a fee relating to\ncircumstances described in this title. Nothing in the preceding sentence\nor in this title shall be construed as superseding or in any way\nlimiting the right of any local government to impose real property taxes\npursuant to the real property tax law.\n  3. Except as otherwise provided in subdivision 4 of this section, the\nfollowing owners shall not be subject to the fees imposed in this title:\n  a. The United States of America or any of its agencies or\ninstrumentalities;\n  b. The state of New York or any of its agencies; and\n  c. Local Agencies.\n  4. Agencies shall be subject to the fees imposed in this title when\nsuch agencies produce oil or gas, or engage in solution mining, for sale\nor exchange.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

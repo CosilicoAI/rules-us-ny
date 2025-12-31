@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-524"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-524"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="524"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-524/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-524/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-524/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-524/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_524">
+        <num>524</num>
+        <heading>Issuance of summons</heading>
+        <subsection eId="sec_524__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>On receiving a petition sufficient in\nlaw commencing a paternity proceeding, the court shall cause a summons\nto be issued, requiring the respondent to show cause why the declaration\nof paternity, order of filiation, order of support and other and further\nrelief prayed for by the petition should not be made.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_524__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The summons shall contain or have attached thereto a notice\nstating:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_524__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>that the respondent's failure to appear shall result in the\ndefault entry of an order of filiation by the court upon proof of\nrespondent's actual notice of the commencement of the proceeding; and\n(ii) that a respondent's failure to appear may result in the suspension\nof his or her driving privileges; state professional, occupational and\nbusiness licenses; and sporting licenses and permits.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

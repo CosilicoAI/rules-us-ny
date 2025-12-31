@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-43-0117"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-43-0117"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43-0117"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-43-0117/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-43-0117/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-43-0117/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-43-0117/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_0117">
+        <num>43-0117</num>
+        <heading>Operation of ferries and certain other boats, barges and vessels restricted</heading>
+        <subsection eId="sec_43_0117__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>no person shall construct any\ndock, wharf, mooring, marina or put any such structure to use without\nfirst obtaining a permit from the commission, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_43_0117__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>no person shall\noperate any boat or vessel, or undertake any regulated activity without\ncomplying with such regulations and obtaining a permit from the\ncommission, if required.\n  5. To effectuate the purposes enumerated in subdivision four of this\nsection, pending adoption by the commission of rules and regulations\nrelative to the registration and regulation of docks, wharfs, moorings,\nand marinas, the provisions of part 646 of Title VI of the codes, rules\nand regulations of the state of New York shall be continued; provided,\nhowever, that such regulations shall be administered by the commission.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-236"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-236"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="236"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-236/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-236/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-236/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-236/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_236">
+        <num>236</num>
+        <heading>Deposits by savings banks with other banking corporations and private bankers; restrictions</heading>
+        <content>
+          <p>  § 236. Deposits by savings banks with other banking corporations and\nprivate bankers; restrictions. 1. Except for investments made pursuant\nto subdivision twelve-a of section two hundred thirty-five of this\nchapter, no savings bank shall deposit any of its funds with any other\nbanking corporation or private banker unless such corporation or private\nbanker has been designated as a depositary by vote of a majority of all\nthe trustees of the savings bank, exclusive of any trustee who is an\nofficer, partner, director or trustee of the depositary so designated.\n  2. The amount deposited by any savings bank in any depositary,\nincluding investments made pursuant to subdivisions twelve-a and\ntwelve-b of section two hundred thirty-five of this chapter, shall not\nexceed twenty-five per centum of the net worth as shown by the last\npublished statement of such depositary, if a corporation, or twenty-five\nper centum of the permanent capital and surplus as shown by the last\npublished statement of such depositary, if a private banker, or five per\ncentum of the aggregate amount credited to the depositors of such\nsavings bank, whichever is smaller.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

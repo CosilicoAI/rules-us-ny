@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-304"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-304"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-304/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-304/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304">
+        <num>304</num>
+        <heading>Proceedings to be stayed unless interest unaffected by military service</heading>
+        <content>
+          <p>  § 304. Proceedings to be stayed unless interest unaffected by military\nservice.  At any stage thereof, any action or proceeding in any court or\nin any adjudicatory or licensing proceeding before any state agency,\nincluding any public benefit corporation or public authority, or any\npolitical subdivision of the state, in which a person in military\nservice is involved as a party, during the period of such service or\nwithin sixty days thereafter may, in the discretion of the court or\nadjudicatory or licensing agency before which it is pending, on its own\nmotion, and shall, on application to it by such person or some person on\nhis behalf, be stayed as provided in this act, unless, in the opinion of\nthe court or adjudicatory or licensing agency, the ability of plaintiff\nto prosecute the action, or the defendant to conduct his defense, or in\nany adjudicatory or licensing proceeding the ability of the party to\nrepresent his interest, is not materially affected by reason of his\nmilitary service.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

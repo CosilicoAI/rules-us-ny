@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0105"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0105"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0105">
+        <num>19-0105</num>
+        <heading>Declaration of purpose</heading>
+        <content>
+          <p>§ 19-0105. Declaration of purpose.\n  It is the purpose of this article to safeguard the air resources of\nthe state from pollution by: (1) controlling or abating air pollution\nwhich shall exist when this artcle shall be enacted and (2) preventng\nnew air pollution, under a program which shall be consistent with the\ndeclaration of policy above stated and in accordance with the provisions\nof this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

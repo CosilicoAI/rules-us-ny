@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.3"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-5.3"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_5_3">
+        <num>7-5.3</num>
+        <heading>Payment to beneficiary</heading>
+        <subsection eId="sec_7_5_3__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If the beneficiary survives the depositor under the circumstances\nprovided in paragraph four of section 7-5.2, the funds shall be paid to\nthe beneficiary upon his order, if, at the time of his demand for\npayment of all or part of the funds, he is eighteen or more years of\nage.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_5_3__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the beneficiary survives the depositor under the circumstances\nprovided in paragraph four of section 7-5.2, and if the beneficiary is\nunder eighteen years of age at the time demand for payment of any part\nor all of the funds is made, the funds may be paid to the order of the\nparent or parents of the beneficiary to be held for the use and benefit\nof such infant beneficiary or to the order of the duly appointed\nguardian of the property of the beneficiary, if the funds are equal to\nor are less than ten thousand dollars; but if the funds are more than\nten thousand dollars, the funds may be paid only to the order of the\nduly appointed guardian of the property of the beneficiary.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

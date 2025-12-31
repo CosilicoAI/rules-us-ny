@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3504"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3504"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3504"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3504/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3504/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3504/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3504/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3504">
+        <num>3504</num>
+        <heading>Rules and regulations</heading>
+        <content>
+          <p>  § 3504. Rules and regulations. The commissioner shall have power to\nmake such rules and regulations, not inconsistent with law, as may be\nnecessary to carry out the provisions of this article, including but not\nlimited to, the availability of emergency equipment appropriate to\nprovide treatment in the event of an unanticipated reaction to the\nadministration of contrast media.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

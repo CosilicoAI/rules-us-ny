@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-995-B"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-995-B"/>
+          <FRBRdate date="2025-08-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="995-B"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-995-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-995-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-995-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-995-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_995_B">
+        <num>995-B</num>
+        <heading>Reporting of cybersecurity incidents</heading>
+        <content>
+          <p>  § 995-b. Reporting of cybersecurity incidents. 1. Notwithstanding any\nother provision of law to the contrary, all municipal corporations and\npublic authorities shall report cybersecurity incidents and when\napplicable, the demand of a ransom payment, to the commissioner of the\ndivision of homeland security and emergency services in the form and\nmethod prescribed by such commissioner. Such report shall include\nwhether the reporting municipal corporation or public authority is\nrequesting or declining advice and/or technical assistance from the\ndivision of homeland security and emergency services with respect to the\nreported cybersecurity incident or demand for a ransom payment.\n  2. All municipal corporations and public authorities shall report\ncybersecurity incidents, including demands for ransom payment, no later\nthan seventy-two hours after the municipal corporation or public\nauthority reasonably believes the cybersecurity incident has occurred.\n  3. Any cybersecurity incident report and any records related to a\nransom payment submitted to the commissioner of the division of homeland\nsecurity and emergency services pursuant to the requirements of this\narticle shall be exempt from disclosure under article six of the public\nofficers law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

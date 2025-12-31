@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-508"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-508"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="508"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-508/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-508/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-508/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-508/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_508">
+        <num>508</num>
+        <heading>State loans</heading>
+        <subsection eId="sec_508__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the urban renewal plan has been approved\nby the governing body,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_508__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the program set forth in such plan has been\ncertified as eligible for federal assistance by the housing and home\nfinance agency of the federal government, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_508__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the governing body and\nthe comptroller of the municipality, or in a municipality having no\ncomptroller, the chief financial officer of such municipality, have\nattached their separate approvals to the loan contract. The commissioner\nmay make temporary advances to such municipality in anticipation of any\nsuch loan, and no such temporary advance shall be deemed to constitute\npart of such loan unless such temporary advance has been made out of the\nproceeds of definitive urban renewal bonds sold by the state pursuant to\nsection sixty of the state finance law.\n  2. Loans shall be made at the rate of interest paid or to be paid by\nthe state for the funds loaned to the municipality, plus a proportionate\nshare of the actual direct cost of the borrowing as certified by the\nstate comptroller. Each such loan shall be repaid in equal annual\ninstallments over or within a period not to exceed twenty-five years.\nEach installment shall equal the amount payable by the state for moneys\nborrowed for the loan and shall be paid by the municipality not later\nthan five days before each such payment by the state is required.\n  3. Should the municipality fail to make payment of interest or\nprincipal upon any due date, the state comptroller may deduct and retain\nfrom any moneys otherwise payable by the state to such municipality, the\namount of such interest and principal and credit such municipality with\nthe amount of such deduction.\n  4. All or any part of the sum which the commissioner has contracted to\nlend to the municipality may, with the consent of the commissioner, be\nborrowed by the municipality from sources other than the state under\nsuch terms and conditions as the commissioner shall approve, but such\nborrowing shall not constitute a waiver or surrender of the rights of\nthe municipality under its loan contract made with the commissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

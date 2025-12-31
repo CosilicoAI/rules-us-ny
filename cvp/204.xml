@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Stay of commencement of action; demand for arbitration</heading>
+        <subsection eId="sec_204__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nStay. Where the commencement of an action has been stayed by a court or\nby statutory prohibition, the duration of the stay is not a part of the\ntime within which the action must be commenced.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_204__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Arbitration. Where it shall have been determined that a party is\nnot obligated to submit a claim to arbitration, the time which elapsed\nbetween the demand for arbitration and the final determination that\nthere is no obligation to arbitrate is not a part of the time within\nwhich an action upon such claim must be commenced. The time within which\nthe action must be commenced shall not be extended by this provision\nbeyond one year after such final determination.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

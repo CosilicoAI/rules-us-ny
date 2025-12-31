@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-DD"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-DD"/>
+          <FRBRdate date="2020-06-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204-DD"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-DD/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-DD/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-DD/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-DD/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204_DD">
+        <num>204-DD</num>
+        <heading>Qualifications of a fire chief</heading>
+        <content>
+          <p>  § 204-dd. Qualifications of a fire chief. No person shall be eligible\nfor appointment or election as the fire chief, or any title or rank that\nincludes the duties of the chief, in any fire department or fire company\nwith six or more paid firefighters, unless he or she meets requirements\nas established by the most recently developed recommended best practices\nfor incident commanders adopted by the New York state division of\nhomeland security and emergency services, office of fire prevention and\ncontrol. The state fire administrator shall promulgate rules and\nregulations based upon requirements established pursuant to the most\nrecently developed recommended best practices for incident commanders.\nFor the purpose of this section, the term firefighter shall mean a\nmember of a fire department whose duties include fire service as defined\nin paragraph d of subdivision eleven of section three hundred two of the\nretirement and social security law and has been assigned by his or her\ndepartment as an interior firefighter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

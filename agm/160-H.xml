@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-H"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-H"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_H">
+        <num>160-H</num>
+        <heading>Grapes; definitions</heading>
+        <content>
+          <p>  § 160-h. Grapes; definitions.  The term "package," wherever used in\nthis article, shall mean a basket, box or other container the contents\nof which can be adequately inspected. The terms "shipment," or "ship for\nsale," wherever used in this article, shall mean movement to market in a\nrailroad car, motor truck or other medium of transportation, but shall\nnot be construed to include the process of delivery to a local\nwarehouse, shipping station or processor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-62"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-62"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="62"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-62/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-62/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62">
+        <num>62</num>
+        <heading>Participants</heading>
+        <content>
+          <p>  § 62. Participants. Each plan shall have at least two municipal\ncorporations as participants. The county shall be one of the\nparticipants in a plan.  Any contract agency or contract association\nwith the approval of the county government and any other public\ncorporation may by resolution of its governing body elect to become a\nparticipant in a plan established in the county, or, in the case of a\npublic corporation or contract agency or contract association located in\nmore than one county, in a plan established in one of such counties;\nprovided, however, that the rules and regulations adopted pursuant to\nsection sixty-five of this chapter may exclude from participation in a\nplan any type of public corporation or contract agency or contract\nassociation other than the county and cities, towns and villages.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

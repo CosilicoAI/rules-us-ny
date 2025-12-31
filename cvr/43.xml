@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-43"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-43"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-43/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-43/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43">
+        <num>43</num>
+        <heading>Discrimination by labor organizations prohibited</heading>
+        <content>
+          <p>  § 43. Discrimination by labor organizations prohibited. As used in\nthis section, the term "labor organization" means any organization which\nexists and is constituted for the purpose, in whole or in part, of\ncollective bargaining, or of dealing with employers concerning\ngrievances, terms or conditions of employment, or of other mutual aid or\nprotection. No labor organization shall hereafter, directly or\nindirectly, by ritualistic practice, constitutional or by-law\nprescription, by tacit agreement among its members, or otherwise, deny a\nperson or persons membership in its organization by reason of his race,\ncreed, color or national origin, or by regulations, practice or\notherwise, deny to any of its members, by reason of race, creed, color\nor national origin, equal treatment with all other members in any\ndesignation of members to any employer for employment, promotion or\ndismissal by such employer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

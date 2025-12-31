@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-412"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-412"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="412"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-412/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-412/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-412/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-412/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_412">
+        <num>412</num>
+        <heading>Agency of members or managers</heading>
+        <subsection eId="sec_412__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Unless the articles of\norganization of a limited liability company provide that management\nshall be vested in a manager or managers, every member is an agent of\nthe limited liability company for the purpose of its business, and the\nact of every member, including the execution in the name of the limited\nliability company of any instrument, for apparently carrying on in the\nusual way the business of the limited liability company, binds the\nlimited liability company, unless</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_412__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the member so acting has in fact\nno authority to act for the limited liability company in the particular\nmatter and (ii) the person with whom he or she is dealing has knowledge\nof the fact that the member has no such authority.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_412__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the articles of organization of a limited liability company\nprovide that management shall be vested in one or more managers:\n</p>
+          </content>
+          <paragraph eId="sec_412__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>no member, solely by reason of being a member, is an agent of the\nlimited liability company for the purpose of its business except to the\nextent that authority has been delegated to such member by the manager\nor managers or by the provisions of the operating agreement; and\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_412__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>every manager is an agent of the limited liability company for the\npurpose of its business, and the act of every manager, including the\nexecution in the name of the limited liability company of any\ninstrument, for apparently carrying on in the usual way the business of\nthe limited liability company binds the limited liability company,\nunless (A) the manager acting has in fact no authority to act for the\nlimited liability company in the particular matter and (B) the person\nwith whom he or she is dealing has knowledge of the fact that the\nmanager has no such authority.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_412__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An act of a member or manager that is not apparently for the\ncarrying on of the business of the limited liability company in the\nusual way does not bind the limited liability company unless authorized\nin fact by the limited liability company in the particular matter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_412__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>No act of a member, manager or other agent of a limited liability\ncompany in contravention of a restriction on authority shall bind the\nlimited liability company to persons having knowledge of the\nrestriction.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

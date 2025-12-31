@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-105"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="105"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_105">
+        <num>105</num>
+        <heading>Disposition of deposit accompanying bid</heading>
+        <content>
+          <p>  § 105. Disposition of deposit accompanying bid.  Notwithstanding any\ninconsistent provision of any general, special or local law, whenever as\na condition precedent to the reception or consideration of a bid for\nfurnishing supplies, materials, or equipment or performing work for a\npolitical subdivision or any officer, board or agency thereof or of any\ndistrict therein, a deposit of a certified check, money, bonds or other\nobligations is required, a person or corporation submitting a bid may\nwithdraw the same if no award of the contract be made within forty-five\ndays after the receipt thereof, and upon such withdrawal such deposit\nshall be forthwith returned. A certified check, money, bonds or other\nobligations or security deposited to secure a bid shall be retained\nunder the jurisdiction and control of the chief fiscal officer or other\nofficer of the political subdivision or district having custody of its\nmoney, until returned to the bidder or forfeited.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-198"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-198"/>
+          <FRBRdate date="2021-08-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="198"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-198/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-198/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-198/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-198/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_198">
+        <num>198</num>
+        <heading>Control of incarcerated individuals</heading>
+        <content>
+          <p>  § 198. Control of incarcerated individuals. If any incarcerated\nindividual shall wilfully disobey the rules of the home in such a way as\nto be detrimental to the welfare of the other incarcerated individuals,\nthe commissioner may institute a proceeding in a court of competent\njurisdiction against such incarcerated individual for disorderly\nconduct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

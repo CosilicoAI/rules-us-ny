@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-16-B"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-16-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16-B"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-16-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-16-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-16-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-16-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_B">
+        <num>16-B</num>
+        <heading>Computation of pensions in certain retirement funds</heading>
+        <content>
+          <p>  § 16-b. Computation of pensions in certain retirement funds.\nNotwithstanding the provisions of any other law, general or special, the\nmembers of every teachers' retirement system in all cities of the state\nshall, when retired pursuant to the law governing such system, receive a\npension, if lawfully entitled thereto, based on the average annual\ncompensation earnable as a teacher during the five years immediately\npreceding the date of his retirement, or the average annual compensation\nearnable as a teacher during any ten consecutive years of state service,\nsaid ten years to be selected by the member prior to date of retirement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

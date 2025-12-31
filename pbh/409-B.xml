@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-409-B"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-409-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="409-B"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-409-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-409-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-409-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-409-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_409_B">
+        <num>409-B</num>
+        <heading>Distribution of surplus revenue</heading>
+        <subsection eId="sec_409_B__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the\nproportion of funds that each facility contributes to such surplus\nrevenue; and (ii) the amounts each facility contributed to the\ndepartment of health income fund under section four hundred nine of this\narticle. The amounts shall be allocated to each facility in accordance\nwith a plan, subject to the approval of the commissioner, submitted by\neach facility to ensure that such funds are used for non-recurring\nexpenses including personal services contracts and equipment leases and\nrentals that are for no more than one year, but are potentially\nrenewable and meet all applicable state purchasing requirements.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

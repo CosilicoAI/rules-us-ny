@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-275"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-275"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="275"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-275/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-275/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-275/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-275/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275">
+        <num>275</num>
+        <heading>Illegal use of stamps; penalty</heading>
+        <content>
+          <p>  § 275. Illegal use of stamps; penalty. Any person who shall willfully\nremove or alter or knowingly permit to be removed or altered the\ncanceling or defacing marks of any stamp provided for by this article\nwith intent to use such stamp, or who shall knowingly or willfully buy,\nprepare for use, use, have in his possession or suffer to be used any\nwashed, restored or counterfeit stamp, and any person who shall\nintentionally remove or cause to be removed or knowingly permit to be\nremoved any stamp, affixed pursuant to the requirements of this article,\nshall be guilty of a misdemeanor and on conviction thereof shall be\nliable to a fine of not less than five hundred nor more than one\nthousand dollars, or be imprisoned for not more than one year, or by\nboth such fine and imprisonment, at the discretion of the court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

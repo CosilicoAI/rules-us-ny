@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1804"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1804"/>
+          <FRBRdate date="2016-03-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1804"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1804/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1804/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1804/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1804/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1804">
+        <num>1804</num>
+        <heading>Prohibition of imposition and collection of a fine, penalty, forfeiture, fee or surcharge</heading>
+        <content>
+          <p>  § 1804. Prohibition of imposition and collection of a fine, penalty,\nforfeiture, fee or surcharge. A municipality may only impose a fine,\npenalty, forfeiture, or any other fee or surcharge against a person\ncharged with a violation of this chapter or any local law, ordinance,\norder, rule, regulation or administrative code adopted pursuant to this\nchapter if such person is convicted of or found liable for a violation\nof this chapter or any local law, ordinance, order, rule, regulation or\nadministrative code adopted pursuant to this chapter in satisfaction of\nsuch charge.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

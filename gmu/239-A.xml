@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="239-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_239_A">
+        <num>239-A</num>
+        <heading>Construction of article</heading>
+        <content>
+          <p>  § 239-a. Construction of article. This article shall be construed as\nthe grant of additional power and authority to cities and incorporated\nvillages, and not as intended to limit or impair any existing power or\nauthority of any city or village.\n  Any city or incorporated village in order to appoint a planning\ncommission under this article shall recite, in the ordinance or\nresolution so creating the commission, the fact that it is created under\nthis article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

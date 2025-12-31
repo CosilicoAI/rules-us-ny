@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-58"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-58"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="58"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-58/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-58/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-58/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-58/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58">
+        <num>58</num>
+        <heading>Liability of state for damages</heading>
+        <content>
+          <p>  § 58. Liability of state for damages. The state shall not be liable\nfor damages suffered by any person from defects in state highways,\nexcept between the first day of May and the fifteenth day of November on\nsuch highways as are maintained by the state under such system as the\ncommissioner of transportation may adopt pursuant to section twelve, but\nthe liability for such damages shall otherwise remain as now provided by\nlaw, notwithstanding the construction or improvement and maintenance of\nsuch highways by the state under this chapter; but nothing herein\ncontained shall be construed to impose on the state any liability for\ndefects in bridges over which the state has no control. Within the\nlimits of incorporated villages the state shall maintain a width of\npavement equal to the width of pavement constructed or improved at the\nexpense of the state, if a state highway, the location of the state's\nportion of such roadway within said incorporated limits to be determined\nby the center line of the roadway as shown on the plans on file with the\ndepartment of transportation and the state shall be liable for damages\nto persons or property only when such damage shall occur as a result of\nthe defective condition of the portion of improved highway as above\ndescribed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

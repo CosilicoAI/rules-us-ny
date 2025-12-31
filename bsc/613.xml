@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-613"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-613"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="613"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-613/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-613/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-613/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-613/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_613">
+        <num>613</num>
+        <heading>Limitations on right to vote</heading>
+        <content>
+          <p>§ 613. Limitations on right to vote.\n  The certificate of incorporation may provide, except as limited by\nsection 501 (Authorized shares), either absolutely or conditionally,\nthat the holders of any designated class or series of shares shall not\nbe entitled to vote, or it may otherwise limit or define the respective\nvoting powers of the several classes or series of shares, and, except as\notherwise provided in this chapter, such provisions of such certificate\nshall prevail, according to their tenor, in all elections and in all\nproceedings, over the provisions of this chapter which authorizes any\naction by the shareholders.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

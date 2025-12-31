@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-468"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-468"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="468"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-468/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-468/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-468/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-468/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_468">
+        <num>468</num>
+        <heading>State aid</heading>
+        <content>
+          <p>  § 468. State aid. If the function or activity to be performed under an\ninterlocal agreement is by the law of this state entitled to state aid,\nthe contracting public agency of this state may claim state aid. Such\nstate aid shall be computed, apportioned and paid by the proper\ndepartments, agencies or officers of this state to the contracting\npublic agency of this state in the same manner and subject to the same\nconditions and requirements as would apply if the interlocal agreement\nwere not in force; provided, however, that in making such computation,\napportionment and payments, such state departments, agencies or officers\nshall take into account any funds or other consideration received or to\nbe received by the contracting public agency of this state from\ncontracting public agencies of other states under the interlocal\nagreement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

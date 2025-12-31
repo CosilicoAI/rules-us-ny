@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-176.40"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-176.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="176.40"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-176.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-176.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-176.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-176.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_176_40">
+        <num>176.40</num>
+        <heading>Fraudulent life settlement act; defined</heading>
+        <content>
+          <p>§ 176.40 Fraudulent life settlement act; defined.\n  A fraudulent life settlement act is committed by any person who,\nknowingly and with intent to defraud, presents, causes to be presented,\nor prepares with knowledge or belief that it will be presented to, or\nby, a life settlement provider, life settlement broker, life settlement\nintermediary, or any agent thereof, or to any owner any written\nstatement or other physical evidence as part of, or in support of, an\napplication for a life settlement contract, a claim for payment or other\nbenefit under a life settlement contract, which the person knows to:\n  (1) contain materially false information concerning any material fact\nthereto; or\n  (2) conceal, for the purpose of misleading, information concerning any\nfact material thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-A"/>
+          <FRBRdate date="2021-01-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="54-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_54_A">
+        <num>54-A</num>
+        <heading>License to sell beer and wine products at retail for consumption off the premises</heading>
+        <content>
+          <p>  § 54-a. License to sell beer and wine products at retail for\nconsumption off the premises. 1. Any person may apply to the appropriate\nboard for a license to sell beer and wine products at retail not to be\nconsumed upon the premises where sold. Such application shall be in\nwriting and verified and shall contain such information as the liquor\nauthority shall require. Such application shall be accompanied by a\ncheck or draft for the amount required by section fifty-six of this\narticle for such license. The term "premises" shall include any duly\nlicensed supply ship operating in harbors in Lake Erie. All the\nprovisions contained in subdivisions two and three of section fifty-four\nof this article shall apply to the procedure relative to an application\nfor a license under this section.\n  2. No such license shall be issued, however, to any person for any\npremises other than a grocery store, drug store, or duly licensed supply\nship operating in harbors in Lake Erie.\n  3. Such license shall contain a description of the licensed premises\nand in form and in substance shall be a license to the person\nspecifically designated therein to sell beer and wine products at retail\nin the premises specifically licensed, not to be consumed upon said\npremises.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

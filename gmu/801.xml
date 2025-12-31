@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-801"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-801"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="801"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-801/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-801/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-801/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-801/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_801">
+        <num>801</num>
+        <heading>Conflicts of interest prohibited</heading>
+        <subsection eId="sec_801__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>negotiate,\nprepare, authorize or approve the contract or authorize or approve\npayment thereunder</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_801__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>audit bills or claims under the contract, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_801__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>\nappoint an officer or employee who has any of the powers or duties set\nforth above and</p>
+          </content>
+          <paragraph eId="sec_801__subsec_c__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>no chief fiscal officer, treasurer, or his deputy or\nemployee, shall have an interest in a bank or trust company designated\nas a depository, paying agent, registration agent or for investment of\nfunds of the municipality of which he is an officer or employee. The\nprovisions of this section shall in no event be construed to preclude\nthe payment of lawful compensation and necessary expenses of any\nmunicipal officer or employee in one or more positions of public\nemployment, the holding of which is not prohibited by law.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

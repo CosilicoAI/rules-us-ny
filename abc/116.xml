@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-116"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="116"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_116">
+        <num>116</num>
+        <heading>Deliveries of alcoholic beverages</heading>
+        <subsection eId="sec_116__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>that alcoholic beverages may be transported by a retail licensee to\nthe home of a purchaser not to be resold by the purchaser;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_116__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that\nalcoholic beverages owned by a person may be transported from place to\nplace not for purposes of sale;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_116__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>that alcoholic beverages may be\ndelivered from a licensee to a steamship or railroad station or terminal\nfor purposes of transportation, and may be delivered from a steamship or\nrailroad station or terminal to a purchaser for purposes of consumption,\nor to a licensee by any bona fide trucking agency holding a permit under\nthis chapter. In lieu of such sign, a licensee may have in the cab of\nsuch vehicle a photostatic copy of its current license issued by the\nauthority, and such copy duly authenticated by the authority.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

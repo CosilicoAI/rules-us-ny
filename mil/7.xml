@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-7"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-7"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-7/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-7/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7">
+        <num>7</num>
+        <heading>Draft of unorganized militia</heading>
+        <content>
+          <p>  § 7. Draft of unorganized militia.  1. Whenever it shall be necessary\nin case of invasion, disaster, insurrection, riot, breach of the peace\nor imminent danger thereof or to maintain the organized militia or any\nforce thereof at the number required for public safety or prescribed by\nthe laws of the United States, the governor may call for and accept from\nthe unorganized militia as many volunteers as are required for service\nin the organized militia or he may direct the members of the unorganized\nmilitia or such of them as may be necessary to be drafted into the\norganized militia or any force thereof.\n  2. Whenever it shall be necessary in case of invasion, disaster,\ninsurrection, riot, breach of the peace, or imminent danger thereof, the\ngovernor many direct the members of the unorganized militia or such of\nthem as may be necessary to be drafted under such regulations as he may\nprescribe into the active service of the state, to serve as directed by\nhim.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

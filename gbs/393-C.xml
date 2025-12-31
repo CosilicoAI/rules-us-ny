@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="393-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393_C">
+        <num>393-C</num>
+        <heading>Sale of required labor postings</heading>
+        <content>
+          <p>  § 393-c. Sale of required labor postings. Any person, corporation,\nassociation, partnership or other entity which sells or offers to sell\nin this state any printed materials which, or the substance of which,\nare required to be posted in places of employment pursuant to the\nprovisions of any federal or state law, rule or regulation, including,\nbut not limited to, notices or materials relating to unemployment\ninsurance, workers' compensation insurance or benefits, minimum wage and\noccupational safety and health standards shall provide to the purchaser\na notice in at least twelve point type, that such required notices or\npostings are also available free of charge from the government office\nhaving jurisdiction over the required notices or postings.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

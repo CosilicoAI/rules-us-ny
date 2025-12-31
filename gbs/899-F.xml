@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-F"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-F"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_F">
+        <num>899-F</num>
+        <heading>Suspension, revocation or refusal to renew registration</heading>
+        <content>
+          <p>  § 899-f. Suspension, revocation or refusal to renew registration. 1.\nThe secretary of state may suspend, revoke or refuse to renew a\nregistration for conduct that would have justified denial of\nregistration under subdivision two of section eight hundred\nninety-nine-e of this article.\n  2. The secretary of state may deny, suspend, revoke or refuse to renew\na certificate of registration or licensure only after proper notice and\nan opportunity for a hearing as provided pursuant to provisions of the\nstate administrative procedure act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

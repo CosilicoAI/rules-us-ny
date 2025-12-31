@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-75"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-75"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="75"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-75/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-75/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-75/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-75/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_75">
+        <num>75</num>
+        <heading>Efficiency or fitness examining boards and medical examining boards</heading>
+        <content>
+          <p>  § 75. Efficiency or fitness examining boards and medical examining\nboards.  1. The efficiency, moral character, conduct and general fitness\nfor retention in the organized militia of any commissioned officer may\nbe investigated, examined into and determined by an efficiency or\nfitness examining board. The members of an efficiency or fitness\nexamining board shall be senior in rank to the officer under\ninvestigation unless unavoidable.\n  2. The physical fitness for further service of any commissioned\nofficer in the organized militia may be investigated and determined by a\nmedical examining board of officers.\n  3. Efficiency or fitness examining boards and medical examining boards\nshall be appointed by the governor upon the recommendation of the\nadjutant general; provided, that whenever an examining board shall be\nappointed for the purpose of determining the fitness of any officer for\ncontinued federal recognition, such board shall be appointed by the\ncommander designated, and shall follow the practice and procedure\nprescribed in the applicable laws of the United States and the\nregulations issued thereunder.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

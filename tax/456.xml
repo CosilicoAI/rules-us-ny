@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-456"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-456"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="456"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-456/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-456/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-456/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-456/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_456">
+        <num>456</num>
+        <heading>Practice and procedure</heading>
+        <content>
+          <p>  § 456. Practice and procedure. The provisions of article twenty-seven\nof this chapter shall apply with respect to the administration of and\nprocedure with respect to the tax imposed under this article in the same\nmanner and with the same force and effect as if the language of such\narticle twenty-seven had been incorporated in full into this article and\nhad expressly referred to the tax under this article, except to the\nextent that any such provision is either inconsistent with a provision\nof this article or is not relevant to this article. Criminal penalties\nprovided in section one thousand eight hundred twenty of this chapter\nshall apply in the same manner and with the same force and effect with\nrespect to this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

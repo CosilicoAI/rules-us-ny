@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-86"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-86"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="86"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-86/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-86/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-86/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-86/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_86">
+        <num>86</num>
+        <heading>Post-mortem examination of animals</heading>
+        <content>
+          <p>  § 86. Post-mortem examination of animals.  The carcass of every animal\nduly condemned and killed under the provisions of this article shall be\nexamined by a veterinarian designated by the commissioner for the\npurpose of determining whether or not disease existed in such animal and\nthe person making the examination shall file promptly with the\ncommissioner a report of the examination, in a form prescribed by the\ncommissioner; but such an examination, and the filing of such a report\nthereof, by an inspector of the United States government engaged in meat\ninspection service may be accepted by the commissioner in lieu of an\nexamination and report by a designated veterinarian.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

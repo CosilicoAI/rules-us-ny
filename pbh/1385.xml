@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1385"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1385"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1385"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1385/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1385/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1385/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1385/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1385">
+        <num>1385</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 1385. Legislative intent.  Sites formerly operated as landfills to\ndispose of toxic substances are exposing the citizens of the state to\nunnecessary hazards, the duration and extent of which is unknown. To\ndevelop a plan for the alleviation of these conditions, it is necessary\nto conduct a study to determine the extent of such hazards. The\npotential hazard believed to exist at a specific landfill site in the\ncounty of Niagara, has precipitated the need for immediate action to\nauthorize the department of health to undertake such study and to\nconduct a pilot program to evaluate the effect of individual corrective\nsystems in affected residences.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

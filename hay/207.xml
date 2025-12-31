@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-207"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-207"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="207"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-207/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-207/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-207/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-207/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_207">
+        <num>207</num>
+        <heading>Discontinuance of highway</heading>
+        <content>
+          <p>  § 207. Discontinuance of highway. Whenever the town superintendent of\nany town shall determine that any portion of any highway or street, not\nwithin the limits of an incorporated village, which is the terminus of\nsuch street or highway, is unnecessary for highway purposes, and said\ntown superintendent may, by an order to be duly entered in the town\nclerk's office, direct such highway to be discontinued and abandoned for\npublic purposes.  Provided, however, that no portion of such highway to\nbe discontinued shall be greater than one thousand feet of the terminus\nthereof and that the owners of the land on both sides of such highway or\nstreet, for the distance it is proposed to discontinue the same, shall,\nby written petition to such town superintendent have requested the\ndiscontinuance thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

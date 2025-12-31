@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-511"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-511"/>
+          <FRBRdate date="2020-03-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="511"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-511/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-511/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-511/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-511/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_511">
+        <num>511</num>
+        <heading>Proceedings to review</heading>
+        <content>
+          <p>  § 511. Proceedings to review. The action of the commissioner in\nrefusing to grant or renew a license, or in revoking or suspending a\nlicense, or in conditioning or limiting the granting or renewal of a\nlicense, may be reviewed in the manner provided by article seventy-eight\nof the civil practice law and rules, and the decision of the\ncommissioner shall be final unless within four months from the date of\nservice thereof upon the party affected thereby a court proceeding is\ninstituted to review such action. The pleadings upon which such review\nproceeding is instituted shall be served in the manner specified in the\ncivil practice law and rules, unless a different manner of service is\nprovided in an order to show cause granted by the supreme court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-700"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-700"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="700"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-700/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-700/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-700/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-700/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_700">
+        <num>700</num>
+        <heading>Legislative findings and intent</heading>
+        <content>
+          <p>  § 700. Legislative findings and intent. The Americans with\nDisabilities Act requires New York state to ensure that people of all\nages with disabilities reside and function in the most integrated\nsetting possible. This requirement was recognized and upheld by the\nSupreme Court in the case of Olmstead, Commissioner, Georgia Department\nof Human Resources, et al. v. L.C., by zimring, guardian ad litem and\nnext friend, et al. (138 F. 3d 893). While New York state provides\ncommunity supports for people of all ages with disabilities and while\nthe state of New York does operate a home and community-based waiver\nmedicaid program, the legislature hereby finds that New York state has\nno centralized mechanism in place to determine whether or not people of\nall ages with disabilities are residing in the most integrated setting\npossible. In order to ensure that the state of New York is in compliance\nwith the requirements of the Olmstead decision, the legislature hereby\nfinds that it is incumbent upon New York state to develop and implement\na plan to reasonably accommodate the desire of people of all ages with\ndisabilities to avoid institutionalization and be appropriately placed\nin the most integrated setting possible.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-II"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-II"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-II"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-II/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-II/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-II/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-II/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_II">
+        <num>899-II</num>
+        <heading>Respecting user-provided age flags</heading>
+        <content>
+          <p>  § 899-ii. Respecting user-provided age flags. 1. For the purposes of\nthis article, an operator shall treat a user as a covered user if the\nuser's device communicates or signals that the user is or shall be\ntreated as a minor, including through a browser plug-in or privacy\nsetting, device setting, or other mechanism that complies with\nregulations promulgated by the attorney general.\n  2. For the purposes of subdivision three of section eight hundred\nninety-nine-ff of this article, an operator shall adhere to any clear\nand unambiguous communications or signals from a covered user's device,\nincluding through a browser plug-in or privacy setting, device setting,\nor other mechanism, concerning processing that the covered user consents\nto or declines to consent to. An operator shall not adhere to unclear or\nambiguous communications or signals from a covered user's device, and\nshall instead request informed consent pursuant to the provisions of\nparagraph a of subdivision three of section eight hundred ninety-nine-ff\nof this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

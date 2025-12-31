@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-L"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77-L"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_L">
+        <num>77-L</num>
+        <heading>Recognition and enforcement</heading>
+        <content>
+          <p>  § 77-l. Recognition and enforcement. A court of this state shall\naccord full faith and credit to an order issued by another state and\nconsistent with this article which enforces a child custody\ndetermination by a court of another state unless the order has been\nvacated, stayed, or modified by a court having jurisdiction to do so\nunder title two of this article, unless recognition and enforcement\nwould violate subdivision one-c of section two hundred forty of this\nchapter or section one thousand eighty-five of the family court act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

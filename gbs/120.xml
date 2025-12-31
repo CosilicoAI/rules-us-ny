@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-120"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-120"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-120/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-120/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120">
+        <num>120</num>
+        <heading>Street railroad or omnibus transfer tickets not to be given away or sold</heading>
+        <content>
+          <p>  § 120. Street railroad or omnibus transfer tickets not to be given\naway or sold.  No transfer ticket or written or printed instrument\ngiving, or purporting to give, the right of transfer to any person from\na public conveyance operated upon one line or route of a street surface,\nelevated, underground railroad or omnibus line to a public conveyance\nupon another line or route of a street surface, elevated, underground\nrailroad or omnibus line, or from one car or omnibus to another car or\nomnibus upon the same line or route of street surface, elevated,\nunderground railroad or omnibus line shall be issued, sold or given\nexcept to a passenger lawfully entitled thereto. Any person who shall\nissue, sell or give away such a transfer ticket or instrument as\naforesaid to a person not lawfully entitled thereto, and any person not\nlawfully entitled thereto who shall receive and use or offer for passage\nany such transfer ticket or instrument, or shall sell or give away such\ntransfer ticket or instrument to another with intent to have such\ntransfer ticket used or offered for passage after the time limited for\nits use shall have expired, shall be guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

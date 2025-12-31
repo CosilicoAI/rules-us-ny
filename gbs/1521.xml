@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1521"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1521"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1521"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1521/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1521/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1521/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1521/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1521">
+        <num>1521</num>
+        <heading>Requirement for warning labels</heading>
+        <content>
+          <p>  * § 1521. Requirement for warning labels. It shall be unlawful for a\ncovered operator to provide an addictive feed, autoplay, infinite\nscroll, like counts, and/or push notifications to a covered user unless\nsuch operator displays a warning label each time that such user accesses\nsuch operator's addictive social media platform. Such warning label\nshall contain no text other than that prescribed by the commissioner of\nmental health and shall appear on such platform in the manner prescribed\nby such commissioner, in accordance with the provision of section 7.48\nof the mental hygiene law and any regulations promulgated thereto.\n  * NB Effective on the 180th day after the office of the attorney\ngeneral shall promulgate rules and regulations necessary to effectuate\nthe provisions of this act (see chapter 689 of 2025 § 5)\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

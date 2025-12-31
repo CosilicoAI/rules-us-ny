@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1203"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1203"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1203">
+        <num>1203</num>
+        <heading>Taxes administered by cities under one million</heading>
+        <subsection eId="sec_1203__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of section twelve hundred one, at the\nrates provided for therein, such taxes to be administered and collected\nin the manner provided for in subpart A of part III of this article.\n  b. Notwithstanding any provision of law to the contrary, the local\ngoverning body of the city of Yonkers, by the adoption of local laws,\nordinances or resolutions may impose in such city the tax otherwise\nauthorized under subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of section twelve hundred one, at a\nrate not to exceed three per centum, such taxes to be administered and\ncollected in the manner provided for in subpart A of part III of this\narticle. Such local law, ordinance, or resolution may provide that any\ntransfer of property owned and occupied as a residence by one or more\npersons, each of whom is sixty-five years of age or over, shall be\nexempt from such tax.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-704"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-704"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-704"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-704/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-704/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-704/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-704/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_704">
+        <num>5-704</num>
+        <heading>Notification to jurisdiction of prior registration</heading>
+        <content>
+          <p>  § 5-704. Notification to jurisdiction of prior registration.  1. Each\nboard of elections shall, at least once a month, transmit to the\nappropriate boards of election, a list of all persons who have\nregistered with such board of elections and stated that they were\npreviously registered outside of the city or county of such board's\njurisdiction.  Such list shall include the name of the registrant, the\nname of the prior registration if different, the address of the prior\nregistration including street address, city or town, county and state\nand the date of birth of the registrant.  Such information with respect\nto those persons whose address of previous registration is outside the\nstate, shall be sent to the state board of elections.\n  2. The state board shall arrange such list by state and transmit such\nlist to the chief state election official of such state at such times\nand in such manner as it deems appropriate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

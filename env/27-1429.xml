@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1429"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1429"/>
+          <FRBRdate date="2015-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-1429"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1429/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1429/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1429/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1429/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1429">
+        <num>27-1429</num>
+        <heading>Permit waivers</heading>
+        <content>
+          <p>§ 27-1429. Permit waivers.\n  The department, by and through the commissioner, shall be exempt for\nactivities conducted pursuant to subdivision five of section 27-1411 of\nthis title and shall be authorized to exempt a person from the\nrequirement to obtain any state or local permit or other authorization\nfor any activity needed to implement a program for the investigation\nand/or remediation of contamination at or emanating from a brownfield\nsite; provided that the activity is conducted in a manner which\nsatisfies all substantive technical requirements applicable to like\nactivity conducted pursuant to a permit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-104"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-104"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-104"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_104">
+        <num>6-104</num>
+        <heading>Party designation; statewide office</heading>
+        <subsection eId="sec_6_104__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The names of persons who have received the designation of the\nstate committee and the offices for which designated, and the name of\neach person who received twenty-five percent or more, of the vote on any\nballot and the offices for which they received such vote.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6_104__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The names of the persons selected as the committee to fill\nvacancies or a certified copy of the party rule forming and empowering\nsuch a committee to fill vacancies.\n  8. No person may be designated by a state committee for more than one\nstatewide office pursuant to the provisions of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

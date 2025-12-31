@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1102"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1102"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1102">
+        <num>1102</num>
+        <heading>Agreements of the state</heading>
+        <content>
+          <p>  § 1102. Agreements of the state. The state of New York does pledge to\nand agree with the holders of the bonds or notes that the state will not\nlimit or alter the rights hereby vested in the authority to acquire,\nconstruct, maintain, operate, reconstruct and improve the properties, to\nestablish and collect the revenues, rates, rentals, fees and other\ncharges referred to in this title and to fulfill the terms of any\nagreements made with the holders of the bonds or notes, or in any way\nimpair the rights and remedies of the bondholders or noteholders, until\nthe bonds or notes, together with interest thereon, interest on any\nunpaid installments of interest, and all costs and expenses in\nconnection with any action or proceeding by or on behalf of the\nbondholders or noteholders, are fully met and discharged.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

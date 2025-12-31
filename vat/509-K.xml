@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-K"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-K"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="509-K"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_509_K">
+        <num>509-K</num>
+        <heading>Ill or fatigued operator</heading>
+        <content>
+          <p>  § 509-k. Ill or fatigued operator. No driver shall operate a bus and a\nmotor carrier shall not permit a driver to operate a bus while the\ndriver's ability or alertness is so impaired, or so likely to become\nimpaired, through fatigue, illness or any other cause, as to make it\nunsafe for him to begin or continue to operate the bus. At the request\nof the driver or the motor carrier such illness, fatigue, or other cause\nshall be certified by a qualified physician.  However, in a case of\ngrave emergency where the hazard to occupants of the bus or other users\nof the highway would be increased by compliance with this section, the\ndriver may continue to operate the bus to the nearest place at which\nthat hazard is removed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

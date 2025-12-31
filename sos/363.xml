@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-363"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-363"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="363"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-363/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-363/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-363/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-363/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363">
+        <num>363</num>
+        <heading>Declaration of objects</heading>
+        <content>
+          <p>  § 363.  Declaration of objects. Medical assistance for needy persons\nis hereby declared to be a matter of public concern and a necessity in\npromoting the public health and welfare and for promoting the state's\ngoal of making available to everyone, regardless of race, age, national\norigin or economic standing, uniform, high-quality medical care.  In\nfurtherance of such goal, a comprehensive program of medical assistance\nfor needy persons is hereby established to operate in a manner which\nwill assure a uniform high standard of medical assistance throughout the\nstate.  In carrying out this program every effort shall be made to\npromote maximum public awareness of the availability of, and procedure\nfor obtaining, such assistance, and to facilitate the application for,\nand the provision of such medical assistance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

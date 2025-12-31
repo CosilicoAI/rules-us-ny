@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-Q"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-Q"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-Q"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-Q/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-Q/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-Q/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-Q/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_Q">
+        <num>111-Q</num>
+        <heading>Voiding of fraudulent transfers of income or property</heading>
+        <content>
+          <p>  § 111-q.  Voiding of fraudulent transfers of income or property.  The\ndepartment or a social services district, or its authorized\nrepresentative, after obtaining information that a debtor has\ntransferred income, property or other assets to avoid payment to a child\nsupport creditor shall, pursuant to article ten of the debtor and\ncreditor law (1) commence a proceeding to void such transfer; or (2)\nobtain a settlement that is in the best interests of the child support\ncreditor. Provided, however, that no settlement shall reduce or annul\nany arrears of child support which have accrued prior to the date of\nsettlement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

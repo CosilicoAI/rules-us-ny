@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-261"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-261"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="261"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-261/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-261/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_261">
+        <num>261</num>
+        <heading>Powers and duties of department</heading>
+        <content>
+          <p>  § 261. Powers and duties of department. The department shall:\n  1. perform necessary activities to encourage the development and\nimprovement of farmers' markets throughout New York state;\n  2. provide technical assistance to any public or private agency for\nthe planning, financing or development of a farmers' market, which\nmarket may include facilities for first-instance processing, shipping,\nstorage, and direct sales of farm and food products on a retail or\nwholesale basis;\n  3. provide grants, from amounts appropriated, for state assistance to\nfarmers' markets, as provided under section two hundred sixty-two of\nthis article;\n  4. collect, compile and publish economic information on farmers'\nmarkets in the state;\n  5. establish working relationships with interested individuals and\norganizations and cooperative extensions for the purposes of this\narticle; and\n  6. compile listings of available funding resources for the development\nand/or improvement of farmers' markets within the state. The department\nshall periodically advise municipal corporations, regional market\nauthorities, public benefit corporations, not-for-profit corporations\nand agricultural cooperatives organized pursuant to the cooperative\ncorporations law as to the availability of such information and shall\nprovide such listings upon request.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

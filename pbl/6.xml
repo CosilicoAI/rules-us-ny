@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-6"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6">
+        <num>6</num>
+        <heading>Determination of claims based on alleged failure of title</heading>
+        <content>
+          <p>  § 6. Determination of claims based on alleged failure of title.\nWhenever a legal claim is made for a refund of purchase-money because of\nthe alleged failure of the title of the state to lands sold or granted\nunder its authority including any right, title or interest of the state\nin and to lands under water, the commissioner of general services, if\nsatisfied that such claim is just and is made by a person entitled\nthereto, may certify such facts to the court of claims, whereupon such\ncourt is empowered to determine the amount of compensation, if any,\nwhich should be awarded on account thereof, which in no event shall\nexceed the amount of the purchase price originally paid for such land.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-210-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-210-A"/>
+          <FRBRdate date="2021-11-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-210-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-210-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-210-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-210-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_A">
+        <num>210-A</num>
+        <heading>Admission requirements for graduate-level teacher and educational leader programs</heading>
+        <content>
+          <p>  § 210-a. Admission requirements for graduate-level teacher and\neducational leader programs. Each institution registered by the\ndepartment with graduate-level teacher and leader education programs\nshall adopt rigorous selection criteria geared to predicting a\ncandidate's academic success in its program, including but not limited\nto, achievement of a cumulative grade point average of 3.0 or higher in\nthe candidate's undergraduate program. Each program may exempt up to\nfifty percent of any incoming class of students from such selection\ncriteria set forth in this section based on a student's demonstration of\npotential to positively contribute to the teaching profession or other\nextenuating circumstances pursuant to the regulations of the\ncommissioner. A program shall report to the department the number of\nstudents admitted pursuant to such exemption and the selection criteria\nused for such exemptions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

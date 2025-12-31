@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-174"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-174"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="174"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-174/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-174/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-174/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-174/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_174">
+        <num>174</num>
+        <heading>Oaths, acknowledgments, subpoenas and commissions to take testimony</heading>
+        <subsection eId="sec_174__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>to administer oaths,\ntake affidavits and certify acknowledgments in relation to any matter or\nproceeding in the exercise of the powers or duties of the commissioner\nunder this chapter and in relation to any written instrument required or\npermitted to be filed with the commissioner and (ii) to subpoena and\nrequire the attendance of witnesses and the production of books,\naccounts, records, memoranda, documents or other papers pertinent to the\ninvestigations and inquiries which he is authorized to conduct, and to\nexamine them in relation to any matter which he has power to investigate\nand to issue commissions for the examination of witnesses who are out of\nthe state or unable to attend before the commissioner or excused from\nattendance. A subpoena issued under this section shall be regulated by\nthe civil practice law and rules.\n  2. Any person who shall testify falsely in any material matter pending\nbefore the commissioner shall be guilty of and punishable for perjury.\n  3. Cross-reference: For criminal penalties, see article thirty-seven\nof this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

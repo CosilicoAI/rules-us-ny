@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="389-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_389_A">
+        <num>389-A</num>
+        <heading>Label requirements for used bedding</heading>
+        <content>
+          <p>  § 389-a. Label requirements for used bedding. The label indicating\nthat an article of bedding contains used material, in whole or in part,\nshall be at least fifteen square inches in area, contain the phrase\n"used material" or "used bedding", as the case may be, in prominent\nprint, be yellow in color, and be stitched or otherwise securely\nattached to the bedding in such a manner that it may be seen by\nconsumers prior to purchase.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

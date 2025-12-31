@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1705"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1705"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1705"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1705/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1705/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1705/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1705/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1705">
+        <num>1705</num>
+        <heading>Termination of benefit corporation status</heading>
+        <subsection eId="sec_1705__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A benefit corporation may terminate its status as such and cease\nto be subject to this article by amending its certificate of\nincorporation to delete the statement that the corporation is a benefit\ncorporation.  The amendment shall not be effective unless it is adopted\nby at least the minimum status vote.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1705__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If a benefit corporation is a party to a merger or consolidation\nin which the surviving or new corporation will not be a benefit\ncorporation, the plan of merger or consolidation shall not be effective\nunless it is adopted by at least the minimum status vote in addition to\nany other vote required by this chapter, the certificate of\nincorporation or the bylaws.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1705__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any benefit corporation that is party to a merger or consolidation\nin which shares of stock of such benefit corporation will be converted\ninto a right to receive shares of stock of a corporation that is not a\nbenefit corporation must approve the plan of merger or consolidation by\nat least the minimum status vote in addition to any other vote required\nby this chapter, the certificate of incorporation or the bylaws.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1705__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>A sale, lease, conveyance, exchange, transfer, or other\ndisposition of all or substantially all of the assets of a benefit\ncorporation, unless the transaction is in the usual and regular course\nof business of the benefit corporation, shall not be effective unless\nthe transaction is approved by at least the minimum status vote in\naddition to any other vote required by this chapter, the certificate of\nincorporation or the bylaws.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

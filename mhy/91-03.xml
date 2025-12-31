@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-91.03"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-91.03"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="91.03"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-91.03/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-91.03/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-91.03/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-91.03/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91_03">
+        <num>91.03</num>
+        <heading>Savings clause</heading>
+        <content>
+          <p>§ 91.03 Savings clause.\n  Nothing contained in this chapter or any act amendatory thereof shall\naffect or impair the validity of any act done or right accruing, accrued\nor acquired, or any order, judgment, or status established prior to the\nenactment of this chapter or prior to the enactment of any act\namendatory thereof. Persons admitted or certified pursuant to the\nprovisions of article six or article seven of the mental hygiene law as\nit existed prior to the enactment of this chapter may be retained\npursuant to the provisions of the respective articles but in no event to\nexceed a period of two years from the effective date of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

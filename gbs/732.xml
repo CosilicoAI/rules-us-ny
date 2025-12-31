@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-732"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-732"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="732"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-732/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-732/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-732/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-732/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_732">
+        <num>732</num>
+        <heading>Written warranty; contents</heading>
+        <subsection eId="sec_732__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The warrantor will, as a minimum remedy, make repairs or indemnify\nthe buyer for the actual cost of repairing any rust damage covered by\nthe warranty.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_732__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The warrantor will honor all valid claims under the warranty\nregardless of their number.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_732__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Nothing contained in this section shall be deemed to preclude a\nwarrantor from entering into a contract requiring a financially solvent\napplicator to be initially responsible for the cost of any corrective\naction as a result of the negligence of the applicator of the\naftermarket rustproofing.\n  3. Length of warranty. This warranty shall be valid for a period of\nnot less than five years from the date of the application of the\naftermarket rustproofing, provided, however, that this section shall not\nbe construed as to extend this warranty to a person who is a subsequent\ntransferee of the buyer.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

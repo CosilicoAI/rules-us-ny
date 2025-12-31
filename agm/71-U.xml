@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-U"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-U"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-U"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_U">
+        <num>71-U</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 71-u. Definitions. As used in this article:\n  1. The term "commissioner" means the commissioner of agriculture and\nmarkets of the state of New York.\n  2. The term "dairy product" means all milk and milk products defined\nby the definitions and standards of identity promulgated pursuant to\nsection forty-six-a of this chapter and such other food products derived\nfrom milk as the commissioner shall designate by regulation.\n  3. The term "foreign dairy product" means any dairy product produced,\nprocessed or manufactured outside the United States.\n  4. The term "packaged foreign dairy product" means a foreign dairy\nproduct which is enclosed in a container or wrapper (including a\nshipping container or wrapping used for the transportation of such\nproduct in bulk or quantity to manufacturers, packers, processors, or to\nwholesale or retail distributors) or which although not so enclosed has\nwritten, printed, or graphic matter pertaining to such foreign dairy\nproduct affixed or attached.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

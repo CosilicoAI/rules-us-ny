@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1431"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1431"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1431"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1431/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1431/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1431/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1431/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1431">
+        <num>1431</num>
+        <heading>Public work contracts</heading>
+        <content>
+          <p>  § 1431. Public work contracts.  The authority shall let contracts for\npublic work in the same manner, so far as practicable, as is provided by\nlaw for contracts of the city, except that where the estimated expense\nof a contract does not exceed five thousand dollars, such contract may\nbe entered into without public letting. Nothing in this section shall be\nconstrued to limit the power of the authority to do any construction\ndirectly by the officers, agents and employees of the authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

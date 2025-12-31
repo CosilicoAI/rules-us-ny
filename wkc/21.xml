@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-21"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21">
+        <num>21</num>
+        <heading>Presumptions</heading>
+        <content>
+          <p>  § 21. Presumptions. In any proceeding for the enforcement of a claim\nfor compensation under this chapter, it shall be presumed in the absence\nof substantial evidence to the contrary\n  1. That the claim comes within the provision of this chapter;\n  2. That sufficient notice thereof was given;\n  3. That the injury was not occasioned by the willful intention of the\ninjured employee to bring about the injury or death of himself or of\nanother;\n  4. That the injury did not result solely from the intoxication of the\ninjured employee while on duty.\n  5. That the contents of medical and surgical reports introduced in\nevidence by claimants for compensation shall constitute prima facie\nevidence of fact as to the matter contained therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

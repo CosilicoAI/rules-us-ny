@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-XXXX"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-XXXX"/>
+          <FRBRdate date="2019-05-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-XXXX"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-XXXX/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-XXXX/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-XXXX/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-XXXX/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_XXXX">
+        <num>160-XXXX</num>
+        <heading>Judicial review</heading>
+        <content>
+          <p>  § 160-xxxx. Judicial review. The actions of the department in granting\nor refusing to grant or to renew a license under this article or in\nrevoking or suspending such a license or imposing any fine or reprimand\non the holder thereof or refusing to revoke or suspend such a license or\nimpose any fine or reprimand shall be subject to review by a proceeding\nbrought under and pursuant to article seventy-eight of the civil\npractice law and rules at the instance of the applicant for such\nlicense, the holder of a license so revoked, suspended, fined, or\nreprimanded or the person aggrieved.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

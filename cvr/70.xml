@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70">
+        <num>70</num>
+        <heading>Vexatious suits</heading>
+        <content>
+          <p>  § 70. Vexatious suits. If a person vexatiously or maliciously, in the\nname of another but without the latter's consent, or in the name of an\nunknown person, commences or continues, or causes to be commenced or\ncontinued, an action or special proceeding, in a court, of record or not\nof record, or a special proceeding before a judge or a justice of the\npeace; or takes, or causes to be taken, any proceeding, in the course of\nan action or special proceeding in such a court, or before such an\nofficer, either before or after judgment or other final determination;\nan action to recover damages therefor may be maintained against him by\nthe adverse party to the action or special proceeding; and a like action\nmay be maintained by the person, if any, whose name was thus used. He is\nalso guilty of a misdemeanor, punishable by imprisonment not exceeding\nsix months.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

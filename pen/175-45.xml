@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.45"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175.45"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_45">
+        <num>175.45</num>
+        <heading>Issuing a false financial statement</heading>
+        <content>
+          <p>§ 175.45 Issuing a false financial statement.\n  A person is guilty of issuing a false financial statement when, with\nintent to defraud:\n  1. He knowingly makes or utters a written instrument which purports to\ndescribe the financial condition or ability to pay of some person and\nwhich is inaccurate in some material respect; or\n  2. He represents in writing that a written instrument purporting to\ndescribe a person's financial condition or ability to pay as of a prior\ndate is accurate with respect to such person's current financial\ncondition or ability to pay, whereas he knows it is materially\ninaccurate in that respect.\n  Issuing a false financial statement is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

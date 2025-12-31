@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3101"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3101"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3101">
+        <num>3101</num>
+        <heading>Purposes of the corporation</heading>
+        <content>
+          <p>  § 3101. Purposes of the corporation. The purposes of the corporation\nshall be to encourage and promote:\n  1. Scientific and technological education in the state; and\n  2. Basic and applied research and development in the state.\n  3. The development of new commercial products and the fabrication of\nsuch products in the state.\n  The corporation shall encourage and promote cooperative efforts among\ngovernment, the private sector, and universities and colleges in the\nstate, for these purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

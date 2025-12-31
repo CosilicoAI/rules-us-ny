@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-229-B"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-229-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="229-B"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-229-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-229-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-229-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-229-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_229_B">
+        <num>229-B</num>
+        <heading>Disbursement of moneys; accounts and reports</heading>
+        <content>
+          <p>  § 229-b. Disbursement of moneys; accounts and reports. Moneys\nappropriated by a town and available for approved projects shall be\ndisbursed by the town supervisor upon vouchers approved by the town\nsuperintendent, in the manner provided for the disbursement of town\nmoneys under sections twenty-nine and one hundred eighteen of the town\nlaw. The state comptroller shall prescribe uniform accounts and reports\nto be kept by the town for projects undertaken pursuant to this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

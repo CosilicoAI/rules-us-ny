@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-AA"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-AA"/>
+          <FRBRdate date="2017-01-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404-AA"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404_AA">
+        <num>404-AA</num>
+        <heading>Distinctive plates for members of the Catholic War Veterans of America</heading>
+        <content>
+          <p>  § 404-aa. Distinctive plates for members of the Catholic War Veterans\nof America. 1. Any member of the Catholic War Veterans of America\nresiding in this state shall, upon request, be issued a license plate\nbearing the words "Catholic War Veterans of America". Application for\nsaid license plate shall be filed with the commissioner in such form and\ndetail as the commissioner shall prescribe.\n  2. The distinctive plate authorized in this section shall be issued\nupon proof, satisfactory to the commissioner, that the applicant is a\nmember of the Catholic War Veterans of America.\n  3. A distinctive plate issued pursuant to this section shall be issued\nin the same manner as other number plates upon payment of the regular\nregistration fee prescribed by section four hundred one of this article;\nprovided, however, that an additional one-time service charge of ten\ndollars shall be charged for such plate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

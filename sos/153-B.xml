@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-B"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="153-B"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_153_B">
+        <num>153-B</num>
+        <heading>Reimbursement for services</heading>
+        <content>
+          <p>  § 153-b. Reimbursement for services.  Expenditures made by a social\nservices district for the purposes of this chapter as authorized by\nsection one hundred thirty-one-g of this chapter shall, if approved by\nthe department, be subject to reimbursement by the state not pursuant to\nsection one hundred fifty-three or any other provision of this chapter,\nbut, in accordance with the regulations of the department to the extent\nof any and only in the amount of federal funds, if any properly received\nor to be received on account of such expenditures.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

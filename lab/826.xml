@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-826"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-826"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="826"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-826/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-826/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-826/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-826/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_826">
+        <num>826</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_826__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>has worked in the home, providing unpaid household services for\nfamily members;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_826__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>is not gainfully employed;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_826__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>has had, or would have difficulty in securing employment; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_826__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>has been dependent on the income of another family member but is\nno longer supported by such income, or has been dependent on federal\nassistance but is no longer eligible for such assistance, or is\nsupported as the parent of minor children by government assistance or\nspousal support.\n  2. The term "commissioner" means the industrial commissioner of the\nstate of New York.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

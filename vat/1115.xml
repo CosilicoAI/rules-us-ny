@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1115"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1115"/>
+          <FRBRdate date="2016-11-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1115"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1115/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1115/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1115">
+        <num>1115</num>
+        <heading>Interference with official traffic-control devices, railroad signs or signals and other highway appurtenances</heading>
+        <subsection eId="sec_1115__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No person shall,\nwithout lawful authority, attempt to or in fact alter, deface, injure,\nknock down, cover, remove, or otherwise interfere with any official\ntraffic-control device or any railroad sign or signal, or any\ninscription, shield, or insignia thereon, or any other part thereof; any\nbridge or similar structure; any monument, lamppost, telephone pole,\nfence, walk, curb, tree, rock cut or other appurtenance on a highway\nright of way.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1115__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For the purposes of this section the following terms shall have\nthe following meanings:\n  1. to "deface" shall include, but not be limited to, to damage,\ndestroy, disfigure, erase, ruin, distort, spoil or otherwise change the\nexternal appearance of an object by the use of chalk, crayon, paint,\nstain, ink or other similar material.\n  2. to "alter" a traffic-control signal shall include, but not be\nlimited to, changing or attempting to change the signal indications of a\ntraffic-control signal by use of a traffic-control signal preemption\ndevice.\n  3. "traffic-control signal preemption device" shall mean any device\ndesigned or used to change or attempt to change the signal indications\nof a traffic-control signal.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1115__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The presence in a vehicle of a traffic-control signal preemption\ndevice connected to a power source and in an operable condition is\npresumptive evidence of its use by any person operating such vehicle.\nSuch presumption shall be rebutted by any credible and reliable evidence\nwhich tends to show that such device was not in use.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

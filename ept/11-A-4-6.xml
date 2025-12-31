@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.6"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-4.6"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_4_6">
+        <num>11-A-4.6</num>
+        <heading>Obligation to pay money</heading>
+        <subsection eId="sec_11_A_4_6__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>An amount received as interest, whether determined at a fixed,\nvariable, or floating rate, on an obligation to pay money to the\ntrustee, including an amount received as consideration for prepaying\nprincipal, must be allocated to income without any provision for\namortization of premium.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_4_6__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A trustee shall allocate to principal an amount received from the\nsale, redemption, or other disposition of an obligation to pay money to\nthe trustee. The increment in value of a bond or other obligation for\nthe payment of money bearing no stated interest but payable or\nredeemable at maturity or at a future time at an amount in excess of the\namount in consideration of which it was issued is income. If the income\naccrues pursuant to a fixed schedule of appreciation, such income is\ndistributable to the beneficiary at the time the increment occurs, and\nthe trustee may transfer the amount thereof from principal to income on\neach such date. Whenever unrealized increment is distributed as income\nbut out of principal the principal shall be reimbursed from the income\nwhen realized.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_4_6__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>This section does not apply to an obligation to which 11-A-4.9,\n11-A-4.10, 11-A-4.11, 11-A-4.12, 11-A-4.14, or 11-A-4.15 applies.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

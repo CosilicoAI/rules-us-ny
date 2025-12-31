@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-338"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-338"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="338"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-338/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-338/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-338/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-338/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_338">
+        <num>338</num>
+        <heading>Notice to renters of safe deposit boxes regarding insurance</heading>
+        <content>
+          <p>  § 338. Notice to renters of safe deposit boxes regarding insurance. 1.\nAny banking organization or safe deposit company which offers safe\ndeposit boxes for rent shall provide each customer at the time of rental\nwith a copy of a safe deposit box rental agreement. Such agreement shall\ninclude, on its face, or on an attachment thereto a notice in at least\neight point bold type reading as follows:\n     Important Notice: (1) The contents of your safe deposit box\n     may not be fully protected against loss under the insurance\n     coverage maintained by the bank or safe deposit company. (2)\n     For your protection, you may wish to secure your own insurance\n     through an insurance company of your choice. (3) You should\n     keep a complete list and description of all property stored in\n     your safe deposit box, and any available proof of ownership.\n  2. The notice required under subdivision one of this section shall\nalso appear on all subsequent rental bills or attachments thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

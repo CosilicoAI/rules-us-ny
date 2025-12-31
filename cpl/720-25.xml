@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-720.25"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-720.25"/>
+          <FRBRdate date="2014-10-17" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="720.25"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-720.25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-720.25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-720.25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-720.25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_720_25">
+        <num>720.25</num>
+        <heading>Youthful offender adjudication; certain exemptions</heading>
+        <content>
+          <p>§ 720.25 Youthful offender adjudication; certain exemptions.\n  Notwithstanding any inconsistent provisions of law:\n  1. where the court is required to find that a person is a youthful\noffender pursuant to section 170.80 of this chapter, the fact that such\nperson has previously been convicted of a crime or adjudicated a\nyouthful offender shall not prevent such person from being adjudicated a\nyouthful offender as required by such section; and\n  2. a youthful offender adjudication pursuant to section 170.80 of this\nchapter shall not be considered in determining whether a person is an\neligible youth, or in determining whether to find a person a youthful\noffender, in any subsequent youthful offender adjudication.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

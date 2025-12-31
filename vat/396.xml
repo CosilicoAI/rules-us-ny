@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-396"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-396"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="396"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-396/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-396/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-396/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-396/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_396">
+        <num>396</num>
+        <heading>Use of state and other seals and insignia on private vehicles prohibited</heading>
+        <content>
+          <p>  § 396. Use of state and other seals and insignia on private vehicles\nprohibited.  1. A person who shall use any seal, device of arms, sign,\nlettering or insignia of the United States, or of this state or\npolitical subdivision thereof, on any vehicle not owned or used by the\nUnited States, this state or by such political subdivision thereof,\nwhich such seal, device of arms, sign, lettering or insignia represents,\nis guilty of a traffic infraction.\n  2. A person who shall use or display the words "Police Department,"\n"Police" or any sign, lettering or device with the letters "P.D.," or\nany other matter indicating ownership, possession or use by a police\ndepartment, on any motor vehicle or motor cycle not used by a duly\norganized police department within this state and not actually operated\nor used by a member or an employee of a duly organized police department\non any public highway, is guilty of a traffic infraction.\n  3. A person who shall use or display the words "Fire Department,"\n"Fire" or any sign, lettering or device with the letters "F.D.N.Y.," or\nany other matter indicating ownership, possession or use by a fire\ndepartment, on any motor vehicle or motor cycle not used by a duly\norganized fire department within this state and not actually operated or\nused by a member or an employee of a duly organized fire department on\nany public highway, is guilty of a traffic infraction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

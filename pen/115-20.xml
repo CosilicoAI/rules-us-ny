@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="115.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_115_20">
+        <num>115.20</num>
+        <heading>Criminal facilitation; definitions and construction</heading>
+        <content>
+          <p>§ 115.20 Criminal facilitation; definitions and construction.\n  For purposes of this article, such conduct shall include, but not be\nlimited to, making available, selling, exchanging, giving or disposing\nof a community gun, which in fact, aids a person to commit a crime.\n"Community gun" shall mean a firearm that is actually shared, made\navailable, sold, exchanged, given or disposed of among or between two or\nmore persons, at least one of whom is not authorized pursuant to law to\npossess such firearm. "Dispose of" shall have the same meaning as that\nterm is defined in section 265.00 of this chapter. "Share" and "make\navailable" shall, in the case of a firearm, be construed to include\nknowingly placing such firearm at a location accessible and known to one\nor more other persons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-27"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-27"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-27/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-27/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-27/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-27/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27">
+        <num>27</num>
+        <heading>Last, preceding, next and following</heading>
+        <content>
+          <p>  § 27. Last, preceding, next and following. A reference to the last or\npreceding section, or other provision of a statute, means the section or\nother division immediately preceding, and a reference to the next or\nfollowing section or other division of a statute means the section or\nother division immediately following.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

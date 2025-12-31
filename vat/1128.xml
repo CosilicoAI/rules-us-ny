@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1128"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1128"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1128"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1128/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1128/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1128/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1128/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1128">
+        <num>1128</num>
+        <heading>Driving on roadways laned for traffic</heading>
+        <subsection eId="sec_1128__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A vehicle shall be driven as nearly as practicable entirely within\na single lane and shall not be moved from such lane until the driver has\nfirst ascertained that such movement can be made with safety.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1128__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Upon a roadway which is divided into three lanes and provides for\ntwo-way movement of traffic a vehicle shall not be driven in the center\nlane except when overtaking and passing another vehicle traveling in the\nsame direction when such center lane is clear of traffic within a safe\ndistance, or in preparation for making a left turn or where such center\nlane is at the time allocated exclusively to traffic moving in the same\ndirection that the vehicle is proceeding and such allocation is\ndesignated by official traffic-control devices.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1128__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When official traffic-control devices direct slow-moving traffic,\ntrucks, buses or specified types of vehicles to use a designated lane or\ndesignate those lanes to be used by traffic moving in a particular\ndirection regardless of the center of the roadway, drivers of vehicles\nshall obey the directions of every such sign, signal or marking.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1128__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>When official markings are in place indicating those portions of\nany roadway where crossing such markings would be especially hazardous,\nno driver of a vehicle proceeding along such highway shall at any time\ndrive across such markings.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

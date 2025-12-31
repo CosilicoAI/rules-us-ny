@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-252"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-252"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="252"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-252/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-252/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_252">
+        <num>252</num>
+        <heading>Reports to trustees</heading>
+        <subsection eId="sec_252__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the term\n"loan" shall mean the aggregate of all loans to the same borrower,\nexcept that, with respect to loans secured by real estate, it shall mean\nthe aggregate of all loans upon the security of the same real estate;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the term "borrower" shall, with respect to any loan, mean the\nindividual, partnership, unincorporated association or corporation\nprimarily liable upon the loan; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the term "reportable amount"\nshall, at each time of the determination thereof, mean two hundred fifty\nthousand dollars or one per centum of the net worth of such savings\nbank, whichever is less; provided, however, that such term shall not\ninclude</p>
+          </content>
+          <paragraph eId="sec_252__subsec_c__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>an amount less than one thousand dollars, or</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_252__subsec_c__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>the amount\nof any loan which loan is fully secured by the assignment of one or more\ndeposits in such savings bank, or</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_252__subsec_c__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>the then amount of a loan which\nloan was outstanding in an equal or greater amount at the date of the\nlast preceding report made pursuant to this section.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

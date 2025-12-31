@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-401"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-401"/>
+          <FRBRdate date="2015-07-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="401"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_401">
+        <num>401</num>
+        <heading>License required</heading>
+        <content>
+          <p>  § 401. License required. 1. No person shall engage in the practice of\nnail specialty, waxing, natural hair styling, esthetics or cosmetology,\nas defined in section four hundred of this article, without having\nreceived a license to engage in such practice in the manner prescribed\nin this article. No person shall act as a trainee or perform any service\nas such unless he or she has obtained a certificate of registration\npursuant to this article.\n  2. No person shall own, control or operate, whether as a sole\nproprietor, partner, shareholder, officer, independent contractor or\nother person, an appearance enhancement business without having received\na license for such business in the manner provided in this article.\n  3. A person licensed by any other state or country to practice nail\nspecialty, waxing, natural hair styling, esthetics or cosmetology shall\nbe allowed to practice in New York state for three months or less within\nany calendar year for the purpose of giving to, or receiving from,\npersons who are licensed under this article training in current styles,\ntechniques or materials, provided however, that no such unlicensed\nperson may provide services to the public for any fee, or other\ncompensation, whether direct or indirect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

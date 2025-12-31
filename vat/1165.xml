@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1165"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1165"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1165"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1165/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1165/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1165/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1165/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1165">
+        <num>1165</num>
+        <heading>Method of giving hand-and-arm signals</heading>
+        <content>
+          <p>  § 1165. Method of giving hand-and-arm signals. All signals herein\nrequired given by hand and arm shall be given from the left side of the\nvehicle in the following manner and such signals shall indicate as\nfollows:\n  1. Left turn. Hand and arm extended horizontally.\n  2. Right turn. Hand and arm extended upward.\n  3. Stop or decrease speed. Hand and arm extended downward.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

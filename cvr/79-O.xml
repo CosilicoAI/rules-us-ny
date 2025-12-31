@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-O"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-O"/>
+          <FRBRdate date="2020-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79-O"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_O">
+        <num>79-O</num>
+        <heading>Closed captioning in places of public accommodation, resort or amusement</heading>
+        <subsection eId="sec_79_O__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>no televisions in the public area of the place of public\naccommodation, resort or amusement are capable of providing closed\ncaptioning; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_79_O__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>in the event that two televisions in the public area of the place\nof public accommodation, resort or amusement have the same channel being\nbroadcast, only one of the televisions shall be subject to this section.\n  3. As used in this section:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_79_O__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"closed captioning" shall mean a feature on a television that when\nactivated will visually display a transcription of the audio portion of\nvideo programming; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_79_O__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"public area" shall mean the section of a place of public\naccommodation, resort or amusement that is open to the general public.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

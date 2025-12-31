@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-182.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-182.30"/>
+          <FRBRdate date="2025-07-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="182.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-182.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-182.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-182.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-182.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_182_30">
+        <num>182.30</num>
+        <heading>Regulation of electronic appearances by the chief administrator</heading>
+        <subsection eId="sec_182_30__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>provide appropriate\naccess to electronic appearances by crime victims and their families,\nfamily members of defendants, the media and other members of the public;\nprovided that such appropriate access shall be limited to the means of\nprojecting a proceeding being conducted entirely by electronic\nappearances in a publicly accessible area of a courthouse or by\nprojecting the electronic appearances of a proceeding comprised of both\nin-person physical appearances and electronic appearances in the\ncourtroom in which the proceeding is taking place; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_182_30__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>ensure that\nany system for arraignments provides a full and fair opportunity for any\ndefendant, without prejudice, to choose to have an arraignment conducted\nwith the defendant physically present, rather than through an electronic\nappearance.\n  * NB Repealed September 1, 2028\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

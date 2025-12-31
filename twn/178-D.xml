@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178-D"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="178-D"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_178_D">
+        <num>178-D</num>
+        <heading>Costs, expenses and damages a fire district charge in certain cases</heading>
+        <subsection eId="sec_178_D__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>such fire district commissioner or fire district officer\nshall notify the board of fire commissioners in writing of the\ncommencement of such action or proceedings against him within five days\nafter service of process upon him; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_178_D__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the board of fire\ncommissioners shall, at any time during the ten days next following the\nnotice to them of the commencement of such action or proceedings, have\nthe right to designate and appoint the legal counsel to represent such\nfire district commissioner or fire district officer in such action or\nproceedings against him, in the absence of which designation and\nappointment within the time specified such fire district commissioner or\nfire district officer may select his own legal counsel.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

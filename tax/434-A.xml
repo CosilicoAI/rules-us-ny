@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-434-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-434-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="434-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-434-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-434-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-434-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-434-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_434_A">
+        <num>434-A</num>
+        <heading>Mailing rules; holidays</heading>
+        <subsection eId="sec_434_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any reference in subdivision one of this section to the United\nStates mail shall be treated as including a reference to any delivery\nservice designated by the secretary of the treasury of the United States\npursuant to section seventy-five hundred two of the internal revenue\ncode and any reference in subdivision one of this section to a postmark\nby the United States mail shall be treated as including a reference to\nany date recorded or marked in the manner described in section\nseventy-five hundred two of the internal revenue code by a designated\ndelivery service. If the commissioner finds that any delivery service\ndesignated by such secretary is inadequate for the needs of the state,\nthe commissioner may withdraw such designation for purposes of this\narticle. The commissioner may also designate additional delivery\nservices meeting the criteria of section seventy-five hundred two of the\ninternal revenue code for purposes of this article, or may withdraw any\nsuch designation if the commissioner finds that a delivery service so\ndesignated is inadequate for the needs of the state. Any reference in\nsubdivision one of this section to the United States mail shall be\ntreated as including a reference to any delivery service designated by\nthe commissioner and any reference in subdivision one of this section to\na postmark by the United States mail shall be treated as including a\nreference to any date recorded or marked in the manner described in\nsection seventy-five hundred two of the internal revenue code by a\ndelivery service designated by the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_434_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any equivalent of registered or certified mail designated by the\nUnited States secretary of the treasury, or as may be designated by the\ncommissioner pursuant to the same criteria used by such secretary for\nsuch designations pursuant to section seventy-five hundred two of the\ninternal revenue code, shall be included within the meaning of\nregistered or certified mail as used in subdivision one of this section.\nIf the commissioner finds that any equivalent of registered or certified\nmail is inadequate for the needs of the state, the commissioner may\nwithdraw such designation for purposes of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

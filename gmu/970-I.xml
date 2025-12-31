@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-I"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="970-I"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_970_I">
+        <num>970-I</num>
+        <heading>Acquisition of property</heading>
+        <subsection eId="sec_970_I__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Within the project area a\nmunicipality may upon adoption of the redevelopment plan by the\nlegislative body, purchase, lease, obtain option upon, acquire by gift,\ngrant, bequest, devise, or otherwise, any real or personal property, any\ninterest in property, and any improvements on it or acquire real\nproperty by eminent domain.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_970_I__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Without the consent of an owner, the agency shall not acquire any\nreal property on which an existing building is to remain on its present\nsite and in its present form and use unless such building requires\nstructural alteration, improvement, modernization or rehabilitation, or\nthe site or lot on which the building is situated requires modification\nin size, shape or use or it is necessary to impose upon such property\nany of the standards, restrictions and controls of the plan and the\nowner fails or refuses to agree to participate in the redevelopment\nplan.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

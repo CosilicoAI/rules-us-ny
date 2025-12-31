@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-241-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-241-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="241-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-241-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-241-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-241-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-241-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241_B">
+        <num>241-B</num>
+        <heading>Muni-meter receipts; affirmative defense</heading>
+        <content>
+          <p>  § 241-b. Muni-meter receipts; affirmative defense. In any prosecution\nor proceeding alleging a muni-meter parking violation, it shall be an\naffirmative defense to such violation, with the burden of proof on the\nperson who received the summons, that he or she did in fact purchase a\nmuni-meter ticket prior to or up to five minutes thereafter from the\nissuance of the summons and that the receipt is valid for use at the\ntime and location where such summons was issued. Such defense shall be\ndeemed established if such person produces the actual muni-meter receipt\nor a copy thereof at such prosecution or proceeding. For the purposes of\nthis section, "muni-meter" shall mean an electronic parking meter that\ndispenses timed receipts showing the amount of parking time purchased.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

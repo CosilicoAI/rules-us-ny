@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-784"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-784"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="784"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-784/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-784/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_784">
+        <num>784</num>
+        <heading>Penalties and liabilities</heading>
+        <content>
+          <p>  § 784. Penalties and liabilities. 1. Failure of the vendor to comply\nwith any of the provisions of this article is a misappropriation of\nfunds and action may be brought by the vendee against the vendor for the\nreturn of any moneys advanced. In addition, such vendor shall be liable\nfor criminal action pursuant to the provisions of subdivision two of\nthis section.\n  2. Failure of the vendor to comply with any of the provisions of this\narticle shall be deemed a misdemeanor.\n  3. Nothing in this article shall impair, limit or reduce the\nstatutory, common law or contractual duties or liability of any vendor\nin the construction of a home nor shall these provisions apply to any\nlocal law or ordinance which requires the posting of public improvement\nbonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

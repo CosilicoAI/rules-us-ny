@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-325.3"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-325.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="325.3"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-325.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-325.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-325.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-325.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_325_3">
+        <num>325.3</num>
+        <heading>The probable-cause hearing; determination</heading>
+        <subsection eId="sec_325_3__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>whether it is reasonable to believe that a crime was committed;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_325_3__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>whether it is reasonable to believe that the respondent committed\nsuch crime.\n  2. The court shall state on the record the section or sections of the\npenal law or other law which it is reasonable to believe the respondent\nviolated.\n  3. If the court finds that there is reasonable cause pursuant to\nsubdivision one, it shall further determine whether continued detention\nis necessary pursuant to section 320.5.\n  4. If the court does not find that there is reasonable cause to\nbelieve that a crime was committed and that the respondent committed it,\nthe case shall be adjourned and the respondent released from detention.\nIf the court or the presentment agency cannot hold a probable cause\nhearing within the limits of subdivision two of section 325.1, the court\nmay dismiss the petition without prejudice or for good cause shown\nadjourn the hearing and release the respondent pursuant to section\n320.5.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

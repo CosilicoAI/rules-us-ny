@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-326"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-326"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="326"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-326/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-326/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-326/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-326/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_326">
+        <num>326</num>
+        <heading>Changing number of trustees</heading>
+        <content>
+          <p>  § 326. Changing number of trustees. An incorporated United Methodist\nchurch may, at its annual corporate meeting where trustees are elected,\nby vote change the number of its trustees to three, six or nine by\nadding more trustees, one-third of which shall be elected for three\nyears, one-third for two years and one-third for one year; or by voting\nto discontinue the offices of certain specified trustees as they expire,\none-third of said offices to be discontinued each year, until the number\nleft is the number decided upon. Such changes in the board of trustees\nshall always provide that at least two-thirds of the trustees shall be\nmembers of The United Methodist church. No such changes shall affect the\nterms of the trustees then in office, but each shall hold office until\nhis full term has expired unless his office shall terminate as provided\nfor elsewhere in this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

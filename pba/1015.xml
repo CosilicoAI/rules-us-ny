@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1015"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1015"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1015"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1015/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1015/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1015/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1015/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1015">
+        <num>1015</num>
+        <heading>Title not affected if in part unconstitutional or ineffective</heading>
+        <content>
+          <p>  § 1015. Title not affected if in part unconstitutional or ineffective.\nIf any term or provision of this title shall be declared\nunconstitutional or ineffective in whole or in part by a court of\ncompetent jurisdiction, then to the extent that it is not\nunconstitutional or ineffective such term or provision shall be enforced\nand effectuated, nor shall such determination be deemed to invalidate\nthe remaining terms or provisions hereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

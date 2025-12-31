@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-115-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-115-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="115-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-115-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-115-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-115-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-115-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_115_B">
+        <num>115-B</num>
+        <heading>Flagperson</heading>
+        <content>
+          <p>  § 115-b. Flagperson. The term "flagperson," when used in this chapter\nmeans and includes:\n  1. Any person employed by or on behalf of the state, a county, city,\ntown or village, a public authority, a local authority, or a public\nutility company, or the agent or contractor of any such entity, who has\nbeen assigned to control or direct traffic on public highways in\nconnection with any construction, survey, and/or maintenance work being\nperformed.\n  2. Any person employed by or on behalf of a railroad corporation who\nhas been assigned to control or direct traffic at a railroad grade\ncrossing.\n  3. Any person holding a certificate issued by the commissioner, which\nauthorizes such person to operate an escort vehicle, and who has been\nassigned to control, warn, or direct traffic in connection with the\nmovement of an escort vehicle on a public highway.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

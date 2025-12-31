@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-650"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-650"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="650"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-650/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-650/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-650/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-650/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_650">
+        <num>650</num>
+        <heading>Statement of policy</heading>
+        <content>
+          <p>  § 650. Statement of policy.  The legislature hereby reaffirms its\npolicy to promote harmonious and cooperative relationships between the\nstate and its employees to protect the public by assuring, at all times,\nthe orderly and uninterrupted operations and functions of state\ngovernment; and recognizes that furtherance of such policy requires\ncreation in the executive department of an office of employee relations\nwith staff and skills requisite to act as the governor's agent in\nconducting collective negotiations, to assure the proper implementation\nand administration of agreements reached pursuant to such negotiations,\nand to assist the governor and direct and coordinate the state's efforts\nwith regard to the state's powers and duties under the public employees'\nfair employment act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

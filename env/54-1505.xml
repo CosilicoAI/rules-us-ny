@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-54-1505"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-54-1505"/>
+          <FRBRdate date="2017-10-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="54-1505"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-54-1505/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-54-1505/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-54-1505/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-54-1505/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_54_1505">
+        <num>54-1505</num>
+        <heading>Eligibility to receive state assistance payments for climate smart community projects</heading>
+        <content>
+          <p>§ 54-1505. Eligibility to receive state assistance payments for climate\n             smart community projects.\n  Any municipality may apply for state assistance payments toward the\ncost of a climate smart community project. Any application must comply\nwith all applicable rules and regulations determined by the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

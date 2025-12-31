@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-LLLL"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-LLLL"/>
+          <FRBRdate date="2019-05-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-LLLL"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-LLLL/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-LLLL/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-LLLL/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-LLLL/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_LLLL">
+        <num>160-LLLL</num>
+        <heading>Recordkeeping</heading>
+        <content>
+          <p>  § 160-llll. Recordkeeping. Each appraisal management company shall\nmaintain a detailed record of each service request that it receives and\nthe real estate appraiser that performs such appraisal for the appraisal\nmanagement company. Records shall be maintained for a period of at least\nfive years after such appraisal is completed or two years after final\ndisposition of a judicial proceeding related to such assignment,\nwhichever period expires later. Appraisal management companies shall\nmake records available to the department upon request. Appraisal\nmanagement companies shall also allow the department to examine the\nbooks and records of the appraisal management company and require it to\nsubmit reports, information and documents upon request. Appraisal\nmanagement companies shall also allow the department to verify that the\nappraisers on such panel hold a valid license or certification.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

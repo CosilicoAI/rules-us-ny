@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.90"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.90"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_90">
+        <num>130.90</num>
+        <heading>Mutiny or sedition</heading>
+        <subsection eId="sec_130_90__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any person subject to this code--\n</p>
+          </content>
+          <paragraph eId="sec_130_90__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>who with intent to usurp or override lawful military authority\nrefuses, in concert with any other person or persons, to obey orders or\notherwise do his duty or creates any violence or disturbance is guilty\nof mutiny;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_130_90__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>who with intent to cause the overthrow or destruction of lawful\ncivil authority, creates, in concert with any other person or persons,\nrevolt, violence, or other disturbance against such authority is guilty\nof sedition;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_130_90__subsec_a__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>who fails to do his utmost to prevent and suppress an offense of\nmutiny or sedition being committed in his presence, or fails to take all\nreasonable means to inform his superior or commanding officer of an\noffense of mutiny or sedition which he knows or has reason to believe is\ntaking place, is guilty of a failure to suppress or report a mutiny or\nsedition.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_130_90__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person who is found guilty of attempted mutiny, sedition, or\nfailure to suppress or report a mutiny or sedition shall be punished as\na court-martial may direct.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

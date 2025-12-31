@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-223"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-223"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="223"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_223">
+        <num>223</num>
+        <heading>Trampoline park employee training, equipment and supervision</heading>
+        <content>
+          <p>  § 223. Trampoline park employee training, equipment and supervision.\nAn owner and/or operator shall:\n  1. ensure that during all hours of operation the trampoline park has\nan operable automated external defibrillator;\n  2. ensure that all employees are certified in first aid and CPR;\n  3. ensure that all participants are instructed by an employee about\nthe potential risks and safety guidelines;\n  4. require that trampoline park employees monitor the trampoline court\nand participants during all hours of operation;\n  5. ensure that the number of trampoline park employees described in\nsubdivision four of this section is adequate to view each area of the\ntrampoline court; and\n  6. prominently display throughout the trampoline park contrasted\nsafety, warning, advisory, and instructional signage reflecting the\ntrampoline park's rules as provided for in section two hundred\ntwenty-seven of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

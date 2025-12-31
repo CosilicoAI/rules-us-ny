@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-203"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-203"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203">
+        <num>203</num>
+        <heading>List of exempt volunteer firefighters to be filed</heading>
+        <content>
+          <p>  § 203. List of exempt volunteer firefighters to be filed. In case of a\ncompany disbanded by the organization of a paid department in lieu\nthereof, the officers of every volunteer fire, engine, hose and hook and\nladder company shall within ninety days after such company has been\ndisbanded file in the office of the clerk of the county in which said\ncompany was located a list containing the name of every person who was a\nmember of such volunteer company and who is entitled to the exemption\ncertificate in accordance with the provisions of this article. Upon such\nlist being filed the county clerk of the county in which such company\noperated shall sign and deliver the exemption certificate provided for\nin this article to the person entitled thereto whose name appears upon\nthe list filed with him as aforesaid, but the same shall, nevertheless,\nbe attested by the secretary or clerk or other person having the custody\nof the membership records of the disbanded company and in the manner\nspecified in this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

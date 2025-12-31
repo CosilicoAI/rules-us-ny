@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-121"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-121"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="121"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-121/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-121/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-121/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-121/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_121">
+        <num>121</num>
+        <heading>Review by courts</heading>
+        <content>
+          <p>  § 121. Review by courts. The following actions by the liquor authority\nshall be subject to review by the supreme court in the manner provided\nin article seventy-eight of the civil practice law and rules provided\nthat no stay shall be granted pending the determination of the matter\nexcept on notice to the liquor authority and for a period not exceeding\nthirty days:\n  1. Refusal by the liquor authority to issue a license or a permit.\n  2. The revocation, cancellation or suspension of a license or permit\nby the liquor authority.\n  3. The failure or refusal by the liquor authority to render a decision\nwithin the time required by section one hundred twenty of this article.\n  4. The transfer by the liquor authority of a license or permit to any\nother premises, or the failure or refusal by the liquor authority to\napprove such a transfer.\n  5. The issuance of an order of warning by the liquor authority.\n  6. Refusal to approve alteration of premises.\n  7. Refusal to approve a corporate change in stockholders,\nstockholdings, officers or directors.\n  8. Refusal by the liquor authority to grant permission for an\nadditional bar pursuant to subdivision four of section one hundred of\nthis chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

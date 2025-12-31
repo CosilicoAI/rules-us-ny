@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-10-10.4"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-10-10.4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10-10.4"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-10-10.4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-10-10.4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-10-10.4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-10-10.4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_10_4">
+        <num>10-10.4</num>
+        <heading>Power to lease in tenant for life; effect of mortgage</heading>
+        <subsection eId="sec_10_10_4__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The power of a tenant for life to make leases is neither\nextinguished nor suspended when such tenant executes a mortgage.  The\npower is bound by the mortgage in the same manner as the real property\nembraced therein, and the lien of the mortgagee on such power:\n</p>
+          </content>
+          <paragraph eId="sec_10_10_4__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>Entitles the mortgagee to an exercise of the power so far as the\nsatisfaction of the debt requires; and\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_10_10_4__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>Causes any subsequent interest, created by the tenant for life by\nan exercise of such power, to become subject to the mortgage as if in\nterms embraced therein.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

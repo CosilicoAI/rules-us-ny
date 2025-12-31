@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1352"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1352"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1352"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1352/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1352/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1352/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1352/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1352">
+        <num>1352</num>
+        <heading>Oswego port district</heading>
+        <content>
+          <p>  § 1352. Oswego port district. There is hereby created and established\na district to be known as the "Oswego port district" which shall embrace\nthe city of Oswego, the town of Scriba and all lands and water under and\nin the Oswego river and Lake Ontario lying or situated within the\nboundaries of the city of Oswego and/or the town of Scriba subject to\nthe right, title, interest and control of the state under the\nconstitution or any law of the state of New York and subject to the\nright, title, interest and control of the United States under any law of\nthe United States of America.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

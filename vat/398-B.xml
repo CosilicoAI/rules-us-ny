@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-398-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-398-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="398-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-398-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-398-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-398-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-398-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_398_B">
+        <num>398-B</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_398_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>an employee of a motor vehicle repair shop who engages in the\nbusiness of repairing motor vehicles solely by reason of his employment;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_398_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>any person who is solely engaged in the business of repairing the\nmotor vehicles of a single commercial or industrial establishment, or of\nthe federal, state or a local government or any agency thereof; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_398_B__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>any person whose activities consist solely of fueling, changing\noil, water, batteries or tires, replacing fan belts, air filters or oil\nfilters, installing windshield wiper blades or light bulbs, or such\nother minor repair and servicing functions as the commissioner shall by\nrule prescribe; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_398_B__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>any person solely engaged in the business of repairing farm or\nroad building machines, or such other utility vehicles as the\ncommissioner may by regulation designate.\n  The term "motor vehicle repair shop" shall also include any shop,\ndrive-in station, or garage operated by any person, firm, corporation or\nassociation at which motor vehicles are inspected for the purposes of\nappraising, evaluating or estimating the extent or value of motor\nvehicle damage or the necessity or cost of motor vehicle repairs.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

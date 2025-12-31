@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-D"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="970-D"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-970-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-970-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_970_D">
+        <num>970-D</num>
+        <heading>Survey area studies</heading>
+        <content>
+          <p>  § 970-d. Survey area studies. Upon a finding that a study to determine\nif a redevelopment project within a specified area is feasible, the\nlegislative body of a municipality may by resolution designate such area\nas a survey area and upon such designation shall undertake or cause to\nbe undertaken such studies as are necessary to determine the feasibility\nof such redevelopment project within the survey area. Any person, group,\nassociation or corporation may in writing, request the legislative body\nto designate a survey area or areas for project study purposes, and may\nsubmit with their request plans showing the proposed redevelopment of\nsuch area or areas or any part or parts thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

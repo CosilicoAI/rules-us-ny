@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-417"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-417"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="417"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-417/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-417/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-417/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-417/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_417">
+        <num>417</num>
+        <heading>Child of ceremonial marriage</heading>
+        <content>
+          <p>  § 417. Child of ceremonial marriage. A child born of parents who at\nany time prior or subsequent to the birth of said child shall have\nentered into a ceremonial marriage shall be deemed the legitimate child\nof both parents for all purposes of this article regardless of the\nvalidity of such marriage.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

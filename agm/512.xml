@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-512"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-512"/>
+          <FRBRdate date="2020-03-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512">
+        <num>512</num>
+        <heading>Transferability; change in ownership or control</heading>
+        <content>
+          <p>  § 512. Transferability; change in ownership or control. 1. Licenses\nissued under this article are not transferable, absent written consent\nof the commissioner.\n  2. A license shall become void by a change in ownership, substantial\ncorporate change or change of location or acreage grown without prior\nwritten approval of the commissioner. The commissioner may promulgate\nrules and regulations allowing for certain types of changes in ownership\nwithout the need for prior written approval.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eml/section-12"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12"/>
+          <FRBRname value="EML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eml/section-12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eml/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12">
+        <num>12</num>
+        <heading>Preferential claim; not assignable or subject to attachment; attorney's fees</heading>
+        <content>
+          <p>  § 12. Preferential claim; not assignable or subject to attachment;\nattorney's fees. Any person entitled to weekly payments under the plan\nagainst any employer shall have the same preferential claim therefor\nagainst the assets of the employer as now allowed by law for a claim by\nsuch person against such employer for unpaid wages or personal services.\nWeekly payments due under the plan shall not be assignable or subject to\nattachment, levy or execution. No claim of an attorney for any\ncontingent interest in any recovery under the plan for services in\nsecuring such recovery shall be an enforceable lien thereon, unless the\namount of the same be approved in writing by a justice of the supreme\ncourt, or in case the same is tried in any court, before the justice\npresiding at such trial.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

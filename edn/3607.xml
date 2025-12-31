@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3607"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3607"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3607"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3607/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3607/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3607/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3607/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3607">
+        <num>3607</num>
+        <heading>Manner of payment of moneys apportioned</heading>
+        <content>
+          <p>  § 3607. Manner of payment of moneys apportioned.  Upon the audit of\nvouchers certified by the commissioner of education, the comptroller\nshall draw his warrant on the commissioner of taxation and finance for\npayment of any moneys apportioned for the support of common schools.\nSuch payment shall be made to the treasurer, if there be one, otherwise\nto the disbursing officer or collector of each school district, and to\nthe commissioner of finance of the city of New York for the city school\ndistrict of the city of New York, through the commissioner of education.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

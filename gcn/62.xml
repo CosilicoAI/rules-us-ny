@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-62"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-62"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="62"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-62/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-62/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62">
+        <num>62</num>
+        <heading>Size of type</heading>
+        <content>
+          <p>  § 62. Size of type. Whenever a requirement of law relating to size of\ntype is stated in point size, the type size requirement shall be deemed\nmet if the x-height of the type is a minimum of forty-five percent of\nthe specified point size. Each point shall be measured as .351\nmillimeter. The x-height size shall be measured as it appears on the\npage. The x-height is the height of the lower case letters, exclusive of\nascenders or descenders.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

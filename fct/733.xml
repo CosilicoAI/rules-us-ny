@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-733"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-733"/>
+          <FRBRdate date="2021-04-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="733"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-733/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-733/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-733/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-733/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_733">
+        <num>733</num>
+        <heading>Persons who may originate proceedings</heading>
+        <subsection eId="sec_733__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a peace officer, acting pursuant to his special duties, or a\npolice officer;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_733__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the parent or other person legally responsible for his care;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_733__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>any person who has suffered injury as a result of the alleged\nactivity of a person alleged to be in need of supervision, or a witness\nto such activity;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_733__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>the recognized agents of any duly authorized agency, association,\nsociety or institution; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_733__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>the presentment agency that consented to substitute a petition\nalleging the person is in need of supervision for a petition alleging,\nthat the person is a juvenile delinquent pursuant to section 311.4.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

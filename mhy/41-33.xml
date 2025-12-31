@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.33"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.33"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="41.33"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.33/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.33/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.33/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.33/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_33">
+        <num>41.33</num>
+        <heading>Community residences for the mentally disabled</heading>
+        <subsection eId="sec_41_33__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>in\nan amount not to exceed fifty percent for acquisition or construction of\nsuch community residences, and (ii) in an amount not to exceed fifty\npercent for the total operating costs of community residences except\ncommunity residences for the mentally ill. Such state aid to voluntary\nagencies shall not be granted unless there has been prior approval of\nthe proposed community residence by the local governmental unit.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

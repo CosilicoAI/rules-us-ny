@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-101"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-101"/>
+          <FRBRdate date="2014-11-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="101"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_101">
+        <num>101</num>
+        <heading>Accessibility, rules and regulations</heading>
+        <content>
+          <p>  § 101. Accessibility, rules and regulations. 1. The secretary of\nstate, in consultation with any other state agency he or she deems\nnecessary, shall promulgate any rules and regulations necessary to\nremove the word "handicapped" from any signs or other means of\ncommunication where such word appears.\n  2. The secretary of state, in consultation with any other state agency\nhe or she deems necessary, shall promulgate rules and regulations\nnecessary to require that wherever the current universal symbol of\naccess of a figure in a wheelchair appears, such symbol shall instead\ndepict a logo with a dynamic character leaning forward with a sense of\nmovement. Such logo shall be readily identifiable, simply designed with\nno secondary meaning, and provide for equivalent facilitation and\naccessibility as the current universal symbol of access. The provisions\nof this subdivision shall only apply to any new signs being installed or\nreplaced on and after the effective date of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

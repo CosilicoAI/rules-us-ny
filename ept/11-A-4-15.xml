@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.15"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-4.15"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_4_15">
+        <num>11-A-4.15</num>
+        <heading>Asset-backed securities</heading>
+        <subsection eId="sec_11_A_4_15__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In this section, "asset-backed security" means an asset whose\nvalue is based upon the right it gives the owner to receive\ndistributions from the proceeds of financial assets that provide\ncollateral for the security. The term includes an asset that gives the\nowner the right to receive from the collateral financial assets only the\ninterest or other current return or only the proceeds other than\ninterest or current return. The term does not include an asset to which\n11-A-4.1 or 11-A-4.9 applies.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_4_15__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If a trust receives a payment from interest or other current\nreturn and from other proceeds of the collateral financial assets, the\ntrustee shall allocate to income the portion of the payment which the\npayer identifies as being from interest or other current return and\nshall allocate the balance of the payment to principal.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_4_15__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>If a trust receives one or more payments in exchange for the\ntrust's entire interest in an asset-backed security in one accounting\nperiod, the trustee shall allocate the payments to principal. If a\npayment is one of a series of payments that will result in the\nliquidation of the trust's interest in the security over more than one\naccounting period, the trustee shall allocate ten percent of the payment\nto income and the balance to principal.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

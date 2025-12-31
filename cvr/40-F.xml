@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-F"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40-F"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_F">
+        <num>40-F</num>
+        <heading>Discrimination against person or class in price for admission</heading>
+        <content>
+          <p>  § 40-f. Discrimination against person or class in price for admission.\nIf a person who owns, occupies, manages or controls a building, park,\ninclosure or other place, opens the same to the public generally at\nstated periods or otherwise, he shall not discriminate against any\nperson or class of persons in the price charged for admission thereto. A\nperson violating the provisions of this section is guilty of a\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

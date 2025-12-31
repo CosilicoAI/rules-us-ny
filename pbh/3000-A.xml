@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000-A"/>
+          <FRBRdate date="2025-11-14" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3000-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3000_A">
+        <num>3000-A</num>
+        <heading>Emergency medical treatment</heading>
+        <subsection eId="sec_3000_A__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>Any person or entity that purchases, operates, facilitates\nimplementation or makes available resuscitation equipment that\nfacilitates first aid, an automated external defibrillator or an\nepinephrine device as required by or pursuant to law or local law, or\nthat conducts training under section three thousand-c of this article,\nor (ii) an emergency health care provider under a collaborative\nagreement pursuant to section three thousand-b of this article with\nrespect to an automated external defibrillator, or (iii) a health care\npractitioner that prescribes, dispenses or provides an epinephrine\ndevice under section three thousand-c of this article, shall not be\nliable for damages arising either from the use of that equipment by a\nperson who voluntarily and without expectation of monetary compensation\nrenders first aid or emergency treatment at the scene of an accident or\nmedical emergency, or from the use of defectively manufactured\nequipment; provided that this subdivision shall not limit the person's\nor entity's, the emergency health care provider's, or other health care\npractitioner's liability for their own negligence, gross negligence or\nintentional misconduct.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

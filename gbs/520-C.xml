@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="520-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_520_C">
+        <num>520-C</num>
+        <heading>Credit information</heading>
+        <subsection eId="sec_520_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Credit card" means any card issued pursuant to an agreement which\nallows the holder of the card to obtain goods and services on the credit\nof the issuer; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_520_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Issuer" means any bank, trust company, savings bank, savings and\nloan association, or branch of a foreign banking corporation the\ndeposits of which are insured by the federal deposit insurance\ncorporation, which is incorporated, chartered, organized or licensed\nunder the laws of this state or any other state or the United States,\nwhich issues credit cards to natural persons residing in this state.\n  4. The authority of the superintendent of financial services pursuant\nto sections thirty-nine and forty-four of the banking law shall extend\nto violations of this section by any issuer.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

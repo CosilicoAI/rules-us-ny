@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-250"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-250"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-250/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-250/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250">
+        <num>250</num>
+        <heading>Declaration of object; definitions</heading>
+        <content>
+          <p>  § 250. Declaration of object; definitions. 1. In order for the state\nto receive federal aid under title six of the federal social security\nact, rehabilitation and other services shall be furnished in accordance\nwith the provisions of this title to help needy persons who are\nsixty-five years of age or older, are blind, or are disabled to attain\nor retain capability for self-support or self-care or to prevent or\nreduce dependency.\n  2. When used in this title, services shall be construed to include,\nbut not be limited to, protective services, health-related services,\nself-support services for the handicapped, homemaker services,\nhousekeeping services, special services for the blind, housing\nimprovement and assistance services, home delivered meals, home\nmanagement and other functional educational services, services to adults\nrequiring care in suitable substitute homes, family planning services\nand such other services as may be necessary to accomplish the purposes\nof this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

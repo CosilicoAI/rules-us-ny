@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-578"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-578"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="578"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-578/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-578/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-578/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-578/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_578">
+        <num>578</num>
+        <heading>Non-liability for penalty and interest</heading>
+        <content>
+          <p>  § 578. Non-liability for penalty and interest. 1. Conditions.  The\nprovisions of this section shall apply to employers who failed to\ndischarge obligations under this title because of the bona fide belief\nthat all or some of their employees are covered under the unemployment\ninsurance laws of other states or of the United States, provided they\npaid pursuant to such laws the contributions required thereunder on all\nwages of all such employees.\n  2. Extent. Failure to pay contributions under this title with respect\nto such employees shall not render any such employer liable for interest\nprovided such contributions are paid within ninety days following the\ndate on which a determination or decision establishing the employer's\nliability therefor has become final. If such contributions are not paid\nwithin ninety days following such date, interest shall be assessed only\nfrom such date to the date of payment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

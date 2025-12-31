@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-380-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-380-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-380-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-380-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-380-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-380-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_A">
+        <num>380-A</num>
+        <heading>Certain vehicles engaged in the transportation of loose cargo</heading>
+        <content>
+          <p>  § 380-a. Certain vehicles engaged in the transportation of loose\ncargo.  1. It shall be unlawful to operate on any public highway any\nopen truck or trailer being utilized for the transportation of any loose\nsubstances, unless said truck or trailer has a cover, tarpaulin or other\ndevice of a type and specification approved by the commissioner of\ntransportation which completely closes in the opening on the said truck\nor trailer while said truck or trailer shall be so operated, so as to\nprevent the falling of any such substances therefrom.  However, if the\nload is arranged so that no loose substance can fall from or blow out of\nsuch truck, the covering is not necessary.\n  2. The commissioner of transportation is authorized to make necessary\nrules and regulations to carry into effect the provisions of this\nsection, applying such provisions to specific conditions and loads and\nprescribing means, methods and practices to effectuate such provisions.\n  3. The provisions of this section shall not apply to motor vehicles,\ntrailers and semitrailers conveying "farm products" as defined in\nsection two of the agriculture and markets law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

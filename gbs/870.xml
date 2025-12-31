@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-870"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-870"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="870"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-870/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-870/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-870/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-870/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_870">
+        <num>870</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 870. Legislative intent. The legislature finds and declares that\nthere exists an unreasonable risk of injury and death associated with\nthe sale of toy weapons which are replica of and cannot be easily\ndistinguished from actual weapons; that in recent years the sale and\npossession of these imitation weapons has grown; that in nineteen\nhundred eighty-seven, more than fourteen hundred toy imitation weapons\ninvolved in criminal incidents were confiscated by the police in New\nYork city alone, nearly eighty percent more than four years earlier;\nthat when such imitation weapons are perceived as actual weapons fear\nand dangerous defensive actions often result. The legislature further\nfinds and declares that the purpose of this article is to safeguard the\npublic from the unreasonable risk of death and injury that may result\nwhen imitation weapons are perceived as real, by banning the\nimportation, manufacture, distribution and sale of such imitation\nweapons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

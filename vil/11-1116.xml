@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-11-1116"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-11-1116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-1116"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-11-1116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-11-1116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-11-1116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-11-1116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_1116">
+        <num>11-1116</num>
+        <heading>Rules, regulations, and local laws</heading>
+        <content>
+          <p>  § 11-1116 Rules, regulations, and local laws. The board of water\ncommissioners may adopt rules, regulations and local laws not\ninconsistent with law, for enforcing the collection of water rents and\nrelating to the use of the water, and may enforce observance thereof by\ncutting off the supply of water.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

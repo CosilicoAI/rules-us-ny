@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-205-D"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-205-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="205-D"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-205-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-205-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-205-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-205-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_D">
+        <num>205-D</num>
+        <heading>Relief from civil liability for acts or omissions by fire wardens in the city of New York</heading>
+        <content>
+          <p>  § 205-d. Relief from civil liability for acts or omissions by fire\nwardens in the city of New York. After being trained by a certified fire\nsafety director, any person designated to serve as a fire warden or\ndeputy fire warden in any structure classified as an office building by\nlaw or otherwise in the city of New York shall not be liable for damages\nfor injuries, death or property damage alleged to have occurred by\nreason of an act or omission in the performance of any duty contained in\na fire safety plan unless it is established that such injuries, death or\nproperty damage was caused by gross negligence on the part of such fire\nwarden or deputy fire warden.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

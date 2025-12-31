@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-80"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-80"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="80"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-80/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-80/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80">
+        <num>80</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 80. Definitions.  As used in this article:\n  1. "Gold mine" means a mineral deposit in which the total sales value\nof the gold is more than fifty per centum of the value of all other\nminerals associated or occurring with the gold in the mine.\n  2. "Silver mine" means a mineral deposit in which the total sales\nvalue of the silver is more than fifty per centum of the value of all\nother minerals associated or occurring with the silver in the mine.\n  3. "Minerals" means all minerals and rocks, more particularly any\ninorganic substance which can be extracted from the earth, excepting\ngas, oil and water.\n  4. "State lands" means all lands now or hereafter owned by the state\nof New York except lands in the forest preserve as defined by section\nsixty-three of the conservation law.\n  5. "Filer" means the person filing a notice of discovery, or his\nheirs, distributees, representatives or successors in interest.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

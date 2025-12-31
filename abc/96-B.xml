@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-96-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-96-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="96-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-96-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-96-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-96-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-96-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_B">
+        <num>96-B</num>
+        <heading>Reconditioning permit</heading>
+        <content>
+          <p>  § 96-b. Reconditioning permit. 1. The liquor authority may issue a\nreconditioning permit to a wholesale liquor licensee to recondition\nwines and liquors manufactured outside of the state of New York\nincluding filtering, clarifying, rebottling, labeling, relabeling or\nrepacking such wines and liquors. Such permit may be issued to a\nwholesale wine licensee to recondition such wines under the same terms\nand conditions as provided herein. Only wines purchased in sealed\ncontainers not exceeding fifteen gallons in content or liquor in sealed\ncontainers not exceeding one quart in content may be so reconditioned.\nSuch reconditioning shall be done on such premises and under such\nconditions as the liquor authority may prescribe.\n  2. Each such permit and the exercise of the privilege granted thereby\nshall be subject to the laws of the United States and the rules of the\nfederal agency having jurisdiction thereunder and the rules and\nregulations to be promulgated by the liquor authority and operations\nconducted pursuant thereto shall be performed under such supervision as\nthe liquor authority shall require.\n  3. Each such permit shall be issued in such form as shall be\nprescribed by the liquor authority and shall be valid for one day only.\nThe fee for each such permit shall not exceed twenty-six dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

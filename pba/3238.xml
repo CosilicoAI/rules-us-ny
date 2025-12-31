@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3238"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3238"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3238"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3238/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3238/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3238/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3238/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3238">
+        <num>3238</num>
+        <heading>Payments to local governments</heading>
+        <content>
+          <p>  § 3238. Payments to local governments. The local government assistance\ncorporation shall not issue obligations for payments to local\ngovernments unless an appropriation or appropriations have been enacted\nproviding for the determination of the amount and manner of payments to\nlocal governments. Payments to local governments from the net proceeds\nof the obligations of the corporation shall be for any or all of the\nfollowing purposes:\n  1. elementary and secondary education, community college aid and\nsupport for tuition assistance programs;\n  2. payment of the nonfederal share of local medicaid costs; and\n  3. other local assistance programs, including revenue sharing\nassistance, aid for health and the improvement of environmental quality,\nhousing initiatives, mental health and drug abuse programs, mass\ntransportation and highway and bridge programs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

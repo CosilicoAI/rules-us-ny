@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-309"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-309"/>
+          <FRBRdate date="2023-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="309"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-309/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-309/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_309">
+        <num>309</num>
+        <heading>Advisory council on agriculture</heading>
+        <subsection eId="sec_309__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>innovative and unique farm products developed for food, beverages,\nanimal or plant fiber textiles, or horticulture;\n  (ii) agri-tourism;\n  (iii) foods or beverages processed or manufactured from New York farm\nproducts;\n  (iv) retail food stores;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_309__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>restaurants and other food service businesses;\n  (vi) education, health care and residential institutions including,\nbut not limited to, food service in schools, colleges, hospitals,\nnursing homes, day care and senior centers; and\n  (vii) animal or plant fiber textiles processed or manufactured from\nanimal and plant fibers grown or produced predominantly in New York\nstate.\n  c. The council may also recommend to the commissioner nominations for\nawards given pursuant to subdivision eighteen-c of section one hundred\nof the economic development law.\n  d. The commissioner may designate award winners from these nominees at\nhis or her discretion. Current members of the advisory board and their\nbusinesses are not eligible as nominees.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

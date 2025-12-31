@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-350"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-350"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="350"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-350/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-350/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350">
+        <num>350</num>
+        <heading>Money or securities deposited as proof of financial responsibility</heading>
+        <subsection eId="sec_350__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person may give proof of financial responsibility\nby delivering to the commissioner one hundred fifty thousand dollars in\ncash, or securities, such as may legally be purchased by savings banks\nor for trust funds, of a market value of one hundred fifty thousand\ndollars.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_350__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>All money or securities so delivered to the commissioner shall be\nplaced by the commissioner in the custody of the commissioner of\ntaxation and finance and shall be subject to execution to satisfy any\njudgment mentioned in this article within the limits of coverage and\nsubject to the limits on amounts required by this article for motor\nvehicle liability policies, and if such moneys or securities shall be\notherwise subjected to attachment or any execution, the depositor shall\nimmediately furnish such additional moneys or securities, not otherwise\nsubjected to attachment or execution, to meet the requirements of this\nsection.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_350__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner shall not accept such money or securities unless\naccompanied by evidence that there are no unsatisfied judgments against\nsuch person registered in the office of the county clerk of the county\nwhere such person resides.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

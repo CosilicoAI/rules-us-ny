@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-GG"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-GG"/>
+          <FRBRdate date="2025-05-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209-GG"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-GG/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-GG/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-GG/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-GG/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209_GG">
+        <num>209-GG</num>
+        <heading>Symbols of hate</heading>
+        <content>
+          <p>  § 209-gg. Symbols of hate. 1. A fire district, volunteer fire company,\nor police department shall not sell or display any symbols of hate or\nany similar image, or tangible personal property, inscribed with such an\nimage unless the image appears in a book, digital medium, museum, or\notherwise serves an educational or historical purpose.\n  2. For the purposes of this section, the term "symbols of hate" shall\ninclude, but not be limited to, symbols of white supremacy, neo-Nazi\nideology or the Battle Flag of the Confederacy.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

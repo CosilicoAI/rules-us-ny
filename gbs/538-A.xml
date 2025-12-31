@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="538-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_538_A">
+        <num>538-A</num>
+        <heading>Enforcement</heading>
+        <subsection eId="sec_538_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The attorney general may bring a civil\naction against any person, firm, corporation, or other business entity,\nregardless of its form of organization, that violates this article to\nenjoin the violation and may recover the following:\n</p>
+          </content>
+          <paragraph eId="sec_538_A__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a civil penalty of one thousand dollars per violation of this\narticle or, for a pattern or practice of such violations, up to three\nthousand dollars per violation; and/or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_538_A__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>costs and reasonable attorneys' fees.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_538_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Nothing in this section shall in any way limit rights or remedies\nwhich are otherwise available under law to the attorney general or any\nother person authorized to bring an action under this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

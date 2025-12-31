@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203_A">
+        <num>203-A</num>
+        <heading>Seats in certain passenger elevators or relief for the operator</heading>
+        <content>
+          <p>  § 203-a. Seats in certain passenger elevators or relief for the\noperator. Every passenger elevator operated and maintained for use by\nthe public shall be equipped or furnished with a seat, collapsible or\notherwise, for the use of the operator when the elevator is not being\noperated, provided the operator thereof is not allowed a continuous\nrecess period of at least fifteen minutes in every three hours in\naddition to and apart from a lunch period of at least forty-five\nminutes. Every passenger elevator operated in a building owned and\nmaintained by the state shall be equipped or furnished with such a seat\nfor the use of the operator when the elevator is not being operated,\nnotwithstanding the operator is allowed the recess and lunch period\nherein specified.  The provisions of this section shall not apply to\nelevators in factory buildings or any other building having only one\npassenger elevator.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

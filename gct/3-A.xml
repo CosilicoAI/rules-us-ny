@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-A"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-A"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_A">
+        <num>3-A</num>
+        <heading>Liability of city officials</heading>
+        <content>
+          <p>  § 3-a. Liability of city officials. No official of any city of this\nstate who shall deposit any moneys coming into his hands by virtue of\nhis office in any bank, savings bank, national banking association,\ntrust company, or with any private banker, in accordance with the\nprovisions of any general or local law or charter, or in accordance with\nthe official action taken by the governing body or board of any such\ncity, shall be liable for the loss of any such moneys resulting from the\ndefault or insolvency of any such depositary.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

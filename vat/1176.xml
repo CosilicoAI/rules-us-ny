@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1176"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1176"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1176"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1176/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1176/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1176/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1176/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1176">
+        <num>1176</num>
+        <heading>Obstructing highway-railroad grade crossings</heading>
+        <content>
+          <p>  § 1176. Obstructing highway-railroad grade crossings. No person shall\ndrive a vehicle onto the railroad tracks at a highway-railroad grade\ncrossing unless there is sufficient undercarriage clearance to traverse\nthe crossing and adequate space on the opposite side of the crossing to\naccommodate the vehicle he and/or she is driving, notwithstanding the\nindication of any traffic control device which would permit him and/or\nher to proceed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

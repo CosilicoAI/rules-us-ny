@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-770"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-770"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="770"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-770/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-770/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-770/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-770/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_770">
+        <num>770</num>
+        <heading>Effect on actions and proceedings</heading>
+        <content>
+          <p>  § 770. Effect on actions and proceedings. 1. Suits may be brought and\nmaintained against a consolidated local government entity in any of the\ncourts of the state in the same manner as against any other local\ngovernment entity.\n  2. In any action or proceeding pending on the effective date of\nconsolidation to which any component local government entity is a party,\nthe consolidated local government entity may be substituted in its place\nand the action or proceeding may be prosecuted to judgment as if\nconsolidation had not taken place.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

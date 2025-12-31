@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="206"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_206">
+        <num>206</num>
+        <heading>Rates to be posted; penalty for violation</heading>
+        <content>
+          <p>  § 206. Rates to be posted; penalty for violation. Every keeper of a\nhotel or inn shall post in a public and conspicuous place and manner in\nthe office or public room, and in the public parlors of such hotel or\ninn, a printed copy of this section and sections two hundred and two\nhundred and one, and a statement of the charges or rate of charges by\nthe day and for meals furnished and for lodging. No charge or sum shall\nbe collected or received by any such hotel keeper or inn keeper for any\nservice not actually rendered or for a longer time than the person so\ncharged actually remained at such hotel or inn, nor for a higher rate of\ncharge for the use of such room or board, lodging or meals than is\nspecified in the rate of charges required to be posted by the last\npreceding sentence; provided such guest shall have given such hotel\nkeeper or inn keeper notice at the office of his departure. For any\nviolation of this section the offender shall forfeit to the injured\nparty three times the amount so charged, and shall not be entitled to\nreceive any money for meals, services or time charged.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

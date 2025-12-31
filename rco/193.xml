@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-193"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-193"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="193"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-193/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-193/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-193/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-193/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_193">
+        <num>193</num>
+        <heading>The certificate of incorporation</heading>
+        <content>
+          <p>  § 193. The certificate of incorporation.  The presiding officer of\nsuch meeting and at least two other persons present and voting thereat,\nshall execute and acknowledge a certificate of incorporation, setting\nforth the matters so determined at such meeting, the trustees elected\nthereat and the terms of office for which they were respectively elected\nand the county, town, city or village in which its principal place of\nworship is or is intended to be located.  On filing such certificate the\nmembers of such church and the persons qualified to vote at such meeting\nand who shall thereafter, from time to time, be qualified voters, at the\ncorporate meetings thereof, shall be a corporation by the name stated in\nsuch certificate, and the persons therein stated to be elected trustees\nof such church shall be the trustees thereof, for the terms for which\nthey were respectively so elected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

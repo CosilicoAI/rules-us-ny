@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-D"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="76-D"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_D">
+        <num>76-D</num>
+        <heading>Special farm winery license</heading>
+        <content>
+          <p>  § 76-d. Special farm winery license. 1. Any person may apply to the\nliquor authority to operate a special farm winery on the premises of an\nexisting farm winery licensee as provided for in this article. Such\napplication shall be in writing and verified and shall contain such\ninformation as the liquor authority shall require. Such application\nshall be accompanied by a check or draft for the amount required by this\narticle for such license. If the liquor authority shall grant the\napplication it shall issue a license in such form as shall be determined\nby its rules.\n  2. The provisions of section seventy-six-a of this article relating to\nthe operation of a farm winery shall also apply to the holder of a\nlicense under this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

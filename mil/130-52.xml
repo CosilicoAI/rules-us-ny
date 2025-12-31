@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.52"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.52"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.52"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.52/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.52/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.52/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.52/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_52">
+        <num>130.52</num>
+        <heading>Number of votes required</heading>
+        <subsection eId="sec_130_52__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No person shall be convicted\nof any offense, except as provided in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_52__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of section 130.45\nof this chapter, or by the concurrence of two-thirds of the members\npresent at the time the vote is taken.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_52__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>All sentences shall be determined by the concurrence of two-thirds\nof the members present at the time that the vote is taken.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_52__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>All other questions to be decided by the members of a general or\nspecial court-martial shall be determined by a majority vote, but a\ndetermination to reconsider a finding of guilty or to reconsider a\nsentence, with a view toward decreasing it, may be made by any lesser\nvote which indicates that the reconsideration is not opposed by the\nnumber of votes required for that finding or sentence.  A tie vote on a\nchallenge shall disqualify the member challenged.  A tie vote on a\nmotion for a finding of not guilty or on a motion relating to the\nquestion of the accused's sanity shall be a determination against the\naccused.  A tie vote on any other question shall be a determination in\nfavor of the accused.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

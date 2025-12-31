@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-405-A"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-405-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="405-A"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-405-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-405-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-405-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-405-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405_A">
+        <num>405-A</num>
+        <heading>Institution for children; approval of certificate</heading>
+        <content>
+          <p>§ 405-a. Institution for children; approval of certificate.\n  Every certificate of incorporation which includes among its corporate\npurposes, the authority to care for children through the establishment\nor operation of an institution for destitute, delinquent, abandoned,\nneglected or dependent children shall have endorsed thereon or annexed\nthereto the approval of the office of children and family services.\nProvided, however, nothing herein shall authorize such corporation to\nplace out or board out children, as those terms are defined in the\nsocial services law, or to care for children in a facility other than an\ninstitution possessing an operating certificate issued by the office of\nchildren and family services. No certificate of incorporation shall be\napproved pursuant to this section on or after June first, two thousand\nseven.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

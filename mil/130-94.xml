@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.94"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.94"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.94"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.94/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.94/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.94/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.94/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_94">
+        <num>130.94</num>
+        <heading>Noncompliance with procedural rules</heading>
+        <content>
+          <p>  § 130.94. Noncompliance with procedural rules. Any person subject to\nthis code who--\n  (1) is responsible for unnecessary delay in the disposition of any\ncase of a person accused of an offense under this code; or\n  (2) knowingly and intentionally fails to enforce or comply with any\nprovision of this code regulating the proceedings before, during, or\nafter trial of an accused;\nshall be punished as a court-martial may direct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

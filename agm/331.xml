@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-331"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-331"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="331"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-331/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-331/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_331">
+        <num>331</num>
+        <heading>Abandonment of certain animals</heading>
+        <content>
+          <p>  § 331. Abandonment of certain animals. An animal is deemed to be\nabandoned when it is placed in the custody of a veterinarian, veterinary\nhospital, boarding kennel owner or operator, stable owner or operator,\nor any other person for treatment, board, or care and:\n  1. Having been placed in such custody for a specified period of time\nthe animal is not removed at the end of such specified period and a\nnotice to remove the animal within ten days thereafter has been given to\nthe person who placed the animal in such custody, by means of registered\nletter mailed to the last known address of such person, or:\n  2. Having been placed in such custody for an unspecified period of\ntime the animal is not removed within twenty days after notice to remove\nthe animal has been given to the person who placed the animal in such\ncustody, by means of a registered letter mailed to the last known\naddress of such person.\n  3. The giving of notice as prescribed in this section shall be deemed\na waiver of any lien on the animal for the treatment, board or care of\nthe animal but shall not relieve the owner of the animal removed of his\ncontractual liability for such treatment, board or care furnished.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

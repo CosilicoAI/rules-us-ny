@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-Z-9"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-Z-9"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="96-Z-9"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-Z-9/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-Z-9/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-Z-9/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-Z-9/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_Z_9">
+        <num>96-Z-9</num>
+        <heading>Criminal slaughter, processing or possession of inedible meat</heading>
+        <subsection eId="sec_96_Z_9__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>slaughters, for\nthe purpose of human consumption, any animal from which such meat would\nbe derived,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_96_Z_9__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>adds, mixes or otherwise combines any such meat with\nfood intended for human consumption, or bones, cuts, grinds or otherwise\nprocesses such meat for the purpose of human consumption, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_96_Z_9__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>\npossesses such meat with intent to sell the meat for human consumption.\nCriminal slaughter, processing or possession of an inedible meat is a\nclass E felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

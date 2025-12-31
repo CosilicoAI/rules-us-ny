@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-242.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-242.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="242.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-242.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-242.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-242.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-242.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_242_00">
+        <num>242.00</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 242.00 Definitions.\n  For purposes of this article:\n  1. "Service animal" shall mean any animal that has been partnered with\na person who has a disability and has been trained or is being trained,\nby a qualified person, to aid or guide a person with a disability.\n  2. "Disability" shall have the same meaning as provided in section two\nhundred ninety-two of the executive law.\n  3. "Handler" shall mean a disabled person using a service animal.\n  4. "Formal training program" or "certified trainer" shall mean an\ninstitution, group or individual who has documentation and community\nrecognition as a provider of service animals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

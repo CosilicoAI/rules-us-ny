@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-601"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="601"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_601">
+        <num>601</num>
+        <heading>Declaration of policy and statement of purposes</heading>
+        <content>
+          <p>  § 601. Declaration of policy and statement of purposes. It is hereby\nfound, determined and declared:\n  1. That the New York state off-track pari-mutuel betting law was\ncreated by a chapter of the laws of nineteen hundred seventy;\n  2. That the New York state off-track pari-mutuel betting commission,\nestablished by such law, was authorized to approve the operation of\noff-track pari-mutuel betting systems by public benefit corporations in\nparticipating municipalities;\n  3. That the operation of an off-track pari-mutuel betting system by a\npublic benefit corporation in New York city, in accordance with the\nprovision of the New York state off-track pari-mutuel betting law, is\ndeemed to be a matter of state concern and a public purpose which cannot\nbe adequately attained except by the powers of government, and that such\npublic benefit corporation in the exercise of the powers conferred upon\nit by this article, will perform a governmental function.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

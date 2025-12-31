@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-816"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-816"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="816"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-816/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-816/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-816/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-816/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_816">
+        <num>816</num>
+        <heading>Apprenticeship agreements</heading>
+        <content>
+          <p>  § 816. Apprenticeship agreements.  For the purposes of this article an\napprenticeship agreement is:\n  (1) An individual written agreement between an employer and an\napprentice, or (2) a written agreement between an employer or an\nassociation of employers, and an organization of employees describing\nconditions of employment for apprentices or (3) a written statement\ndescribing conditions of employment for apprentices in a plant or plants\nwhere there is no bona fide employee organization.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0816"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0816"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-0816"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0816/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0816/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0816/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0816/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_0816">
+        <num>17-0816</num>
+        <heading>Coordination with AEM program</heading>
+        <content>
+          <p>§ 17-0816. Coordination with AEM program.\n  To the extent practical and consistent with the purposes of this title\nand title seven of this article, SPDES permits for farm operations\nparticipating in the agricultural environmental management (AEM) program\nas set forth in article eleven-A of the agriculture and markets law\nshall incorporate as part of the SPDES permit terms and conditions any\nAEM plan prepared for the permit applicant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

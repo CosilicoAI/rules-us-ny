@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-514"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-514"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="514"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-514/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-514/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-514/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-514/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_514">
+        <num>514</num>
+        <heading>Benefits to participants in old retirement fund</heading>
+        <content>
+          <p>  § 514. Benefits to participants in old retirement fund.  All annuities\nof annuitants on the rolls of the retirement fund on the thirty-first\nday of July, nineteen hundred twenty-one, shall be paid thereafter from\nthe pension accumulation fund created by this article.  The amount of\nthe annuity of any annuitant on the rolls of such retirement fund, at\nsuch time, who retired on a full annuity shall be not less than one-half\nof his final average salary, and not less than four hundred dollars per\nannum; nor shall the allowance of any annuitant on such roll retired\nfrom disability be less than a proportionate amount of such minima based\non the annuitant's years of service.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

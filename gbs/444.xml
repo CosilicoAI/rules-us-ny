@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-444"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-444"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="444"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-444/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-444/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-444/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-444/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_444">
+        <num>444</num>
+        <heading>Violations and penalties</heading>
+        <content>
+          <p>  § 444. Violations and penalties. Any person who shall directly or\nindirectly engage in the practice of barbering or hold himself out to\nthe public as being able so to do, or conduct a barber shop without a\nlicense therefor, or who shall violate any of the provisions of this\narticle, or having had his license suspended or revoked, shall continue\nto engage in the practice of barbering or who directly or indirectly\nemploys, permits or authorizes an unlicensed person to engage in the\npractice of barbering or who directly or indirectly employs, permits or\nauthorizes an unregistered apprentice to act as an apprentice, shall be\nguilty of a misdemeanor and, upon conviction, shall be punishable by\nimprisonment for not more than six months, or by a fine of not more than\nfive hundred dollars or by both such fine and imprisonment and each such\nviolation shall be deemed a separate offense.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

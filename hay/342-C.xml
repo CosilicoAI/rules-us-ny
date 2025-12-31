@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-C"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="342-C"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_C">
+        <num>342-C</num>
+        <heading>Portion of state highway system to be designated as the "Seneca Trail</heading>
+        <content>
+          <p>  § 342-c. Portion of state highway system to be designated as the\n"Seneca Trail." All that portion of the state highway system identified\nas follows:\n  From Hamburg south, following route sixty-two through Eden, North\nCollins, Gowanda, to Dayton; thence south following present route three\nhundred fifty-three (formerly route eighteen) through Cattaraugus,\nLittle Valley, to Salamanca; thence east following route seventeen\nthrough Killbuck, Carrollton, to Seneca Junction (sometimes called\nBradford Junction); thence south following route two hundred nineteen\n(formerly route eighteen) through Limestone, to the Pennsylvania state\nline.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

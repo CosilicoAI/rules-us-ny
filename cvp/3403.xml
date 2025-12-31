@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3403"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3403"/>
+          <FRBRdate date="2022-05-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3403"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3403/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3403/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3403/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3403/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3403">
+        <num>3403</num>
+        <heading>Trial preferences</heading>
+        <subsection eId="sec_3403__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Preferred cases. Civil cases shall\nbe tried in the order in which notes of issue have been filed, but the\nfollowing shall be entitled to a preference:\n  1. an action brought by or against the state, or a political\nsubdivision of the state, or an officer or board of officers of the\nstate or a political subdivision of the state, in his or its official\ncapacity, on the application of the state, the political subdivision, or\nthe officer or board of officers;\n  2. an action where a preference is provided for by statute; and\n  3. an action in which the interests of justice will be served by an\nearly trial.\n  4. in any action upon the application of a party who has reached the\nage of seventy years.\n  5. an action to recover damages for medical, dental or podiatric\nmalpractice.\n  6. an action to recover damages for personal injuries where the\nplaintiff is terminally ill and alleges that such terminal illness is a\nresult of the conduct, culpability or negligence of the defendant.\n  7. any action which has been revived pursuant to section two hundred\nfourteen-g or two hundred fourteen-j of this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3403__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Obtaining preference. Unless the court otherwise orders, notice of\na motion for preference shall be served with the note of issue by the\nparty serving the note of issue, or ten days after such service by any\nother party; or thereafter during the pendency of the action upon the\napplication of a party who reaches the age of seventy years, or who is\nterminally ill.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-9-1.8"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-9-1.8"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-1.8"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-9-1.8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-9-1.8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-9-1.8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-9-1.8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_1_8">
+        <num>9-1.8</num>
+        <heading>Trust created by national securities exchange to assist</heading>
+        <subsection eId="sec_9_1_8__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A trust created by a national securities exchange for the purpose\nof enabling the trustees, in their discretion, to provide direct or\nindirect assistance to customers of a member, member firm or member\ncorporation of such exchange, threatened with loss of their money or\nsecurities because such member, member firm or member corporation, in\nthe opinion of the trustees, is insolvent or may be unable without\nassistance to meet its obligations to such customers, is not invalid as\nviolating the rule against perpetuities or the rules governing the\naccumulation of income. Such a trust may continue and may accumulate the\nincome from the property held therein for such time as may be necessary\nto accomplish the purposes for which it is created.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_9_1_8__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>As used in this section, the term "national securities exchange"\nmeans any exchange registered as a national securities exchange under\nthe federal securities exchange act of nineteen hundred thirty-four, as\nthe same may be amended from time to time.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

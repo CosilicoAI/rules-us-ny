@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-916"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-916"/>
+          <FRBRdate date="2022-06-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="916"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-916/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-916/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-916/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-916/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_916">
+        <num>916</num>
+        <heading>Notice</heading>
+        <content>
+          <p>  § 916. Notice. In accordance with any applicable federal law or rule,\nevery peer-to-peer car sharing program shall display the following\nnotice prominently and in a clear and conspicuous location on its\nwebsite, with lettering that is legible: "NOTICE: New York State Law\nprohibits the following practices by peer-to-peer car sharing program\nadministrators based upon race, color, ethnic origin, religion,\ndisability, sex, marital status, residence or geographic location,\nincome, sexual orientation, genetic predisposition or age: (1) refusal\nto allow participation in a peer-to-peer car sharing program; and (2)\nthe imposition of any additional charge (except in certain instances\nwhere the shared vehicle driver is under the age of 25). In addition, it\nis unlawful for any peer-to-peer car sharing program administrator to\nrefuse to allow participation in the program to any person solely on the\nrequirement of ownership of a credit card."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

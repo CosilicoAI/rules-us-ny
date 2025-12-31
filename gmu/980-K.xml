@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-K"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-K"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="980-K"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_980_K">
+        <num>980-K</num>
+        <heading>Tax and debt limitations</heading>
+        <subsection eId="sec_980_K__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The aggregate amount of\noutstanding indebtedness that is incurred to provide funds for capital\nimprovements pursuant to this article shall be chargeable against the\nmunicipality's constitutional debt limit and may not exceed ten percent\nof the amount allowable under that limit. The aggregate amount of\noutstanding indebtedness that is incurred to provide funds for capital\nimprovements pursuant to this article and that is chargeable against the\nproperty within the district may not exceed seven percent of the average\nfull valuation of taxable real property in the district.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_980_K__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The district charge, exclusive of debt service, levied in a given\nyear against real property in a district may not exceed twenty percent\nof the total general municipal taxes levied in that year against the\ntaxable real property in the district. The district charge so levied\nshall be included in the total amount, if any, that the municipality is\npermitted by law to raise in that year by a tax on real property.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

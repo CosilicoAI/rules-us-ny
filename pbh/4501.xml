@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4501"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4501"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4501">
+        <num>4501</num>
+        <heading>Medical referral service businesses prohibited</heading>
+        <content>
+          <p>  § 4501. Medical referral service businesses prohibited. 1. No person,\nfirm, partnership, association or corporation, or agent or employee\nthereof, shall engage in for profit any business or service which in\nwhole or in part includes the referral or recommendation of persons to a\nphysician, dentist, hospital, health related facility, or dispensary for\nany form of medical or dental care or treatment of any ailment or\nphysical condition. The imposition of a fee or charge for any such\nreferral or recommendation shall create a presumption that the business\nor service is engaged in for profit.\n  2. No physician, dentist, hospital, health related facility or\ndispensary shall enter into a contract or other form of agreement to\naccept for medical or dental care or treatment any person referred or\nrecommended for such care or treatment by a medical or dental referral\nservice business located in or doing business in another state if the\nmedical or dental referral service business would be prohibited under\nthis section if the business were located in or doing business in this\nstate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

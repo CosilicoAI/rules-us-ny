@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-25"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-25"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="25"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25">
+        <num>25</num>
+        <heading>Witness exempt from arrest</heading>
+        <content>
+          <p>  § 25. Witness exempt from arrest. A person duly and in good faith\nsubpoenaed or ordered to attend, for the purpose of being examined, in a\ncase where his attendance may lawfully be enforced by attachment or by\ncommitment, is privileged from arrest in a civil action or special\nproceeding, while going to, remaining at, and returning from, the place\nwhere he is required to attend. An arrest, made contrary to the\nprovisions of this section, is absolutely void and is a contempt of the\ncourt, if any, from which the subpoena was issued, or by which the\nwitness was directed to attend.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

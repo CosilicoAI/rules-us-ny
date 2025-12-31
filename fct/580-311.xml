@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-311"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-311"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-311"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-311/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-311/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-311/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-311/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_311">
+        <num>580-311</num>
+        <heading>Pleadings and accompanying documents</heading>
+        <subsection eId="sec_580_311__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In a proceeding\nunder this article, a petitioner seeking to establish a support order,\nto determine parentage of a child or to register and modify a support\norder of a tribunal of another state or a foreign country must file a\npetition. Unless otherwise ordered under section 580-312 of this part,\nthe petition or accompanying documents must provide, so far as known,\nthe name, residential address and social security numbers of the obligor\nand the obligee or the parent and alleged parent, and the name, sex,\nresidential address, social security number and date of birth of each\nchild for whose benefit support is sought or whose parentage is to be\ndetermined. Unless filed at the time of registration, the petition must\nbe accompanied by a copy of any support order known to have been issued\nby another tribunal. The petition may include any other information that\nmay assist in locating or identifying the respondent.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_311__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The petition must specify the relief sought. The petition and\naccompanying documents must conform substantially with the requirements\nimposed by the forms mandated by federal law for use in cases filed by a\nsupport enforcement agency.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

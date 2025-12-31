@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-207-KK"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-207-KK"/>
+          <FRBRdate date="2023-12-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="207-KK"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-207-KK/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-207-KK/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-207-KK/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-207-KK/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_207_KK">
+        <num>207-KK</num>
+        <heading>Disabilities of firefighters in certain cities caused by cancer</heading>
+        <subsection eId="sec_207_KK__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>any\ncondition of cancer affecting the lymphatic, digestive, hematological,\nurinary, neurological, breast, reproductive, endocrine/thyroid or\nprostate systems or (ii) melanoma resulting in total or partial\ndisability or death to a paid member of a fire department in a city with\na population of one million or more, or any retired member of such\ndepartment who has been retired for five or less years, who successfully\npassed a physical examination on entry into the service of such\ndepartment, which examination failed to reveal any evidence of such\ncondition, shall be presumptive evidence that it was incurred in the\nperformance and discharge of duty unless the contrary be proved by\ncompetent evidence. The provisions of this section shall remain in full\nforce and effect pursuant to section four hundred eighty of the\nretirement and social security law.\n  * NB Expires per § 480 of the retirement and social security law\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

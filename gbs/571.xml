@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-571"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-571"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="571"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-571/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-571/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-571/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-571/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_571">
+        <num>571</num>
+        <heading>Declared face value; cash redemption</heading>
+        <content>
+          <p>  § 571. Declared face value; cash redemption. No trading stamp company\nshall advertise, distribute or redeem trading stamps hereafter issued in\nthis state unless:\n  1. Each stamp has legibly printed upon its face a cash value\ndetermined by the company in cents or any fraction thereof, and\n  2. The rightful holders may, at their option, redeem the stamps in\ncash when duly presented to the company for redemption in a number\nhaving an aggregate cash value of not less than one dollar.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

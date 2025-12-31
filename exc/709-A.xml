@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-709-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-709-A"/>
+          <FRBRdate date="2016-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="709-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-709-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-709-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-709-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-709-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_709_A">
+        <num>709-A</num>
+        <heading>Office of counterterrorism</heading>
+        <content>
+          <p>  § 709-a. Office of counterterrorism. The office of counterterrorism\nshall develop and analyze the state's policies, protocols and strategies\nrelating to the prevention and detection of terrorist acts and terrorist\nthreats. The office shall also be responsible for coordinating\nstrategies, protocols and first responder equipment needs to detect a\nbiological, chemical or radiological terrorist act or threat; working\nwith private entities and local, state and federal agencies to conduct\nassessments of the vulnerability of critical infrastructure to terrorist\nattack; and consulting with appropriate state and local governments and\nprivate entities to facilitate and foster cooperation to better prepare\nthe state to prevent and detect threats and acts of terrorism.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

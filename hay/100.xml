@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-100"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100">
+        <num>100</num>
+        <heading>Appointment and salary of county superintendent</heading>
+        <content>
+          <p>  § 100. Appointment and salary of county superintendent. The board of\nsupervisors of any county may appoint a county superintendent, determine\nthe amount of the bond which he shall give, fix his salary, and provide\nfor the payment of all the necessary expenses incurred while in the\nperformance of his duties, which salary and expenses shall be a charge\nagainst the county road fund, and may remove such county superintendent\nfor malfeasance or misfeasance in office, upon written charges, after an\nopportunity to be heard, not less than five days after the service upon\nsuch superintendent of a copy of such charges. The term of office of\neach superintendent or county engineer appointed by any other law to\nperform the duties of county superintendent shall be four years unless\nsooner removed by the board of supervisors as above provided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

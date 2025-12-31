@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-221"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-221"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="221"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-221/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-221/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-221/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-221/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221">
+        <num>221</num>
+        <heading>Compilation of approved plans; estimated costs</heading>
+        <content>
+          <p>  § 221. Compilation of approved plans; estimated costs. Not later than\nthe twenty-eighth day of February each year, the commissioner shall\ncompile all approved plans and estimate the probable cost of each\napproved project, the probable amount of state aid to be allocated to\neach approved project under section two hundred twenty-seven of this\narticle, the aggregate cost of all approved projects and the aggregate\namount of all state aid for approved projects in the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

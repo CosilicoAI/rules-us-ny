@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-553"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-553"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="553"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-553/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-553/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-553/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-553/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_553">
+        <num>553</num>
+        <heading>Notes given for a speculative consideration</heading>
+        <content>
+          <p>  § 553. Notes given for a speculative consideration. A person who\ntakes, sells or transfers a negotiable promissory note within article\nthree of the uniform commercial code, knowing the consideration of such\nnote to consist in whole or in part of the purchase price of any farm\nproduct at a price greater by four or more times than the fair market\nvalue of the same product at the time in the locality, or in which the\nconsideration shall be in whole or in part, membership of and rights in\nan association, company or combination to produce or sell any farm\nproduct at a fictitious rate, or of a contract or bond to purchase or\nsell any farm product at such rate, without having the words "given for\na speculative consideration" or other words clearly showing the nature\nof the consideration prominently and legibly written or printed on the\nface of such note above the signature thereof, is guilty of a\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

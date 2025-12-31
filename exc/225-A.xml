@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-225-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-225-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-225-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-225-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-225-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-225-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_A">
+        <num>225-A</num>
+        <heading>Lost and found property</heading>
+        <content>
+          <p>  § 225-a. Lost and found property.  The state police shall perform the\nduties with respect to found property and found instruments provided in\narticle seven-b of the personal property law. The superintendent may\ndesignate a member or members of the state police to accept and keep\ncustody of found property and instruments, may prescribe procedures for\ndetermining the value and for estimating the net sum likely to be\nrealized by sale at public auction of lost property as defined in such\narticle, for disposition of derelict automobiles and other property\nhaving no value or salvage value only and for sale of property as\nauthorized by such article and may prescribe rules not inconsistent with\nsuch article seven-b with respect to form and manner of giving notices\nand with respect to forms of reports of found property or instruments\nand with respect to storage of found property.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

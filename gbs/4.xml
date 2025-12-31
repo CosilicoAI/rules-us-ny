@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-4"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4">
+        <num>4</num>
+        <heading>Punishment for Sabbath breaking</heading>
+        <content>
+          <p>  § 4. Punishment for Sabbath breaking.  Sabbath breaking is a\nmisdemeanor, punishable by a fine of not less than five dollars and not\nmore than ten dollars, or by imprisonment in a county jail not exceeding\nfive days, or by both, but for a second or other offense, where the\nparty shall have been previously convicted, it shall be punishable by a\nfine not less than ten dollars and not more than twenty dollars or by\nimprisonment in a county jail not less than five nor more than twenty\ndays, or both.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

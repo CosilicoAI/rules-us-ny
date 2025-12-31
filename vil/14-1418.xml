@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1418"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1418"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-1418"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1418/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1418/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1418/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1418/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_1418">
+        <num>14-1418</num>
+        <heading>Appeal from apportionment</heading>
+        <content>
+          <p>  § 14-1418 Appeal from apportionment. A person aggrieved by an\napportionment may, within fifteen days after the filing thereof, appeal\ntherefrom to the county court of a county in which any part of the\nvillage is situated. Such appeal shall be taken by a notice, stating the\ngrounds thereof, addressed to the board of sewer commissioners, and\nfiled with the village clerk.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

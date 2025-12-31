@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-H"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="509-H"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_509_H">
+        <num>509-H</num>
+        <heading>Operation by person not licensed to drive a bus</heading>
+        <content>
+          <p>  § 509-h. Operation by person not licensed to drive a bus. The motor\ncarrier shall not knowingly permit any person to operate a bus carrying\npassengers unless the driver meets all of the requirements of this\narticle; except that a motor carrier may permit a conditional school bus\ndriver who is not otherwise disqualified under the provisions of this\narticle to operate a bus for a period not to exceed ninety days or a\nlonger period if granted a written extension of such ninety day period\nby the department pursuant to regulations established by the\ncommissioner. Such regulation shall authorize extension for at least\nthat period of time necessary to review information regarding the prior\ncriminal history of the applicant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

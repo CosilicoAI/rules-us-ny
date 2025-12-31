@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-171"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-171"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="171"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-171/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-171/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-171/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-171/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_171">
+        <num>171</num>
+        <heading>Responsibility; county social services districts; city social services districts; cities; towns</heading>
+        <subsection eId="sec_171__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>persons residing or found therein, subject to  reimbursement by\nthe state;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_171__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>persons residing or found in any town in the county, when the\nexpense of providing safety net assistance to persons residing or found\nin such towns is a county charge pursuant to the provisions of section\nseventy-two and section seventy-three of this chapter;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_171__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>persons residing or found in a city forming part of the  county\nsocial services district, when the expense of providing safety net\nassistance to persons  residing or found in such city is a county charge\npursuant to the provisions of section seventy-two and section\nseventy-three of this chapter.\n  2. A town responsible for the expense of providing safety net\nassistance to persons residing or found therein, pursuant to section\nsixty-nine, which has elected to administer veteran assistance, pursuant\nto the provisions of this title, shall be responsible for providing\nveteran assistance to local charges residing or found therein, and the\nexpense thereof.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

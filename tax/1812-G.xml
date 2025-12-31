@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1812-G"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1812-G"/>
+          <FRBRdate date="2017-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1812-G"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1812-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1812-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1812-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1812-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1812_G">
+        <num>1812-G</num>
+        <heading>Person not registered as a wholesaler of motor fuel</heading>
+        <content>
+          <p>  § 1812-g. Person not registered as a wholesaler of motor fuel. Any\nperson who, while not registered as a wholesaler of motor fuel pursuant\nto the provisions of article twelve-A of this chapter, makes a sale of\nmotor fuel in this state other than a retail sale not in bulk, shall be\nguilty of a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

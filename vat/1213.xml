@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1213"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1213"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1213">
+        <num>1213</num>
+        <heading>Obstruction to driver's view or driving mechanism</heading>
+        <subsection eId="sec_1213__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No\nperson shall drive a motor vehicle when it is so loaded, or when there\nare in the front seat such number of persons as to obstruct the view of\nthe driver to the front or sides of the vehicle or as to interfere with\nthe driver's control over the driving mechanism of the vehicle. In no\nevent shall there be more than three persons in the front seat of any\nvehicle, except where such seat has been constructed to accommodate more\nthan three persons and there is eighteen inches of seating capacity for\neach passenger or occupant in said front seat.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1213__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No passenger in a vehicle shall ride in such a position as to\ninterfere with the driver's view ahead or to the sides, or to interfere\nwith his control over the driving mechanism of the vehicle.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-201-H"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-201-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="201-H"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-201-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-201-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-201-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-201-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_201_H">
+        <num>201-H</num>
+        <heading>Notice of violation</heading>
+        <content>
+          <p>  § 201-h. Notice of violation. In any case where the department, after\nconsultation between the division responsible for halal law enforcement\nand counsel, determines a violation has occurred of any of the\nprovisions of section two hundred one-e, two hundred one-f, or two\nhundred one-g of this article, it shall notify such person in writing,\nby regular mail, of the violations alleged, the grounds therefor, and\nthe penalty assessed. After such person has been so notified, such\ninformation shall be available to the public, without charge, and shall\ninclude as a minimum the following:\n  1. the name and business address of the alleged violator;\n  2. the date of inspection of the premises by the department;\n  3. the violation that is alleged to have occurred; and\n  4. the amount of the penalty which has been assessed by the\ndepartment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

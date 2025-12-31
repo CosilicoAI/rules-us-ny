@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-206-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-206-A"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="206-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-206-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-206-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-206-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-206-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_206_A">
+        <num>206-A</num>
+        <heading>Penalty for improper use of certificates</heading>
+        <content>
+          <p>  § 206-a. Penalty for improper use of certificates. Every police\nofficer and firefighter who shall permit any other person to use the\ncertificate issued to him or her as provided by the last section, or\nshall present or make use of the same, except while acting in the course\nof the performance of his or her official duties, or who shall use such\ncertificate after the expiration of his or her term of office or his\nresignation or removal therefrom, shall be deemed guilty of a\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

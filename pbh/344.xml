@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-344"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-344"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="344"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-344/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-344/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-344/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-344/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344">
+        <num>344</num>
+        <heading>County or part-county boards of health; terms of office; vacancies</heading>
+        <content>
+          <p>  § 344. County or part-county boards of health; terms of office;\nvacancies.  1. The term of office of each appointive member of the board\nof health of a county or part-county health district, including the\nadditional city representative members shall be six years, and the term\nof one of the members shall expire annually; except that the term of\noffice of the representative member of the board of supervisors shall be\nfor such lesser period as may be required in the event that he does not\ncontinue as a member of the board of supervisors.\n  2. Upon the establishment of a new county or part-county health\ndistrict, the first appointments shall be made for the respective terms\nof six, five, four, three, two and one years.\n  3. Vacancies shall be filled by appointment for the unexpired terms.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

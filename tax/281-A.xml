@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="281-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281_A">
+        <num>281-A</num>
+        <heading>Alternative method of collection</heading>
+        <subsection eId="sec_281_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>An "affiliated clearing corporation"\nshall, if it has a place of business in this state, include a clearing\ncorporation as defined in section 8--102 of the uniform commercial code\nand a clearing corporation affiliated with a national securities\nexchange or association registered with the securities and exchange\ncommission of the United States, and the persons, firms, corporations,\ncompanies or associations by whom taxes may be paid without the use of\nstamps may, in the discretion of the tax commission, include depositors\nin the system maintained by such clearing corporation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_281_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A "qualified securities exchange" shall include any securities\nexchange located outside this state or any national securities\nassociation which is registered with the securities and exchange\ncommission of the United States and which is a participant in an\nintermarket linkage system in which one or more national securities\nexchanges located within this state is a participant of such system.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_281_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A "qualified clearing corporation" shall include a clearing\ncorporation as defined in section 8--102 of the uniform commercial code\nwhich is affiliated with a qualified securities exchange.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

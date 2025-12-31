@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1206"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1206/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1206/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1206">
+        <num>1206</num>
+        <heading>Omnibus operations</heading>
+        <content>
+          <p>  § 1206. Omnibus operations. 1. The authority, as soon as practicable\nand not later than July first, nineteen hundred fifty-five, shall\nprepare a plan for the sale and transfer of omnibus facilities under its\njurisdiction to private ownership. Any such plan shall provide that the\nproceeds of such sale and transfer shall be paid to the city. No such\nplan shall apply or relate to, or have any effect upon, any facilities,\nproperty or franchises, used and usable in the operation of omnibus\nlines, acquired by condemnation under subdivision two of section twenty\nor section twenty-d of the general city law.\n  2. The authority shall have power to take such action and execute such\ninstruments as may be required of it to execute such plan or any\nmodification thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

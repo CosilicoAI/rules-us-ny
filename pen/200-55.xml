@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.55"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200.55"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200_55">
+        <num>200.55</num>
+        <heading>Impairing the integrity of a government licensing examination</heading>
+        <content>
+          <p>§ 200.55 Impairing the integrity of a government licensing examination.\n  A person is guilty of impairing the integrity of a government\nlicensing examination when, with intent to obtain a benefit for himself\nor herself, or for another person, he or she:\n  1. Wrongfully alters or changes an applicant's grade on a government\nlicensing examination; or\n  2. Causes any false or inaccurate grade to be entered into a\ngovernment licensing registry; or\n  3. Provides answers, with an intent to wrongfully benefit another, to\ncurrent questions on a pending government licensing examination; or\n  4. Wrongfully provides a copy of a current test used to determine\ncompetence in a licensed profession, trade, craft or other vocation.\n  Impairing the integrity of a government licensing examination is a\nclass D felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

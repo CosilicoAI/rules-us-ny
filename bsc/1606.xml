@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1606"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1606"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1606"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1606/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1606/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1606/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1606/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1606">
+        <num>1606</num>
+        <heading>Administration</heading>
+        <subsection eId="sec_1606__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>This article shall be administered by the attorney general and\nemployees designated by him within the department of law. The attorney\ngeneral is hereby empowered to promulgate, alter, amend or revoke rules\nand regulations necessary to carry out the purposes of this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1606__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The attorney general may establish fees for the filing of any\nregistration statement, not to exceed two thousand five hundred dollars,\nto recover the costs of administering this article. Such fees may vary\naccording to the maximum consideration payable by the offeror for the\nsecurities which are the subject of the takeover bid.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

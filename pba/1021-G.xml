@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-G"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1021-G"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1021_G">
+        <num>1021-G</num>
+        <heading>Sale of surplus power</heading>
+        <content>
+          <p>  § 1021-g. Sale of surplus power. Whenever any electric power which the\nauthority may acquire creates a surplus over the amount of electric\npower required by the residents of the service area, the authority may\nsell such surplus in territory outside the service area to persons, or\npublic or private corporations. In acquiring any facility or property\nwhich also serves any municipality or territory outside the service\narea, the authority, if it deems it advantageous and economical so to\ndo, may, with the consent of the directors, serve any such municipality\nor territory or sell electric power to persons, or public or private\ncorporations in such territory or to such municipality.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

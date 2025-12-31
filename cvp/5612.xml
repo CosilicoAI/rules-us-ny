@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5612"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5612"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5612"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5612/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5612/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5612/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5612/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5612">
+        <num>5612</num>
+        <heading>Presumptions as to determinations of questions of fact</heading>
+        <subsection eId="sec_5612__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nAppeal from reversal or modification. On an appeal from an order of the\nappellate division reversing, modifying or setting aside a determination\nand rendering a final or interlocutory determination, except when it\nreinstates a verdict, the court of appeals shall presume that questions\nof fact as to which no findings are made in the order or opinion of the\nappellate division were not considered by it, where such findings are\nrequired to be made by paragraph two of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5612__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of rule 5712.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5612__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Appeal on certified questions of law. On an appeal on certified\nquestions of law, the court of appeals shall presume that questions of\nfact as to which no findings are made in the order granting permission\nto appeal or in the order appealed from or in the opinion of the\nappellate division were determined in favor of the party who is\nrespondent in the court of appeals.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

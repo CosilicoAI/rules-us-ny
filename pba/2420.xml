@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2420"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2420"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2420"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2420/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2420/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2420/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2420/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2420">
+        <num>2420</num>
+        <heading>Court proceedings; preferences; venue</heading>
+        <content>
+          <p>  § 2420. Court proceedings; preferences; venue. Any action or\nproceeding to which the agency or the people of the state of New York\nmay be parties, in which any question arises as to the validity of this\nact, shall be preferred over all other civil causes except election\ncauses in all courts of the state of New York and shall be heard and\ndetermined in preference to all other civil business pending therein\nexcept election causes, irrespective of position on the calendar. The\nsame preference shall be granted upon application of counsel to the\nagency in any action or proceeding questioning the validity of this\ntitle in which he may be allowed to intervene. The venue of any such\naction or proceeding shall be laid in the county in which the principal\noffice of the agency is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

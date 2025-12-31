@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-818"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-818"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="818"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-818/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-818/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-818/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-818/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_818">
+        <num>818</num>
+        <heading>Judicial review</heading>
+        <content>
+          <p>  § 818. Judicial review. 1. Any act, omission, or order of the agency\nor of any officer or employee thereof, pursuant to or within the scope\nof this article, may be reviewed at the instance of any aggrieved person\nin accordance with article seventy-eight of the civil practice law and\nrules, but application for such review must be made not later than sixty\ndays from the effective date of the order or the date when the act or\nomission occurred.\n  2. Any local government which appears as a party in any proceeding\nbefore the agency, shall have standing to have the agency's decision on\nsuch project reviewed pursuant to article seventy-eight of the civil\npractice law and rules.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-116"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10-116"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_116">
+        <num>10-116</num>
+        <heading>Military ballots; determination of candidates thereon</heading>
+        <content>
+          <p>  § 10-116. Military ballots; determination of candidates thereon.  The\nstate board of elections and the county boards of elections shall\ndetermine, three days before the first day for distribution of military\nballots, the names of all candidates duly nominated for public office\nand the amendments, referenda, propositions and questions to be voted\nfor on such ballots. If at a later date the nomination of any candidate\nnamed on a military ballot is found invalid, the ballot shall still be\nvalid, but no vote cast for any such candidate on such ballot shall be\ncounted at the election. The failure of the county board of elections to\ninclude the name of any candidate or any amendment, referendum,\nproposition or question on the military ballot shall in no way affect\nthe validity of the election with respect to the office for which the\nnomination was made or the validity of the military ballot as to any\nother matter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

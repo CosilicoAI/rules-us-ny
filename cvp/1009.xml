@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1009"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1009"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1009"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1009/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1009/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1009/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1009/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1009">
+        <num>1009</num>
+        <heading>Claim by plaintiff against third-party defendant</heading>
+        <content>
+          <p>  Rule 1009. Claim by plaintiff against third-party defendant. Within\ntwenty days after service of the answer to the third-party complaint\nupon plaintiff's attorney, the plaintiff may amend his complaint without\nleave of court to assert against the third-party defendant any claim\nplaintiff has against the third-party defendant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

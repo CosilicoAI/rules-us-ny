@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-FFF"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-FFF"/>
+          <FRBRdate date="2024-12-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209-FFF"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-FFF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-FFF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-FFF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-FFF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209_FFF">
+        <num>209-FFF</num>
+        <heading>Provisions relating to a membership date in the New York city police pension fund or the fire department pension fund attributable to ser...</heading>
+        <subsection eId="sec_209_FFF__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>service in the police force or any other\ntype of service counted or creditable as service in the police force\nunder section 13-218 of the administrative code of the city of New York;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_209_FFF__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>service in the fire department of the city of New York or any other\ntype of service counted or creditable as service in such fire department\nunder section 13-318 of the administrative code of the city of New York;\nor</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_209_FFF__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>service under section five hundred thirteen of the retirement and\nsocial security law or any other provision of law for purposes of\neligibility for benefits and to determine the amount of benefits under\nthe New York city police pension fund or the New York city fire\ndepartment pension fund.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

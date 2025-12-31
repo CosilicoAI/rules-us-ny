@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-3-300"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-3-300"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-300"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-3-300/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-3-300/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-3-300/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-3-300/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_300">
+        <num>3-300</num>
+        <heading>Board employees; appointment</heading>
+        <content>
+          <p>  § 3-300. Board employees; appointment. Every board of elections shall\nappoint, and at its pleasure remove, clerks, voting machine technicians,\ncustodians and other employees, fix their number, prescribe their\nduties, fix their titles and rank and establish their salaries within\nthe amounts appropriated therefor by the local legislative body and\nshall secure in the appointment of employees of the board of elections\nequal representation of the major political parties.  Every commissioner\nin each board of elections except for commissioners of the board of\nelections of the city of New York, may approve and at pleasure remove a\ndeputy, establish his title and prescribe his duties. In the city of New\nYork, the board of elections shall appoint an executive director and a\ndeputy executive director whose duties it shall be to supervise the\noperations of the board of elections under the supervision of such\nboard.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

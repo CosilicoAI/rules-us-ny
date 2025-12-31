@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.12"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="570.12"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_570_12">
+        <num>570.12</num>
+        <heading>Extradition of persons imprisoned or awaiting trial in another state</heading>
+        <content>
+          <p>§ 570.12  Extradition of persons imprisoned or awaiting trial in another\n             state.\n  When it is desired to have returned to this state a person charged in\nthis state with a crime and such person is imprisoned or is held under\ncriminal proceedings then pending against him in another state, the\ngovernor of this state may agree with the executive authority of such\nother state for the extradition of such person before the conclusion of\nhis term of sentence in such other state, upon condition that such\nperson be returned to such other state at the expense of this state as\nsoon as the prosecution in this state is terminated.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

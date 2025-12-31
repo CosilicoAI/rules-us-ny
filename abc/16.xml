@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-16"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-16"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-16/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-16/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-16/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-16/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16">
+        <num>16</num>
+        <heading>Disqualification of members and employees of authority</heading>
+        <content>
+          <p>  § 16. Disqualification of members and employees of authority.  No\nmember of the authority or any officer, deputy, assistant, inspector or\nemployee thereof shall have any interest, direct or indirect, either\nproprietary or by means of any loan, mortgage or lien, or in any other\nmanner, in or on any premises where alcoholic beverages are manufactured\nor sold; nor shall he have any interest, direct or indirect, in any\nbusiness wholly or partially devoted to the manufacture, sale,\ntransportation or storage of alcoholic beverages, or own any stock in\nany corporation which has any interest, proprietary or otherwise, direct\nor indirect, in any premises where alcoholic beverages are manufactured\nor sold, or in any business wholly or partially devoted to the\nmanufacture, sale, transportation or storage of alcoholic beverages, or\nreceive any commission or profit whatsoever, direct or indirect, from\nany person applying for or receiving any license or permit provided for\nin this chapter, or hold any other public office in the state or in any\npolitical subdivision except upon the written permission of the liquor\nauthority, such member of the authority or officer, deputy, assistant,\ninspector or employee thereof may hold the public office of notary\npublic or member of a community board of education in the city school\ndistrict of the city of New York. Any one who violates any of the\nprovisions of this section shall be removed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

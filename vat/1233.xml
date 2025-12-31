@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1233"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1233"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1233"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1233/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1233/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1233/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1233/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1233">
+        <num>1233</num>
+        <heading>Clinging to vehicles</heading>
+        <subsection eId="sec_1233__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>vehicles in an emergency operation as defined in section one\nhundred fourteen-b of this chapter; and\n  (ii) farm type tractors used exclusively for agricultural purposes or\nother farm equipment; and\n  (iii) riding on the open, uncovered cargo area of a truck with the\npermission of the operator of such truck; and\n  (iv) vehicles employed by a municipality for local garbage collection;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1233__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>vehicles participating in a parade pursuant to a municipal permit.\n  3. No vehicle operator shall knowingly permit any person to attach any\ndevice or himself to such operator's vehicle in violation of subdivision\none or subdivision two of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

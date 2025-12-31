@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-312.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-312.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="312.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-312.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-312.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-312.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-312.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_312_1">
+        <num>312.1</num>
+        <heading>Issuance and service of summons</heading>
+        <content>
+          <p>  § 312.1. Issuance and service of summons. 1. After a petition has been\nfiled, the court may cause a copy thereof and a summons to be issued,\nrequiring the respondent personally and his parent or other person\nlegally responsible for his care, or, if such legally responsible person\nis not available, a person with whom he resides, to appear for the\ninitial appearance as defined by section 320.1 at a time and place\nnamed. The summons shall be signed by a judge or by the clerk of the\ncourt.\n  2. Service of a summons and petition shall be made by delivery of a\ntrue copy thereof to the person summoned at least twenty-four hours\nbefore the time stated therein for appearance.\n  3. If after reasonable effort, personal service as provided in\nsubdivision two is not made, the court may at any stage in the\nproceedings make an order providing for service in any manner the court\ndirects.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

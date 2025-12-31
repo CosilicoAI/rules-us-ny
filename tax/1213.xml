@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1213"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1213"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1213">
+        <num>1213</num>
+        <heading>Deliveries outside the jurisdiction where sale is made</heading>
+        <subsection eId="sec_1213__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of section eleven hundred five of this chapter,\nincluding an agreement therefor, is made in any city, county or school\ndistrict, but the property sold, the property upon which the services\nwere performed or prepaid telephone calling or other service is or will\nbe delivered to the purchaser elsewhere, such sale shall not be subject\nto tax by such city, county or school district. However, if delivery\noccurs or will occur in a city, county or school district imposing a tax\non the sale or use of such property, prepaid telephone calling or other\nservices, the vendor shall be required to collect from the purchaser, as\nprovided in section twelve hundred fifty-four of this article, the\naggregate sales or compensating use taxes imposed by the city, if any,\ncounty and school district in which delivery occurs or will occur, for\ndistribution by the commissioner to such taxing jurisdiction or\njurisdictions. For the purposes of this section delivery shall be deemed\nto include transfer of possession to the purchaser and the receiving of\nthe property or of the service, including prepaid telephone calling\nservice, by the purchaser. Notwithstanding the foregoing, where a\ntransportation service described in paragraph ten of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1213__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of\nsection eleven hundred five of this chapter begins in one jurisdiction\nbut ends in another jurisdiction, any tax imposed pursuant to the\nauthority of this article shall be due the jurisdiction or jurisdictions\nwhere the service commenced.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

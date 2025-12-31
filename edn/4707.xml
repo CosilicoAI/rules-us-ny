@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4707"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4707"/>
+          <FRBRdate date="2022-05-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4707"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4707/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4707/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4707/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4707/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4707">
+        <num>4707</num>
+        <heading>Children admitted to such school</heading>
+        <content>
+          <p>  § 4707. Children admitted to such school. Children not more than\neighteen nor less than eight years of age may be admitted to or received\nin such school, either (1) upon the application of the parents or\nguardians having the legal custody or control of such children,\naccompanied by the written consent of such parents or guardians, or (2)\nupon commitment thereto as truants or (3) upon commitment thereto as\njuvenile delinquents as provided by law, provided that children\nconvicted of crime shall not be committed to such school. Children who\nhave no homes or who are without proper parental control or who are\nunder improper guardianship may be sent to and received in such school,\nin the same manner and under the same authority as in case of other\nchildren who are improperly provided for at home.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

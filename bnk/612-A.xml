@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-612-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-612-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="612-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-612-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-612-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-612-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-612-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_612_A">
+        <num>612-A</num>
+        <heading>Payment of wages</heading>
+        <content>
+          <p>  § 612-a.  Payment of wages. All wages actually owing to the employees\nof a banking organization in the possession of the superintendent for\nservices rendered within three months prior to the date when possession\nwas taken, not exceeding two thousand dollars to each employee, shall be\npaid prior to the payment of every other debt or claim, and in the\ndiscretion of the superintendent may be paid as soon as practicable\nafter taking possession, except that at all times the superintendent\nshall reserve such funds as will in his opinion be sufficient for the\nexpenses of administration.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

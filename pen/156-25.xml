@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.25"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.25"/>
+          <FRBRdate date="2022-03-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="156.25"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_25">
+        <num>156.25</num>
+        <heading>Computer tampering in the third degree</heading>
+        <content>
+          <p>§ 156.25 Computer tampering in the third degree.\n  A person is guilty of computer tampering in the third degree when he\ncommits the crime of computer tampering in the fourth degree and:\n  1. he does so with an intent to commit or attempt to commit or further\nthe commission of any felony; or\n  2. he has been previously convicted of any crime under this article or\nsubdivision eleven of section 165.15 of this chapter; or\n  3. he intentionally alters in any manner or destroys computer\nmaterial; or\n  4. he intentionally alters in any manner or destroys computer data or\na computer program so as to cause damages in an aggregate amount\nexceeding one thousand dollars; or\n  5. he intentionally enters or alters in any manner or destroys\ncomputer material indicating that a person did or did not receive a\nvaccination against COVID-19.\n  Computer tampering in the third degree is a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

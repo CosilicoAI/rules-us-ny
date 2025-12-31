@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="214"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214">
+        <num>214</num>
+        <heading>Guaranty established</heading>
+        <content>
+          <p>  § 214. Guaranty established.  1. No dealer shall be prosecuted under\nthe provisions of this article when he can establish a guaranty signed\nby the wholesaler, jobber, manufacturer or other party residing or\nhaving a place of business within the state from whom he purchased the\narticles to the effect that the same are not adulterated or misbranded\nwithin the meaning of this article. Said guaranty to afford protection\nshall contain the name and address of the guarantor and in such case the\nguarantor shall be amenable to the prosecutions, fines and other\npenalties which would attach in due course to the dealer under the\nprovisions of this article.\n  2. It shall be the duty of the commissioner immediately upon the\ndiscovery of evidence that any article of food is adulterated or\nmisbranded within the meaning of this chapter, to notify in writing the\ndealer selling the same and no guaranty shall exempt any dealer from\nprosecution if he shall continue to sell such article after having\nreceived such written notice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

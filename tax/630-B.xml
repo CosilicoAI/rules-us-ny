@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-B"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="630-B"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_630_B">
+        <num>630-B</num>
+        <heading>Gift for volunteer firefighting and volunteer emergency services fund</heading>
+        <content>
+          <p>  § 630-b. Gift for volunteer firefighting and volunteer emergency\nservices fund. An individual in any taxable year may elect to contribute\nto the volunteer firefighting and volunteer emergency services fund for\nthe recruitment and retention of volunteer firefighters and volunteer\nemergency services personnel. The contribution shall be in any whole\ndollar amount and shall not reduce the amount of state tax owed by such\nindividual. The commissioner shall include space on the personal income\ntax return to enable a taxpayer to make such contribution.\nNotwithstanding any other provision of law all revenues collected\npursuant to this section shall be credited to the volunteer firefighting\nand volunteer emergency services recruitment and retention fund and used\nonly for those purposes enumerated in section ninety-nine-q of the state\nfinance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

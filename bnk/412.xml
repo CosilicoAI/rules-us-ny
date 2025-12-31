@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-412"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-412"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="412"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-412/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-412/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-412/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-412/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_412">
+        <num>412</num>
+        <heading>Conversion of federal savings institutions to state charter</heading>
+        <content>
+          <p>  § 412. Conversion of federal savings institutions to state charter.\nThe superintendent is authorized to promulgate such regulations as are\nnecessary to permit the conversion of any federal savings association or\nfederal savings and loan association to state charter where such\nconversion is not otherwise governed by the provisions of this chapter.\nSubject to the foregoing, such regulations may provide for the\nconversion of a federal savings association or federal savings and loan\nassociation, whether in mutual or stock form, into a state-chartered\nsavings bank or state-chartered savings and loan association. The\nfederal savings association shall submit a written plan of conversion to\nthe superintendent, together with an investigation fee as prescribed\npursuant to section eighteen-a of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1198-Q"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1198-Q"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1198-Q"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1198-Q/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1198-Q/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1198-Q/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1198-Q/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1198_Q">
+        <num>1198-Q</num>
+        <heading>Construction and purchase contracts</heading>
+        <content>
+          <p>  § 1198-q. Construction and purchase contracts. The authority shall let\ncontracts for construction or purchase of supplies, materials, or\nequipment pursuant to sections one hundred one and one hundred three of\nthe general municipal law. Nothing in this section shall be construed to\nlimit the power of the authority to do any construction directly by the\nofficers, agents and employees of the authority or to contract with a\npublic utility, for a term not to exceed five years, for the operation\nand maintenance of a water supply system acquired from said public\nutility.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

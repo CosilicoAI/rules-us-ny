@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-H"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-H"/>
+          <FRBRdate date="2018-10-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343-H"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_H">
+        <num>343-H</num>
+        <heading>Portion of the state highway system to be designated as the "POW-MIA Memorial Highway"</heading>
+        <content>
+          <p>  § 343-h. Portion of the state highway system to be designated as the\n"POW-MIA Memorial Highway". All that portion of the state highway system\nlocated in Richmond county constituting route 278 from the Goethals\nbridge to the Verrazzano-Narrows bridge (Staten Island Expressway) shall\nbe designated and known as the "POW-MIA Memorial Highway".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

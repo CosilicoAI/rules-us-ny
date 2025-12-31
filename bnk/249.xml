@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-249"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-249"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="249"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-249/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-249/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-249/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-249/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_249">
+        <num>249</num>
+        <heading>Compensation of trustees and officers</heading>
+        <subsection eId="sec_249__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>attendance at meetings\nof the board of trustees;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_249__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>service as an officer of the savings bank,\nprovided his duties as officer require and receive his regular and\nfaithful attendance at the savings bank;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_249__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>service in appraising real\nproperty for the savings bank; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_249__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>service as a member of a\ncommittee of the board of trustees.\n  3. An attorney for a savings bank, although he be a trustee thereof,\nmay receive a reasonable compensation for his professional services,\nincluding examinations and certificates of title to real property on\nwhich mortgage loans are made by the savings bank; or if the savings\nbank requires the borrowers to pay all expenses of searches,\nexaminations and certificates of title, including the drawing,\nperfecting and recording of papers, such attorney may collect of the\nborrower and retain for his own use the usual fees for such services,\nexcepting any commissions as broker or on account of placing or\naccepting such mortgage loans.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-304"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-304"/>
+          <FRBRdate date="2023-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-304/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-304/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304">
+        <num>304</num>
+        <heading>Statutory designation of secretary of state as agent for service of process</heading>
+        <subsection eId="sec_304__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The secretary of state shall be the agent of every domestic\ncorporation and every authorized foreign corporation upon whom process\nagainst the corporation may be served.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No domestic or foreign corporation may be formed or authorized to\ndo business in this state under this chapter unless in its certificate\nof incorporation or application for authority it designates the\nsecretary of state as such agent.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any designation by a domestic or a foreign corporation of the\nsecretary of state as such agent, which designation is in effect on the\neffective date of this chapter, shall continue. Every domestic or\nforeign corporation, existing or authorized on the effective date of\nthis chapter, which has not designated the secretary of state as such\nagent, shall be deemed to have done so. Any designation prior to the\neffective date of this chapter by a foreign corporation of an agent\nother than the secretary of state shall terminate on the effective date\nof this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Any designated post office address to which the secretary of state\nshall mail a copy of process served upon him or her as agent of a\ndomestic corporation or a foreign corporation, shall continue until the\nfiling of a certificate or other instrument under this chapter directing\nthe mailing to a different post office address and any designated email\naddress to which the secretary of state shall email notice of the fact\nthat process has been electronically served upon him or her as agent of\na domestic corporation or foreign corporation shall continue until the\nfiling of a certificate or other instrument under this chapter changing\nor deleting the email address.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

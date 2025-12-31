@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1223"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1223">
+        <num>1223</num>
+        <heading>Lights on vehicles used for transportation of passengers</heading>
+        <content>
+          <p>  § 1223. Lights on vehicles used for transportation of passengers.\nUnless otherwise governed by the provisions of this chapter, every\nvehicle used for the transportation of ten or more passengers upon the\npublic highways, such as for picnics, hayrides and sleigh rides, shall,\nduring the period from one-half hour after sunset to one-half hour\nbefore sunrise, display at least two lighted lamps on the front, one on\neach side, having light sources of equal power, which shall be visible\nfor a distance of at least five hundred feet ahead of the vehicle and\nwhich shall project either white or yellow light, and at least two\nlighted lamps on the rear, one on each side, having light sources of\nequal power, which shall be visible for a distance of at least five\nhundred feet behind the vehicle and which shall project red light.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-242"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-242"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="242"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-242/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-242/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-242/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-242/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_242">
+        <num>242</num>
+        <heading>Power of commissioner to investigate</heading>
+        <content>
+          <p>  § 242. Power of commissioner to investigate. The commissioner shall\nhave power to investigate any transaction in connection with the\noperation of any refrigerated warehouse or locker plant, and may examine\nthe records of any person or corporation applying for or holding a\nlicense; but information relating to the general business of the\napplicant or licensee which may be disclosed by such investigation, and\nwhich is not related to the immediate purpose thereof, shall be deemed\nof a confidential nature by the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-616"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-616"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="616"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-616/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-616/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-616/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-616/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_616">
+        <num>616</num>
+        <heading>Inventory of assets; where filed</heading>
+        <content>
+          <p>  § 616. Inventory of assets; where filed.  After the superintendent\nshall have taken possession of and shall have determined to liquidate\nthe property and business of any banking organization, he shall make in\nduplicate an inventory of the assets of such banking organization. He\nshall file one copy of such inventory in his office and shall cause one\ncopy to be filed with the supreme court in the judicial district in\nwhich the principal office of such banking organization is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

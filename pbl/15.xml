@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-15"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15">
+        <num>15</num>
+        <heading>Prohibitions as to grants in Lake George</heading>
+        <content>
+          <p>  § 15. Prohibitions as to grants in Lake George.  1. No grant or lease\nof any of the islands in Lake George, or of any land upon any of such\nislands, shall be made by the commissioner of general services.\n  2. No grant or lease of any lands under water in Lake George shall be\nmade by the commissioner unless the conservation department of the state\nof New York shall, prior to the issuance of any such grant or lease,\nadvise the commissioner, in writing, that such grant or lease, if made,\nwill not result in a hazard to navigation, impair the scenic beauty of\nLake George or otherwise interfere with the use and enjoyment of Lake\nGeorge and its facilities by the people of the state. To assist the\ndepartment in making its determination, the department may hold a public\nhearing at such time and place as it shall determine for the purpose of\nreceiving testimony and evidence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

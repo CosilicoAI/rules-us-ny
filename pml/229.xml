@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-229"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-229"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="229"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-229/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-229/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-229/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-229/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_229">
+        <num>229</num>
+        <heading>Backstretch employees drug and alcohol rehabilitation eligibility</heading>
+        <content>
+          <p>  § 229. Backstretch employees drug and alcohol rehabilitation\neligibility. Any licensed not-for-profit organization providing drug and\nalcohol rehabilitation services to backstretch employees shall receive\ninformation concerning available funding and existing programs from a\ncoordinated effort of the commission and division of substance abuse\nservices.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

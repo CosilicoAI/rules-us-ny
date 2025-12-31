@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-835"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-835"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="835"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-835/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-835/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-835/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-835/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_835">
+        <num>835</num>
+        <heading>Sequence of hearings</heading>
+        <subsection eId="sec_835__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Upon completion of the fact-finding\nhearing, the dispositional hearing may commence immediately after the\nrequired findings are made.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_835__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Reports prepared by the probation service for use by the court at\nany time prior to the making of an order of disposition shall be deemed\nconfidential information furnished to the court which the court in a\nproper case may, in its discretion, withhold from or disclose in whole\nor in part to the child's attorney, counsel, party in interest, or other\nappropriate person. Such reports may not be furnished to the court prior\nto the completion of a fact-finding hearing, but may be used in a\ndispositional hearing.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

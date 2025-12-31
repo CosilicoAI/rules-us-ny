@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-6.6"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-6.6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-6.6"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-6.6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-6.6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-6.6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-6.6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_6_6">
+        <num>6-6.6</num>
+        <heading>Effect and construction of part</heading>
+        <content>
+          <p>§ 6-6.6 Effect and construction of part\n  This part does not effect rights of creditors nor prevent married\npersons from severing or altering their interests in property nor\nauthorize testamentary dispositions of property otherwise limited or\nprohibited by law, and shall be so applied and construed as to\neffectuate its general purpose to make uniform the law with respect to\nthe subject of this part among those states which enact similar\nlegislation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

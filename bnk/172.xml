@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-172"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-172"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="172"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-172/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-172/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_172">
+        <num>172</num>
+        <heading>Restrictions on investments</heading>
+        <content>
+          <p>  § 172. Restrictions on investments. 1. Every private banker may,\nsubject to the limitations and restrictions contained in this article,\nmake such investments of funds held by him as a private banker in real\nor personal securities, or personal property, as are consistent with\nsafety and prudence of management.\n  2. No private banker shall appropriate to his own use or lend to any\nperson with whom he is associated as a partner, or invest in any\nbusiness conducted by a partnership of which he is a member, any funds\nheld by him as a private banker.\n  3. No private banker shall, after June thirtieth, nineteen hundred\nthirty-eight, make with funds held by him as a private banker any loan\nto, or investment in the capital stock of, any corporation of which\nfifty per centum of the capital stock is owned or controlled directly or\nindirectly, or as a result of any such investment would be so owned or\ncontrolled by such private banker, as a private banker and as an\nindividual, or if such private banker is a partnership, by such\npartnership and the individual members thereof, if as a result thereof\nthe total amount of outstanding loans and investments so made after such\ndate will exceed ten per centum of his permanent capital with respect to\nany one such corporation, or will exceed twenty-five per centum of his\npermanent capital with respect to all such corporations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-V"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-V"/>
+          <FRBRdate date="2022-07-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1262-V"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-V/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-V/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-V/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-V/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1262_V">
+        <num>1262-V</num>
+        <heading>Allocation of net collections from the additional one percent rate of sales and compensating use taxes in the county of St</heading>
+        <content>
+          <p>  § 1262-v. Allocation of net collections from the additional one\npercent rate of sales and compensating use taxes in the county of St.\nLawrence.  Notwithstanding any contrary provision of law, one-half of\nthe net collections received by the county of St. Lawrence from within\nthe boundaries of the city of Ogdensburg from the one percent sales and\ncompensating use taxes in addition to the three percent rate, each as\nauthorized by section twelve hundred ten of this article, shall be\nallocated and distributed and paid in cash quarterly by such county to\nthe city of Ogdensburg.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

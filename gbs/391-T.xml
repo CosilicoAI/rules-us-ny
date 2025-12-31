@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-T"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-T"/>
+          <FRBRdate date="2016-03-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="391-T"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_T">
+        <num>391-T</num>
+        <heading>Sale of small animals; instructions on care</heading>
+        <subsection eId="sec_391_T__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>include\ngenerally accepted information intended for an inexperienced pet owner\non housing, equipment, sanitation, environment, feeding and watering,\nhandling, and veterinary care; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_391_T__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>have been created or published by\na reliable source including but not limited to: a state or national\nprofessional veterinary association; an association established for the\npreservation and care of any such small animal; or an association\nrepresenting pet retailers.\n  4. All retailers that sell small animals to the public shall maintain\na copy of the written care recommendations for each class of small\nanimal they sell, which shall be available for inspection by the\ndepartment of agriculture and markets.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

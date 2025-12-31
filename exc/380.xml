@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-380"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-380"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-380/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-380/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-380/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-380/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380">
+        <num>380</num>
+        <heading>Granting authority</heading>
+        <content>
+          <p>  § 380. Granting authority. The secretary shall administer a program of\nlocal assistance to aid local governments in the administration and\nenforcement of locally adopted or state promulgated building and fire\ncodes. Said program of local assistance shall conform to the\nrequirements of section fifty-four-g of the state finance law. The\nsecretary shall adopt, amend and rescind such rules, regulations and\nguidelines as may be necessary for the performance of his or her\nfunctions, powers and duties under this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

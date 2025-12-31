@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-94"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-94"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="94"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-94/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-94/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_94">
+        <num>94</num>
+        <heading>Trucking permit</heading>
+        <content>
+          <p>  § 94. Trucking permit. 1. No vehicle shall be used in this state for\nthe trucking or transportation of any alcoholic beverage unless such\nvehicle shall be registered with the liquor authority by a permit issued\nby it and shall have affixed thereto a sign to be approved by the liquor\nauthority, containing the registration number of such vehicle. In lieu\nof such sign a vehicle may have in its cab a photostatic copy of its\ncurrent permit issued by the Authority. This provision shall not apply\nto vehicles owned or hired and operated by a licensee.\n  2. Such permit shall be issued for the calendar year, and may cover\none or more trucks and in cities having a population of one million or\nless to duly licensed taxicabs used to deliver only wine or liquor sold\nat retail and the fee therefor shall be at the rate of fifty-one dollars\nper truck or such duly licensed taxicab per year.\n  2-a. In lieu of such permits, the liquor authority may issue a fleet\npermit for an annual fee of sixty-four hundred dollars. Such fleet\npermit shall cover any and all vehicles owned or hired, and operated, by\nsuch permittee. In lieu of the sign required to be affixed to each\nvehicle pursuant to subdivision one of this section, the holder of a\nfleet permit may have in the cab of such vehicle a photostatic copy of\nits current fleet permit issued by the authority.\n  2-b. In lieu of such permits, the liquor authority may issue a company\npermit to a licensed manufacturer or wholesaler licensed pursuant to\nsection fifty-three of this chapter for an annual fee of sixty-four\nhundred dollars. Such company permit shall cover any and all vehicles\nover sixty-five thousand pounds hired or contracted for a term by such\npermittee. In lieu of the sign required to be affixed to each vehicle\npursuant to subdivision one of this section, the holder of the company\npermit may have in the cab of such hired or contracted vehicle a\nphotostatic copy, noting the time and date alcoholic beverages departed\nthe company and its intended delivery time and date of destination of\nits company permit issued by the authority.\n  3. If such application is made after July first in any one year, the\nfee shall be one-half of the annual fee herein provided for.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

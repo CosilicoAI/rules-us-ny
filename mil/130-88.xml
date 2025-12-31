@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.88"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.88"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.88"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.88/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.88/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.88/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.88/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_88">
+        <num>130.88</num>
+        <heading>Failure to obey order or regulations</heading>
+        <content>
+          <p>  § 130.88. Failure to obey order or regulations. Any person subject to\nthis code who--\n  (1) violates or fails to obey any lawful general order or regulation;\nor\n  (2) having knowledge of any other lawful order issued by a member of\nthe armed forces, which it is his duty to obey, fails to obey the same;\nor\n  (3) is derelict in the performance of his duties;\nshall be punished as a court-martial may direct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-29"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-29"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="29"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-29/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-29/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-29/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-29/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29">
+        <num>29</num>
+        <heading>Procedure for issuing safety and health rules</heading>
+        <content>
+          <p>  § 29. Procedure for issuing safety and health rules. Before any rule\nis adopted, amended or repealed there shall be a public hearing thereon,\nnotice of which shall be published at least once, not less than ten days\nprior thereto, in such newspaper or newspapers as the commissioner may\nprescribe.  The commissioner may appoint committees composed of\nemployers, employees and experts to suggest rules or changes therein.\nEvery rule adopted and every amendment or repeal thereof shall be\npromptly published in such newspaper or newspapers as the commissioner\nmay prescribe. The rules and all amendments and repeals thereof shall,\nunless otherwise prescribed by the commissioner, take effect twenty days\nafter the first publication thereof and certified copies thereof shall\nbe filed in the office of the department of state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

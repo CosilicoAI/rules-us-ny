@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-62"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-62"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="62"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-62/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-62/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-62/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_62">
+        <num>62</num>
+        <heading>Coloring matter, dairy terms, size of package, labeling, false advertising</heading>
+        <subsection eId="sec_62__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the word\n"oleomargarine" or "margarine" in type or lettering at least as large as\nany lettering on such label,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_62__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a statement of the net weight of the\ncontents of the package, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_62__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a full and accurate statement of the\ningredients contained in such substance, and\n</p>
+          </content>
+          <paragraph eId="sec_62__subsec_c__subsec_4">
+            <num>(4)</num>
+            <content>
+              <p>each part of the contents of the package is contained in a wrapper\nwhich bears the words "oleomargarine" or "margarine" in type or\nlettering not smaller than twenty point type.\nNo person, firm, association or corporation shall, in connection or\nassociation with the sale or exposure for sale, advertisement, or on the\npackage, of any substance designed to be used as a substitute for\nbutter, represent or suggest by any means whatever that such substance\nis a dairy product, except that nothing herein contained shall prevent\nan accurate statement of any of the ingredients contained in such\nsubstance.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1130"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1130"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1130"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1130/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1130/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1130/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1130/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1130">
+        <num>1130</num>
+        <heading>Divided and controlled-access highways</heading>
+        <content>
+          <p>  § 1130. Divided and controlled-access highways. 1. Whenever any\nhighway has been divided into two or more roadways by leaving an\nintervening space or by a physical barrier or clearly indicated dividing\nsection so constructed as to impede vehicular traffic, every vehicle\nshall be driven only upon the right-hand roadway unless directed or\npermitted to use another roadway by official traffic-control devices or\npolice officers. No vehicle shall be driven over, across, or within any\nsuch dividing space, barrier, or section, except through an opening in\nsuch physical barrier or dividing section or space or at a crossover or\nintersection, as established, unless specifically authorized by public\nauthority.\n  2. No person shall drive a motor vehicle or motorcycle onto or from\nany controlled-access highway except at the established entrances and\nexits thereof unless directed or permitted to use another entrance or\nexit by official traffic-control devices or police officers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

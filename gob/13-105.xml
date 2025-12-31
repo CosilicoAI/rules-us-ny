@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-13-105"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-13-105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-105"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-13-105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-13-105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-13-105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-13-105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_105">
+        <num>13-105</num>
+        <heading>Effect of transfer of claim or demand</heading>
+        <content>
+          <p>  § 13-105. Effect of transfer of claim or demand. Where a claim or\ndemand can be transferred, the transfer thereof passes an interest,\nwhich the transferee may enforce by an action or special proceeding, or\ninterpose as a defense or counter-claim, in his own name, as the\ntransferrer might have done; subject to any defense or counter-claim,\nexisting against the transferrer, before notice of the transfer, or\nagainst the transferee. But this section does not apply, where the\nrights or liabilities of a party to a claim or demand, which is\ntransferred, are regulated by special provision of law; nor does it vary\nthe rights or liabilities of a party to a negotiable instrument, which\nis transferred.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

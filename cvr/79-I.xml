@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-I"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79-I"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_I">
+        <num>79-I</num>
+        <heading>Discrimination against person who refuses to perform certain act prohibited</heading>
+        <content>
+          <p>  § 79-i. Discrimination against person who refuses to perform certain\nact prohibited. 1. When the performing of an abortion on a human being\nor assisting thereat is contrary to the conscience or religious beliefs\nof any person, he may refuse to perform or assist in such abortion by\nfiling a prior written refusal setting forth the reasons therefor with\nthe appropriate and responsible hospital, person, firm, corporation or\nassociation, and no such hospital, person, firm, corporation or\nassociation shall discriminate against the person so refusing to act.\n  A violation of the provisions of this section shall constitute a\nmisdemeanor.\n  2. No civil action for negligence or malpractice shall be maintained\nagainst a person so refusing to act based on such refusal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

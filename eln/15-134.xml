@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-134"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-134"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-134"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-134/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-134/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-134/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-134/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_134">
+        <num>15-134</num>
+        <heading>Failure to designate terms</heading>
+        <content>
+          <p>  § 15-134. Failure to designate terms. No election of village officers,\nheld in any village, shall be invalid on account of the failure of the\nelectors to designate in their ballots the respective terms of office of\npersons to be elected thereat, for the same office, for different terms;\nbut the persons so to be elected to such office, who are eligible and\nreceive the highest number of votes, shall be elected. The person first\nnamed on a ballot containing the names of more than one person for such\nan office, and not designating their respective terms, shall be deemed\ndesignated for the longest term, the second, for the next longest term,\nand so on to the end; and the inspectors of election shall count the\nballots and certify the result accordingly.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

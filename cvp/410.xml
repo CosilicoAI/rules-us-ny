@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-410"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-410"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="410"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-410/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-410/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-410/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-410/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_410">
+        <num>410</num>
+        <heading>Trial</heading>
+        <content>
+          <p>  § 410. Trial. If triable issues of fact are raised they shall be tried\nforthwith and the court shall make a final determination thereon. If\nissues are triable of right by jury, the court shall give the parties an\nopportunity to demand a jury trial of such issues. Failure to make such\ndemand within the time limited by the court, or, if no such time is\nlimited, before trial begins, shall be deemed a waiver of the right to\ntrial by jury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

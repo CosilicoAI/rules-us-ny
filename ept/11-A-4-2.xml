@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.2"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-4.2"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_4_2">
+        <num>11-A-4.2</num>
+        <heading>Distribution from trust or estate</heading>
+        <content>
+          <p>§ 11-A-4.2 Distribution from trust or estate\n  A trustee shall allocate to income an amount received as a\ndistribution of income from a trust or an estate in which the trust has\nan interest other than a purchased interest, and shall allocate to\nprincipal an amount received as a distribution of principal from such a\ntrust or estate. If a trustee purchases an interest in a trust that is\nan investment entity, or a decedent or donor transfers an interest in\nsuch a trust to a trustee, 11-A-4.1 or 11-A-4.15 applies to a receipt\nfrom the trust.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0701"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0701"/>
+          <FRBRdate date="2023-08-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="58-0701"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_0701">
+        <num>58-0701</num>
+        <heading>Allocation of moneys</heading>
+        <content>
+          <p>§ 58-0701. Allocation of moneys.\n  Of the moneys received by the state from the sale of bonds pursuant to\nthe environmental bond act of 2022, up to one billion five hundred\nmillion dollars ($1,500,000,000) shall be made available for\ndisbursements for climate change mitigation projects developed pursuant\nto section 58-0703 of this title. Not less than four hundred million\ndollars ($400,000,000) of this amount shall be available for green\nbuildings projects, not less than one hundred million dollars\n($100,000,000) for climate adaptation and mitigation projects pursuant\nto paragraph c of subdivision one of section 58-0703 of this title, not\nless than two hundred million dollars ($200,000,000) shall be available\nfor disbursement to reduce or eliminate water pollution or air pollution\naffecting disadvantaged communities pursuant to paragraphs f and g of\nsubdivision one of section 58-0703 of this title, and not less than five\nhundred million dollars ($500,000,000) for costs associated with the\npurchase of or conversion to zero emission school buses and supporting\ninfrastructure as set forth in paragraph h of subdivision one of section\n58-0703 of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-754"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-754"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="754"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-754/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-754/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-754/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-754/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_754">
+        <num>754</num>
+        <heading>Public hearings on proposed joint consolidation agreement</heading>
+        <subsection eId="sec_754__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>cause a copy of the amended version of the proposed joint\nconsolidation agreement, along with a descriptive summary thereof, to be\ndisplayed and readily accessible to the public for inspection in a\npublic place or places within each entity; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_754__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>cause the amended version of the proposed joint consolidation\nagreement, along with a descriptive summary thereof and a reference to\nthe public place or places within each such entity where a copy thereof\nmay be examined, to be displayed on a website maintained by each entity\nor otherwise on a website maintained by the village, town and/or county\nin which the entities are located.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

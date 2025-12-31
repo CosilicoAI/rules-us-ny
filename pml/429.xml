@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-429"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-429"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="429"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-429/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-429/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-429/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-429/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_429">
+        <num>429</num>
+        <heading>Quarter horse racing defined</heading>
+        <content>
+          <p>  § 429. Quarter horse racing defined. The term "quarter horse racing",\nas used in this article, shall be construed to mean only horse racing in\nwhich the horses participating are mounted by a jockey and are\nregistered by the American Quarter Horse Association.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

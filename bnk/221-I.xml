@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-I"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="221-I"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221_I">
+        <num>221-I</num>
+        <heading>Notice of acquisition of control or merger</heading>
+        <content>
+          <p>  § 221-i. Notice of acquisition of control or merger. 1.  A foreign\nbanking corporation licensed pursuant to this article to maintain a\nrepresentative office in this state shall file with the superintendent a\nnotice, in such form and containing such information as the\nsuperintendent may prescribe, no later than fourteen calendar days after\nsuch foreign banking corporation becomes aware of any acquisition of\ncontrol of such corporation or merges with another foreign banking\ncorporation.\n  2. Control, for purposes of this section, means any person or entity,\nor group of persons or entities acting in concert, directly or\nindirectly, owning, controlling, or holding with power to vote,\ntwenty-five percent or more of any class of voting stock of such foreign\nbanking corporation, or having the ability in any manner to elect a\nmajority of the directors of such foreign banking corporation, or\notherwise exercising a controlling influence over the management and\npolicies of such foreign banking corporation as defined by the\nsuperintendent by regulation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

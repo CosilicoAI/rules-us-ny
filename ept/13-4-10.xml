@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-4.10"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-4.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-4.10"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-4.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-4.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-4.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-4.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_4_10">
+        <num>13-4.10</num>
+        <heading>Terms, conditions, and forms</heading>
+        <subsection eId="sec_13_4_10__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A registering entity offering to accept registrations in\nbeneficiary form may establish the terms and conditions under which it\nwill receive requests</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_4_10__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>for registrations in beneficiary form, and\n(ii) for implementation of registration in beneficiary form, including\nrequests for cancellation of previously registered TOD beneficiary\ndesignations and requests for reregistration to effect a change of\nbeneficiary. The terms and conditions so established may provide for\nproving death, avoiding or resolving any problems concerning fractional\nshares, designating primary and contingent beneficiaries, and\nsubstituting a named beneficiary's descendants to take in the place of\nthe named beneficiary in the event of the beneficiary's death.\nSubstitution may be indicated by appending to the name of the primary\nbeneficiary in letters LDPS, standing for "lineal descendants per\nstirpes", or in letters LDPR, standing for "lineal descendants by\nrepresentation". This designation substitutes a deceased beneficiary's\ndescendants who survive the owner for a beneficiary who fails to so\nsurvive, the descendants to be identified and to share in accordance\nwith the law of the beneficiary's domicile at the owner's death\ngoverning inheritance by descendants of an intestate. Other forms of\nidentifying beneficiaries who are to take on one or more contingencies,\nand rules for providing proofs and assurances needed to satisfy\nreasonable concerns by registering entities regarding conditions and\nidentities relevant to accurate implementation of registrations in\nbeneficiary form, may be contained in a registering entity's terms and\nconditions.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_4_10__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The following are illustrations of registrations in beneficiary\nform which a registering entity may authorize:\n</p>
+          </content>
+          <paragraph eId="sec_13_4_10__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>Sole owner-sole beneficiary: John S Brown TOD (or POD) John S\nBrown Jr.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_13_4_10__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>Multiple owners-sole beneficiary: John S Brown Mary B Brown JT TEN\nTOD John S Brown Jr.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_13_4_10__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>Multiple owners-primary and secondary (substituted) beneficiaries:\nJohn S Brown Mary B Brown JT TEN TOD John S Brown Jr SUB BENE Peter Q\nBrown or John S Brown Mary B Brown JT TEN TOD John S Brown Jr LDPS.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

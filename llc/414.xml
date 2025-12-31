@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-414"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-414"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="414"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-414/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-414/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-414/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-414/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_414">
+        <num>414</num>
+        <heading>Removal or replacement of managers</heading>
+        <content>
+          <p>  § 414. Removal or replacement of managers. Except as provided in the\noperating agreement, any or all managers of a limited liability company\nmay be removed or replaced with or without cause by a vote of a majority\nin interest of the members entitled to vote thereon.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

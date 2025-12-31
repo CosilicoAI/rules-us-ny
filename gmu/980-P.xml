@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-P"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="980-P"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-980-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-980-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_980_P">
+        <num>980-P</num>
+        <heading>Existing districts</heading>
+        <content>
+          <p>  § 980-p. Existing districts. Any special improvement or assessment\ndistricts, or any business improvement districts established pursuant to\narticle two-B of the general city law, or any districts having filed an\napplication with the state comptroller as provided in such article prior\nto the effective date of this article, shall be subject to the\nprovisions of this article but shall not be required to comply with any\nprovisions of this article which are contrary to or more restrictive\nthan those under which the district was established or proposed to be\nestablished as evidenced by an application filed with the state\ncomptroller prior to the effective date of this article. Any reference\nto article two-B of the general city law or any section thereof in any\nstate or local law, plan or agreement shall be deemed to be a reference\nto this article or the appropriate provision of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-280"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-280"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="280"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-280/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-280/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-280/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-280/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_280">
+        <num>280</num>
+        <heading>Automatic fire extinguishing systems</heading>
+        <content>
+          <p>  § 280. Automatic fire extinguishing systems. Every factory building\nerected before October first, nineteen hundred thirteen, which is more\nthan one story in height and which has any occupancy specified by the\nboard in its rules as of medium or high hazard below its uppermost\nfloor, shall be provided by the owner thereof with an automatic fire\nextinguishing system.\n  In every non-fireproof factory building constructed after October\nfirst, nineteen hundred thirteen, which is more than one story in height\nand which has any occupancy specified by the board in its rules as of\nhigh hazard below its uppermost floor, the story containing such\noccupancy and all stories above it shall be provided by the owner\nthereof with an automatic fire extinguishing system.\n  The automatic fire extinguishing systems required by this section\nshall be approved in the city of New York by the fire commissioner in\nsuch city and elsewhere in accordance with the rules of the board. The\nrelative hazard of occupancies within said city shall be as determined\nby the board of standards and appeals thereof. The provisions of this\nsection shall be enforced in the city of New York by the fire\ncommissioner of said city and elsewhere by the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

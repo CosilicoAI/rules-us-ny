@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1702"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1702"/>
+          <FRBRdate date="2020-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1702"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1702/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1702/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1702/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1702/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1702">
+        <num>1702</num>
+        <heading>Penalties</heading>
+        <content>
+          <p>  § 1702. Penalties. Notwithstanding any other provision of this\nchapter, any manufacturer who violates any of the provisions of, or who\nfails to perform any duty imposed by, this article or any rule or\nregulation promulgated thereunder, shall be liable, in the case of a\nfirst violation, for a civil penalty not to exceed five thousand\ndollars. In the case of a second or any subsequent violation, the\nliability shall be for a civil penalty not to exceed ten thousand\ndollars for each such violation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

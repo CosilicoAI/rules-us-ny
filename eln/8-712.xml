@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-712"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-712"/>
+          <FRBRdate date="2024-01-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8-712"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-712/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-712/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-712/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-712/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_712">
+        <num>8-712</num>
+        <heading>Online early mail ballot tracking system</heading>
+        <subsection eId="sec_8_712__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>received such voter's application for an early mail ballot;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>approved or rejected such application and, if rejected, an\nindication of the reason for such rejection;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>mailed or delivered an early mail ballot to such voter, the date\nof such mailing or delivery, and the expected date of receipt;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>received the ballot back as undeliverable;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>received such voter's completed early mail ballot;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>determined the ballot envelope was subject to a cure; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8_712__subsec_g">
+          <num>(g)</num>
+          <content>
+            <p>counted or rejected such voter's completed early mail ballot and,\nif rejected, a brief statement of the reason for rejection.\n  4. The electronic early mail ballot tracking system shall be combined\non a single website with the electronic absentee ballot tracking system\ncreated pursuant to section 8-414 of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-83"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-83"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="83"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-83/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-83/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-83/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-83/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83">
+        <num>83</num>
+        <heading>Limitation as to amount of money to be raised; special provision in New York city</heading>
+        <content>
+          <p>  § 83. Limitation as to amount of money to be raised; special provision\nin New York city.  No restriction or limitation imposed by law as to the\nsum to be raised in any year in any city or village shall apply to the\nmoneys to be raised for the purposes specified in the last preceding\nsection; but the said moneys shall be raised in addition to any sum so\nrestricted or limited.\n  In the city of New York the powers and duties devolved upon the common\ncouncil of a city by section eighty-two of this chapter shall be\nexercised by the board of estimate and apportionment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

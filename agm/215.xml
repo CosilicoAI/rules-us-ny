@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-215"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-215"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-215/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-215/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215">
+        <num>215</num>
+        <heading>Declaration of policy</heading>
+        <content>
+          <p>  § 215. Declaration of policy. Since nineteen hundred forty-five the\nlegislature has recognized the need for providing satisfactory\nnutritional levels in bread and flour. The legislature now finds that\nundernourishment still exists in a substantial number of families in\nthis state including, but not limited to, families whose diet is\nrestricted by economic, cultural, or social factors.\n  In order to insure that these nutritional guarantees apply\nnotwithstanding cultural and other differences in dietary patterns, the\nlegislature hereby extends the authority of the commissioner of\nagriculture and markets to require the enrichment of food products, to\ninclude other staple foods such as rice, macaroni and noodle products.\n  The legislature also finds that in the interest of public health, the\nstatutory enrichment program should be made more flexible in order to\ntake advantage of present and future developments in nutritional\nknowledge and food technology.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

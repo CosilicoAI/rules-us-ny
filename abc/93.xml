@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93"/>
+          <FRBRdate date="2016-11-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="93"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_93">
+        <num>93</num>
+        <heading>Solicitor's permit</heading>
+        <content>
+          <p>  § 93. Solicitor's permit.  1. No individual shall offer for sale or\nsolicit any order in the state for the sale of any alcoholic beverage\nirrespective of whether such sale is to be made within or without the\nstate, unless such person shall have a solicitor's permit. Provided,\nhowever, that no permit under this section shall be required for an\nindividual who is soliciting orders on behalf of a micro-brewery, farm\nbrewery, farm cidery, farm winery, micro-farm winery, micro-distillery,\nmicro-rectifier, or farm distillery licensed under this chapter.\n  2. Such a permit shall authorize the permittee to offer for sale or to\nsolicit orders for the sale of any alcoholic beverages, and shall set\nforth the name, address and license number of the licensee whom the\nsolicitor represents, and such solicitor shall not represent any\nlicensee whose name does not appear upon such permit.\n  3. The license fee for such permit shall be twenty-six dollars per\nyear, or for any part thereof, and the permit shall be issued for the\ncalendar year.\n  4. Notwithstanding the foregoing provisions of this section, any duly\nlicensed manufacturer or wholesaler may apply to the liquor authority\nfor an annual temporary solicitor's employment permit. Such permit shall\nauthorize such manufacturer or wholesaler to employ one or more persons\nas a solicitor for a period of not exceeding six months provided that\nwithin sixty days after such employee has been employed as a solicitor\nsuch employee shall file his application for a solicitor's permit with\nthe liquor authority. The license fee for such permit shall be\nthirty-eight dollars per year, or for any part thereof, and the permit\nshall be issued for the calendar year. Such permit and the exercise of\nthe privileges hereby granted thereunder, shall be subject to such terms\nand conditions as may be prescribed by the liquor authority.\n  5. Notwithstanding any provision of this chapter to the contrary, a\nlicensed winery or licensed farm winery may obtain from the liquor\nauthority a solicitor's permit authorizing the licensee to offer for\nsale or solicit any order for any New York state labelled wine. The\nauthority shall not charge an application or permit fee for the issuance\nof a solicitor's permit to a licensed winery or farm winery.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-477"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-477"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="477"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-477/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-477/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-477/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-477/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_477">
+        <num>477</num>
+        <heading>Local option</heading>
+        <content>
+          <p>  § 477. Local option. Subject to the provisions of this article, and\npursuant to the direction contained in subdivision two of section nine\nof article one of the constitution of the state, the legislature hereby\ngives and grants to every municipality the right, power and authority to\nauthorize the conduct of bingo games by authorized organizations within\nthe territorial limits of such municipality provided, however, that\nwhere the electors of a village shall hereafter approve a local law or\nordinance pursuant to section four hundred seventy-eight of this\narticle, the right, power and authority under this article of any town\nin which such village is located shall not extend to such village during\nsuch time as such village local law or ordinance is in effect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

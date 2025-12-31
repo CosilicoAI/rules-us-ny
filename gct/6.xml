@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-6"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6">
+        <num>6</num>
+        <heading>Swearing witnesses</heading>
+        <content>
+          <p>  § 6. Swearing witnesses. Whenever the common council of a city shall\nhave appointed a committee of members of their body upon any subject or\nmatter within the jurisdiction of such common council, or to examine any\nofficer of the city, in relation to the discharge of his official\nduties, or to the receipt or disbursement by him of any moneys in the\ndischarge of such duties, or concerning the possession or disposition by\nhim, in his official capacity, of any property belonging to the city; or\nto use, inspect or examine any book, account, voucher or document, in\nhis possession or under his control as such officer, relating to the\naffairs or interests of such city, the chairman of such committee is\nauthorized to administer oaths to all such witnesses as may appear or be\nbrought before such committee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

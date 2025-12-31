@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1911"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1911"/>
+          <FRBRdate date="2024-03-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1911"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1911/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1911/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1911/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1911/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1911">
+        <num>1911</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  * § 1911. Definitions. As used in this title, the following terms\nshall have the following meanings:\n  1. "Authority" shall have the same meaning as in subdivision two of\nsection eighteen hundred fifty-one of this article.\n  2. "Departments" shall mean the department of environmental\nconservation, the department of agriculture and markets, the department\nof economic development, and the department of public service.\n  3. "Disadvantaged communities" shall have the same meaning as defined\nin subdivision five of section 75-0101 of the environmental conservation\nlaw.\n  4. "Renewable energy" shall have the same meaning as defined in\nsection sixty-six-p of the public service law.\n  5. "Renewable energy technology" shall mean all methods used to\ngenerate, distribute, store, and support the use of renewable energy\nsystems.\n  * NB Repealed December 31, 2031\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

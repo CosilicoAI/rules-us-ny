@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-MM"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-MM"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1299-MM"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-MM/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-MM/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-MM/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-MM/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1299_MM">
+        <num>1299-MM</num>
+        <heading>Agreement of the state</heading>
+        <content>
+          <p>  § 1299-mm. Agreement of the state. The state does hereby pledge to and\nagree with the holders of any notes or bonds issued under this title,\nthat the state will not limit or alter the rights hereby vested in the\nauthority to fulfill the terms of any agreements made with the holders\nthereof, or in any way impair the rights and remedies of such holders\nuntil such notes or bonds, together with the interest thereon, with\ninterest on any unpaid installments of interest, and all costs and\nexpenses for which the authority is liable in connection with any action\nor proceeding by or on behalf of such holders, are fully met and\ndischarged. The authority is authorized to include this pledge and\nagreement of the state in any agreement with the holders of such notes\nor bonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

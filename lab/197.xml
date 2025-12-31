@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-197"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-197"/>
+          <FRBRdate date="2019-10-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="197"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-197/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-197/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-197/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-197/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_197">
+        <num>197</num>
+        <heading>Civil penalty</heading>
+        <content>
+          <p>  § 197. Civil penalty. Any employer who fails to pay the wages of his\nemployees or shall differentiate in rate of pay because of protected\nclass status, as provided in this article, shall forfeit to the people\nof the state the sum of five hundred dollars for each such failure, to\nbe recovered by the commissioner in any legal action necessary,\nincluding administrative action or a civil action.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

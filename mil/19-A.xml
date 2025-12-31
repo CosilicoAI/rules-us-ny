@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-19-A"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-19-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-A"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-19-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-19-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-19-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-19-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_A">
+        <num>19-A</num>
+        <heading>Family liaison officer</heading>
+        <subsection eId="sec_19_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>serving as liaison between the\nfamilies of service personnel and the department of defense;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_19_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nproviding information on family assistance programs that are available\nfrom the state and federal government;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_19_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>ensuring that the families of\nthose military personnel on active duty receive appropriate support and\nassistance. A family liaison officer shall be available beginning on the\ndate of any declaration of war by the Congress through the date\nprescribed by presidential proclamation or concurrent resolution of\nCongress, or during any periods of combat as designated by presidential\nexecutive orders. The family liaison officer may be assisted in his or\nher duties by such staff under the jurisdiction of the adjutant general\nthat may be necessary to perform the duties of such position.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

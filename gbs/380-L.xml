@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-L"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380-L"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_L">
+        <num>380-L</num>
+        <heading>Civil liability for willful noncompliance</heading>
+        <subsection eId="sec_380_L__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any actual damages sustained by the consumer as a result of such\nfailure or as a result of a violation of section three hundred eighty-s\nof this article;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_380_L__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such amount of punitive damages as the court may allow; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_380_L__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>In the case of any successful action to enforce any liability\nunder this section, the costs of the action together with reasonable\nattorney's fees as determined by the court.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

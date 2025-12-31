@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1144"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1144"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1144"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1144/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1144/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1144/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1144/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1144">
+        <num>1144</num>
+        <heading>Operation of vehicles on approach of authorized emergency vehicles</heading>
+        <subsection eId="sec_1144__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Upon the immediate approach of an authorized emergency\nvehicle equipped with at least one lighted lamp exhibiting red light\nvisible under normal atmospheric conditions from a distance of five\nhundred feet to the front of such vehicle other than a police vehicle or\nbicycle when operated as an authorized emergency vehicle, and when\naudible signals are sounded from any said vehicle by siren, exhaust\nwhistle, bell, air-horn or electronic equivalent; the driver of every\nother vehicle shall yield the right of way and shall immediately drive\nto a position parallel to, and as close as possible to the right-hand\nedge or curb of the roadway, or to either edge of a one-way roadway\nthree or more lanes in width, clear of any intersection, and shall stop\nand remain in such position until the authorized emergency vehicle has\npassed, unless otherwise directed by a police officer.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1144__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>This section shall not operate to relieve the driver of an\nauthorized emergency vehicle from the duty to drive with reasonable care\nfor all persons using the highway.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

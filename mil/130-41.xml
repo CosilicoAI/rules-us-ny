@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.41"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.41"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.41"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.41/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.41/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.41/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.41/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_41">
+        <num>130.41</num>
+        <heading>Challenges</heading>
+        <subsection eId="sec_130_41__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The military judge and members of a general\nor special court-martial may be challenged by the accused or the trial\ncounsel for cause stated to the court.  The military judge, or, if none,\nthe court, shall determine the relevancy and validity of challenges for\ncause, and shall not receive a challenge to more than one person at a\ntime.  Challenges by the trial counsel shall ordinarily be presented and\ndecided before those by the accused are offered.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_41__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each accused and trial counsel shall be entitled to one peremptory\nchallenge, but the military judge shall not be challenged except for\ncause, and if the president of a special court-martial is a member of\nthe bar of this state, he shall not be challenged except for cause.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

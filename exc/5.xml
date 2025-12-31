@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-5"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-5"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-5/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-5/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-5/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-5/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5">
+        <num>5</num>
+        <heading>Executive records</heading>
+        <content>
+          <p>  § 5. Executive records.  The governor shall cause to be kept in the\nexecutive chamber or in the appropriate state office:\n  1. Journals of the daily transactions of his office.\n  2. Registers, containing classified statements of such transactions.\n  3. Separate registers containing classified statements of all\napplications for pardon, commutation or other executive clemency, and of\nhis action thereon.\n  4. An account of his official expenses and disbursements, including\nthe incidental expenses of his department.\n  5. Files of all official records upon which applications for executive\nclemency are founded; of statements made by judges to him; of sentences\nto death and of the testimony in capital cases; and of such other papers\nrelating to the transactions of his office as are deemed by him of\nsufficient value for preservation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

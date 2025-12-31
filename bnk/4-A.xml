@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_A">
+        <num>4-A</num>
+        <heading>Banks to display signs</heading>
+        <content>
+          <p>  § 4-a. Banks to display signs. Every banking organization having as\nits purpose or among its purposes the receipt of deposits, shall\ncontinuously display a sign, or signs, as prescribed by the\nsuperintendent of financial services, at each station or window within\nthe state where deposits are usually and normally received in its\nprincipal place of business and in all its branches indicating whether\ndeposits are insured, and if insured the name of the insurer and the\nextent to which each depositor is insured. Signs in non-insured banking\norganizations shall clearly and legibly state "DEPOSITS NOT INSURED",\nall in letters of the same size and character. No sign shall appear in\nany non-insured bank with regard to insurance or deposits except as\nherein prescribed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

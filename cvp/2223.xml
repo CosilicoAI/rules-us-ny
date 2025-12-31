@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2223"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2223"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2223"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2223">
+        <num>2223</num>
+        <heading>Duties of officer receiving mandate</heading>
+        <content>
+          <p>  Rule 2223. Duties of officer receiving mandate. An officer to whom a\nmandate is delivered to be executed shall:\n  1. execute the mandate according to its command;\n  2. give without compensation to the person delivering the mandate, if\nrequested, a written receipt describing the mandate and specifying the\nday and hour of receiving it;\n  3. deliver without compensation to the person served, if requested, a\ncopy of the mandate; and\n  4. return the mandate together with his return thereon, by delivering\nor mailing it to the clerk's office.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

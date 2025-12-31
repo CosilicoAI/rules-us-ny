@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6706"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6706"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6706"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6706/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6706/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6706/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6706/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6706">
+        <num>6706</num>
+        <heading>Corporate practice</heading>
+        <content>
+          <p>  § 6706. Corporate practice.  1. No business corporation, other than a\nprofessional service corporation organized under the business\ncorporation law, shall hereafter be organized for the practice of\nveterinary medicine; no business corporation, other than a professional\nservice corporation, hereafter organized shall be granted a license to\npractice veterinary medicine; and no business corporation, other than a\nprofessional service corporation, hereafter organized shall provide\nveterinary medical services.\n  2. Any not-for-profit corporation may own property in connection with\nan animal hospital or shelter provided that all veterinary practice\nconducted in such facilities shall be performed by a veterinarian\nlicensed and registered under this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

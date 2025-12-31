@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.10"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="115.10"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-115.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-115.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_115_10">
+        <num>115.10</num>
+        <heading>Criminal facilitation; no defense</heading>
+        <content>
+          <p>§ 115.10 Criminal facilitation; no defense.\n  It is no defense to a prosecution for criminal facilitation that:\n  1. The person facilitated was not guilty of the underlying felony\nowing to criminal irresponsibility or other legal incapacity or\nexemption, or to unawareness of the criminal nature of the conduct in\nquestion or to other factors precluding the mental state required for\nthe commission of such felony; or\n  2. The person facilitated has not been prosecuted for or convicted of\nthe underlying felony, or has previously been acquitted thereof; or\n  3. The defendant himself is not guilty of the felony which he\nfacilitated because he did not act with the intent or other culpable\nmental state required for the commission thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

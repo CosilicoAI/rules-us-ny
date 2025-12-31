@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-XXX"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-XXX"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1199-XXX"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-XXX/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-XXX/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-XXX/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-XXX/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1199_XXX">
+        <num>1199-XXX</num>
+        <heading>Effect of inconsistent provisions</heading>
+        <content>
+          <p>  § 1199-xxx. Effect of inconsistent provisions. Insofar as the\nprovisions of this title are inconsistent with the provisions of any\nother law except the environmental conservation law and the public\nhealth law as they exist or as they shall be amended, general, special\nor local, or of any charter or any local law, ordinance or resolution of\nthe county or other municipality, the provisions of this section shall\nbe controlling and shall supplement or otherwise expand the powers or\nduties of the authority otherwise set forth in this title.  Nothing\ncontained in this title shall be held to alter or abridge the powers and\nduties of the department of environmental conservation or the department\nof health.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

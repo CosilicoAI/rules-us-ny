@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-181"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-181"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="181"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-181/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-181/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-181/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-181/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_181">
+        <num>181</num>
+        <heading>Exemptions of certain private bankers</heading>
+        <content>
+          <p>  § 181. Exemptions of certain private bankers. 1. Every individual and\npartnership conducting the business of a private banker on June\nthirtieth, nineteen hundred thirty-eight, pursuant to an authorization\ncertificate issued by the superintendent may thereafter continue to\nconduct such business under the authority of such existing authorization\ncertificate.\n  2. Nothing in this article shall be construed to render unlawful the\ncontinued ownership or holding by a private banker of any investments,\nloans, or other real or personal property lawfully acquired prior to\nJune thirtieth, nineteen hundred thirty-eight.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

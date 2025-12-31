@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-102"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-102"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_102">
+        <num>11-102</num>
+        <heading>Special presidential voters; change of residence; special qualifications</heading>
+        <content>
+          <p>  § 11-102. Special presidential voters; change of residence; special\nqualifications.  Any person who shall change his residence from this\nstate to another state or from one county or city of this state to\nanother such county or city, after the thirtieth day next preceding any\npresidential election shall be entitled to vote for president and vice\npresident of the United States in such election, provided, however, that\nsuch person may not vote for any candidate for any other office or any\nquestion to be voted for at such election, and provided further that\n  a. Such person was duly qualified and registered to vote in this state\nimmediately prior to such change of residence;\n  b. Such person is neither qualified nor able to qualify to vote for\nsuch electors either in the state, or in the county or city of this\nstate, or at the residence within the county or city of this state to\nwhich such person has removed; and\n  c. Such person has applied for a special ballot for president and vice\npresident, as provided by this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

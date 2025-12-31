@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5201"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5201"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5201">
+        <num>5201</num>
+        <heading>Functions of institute</heading>
+        <content>
+          <p>  § 5201. Functions of institute. The research institute on addictions\nis designated as an institute for the conduct of research and education\ndirected towards furthering knowledge of the etiology, diagnosis,\ntreatment and prevention of addictions, including alcoholism, alcohol\nabuse, substance abuse, substance dependence and chemical dependence.\nThe university shall foster support and obtain funds for research\nthereby, or under the direction thereof, or through contract or\nagreement, relating to primary biochemical and social causes of such\naddictions, the epidemiology of such addictions and the effectiveness of\nvarious types of prevention, treatment, and rehabilitation programs and\napproaches.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

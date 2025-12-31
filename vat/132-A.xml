@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-132-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-132-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="132-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-132-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-132-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-132-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-132-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_132_A">
+        <num>132-A</num>
+        <heading>Police vehicle</heading>
+        <content>
+          <p>  § 132-a. Police vehicle.  Every vehicle owned by the state, a public\nauthority, a county, town, city or village, and operated by the police\ndepartment or law enforcement agency of such governmental unit or by a\nconstable or police constable of a town when acting pursuant to his\nspecial duties. Any other vehicle operated by a chief or deputy or\nassistant chief of a police department, a sheriff, undersheriff or\nregular deputy sheriff, and a vehicle owned and operated by the law\nenforcement unit of a public or private corporation authorized by law to\nmaintain a unit for the enforcement of law on the property of such\ncorporation shall be a police vehicle only for the purposes of section\none hundred one of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

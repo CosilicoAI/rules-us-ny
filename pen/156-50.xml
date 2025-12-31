@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.50"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="156.50"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-156.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-156.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_50">
+        <num>156.50</num>
+        <heading>Offenses involving computers; defenses</heading>
+        <content>
+          <p>§ 156.50 Offenses involving computers; defenses.\n  In any prosecution:\n  1. under section 156.05 or 156.10 of this article, it shall be a\ndefense that the defendant had reasonable grounds to believe that he had\nauthorization to use the computer;\n  2. under section 156.20, 156.25, 156.26 or 156.27 of this article it\nshall be a defense that the defendant had reasonable grounds to believe\nthat he had the right to alter in any manner or destroy the computer\ndata or the computer program;\n  3. under section 156.29 or 156.30 of this article it shall be a\ndefense that the defendant had reasonable grounds to believe that he had\nthe right to copy, reproduce or duplicate in any manner the computer\ndata or the computer program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

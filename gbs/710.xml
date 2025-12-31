@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-710"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-710"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="710"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-710/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-710/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-710/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-710/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_710">
+        <num>710</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 710. Definitions. Whenever used in this article:\n  1. "Consumer" means a natural person.\n  2. "Creditor" means a person, partnership, corporation, association or\nother entity who, in the ordinary course of business, regularly extends\nconsumer credit. The term creditor includes any agent of a creditor for\ncollection, processing or other purposes.\n  3. "Consumer credit" means credit extended to a consumer on an account\npursuant to a plan under which the creditor may permit the customer to\nmake purchases or obtain loans, from time to time, directly from the\ncreditor or indirectly by use of a credit card, check, or other device,\nas the plan may provide. The term does not include negotiated advances\nunder an open end real estate mortgage or a letter of credit.\n  4. "Credit balance" means any money or credit owed to, or held for the\nbenefit of, a consumer by a creditor on a consumer credit account,\nwhether resulting from an overpayment or return of merchandise by the\nconsumer, or otherwise.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

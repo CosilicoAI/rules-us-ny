@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-36"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-36"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="36"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-36/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-36/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-36/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-36/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36">
+        <num>36</num>
+        <heading>Rates of fare</heading>
+        <content>
+          <p>  § 36. Rates of fare. The board of transportation, with the approval of\nthe mayor, is hereby empowered to fix and adjust from time to time the\nrate of fare that may be charged any passenger traveling on any railroad\npublicly or municipally operated pursuant to the authority of this\nchapter, provided, however, that any change in such rate of fare shall\nbecome effective on the first day of the next ensuing fiscal year of the\ncity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

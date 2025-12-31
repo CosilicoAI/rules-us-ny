@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-525"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-525"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-525"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-525/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-525/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-525/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-525/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_525">
+        <num>5-525</num>
+        <heading>Interest charged by a registered broker or dealer for carrying debit balances</heading>
+        <content>
+          <p>  § 5-525. Interest charged by a registered broker or dealer for\ncarrying debit balances. Interest charged by a broker or dealer\nregistered under the securities exchange act of nineteen hundred\nthirty-four, as amended, for carrying a debit balance including a debit\nbalance arising out of a non-purpose loan, in an account for a customer\nshall not be subject to the limitations of this title, including the\nlimitations contained in subdivision two of section 5-527 of this title,\nif such debit balance is payable on demand and secured by securities or\ncommodities upon which credit can be extended by a broker or dealer, and\nif, on the date when the interest is charged or accrued, such interest\nis not greater than eight percentage points above the prime rate. For\nthe purposes of this section, the prime rate shall equal the average\nprime rate on short term business loans which is published by the board\nof governors of the federal reserve system for the most recent week\nwhich was publicly available from the board of governors of the federal\nreserve system on the previous business day.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

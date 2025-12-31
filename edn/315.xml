@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-315"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-315"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="315"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-315/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-315/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315">
+        <num>315</num>
+        <heading>School district names</heading>
+        <content>
+          <p>  § 315. School district names. Each school district, other than a city\nschool district, shall, in accordance with the commissioner's\nregulations, adopt a simplified name as the legal name of the district.\nSuch name shall be submitted to the commissioner for prior approval and\nwhen such name shall be adopted it shall be filed with the commissioner.\nThe name of a central school district established or reorganized by an\norder of the commissioner pursuant to section eighteen hundred one of\nthis chapter may be changed by the board of education of such district,\nwith the prior approval of the commissioner, upon a written request by\nthe board of education filed with the commissioner not later than\nfourteen days prior to the date of the establishment or reorganization\nof the district and in accordance with the regulations of the\ncommissioner. The education department shall issue, on request,\ncertificates certifying the name of the district and the names of the\ntowns and counties in which the territory of the district is located, or\nin the case of school districts other than city school districts, which\nare wholly or partly located within a city, the names of the city, towns\nand counties in which the territory of the district is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

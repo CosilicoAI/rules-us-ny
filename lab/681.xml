@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-681"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-681"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="681"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-681/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-681/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_681">
+        <num>681</num>
+        <heading>Civil action</heading>
+        <content>
+          <p>  § 681. Civil action.  1. By employee. If any employee is paid by his\nemployer less than the wage to which he is entitled under the provisions\nof this article, he may recover in a civil action the amount of any such\nunderpayments, together with costs and such reasonable attorney's fees\nas may be allowed by the court, and if such underpayment was willful, an\nadditional amount as liquidated damages equal to twenty-five percent of\nthe total of such underpayment found to be due him and any agreement\nbetween him and his employer to work for less than such wage shall be no\ndefense to such action.\n  2. By commissioner. On behalf of any employee paid less than the wage\nto which he is entitled under the provisions of this article, the\ncommissioner may bring any legal action necessary to collect such claim,\nand the employer shall be required to pay the costs and if such\nunderpayment was willful, an additional amount as liquidated damages\nequal to twenty-five percent of the total of such underpayments found to\nbe due him.\n  3. Limitation of time. Notwithstanding any other provision of law, an\naction to recover upon a liability imposed by this article must be\ncommenced within six years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

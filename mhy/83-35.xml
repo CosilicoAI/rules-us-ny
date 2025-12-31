@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-83.35"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-83.35"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="83.35"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-83.35/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-83.35/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-83.35/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-83.35/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83_35">
+        <num>83.35</num>
+        <heading>Registration of orders appointing a guardian of the person</heading>
+        <content>
+          <p>§ 83.35 Registration of orders appointing a guardian of the person.\n  If a guardian of the person by whatever name designated has been\nappointed in another state and a petition for the appointment of a\nguardian of the person is not pending in this state, the guardian of the\nperson appointed in the other state, after giving notice to the\nappointing court of an intent to register, may register the guardianship\nof the person order in this state by filing as a foreign judgment in a\ncourt, in any appropriate county of this state, certified copies of the\norder and letters of office.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

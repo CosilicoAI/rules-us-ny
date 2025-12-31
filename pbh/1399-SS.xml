@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-SS"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-SS"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1399-SS"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-SS/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-SS/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-SS/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-SS/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1399_SS">
+        <num>1399-SS</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 1399-ss. Definitions. For the purposes of this article, unless the\ncontext clearly requires otherwise:\n  1. "Engineered sharps injury protection" means a physical attribute\nbuilt into, or used with, a sharp that effectively reduces the risk of a\nsharps injury by a mechanism such as barrier creation, blunting,\nencapsulation, withdrawal, retraction, destruction or other mechanism.\n  2. "Exposure incident" means contact with blood or other potentially\ninfectious materials that results from a sharps injury.\n  3. "Sharp" means any device that is or includes a needle used in the\nprovision of health care, except for self-administration.\n  4. "Sharps injury" means any injury caused by a sharp, including, but\nnot limited to, a cut, abrasion, or needlestick.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

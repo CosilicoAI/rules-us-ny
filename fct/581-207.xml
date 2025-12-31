@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-207"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-207"/>
+          <FRBRdate date="2024-12-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="581-207"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-207/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-207/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-207/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-207/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_581_207">
+        <num>581-207</num>
+        <heading>Certified copy of judgment of parentage</heading>
+        <content>
+          <p>  § 581-207. Certified copy of judgment of parentage. Upon issuing a\njudgment of parentage pursuant to section 581-202 or 581-203 of this\npart, the issuing court shall provide a certified copy of such judgment\nto the intended parent or parents.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

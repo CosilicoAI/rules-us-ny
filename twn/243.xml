@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-243"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-243"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="243"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-243/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-243/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-243/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-243/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_243">
+        <num>243</num>
+        <heading>Collection of annual installments of assessments</heading>
+        <content>
+          <p>  § 243. Collection of annual installments of assessments. The\nsupervisor of the town shall annually transmit to the county legislative\nbody at the meeting thereof at which taxes are levied a statement\nsetting forth a description of each parcel of land liable for the\npayment of an installment of an assessment together with the name of the\nowner and the amount of such assessment with interest. It shall be the\nduty of the county legislative body to levy and assess the amount of\nsuch installment, with interest as aforesaid, against the specific lot\nor parcel of land against which same was originally levied and assessed\nat the time and in the manner provided by law for the levy of state and\ncounty taxes. The warrant annexed to or filed with the tax roll and\ndelivered to the town tax collector or receiver of taxes and assessments\nshall direct him to pay to the supervisor the full amount of such\ninstallments of unpaid assessments with interest. If the collector or\nreceiver of taxes and assessments shall be unable to collect such\ninstallment of assessment with interest, he shall return the same to the\ncounty treasurer of the county and collection thereof shall be enforced\nin the manner provided by law for the collection of unpaid town taxes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

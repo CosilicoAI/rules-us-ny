@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-404-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-404-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-404-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-404-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-404-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-404-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404_A">
+        <num>404-A</num>
+        <heading>Photographic reproduction of records</heading>
+        <content>
+          <p>  § 404-a. Photographic reproduction of records. Any photograph,\nmicrophotograph or reproduction on film of any of the documents and\nrecords of a savings and loan association relating to the members of\nsuch savings and loan association and the operation of its business,\nwhich such savings and loan association has caused to be made in the\nconduct of its business, shall be deemed to be the equivalent of the\noriginal thereof for all purposes, provided that the original of any\nsuch documents and records has been destroyed, that such photograph,\nmicrophotograph or reproduction on film shall be of durable material,\nand that the device used to reproduce such documents and records shall\nbe one which accurately reproduces the original thereof in all details.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

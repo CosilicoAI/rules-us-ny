@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_60">
+        <num>60.60</num>
+        <heading>Rules of evidence; certificates concerning judgments of conviction and fingerprints</heading>
+        <content>
+          <p>§ 60.60  Rules of evidence; certificates concerning judgments of\n          conviction and fingerprints.\n  1.  A certificate issued by a criminal court, or the clerk thereof,\ncertifying that a judgment of conviction against a designated defendant\nhas been entered in such court, constitutes presumptive evidence of the\nfacts stated in such certificate.\n  2.  A report of a public servant charged with the custody of official\nfingerprint records which contains a certification that the fingerprints\nof a designated person who has previously been convicted of an offense\nare identical with those of a defendant in a criminal action,\nconstitutes presumptive evidence of the fact that such defendant has\npreviously been convicted of such offense.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

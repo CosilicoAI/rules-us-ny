@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-VVV"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-VVV"/>
+          <FRBRdate date="2025-12-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="69-VVV"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-VVV/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-VVV/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-VVV/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-VVV/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_69_VVV">
+        <num>69-VVV</num>
+        <heading>Fines for false alarms</heading>
+        <content>
+          <p>  § 69-vvv. Fines for false alarms. 1. Notwithstanding any other\nprovision of law, a municipality may enact, adopt or enforce any\nordinance, resolution or regulation requiring any alarm system company\nto pay for or be responsible for any fines, fees or other penalties\nrelative to false alarms only when the false alarm is attributed to a\ndeficiency in the alarm system or an error of the alarm system company\nor central station. Nothing in this section shall prevent a municipality\nfrom imposing any fine, fee or other penalties for a false alarm when\nsuch false alarm is attributable to, or caused by, the property owner,\nlessee, occupant or other person or persons.\n  2. An alarm company operator or an alarm agent shall not be liable for\ncivil penalties and fines assessed or imposed by a municipality for\nfalse alarms not attributed to alarm company operator error, improper\ninstallation of the alarm system by an alarm agent or an alarm company\noperator, defective equipment provided or installed by an alarm agent or\nan alarm company operator, defective equipment leased by an alarm\ncompany operator, or equipment that was not deficient upon installation\nor provision for use to the end-user but resulted in a deficiency due to\nnormal wear and tear.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

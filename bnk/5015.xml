@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5015"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5015"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5015"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5015/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5015/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5015/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5015/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5015">
+        <num>5015</num>
+        <heading>Capital notes and debentures</heading>
+        <content>
+          <p>  § 5015. Capital notes and debentures. No corporation shall issue\ncapital notes or debentures except for money or other property, tangible\nor intangible, or labor or services actually received by or performed\nfor the corporation or for its benefit or in its formation or\nreorganization, or a combination thereof.  In the absence of fraud in\nthe transaction, the judgment of the board as to the value of the\nconsideration received shall be conclusive.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

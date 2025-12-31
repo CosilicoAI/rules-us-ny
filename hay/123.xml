@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>County treasurer to pay awards</heading>
+        <content>
+          <p>  § 123. County treasurer to pay awards. Within six months after the\nreport of the commissioner of appraisal shall be confirmed as aforesaid,\nthe county treasurer of such county shall pay to the persons named\ntherein the amounts awarded to them for damages with four per centum\ninterest thereon from the date of the filing of the oath of the\ncommissioners of appraisal in the office of the county clerk. Such\namounts with interest and the amounts payable in pursuance of this\narticle shall be deemed a part of the cost of construction or\nimprovement of county roads under this article and shall be paid from\nthe county road fund by the county treasurer, in case of purchase upon\nrequisition of the chairman of the board of supervisors of said county,\nor by any member or committee thereof designated for that purpose by\nsaid board and in case of a petition for the acquisition of such lands,\nupon service of a certified copy of the order confirming such awards. In\ncase there are unknown owners, to whom the award is made in said report,\nthe said county treasurer shall deposit the amounts awarded to them with\nlike interest in some trust company or bank in such manner as the said\ncourt shall in the order of confirmation direct, such amount to be paid\nout upon the application of said unknown owners when discovered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

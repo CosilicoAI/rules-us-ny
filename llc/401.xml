@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-401"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-401"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="401"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_401">
+        <num>401</num>
+        <heading>Management of the limited liability company by members</heading>
+        <subsection eId="sec_401__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nUnless the articles of organization provides for management of the\nlimited liability company by a manager or managers or a class or classes\nof managers, management of the limited liability company shall be vested\nin its members who shall manage the limited liability company in\naccordance with this chapter, subject to any provisions in the articles\nof organization or the operating agreement and section four hundred\neighteen of this article granting or withholding the management powers\nor responsibilities of one or more members or classes of members.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_401__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If management of a limited liability company is vested in its\nmembers, then</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_401__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>any such member exercising such management powers or\nresponsibilities shall be deemed to be a manager for purposes of\napplying the provisions of this chapter, unless the context otherwise\nrequires, and (ii) any such member shall have and be subject to all of\nthe duties and liabilities of a manager provided in this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-453"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-453"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="453"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-453/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-453/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-453/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-453/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_453">
+        <num>453</num>
+        <heading>Payment of tax</heading>
+        <content>
+          <p>  § 453. Payment of tax. 1. In the case of gross receipts from\nbroadcasting rights, such tax shall be paid to the commissioner of\ntaxation and finance or to employees or officers of the state athletic\ncommission acting as agents of the commissioner of taxation and finance\nand shall be accompanied by a return in such form as shall be prescribed\nby the commissioner of taxation and finance. Payments shall be made on\nor before the last day of the month in which such gross receipts from\nbroadcasting rights are received by the individual corporation,\nassociation or club holding such match or exhibition. Where the taxpayer\nreceives receipts subject to tax during the last five days of a month,\nthe required return and payment of tax shall not be due until the fifth\nday of the succeeding month.\n  2. In the case of gross receipts from ticket sales, such tax shall be\npaid to the commissioner or to employees or officers of the state\nathletic commission acting as agents of the commissioner within ten\nbusiness days after the holding of the match or exhibition and shall be\naccompanied by a return in such form as shall be prescribed by the\ncommissioner.\n  3. The commissioner of taxation and finance may grant a reasonable\nextension of time for filing returns and payment of tax whenever\nreasonable cause exists.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

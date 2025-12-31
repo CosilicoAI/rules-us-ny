@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-211"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="211"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211">
+        <num>211</num>
+        <heading>Economic regions</heading>
+        <content>
+          <p>  § 211. Economic regions. For the purposes of this article, the state\nis hereby divided into twelve economic regions, as follows:\n  1. Binghamton region. The counties of Broome, Chenango, Delaware and\nOtsego.\n  2. Capital district-Champlain region. The counties of Clinton, Essex,\nRensselaer, Albany, Saratoga, Schoharie, Schenectady, Warren and\nWashington.\n  3. Elmira region. The counties of Chemung, Schuyler, Steuben, Tioga\nand Tompkins.\n  4. Mid-Hudson region. The counties of Dutchess, Columbia, Greene,\nOrange, Putnam, Sullivan and Ulster.\n  5. Mohawk Valley region. The counties of Fulton, Hamilton, Herkimer,\nMontgomery and Oneida.\n  6. Nassau-Suffolk region. The counties of Nassau and Suffolk.\n  7. New York city region. The counties of Bronx, Kings, New York,\nQueens and Richmond.\n  8. Niagara-southwestern region. The counties of Allegany, Cattaraugus,\nChautauqua, Erie and Niagara.\n  9. Northern region. The counties of Franklin, Jefferson, Lewis and St.\nLawrence.\n  10. Rochester region. The counties of Genesee, Livingston, Monroe,\nOntario, Orleans, Seneca, Wayne, Wyoming and Yates.\n  11. Syracuse region. The counties of Cayuga, Cortland, Madison,\nOnondaga and Oswego.\n  12. Westchester-Rockland region. The counties of Rockland and\nWestchester.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-424"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-424"/>
+          <FRBRdate date="2025-12-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="424"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-424/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-424/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-424/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-424/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_424">
+        <num>424</num>
+        <heading>General facility standards</heading>
+        <subsection eId="sec_424__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Method of controlling rodent infestation that is effective and\nsafe for both humans, and animals housed in the facility;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_424__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A record or copies of service reports from outside service\nproviders related to pest and vermin control that documents dates,\nmethods, locations, and outcomes, if applicable; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_424__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Food stored in rodent proof containers to prevent spoilage,\ncontamination, and infestation once opened, if packaging has been\ndamaged, or as otherwise required by such plan.\n  13. The use of unattended drop boxes for intake of animals is\nprohibited.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

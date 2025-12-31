@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3326"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3326"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3326"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3326/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3326/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3326/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3326/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3326">
+        <num>3326</num>
+        <heading>Institutional research licenses</heading>
+        <subsection eId="sec_3326__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the qualifications and such other data as the commissioner may\nrequire regarding each member of the committee within the institution\nwhich will approve specific projects;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3326__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a description of the system within the institution for approving,\nsupervising and evaluating such projects.\n  3. Upon approval of each specific project, such institution shall\nforward to the commissioner a description of the project, the names and\nqualifications of the individuals working thereon and of those\nindividuals designated to supervise the project. If administration or\ndispensing to human subjects is contemplated, there shall also be\nincluded a description of the provisions for safe administration or\ndispensing.\n  4. Such institution shall forward to the commissioner periodic\nprogress reports and evaluations of, as well as amendments to each\nproject, in such manner and in such detail as the commissioner may\nprescribe.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

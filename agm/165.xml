@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-165"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-165"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-165/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-165/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165">
+        <num>165</num>
+        <heading>Damages for property destroyed</heading>
+        <content>
+          <p>  § 165. Damages for property destroyed.  No damages shall be awarded\nfor the destruction of infested or infected trees, shrubs, plants and\nvines, host plants or other material under the provisions of this\narticle except as follows: any person deeming himself aggrieved may,\nwithin six months after the destruction occurs, present to the\ncommissioner a verified claim setting forth the grounds of his grievance\nand the amount of his damages, which claim shall be determined by the\ncommissioner after giving due consideration to any benefits which have\naccrued or may accrue to the claimant by reason of such destruction, as\nan offset to the amount of the claim. The determination of the\ncommissioner may be reviewed in the manner provided by article\nseventy-eight of the civil practice law and rules.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

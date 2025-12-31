@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-67-A"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-67-A"/>
+          <FRBRdate date="2022-03-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="67-A"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-67-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-67-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-67-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-67-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_A">
+        <num>67-A</num>
+        <heading>Order</heading>
+        <content>
+          <p>  § 67-a. Order. If the court to which the petition is presented is\nsatisfied thereby, or by the affidavit and certificate presented\ntherewith, that the petition is true, and that there is no reasonable\nobjection to the change of sex designation proposed, and if the petition\nis to change the sex designation of an infant, that the interests of the\ninfant will be substantially promoted by the change, the court shall\nmake an order authorizing the petitioner to assume the sex designation\nproposed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

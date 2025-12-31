@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-81.12"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-81.12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="81.12"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-81.12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-81.12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-81.12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-81.12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_81_12">
+        <num>81.12</num>
+        <heading>Burden and quantum of proof</heading>
+        <subsection eId="sec_81_12__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A determination that a person is incapacitated under the\nprovisions of this article must be based on clear and convincing\nevidence. The burden of proof shall be on the petitioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_81_12__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The court may, for good cause shown, waive the rules of evidence.\nThe report of the court evaluator may be admitted in evidence if the\ncourt evaluator testifies and is subject to cross examination; provided,\nhowever, that if the court determines that information contained in the\nreport is, in the particular circumstance of the case, not sufficiently\nreliable, the court shall require that the person who provided the\ninformation testify and be subject to cross examination.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

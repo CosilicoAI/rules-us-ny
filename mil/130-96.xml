@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.96"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.96"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.96"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.96/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.96/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.96/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.96/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_96">
+        <num>130.96</num>
+        <heading>Subordinate compelling surrender</heading>
+        <content>
+          <p>  § 130.96. Subordinate compelling surrender.  Any person subject to\nthis code who compels or attempts to compel a commander of any place,\nvessel, aircraft, or other military property, or of any body of members\nof the armed forces of the United States or of any other state, or of\nthe organized militia to give it up to an enemy or to abandon it, or who\nstrikes the colors or flag to an enemy without proper authority, shall\nbe punished as a court-martial may direct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

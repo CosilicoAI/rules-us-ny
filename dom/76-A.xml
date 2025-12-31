@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-76-A"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-76-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="76-A"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-76-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-76-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-76-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-76-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_A">
+        <num>76-A</num>
+        <heading>Exclusive, continuing jurisdiction</heading>
+        <subsection eId="sec_76_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a court of this state determines that neither the child, the child\nand one parent, nor the child and a person acting as a parent have a\nsignificant connection with this state and that substantial evidence is\nno longer available in this state concerning the child's care,\nprotection, training, and personal relationships; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_76_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a court of this state or a court of another state determines that\nthe child, the child's parents, and any person acting as a parent do not\npresently reside in this state.\n  2. A court of this state which has made a child custody determination\nand does not have exclusive, continuing jurisdiction under this section\nmay modify that determination only if it has jurisdiction to make an\ninitial determination under section seventy-six of this title.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

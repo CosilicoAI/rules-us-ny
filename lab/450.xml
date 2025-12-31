@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-450"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-450"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="450"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-450/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-450/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_450">
+        <num>450</num>
+        <heading>Application of article</heading>
+        <content>
+          <p>  § 450. Application of article. 1. This article shall apply to persons\nengaged in the manufacture, ownership, possession, storage, use,\ntransportation, purchase, sale or gift of explosives as defined in\nsubdivision one of section four hundred fifty-one of this article.\n  2. This article shall not apply to explosives while being transported\nin conformity with federal law or regulations, nor except as may be\nherein otherwise provided to persons who manufacture, own, possess,\nstore, use, transport, purchase, sell or give explosives within the\nterritorial boundaries of cities having more than one million\ninhabitants, nor to any of the following while in the performance of\ntheir official duties:  the armed forces of the United States, the\nnational guard, the state guard and duly constituted police and\nfirefighting forces of the state and its civil and political\nsubdivisions.\n  3. For all purposes of this article, explosives in the possession of\nan employee within the scope of his duties, shall be considered to be in\nthe possession of the employer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

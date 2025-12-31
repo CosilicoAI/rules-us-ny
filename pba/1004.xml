@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1004"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1004"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1004"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1004/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1004/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1004/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1004/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1004">
+        <num>1004</num>
+        <heading>Officers and employees; expenses</heading>
+        <content>
+          <p>  § 1004. Officers and employees; expenses. The trustees shall choose\nfrom among their own number a chairman and vice-chairman. They shall\nselect such officers and employees, including a chief executive officer\nwhose appointment shall be subject to confirmation by the senate in\naccordance with section twenty-eight hundred fifty-two of this chapter,\nand such engineering, marketing and legal officers and employees, as\nthey may require for the performance of their duties and shall prescribe\nthe duties and compensation of each officer and employee. They shall\nadopt by-laws and rules and regulations suitable to the purposes of this\ntitle. As long as and to the extent that the authority is dependent upon\nappropriations for the payment of its expenses, it shall incur no\nobligations for salary, office or other expenses prior to the making of\nappropriations adequate to meet the same.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-N"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1021-N"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1021_N">
+        <num>1021-N</num>
+        <heading>Equal employment opportunity</heading>
+        <content>
+          <p>  § 1021-n. Equal employment opportunity. All contracts entered into by\nthe authority pursuant to this title of whatever nature and all\ndocuments soliciting bids or proposals therefor shall contain or make\nreference to the following provision:\n  The contractor shall not discriminate against employees or applicants\nfor employment because of race, creed, color, national origin, sex, age,\ndisability or marital status, and will undertake or continue existing\nprograms of affirmative action to ensure that minority group persons and\nwomen are afforded equal opportunity without discrimination. Such\nprograms shall include, but not be limited to, recruitment, employment,\njob assignment, promotion, upgrading, demotion, transfer, layoff,\ntermination, rates of pay or other forms of compensation, and selection\nfor training and retraining, including apprenticeship and on-the-job\ntraining.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

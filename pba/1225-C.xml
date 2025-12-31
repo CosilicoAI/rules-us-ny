@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1225-C"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1225-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1225-C"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1225-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1225-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1225-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1225-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1225_C">
+        <num>1225-C</num>
+        <heading>Transit construction fund</heading>
+        <subsection eId="sec_1225_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>There is hereby created the\ntransit construction fund. The fund is a corporate governmental agency\nconstituting a public benefit corporation. It has the powers and\nprivileges of a corporation and all of its business shall be transacted,\nall funds invested, all warrants for money drawn and payments made, and\nall cash and securities and other personal property held under its\ncorporate name.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1225_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The fund shall continue until all its liabilities have been met or\notherwise discharged and until its existence shall have been terminated\nby law. Upon the termination of the existence of the fund, all of its\nrights and property shall pass to and be vested in the city.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

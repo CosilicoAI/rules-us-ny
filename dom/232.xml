@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-232"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-232"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="232"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-232/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-232/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_232">
+        <num>232</num>
+        <heading>Notice of nature of matrimonial action; proof of service</heading>
+        <subsection eId="sec_232__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>personally delivered to the defendant, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_232__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>served on the defendant pursuant to an order directing the method of\nservice of the summons in accordance with the provisions of section\nthree hundred eight or three hundred fifteen of the civil practice law\nand rules, shall contain such notice.\n  b. An affidavit or certificate proving service shall state\naffirmatively in the body thereof that the required notice was written\nor printed on the face of the copy of the summons delivered to the\ndefendant and what knowledge the affiant or officer who executed the\ncertificate had that he was the defendant named and how he acquired such\nknowledge. The court may require the affiant or officer who executed the\naffidavit or certificate to appear in court and be examined in respect\nthereto.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

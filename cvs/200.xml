@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-200"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-200"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200"/>
+          <FRBRname value="CVS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200">
+        <num>200</num>
+        <heading>Statement of policy</heading>
+        <subsection eId="sec_200__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>granting to\npublic employees the right of organization and representation,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_200__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nrequiring the state, local governments and other political subdivisions\nto negotiate with, and enter into written agreements with employee\norganizations representing public employees which have been certified or\nrecognized,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_200__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>encouraging such public employers and such employee\norganizations to agree upon procedures for resolving disputes,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_200__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>\ncreating a public employment relations board to assist in resolving\ndisputes between public employees and public employers, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_200__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>\ncontinuing the prohibition against strikes by public employees and\nproviding remedies for violations of such prohibition.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

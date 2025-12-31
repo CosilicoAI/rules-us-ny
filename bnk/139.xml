@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-139"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-139"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="139"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-139/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-139/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-139/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-139/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139">
+        <num>139</num>
+        <heading>Saving clause</heading>
+        <content>
+          <p>  § 139. Saving clause. All banks which shall have been authorized by\nthe superintendant to exercise fiduciary powers pursuant to this\nchapter, as from time to time in effect, shall be known as trust\ncompanies subject to the provisions of this article applicable to trust\ncompanies, but nothing contained in this chapter shall require any such\nbank to change its name to include the term "trust company". All trust\ncompanies organized under or subject to the provisions of this chapter,\nas from time to time in effect, shall be subject to all the provisions\nof this article applicable to trust companies. Notwithstanding any other\nprovision or law, a corporation formed under this article to acquire the\nbanking business previously done by a partnership doing business\npursuant to this chapter may have as its corporate name the name under\nwhich such partnership did business, with the addition of a word or\nwords, indicating that it is a corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-542"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-542"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="542"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-542/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-542/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-542/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-542/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_542">
+        <num>542</num>
+        <heading>City laboratories; boards of managers; appointment</heading>
+        <subsection eId="sec_542__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The\nmayor of any city establishing a laboratory in accordance with the\nprovisions of this article shall appoint the board of managers of such\nlaboratory which board shall consist of at least five members, two of\nthem shall be physicians duly licensed to practice in the state of New\nYork. The county medical society may present to the mayor a list of\nnames of physicians residing in the city from which he may choose the\nmedical members of the board of managers.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_542__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The president of the local board of health, if such office exists,\nand the local commissioner of health or health officer shall be\nex-officio members of the board of managers of the laboratory.\n  2. In cities when more than one laboratory is established, only one\nboard of managers shall be appointed, which shall have jurisdiction over\nall the laboratories established or operating under sections five\nhundred forty to five hundred forty-three inclusive, of this chapter, in\nsaid city.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

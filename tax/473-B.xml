@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-473-B"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-473-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="473-B"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-473-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-473-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-473-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-473-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_473_B">
+        <num>473-B</num>
+        <heading>Cigarettes marked for export outside the United States; importation and affixation of stamps prohibited</heading>
+        <content>
+          <p>  § 473-b. Cigarettes marked for export outside the United States;\nimportation and affixation of stamps prohibited. 1. A person may not\nimport into this state any cigarettes that have been marked for export\noutside the United States with a label or notice in compliance with 27\nCFR § 290.185 or that violates a federal requirement for the placement\nof labels, warnings, or any other information, including health hazards,\non the individual package.\n  2. A person may not affix a stamp on a package of cigarettes,\ncigarette papers, wrappers or tubes unless that individual complies with\nall federal tax laws, federal trademark and copyright laws, and all\nfederal laws regarding the placement of labels, warnings or any other\ninformation upon a package of cigarettes, cigarette papers, wrappers, or\ntubes.\n  3. A person may not affix a stamp on a package of cigarettes,\ncigarette papers, wrappers, or tubes if that individual package has been\nmarked for export outside the United States with a label or notice in\ncompliance with 27 CFR § 290.185.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

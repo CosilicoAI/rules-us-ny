@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-112-A"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-112-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="112-A"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-112-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-112-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-112-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-112-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_112_A">
+        <num>112-A</num>
+        <heading>Expedited calendaring of adoption proceedings</heading>
+        <subsection eId="sec_112_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If such basis is found, the appearance of the adoptive parents and\nchild before the court for approval of the adoption shall be calendared\npursuant to such rules.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_112_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If, upon the court's review, the court finds that there is not an\nadequate basis for approval of the adoption, the court shall direct such\nfurther hearings, submissions or appearances as may be required, and the\nproceedings shall be adjourned as required for such purposes.\n  3. The chief administrator of the court shall establish by rule time\nframes for the calendaring and disposition of adoption proceedings and\nshall report by the thirty-first day of December of each year to the\ngovernor and the temporary president of the senate, speaker of the\nassembly, and chairpersons of the judiciary and children and families\ncommittees on the implementation of such rules and their impact upon\nadoptions from authorized agencies.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

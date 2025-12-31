@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-918"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-918"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="918"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-918/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-918/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-918/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-918/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_918">
+        <num>918</num>
+        <heading>Registration required</heading>
+        <content>
+          <p>  § 918. Registration required. A professional employer organization\nshall not engage in business from offices in this state or enter into\nany arrangement with a person for the purpose of providing professional\nemployer services as described in section nine hundred twenty-two of\nthis article to persons in this state unless the professional employer\norganization is registered under this article. No professional employer\norganization or person shall use the name or title "professional\nemployer organization", "PEO", "staff leasing company", "employee\nleasing company", "registered staff leasing company" or "staff leasing\nservices company", or otherwise represent that it is registered under\nthis article unless the entity or person is registered under this\narticle. A professional employer organization that does not comply with\nthe provisions of this article shall not be a registered professional\nemployer organization in this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

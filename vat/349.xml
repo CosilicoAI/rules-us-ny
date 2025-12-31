@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-349"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-349"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="349"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-349/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-349/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-349/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-349/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_349">
+        <num>349</num>
+        <heading>Filing a bond as proof of financial responsibility</heading>
+        <subsection eId="sec_349__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A\nperson required to give proof of financial responsibility may file with\nthe commissioner a bond meeting the requirements of this section.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_349__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such bond shall be executed by the person giving such proof and by\na surety company duly authorized to transact business in this state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_349__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner shall not accept any such bond unless it is\nconditioned for payments in amounts and under the same circumstances as\nwould be required in a motor vehicle liability policy furnished by the\nperson giving such proof under this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_349__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>No such bond shall be cancelled unless ten days' prior written\nnotice of cancellation is given the commissioner but cancellation of\nsuch bond shall not prevent recovery thereon with respect to any right\nor cause of action arising prior to the date of cancellation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_349__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>If a final judgment rendered against the principal on the bond\nfiled with the commissioner as provided in this article shall not be\nsatisfied within fifteen days after its rendition, the judgment creditor\nmay, for his own use and benefit and at his sole expense, bring an\naction on said bond in the name of the state against the company or\npersons executing such bond.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

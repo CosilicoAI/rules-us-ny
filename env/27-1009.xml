@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1009"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1009"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-1009"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1009/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1009/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-1009/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-1009/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_1009">
+        <num>27-1009</num>
+        <heading>Refusal of acceptance</heading>
+        <content>
+          <p>§ 27-1009. Refusal of acceptance.\n  1. A dealer or operator of a redemption center may refuse to accept\nfrom a redeemer, and a deposit initiator or distributor may refuse to\naccept from a dealer or operator of a redemption center any empty\nbeverage container which does not state thereon a refund value as\nestablished by section 27-1005 and provided by section 27-1011 of this\ntitle.\n  2. A dealer or operator of a redemption center may also refuse to\naccept any broken bottle, corroded, crushed or dismembered container, or\nany beverage container which contains a significant amount of foreign\nmaterial, as determined in rules and regulations to be promulgated by\nthe commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

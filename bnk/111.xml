@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-111"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-111"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-111/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-111/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111">
+        <num>111</num>
+        <heading>Profits; credits to surplus fund and to undivided profits</heading>
+        <content>
+          <p>  § 111. Profits; credits to surplus fund and to undivided profits. In\nany case where the combined capital stock, surplus fund and undivided\nprofits of a bank or trust company do not equal ten per centum of its\nnet deposit liabilities, the superintendent of financial services may in\nhis or her discretion require such bank or trust company at the close of\neach accounting period to credit its surplus fund with a portion of its\nnet profits for such period, not to exceed ten per centum thereof, until\nits combined capital stock, surplus fund and undivided profits equal ten\nper centum of its net deposit liabilities. For the purposes of this\nsection, the term "net deposit liabilities" shall mean total deposits\nincluding all amounts due to national banks, banks, bankers, trust\ncompanies and savings banks, the amounts due on certified and cashier's\nchecks, and for unpaid dividends less the amounts of balances due from\nnational banks, banks, bankers, and trust companies and cash items in\nprocess of collection payable immediately upon presentation in the\nUnited States.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

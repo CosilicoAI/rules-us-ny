@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="440.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_60">
+        <num>440.60</num>
+        <heading>Notification of invalid sentences of probation</heading>
+        <content>
+          <p>§ 440.60 Notification of invalid sentences of probation.\n  Whenever it shall appear to the satisfaction of the appropriate\ndirector of the probation department that a person sentenced pursuant to\narticle sixty of the penal law has received a sentence which is invalid\nas a matter of law, it shall become his duty to notify the district\nattorney of the county in which such person was convicted. Upon such\nnotification, the district attorney shall immediately investigate the\nmatter and if such sentence of probation is in fact invalid as a matter\nof law, the district attorney shall immediately move to set aside such\nsentence pursuant to section 440.40 of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

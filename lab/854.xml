@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-854"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-854"/>
+          <FRBRdate date="2022-01-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="854"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-854/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-854/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-854/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-854/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_854">
+        <num>854</num>
+        <heading>Quarterly work opportunity tax credit reporting</heading>
+        <content>
+          <p>  § 854. Quarterly work opportunity tax credit reporting. The department\nshall make available on its website certain statistical information and\ntarget group eligibility information relating to work opportunity tax\ncredit certifications approved by the department made pursuant to the\nfederal Protecting Americans from Tax Hikes Act of 2015 (Pub. L. No.\n114-113)(PATH Act). The information relating to certifications issued by\nthe department that shall be disclosed includes the starting wage,\ntarget group, and position information as reported by employers to the\ndepartment on employer applications for certification pursuant to the\nPATH Act. No personally identifiable information, including information\nidentifying specific employers, shall be disclosed by the department.\nThe department shall make available the information required to be\ndisclosed by this section no later than ninety days after the effective\ndate of this section and shall update such information every three\nmonths thereafter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

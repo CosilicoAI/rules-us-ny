@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-345"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-345"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="345"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-345/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-345/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-345/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-345/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_345">
+        <num>345</num>
+        <heading>County or part-county boards of health; compensation and expenses of members</heading>
+        <content>
+          <p>  § 345. County or part-county boards of health; compensation and\nexpenses of members. The members of the board of health of a county or\npart-county health district shall receive for attendance at meetings of\nthe board, and, when authorized by the president of the board, within\nappropriations made therefor, for meetings of standing committees, a per\ndiem compensation which shall be fixed by the board of supervisors, and\nin addition thereto, they shall be allowed actual and necessary\ntraveling expenses, to be audited and paid in the same manner as other\nexpenses of such board of health.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

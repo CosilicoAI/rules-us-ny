@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>Jurisdiction of board to be continuing</heading>
+        <content>
+          <p>  § 123. Jurisdiction of board to be continuing. The power and\njurisdiction of the board over each case shall be continuing, and it\nmay, from time to time, make such modification or change with respect to\nformer findings, awards, decisions or orders relating thereto, as in its\nopinion may be just, except that, where the employer has secured the\npayment of compensation in accordance with the provisions of section\nfifty of this chapter, no claim for compensation or for death benefits\nthat has been disallowed after a trial on the merits, or that has been\notherwise disposed of without an award after the parties in interest\nhave been given due notice of hearing or hearings and opportunity to be\nheard and for which no determination was made on the merits, shall be\nreopened after a lapse of seven years from the date of the accident or\ndeath. Nor shall any award of compensation or death benefits be made\nagainst the special fund provided in section twenty-five-a of this\nchapter or against an employer or an insurance carrier where application\ntherefor is made after a lapse of eighteen years from the date of the\ninjury or death and also a lapse of eight years from the date of the\nlast payment of compensation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

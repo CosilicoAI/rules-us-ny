@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-331.6"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-331.6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="331.6"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-331.6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-331.6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-331.6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-331.6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_331_6">
+        <num>331.6</num>
+        <heading>Discovery; sanctions</heading>
+        <content>
+          <p>  § 331.6. Discovery; sanctions. 1. If, during the course of discovery\nproceedings, the court finds that a party has failed to comply with any\nof the provisions of sections 331.2 through 331.7, the court may order\nsuch party to permit discovery of the property not previously disclosed,\ngrant a continuance, issue a protective order, prohibit the introduction\nof certain evidence or the calling of certain witnesses or take any\nother appropriate action.\n  2. The failure of the presentment agency to call as a witness a person\nspecified in subdivision one of section 331.2 or any party to introduce\ndisclosed material at the fact-finding hearing shall not, by itself\nconstitute grounds for any sanction or for adverse comment thereupon by\nany party.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

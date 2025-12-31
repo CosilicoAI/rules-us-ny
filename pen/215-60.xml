@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.60"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215.60"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215_60">
+        <num>215.60</num>
+        <heading>Criminal contempt of the legislature</heading>
+        <content>
+          <p>§ 215.60 Criminal contempt of the legislature.\n  A person is guilty of criminal contempt of the legislature when,\nhaving been duly subpoenaed to attend as a witness before either house\nof the legislature or before any committee thereof, he:\n  1. Fails or refuses to attend without lawful excuse; or\n  2. Refuses to be sworn; or\n  3. Refuses to answer any material and proper question; or\n  4. Refuses, after reasonable notice, to produce books, papers, or\ndocuments in his possession or under his control which constitute\nmaterial and proper evidence.\n  Criminal contempt of the legislature is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

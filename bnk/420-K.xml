@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-K"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-K"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="420-K"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_420_K">
+        <num>420-K</num>
+        <heading>Termination of insurance</heading>
+        <subsection eId="sec_420_K__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>At any time after five years of membership, but not before, an\ninsured savings and loan association may submit to the fund a\ncertificate of intention to terminate its membership therein.\nTermination shall become effective on the first day of the sixth month\nfollowing the submission of the certificate provided that:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_420_K__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>The member pay a termination fee equivalent to twice the last\nannual premium paid by it pursuant to subdivision one of section four\nhundred twenty-h of this chapter; this fee shall not extend or enlarge\ninsurance coverage.\n  (ii) The insured savings and loan association sends to each holder of\na savings account a notice in writing not later than two months after\nsubmission of the certificate; the notice shall be in a form prescribed\nby the fund and shall set forth the facts of the termination.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_420_K__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The fund may elect to refund to the association its original\ncapital contribution to the fund subject to terms it may prescribe,\nprovided that such refund is made within two years of termination of\nmembership.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

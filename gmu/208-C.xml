@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-208-C"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-208-C"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="208-C"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-208-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-208-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-208-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-208-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_208_C">
+        <num>208-C</num>
+        <heading>Death benefits for dependent fathers or dependent mothers of certain police officers and firefighters</heading>
+        <subsection eId="sec_208_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The member shall leave no widow, or if his widow shall die before\nreceiving the total of the amounts provided in subdivision two of\nsection two hundred eight-b of this chapter, and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_208_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>He has no child or children under the age of eighteen surviving.\n  2. Application for such death benefit shall be made by the member's\ndependent father or dependent mother in the manner provided in\nsubdivision four of section two hundred eight-b of this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

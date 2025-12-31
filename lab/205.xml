@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-205"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-205"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="205"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-205/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-205/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-205/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-205/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205">
+        <num>205</num>
+        <heading>Prohibition against eating meals in certain workrooms</heading>
+        <content>
+          <p>  § 205. Prohibition against eating meals in certain workrooms. No\nemployee shall take or be permitted to take any food into a room of any\nworking place where lead, arsenic or other poisonous substances or\ninjurious or noxious fumes, dust or gases exist in harmful conditions or\nare present in harmful quantities as an incident or result of the\nbusiness carried on in such working place. Notice to the foregoing\neffect shall be posted in such room. No employee, unless his presence is\nnecessary for the proper conduct of the business, shall remain in any\nsuch room during the time allowed for meals. The employer shall provide\na suitable place in such establishment in which the employees may eat.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

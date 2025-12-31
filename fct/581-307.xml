@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-307"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-307"/>
+          <FRBRdate date="2021-02-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="581-307"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-307/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-307/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-307/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-307/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_581_307">
+        <num>581-307</num>
+        <heading>Effect of death of intended parent</heading>
+        <content>
+          <p>  § 581-307. Effect of death of intended parent. If an individual who\nconsented in a record to be a parent by assisted reproduction dies\nbefore the transfer of eggs, sperm, or embryos, the deceased individual\nis not a parent of the resulting child unless the deceased individual\nconsented in a signed record that if assisted reproduction were to occur\nafter death, the deceased individual would be a parent of the child,\nprovided that the record complies with the estates, powers and trusts\nlaw. Any rights of the child born after the death of an intended parent\nmay be enforced by a government agency authorized by law, including but\nnot limited to a department of social services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

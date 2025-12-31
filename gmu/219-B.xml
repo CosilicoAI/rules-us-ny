@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-219-B"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-219-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="219-B"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-219-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-219-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-219-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-219-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_219_B">
+        <num>219-B</num>
+        <heading>Purpose</heading>
+        <content>
+          <p>  § 219-b.  Purpose. It is hereby declared that this article is intended\nto effectuate the objects and purposes of section eighteen of article\none of the constitution and that the relationship between the political\nsubdivision liable for payments of service awards under this article and\na volunteer ambulance worker entitled to such payments is that of\nemployer and employee within the meaning of such provision of the\nconstitution.  In no event shall the receipt of a service award under\nthe provisions of this article be deemed to constitute membership in any\npension or retirement system of the state or of a civil division thereof\nwithin the purview of section seven of article five of the constitution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

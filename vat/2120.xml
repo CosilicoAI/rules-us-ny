@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2120"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2120"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2120"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2120/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2120/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2120/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2120/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2120">
+        <num>2120</num>
+        <heading>Assignment by lienholder</heading>
+        <subsection eId="sec_2120__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A lienholder may assign,\nabsolutely or otherwise, his security interest in the vehicle to a\nperson other than the owner without affecting the interest of the owner\nor the validity of the security interest, but any person without notice\nof the assignment is protected in dealing with the lienholder as the\nholder of the security interest and the lienholder remains liable for\nany obligations as lienholder until the assignee is named as lienholder\non the certificate.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2120__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The assignee may, but need not to perfect the assignment, have the\ncertificate of title endorsed or issued with the assignee named as\nlienholder, upon delivering to the commissioner an assignment by the\nlienholder named in the certificate in the form the commissioner\nprescribes. Upon the request of the assignee the commissioner shall\nrequest the owner to deliver to the commissioner the certificate of\ntitle.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

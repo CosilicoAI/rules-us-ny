@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-53"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-53"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="53"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-53/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-53/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-53/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-53/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_53">
+        <num>53</num>
+        <heading>Departments of town government</heading>
+        <content>
+          <p>  § 53. Departments of town government. The town board of a suburban\ntown may, by local law, create, modify or discontinue departments of the\ntown government in addition to those otherwise authorized by law and may\nassign additional functions or duties to offices, departments or\nagencies established by or pursuant to act of the legislature or local\nlaw, but may not discontinue or assign to any other office, department\nor agency any function or duty otherwise required by law to be performed\nby an officer serving in an elective office.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

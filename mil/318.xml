@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-318"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-318"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="318"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-318/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-318/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-318/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-318/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318">
+        <num>318</num>
+        <heading>Policy of the state</heading>
+        <subsection eId="sec_318__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No person shall solicit, require, demand or otherwise request\nthat a person waive any of his or her rights under this article, whether\nexisting at that time or thereafter to accrue.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_318__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any person who shall knowingly violate paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_318__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of this\nsubdivision shall be guilty of a misdemeanor and shall be punished by\nimprisonment not to exceed one year, or by fine not to exceed one\nthousand dollars, or both such imprisonment and fine, and shall be\nfurther subject to a civil penalty in an amount not to exceed five\nthousand dollars for each occurrence. Such penalty may be recovered in\nan action brought by the attorney general in any court of competent\njurisdiction.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_318__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any waiver entered into in violation of this subdivision shall not\nbe deemed to be binding on any person in military service who executed\nsuch waiver.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

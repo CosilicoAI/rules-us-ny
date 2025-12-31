@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1951"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1951"/>
+          <FRBRdate date="2021-11-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1951"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1951/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1951/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1951/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1951/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1951">
+        <num>1951</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_1951__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a census tract or tracts or\nblock numbering areas or areas or such census tract or block numbering\narea contiguous thereto which, according to the most recent census data\navailable, has:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1951__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>a poverty rate of at least twenty percent for the year to which\nthe data relates or at least twenty percent of households receiving\npublic assistance; and\n  (ii) an unemployment rate of at least 1.25 times the statewide\nunemployment rate for the year to which the data relates; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1951__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a city, town, village or county within a city with a population of\none million or more for which:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1951__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the ratio of the full value property\nwealth, as determined by the comptroller for the year nineteen hundred\nninety, per resident to the statewide average full value property wealth\nper resident; and (ii) the ratio of the income per resident; as shown in\nthe nineteen hundred ninety census to the statewide average income per\nresident; are each fifty-five percent or less of the statewide average;\nor\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1951__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>an area which was designated an empire zone pursuant to article\neighteen-B of the general municipal law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

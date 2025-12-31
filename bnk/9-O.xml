@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-O"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-O"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_O">
+        <num>9-O</num>
+        <heading>Mortgage loans; disclosure form</heading>
+        <subsection eId="sec_9_O__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Mortgage lending institution" shall mean an insurance company,\nbanking organization, foreign banking corporation licensed by the\nsuperintendent or the comptroller of the currency, to transact business\nin this state, national bank, federal savings bank, federal savings and\nloan association, federal credit union, or any bank, trust company,\nsavings bank, savings and loan association, or credit union organized\nunder the laws of any other state, or any instrumentality created by the\nUnited States or any other state, with the power to make mortgage loans.\nMortgage lending institution shall include a subsidiary of such entity.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_9_O__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Mortgage banker" shall mean a person or entity who or which is\nlicensed pursuant to section five hundred ninety-one of this chapter to\nmake mortgage loans in this state.\n  2. Every mortgage lending institution and mortgage banker which\noriginates loans secured by real property used for residential purposes\nlocated in this state shall provide a separate disclosure form with each\napplication that shall contain a provision stating whether the interest\nrate of such loan shall be the interest rate in effect at the time of\napplication, the time of commitment, the time of closing or at such\nother period of time as shall be determined by the lending institution.\nThe superintendent of financial services shall promulgate rules and\nregulations to implement the provisions of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

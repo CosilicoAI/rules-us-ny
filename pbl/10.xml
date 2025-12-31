@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-10"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10">
+        <num>10</num>
+        <heading>Power to investigate before grant</heading>
+        <content>
+          <p>  § 10. Power to investigate before grant.  Before granting any lands or\nany interest therein, including lands under water, the commissioner of\ngeneral services may summarily inquire into the rights of the person\napplying for such grant, on such proof as, by regulation, the\ncommissioner may prescribe.  The commissioner may take testimony and\nproofs in any matter or application before him, and the fees of\nwitnesses and the expense of procuring their attendance shall be paid\nfrom the state treasury out of any funds available therefor by\nappropriation, on the audit and warrant of the comptroller, on the\ncertificate of the commissioner.  The commissioner shall establish\nreasonable rules to guard against false or fraudulent applications and\nfor such other purposes as he may deem proper.  At any such inquiry or\nhearing, the commissioner may be represented by a deputy or other\nrepresentative designated by him.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

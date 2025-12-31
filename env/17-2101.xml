@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-2101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-2101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-2101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-2101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-2101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-2101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-2101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_2101">
+        <num>17-2101</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 17-2101. Definitions.\n  As used in this title:\n  1. "Compost" means the biologically stable humus-like material derived\nfrom composting or the aerobic, thermophilic decomposition of organic\nmatter.\n  2. "Fertilizer" means the same as "specialty fertilizer" as defined in\nsection one hundred forty-three of the agriculture and markets law.\n  3. "Lawn" or "non-agricultural turf" means any non-crop land area that\nis covered by any grass species. Lawn or non-agricultural turf does not\nmean flower or vegetable gardens, pasture, hayland, trees, shrubs, turf\ngrown on turf farms, or any form of agricultural production.\n  4. "Phosphorus fertilizer" means fertilizer in which the available\nphosphate (P205) content is greater than 0.67 percent by weight,\nexcluding compost.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

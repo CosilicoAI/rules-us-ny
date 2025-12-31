@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-351"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-351"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="351"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-351/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-351/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-351/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-351/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_351">
+        <num>351</num>
+        <heading>Preferred provider organizations; contracts</heading>
+        <content>
+          <p>  § 351. Preferred provider organizations; contracts. The state\ninsurance fund, any stock corporation, mutual corporation or reciprocal\ninsurer authorized to transact the business of workers' compensation\ninsurance in this state or self-insurer may contract with a preferred\nprovider organization to deliver all medical services mandated by this\nchapter, provided such contract takes effect on or after January first,\nnineteen hundred ninety-seven and the insurer or the employer has no\nfinancial interest in the preferred provider organization. Where there\nis a duty to collectively bargain, an employer shall collectively\nbargain the use and implementation of a preferred provider organization\nwith the authorized collective bargaining agent of its employees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

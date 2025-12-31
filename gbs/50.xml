@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-50"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="50"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50">
+        <num>50</num>
+        <heading>Disposition of proceeds</heading>
+        <content>
+          <p>  § 50. Disposition of proceeds. 1. The surplus money, if any, arising\nfrom any such sale, after deducting the amount of the loan, the interest\nthen due on the same, the auctioneer's commissions, if applicable,\nlawful extra care charges and the expense of the advertisement of the\nsale, if applicable, shall be paid over by the collateral loan broker to\nthe person who would be entitled to redeem the pledge in case no such\nsale had taken place.\n  2. In the event there is any surplus money due to a pledgor after such\nsale, the collateral loan broker shall give the pledgor written notice\nthereof, by mailing to such pledgor, directed to him at the address\ngiven at the time of pledging or in the event such pledgor has notified\nthe collateral loan broker, in writing, of a change of address, to such\nnew address, within thirty days after such sale, a notice which shall\nstate the name and address of the collateral loan broker, the number of\nthe pledge, the date of sale and the amount of any surplus. In the event\nany person entitled to such surplus fails to make claim for the same\nwithin one year from the date of such sale, such surplus shall be paid\nover, by the collateral loan broker, to the state comptroller in\naccordance with the provisions of section one thousand three hundred one\nof the abandoned property law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

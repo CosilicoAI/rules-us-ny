@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-346"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-346"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="346"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-346/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-346/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-346/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-346/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_346">
+        <num>346</num>
+        <heading>Changing number of laymen trustees</heading>
+        <content>
+          <p>  § 346. Changing number of laymen trustees. An incorporated church to\nwhich this article is applicable may, at its annual corporate meeting\nwhere trustees are elected, by a majority vote of the duly qualified\nvoters at such meeting, change the number of its trustees by adding more\ntrustees, one-third of which shall be elected for three years, one-third\nfor two years and one-third for one year; or by voting to discontinue\nthe offices of certain specified trustees as they expire, one-third of\nsaid offices to be discontinued each year, until the number left is the\nnumber decided upon. No such changes shall affect the terms of the\ntrustees then in office, but each shall hold office until his full term\nhas expired unless his office shall terminate as provided for elsewhere\nin this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="521-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_521_A">
+        <num>521-A</num>
+        <heading>Disclosure requirements</heading>
+        <subsection eId="sec_521_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a notice that the purchase of the services\nor the renewal thereof is not required for a consumer to retain his\ncredit card or access device;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_521_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a concise statement regarding the\nlimitations of a consumer's liability for unauthorized use of credit\ncards or access devices as established by the acts of Congress entitled\n"Truth in Lending Act" and "Electronic Fund Transfer Act" and the\nregulations thereunder, as such acts and regulations may from time to\ntime be amended.\n  Such disclosures if made orally shall also be made in writing by the\ncredit card registration service to the subscriber no later than thirty\ndays after the contract for services is entered into.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

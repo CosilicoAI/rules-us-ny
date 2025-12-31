@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-80"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-80"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="80"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-80/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-80/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80">
+        <num>80</num>
+        <heading>Wine tasting</heading>
+        <content>
+          <p>  § 80. Wine tasting. 1. Except as otherwise provided for in this\nchapter, any person licensed to sell wine pursuant to this article, or\nsection sixty-three or section seventy-nine of this chapter, shall be\npermitted to conduct wine tastings only upon the licensed premises. Wine\ntastings which are conducted under the auspices of an official agent of\na farm winery, winery, wholesaler, or importer and where such agent is\nphysically present at all times during the conduct of the tasting, then,\nin that event, any liability stemming from a right of action resulting\nfrom a wine tasting as authorized herein, and in accordance with the\nprovisions of sections 11-100 and 11-101 of the general obligations law,\nshall accrue to the farm winery, winery, wholesaler, or importer.\n  2. In addition to such other wine tastings permitted under this\nchapter, licensed farm wineries, wineries, and wine wholesalers may\napply for a permit, pursuant to paragraph k of subdivision one of\nsection ninety-nine-b of this chapter, to conduct wine tastings. Such\npermits shall be valid throughout the state and may be issued on an\nannual basis or for individual events. Each such permit and the exercise\nof the privilege granted thereby shall be subject to such rules of the\nliquor authority as it deems necessary.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

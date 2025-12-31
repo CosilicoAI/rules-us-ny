@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1388"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1388"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1388"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1388/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1388/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1388/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1388/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1388">
+        <num>1388</num>
+        <heading>Powers of the commissioner; emergencies</heading>
+        <content>
+          <p>  § 1388. Powers of the commissioner; emergencies.  In case of great and\nimminent peril to the health of the general public from such hazards as\nmay be identified as resulting from exposure to toxic substances\nemanating from landfills, the commissioner may declare the existence of\nan emergency and take such measures and do such acts as he may deem\nreasonably necessary and proper for the preservation and protection of\nthe public health.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

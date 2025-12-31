@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-3-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-3-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-3-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-3-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-3-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-3-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_A">
+        <num>3-A</num>
+        <heading>Rate of interest on judgments and accrued claims against municipal corporations</heading>
+        <subsection eId="sec_3_A__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>there shall have been\ndeposited with an independent trustee sufficient monies to cover such\noverdue payment and any interest accrued thereon to the date of such\ndeposit and (ii) the making of such deposit shall have been announced\nfor three days in succession in a newspaper of general circulation in\nthe city of New York.\n  5. Bonds, notes and certificates of participation, and agreements and\ninstruments related to the foregoing, as authorized pursuant to\nparagraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3_A__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of section 54.10, section 54.90 or section 168.00 of the\nlocal finance law, or section one hundred nine-b of this chapter may\nprovide for the payment of interest on judgments and claims payable to\nor for the account of providers of credit or liquidity support or their\nsuccessors in interest, notwithstanding any limitations imposed by this\nsection.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

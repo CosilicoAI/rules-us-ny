@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-622"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-622"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="622"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-622/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-622/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-622/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-622/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_622">
+        <num>622</num>
+        <heading>List of claims duly presented; filing</heading>
+        <content>
+          <p>  § 622. List of claims duly presented; filing.  The superintendent\nshall cause to be made in duplicate a complete list of all claims duly\npresented specifying the name of the claimant, the nature of the claim\nand the amount thereof. Such list shall also contain a statement of\naccounts payable as shown by the books and records and as to which no\nclaims have been presented, specifying the name of each person to whom\nsuch an account appears to be payable, the nature of the debt and amount\nthereof. Within sixty days after the last date fixed in the notice to\ncreditors to present and make proof of claims, the superintendent shall\nfile one copy of such list in his office, and cause one copy to be filed\nwith the supreme court in the judicial district in which the principal\noffice of such banking organization is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0201"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="49-0201"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_0201">
+        <num>49-0201</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 49-0201. Definitions.\n  As used in this title, the following terms shall include and mean:\n  1. "Office" shall mean the state office of parks, recreation and\nhistoric preservation.\n  2. "Commissioners" shall mean the state commissioner of environmental\nconservation and the state commissioner of parks, recreation and\nhistoric preservation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

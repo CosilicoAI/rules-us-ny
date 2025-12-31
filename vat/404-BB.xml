@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-BB"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-BB"/>
+          <FRBRdate date="2017-01-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404-BB"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-BB/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-BB/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-BB/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-BB/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404_BB">
+        <num>404-BB</num>
+        <heading>Distinctive Cystic Fibrosis Foundation license plates</heading>
+        <content>
+          <p>  § 404-bb. Distinctive Cystic Fibrosis Foundation license plates. 1.\nAny person residing in this state shall, upon request, be issued a\ndistinctive license plate in support of cystic fibrosis awareness and\nresearch bearing the phrase "Cystic Fibrosis Foundation". Application\nfor said license plate shall be filed with the commissioner in such form\nand detail as the commissioner shall prescribe.\n  2. A distinctive plate issued pursuant to this section shall be issued\nin the same manner as other number plates upon payment of the regular\nregistration fee prescribed by section four hundred one of this article;\nprovided, however, that an additional annual service charge of\ntwenty-five dollars shall be charged for such plates.\n  3. Each twenty-five dollars received as the annual service charge\nunder this section shall be deposited to the credit of the "cystic\nfibrosis research and education fund" established pursuant to section\nninety-seven-qqqq of the state finance law and shall be used for\nresearch and education programs undertaken pursuant to section\nninety-seven-qqqq of the state finance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-640"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-640"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="640"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-640/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-640/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-640/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-640/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_640">
+        <num>640</num>
+        <heading>Fair treatment standards for crime victims</heading>
+        <content>
+          <p>  § 640. Fair treatment standards for crime victims. 1. The commissioner\nof the division of criminal justice services, in consultation with the\ndirector of the office of victim services and other appropriate\nofficials, shall promulgate standards for the treatment of the innocent\nvictims of crime by the agencies which comprise the criminal justice\nsystem of the state.\n  2. For the purposes of this article the term "criminal justice" shall\ninclude juvenile justice and the objectives and criteria set forth in\nsections six hundred forty-one and six hundred forty-two of this article\nshall apply to presentment agencies as defined in subdivision twelve of\nsection 301.2 of the family court act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

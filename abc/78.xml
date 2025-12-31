@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-78"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-78"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="78"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-78/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-78/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78">
+        <num>78</num>
+        <heading>Wholesaler's wine license</heading>
+        <content>
+          <p>  § 78. Wholesaler's wine license.  1. The procedure contained in\nsection sixty-two hereof shall apply so far as applicable to\napplications for a wholesaler's wine license.  Such license shall\ncontain a description of the licensed premises and in form and in\nsubstance shall be a license to the person therein specifically\ndesignated to sell wine at wholesale in the premises therein\nspecifically licensed in the original sealed containers of not more than\nfifteen gallons each to duly licensed manufacturers, wholesalers,\nretailers and permittees in this state, and to sell or deliver such wine\nto persons outside the state pursuant to the laws of the place of such\nsale or delivery.\n  2. Upon payment to the liquor authority of an additional annual fee of\none hundred twenty-five dollars, the liquor authority may in its\ndiscretion and upon such terms and conditions as it may prescribe, issue\nto a wholesale wine licensee upon application therefor a certificate\nauthorizing such wholesaler to sell wine at retail in sealed containers\nto a regularly organized church, synagogue or religious organization for\nsacramental purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

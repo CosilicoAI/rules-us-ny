@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-266"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-266"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="266"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-266/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-266/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-266/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-266/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_266">
+        <num>266</num>
+        <heading>Adoption of first zoning ordinance</heading>
+        <content>
+          <p>  § 266. Adoption of first zoning ordinance. 1. In order to avail itself\nof the powers conferred by this article, such town board shall appoint a\ncommission to be known as the zoning commission to recommend the\nboundaries of the various original districts and appropriate regulations\nto be enforced therein.\n  2. Where a planning board already exists it may be appointed as the\nzoning commission.\n  3. Such commission shall make a preliminary report and hold one or\nmore public hearings thereon as deemed appropriate by the commission\nbefore submitting its final report.\n  4. The town board shall not hold its public hearing or take action\nuntil it has received the final report of such commission.\n  5. Upon adoption of a resolution by the town board accepting the final\nreport, such commission shall cease to exist as a separate body.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

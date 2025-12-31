@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-110"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-110"/>
+          <FRBRdate date="2020-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-110"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_110">
+        <num>7-110</num>
+        <heading>Ballots; form for ballot proposals; additional requirements</heading>
+        <content>
+          <p>  § 7-110. Ballots; form for ballot proposals; additional requirements.\nBallot proposals shall appear on the ballot in a separate section or on\na separate sheet or card. At the left of, or below or above, each\nproposal shall appear two voting positions. Next to the first voting\nposition shall be printed the word "Yes," and next to the second voting\nposition shall be printed the word "No." The proposals shall be numbered\nconsecutively on the ballot. The number of each proposal shall appear in\nfront of its designation as an amendment, proposition or question in the\nfollowing form: "Proposal one, an amendment; proposal two, a\nproposition; proposal three, a question". If the ballot proposal section\nappears on the ballot face opposite the candidates, a ballot instruction\nin a format provided by the state board of elections, which may include\na graphic arrow, shall indicate the ballot is two-sided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

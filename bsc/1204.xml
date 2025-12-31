@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1204"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1204"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1204">
+        <num>1204</num>
+        <heading>Oath and security</heading>
+        <subsection eId="sec_1204__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A receiver, before entering upon his duties, shall:\n</p>
+          </content>
+          <paragraph eId="sec_1204__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>Take and subscribe an oath that he will faithfully, honestly and\nimpartially discharge the trust committed to him, and the oath shall be\nfiled with the clerk of the court in which the action or special\nproceeding is pending.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1204__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>File with the clerk of such court a bond to the people, with at\nleast two sufficient sureties or a bond executed by any fidelity or\nsurety company authorized by the laws of this state to transact\nbusiness, in a penalty fixed by the court appointing him, conditioned\nfor the faithful discharge of his duties as receiver. The court may at\nany time direct a receiver to give a new bond with new sureties and with\nlike condition.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

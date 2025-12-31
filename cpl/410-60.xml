@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-410.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-410.60"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="410.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-410.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-410.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-410.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-410.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_410_60">
+        <num>410.60</num>
+        <heading>Appearance before court</heading>
+        <content>
+          <p>§ 410.60 Appearance before court.\n  A person who has been taken into custody pursuant to section 410.40 or\nsection 410.50 of this article for violation of a condition of a\nsentence of probation or a sentence of conditional discharge must\nforthwith be brought before the court that imposed the sentence. Where a\nviolation of probation petition and report has been filed and the person\nhas not been taken into custody nor has a warrant been issued, an\ninitial court appearance shall occur within ten business days of the\ncourt's issuance of a notice to appear. If the court has reasonable\ncause to believe that such person has violated a condition of the\nsentence, it may commit such person to the custody of the sheriff, fix\nbail, release such person under non-monetary conditions or release such\nperson on such person's own recognizance for future appearance at a\nhearing to be held in accordance with section 410.70 of this article. If\nthe court does not have reasonable cause to believe that such person has\nviolated a condition of the sentence, it must direct that such person be\nreleased.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

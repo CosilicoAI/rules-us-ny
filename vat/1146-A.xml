@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1146-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1146-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1146-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1146-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1146-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1146-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1146-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1146_A">
+        <num>1146-A</num>
+        <heading>Approaching horses</heading>
+        <content>
+          <p>  § 1146-a. Approaching horses. 1. Notwithstanding the provisions of any\nother law to the contrary, every driver of a vehicle shall exercise due\ncare to avoid colliding with any horse being ridden or led along a\npublic highway.\n  2. Every driver of a vehicle shall approach a horse being ridden or\nled along a public highway at a reasonable and prudent speed so as to\navoid frightening such horse and shall pass the horse at a reasonable\ndistance.\n  3. No driver of a vehicle shall sound the horn when approaching or\npassing a horse on a public highway.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

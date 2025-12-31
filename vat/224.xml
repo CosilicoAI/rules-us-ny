@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-224"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-224"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="224"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-224/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-224/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-224/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-224/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_224">
+        <num>224</num>
+        <heading>Simplification of business application procedures and administration</heading>
+        <subsection eId="sec_224__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>applications for licenses or registrations,\nor renewals thereof, to be issued pursuant to sections three hundred\nthree, three hundred ninety-eight-c, four hundred fifteen and four\nhundred fifteen-a of this chapter simultaneously made by the same entity\nshall be made on one application, (ii) all such licenses and\nregistrations issued to the same entity shall expire at the same time,\nand (iii) the expiration dates for all licensees and registrants subject\nto such sections shall be staggered as effectively as possible over a\ntwo year period.\n  2. The provisions of the sections set forth in subdivision one of this\nsection shall be construed to achieve the purposes enunciated in that\nsubdivision.\n  3. Notwithstanding any other provisions of this chapter, only one\noriginal application fee shall be required of the same applicant who\nsimultaneously makes application for the issuance of more than one\nlicense or registration pursuant to section three hundred three, three\nhundred ninety-eight-c, four hundred fifteen or four hundred fifteen-a\nof this chapter. Such fee shall be the highest application fee for any\none of the licenses or registrations being applied for.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

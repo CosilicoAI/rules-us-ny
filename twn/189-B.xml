@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-189-B"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-189-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="189-B"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-189-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-189-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-189-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-189-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189_B">
+        <num>189-B</num>
+        <heading>Sale of firehouse, land and apparatus</heading>
+        <content>
+          <p>  § 189-b. Sale of firehouse, land and apparatus. The board of trustees\nof a village or the commissioners of a fire district, all of the\nterritory of which is embraced within the boundaries of a joint fire\ndistrict established or extended pursuant to the provisions of this\narticle, may by resolution authorize the sale or transfer of a firehouse\n(including the plot of land on which the building or fire district is\nsituated), fire apparatus and fire equipment owned by such village or by\nsuch fire district to said joint fire district with or without\nconsideration and, upon such terms and conditions as to such board of\ntrustees or board of commissioners may deem fitting and proper.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

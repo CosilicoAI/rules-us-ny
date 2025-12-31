@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-67"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-67"/>
+          <FRBRdate date="2024-04-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="67"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-67/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-67/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-67/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-67/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67">
+        <num>67</num>
+        <heading>License fees, duration of licenses; fee for part of year</heading>
+        <content>
+          <p>  § 67. License fees, duration of licenses; fee for part of year.\nEffective April first, nineteen hundred eighty-three, licenses issued\npursuant to sections sixty-one, sixty-two, sixty-three, sixty-four,\nsixty-four-a, sixty-four-b, sixty-four-c and sixty-four-e of this\narticle shall be effective for three years at three times that annual\nfee, except that, in implementing the purposes of this section, the\nliquor authority shall schedule the commencement dates, duration and\nexpiration dates thereof to provide for an equal cycle of license\nrenewals issued under each such section through the course of the fiscal\nyear. Effective December first, nineteen hundred ninety-eight, licenses\nissued pursuant to sections sixty-four, sixty-four-a and sixty-four-b of\nthis article shall be effective for two years at two times that annual\nfee, except that, in implementing the purposes of this section, the\nliquor authority shall schedule the commencement dates, duration and\nexpiration dates thereof to provide for an equal cycle of license\nrenewals issued under each such section through the course of the fiscal\nyear. Notwithstanding the foregoing, commencing on December first,\nnineteen hundred ninety-eight and concluding on July thirty-first, two\nthousand two, a licensee issued a license pursuant to section\nsixty-four, sixty-four-a or sixty-four-b of this article may elect to\nremit the fee for such license in equal annual installments. Such\ninstallments shall be due on dates established by the liquor authority\nand the failure of a licensee to have remitted such annual installments\nafter a due date shall be a violation of this chapter. For licenses\nissued for less than the three-year licensing period, the license fee\nshall be levied on a pro-rated basis. The entire license fee shall be\ndue and payable at the time of application. The liquor authority may\nmake such rules as shall be appropriate to carry out the purpose of this\nsection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

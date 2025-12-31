@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-77-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-77-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-77-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-77-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-77-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-77-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_E">
+        <num>77-E</num>
+        <heading>Baseball field fence leases in Yates county</heading>
+        <content>
+          <p>  § 77-e. Baseball field fence leases in Yates county.  Notwithstanding\nany provision of any general, special or local law or of any charter to\nthe contrary, the village of Penn Yan, Yates county, may lease municipal\nbaseball field fences, annually, at a nominal rent, to a not-for-profit\ncorporation or organization, organized under the laws of the state of\nNew York for the purpose of permitting the sale of advertising, with the\nrevenues to be used solely to purchase or repair baseball equipment for\nsaid organization.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

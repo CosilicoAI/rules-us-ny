@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-105"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-105"/>
+          <FRBRdate date="2019-07-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-105"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_105">
+        <num>7-105</num>
+        <heading>Ballot accountability</heading>
+        <subsection eId="sec_7_105__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>\naccounts for the number of each ballot style received by the election\ninspectors, (ii) retains a running count of ballots distributed and\nspoiled which would permit an interim reconciliation at any time during\nvoting; and (iii) provides for ballot reconciliation at the close of\npolls to verify that the number of ballots distributed to voters or\nspoiled when added to unvoted ballots equals the number of ballots\nreceived by the inspectors for the election.\n  2. Notwithstanding the provisions of this chapter requiring that a\nballot consisting of two or more sheets be provided to the voter as a\nsingle ballot divided by a line of perforations, such perforated ballots\nshall not be required and such ballot may be provided to the voter as\nseparate, unconnected sheets provided:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_105__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the ballots clearly inform a\nvoter that the voter must receive the number of ballot sheets the voter\nis entitled to, specifying such number, and (ii) each such ballot sheet\nshall be prominently labeled as "ballot sheet (here insert the number of\nthe ballot sheet) of (here insert the total number of sheets comprising\nthe ballot)."\n  3. The state board of elections shall promulgate regulations for\nballot accountability consistent with this section which shall include\nspecific ballot accountability requirements applicable to any ballot on\ndemand printing process.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

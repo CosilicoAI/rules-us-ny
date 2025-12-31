@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0603"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0603"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-0603"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0603/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0603/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0603/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0603/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_0603">
+        <num>15-0603</num>
+        <heading>Reclaimed wastewater feasibility study</heading>
+        <content>
+          <p>§ 15-0603. Reclaimed wastewater feasibility study.\n  1. The department, in consultation with the department of health,\nshall conduct a study of potential uses of greywater and reclaimed\nwastewater in New York state, and develop a strategy for promoting water\nreclamation projects.\n  2. Such study shall be completed within eighteen months of the\neffective date of this section and a report of the findings from the\nstudy shall be presented to the governor, the speaker of the assembly\nand the temporary president of the senate within ninety days of the\ncompletion of the study.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

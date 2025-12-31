@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-319"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-319"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="319"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-319/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-319/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-319/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-319/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_319">
+        <num>319</num>
+        <heading>Notice to owner of strays of fence viewers' meeting</heading>
+        <content>
+          <p>  § 319. Notice to owner of strays of fence viewers' meeting. When the\nowner of such beasts is known and resides in the same town where such\nbeasts are kept, five days' notice of the time and place of meetings of\nthe fence viewers to determine the damages done by such beasts, and the\ncharges for keeping them, shall be personally served on him; if he\nresides elsewhere, and his post-office address is known, such notice\nshall be served by mail or personally.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2003"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2003"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2003">
+        <num>2003</num>
+        <heading>Irregularity in judicial sale</heading>
+        <content>
+          <p>  § 2003. Irregularity in judicial sale. At any time within one year\nafter a sale made pursuant to a judgment or order, but not thereafter,\nthe court, upon such terms as may be just, may set the sale aside for a\nfailure to comply with the requirements of the civil practice law and\nrules as to the notice, time or manner of such sale, if a substantial\nright of a party was prejudiced by the defect.  This section does not\napply to judicial sales made pursuant to article 9 of the uniform\ncommercial code.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

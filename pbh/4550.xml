@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4550"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4550"/>
+          <FRBRdate date="2023-08-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4550"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4550/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4550/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4550/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4550/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4550">
+        <num>4550</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_4550__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>any of the following, occurring during a single transaction or in\na series of related transactions that take place within a rolling twelve\nmonth time period, and meet or exceed thresholds, for factors including\nbut not limited to changes in revenue:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4550__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>a merger with a health care entity;\n  (ii) an acquisition of one or more health care entities, including but\nnot limited to the assignment, sale, or other conveyance of assets,\nvoting securities, membership, or partnership interest or the transfer\nof control;\n  (iii) an affiliation agreement or contract formed between a health\ncare entity and another person; or\n  (iv) the formation of a partnership, joint venture, accountable care\norganization, parent organization, or management services organization\nfor the purpose of administering contracts with health plans,\nthird-party administrators, pharmacy benefit managers, or health care\nproviders as prescribed by the commissioner by regulation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4550__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Material transaction" shall not include a clinical affiliation of\nhealth care entities formed for the purpose of collaborating on clinical\ntrials or graduate medical education programs and shall not include any\ntransaction that is already subject to review under article\ntwenty-eight, thirty, thirty-six, forty, forty-four, forty-six,\nforty-six-A, or forty-six-B of this chapter. "Material transaction"\nshall not include a de minimis transaction, which shall mean for\npurposes of this article a transaction or a series of related\ntransactions which result in a health care entity increasing its total\ngross in-state revenues by less than twenty-five million dollars.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="140"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140">
+        <num>140</num>
+        <heading>Samples; publication of results of tests</heading>
+        <content>
+          <p>  § 140. Samples; publication of results of tests. 1. The commissioner\nor his or her duly authorized representatives shall take samples of\nseeds for examination, analysis, and testing by the department. The\ncommissioner may contract with a qualified laboratory to perform such\nexamination, analysis, and testing. When the analysis of an official\nsample indicates that seed is mislabeled, the results of such analysis\nshall be provided to the person responsible for the labeling of the seed\nand, upon that person's request, made within fifteen days of his or her\nreceipt of said results, the commissioner or his or her authorized agent\nshall furnish such person with a portion of the sample taken.\n  2. From time to time the department of agriculture and markets, shall\nmake public the results of examinations, analyses, trials, and tests of\nany sample or samples so procured, together with such additional\ninformation as circumstances advise. These published results shall be\nthe property of the state of New York and shall not be used for\nadvertising or regulatory purposes by any person or agency, governmental\nor otherwise without requested and granted permission of the\ncommissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

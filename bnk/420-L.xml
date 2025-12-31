@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-L"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="420-L"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_420_L">
+        <num>420-L</num>
+        <heading>Savings and loan bank eligible as fiscal agent</heading>
+        <content>
+          <p>  § 420-l. Savings and loan bank eligible as fiscal agent.  The savings\nand loan bank operating pursuant to article ten-B of the banking law may\nbe designated by the fund as its fiscal agent; such bank shall have the\npower to accept such designation and to do all acts necessary in order\nto carry out the duties thereby imposed in accordance with any agreement\nentered into pursuant thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Incorporation of Roman Catholic churches</heading>
+        <content>
+          <p>  § 90. Incorporation of Roman Catholic churches.  An unincorporated\nRoman Catholic church in this state may become incorporated as a church\nby executing, acknowledging and filing a certificate of incorporation,\nstating the corporate name by which such church shall be known and the\ncounty, town, city or village where its principal place of worship is,\nor is intended to be, located.\n  A certificate of incorporation of an unincorporated Roman Catholic\nchurch shall be executed and acknowledged by the Roman Catholic\narchbishop or bishop, and the vicar-general of the diocese in which its\nplace of worship is, and by the rector of the church, and by two laymen,\nmembers of such church who shall be selected by such officials, or by a\nmajority of such officials.\n  On filing such certificate such church shall be a corporation by the\nname stated in the certificate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

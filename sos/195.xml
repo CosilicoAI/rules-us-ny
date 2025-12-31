@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-195"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-195"/>
+          <FRBRdate date="2021-08-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="195"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-195/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-195/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-195/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-195/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_195">
+        <num>195</num>
+        <heading>Medical care</heading>
+        <subsection eId="sec_195__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>visit the\npublic home at regular intervals and shall re-examine the incarcerated\nindividuals periodically, as the need of the incarcerated individuals\nmay require,\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_195__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>also visit the public home, on call of the superintendent, in case\nof the illness of any incarcerated individual,\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_195__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>make such recommendations to the commissioner of public welfare as\nto changes, improvements and additional equipment as he may deem\nnecessary for the adequate care of the incarcerated individuals of such\nhome.\n  4. Any physician who accepts an appointment as attending physician to\nthe incarcerated individuals of a public home shall be obligated to\ncarry out the provisions of this section. The commissioner may dismiss\nan attending physician who fails to fulfill such duties.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

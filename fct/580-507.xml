@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-507"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-507"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-507"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-507/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-507/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-507/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-507/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_507">
+        <num>580-507</num>
+        <heading>Administrative enforcement of orders</heading>
+        <subsection eId="sec_580_507__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A party or\nsupport enforcement agency seeking to enforce a support order or an\nincome withholding order, or both, issued in another state or a foreign\nsupport order may send the documents required for registering the order\nto a support enforcement agency of this state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_507__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Upon receipt of the documents, the support enforcement agency,\nwithout initially seeking to register the order, shall consider and, if\nappropriate, use any administrative procedure authorized by the law of\nthis state to enforce a support order or an income withholding order, or\nboth. If the obligor does not contest administrative enforcement, the\norder need not be registered. If the obligor contests the validity or\nadministrative enforcement of the order, the support enforcement agency\nshall register the order pursuant to this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

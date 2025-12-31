@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-JJ"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-JJ"/>
+          <FRBRdate date="2022-04-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2799-JJ"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-JJ/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-JJ/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-JJ/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-JJ/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2799_JJ">
+        <num>2799-JJ</num>
+        <heading>Agreement with the city</heading>
+        <subsection eId="sec_2799_JJ__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of section\neight hundred seventy-three or section thirteen hundred thirteen of the\ntax law so long as, after giving effect to such amendment, modification\nor other alteration, the amount of tax revenues projected by the mayor\nto be available to the authority during each of its fiscal years\nfollowing the effective date of such amendment, modification or other\nalteration shall be not less than one hundred fifty percent of maximum\nannual debt service on authority bonds then outstanding.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-M*3"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-M*3"/>
+          <FRBRdate date="2022-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="344-M*3"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-M*3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-M*3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-M*3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-M*3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_M*3">
+        <num>344-M*3</num>
+        <heading>Portion of the state highway system to be designated as the "Tec</heading>
+        <content>
+          <p>  * § 344-m. Portion of the state highway system to be designated as the\n"Tec. 5 Edward Enser Memorial Highway". All that portion of the state\nhighway system constituting route 75 from Langford Road south to Shirley\nRoad in the town of North Collins, county of Erie, shall be designated\nand known as the "Tec. 5 Edward Enser Memorial Highway".\n  * NB There are 23 § 344-m's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

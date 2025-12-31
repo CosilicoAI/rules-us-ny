@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-610"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-610"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-610"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-610/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-610/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-610/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-610/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_610">
+        <num>580-610</num>
+        <heading>Effect of registration for modification</heading>
+        <content>
+          <p>  § 580-610. Effect of registration for modification. A tribunal of this\nstate may enforce a child support order of another state registered for\npurposes of modification, in the same manner as if the order had been\nissued by a tribunal of this state, but the registered support order may\nbe modified only if the requirements of section 580-611 or 580-613 of\nthis subpart have been met.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

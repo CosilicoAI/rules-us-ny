@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-233"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-233"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="233"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-233/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-233/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-233/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-233/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_233">
+        <num>233</num>
+        <heading>Quality marks; description</heading>
+        <content>
+          <p>  § 233. Quality marks; description.  All quality marks applied to any\narticle shall be equal in size and equally visible, legible, clear and\ndistinct and no quality mark which is false, deceptive or misleading\nshall be applied to any article or to any descriptive device therefor.\nNo more than one quality mark shall be applied to any article and such\nquality mark shall be applied to such article in only one place thereon\nexcept as elsewhere in this article specifically permitted.\n  Wherever in this article provision is made for marking the number of\nparts or percentage of metals, such number or percentage shall refer to\nweight and not to volume, thickness or any other basis.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

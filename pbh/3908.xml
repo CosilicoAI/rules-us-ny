@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3908"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3908"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3908"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3908/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3908/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3908/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3908/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3908">
+        <num>3908</num>
+        <heading>Annual report</heading>
+        <content>
+          <p>  § 3908. Annual report. The director, in cooperation with the advisory\nboard, shall report the activities of the center to the governor and the\nlegislature on or before January first of each year.  Such report shall\ninclude:\n  1. A description of on-going center research and program development;\n  2. Present and proposed working relationships with other agencies,\nnot-for-profit groups or private associations;\n  3. A financial reporting on the nature and levels of revenues and\nexpenditures of the center, as well as a listing of accumulated assets;\nand\n  4. Recommendations for enhancing agricultural health and safety in New\nYork state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

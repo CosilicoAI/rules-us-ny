@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="308"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_308">
+        <num>308</num>
+        <heading>Statutes of limitations and statutes of a similar nature; time of military service not included</heading>
+        <content>
+          <p>  § 308.  Statutes of limitations and statutes of a similar nature; time\nof military service not included.  The period of military service shall\nnot be included in computing any period now or hereafter to be limited\nby any law, regulation or order for the bringing of any action or\nproceeding in any court, board, bureau, commission, department or other\nagency of government of this state or any of its governmental\nsubdivisions by or against any person in military service, or by or\nagainst his heirs, executors, administrators, or assigns, whether such\ncause of action or the right or privilege to institute such an action or\nproceeding shall have accrued prior to or during the period of such\nservice, nor shall any part of such period which occurs after the date\nof enactment of this act be included in computing any period now or\nhereafter provided by any law for the redemption of real property sold\nor forfeited to enforce any obligation, tax or assessment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

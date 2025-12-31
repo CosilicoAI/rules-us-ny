@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1060"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1060"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1060"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1060/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1060/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1060/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1060/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1060">
+        <num>1060</num>
+        <heading>Agreements of the state</heading>
+        <content>
+          <p>  § 1060. Agreements of the state. The state of New York does pledge to\nand agree with the holders of the bonds that the state will not limit or\nalter the rights hereby vested in the authority to acquire, construct,\nmaintain, operate, reconstruct and improve the properties, to establish\nand collect the revenues, rates, rentals, fees and other charges\nreferred to in this title and to fulfill the terms of any agreements\nmade with the holders of the bonds, or in any way impair the rights and\nremedies of the bondholders, until the bonds, together with interest\nthereon, interest on any unpaid installments of interest, and all costs\nand expenses in connection with any action or proceeding by or on behalf\nof the bondholders, are fully met and discharged.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

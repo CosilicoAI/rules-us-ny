@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-332"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-332"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="332"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-332/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-332/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-332/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-332/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_332">
+        <num>332</num>
+        <heading>Penalty for false statement</heading>
+        <content>
+          <p>  § 332. Penalty for false statement. Any person, partnership, limited\npartnership, unincorporated joint-stock association or corporation\ncausing or knowingly permitting his, their or its name or names to be\npublished in such manner as to indicate or denote that he, they or it is\nor are the publisher or publishers of a publication such as specified in\nsection three hundred and thirty of this article, and not indicating\ntruly, shall be liable to the same extent as the real publisher or\npublishers would be in any suit for damages involving such publication\nin the subject-matter thereof brought against such person, partnership,\nlimited partnership, unincorporated joint-stock association or\ncorporation as the publisher or publishers, or as the alleged publisher\nor publishers of such publication.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

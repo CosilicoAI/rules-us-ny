@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-906"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-906"/>
+          <FRBRdate date="2023-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-906"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-906/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-906/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-906/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-906/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_906">
+        <num>5-906</num>
+        <heading>Forms</heading>
+        <content>
+          <p>  § 5-906. Forms. The state board of elections shall promulgate rules\nand regulations to implement this title. All agency forms and notices\nrequired by this title shall be approved by the state board of\nelections. All applications and notices for use by a board of elections\npursuant to this title shall be promulgated by the state board of\nelections, and no addition or alteration to such forms by a board of\nelections shall be made without approval of the state board of\nelections.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

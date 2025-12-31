@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1285-N"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1285-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1285-N"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1285-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1285-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1285-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1285-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1285_N">
+        <num>1285-N</num>
+        <heading>Issuance and sale of recipient bonds and notes</heading>
+        <content>
+          <p>  § 1285-n. Issuance and sale of recipient bonds and notes.\nNotwithstanding subdivision two of section one thousand eighty of this\narticle, or any by-law, rule or regulation requiring the recipient to\nissue bonds or notes at a public or competitive sale, any recipient of a\nfinancing from the corporation pursuant to section twelve hundred\neighty-five-j, twelve hundred eighty-five-m or twelve hundred\neighty-five-o of this title may validly issue its notes or bonds to the\ncorporation, as evidence of its obligation to repay such financing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

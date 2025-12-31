@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1117"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1117"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1117"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1117/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1117/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1117/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1117/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1117">
+        <num>1117</num>
+        <heading>Applicability of other provisions</heading>
+        <subsection eId="sec_1117__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Subject to the provisions of this article, the provisions of\nsections 1005 (Procedure after dissolution), 1006 (Corporate action and\nsurvival of remedies after dissolution), 1007 (Notice to creditors;\nfiling or barring claims) and 1008 (Jurisdiction of supreme court to\nsupervise dissolution and liquidation) shall apply to a corporation\ndissolved under this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1117__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any orders provided for in section 1008, may be made at any stage\nof an action or special proceeding for dissolution of a corporation\nunder this article, and if the corporation is dissolved under this\narticle, the court may retain jurisdiction for the purpose of making\nsuch orders, after the dissolution, in such action or special\nproceeding.  The court may also make such orders in separate special\nproceedings, as provided in section 1008.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1117__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Notice to creditors and claimants, provided for in section 1007,\nmay also be given, by order of the court, at any stage of an action or\nspecial proceeding for dissolution of a corporation under this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

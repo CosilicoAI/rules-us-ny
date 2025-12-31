@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-342-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-342-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="342-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-342-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-342-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-342-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-342-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_A">
+        <num>342-A</num>
+        <heading>Special administrations</heading>
+        <content>
+          <p>  § 342-a. Special administrations.  1. When regular test\nadministrations are given on days of religious observance which prevent\nattendance by test subjects at such regular administrations special\nadministrations shall be offered with the same frequency as regular\nadministrations as soon after or before as is possible, at comparable\ntimes, places and cost.\n  2. Provided, however, a test agency shall not be required to offer a\ngreater number of special administrations than were offered during the\nbase year commencing August first, nineteen hundred seventy-eight and\nending July thirty-first, nineteen hundred seventy-nine unless the\nnumber of regular administrations is increased in any subsequent testing\nyear, in which case the provisions of subdivision one shall apply.\n  3. No test subject shall by reason of religious belief be denied by a\ntest agency, the opportunity to take a test which shall be disclosed\npursuant to subdivisions one and two of section three hundred forty-two\nof this article during any twelve month period.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

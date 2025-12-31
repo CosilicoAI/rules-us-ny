@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-898-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-898-B"/>
+          <FRBRdate date="2021-07-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="898-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-898-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-898-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-898-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-898-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_898_B">
+        <num>898-B</num>
+        <heading>Prohibited activities</heading>
+        <content>
+          <p>  § 898-b. Prohibited activities. 1. No gun industry member, by conduct\neither unlawful in itself or unreasonable under all the circumstances\nshall knowingly or recklessly create, maintain or contribute to a\ncondition in New York state that endangers the safety or health of the\npublic through the sale, manufacturing, importing or marketing of a\nqualified product.\n  2. All gun industry members who manufacture, market, import or offer\nfor wholesale or retail sale any qualified product in New York state\nshall establish and utilize reasonable controls and procedures to\nprevent its qualified products from being possessed, used, marketed or\nsold unlawfully in New York state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

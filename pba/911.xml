@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-911"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-911"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="911"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-911/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-911/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-911/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-911/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_911">
+        <num>911</num>
+        <heading>Agreement with state</heading>
+        <content>
+          <p>  § 911. Agreement with state. The state does hereby pledge to and agree\nwith the holders of any bonds issued by the authority pursuant to this\ntitle and with those persons or public authorities who may enter into\ncontracts with the authority pursuant to the provisions of the title\nthat the state will not alter, limit or impair the rights hereby vested\nin the authority to purchase, construct, own and operate, maintain,\nrepair, improve, reconstruct, renovate, rehabilitate, enlarge, increase\nand extend, or dispose of any project, or any part or parts thereof for\nwhich bonds of the authority shall have been issued, to establish and\ncollect rates, rents, fees and other charges referred to in this title,\nto fulfill the terms of any contracts or agreements made with or for the\nbenefit of the holders of bonds or with any person or public authority\nwith reference to such project or part thereof, or in any way to impair\nthe rights and remedies of the holders of bonds, until the bonds,\ntogether with interest thereon, including interest on any unpaid\ninstallments of interest, and all costs and expenses in connection with\nany action or proceeding by or on behalf of the holders of bonds, are\nfully met and discharged and such contracts are fully performed on the\npart of the authority. The authority is authorized to include this\npledge and agreement of the state in any agreement with the holders of\nbonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-170"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-170"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-170/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-170/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-170/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-170/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170">
+        <num>170</num>
+        <heading>Election and salary of ministers</heading>
+        <content>
+          <p>  § 170. Election and salary of ministers.  The ministers of any such\nchurch shall be called, settled or removed and their salaries fixed,\nonly by the vote of a majority of the members of such corporation duly\nqualified to vote at elections present and voting at a meeting of such\ncorporation specially called for that purpose, in the manner\nhereinbefore provided for the call of special meetings; and any such\ncorporation may, by its by-laws, make the call, settlement or removal of\nits ministers dependent upon a concurrent vote of the unincorporated\nchurch connected with such corporation; and in that case the concurrence\nof a majority of the members of such unincorporated church, present and\nvoting at a meeting thereof, called for that purpose, shall be necessary\nto the call, settlement or removal of such ministers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

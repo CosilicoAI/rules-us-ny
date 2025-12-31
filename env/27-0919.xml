@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0919"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0919"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-0919"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0919/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0919/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0919/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0919/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_0919">
+        <num>27-0919</num>
+        <heading>Proprietary information</heading>
+        <content>
+          <p>§ 27-0919. Proprietary information.\n  The department shall hold confidential any information concerning the\nchemical composition, quantity, method of treatment or disposal of\nhazardous waste or any information related thereto when shown by any\nperson that such information, if made public, would divulge competitive\nbusiness information, methods or processes entitled to protection as\ntrade secrets of such person, except that such information may be\ndisclosed to any officers, employees or authorized representatives of\nthe United States or the state concerned with carrying out RCRA or the\nstate hazardous waste program or when relevant in any proceeding\nthereunder.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="281"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281">
+        <num>281</num>
+        <heading>Statute of limitations not applicable</heading>
+        <content>
+          <p>  § 281.  Statute of limitations not applicable.  The provisions of the\ncivil practice law and rules relative to the limitation of time of\nenforcing a civil remedy shall not apply to any proceeding or action\ntaken to levy, determine or enforce the collection of any tax or penalty\nprescribed by this article, provided, however, that no such proceeding\nor action shall be commenced after the expiration of ten years after a\ntax became due or a penalty incurred, except that such proceeding or\naction may be commenced at any time if the failure to pay the tax or\npenalty was with intent, in any manner, to defeat or evade the same.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

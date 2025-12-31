@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-A"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40-A"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_A">
+        <num>40-A</num>
+        <heading>Inquiry concerning religion or religious affiliations of person seeking employment or official position in public schools prohibited</heading>
+        <content>
+          <p>  § 40-a. Inquiry concerning religion or religious affiliations of\nperson seeking employment or official position in public schools\nprohibited.  No person, agency, bureau, corporation or association\nemployed or maintained to obtain or aid in obtaining positions for\nteachers, principals, superintendents, clerks or other employees in the\npublic schools of the state of New York, and no individual or\nindividuals conducting or employed by or interested directly or\nindirectly in such an agency, bureau, corporation or association, and no\nboard of education, trustee of a school district, superintendent,\nprincipal or teacher of a public school or other official or employee of\na board of education, shall directly or indirectly ask, indicate or\ntransmit orally or in writing the religion or religious affiliation of\nany person seeking employment or official position in the public schools\nof the state of New York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

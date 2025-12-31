@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-106"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12-106"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_106">
+        <num>12-106</num>
+        <heading>Scope of defendant's liability established</heading>
+        <content>
+          <p>  § 12-106. Scope of defendant's liability established. A person shall\nbe deemed to have affected a target community based upon the following\ngrades of offenses:\n  1. For a grade one violation, the county in which the place of\nparticipation by the defendant is situated;\n  2. For a grade two violation, the community described in subdivision\none of this section along with all counties with a border contiguous to\nsuch community;\n  3. For a grade three violation, the community described in subdivision\ntwo of this section plus all counties with a border contiguous to such\ncommunity; and\n  4. For a level four offense, the entire state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

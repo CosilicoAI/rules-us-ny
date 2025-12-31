@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-940"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-940"/>
+          <FRBRdate date="2022-12-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="940"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-940/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-940/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-940/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-940/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_940">
+        <num>940</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 940. Definitions. As used in this article:\n  1. "Professional field" shall mean a profession licensed by the\nregents.\n  2. "Professional education program" shall mean an approved\npostsecondary program leading to a degree in a profession licensed by\nthe regents.\n  3. "Minority" shall mean a resident of New York state or a permanent\nresident noncitizen residing in New York state who is a member of a\ngroup historically underrepresented in the scientific, technical,\nhealth, and health-related professions as defined by the regents after\nconsultation with the council.\n  4. "Council" shall mean the council on professional opportunity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

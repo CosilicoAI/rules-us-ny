@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-300"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-300"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="300"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-300/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-300/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-300/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-300/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_300">
+        <num>300</num>
+        <heading>Size of rooms; air space per person</heading>
+        <content>
+          <p>  § 300. Size of rooms; air space per person. No greater number of\npersons shall be employed in any room of a factory between six o'clock\nin the morning and six o'clock in the evening than will allow each\nperson so employed two hundred and fifty cubic feet of air space nor,\nunless by written permit of the commissioner, than will allow four\nhundred cubic feet of air space for each person employed between six\no'clock in the evening and six o'clock in the morning. Such rooms shall\nbe lighted by electricity whenever persons are employed therein between\nsix o'clock in the evening and six o'clock in the morning.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

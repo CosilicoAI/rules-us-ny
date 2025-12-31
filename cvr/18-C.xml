@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-18-C"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-18-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="18-C"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-18-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-18-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-18-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-18-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_C">
+        <num>18-C</num>
+        <heading>Discrimination prohibited</heading>
+        <content>
+          <p>  § 18-c. Discrimination prohibited. It shall be unlawful:\n  1. For the owner of any publicly assisted housing accommodation to\nrefuse to rent or lease or otherwise to deny to or withhold from any\nperson or group of persons such housing accommodation because of the\nrace, color, religion, national origin or ancestry of such person or\npersons.\n  2. For the owner of any publicly assisted housing accommodation to\ndiscriminate against any person because of the race, color, religion,\nnational origin or ancestry of such person in the terms, conditions or\nprivileges of any publicly assisted housing accommodations or in the\nfurnishing of facilities or services in connection therewith.\n  3. For any person to cause to be made any written or oral inquiry\nconcerning the race, color, religion, national origin or ancestry of a\nperson seeking to rent or lease any publicly assisted housing\naccommodation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

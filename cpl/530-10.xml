@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-530.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-530.10"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="530.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-530.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-530.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-530.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-530.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_530_10">
+        <num>530.10</num>
+        <heading>Order of recognizance release under non-monetary conditions or bail; in general</heading>
+        <content>
+          <p>§ 530.10 Order of recognizance release under non-monetary conditions or\n           bail; in general.\n  Under circumstances prescribed in this article, a court, upon\napplication of a defendant charged with or convicted of an offense, is\nrequired to issue a securing order for such defendant during the\npendency of either:\n  1. A criminal action based upon such charge; or\n  2. An appeal taken by the defendant from a judgment of conviction or a\nsentence or from an order of an intermediate appellate court affirming\nor modifying a judgment of conviction or a sentence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

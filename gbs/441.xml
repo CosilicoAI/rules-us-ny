@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-441"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-441"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="441"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-441/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-441/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-441/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-441/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_441">
+        <num>441</num>
+        <heading>Suspension and revocation of licenses and certificates</heading>
+        <subsection eId="sec_441__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A\nlicense to engage in the practice of barbering or to conduct a barber\nshop or a certificate of an apprentice may be suspended or revoked or in\nlieu thereof a fine not exceeding five hundred dollars payable to the\ndepartment of state or a reprimand may be imposed by the secretary of\nstate, for any one or more of the following causes:\n  1. Refusal to submit to physical examination when ordered by the\nsecretary of state, pursuant to subdivision three of section four\nhundred thirty-three.\n  2. Practice by a person having an infectious or communicable disease.\n  3. Habitual drunkenness or unlawful use of a habit-forming drug.\n  4. Fraud or bribery in securing a certificate by an apprentice or in\nsecuring a license or permission to take an examination therefor.\n  5. The making of any false statement as to a material matter in any\napplication or other statement or certificate required by or pursuant to\nthis article.\n  6. Incompetency.\n  7. Failure to display the license or certificate as provided in this\narticle.\n  8. Violation of any provision of this article, or of any rule or\nregulation adopted hereunder, or of any applicable sanitary code.\n  9. Conviction of any crime or offense involving moral turpitude.\n  10. Conviction under subdivision one of section sixty-five of the\nalcoholic beverage control law where such conviction was for the sale of\nalcohol to a person actually under the age of twenty-one and the offense\noccurred at the barber's place of business.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_441__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Whenever the license to practice barbering or the license to\nconduct a barber shop or the certificate of an apprentice is revoked,\nsuch license or certificate shall not be reinstated or reissued until\nafter the expiration of a period of one year from the date of such\nrevocation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

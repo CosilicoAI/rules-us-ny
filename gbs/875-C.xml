@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-875-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-875-C"/>
+          <FRBRdate date="2022-12-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="875-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-875-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-875-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-875-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-875-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_875_C">
+        <num>875-C</num>
+        <heading>Access to firearms, rifles, and shotguns</heading>
+        <content>
+          <p>  § 875-c. Access to firearms, rifles, and shotguns. Every retail dealer\nshall exclude all persons under eighteen years of age from those\nportions of its premises where firearms, rifles, shotguns, or ammunition\nare stocked or sold, unless such person is accompanied by a parent or\nguardian.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

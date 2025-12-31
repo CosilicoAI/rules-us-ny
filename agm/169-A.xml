@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-169-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-169-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="169-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-169-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-169-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-169-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-169-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_169_A">
+        <num>169-A</num>
+        <heading>Spraying fruit trees or crops with poison</heading>
+        <content>
+          <p>  § 169-a. Spraying fruit trees or crops with poison.  Any person who\nsprays with or applies in any way poison or any poisonous substance to\nfruit trees or any alfalfa and clovers grown as field crops while in\nblossom, is guilty of a misdemeanor punishable by a fine of not less\nthan ten dollars nor more than fifty dollars for each offense except as\nhereinafter provided.\n  The commissioner of agriculture and markets may, after public hearing,\npermit the use of specific materials for fruit blossom thinning sprays\nduring the current year. The provisions of this section shall not\nprevent the New York State College of Agriculture and the Agricultural\nExperiment Station at Geneva from conducting experiments in the\napplication of poisons and spraying mixtures to fruit trees while in\nblossom.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

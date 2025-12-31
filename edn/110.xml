@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-110"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="110"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_110">
+        <num>110</num>
+        <heading>Refunds</heading>
+        <subsection eId="sec_110__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Where such moneys were not required by\nlaw or regents' rule.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_110__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where such moneys were in excess of the\namounts required by law or regents' rule.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_110__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Where fees are paid by\napplicants who are not permitted to enter examinations for which such\nfees are paid.  Any such moneys received after July first, nineteen\nhundred forty-two shall not be so refunded unless application for such\nrefund has been made within two years after its receipt by the state\neducation department, except that applicants for professional licenses\nmay make an application for a refund within two years of the withdrawal\nor denial of the application, whichever occurs first.\n  2. Applicants for professional licenses not receiving such licenses\nmay be granted partial refunds not exceeding fifty percent of the fee\npaid to the department unless they have failed  the examinations for\nsuch licenses, in which case such applicants may not receive a refund.\nEach applicant for a professional license who has at any time received a\npartial refund of an initial license application fee shall pay all\nrequired fees upon submitting any subsequent application for initial\nlicensure.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

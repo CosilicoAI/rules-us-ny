@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1838"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1838"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1838"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1838/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1838/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1838/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1838/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1838">
+        <num>1838</num>
+        <heading>Filing of documents</heading>
+        <content>
+          <p>  § 1838. Filing of documents.--For purposes of the prosecution of\noffenses under the provisions of this chapter, reports, returns,\nstatements, lists, accounts, other documents or other information\nrequired to be filed with or delivered to the tax commission shall\ninclude such items which under the provisions of this chapter or any\nrelated statute are required to be recorded or filed with, served upon\nor delivered to another person including, but not limited to, a court,\nappraiser, recording officer of any county within the state, county\nclerk, surrogate's assistant, surrogate's clerk, county treasurer, any\nother governmental agency or entity, securities exchange, clearing\ncorporation or other entity in its capacity as an agent of the tax\ncommission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

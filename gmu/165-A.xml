@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-165-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-165-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-165-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-165-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-165-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-165-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_A">
+        <num>165-A</num>
+        <heading>Voluntary municipal assistance to public cemetery corporations</heading>
+        <content>
+          <p>  § 165-a. Voluntary municipal assistance to public cemetery\ncorporations.  Any municipal corporation may appropriate and provide\nfunding to a public cemetery corporation as defined in article fifteen\nof the not-for-profit corporation law. In lieu of or in addition to\nproviding funding to a public cemetery corporation, any municipal\ncorporation may provide goods and/or services to a public cemetery\ncorporation as defined in article fifteen of the not-for-profit\ncorporation law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

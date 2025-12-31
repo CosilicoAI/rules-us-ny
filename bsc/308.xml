@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-308"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-308"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="308"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-308/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-308/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_308">
+        <num>308</num>
+        <heading>Records and certificates of department of state</heading>
+        <content>
+          <p>§ 308. Records and certificates of department of state.\n  The department of state shall keep a record of each process served\nupon the secretary of state under this chapter, including the date of\nservice. It shall, upon request made within ten years of such service,\nissue a certificate under its seal certifying as to the receipt of the\nprocess by an authorized person, the date and place of such service and\nthe receipt of the statutory fee. Process served upon the secretary of\nstate under this chapter shall be destroyed by him after a period of ten\nyears from such service.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

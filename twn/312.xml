@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-312"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-312"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="312"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-312/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-312/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_312">
+        <num>312</num>
+        <heading>Impounding strays</heading>
+        <content>
+          <p>  § 312. Impounding strays. Within six days after such beasts shall have\ncome upon such lands, such owner or occupant may cause them to be put in\nthe nearest pound in the same town, if there be one, there to remain\nuntil they be redeemed, sold or reclaimed according to law. If there be\nno such pound, or he elect to keep such beasts, he shall cause them to\nbe properly fed and cared for until they are redeemed, sold or reclaimed\naccording to law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

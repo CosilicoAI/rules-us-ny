@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1601"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1601"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1601">
+        <num>1601</num>
+        <heading>Legislative findings and purpose</heading>
+        <content>
+          <p>  § 1601. Legislative findings and purpose.  Pesticides have proved\nvaluable in the control of harmful insects, weeds, fungi and other forms\nof plant and animal life. When used indiscriminately, however, they may\ninjure crops, whether or not directly treated, contaminate the air, soil\nand water, thus upsetting the desired ecological balance, and harm\nhumans, fish and wildlife by direct poisoning or by gradual accumulation\nof pesticide residues in tissues. It is the purpose of this article\nbetter to protect the public health and welfare and to minimize the\npotential pesticide hazard to man and his environment, consistent with\nthe public interest in the benefits to be derived from their safe and\nscientific application, by establishing a pesticide control board to\nformulate over-all policy in the state's regulatory programs and\ncoordinate state efforts to control the use of pesticides.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

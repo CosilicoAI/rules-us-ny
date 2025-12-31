@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5012"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5012"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5012"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5012/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5012/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5012/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5012/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5012">
+        <num>5012</num>
+        <heading>Purchase or redemption by a corporation of its own shares</heading>
+        <content>
+          <p>  § 5012. Purchase or redemption by a corporation of its own shares. 1.\nA corporation may purchase its own shares, or pay stockholders entitled\nto receive payment for their shares, when permitted or required under\nany other provision of this chapter.\n  2. To effect retirement of its common shares reacquired under section\none hundred forty-a of this chapter, or of its preferred shares in\naccordance with any provision in its organization certificate, a\ncorporation may, with the written approval of the superintendent,\npurchase or redeem such shares out of undivided profits or surplus or,\nto the extent of the par value of such shares, out of capital stock.\n  3. Nothing in this title shall prevent a corporation from returning to\nstockholders any amounts made available for such purpose by a reduction\nof capital stock in accordance with section eight thousand two.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

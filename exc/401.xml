@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-401"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-401"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="401"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_401">
+        <num>401</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 401. Definitions. As used in this article, unless a different\nmeaning clearly appears from the context, the following terms shall have\nthe following meanings:\n  1. "Flag" shall mean the flag of the United States of America.\n  2. "Public building" shall mean all buildings including grounds and\npremises adjacent or appurtenant thereto or connected thereto belonging\nto the state, county, town, village, school district or any other\npolitical or civil subdivision of state or local government.\n  3. "Local agency" shall include all county, city, town and village\ngoverning bodies, all other public corporations, special districts and\nschool districts in the state.\n  4. "State agencies" shall include any department, division, board,\nbureau, commission, office, agency, authority or public corporation of\nthe state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

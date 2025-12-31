@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-611"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-611"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="611"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-611/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-611/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-611/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-611/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_611">
+        <num>611</num>
+        <heading>New York taxable income of a resident individual</heading>
+        <subsection eId="sec_611__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General.\nThe New York taxable income of a resident individual shall be his New\nYork adjusted gross income less his New York deduction and New York\nexemptions, as determined under this part.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_611__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Husband and wife.\n</p>
+          </content>
+          <paragraph eId="sec_611__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>If the federal taxable income of husband or wife, both of whom are\nresidents, is determined on a separate federal return, their New York\ntaxable incomes shall be separately determined.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_611__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>If the federal taxable income of husband and wife, both of whom\nare residents, is determined on a joint federal return, their New York\ntaxable income shall be determined jointly.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_611__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>If neither husband or wife, both of whom are residents, files a\nfederal return:\n  (A) their tax shall be determined on their joint New York taxable\nincome, or\n  (B) separate taxes may be determined on their separate New York\ntaxable incomes if they both so elect.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_611__subsec_b__subsec_4">
+            <num>(4)</num>
+            <content>
+              <p>If either husband or wife is a resident and the other is a\nnonresident or part-year resident, separate taxes shall be determined on\ntheir separate New York taxable incomes unless such husband and wife\ndetermine their federal taxable income jointly and both elect to\ndetermine their joint New York taxable income as if both were residents.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

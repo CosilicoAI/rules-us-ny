@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-206"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-206"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-206"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-206/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-206/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-206/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-206/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_206">
+        <num>7-206</num>
+        <heading>Testing of voting and ballot counting machines</heading>
+        <content>
+          <p>  § 7-206. Testing of voting and ballot counting machines. 1. The state\nboard of elections shall test every voting machine of a type approved\nafter September first, nineteen hundred eighty-six and every ballot\ncounting machine to insure that each such machine functions properly\nbefore such machines may be used in any election in this state.\n  2. Such testing shall include, but not be limited to, a verification\nof the authenticity and integrity of the resident vote tabulation\nprogramming in open, encrypted, compiled, assembled, or any other form,\nin each voting machine of such types, by comparison of such resident\nvote tabulation programming with the programming which was in the\nmachine of such type which was approved for use in this state and the\nrecording of at least eight hundred votes on each such voting machine\nand a sufficient number of votes on each such ballot counting machine,\nby a method which may be mechanical or electronic, to determine if such\nmachine accurately records such votes.\n  3. At least annually, the board of elections of each county in which\nany such voting or ballot counting machines are in use shall test each\nsuch machine in a manner prescribed by the state board of elections\nunder conditions supervised by such state board. Such tests shall\ninclude, but not be limited to the tests required by subdivision two of\nthis section.\n  4. Upon the discovery of a discrepancy during the recanvass required\nby subdivision three of section 9-208 of this chapter, the ballot\nscanner shall be retested pursuant to 9 NYCRR 6210.2. No ballot scanner\nshall be returned to service until any such discrepancy has been\nresolved.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

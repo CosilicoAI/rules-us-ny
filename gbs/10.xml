@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-10"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10">
+        <num>10</num>
+        <heading>Prosecutions for conducting business on Sunday by certain persons</heading>
+        <content>
+          <p>  § 10. Prosecutions for conducting business on Sunday by certain\npersons.\n  Notwithstanding any other provision of law, it shall be a sufficient\ndefense to a prosecution pursuant to this article, for conducting any\ntrade or business or public selling or offering for sale of any property\non Sunday, that the defendant\n  (1) as the proprietor of such business, uniformly keeps another day of\nthe week as holy time and keeps his place of business closed on the\nseventh day of the week,\n  (2) does not himself labor, employ others to labor in, by or with\nanother conduct a trade or publicly sell or offer for sale any property\non the day he keeps as holy time,\n  (3) conducts such labor, trade or business in its normal course on\nSunday by himself and members of his immediate family, and\n  (4) so conducts such trade, public selling or offer to sell any\nproperty on Sunday in such manner as not to disturb the religious\nobservances of the community.\n  The term "day of the week" as used in this section shall mean and\ninclude the period of time of not less than twenty-four consecutive\nhours commencing at or before sundown on one day and terminating at or\nafter sundown on the following day.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

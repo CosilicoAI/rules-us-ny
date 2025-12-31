@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-935"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-935"/>
+          <FRBRdate date="2015-07-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="935"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-935/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-935/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-935/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-935/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_935">
+        <num>935</num>
+        <heading>Practice by license holder</heading>
+        <content>
+          <p>  § 935. Practice by license holder. 1. A mold assessment license holder\nwho intends to perform mold assessment on a mold remediation project\nshall prepare a work analysis for the project. The mold assessment\nlicense holder shall provide the analysis to the client before the mold\nremediation begins and such plan must include the analysis as defined in\nsection nine hundred forty-five of this article.\n  2. A mold remediation license holder who intends to perform mold\nremediation shall prepare a work plan providing instructions for the\nremediation efforts to be performed for the mold remediation project.\nThe mold remediation license holder shall provide the work plan to the\nclient before the mold remediation begins. The mold remediation license\nholder shall maintain a copy of the work plan at the job site where the\nremediation is being performed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

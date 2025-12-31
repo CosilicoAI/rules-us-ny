@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2509"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2509"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2509"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2509/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2509/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2509/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2509/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2509">
+        <num>2509</num>
+        <heading>Control of assets by agreement with surety</heading>
+        <content>
+          <p>  § 2509. Control of assets by agreement with surety. Any person of whom\nan undertaking is required may agree with his surety for the deposit of\nany assets for which his surety may be held responsible with a bank, or\nsafe deposit or trust company, authorized to do business in the state,\nif such deposit is otherwise proper and in such manner as to prevent\nwithdrawal without the written consent of the surety or an order of\ncourt, made on notice to the surety. The agreement shall not affect the\nliability of the principal or surety as established by the terms of the\nundertaking.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

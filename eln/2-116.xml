@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-2-116"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-2-116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2-116"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-2-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-2-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-2-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-2-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_116">
+        <num>2-116</num>
+        <heading>Committee; removal of member</heading>
+        <content>
+          <p>  § 2-116. Committee; removal of member. A member or officer of a party\ncommittee may be removed by such committee for disloyalty to the party\nor corruption in office after notice is given and a hearing upon written\ncharges has been had. The hearing shall be held by the committee, or a\nsubcommittee thereof appointed for that purpose, which subcommittee\nshall report its findings to the full committee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-12-400"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-12-400"/>
+          <FRBRdate date="2016-12-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12-400"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-12-400/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-12-400/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-12-400/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-12-400/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_400">
+        <num>12-400</num>
+        <heading>Short title</heading>
+        <content>
+          <p>  * § 12-400. Short title. This title shall be known and may be cited as\n"agreement among the states to elect the president by national popular\nvote".\n  * NB Effective upon notification by the commissioner of the state\nboard of elections upon the occurence of the adoption of the agreement\namong the states to elect the president by national popular vote by two\nor more states.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

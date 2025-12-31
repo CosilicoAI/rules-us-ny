@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-682"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-682"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="682"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-682/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-682/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-682/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-682/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_682">
+        <num>682</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 682. Definitions.  As used herein, the following terms shall have\nthe following meanings:\n  1. "Government" or "employer" shall mean any county, city, town,\nvillage, school district or other political subdivision in this state\nhaving one hundred or more full-time employees, except the city of New\nYork.\n  2. "Public employee" or "employee" shall mean any person directly\nemployed and compensated by a government, except persons employed in the\nlegislative or judicial branch thereof.\n  3. "Supervisor" shall mean any person, regardless of title, who is\nassigned to exercise any level of supervisory responsibility over public\nemployees.\n  4. "Grievance" shall mean any claimed violation, misinterpretation or\ninequitable application of the existing laws, rules, procedures,\nregulations, administrative orders or work rules of a government or a\ndepartment or agency thereof, which relate to or involve employee health\nor safety, physical facilities, materials or equipment furnished to\nemployees or supervision of employees; provided, however, that such term\nshall not include any matter involving an employee's rate of\ncompensation, retirement benefits, disciplinary proceeding or any matter\nwhich is otherwise reviewable pursuant to law or any rule or regulation\nhaving the force and effect of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-13"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-13"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-13/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-13/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-13/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-13/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13">
+        <num>13</num>
+        <heading>Right to serve on juries</heading>
+        <content>
+          <p>  § 13. Right to serve on juries. No citizen of the state possessing all\nother qualifications which are or may be required or prescribed by law,\nshall be disqualified to serve as a grand or petit juror in any court of\nthis state on account of race, creed, color, national origin or sex, and\nany person charged with any duty in the selection or summoning of jurors\nwho shall exclude or fail to summon any citizen for any of the causes\naforesaid shall, on conviction thereof, be deemed guilty of a\nmisdemeanor and be fined not less than one hundred dollars nor more than\nfive hundred dollars or imprisoned not less than thirty days, nor more\nthan ninety days, or both such fine and imprisonment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

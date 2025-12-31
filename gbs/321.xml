@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-321"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-321"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="321"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-321/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-321/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321">
+        <num>321</num>
+        <heading>Standard of illuminating power</heading>
+        <content>
+          <p>  § 321. Standard of illuminating power. The maximum illuminating power\nrequired and minimum illuminating power permitted of gas so furnished or\nsupplied in any such city shall be as follows: If a coal gas, sixteen\ncandles; if a mixed coal and water gas, eighteen candles; and if a\ncarburetted water gas, twenty candles. A candle shall mean a sperm\ncandle, six to a pound, burning at the rate of one hundred and twenty\ngrains of spermaceti per hour. The test for illuminating power shall be\nmade with gas obtained from a service pipe or main located at a distance\nof not less than one mile nor more than one and one-half miles from any\ndistributing holder, using, for coal gas and mixed coal and water gas\ncontaining more than fifty per centum of coal gas an F Argand burner,\nand for mixed coal and water gas containing fifty per centum and less of\ncoal gas and for carburetted water gas a number seven slit union Bray\nburner, on a basis of consumption of five cubic feet of gas per hour.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

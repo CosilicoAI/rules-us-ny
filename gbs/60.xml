@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-60"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60">
+        <num>60</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 60. Definitions. As used in this article:\n  1. "Junk metal" means any product made of steel, copper, copper alloy,\nbrass, aluminum, or aluminum alloy that is readily used or useable by a\npublic utility, railroad, county, city or state highway department,\npublic or private school, or an institution of higher education or which\nhas an established market for resale to scrap processors as defined in\nsection sixty-nine-e of this chapter.\n  2. "Junk dealer" means any individual, firm, corporation, limited\nliability company, or partnership engaged in the business of purchasing\nand reselling valuable metal either at a permanently established place\nof business or in connection with a business of an itinerant nature,\nincluding junk shops, junk yards, junk stores, auto wreckers, salvage\nyards, collectors of or dealers in junk and junk cars or trucks, but\nshall not include any individual, firm, corporation, limited liability\ncompany, or partnership duly licensed as a scrap processor as provided\nin article six-c of this chapter.\n  3. "Purchase" means acquiring a junk metal product or products by a\njunk dealer for a consideration, but does not include purchases between\nscrap processors.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-302"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-302"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="302"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-302/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-302/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-302/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-302/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_302">
+        <num>302</num>
+        <heading>Storage of petroleum</heading>
+        <content>
+          <p>  § 302. Storage of petroleum. Crude petroleum, earth or rock oil, or\nany of its products, shall not be kept on sale or stored in any place or\nbuilding within the corporate limits of any city in this state, except\nin the city of New York, unless in detached and properly ventilated\nwarehouses, the exterior walls of which are stone, brick or iron,\nspecially adapted to that purpose, with raised sills at least two feet\nhigh, or the ground floor of which is at least two feet below the level\nof the street or adjoining land, so as to effectually prevent the\noverflow of such substances beyond the premises where kept or stored.\n  No part of such warehouses shall be occupied as a dwelling, and if\nless than fifty feet from any adjacent building, such warehouse must be\nseparated therefrom by a brick or stone wall at least ten feet in height\nand sixteen inches thick.\n  None of such articles shall be allowed to remain on the sidewalk\nbeyond the front line of any building or in the street, a longer time\nthan is actually necessary for the storage, shipment or delivery of the\nsame, nor after sunset.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

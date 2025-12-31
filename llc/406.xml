@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-406"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-406"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="406"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-406/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-406/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-406/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-406/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406">
+        <num>406</num>
+        <heading>Waiver of notice</heading>
+        <content>
+          <p>  § 406. Waiver of notice. Except as provided in the operating\nagreement, notice of meeting need not be given to any member who submits\na signed waiver of notice, in person or by proxy, whether before or\nafter the meeting. The attendance of any member at a meeting, in person\nor by proxy, without protesting prior to the conclusion of the meeting\nthe lack of notice of such meeting, shall constitute a waiver of notice\nby him or her.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

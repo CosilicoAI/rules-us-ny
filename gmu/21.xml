@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-21"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21">
+        <num>21</num>
+        <heading>Cancellation of unpaid checks or drafts</heading>
+        <content>
+          <p>  § 21. Cancellation of unpaid checks or drafts.\n  Checks or drafts of any municipal corporation, district corporation or\nschool district which shall have been outstanding for more than one year\nfrom the respective dates thereof, shall be cancelled and the amount\nthereof returned to the fund which was originally charged. Prior to such\ncancellation, the bank or banks on which such checks or drafts were\ndrawn shall be notified, by the fiscal officer or other officer having\nresponsibility for issuance of such checks, not to pay the same. A\ncomplete and accurate record of all checks and drafts so cancelled shall\nbe maintained. The amount of any such check or draft shall be paid\nwithout interest in the same manner as any other claim presented for\npayment within six years from the original date of issuance, from any\nmoneys legally available, to the lawful holder thereof, or in the\nabsence of such check or draft, to the person or entity lawfully\nentitled to payment upon submission of a voucher and a statement\naccounting for such absence. For purposes of such payment, the governing\nbody of the municipal corporation, district corporation or school\ndistrict may establish an appropriation containing moneys sufficient to\npay the amounts of any outstanding checks or drafts which may be\npresented.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-FF"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-FF"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1020-FF"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-FF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-FF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-FF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-FF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1020_FF">
+        <num>1020-FF</num>
+        <heading>Rates charged to veterans' organizations</heading>
+        <content>
+          <p>  § 1020-ff. Rates charged to veterans' organizations. 1. The authority\nshall charge a rate for electric service, regardless of the type of\nservice offered, to any post or hall owned or leased by a not-for-profit\nveterans' organization that is no greater than the rate charged to\ndomestic customers receiving single-phase service within the same\nvillage, town or municipality.\n  2. The authority shall not recover revenues foregone pursuant to\nsubdivision one of this section from customers of the authority. To the\nextent that a lack of recovery of such foregone revenues may prevent the\nauthority from meeting its bond coverage requirements, the authority\nshall reduce its non-personnel operating expenses by an amount equal to\nits foregone revenue.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

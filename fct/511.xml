@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-511"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-511"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="511"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-511/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-511/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-511/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-511/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_511">
+        <num>511</num>
+        <heading>Jurisdiction</heading>
+        <content>
+          <p>  § 511. Jurisdiction. Except as otherwise provided, the family court\nhas exclusive original jurisdiction in proceedings to establish\npaternity and, in any such proceedings in which it makes a finding of\npaternity, to order support and to make orders of custody or of\nvisitation, as set forth in this article. On its own motion, the court\nmay at any time in the proceedings also direct the filing of a neglect\npetition in accord with the provisions of article ten of this act. In\naccordance with the provisions of section one hundred eleven-b of the\ndomestic relations law, the surrogate's court has original jurisdiction\nconcurrent with the family court to determine the issues relating to the\nestablishment of paternity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

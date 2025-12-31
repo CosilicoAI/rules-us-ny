@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1080"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1080"/>
+          <FRBRdate date="2015-01-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1080"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1080/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1080/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1080/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1080/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1080">
+        <num>1080</num>
+        <heading>Application of article</heading>
+        <subsection eId="sec_1080__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General.--- The provisions of\nthis article shall apply to the administration of and the procedures\nwith respect to the taxes imposed by articles nine, and nine-a of this\nchapter for taxable years or periods ending on or after December\nthirty-first, nineteen hundred sixty-four.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1080__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Definitions.--- As used in this article, where not otherwise\nspecifically defined and unless a different meaning is clearly\nrequired---\n</p>
+          </content>
+          <paragraph eId="sec_1080__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>The term "return" means a report or return of tax, but does not\ninclude a declaration of estimated tax.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1080__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>The term "corporation" includes a corporation, association\n(including a limited liability company), joint stock company or other\nentity subject to tax under article nine, nine-a, nine-b or nine-c.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1080__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>The term "person" includes a corporation, association, company,\npartnership, estate, trust, liquidator, fiduciary or other entity or\nindividual liable for the tax imposed by article nine, nine-a, nine-b or\nnine-c, or under a duty to perform an act under this article or under\narticle nine, nine-a, nine-b or nine-c.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

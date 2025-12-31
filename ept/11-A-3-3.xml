@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.3"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-3.3"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_3_3">
+        <num>11-A-3.3</num>
+        <heading>Apportionment when income interest ends</heading>
+        <subsection eId="sec_11_A_3_3__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In this section, "undistributed income" means net income received\non or before the date on which an income interest ends. The term does\nnot include an item of income or expense that is due or accrued or net\nincome that has been added or is required to be added to principal under\nthe terms of the trust.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_3_3__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>When a mandatory income interest ends, the trustee shall pay to a\nmandatory income beneficiary who survives that date, or the estate of a\ndeceased mandatory income beneficiary whose death causes the interest to\nend, the beneficiary's share of the undistributed income that is not\ndisposed of under the terms of the trust unless the beneficiary has an\nunqualified power to revoke more than five percent of the trust\nimmediately before the income interest ends. In the latter case, the\nundistributed income from the portion of the trust that may be revoked\nmust be added to principal.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_3_3__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When a trustee's obligation to pay a fixed annuity or a fixed\nfraction of the value of the trust's assets ends, the trustee shall\nprorate the final payment if and to the extent required by applicable\nlaw to accomplish a purpose of the trust or its settlor relating to\nincome, gift, estate, or other tax requirements.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

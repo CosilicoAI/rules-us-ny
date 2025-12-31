@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2126"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2126"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2126"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2126/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2126/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2126/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2126/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2126">
+        <num>2126</num>
+        <heading>Payments and reports by collector</heading>
+        <content>
+          <p>  § 2126.  Payments and reports by collector.  1. The collector shall\nkeep in his possession all moneys received or collected by him by virtue\nof any warrant, or received by him from the county treasurer or board of\nsupervisors for taxes returned as unpaid, or moneys apportioned by the\nstate or raised by direct taxation, and pay the same out upon the\nwritten order of a majority of the trustees.\n  2. When a treasurer shall have been elected or appointed in a school\ndistrict, the collector of such district shall pay over all moneys\ncollected by him under and by virtue of any tax list and warrant issued\nand delivered to him, to said treasurer; and he shall report in writing,\nat the annual meeting, all his collections, receipts and disbursements,\nand shall report to the county treasurer on or before the first Tuesday\nof March in each year the amounts of school moneys in his hands not paid\nout on trustees' orders, and shall pay over to his successor in office,\nwhen such successor has duly qualified and given a bond as required by\nsection twenty-one hundred twenty-four, all moneys in his hands\nbelonging to the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

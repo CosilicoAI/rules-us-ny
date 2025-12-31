@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-138"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-138"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="138"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-138/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-138/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-138/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-138/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_138">
+        <num>138</num>
+        <heading>Employment of persons apparently under eighteen years of age</heading>
+        <content>
+          <p>  § 138. Employment of persons apparently under eighteen years of age.\n1.  If any person apparently under eighteen years of age is employed\nwithout the certificate on file as required by law, in or in connection\nwith any employment to which the provisions of this article apply, the\ncommissioner may require the employer to cease employing the person or\nfile, within ten days after demand, evidence in the form required by the\neducation law for the issuance of such certificate that the person is\nover the age for which the certificate is required.\n  2. If the employer fails to furnish such evidence within ten days\nafter demand, and thereafter employs the person, proof of the service of\nthe demand and of the failure to furnish such evidence shall be prima\nfacie evidence in any prosecution brought for a violation of this\narticle that such person is under the age for which such certificate is\nrequired and is unlawfully employed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1114-Q"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1114-Q"/>
+          <FRBRdate date="2022-02-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1114-Q"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1114-Q/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1114-Q/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1114-Q/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1114-Q/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1114_Q">
+        <num>1114-Q</num>
+        <heading>Separability clause</heading>
+        <content>
+          <p>  * § 1114-q. Separability clause. If any section, clause or provision\nin this title shall be held by a competent court to be unconstitutional\nor ineffective in whole or in part, to the extent that it is not\nunconstitutional or ineffective, it shall be valid and effective, and no\nother section, clause or provision shall on account thereof be deemed\ninvalid or ineffective.\n  * NB There are 2 § 1114-q's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

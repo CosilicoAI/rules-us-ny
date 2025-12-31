@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2429-F"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2429-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2429-F"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2429-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2429-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2429-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2429-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2429_F">
+        <num>2429-F</num>
+        <heading>Special provisions relating to directors of the agency</heading>
+        <content>
+          <p>  § 2429-f. Special provisions relating to directors of the agency. The\nagency may purchase from, sell to, borrow from, loan to, contract with\nor otherwise deal with any corporation, trust, association, partnership\nor other entity in which any director of the agency has a financial\ninterest, direct or indirect, provided that (1) such interest is\ndisclosed to the board prior to the consummation of such transaction,\n(2) such disclosure is recorded in the minutes of the agency and (3) no\ndirector having such a financial interest may participate in any\ndecision affecting such transaction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

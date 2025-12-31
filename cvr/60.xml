@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-60"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-60"/>
+          <FRBRdate date="2025-04-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60">
+        <num>60</num>
+        <heading>Petition for change of name</heading>
+        <content>
+          <p>  § 60. Petition for change of name. 1. A petition for leave to assume\nanother name may be made by a resident of the state to the county court\nof the county or the supreme court in the county in which the petitioner\nresides, or, if the petitioner resides in the city of New York, either\nto the supreme court or to any branch of the civil court of the city of\nNew York, in any county of the city of New York. The petition to change\nthe name of an infant may be made by the infant through the infant's\nnext friend, or by either of the infant's parents, or by the infant's\ngeneral guardian, or by the guardian of the infant's person, or by the\ninfant's attorney.\n  2. An application may be made in family court seeking a name-change of\na child under the age of eighteen as part of a pending, related\nproceeding. Such application may be made by any of the parties to the\nproceeding or by the attorney for the child. An application for a name\nchange made in family court shall only be granted where it is on consent\nof all parties.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

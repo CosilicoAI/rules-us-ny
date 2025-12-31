@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-257"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-257"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="257"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-257/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-257/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-257/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-257/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_257">
+        <num>257</num>
+        <heading>Payment of taxes</heading>
+        <content>
+          <p>  § 257. Payment of taxes. The taxes imposed by this article shall be\npayable on the recording of each mortgage of real property subject to\ntaxes thereunder. Such taxes shall be paid to the recording officer of\nany county in which the real property or any part thereof is situated.\nIt shall be the duty of such recording officer to indorse upon each\nmortgage a receipt for the amount of the tax so paid. Any mortgage so\nindorsed may thereupon or thereafter be recorded by any recording\nofficer and the receipt for such tax indorsed upon each mortgage shall\nbe recorded therewith. The record of such receipt shall be conclusive\nproof that the amount of tax stated therein has been paid upon such\nmortgage.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

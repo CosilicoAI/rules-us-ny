@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-277"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-277"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="277"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-277/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-277/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-277/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-277/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_277">
+        <num>277</num>
+        <heading>Notice of issue of local construction permit</heading>
+        <content>
+          <p>  § 277. Notice of issue of local construction permit. The officer of\nany city, village or town having power to approve plans for the\nconstruction and alteration of buildings shall, immediately upon the\nissuance of a permit for the construction or alteration of a building to\nbe used for a factory or mercantile establishment as defined by this\nchapter, forward to the commissioner on forms provided by him a notice\nof the issue of such permit and such other information as he may\nrequire. The provisions of this section shall not apply to the city of\nNew York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

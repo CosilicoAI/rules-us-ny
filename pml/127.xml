@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-127"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-127"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="127"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-127/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-127/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-127/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-127/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_127">
+        <num>127</num>
+        <heading>Transfer of assets and liabilities</heading>
+        <content>
+          <p>  § 127. Transfer of assets and liabilities. All assets and liabilities\nof the former division of the lottery and former racing and wagering\nboard are hereby transferred to and assumed by the commission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

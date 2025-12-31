@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1229-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1229-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1229-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1229-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1229-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1229-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1229-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1229_A">
+        <num>1229-A</num>
+        <heading>Pedestrians, animals, and non-motorized vehicles prohibited on state expressway highways or state interstate route highways including the...</heading>
+        <subsection eId="sec_1229_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>As a pedestrian,\noccupy any space within the limits of a state expressway highway or\nstate interstate route highway, including the entrances thereto and\nexits therefrom, except: in a rest area, parking area, or scenic\noverlook; in the performance of public works or official duties; as a\nresult of an emergency caused by an accident or breakdown of a motor\nvehicle or to obtain assistance; where a sidewalk, footpath or\npedestrian crossing of such a highway is provided;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1229_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Occupy any space\nof a state expressway highway or state interstate route highway,\nincluding the entrances thereto and exits therefrom, with: an\nanimal-drawn vehicle; herded animals, a pushcart; a bicycle; except in\nthe performance of public works or official duties, or on paths or parts\nof such highway provided for such uses.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-375"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-375"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="375"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-375/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-375/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-375/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-375/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_375">
+        <num>375</num>
+        <heading>Incorporation; organization certificate</heading>
+        <subsection eId="sec_375__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Twenty-five thousand\ndollars if the place where the principal office is to be located has a\npopulation of ten thousand or more; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_375__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Ten thousand dollars if the principal office is to be located\nelsewhere.\n  5. The number of directors of the association, or that the number of\ndirectors shall not be less than a stated minimum nor more than a stated\nmaximum. Such number, or the minimum and the maximum stated, shall be\nwithin the limitations prescribed by section three hundred ninety-seven\nof this article.\n  6. The names of the incorporators who shall be its directors until the\nfirst annual meeting. The incorporators named as directors must possess\nthe qualifications of directors as to citizenship and residence\nspecified in section three hundred ninety-seven of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-405"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-405"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="405"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-405/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-405/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405">
+        <num>405</num>
+        <heading>Annual report to shareholders; delivery and publication</heading>
+        <content>
+          <p>  § 405. Annual report to shareholders; delivery and publication.  Every\nsavings and loan association shall (1) prepare a complete statement of\nits financial condition, including a summary of income and expense since\nits last previous statement, and publish the same annually, such\npublication to be made in the form and manner determined by the\nsuperintendent and in accordance with the requirements of this section,\n(2) mail a copy of such financial statement to each shareholder or\ndepositor on application therefor, and (3) make copies of such financial\nstatement available to depositors, shareholders and other persons in a\nconvenient and conspicuous location on the premises of each of its\nauthorized places of business.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

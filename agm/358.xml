@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-358"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-358"/>
+          <FRBRdate date="2023-12-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="358"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-358/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-358/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-358/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-358/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_358">
+        <num>358</num>
+        <heading>Selling disabled Equidae</heading>
+        <content>
+          <p>  § 358. Selling disabled Equidae. It shall be unlawful for any person\nholding an auctioneer's license knowingly to receive or offer for sale\nor to sell at public auction, other than at a sheriff's or judicial sale\nunder a court order, any Equidae which by reason of debility, disease or\nlameness, or for any other cause, could not be worked in this state\nwithout violating the law against cruelty to animals. A violation of\nthis section shall be a misdemeanor punishable by a fine of not more\nthan one thousand dollars, or by imprisonment for not more than six\nmonths, or by both such fine and imprisonment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

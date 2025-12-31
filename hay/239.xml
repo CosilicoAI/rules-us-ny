@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-239"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-239"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="239"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-239/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-239/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-239/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-239/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_239">
+        <num>239</num>
+        <heading>Joint liabilities of towns and their joint contracts</heading>
+        <content>
+          <p>  § 239. Joint liabilities of towns and their joint contracts. Whenever\nany two or more towns shall be liable to make or maintain any bridge or\nbridges, the same shall be built and maintained at the joint expense of\nsuch towns, without reference to town lines, except where the board of\nsupervisors has otherwise apportioned such expense as provided in\nsection two hundred and seventy-four. The town superintendents of all\nthe towns, or of one or more of such towns, the others refusing to act,\nmay, when directed by their respective town boards, enter into a joint\ncontract for making and repairing such bridges.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

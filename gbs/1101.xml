@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1101"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1101"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1101"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1101">
+        <num>1101</num>
+        <heading>Required disclosure of terms of service</heading>
+        <subsection eId="sec_1101__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>contact information for the purpose of allowing users to ask the\nsocial media company questions about the terms of service;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1101__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a description of the process that users must follow to flag\ncontent, groups, or other users that they believe violate the terms of\nservice, and the social media company's commitments on response and\nresolution time; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1101__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a list of potential actions the social media company may take\nagainst an item of content or a user, including, but not limited to,\nremoval, demonetization, deprioritization, or banning.\n  3. The terms of service posted pursuant to subdivision one of this\nsection shall be available in the twelve most common non-English\nlanguages spoken by limited-English proficient individuals in the state,\nas outlined in section two hundred two-a of the executive law, in which\nthe social media platform offers product features, including, but not\nlimited to, menus and prompts.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

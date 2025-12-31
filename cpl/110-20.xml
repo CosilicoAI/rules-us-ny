@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-110.20"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-110.20"/>
+          <FRBRdate date="2019-10-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="110.20"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-110.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-110.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-110.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-110.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_110_20">
+        <num>110.20</num>
+        <heading>Local criminal court or youth part of the superior court accusatory instruments; notice thereof to district attorney</heading>
+        <content>
+          <p>§ 110.20 Local criminal court or youth part of the superior court\n           accusatory instruments; notice thereof to district attorney.\n  When a criminal action in which a crime is charged is commenced in a\nlocal criminal court, or youth part of the superior court other than the\ncriminal court of the city of New York, a copy of the accusatory\ninstrument shall be promptly transmitted to the appropriate district\nattorney upon or prior to the arraignment of the defendant on the\naccusatory instrument. If a police officer or a peace officer is the\ncomplainant or the filer of a simplified information, or has arrested\nthe defendant or brought him before the local criminal court or youth\npart of the superior court on behalf of an arresting person pursuant to\nsubdivision one of section 140.20, such officer or his agency shall\ntransmit the copy of the accusatory instrument to the appropriate\ndistrict attorney. In all other cases, the clerk of the court in which\nthe defendant is arraigned shall so transmit it.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

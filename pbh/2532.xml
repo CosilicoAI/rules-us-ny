@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2532"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2532"/>
+          <FRBRdate date="2018-04-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2532"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2532/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2532/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2532/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2532/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2532">
+        <num>2532</num>
+        <heading>Workgroup</heading>
+        <content>
+          <p>  § 2532. Workgroup. The commissioner, in conjunction with the\ncommissioner of alcoholism and substance abuse services, shall convene a\nworkgroup of stakeholders, including but not limited to, hospitals,\nlocal health departments, obstetricians, midwives, pediatricians, and\nsubstance use disorder providers to study and evaluate barriers and\nchallenges in identifying and treating expectant mothers, newborns and\nnew parents with a substance use disorder. The workgroup shall report on\nits findings and recommendations to the commissioner, the commissioner\nof alcoholism and substance abuse services, the speaker of the assembly\nand the temporary president of the senate within one year of the\neffective date of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

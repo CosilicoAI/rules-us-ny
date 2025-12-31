@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-130"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-130"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-130/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-130/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130">
+        <num>130</num>
+        <heading>Workmen's compensation premiums shall be deemed preferred claims</heading>
+        <content>
+          <p>  § 130. Workmen's compensation premiums shall be deemed preferred\nclaims. All premiums and interest charges on account of policies\ninsuring employers against liability under this chapter which may be due\nto the state insurance fund, or any stock corporation or mutual\nassociation authorized to transact the business of insurance in this\nstate, and all judgments recovered by the state insurance fund or any\nsuch insurance corporation or association against any employer on\nactions brought under any such policy, shall be deemed preferred claims\nin all insolvency or bankruptcy proceedings, trustee proceedings for\nadministration of estates and receiverships involving the employer\nliable therefor or the property of such employer, provided however that\nclaims for wages shall receive prior preference in all such proceedings.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

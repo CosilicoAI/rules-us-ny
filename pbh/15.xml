@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-15"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15">
+        <num>15</num>
+        <heading>Examination and inspection of public works</heading>
+        <content>
+          <p>  § 15. Examination and inspection of public works.  All persons having\nthe control, charge or custody of any public structure, work or ground,\nor of any plan, description, outline, drawing or chart thereof or\nrelating thereto, made, kept or controlled by or under any public\nauthority, shall permit and facilitate the examination, inspection and\ncopying thereof by the commissioner, or by any person authorized by him\nto make such examination or inspection of such copies.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

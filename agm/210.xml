@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-210"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-210"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210">
+        <num>210</num>
+        <heading>Packaging in the shape of firearms</heading>
+        <content>
+          <p>  § 210. Packaging in the shape of firearms. 1. No person, firm or\ncorporation shall manufacture, sell, offer, export or have in possession\nfor sale in this state any food or food products packed in a container\nin the shape of a firearm and for consumption from any such packaging.\nThe provisions of this section shall not apply to any alcoholic\nbeverages.\n  2. A violation of this section for a first violation shall be\npunishable by a civil penalty of at least fifty dollars but not more\nthan two hundred dollars, but in no event shall the total penalty\ntherefor exceed one thousand dollars. For a second or subsequent\nviolation in any twelve month period a penalty of at least fifty dollars\nbut not more than four hundred dollars shall be imposed for each\nviolation, but in no event shall the total penalty exceed one thousand\ndollars for each day.\n  a. Each packaged food or food product shall constitute a violation.\n  b. Each day the food or food product is packaged shall constitute a\nseparate violation.\n  c. Each day a violation is continued shall constitute a separate\nviolation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

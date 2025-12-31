@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1306"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1306"/>
+          <FRBRdate date="2018-04-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1306"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1306/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1306/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1306/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1306/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1306">
+        <num>1306</num>
+        <heading>Financial organizations</heading>
+        <content>
+          <p>  § 1306. Financial organizations. 1. The board shall engage, after an\nopen bid process, a financial organization or organizations to invest\nassets of the program. In selecting the financial organization or\norganizations, the board shall take into consideration and give weight\nto the financial organization's fees and charges in order to reduce the\nprogram's administrative expenses.\n  2. The financial organizations shall comply with applicable federal\nand state laws, rules, and regulations, as well as rules, policies, and\nguidelines promulgated by the board with respect to the program,\nincluding, but not limited to, the investment policy.\n  3. The financial organization or organizations shall provide such\nreports as the board deems necessary for the board to oversee each\nfinancial organization's performance and the performance of the program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

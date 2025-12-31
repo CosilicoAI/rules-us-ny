@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-21"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21">
+        <num>21</num>
+        <heading>Forms and books to be furnished</heading>
+        <content>
+          <p>  § 21. Forms and books to be furnished. The proper books for\nregistration, blank forms for marriage licenses, certificates,\nstatements and affidavits and such other blanks as shall be necessary to\ncomply with the provisions of this article, shall be prepared by the\nstate department of health and shall be furnished by said department at\nthe expense of the state to the town and city clerks filing records with\nthe state department of health in such quantities as their necessities\nshall require.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

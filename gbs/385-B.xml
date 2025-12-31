@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-385-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-385-B"/>
+          <FRBRdate date="2018-06-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="385-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-385-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-385-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-385-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-385-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_385_B">
+        <num>385-B</num>
+        <heading>Transport, storage and sale of used bedding</heading>
+        <content>
+          <p>  § 385-b. Transport, storage and sale of used bedding. 1. No used\nbedding shall be in direct contact with new bedding in a storage\nwarehouse, or stored or sold with new bedding unless the used bedding\nhas been sanitized in accordance with the standards established in\nregulation by the department of state pursuant to section three hundred\neighty-five of this article.\n  2. No used bedding shall be transported with new bedding unless the\nused bedding has been sanitized in accordance with the standards\nestablished in regulation by the department of state pursuant to section\nthree hundred eighty-five of this article or enclosed in non-permeable\nplastic, polyethylene film or similar material designed to prevent the\npassage of contaminants.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

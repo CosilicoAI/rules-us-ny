@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-489"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-489"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="489"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-489/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-489/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_489">
+        <num>489</num>
+        <heading>Registration of chain stores</heading>
+        <content>
+          <p>  § 489. Registration of chain stores. Every chain store, including\nvending machine operators, cooperative members, franchisees and large\nvolume outlet operators, must register with the commissioner of taxation\nand finance. The fee for such registration shall be three hundred\ndollars, unless such fee has been paid during the preceding twelve\nmonths, in which case, the fee for such registration shall be two\nhundred dollars. The fee for registration of a chain store which is a\nvending machine operator which sells cigarettes at not less than fifteen\nseparate outlets shall be two hundred fifty dollars, regardless of the\nnumber of vending machines owned or operated, or the number of separate\noutlets maintained, unless such fee has been paid during the preceding\ntwelve months, in which case, the fee for such registration shall be two\nhundred dollars. The commissioner may require all chain stores to file a\nnew registration statement not more often than once every three years.\nRegistration statements shall contain such information as the\ncommissioner may require by regulation or instruction.  The provisions\nof section four hundred eighty of this chapter relating to licensing of\nwholesale dealers shall be applicable to the registration of chain\nstores, to the extent that such provisions can be made applicable to\nsuch registrations, as if such provisions expressly referred to\nregistration of chain stores.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

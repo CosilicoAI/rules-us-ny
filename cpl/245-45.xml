@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-245.45"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-245.45"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="245.45"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-245.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-245.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-245.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-245.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_245_45">
+        <num>245.45</num>
+        <heading>DNA comparison order</heading>
+        <subsection eId="sec_245_45__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>that such profile complies\nwith federal bureau of investigation or state requirements, whichever\nare applicable and as such requirements are applied to law enforcement\nagencies seeking a keyboard search or similar comparison, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_245_45__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that\nthe data meets state DNA index system or national DNA index system\ncriteria as such criteria are applied to law enforcement agencies\nseeking such a keyboard search or similar comparison, the court may,\nupon motion of a defendant against whom an indictment, superior court\ninformation, prosecutor's information, information, or simplified\ninformation is pending, order an entity that has access to the combined\nDNA index system or its successor system to compare such DNA profile\nagainst DNA databanks by keyboard searches, or a similar method that\ndoes not involve uploading, upon notice to both parties and the entity\nrequired to perform the search, upon a showing by the defendant that\nsuch a comparison is material to the presentation of his or her defense\nand that the request is reasonable. For purposes of this section, a\n"keyboard search" shall mean a search of a DNA profile against the\ndatabank in which the profile that is searched is not uploaded to or\nmaintained in the databank.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1103"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1103"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1103">
+        <num>1103</num>
+        <heading>Transactions of business outside the state</heading>
+        <subsection eId="sec_1103__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>It is the\nintention of the legislature by the enactment of this chapter that the\nlegal existence of a limited liability company formed under this chapter\nbe recognized beyond the limits of this state and that, subject to any\nreasonable registration requirements, any such limited liability company\ntransacting business outside this state shall be granted the protection\nof full faith and credit under section l of article IV of the\nConstitution of the United States.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1103__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The provisions of this chapter shall determine the rights and\nobligations of a domestic limited liability company, organized under\nthis chapter, in commerce with foreign nations and among the several\nstates, except as prohibited by law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

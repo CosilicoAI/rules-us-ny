@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-210"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-210"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210">
+        <num>210</num>
+        <heading>Death of claimant or person liable; cause of action accruing after death and before grant of letters</heading>
+        <subsection eId="sec_210__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Death of claimant. Where a\nperson entitled to commence an action dies before the expiration of the\ntime within which the action must be commenced and the cause of action\nsurvives, an action may be commenced by his representative within one\nyear after his death.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_210__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Death of person liable. The period of eighteen months after the\ndeath, within or without the state, of a person against whom a cause of\naction exists is not a part of the time within which the action must be\ncommenced against his executor or administrator.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_210__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Cause of action accruing after death and before grant of letters.\nIn an action by an executor or administrator to recover personal\nproperty wrongfully taken after the death and before the issuance of\nletters, or to recover damages for taking, detaining or injuring\npersonal property within that period, the time within which the action\nmust be commenced shall be computed from the time the letters are issued\nor from three years after the death, whichever event first occurs. Any\ndistributee, next of kin, legatee or creditor who was under a disability\nprescribed in section 208 at the time the cause of action accrued, may,\nwithin two years after the disability ceases, commence an action to\nrecover such damages or the value of such property as he would have\nreceived upon a final distribution of the estate if an action had been\ntimely commenced by the executor or administrator.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

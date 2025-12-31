@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-47"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-47"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="47"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-47/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-47/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-47/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-47/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47">
+        <num>47</num>
+        <heading>Use of public facilities by persons with a disability</heading>
+        <content>
+          <p>  § 47. Use of public facilities by persons with a disability. 1. No\nperson shall be denied admittance to and/or the equal use of and\nenjoyment of any public facility solely because said person is a person\nwith a disability and is accompanied by a guide dog, hearing dog or\nservice dog.\n  2. For the purposes of this section the term "public facility" shall\ninclude, but shall not be limited to, all modes of public and private\ntransportation, all forms of public and private housing accommodations\nwhether permanent or temporary, buildings to which the public is invited\nor permitted, including those maintained by the state or by any\npolitical subdivision thereof, all educational facilities and\ninstitutions, including those maintained by the state or by any\npolitical subdivision thereof, all places where food is offered for\nsale, all theatres, including both live playhouses and motion picture\nestablishments and all other places of public accommodations,\nconvenience, resort, entertainment, or business to which the general\npublic or any classification of persons therefrom is normally or\ncustomarily invited or permitted.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

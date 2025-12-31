@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-445"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-445"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="445"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-445/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-445/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-445/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-445/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_445">
+        <num>445</num>
+        <heading>Preference of credits</heading>
+        <content>
+          <p>  § 445. Preference of credits. In case of the insolvency or voluntary\nor involuntary liquidation of any bank, trust company or savings and\nloan association, its assets shall be applied in the first place ratably\nand proportionately to the payment in full of any sum or sums of money\ndeposited therewith by the savings and loan bank or due to the savings\nand loan bank for subscriptions, sinking funds, interest and principal\nof bonds, or guaranty of mortgages, notes secured or unsecured or any\nother obligations due to the savings and loan bank, but not to an amount\nexceeding that authorized to be so deposited or contracted by the\nprovisions of this chapter, and in accordance and on an equality with\nany other preference provided for in this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

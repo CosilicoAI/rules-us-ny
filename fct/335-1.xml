@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-335.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-335.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="335.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-335.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-335.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-335.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-335.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_335_1">
+        <num>335.1</num>
+        <heading>Notice of defense of mental disease or defect</heading>
+        <content>
+          <p>  § 335.1. Notice of defense of mental disease or defect. Evidence of\nmental disease or defect of the respondent excluding his responsibility\nunder this article is not admissible at the fact-finding hearing unless\nthe respondent serves upon the presentment agency and files with the\ncourt a written notice of intention to rely upon such defense. Such\nnotice must be served and filed before the fact-finding hearing and not\nmore than thirty days after the conclusion of the initial appearance,\nwhichever is sooner. In the interest of justice and for good cause\nshown, however, the court may permit such service and filing to be made\nat any later time prior to the conclusion of the fact-finding hearing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

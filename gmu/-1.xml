@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section--1"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section--1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="-1"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section--1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section--1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section--1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section--1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec__1">
+        <num>-1</num>
+        <heading>Provision of mass transportation, in the county of Tompkins</heading>
+        <content>
+          <p>  § 119-s-1. Provision of mass transportation, in the county of\nTompkins. 1. Notwithstanding any other provision of law to the contrary,\nthe county of Tompkins, the city of Ithaca and Cornell University may\njointly provide for mass transportation services in the county of\nTompkins.\n  2. In addition to the power to apply for, accept and expend financial\nassistance individually or jointly, as provided pursuant to section one\nhundred nineteen-s of this article, the county of Tompkins and city of\nIthaca shall have the power to apply for, accept and expend financial\nassistance jointly with Cornell University.\n  3. The powers granted by this section shall be in addition to and not\nin substitution of any other powers granted to the county of Tompkins,\nthe city of Ithaca and Cornell University to provide mass transportation\nservices.\n  4. For the purposes of this section, "mass transportation services"\nshall mean common carriers of passengers in accordance with established\nroutes and schedules, but shall not include charter transportation by a\nmotor carrier as proscribed by the applicable federal regulations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

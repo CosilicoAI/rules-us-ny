@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-418"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-418"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="418"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-418/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-418/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-418/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-418/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_418">
+        <num>418</num>
+        <heading>Classes and voting of members</heading>
+        <subsection eId="sec_418__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The articles of organization\nof a limited liability company may provide for classes or groups of\nmembers having such relative rights, powers, preferences and limitations\nas the operating agreement of such limited liability company may\nprovide. The articles of organization may make provision for the future\ncreation, in the manner provided in the operating agreement, of\nadditional classes of members having such relative rights, powers,\npreferences and limitations as may from time to time be established\npursuant to the operating agreement, including rights, powers,\npreferences, limitations and duties senior to existing classes of\nmembers.  The operating agreement may grant to or withhold from all or\none or more classes of members the right to vote upon any matter on the\nbasis of capital contributions, capital commitments or capital accounts\nor on a per capita, class or other basis.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_418__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The operating agreement may set forth provisions relating to\nnotice of the time, place or purpose of any meeting at which any matter\nis to be voted on by any members, waiver of any such notice, action by\nconsent without a meeting, the establishment of a record date, quorum\nrequirements, voting in person or by proxy or any other matter with\nrespect to the exercise of any such right to vote.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

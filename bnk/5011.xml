@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5011"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5011"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5011"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5011/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5011/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5011/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5011/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5011">
+        <num>5011</num>
+        <heading>Redeemable shares</heading>
+        <content>
+          <p>  § 5011. Redeemable shares.  1. A corporation may provide in its\norganization certificate for a class of common shares in relation to an\nincentive stock option plan pursuant to section one hundred forty-a of\nthis chapter and for one or more classes or series of preferred shares\nwhich are redeemable, in whole or in part, at the option of the\ncorporation at such price or prices, within such period or periods and\nunder such conditions as are stated in the organization certificate.\n  2. A corporation shall not issue redeemable or other shares which\npurport by their terms to grant to any holder thereof the right to\ncompel the corporation to redeem such shares.\n  3. Nothing in this section shall prevent a corporation from creating\nsinking funds for the redemption or purchase of its preferred shares to\nthe extent permitted by section five thousand twelve.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

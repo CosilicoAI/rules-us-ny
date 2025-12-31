@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-200"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-200"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200">
+        <num>200</num>
+        <heading>Control of trustees by corporate meetings; salaries of ministers</heading>
+        <content>
+          <p>  § 200. Control of trustees by corporate meetings; salaries of\nministers.  A corporate meeting of an incorporated church, whose\ntrustees are elective as such, may give directions, not inconsistent\nwith law, as to the manner in which any of the temporal affairs of the\nchurch shall be administered by the trustees thereof; and such\ndirections shall be followed by the trustees. The trustees of an\nincorporated church to which this article is applicable, shall have no\npower to settle or remove or fix the salary of the minister, or without\nthe consent of a corporate meeting, to incur debts beyond what is\nnecessary for the care of the property of the corporation; or to fix or\ncharge the time, nature or order of the public or social worship of such\nchurch, except when such trustees are also the spiritual officers of\nsuch church.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

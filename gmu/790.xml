@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-790"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-790"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="790"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-790/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-790/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-790/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-790/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_790">
+        <num>790</num>
+        <heading>Debts, liabilities and obligations</heading>
+        <content>
+          <p>  § 790. Debts, liabilities and obligations. The outstanding debts,\nliabilities and obligations of the dissolved local government entity\nshall be assumed by the town in which the dissolved entity was situated\nand shall be a charge upon the taxable property within the limits of the\ndissolved entity, collected in the same manner as town taxes. The town\nboard shall have all powers with respect to the debts, liabilities and\nobligations as the governing body of the dissolved entity possessed\nprior to its dissolution, including the power to issue town bonds to\nredeem bond anticipation notes issued by the dissolved entity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

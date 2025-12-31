@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-111-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-111-A"/>
+          <FRBRdate date="2021-09-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-111-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-111-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-111-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-111-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_A">
+        <num>111-A</num>
+        <heading>Microchipping standards</heading>
+        <content>
+          <p>  § 111-a. Microchipping standards. 1. The commissioner may adopt and\npromulgate rules and regulations that may provide for: standardization\nof technology used in microchips implanted in companion animals that are\ndogs or cats; and/or microchip readers so that such readers used by\nveterinarians, animal shelters, dog control officers, and animal control\nofficers are capable of reading any chip to identify the animals and/or\nthe owner of record; and/or the need for such veterinarians, animal\nshelters, dog control officers, and animal control officers to possess\nor have access to a microchip reader capable of reading any commercially\navailable microchip implanted in a cat or dog. Such rules and\nregulations may also provide for the collection, sharing, and\ndissemination of chip identification information by entities that\npossess and manage such information solely to promote timely\nnotification of owners when pets are lost while maintaining privacy\nprotection of personal information and providing for disclosure to such\nowners of the sharing of such information.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

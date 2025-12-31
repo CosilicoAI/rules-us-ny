@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-212"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="212"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212">
+        <num>212</num>
+        <heading>Jurisdiction of state not affected</heading>
+        <content>
+          <p>  § 212. Jurisdiction of state not affected. The jurisdiction ceded to\nthe United States as prescribed by this article shall not prevent the\nexecution on the land acquired for the purposes specified in section two\nhundred and ten of any process civil or criminal, issued under the\nauthority of the state, except as such process might affect the property\nof the United States thereon; nor prevent, in the case of lands within\nthe Adirondack park as defined in section 9-0101 of the environmental\nconservation law, the application of section eight hundred seventeen of\nthe executive law thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

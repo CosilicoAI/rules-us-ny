@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1352-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1352-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1352-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1352-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1352-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1352-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1352-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1352_A">
+        <num>1352-A</num>
+        <heading>Food places; toilet facilities</heading>
+        <content>
+          <p>  § 1352-a. Food places; toilet facilities.  1. A person or corporation\noperating an establishment with a seating capacity of twenty or more\nwherein food is sold for consumption on the premises shall provide\nappropriately identified and maintained public toilet facilities except\nthat if there exists alternate available facilities in the same building\nwherein such establishment is located, suitable public notice of such\nalternate facility shall suffice for purposes of this act.\n  2. The provisions of subdivision one of this section shall not apply\nto establishments in operation on the effective date of this act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

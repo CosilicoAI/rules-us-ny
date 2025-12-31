@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-763"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-763"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="763"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-763/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-763/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-763/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-763/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_763">
+        <num>763</num>
+        <heading>Notice of motion</heading>
+        <content>
+          <p>  § 763. Notice of motion. Notice of motion under sections seven hundred\nsixty-one or seven hundred sixty-two, including the court's own motion,\nshall be served upon parties and any agency or institution having\ncustody of the child not less than seven days prior to the return date\nof the motion. The persons on whom the notice of motion is served shall\nanswer the motion not less than two days before the return date. On\nexamining the motion and answer and, in its discretion, after hearing\nargument, the court shall enter an order, granting or denying the\nmotion.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

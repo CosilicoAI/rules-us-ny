@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-I"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="420-I"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-420-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-420-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_420_I">
+        <num>420-I</num>
+        <heading>Payment of insurance</heading>
+        <content>
+          <p>  § 420-i. Payment of insurance. 1. Each savings and loan association\nwhose application for insurance under this article is approved by the\nfund shall be entitled to insurance up to the full withdrawal value of\nthe accounts of each of its members and investors or in such amount as\nshall be established by the board of trustees, but in no event shall the\nmaximum amount of insurance for any savings account be less than fifteen\nthousand dollars.\n  2. In the event of a default by any insured savings and loan\nassociation, payment of each insured account in such insured association\nshall be made by the fund as soon as possible either (1) by cash or (2)\nby making available to each savings account a transferred savings\naccount in a new insured savings and loan association in the same\ncommunity or in another insured savings and loan association in an\namount equal to the insured savings account; provided however, that the\nfund, in its discretion, may require proof of claims to be filed before\npaying the insured accounts, and that in any case where the fund is not\nsatisfied as to the validity of a claim for an insured account, it may\nrequire the final determination of a court of competent jurisdiction\nbefore paying such claim.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

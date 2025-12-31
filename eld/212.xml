@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELD">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eld/section-212"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="212"/>
+          <FRBRname value="ELD"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eld/section-212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eld/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212">
+        <num>212</num>
+        <heading>Grants or gifts</heading>
+        <content>
+          <p>  § 212. Grants or gifts. The director, with the approval of the\ngovernor, may accept as agent of the state any gift, grant, devise or\nbequest, whether conditional or unconditional (notwithstanding the\nprovisions of section eleven of the state finance law), and including\nfederal grants, for any of the purposes of this article. Any moneys so\nreceived may be expended by the office to effectuate any purpose of this\ntitle, subject to the same limitations as to approval of expenditures\nand audit as are prescribed for state moneys appropriated for the\npurposes of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

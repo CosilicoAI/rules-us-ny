@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-B"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="490-B"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_490_B">
+        <num>490-B</num>
+        <heading>Management of fund</heading>
+        <content>
+          <p>  § 490-b. Management of fund. The fund shall be collected, held,\nadministered and disbursed by a corporate trustee or a board of trustees\ncomposed of individuals who are directors or members of a supervisory\ncommittee of credit unions. The appointment of a corporate trustee or a\nboard of trustees, as the case may be, shall be subject to the approval\nof the superintendent. In the event there be a board of individual\ntrustees, a majority of them at any time in office, shall constitute a\nquorum and the vote of a majority present at any meeting, provided a\nquorum is present, shall be determinative.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2114"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2114"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2114"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2114/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2114/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2114/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2114/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2114">
+        <num>2114</num>
+        <heading>Transfer to or from dealer; records</heading>
+        <subsection eId="sec_2114__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If a dealer buys a\nvehicle and holds it for resale and procures the certificate of title\nfrom the owner within ten days after delivery to him of the vehicle, he\nneed not send the certificate to the commissioner but, upon transferring\nthe vehicle to another person other than by the creation of a security\ninterest, shall promptly execute the assignment and warranty of title by\na dealer, showing the names and addresses of the transferee and of any\nlienholder holding a security interest created or reserved at the time\nof the resale, in the spaces provided therefor on the certificate or as\nthe commissioner prescribes, and mail or deliver the certificate to the\ncommissioner with the transferee's application for a new certificate.\nThe assignment and warranty of title by a dealer required by this\nsection shall include a statement, signed by the dealer stating either\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2114__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>any facts or information known to him that could reasonably affect\nthe validity of the title of the vehicle, or (ii) that no such facts or\ninformation are known to him.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2114__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Every dealer shall maintain a record in the form and for a period\nof time the commissioner prescribes of every vehicle bought, sold or\nexchanged by him, or received by him for sale or exchange, which shall\nbe open to inspection by a representative of the commissioner, a peace\nofficer, when acting pursuant to his special duties, or a police officer\nduring reasonable business hours.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

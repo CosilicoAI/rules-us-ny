@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3600"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3600"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3600"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3600/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3600/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3600/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3600/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3600">
+        <num>3600</num>
+        <heading>Declaration of legislative findings and intent</heading>
+        <content>
+          <p>  § 3600. Declaration of legislative findings and intent. The\nlegislature hereby finds and declares that the provision of high quality\nhome care services to residents of New York state is a priority concern.\nExpanding these services to make them available throughout the state as\na viable part of the health care system and as an alternative to\ninstitutional care should be a primary focus of the state's actions.\n  Home health care has only recently been recognized legislatively as an\nintegral part of the health care delivery system and has proven to have\nan important and valuable role in patient care. The certified home\nhealth agencies render a coordinated array of services to patients in\ntheir homes, thereby avoiding prolonged institutionalization,\nconcomitant high costs and associated adverse social and medical\nimplications.\n  The legislature intends that there be a public commitment to the\nappropriate provision and expansion of services rendered to the\nresidents of the state by certified home health agencies, to the\nmaintenance of a consistently high level of services by all home care\nservices agencies, to the central collection and public accessibility of\ninformation concerning all organized home care services, and to the\nadequate regulation and coordination of existing home care services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

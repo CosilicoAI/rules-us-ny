@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57-A"/>
+          <FRBRdate date="2024-04-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="57-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-57-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-57-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_57_A">
+        <num>57-A</num>
+        <heading>Change in duration of licenses</heading>
+        <content>
+          <p>  § 57-a. Change in duration of licenses. The liquor authority is\nauthorized to change the periods during which the licenses authorized by\nsections fifty-one, fifty-one-a, fifty-three-a, fifty-four, fifty-five\nand fifty-five-a shall be effective and to establish the commencement\ndates, duration and expiration dates thereof, provided that no such\nlicense shall be effective for a period in excess of three years. When\nany change or changes are made in the duration of any such license, the\nlicense fee shall be equal to the annual license fee specified in this\narticle multiplied by the number of years for which such license is\nissued. The liquor authority may make such rules as shall be appropriate\nto carry out the purpose of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

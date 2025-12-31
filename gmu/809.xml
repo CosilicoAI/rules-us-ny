@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-809"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-809"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="809"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-809/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-809/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-809/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-809/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_809">
+        <num>809</num>
+        <heading>Disclosure in certain applications</heading>
+        <subsection eId="sec_809__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>is the applicant, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_809__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>is an officer, director, partner or employee of the applicant, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_809__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>legally or beneficially owns or controls stock of a corporate\napplicant or is a member of a partnership or association applicant, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_809__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>is a party to an agreement with such an applicant, express or\nimplied, whereby he may receive any payment or other benefit, whether or\nnot for services rendered, dependent or contingent upon the favorable\napproval of such application, petition or request.\n  3. In the county of Nassau the provisions of subdivisions one and two\nof this section shall also apply to a party officer.  "Party officer"\nshall mean any person holding any position or office, whether by\nelection, appointment or otherwise, in any party as defined by\nsubdivision four of section two of the election law.\n  4. Ownership of less than five per cent of the stock of a corporation\nwhose stock is listed on the New York or American Stock Exchanges shall\nnot constitute an interest for the purposes of this section.\n  5. A person who knowingly and intentionally violates this section\nshall be guilty of a misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-756-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-756-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="756-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-756-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-756-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-756-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-756-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_756_D">
+        <num>756-D</num>
+        <heading>Exceptions for failure of lender to disburse funds</heading>
+        <content>
+          <p>  § 756-d. Exceptions for failure of lender to disburse funds. The date\nof payment required by the owner, the contractor and/or subcontractor\npursuant to section seven hundred fifty-six-a of this article, shall be\nextended to the seventh day after the owner, contractor or\nsubcontractor, as the case may be, receives loan proceeds necessary to\nmake such payment in the event that:\n  1. the owner, contractor or subcontractor, as the case may be, has\nobtained a loan intended to pay for all or part of the construction\ncontract;\n  2. the owner, contractor or subcontractor, as the case may be, has\ntimely requested disbursement of proceeds from that loan; and\n  3. the lender is legally obligated to disburse such proceeds to the\nowner, contractor or subcontractor, as the case may be, but has failed\nto do so in a timely manner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

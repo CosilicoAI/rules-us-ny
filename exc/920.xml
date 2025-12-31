@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-920"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-920"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="920"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-920/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-920/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-920/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-920/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_920">
+        <num>920</num>
+        <heading>Data collection and inventory</heading>
+        <content>
+          <p>  § 920. Data collection and inventory. 1. The secretary shall maintain\na resource inventory of information collected pursuant to coastal and\ninland waterways program planning including significant natural areas,\nhistoric sites, agricultural lands and water dependent use areas.\n  2. The secretary may collect additional information to supplement the\ninventory and may delegate the preparation of such information to\nappropriate state and local agencies.\n  3. The secretary shall make this inventory available to state\nagencies, local governments and the public for planning purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

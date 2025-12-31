@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-402"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-402"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="402"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-402/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-402/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_402">
+        <num>402</num>
+        <heading>Children forbidden in public homes</heading>
+        <content>
+          <p>  § 402.  Children forbidden in public homes.  No public welfare\nofficial shall send a child to be cared for in a public home, and no\ncommissioner of public welfare and no superintendent of a public home\nshall receive a child in a public home, except that a child under the\nage of two years may be cared for with his mother in a public home.\nSuch child shall not remain in the public home after he becomes two\nyears of age.  Provided, however, that when so authorized by the\ndepartment a child may be sent to a general hospital connected with a\npublic home or to a separate institution located in the grounds of a\npublic home used only for special or temporary care of children.\nProvided, further, that the provisions of this section shall not be\ndeemed to prohibit the placement of a child or minor in a public\ninstitution for children, as defined in section three hundred\nseventy-one of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

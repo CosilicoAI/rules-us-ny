@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-131"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-131"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-131/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-131/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-131/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-131/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131">
+        <num>131</num>
+        <heading>New York alcoholic beverage control problem premises task force</heading>
+        <content>
+          <p>  § 131. New York alcoholic beverage control problem premises task\nforce.  1. There is hereby created within the authority the New York\nalcoholic beverage control problem premises task force (hereinafter\n"task force"), which shall consist of employees of the authority as\ndesignated by the members of the authority, provided however, that the\ntask force shall include at least one investigator from the Albany\noffice, one investigator from the Buffalo office, and one investigator\nfrom the New York city office.\n  2. In any case where the authority receives notification from the\nmayor, chief of police, police commissioner, sheriff, or local\nlegislative body of any city, town or village which certifies that\ncontinued operation of an on-premises establishment poses a significant\nthreat to the public health, safety, or welfare requiring immediate\naction, the authority shall assign responsibility for conducting an\ninvestigation concerning such premises to the task force. In the city of\nNew York, the community board established pursuant to section\ntwenty-eight hundred of the New York city charter with jurisdiction over\nthe area in which such premises is located shall be considered the\nappropriate local legislative body.\n  3. Not more than fourteen calendar days after receipt by the authority\nof a notification as provided in this section, the task force shall\ncommence an investigation into the operation of the establishment. The\ntask force shall complete its investigation and the authority shall\ncommence a disciplinary hearing proceeding pursuant to this chapter for\nrevocation or other appropriate action within forty-five calendar days,\nunless the task force determines in written findings that no\ndisciplinary charges are warranted. A copy of any such determination\nshall be sent to the mayor, chief of police, police commissioner,\nsheriff, or local legislative body of the city, town or village that\nfiled the notification with the authority. The authority shall notify\nthe mayor, chief of police, police commissioner, sheriff, or local\nlegislative body of the city, town or village that filed the\nnotification to the authority of the final disposition of the\ndisciplinary proceeding within ten business days of the completion of\nthis process.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-771"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-771"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="771"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-771/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-771/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-771/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-771/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_771">
+        <num>771</num>
+        <heading>Discontinuation of treatment by agency or institution</heading>
+        <subsection eId="sec_771__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>discontinues or suspends its work; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_771__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>is unwilling to continue to care for the person for the reason\nthat support by the state of New York or one of its political\nsubdivisions has been discontinued; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_771__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>so fundamentally alters its program that the person can no longer\nbenefit from it, the person shall be returned by the agency to the court\nwhich entered the order of placement.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

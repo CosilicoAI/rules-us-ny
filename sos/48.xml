@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-48"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-48"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="48"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-48/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-48/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-48/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-48/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48">
+        <num>48</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 48. Legislative intent. The legislature finds that there are a\nsignificant number of homeless and at-risk households living in\ntemporary and unstable conditions which would benefit from the provision\nof a comprehensive assistance program. The legislature further finds\nthat the current system of providing services to such households would\nbe improved by ensuring that a broad range of flexible, individualized\nassistance is available to stabilize households and to better meet\ndivergent local needs. The legislature, therefore, finds that state\nfinancial assistance should be made available for the purpose of\nproviding supportive services designed to stabilize households by\nattempting to avoid homelessness and, for those who are currently\nhomeless, by facilitating the transition form homelessness to permanent\nhousing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

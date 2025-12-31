@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-666-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-666-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="666-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-666-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-666-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-666-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-666-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_666_A">
+        <num>666-A</num>
+        <heading>Loans to be guaranteed by New York state higher education assistance corporation</heading>
+        <content>
+          <p>  § 666-a. Loans to be guaranteed by New York state higher education\nassistance corporation. It shall be unlawful for any banking corporation\nor private banker authorized to carry on the business of banking under\nthe laws of this state to require that a person making application for a\nloan to be guaranteed by the New York state higher education assistance\ncorporation be a depositor with the bank prior to the time of such\napplication.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

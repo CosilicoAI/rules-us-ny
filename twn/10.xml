@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-10"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-10"/>
+          <FRBRdate date="2023-11-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10">
+        <num>10</num>
+        <heading>Classification of towns</heading>
+        <content>
+          <p>  § 10. Classification of towns. Towns are divided into classes\naccording to population, as shown by the latest federal or state census\nor enumeration, as follows:\n  First class. Towns containing a population of ten thousand or more,\nexcepting towns in Broome and Suffolk counties, and excepting also the\ntown of Potsdam in St. Lawrence county, and such other towns as may\ndetermine to become towns of the first class pursuant to the provisions\nof this article. Every town in the county of Westchester shall be a town\nof the first class.\n  Second class. Towns containing a population of less than ten thousand,\nexcepting towns in Westchester county and such towns as shall have\ndetermined to become towns of the first class pursuant to the provisions\nof this article. Every town in the counties of Suffolk and Broome and\nthe town of Potsdam in the county of St. Lawrence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

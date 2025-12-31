@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-16-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-16-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-16-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-16-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-16-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-16-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_A">
+        <num>16-A</num>
+        <heading>Food products containing nitrous oxide; packaging</heading>
+        <content>
+          <p>  § 16-a. Food products containing nitrous oxide; packaging. The\ncommissioner shall promulgate rules and regulations to require that all\nfood products containing nitrous oxide be offered for sale in tamper\nevident packaging. For the purposes of this section, the term "tamper\nevident packaging" shall mean packaging having an indicator or barrier\nto entry which, if breached or missing, can reasonably be expected to\nprovide visible evidence to consumers that tampering has occurred.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

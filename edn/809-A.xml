@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-809-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-809-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="809-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-809-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-809-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-809-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-809-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_809_A">
+        <num>809-A</num>
+        <heading>Instruction in the safe use of firearms and in the game laws</heading>
+        <content>
+          <p>  § 809-a. Instruction in the safe use of firearms and in the game laws.\nThe officer, board, or commission authorized or required to prescribe\ncourses of instructions in any school under state control, may authorize\ninstructions to be given in the safe and proper use of firearms allowed\nby law to be used in the taking of wild game, and may also authorize\ninstructions to be given in the study of game laws and of proper hunting\nand conservation practices.  Such courses of instruction shall be\napproved by both the education department and the department of\nenvironmental conservation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

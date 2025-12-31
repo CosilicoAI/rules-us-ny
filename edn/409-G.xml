@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-G"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="409-G"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_409_G">
+        <num>409-G</num>
+        <heading>Purchase and use of paradichlorobenzene deodorizers</heading>
+        <content>
+          <p>  § 409-g. Purchase and use of paradichlorobenzene deodorizers. 1. No\nboard of education or trustees, principal or other person in charge of\nany public or private, elementary or secondary school shall authorize\nthe purchase of or purchase any urinal or toilet deodorizer containing\nparadichlorobenzene.\n  2. No public or private, elementary or secondary school shall use or\nauthorize the use of any toilet or urinal deodorizer containing\nparadichlorobenzene in any toilet or urinal in any school building or\nany other facility under the control of such school.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

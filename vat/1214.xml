@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1214"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1214"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1214"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1214/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1214/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1214/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1214/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1214">
+        <num>1214</num>
+        <heading>Opening and closing vehicle doors</heading>
+        <content>
+          <p>  § 1214. Opening and closing vehicle doors. No person shall open the\ndoor of a motor vehicle on the side available to moving traffic unless\nand until it is reasonably safe to do so, and can be done without\ninterfering with the movement of other traffic, nor shall any person\nleave a door open on the side of a vehicle available to moving traffic\nfor a period of time longer than necessary to load or unload passengers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

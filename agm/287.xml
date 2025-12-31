@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-287"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-287"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="287"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-287/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-287/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-287/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-287/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_287">
+        <num>287</num>
+        <heading>Supervision of agricultural fairs and expositions</heading>
+        <content>
+          <p>  § 287. Supervision of agricultural fairs and expositions.  The\ncommissioner, after consultation with the dean of the State College of\nAgriculture at Cornell University, shall have power to establish and\npromulgate from time to time standards for the conduct of such fairs and\nexpositions in respect to premium lists, exhibits, judging and other\neducational and agricultural activities.  No disbursement shall be made\nto any agricultural society or to said institute if the last preceding\nfair or exposition of such society or said institute shall not have been\nof a standard worthy, in the opinion of the commissioner, of state aid,\nbased upon its contribution to the promotion of agriculture and domestic\narts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

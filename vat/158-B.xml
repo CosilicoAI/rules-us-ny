@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-158-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-158-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="158-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-158-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-158-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-158-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-158-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_158_B">
+        <num>158-B</num>
+        <heading>Vanpool vehicle</heading>
+        <content>
+          <p>  § 158-b. Vanpool vehicle. Any motor vehicle which is manufactured and\nequipped in such manner as to provide a seating capacity of not less\nthan six and not more than fifteen passengers, in addition to the\ndriver, and which is owned by, or leased to, a person, firm,\ncorporation, association, municipality or public authority in this state\nto be used for the purpose of vanpooling, which shall mean the\nprearranged transport of persons to and from their places of employment\nor other destinations on a regular daily basis provided that any moneys\npaid by the passengers to the vanpool vehicle owner, lessee or operator\nare solely for the recovery of some or all expenses related directly to\nthe transport of the passengers, including tolls, fuel, insurance and\ndepreciation, on a non-profit basis.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

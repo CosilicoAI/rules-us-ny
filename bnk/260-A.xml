@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-260-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-260-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="260-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-260-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-260-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-260-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-260-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_A">
+        <num>260-A</num>
+        <heading>Amendment of organization certificate and by-laws</heading>
+        <content>
+          <p>  § 260-a. Amendment of organization certificate and by-laws. Any\nproposed change in the organization certificate or the by-laws of any\nsavings bank shall be submitted to the superintendent and, upon the\nsuperintendent's written approval thereof, shall be posted in a\nconspicuous place in the office of the savings bank for thirty days.\nSuch proposed changes may thereafter be incorporated in the organization\ncertificate or the by-laws of the savings bank by being duly adopted by\nits trustees. A copy of such change shall be filed in the office of the\nsuperintendent within thirty days after such adoption.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1807"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1807"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1807"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1807/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1807/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1807/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1807/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1807">
+        <num>1807</num>
+        <heading>Transportation of school children</heading>
+        <content>
+          <p>  § 1807. Transportation of school children.  1. The commissioner of\neducation shall have power in any such central school district to\nrequire the payment by the district of such expense of transportation of\nschool children to and from the schools they legally attend within the\ndistrict as in his judgment such transportation is required because of\nthe remoteness of the school to the pupil or for the promotion of the\nbest interests of such children and the same shall be a charge upon the\ndistrict.\n  2. In any part of the city school district of the city of Syracuse for\nwhich transportation of school children is not provided and which the\nboard of education of such district shall have designated as an area\npresenting a danger or hazard to school children walking to and from\nschool, such board may provide transportation for such school children\nto and from the school they legally attend within the district and the\ncost of such transportation shall be a charge upon the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

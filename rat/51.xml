@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-51"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-51"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-51/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-51/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51">
+        <num>51</num>
+        <heading>Right of board of transportation to enter upon property</heading>
+        <content>
+          <p>  § 51. Right of board of transportation to enter upon property.  It\nshall and may be lawful for the board of transportation, and for all\npersons acting under its authority, to enter in the day time into and\nupon any and all property which it shall deem necessary to be acquired,\nor to which there may be appurtenant property rights which it shall deem\nnecessary to be acquired or extinguished by the city, for the purpose of\nmaking the maps or surveys provided for by section fifty-two, and also\nto enter in like manner and for the same purpose upon any property\nadjacent to and within five hundred feet of the property to be so\nsurveyed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

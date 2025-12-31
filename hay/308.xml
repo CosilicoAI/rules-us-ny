@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-308"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-308"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="308"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-308/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-308/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_308">
+        <num>308</num>
+        <heading>Value of highway discontinued</heading>
+        <content>
+          <p>  § 308. Value of highway discontinued. If the necessity of such private\nroad has been occasioned by the alteration or discontinuance of a public\nhighway running through the lands belonging to a person through whose\nlands the private road is proposed to be opened, the jury shall take\ninto consideration the value of the highway so discontinued, and the\nbenefit resulting to the person by reason of such discontinuance, and\nshall deduct the same from the damages assessed for the opening and\nlaying out of such private road.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

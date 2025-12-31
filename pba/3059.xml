@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3059"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3059"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3059"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3059/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3059/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3059/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3059/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3059">
+        <num>3059</num>
+        <heading>Review by the corporation</heading>
+        <subsection eId="sec_3059__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>its own employees, (ii) it agents, or (iii) any state\nemployees provided to the corporation for such purposes. The city shall\nmake available for such review all books and records, and shall furnish\ncopies of all financial statements, budgets, forecasts, projections,\ninformation or corrective action taken by the city in response to any\nnotices from the corporation and all information related to the\nforegoing, as requested by the persons conducting such review, and shall\nmake its officers and employees available to and shall otherwise\ncooperate with such persons to permit such review to be completed as\npromptly as possible.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-471"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-471"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="471"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-471/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-471/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-471/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-471/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_471">
+        <num>471</num>
+        <heading>Notice requirement</heading>
+        <content>
+          <p>  § 471. Notice requirement. 1. A dealer shall not display for sale,\nexchange or sell any new motor vehicle, or any used motor vehicle, that\nwas originally sold by a manufacturer for distribution outside the\nUnited States without prominently displaying a label on the vehicle\nstating that "This vehicle was not sold by the manufacturer for\ndistribution within the United States. It may not have the same standard\nfeatures, emissions equipment, safety equipment, optional equipment,\nspecifications and warranty, or otherwise be identical to the other\nmotor vehicles which are sold by the manufacturer for distribution in\nthe United States".\n  2. Any person who violates this section and any person who knowingly\naids and abets any such violation of this section shall be liable to any\nperson aggrieved to the extent of any additional margin obtained or\nobtainable on such purchase and resale.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

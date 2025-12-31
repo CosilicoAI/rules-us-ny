@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-203-B"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-203-B"/>
+          <FRBRdate date="2016-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203-B"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-203-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-203-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-203-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-203-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203_B">
+        <num>203-B</num>
+        <heading>Reinstatement following family leave</heading>
+        <content>
+          <p>  § 203-b. Reinstatement following family leave. Any eligible employee\nof a covered employer who takes leave under this article shall be\nentitled, on return from such leave, to be restored by the employer to\nthe position of employment held by the employee when the leave\ncommenced, or to be restored to a comparable position with comparable\nemployment benefits, pay and other terms and conditions of employment.\nThe taking of family leave shall not result in the loss of any\nemployment benefit accrued prior to the date on which the leave\ncommenced. Nothing in this section shall be construed to entitle any\nrestored employee to the accrual of any seniority or employment benefits\nduring any period of leave, or any right, benefit or position to which\nthe employee would have been entitled had the employee not taken the\nleave.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

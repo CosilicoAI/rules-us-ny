@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-830"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-830"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="830"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-830/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-830/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-830/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-830/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_830">
+        <num>830</num>
+        <heading>Agreement of the state</heading>
+        <content>
+          <p>  § 830. Agreement of the state. The state of New York does pledge and\nagree with the holders of any bonds that are issued under this title\nthat the state will not authorize the construction of any market\nfacilities which will be competitive with any market facilities owned or\noperated by the authority or within a reasonable sphere of operation and\nextension of market facilities by the authority, nor will it limit or\nalter the rights hereby vested in the authority to establish and collect\nsuch rentals and license fees as may be necessary or convenient to\nproduce sufficient revenues to meet the expense of maintenance and\noperation of the market facilities and to fulfill the terms of any\nagreements made with the holders of the bonds, or in any way impair the\nrights and remedies of bond holders, until the bonds, together with\ninterest thereon, with interest on any unpaid instalments of interest,\nand all costs and expenses in connection with any actions or proceedings\nby or on behalf of the bond holders, are fully met and discharged.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-301"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="301"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_301">
+        <num>301</num>
+        <heading>Lands lying open</heading>
+        <content>
+          <p>  § 301. Lands lying open. When the owners of adjoining lands shall\nchoose to let them lie open, as provided in section three hundred,\nneither of such owners shall be liable to the other in any action or\nproceeding for any damages done by animals lawfully upon the other's\npremises going upon the lands so lying open or upon any other lands of\nthe owner thereof through such lands so lying open. Either owner of any\nlands so lying open and adjoining may, unless the agreement is for a\nspecified period, and after such agreement has expired may then have the\nsame inclosed, by giving written notice to that effect to the owners or\noccupants of the adjoining lands, whereupon it shall be the duty of both\nparties to build and maintain their several proportions of a division\nfence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

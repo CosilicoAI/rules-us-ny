@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-5-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-5-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-5-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-5-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-5-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-5-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_A">
+        <num>5-A</num>
+        <heading>Electronic or wire transfers</heading>
+        <subsection eId="sec_5_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the governing board of the local government has entered into a\nwritten agreement with the bank or trust company in which such funds\nhave been deposited, prescribing the manner in which electronic or wire\ntransfer of such funds shall be accomplished, identifying by number and\nname those accounts from which electronic or wire transfers may be made,\nidentifying which officer or officers are authorized to order the\nelectronic or wire transfer of funds from those accounts, and\nimplementing a security procedure as defined in section 4-A-201 of the\nuniform commercial code; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the bank or trust company processing the transfer shall provide to\nthe officer ordering the electronic or wire transfer of funds written\nconfirmation of each such transaction no later than the business day\nfollowing the day on which the funds are transmitted.\n  2. It shall be the duty of the governing board of the local government\nto adopt a system of internal controls for the documentation and\nreporting of all transfers or disbursements of funds accomplished by\nelectronic or wire transfer.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

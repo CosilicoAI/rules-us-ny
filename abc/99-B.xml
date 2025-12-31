@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_B">
+        <num>99-B</num>
+        <heading>Miscellaneous permits</heading>
+        <subsection eId="sec_99_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision two of section sixty-five-c of this chapter\nshall not apply to any delivery made during any class conducted under\nthe authority of such permit.\n  2. Each such permit and the exercise of the privilege granted thereby\nmay be subjected to such rules and conditions by the liquor authority as\nit deems necessary.\n  3. Each such permit shall be issued in such form as shall be\nprescribed by the liquor authority and shall be valid for one\ntransaction only, except that a permit issued pursuant to paragraph b,\nc, e, j, or m of subdivision one of this section may be issued either\nfor one transaction or for a calendar year. The liquor authority may, by\nrule, fix the quantity of alcoholic beverages to be involved in a single\ntransaction under a permit issued pursuant to paragraph k of subdivision\none of this section, but no single transaction so authorized shall\ninvolve more than twenty cases of alcoholic beverages. The fee for each\nsuch permit shall be fixed by the liquor authority, but shall not exceed\nninety dollars for a permit valid for one transaction only nor two\nhundred fifty-six dollars for a permit issued for a calendar year.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

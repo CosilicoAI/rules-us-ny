@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-B"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4-B"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-4-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-4-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_B">
+        <num>4-B</num>
+        <heading>Advertising</heading>
+        <content>
+          <p>  § 4-b. Advertising. Every such non-insured banking organization shall\ninclude in all its advertising within the state with reference to\ndeposit accounts the statement substantially as follows: "DEPOSITS NOT\nINSURED". Where such advertising is printed the statement shall be of\nsuch size and print to be clearly legible, all letters in such statement\nbeing of the same size and character. No further reference shall be\ncontained in the advertising of non-insured banking organizations with\nreference to the insurance of depositors which shall tend to be\nmisleading in connection therewith. The non-English equivalent of the\ninsurance statement may be used in any advertisement provided that the\nentire advertisement is in such language and that the translation has\nhad the prior approval of the superintendent of financial services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

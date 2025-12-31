@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-678"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-678"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="678"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-678/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-678/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-678/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-678/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_678">
+        <num>678</num>
+        <heading>Commissioner's powers of investigation</heading>
+        <subsection eId="sec_678__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>to investigate the\nwages of persons employed on a farm;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_678__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>to enter the place of business\nor employment of any employer for the purpose of</p>
+          </content>
+          <paragraph eId="sec_678__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>examining and\ninspecting any and all books, registers, payrolls and other records that\nin any way relate to or have a bearing upon the wages paid to, or the\nhours worked by any employee,</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_678__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>ascertaining whether the provisions of\nthis article and the regulations promulgated hereunder are being\ncomplied with; and</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_678__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>to require from any employer full and correct\nstatements and reports in writing of the records required by this\narticle, at such times as the commissioner may deem necessary.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

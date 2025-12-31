@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="870-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_870_A">
+        <num>870-A</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 870-a. Legislative intent. 1. The purpose of this article is to\nguard against personal injuries in the assembly, disassembly and use of\namusement devices, viewing stands and tents at carnivals, fairs and\namusement parks to persons employed at or attending the same, and, in\nthe event of a personal injury, to insure to the injured party the\npossibility of financial recovery as against the owner of the carnival,\nfair or amusement park where the injury occurred.\n  2. It is the intent of this article that such devices, viewing stands\nand tents shall be so designed, constructed, assembled or disassembled,\nmaintained and operated as to prevent such injuries.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

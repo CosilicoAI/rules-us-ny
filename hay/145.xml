@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-145"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-145"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="145"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-145/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-145/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-145/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-145/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_145">
+        <num>145</num>
+        <heading>Purchase of gravel pits</heading>
+        <content>
+          <p>  § 145. Purchase of gravel pits. The town board of a town may contract\nfor and purchase land in the name of the town containing a gravel bed or\nother material for use on the public highways and bridges of the town.\nNo such land shall be purchased except at an agreed price with the\nowner. No such land shall be resold to any private corporation. The\npurchase price of such land shall be a town charge and be paid from\nmoneys levied or collected therefor, as provided by law. All such\nproperty so acquired shall vest in and become the property of such town.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2490-K"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2490-K"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2490-K"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2490-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2490-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2490-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2490-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2490_K">
+        <num>2490-K</num>
+        <heading>State, city and municipalities not liable on authority bonds</heading>
+        <content>
+          <p>  § 2490-k. State, city and municipalities not liable on authority\nbonds. Neither the state, the city nor any other municipality or public\ncorporation shall be liable on the bonds of the authority and such bonds\nshall not be a debt of the state, the city or any other municipality or\npublic corporation, and such bonds shall contain on the face thereof a\nstatement to such effect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

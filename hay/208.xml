@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-208"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-208"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="208"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-208/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-208/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-208/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-208/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_208">
+        <num>208</num>
+        <heading>Description to be recorded</heading>
+        <content>
+          <p>  § 208. Description to be recorded. Immediately upon making and\nentering the order mentioned in section two hundred and seven of this\nchapter, the said town superintendent shall cause a written description\nof that portion of the street or highway ordered to be discontinued to\nbe filed and recorded in the office of the town clerk of the town in\nwhich the said street or highway is located, and when the same is duly\nrecorded the said portion of the said street or highway shall thereupon\nbe and become duly abandoned and discontinued for highway purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

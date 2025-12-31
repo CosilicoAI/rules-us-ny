@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1501"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1501"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1501">
+        <num>1501</num>
+        <heading>Imposition of tax</heading>
+        <subsection eId="sec_1501__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every domestic insurance corporation\nand every foreign or alien insurance corporation, for the privilege of\nexercising its corporate franchise, or of doing business, or of\nemploying capital, or of owning or leasing property in this state in a\ncorporate or organized capacity, or of maintaining an office in this\nstate, for all or any part of its taxable year, except corporations\nspecified in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1501__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section fifteen hundred twelve, shall\nannually pay a franchise tax which shall be computed as provided in\nsection fifteen hundred two.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1501__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Every life insurance corporation which shall obtain a certificate\nof authority to transact business in this state or a renewal of such\ncertificate from the superintendent of financial services shall, upon\nthe expiration of such certificate for any cause or upon its ceasing to\ntransact new business in this state, continue to pay a tax upon its\nbusiness remaining in force in this state as provided in section fifteen\nhundred two.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

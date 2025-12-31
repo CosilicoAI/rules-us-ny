@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-406"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-406"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="406"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-406/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-406/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-406/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-406/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_406">
+        <num>406</num>
+        <heading>Filing of a certificate of incorporation; facility for alcoholism or alcohol abuse, substance abuse, substance dependence, or chemical ab...</heading>
+        <content>
+          <p>§ 406. Filing of a certificate of incorporation; facility for alcoholism\n         or alcohol abuse, substance abuse, substance dependence, or\n         chemical abuse or dependence.\n  Every certificate of incorporation which includes among its corporate\npurposes the establishment or operation of a program of services for\nalcoholism or alcohol abuse, substance abuse, substance dependence, or\nchemical abuse or dependence shall have endorsed thereon or annexed\nthereto the approval of the commissioner of the state office of\nalcoholism and substance abuse services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3310"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3310"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3310"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3310/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3310/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3310/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3310/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3310">
+        <num>3310</num>
+        <heading>Licenses for manufacture or distribution of controlled substances</heading>
+        <subsection eId="sec_3310__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the name and address of the licensee;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3310__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the nature of the controlled substances, either by name or\nschedule, or both, which may be manufactured or distributed;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3310__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>whether manufacture or distribution or both such activities are\npermitted by the license.\n  5. Upon application of a licensee, a license may be amended to allow\nthe licensee to relocate within the state or to add a manufacturing or\ndistributing activity or to add further substances or schedules to the\nmanufacturing or distribution activity permitted thereunder. The fee for\nsuch amendment shall be two hundred fifty dollars.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

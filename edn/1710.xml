@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1710"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1710"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1710"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1710/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1710/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1710/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1710/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1710">
+        <num>1710</num>
+        <heading>Boards of education have powers of trustees of common schools and trustees of academies</heading>
+        <content>
+          <p>  § 1710. Boards of education have powers of trustees of common schools\nand trustees of academies.  The board of education of a union free\nschool district shall possess all the powers and privileges, and be\nsubject to all the duties, which the trustees of common school districts\npossess or are subject to under this chapter, not especially provided\nfor in this article, and not inconsistent with the provisions of this\narticle, including, but not limited to, those provided for in sections\nsixteen hundred four, sixteen hundred six to sixteen hundred seventeen,\nboth inclusive, and sixteen hundred nineteen of this chapter; and shall\nenjoy, whenever an academic department shall be by them established, all\nthe immunities and privileges now enjoyed by the trustees of academies\nin this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

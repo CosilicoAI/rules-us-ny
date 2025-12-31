@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-162"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-162"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="162"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-162/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-162/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-162/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-162/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162">
+        <num>162</num>
+        <heading>Laws repealed; effect of repeal; saving clause</heading>
+        <content>
+          <p>  § 162. Laws repealed; effect of repeal; saving clause.  1. Chapter one\nhundred eighty of the laws of nineteen hundred thirty-three, entitled\n"An act relating to the manufacture, sale, control, distribution and\nregulation of certain alcoholic beverages, constituting chapter three-b\nof the consolidated laws," and all acts amendatory thereof or\nsupplemental thereto are hereby repealed.\n  2. The repeal of the acts specified in subdivision one hereof shall\nnot operate or be construed to shorten or terminate the term of any\nlicense heretofore issued thereunder or the rights of any person holding\nsuch a license; nor shall it be construed to abolish the state alcoholic\nbeverage control board or the several county alcoholic beverage control\nboards or the New York city alcoholic beverage control board, as\npresently constituted, and which were heretofore established and are now\noperating pursuant to such acts nor to invalidate or affect any action\nheretofore taken by either of such boards or their officers or\nemployees; nor to require the discharge or the re-appointment of any\nemployees of either of such boards.\n  3. This chapter shall not affect any action or proceeding now pending\nin any court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

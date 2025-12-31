@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-548-B"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-548-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="548-B"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-548-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-548-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-548-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-548-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_548_B">
+        <num>548-B</num>
+        <heading>Paternity or child support proceedings; suspension of state professional, occupational and business licenses</heading>
+        <subsection eId="sec_548_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If the\nrespondent, after receiving appropriate notice, fails to comply with a\nsummons, subpoena or warrant relating to a paternity or child support\nproceeding, and the court has determined that the respondent is\nlicensed, permitted or registered by or with a board, department,\nauthority or office of this state or one of its political subdivisions\nor instrumentalities to conduct a trade, business, profession or\noccupation, the court may order such board, department, authority or\noffice to commence proceedings as required by law regarding the\nsuspension of such license, permit, registration or authority to\npractice and to inform the court of the actions it has taken pursuant to\nsuch proceeding.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_548_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The court may subsequently order such board, department, authority\nor office to terminate the suspension of the respondent's license,\npermit, registration or authority to practice; however, the court shall\norder the termination of such suspension when the court is satisfied\nthat the respondent has fully complied with all summons, subpoenas and\nwarrants relating to a paternity or child support proceeding.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

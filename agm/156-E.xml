@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-156-E"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-156-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="156-E"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-156-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-156-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-156-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-156-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156_E">
+        <num>156-E</num>
+        <heading>Sales prohibitions</heading>
+        <content>
+          <p>  § 156-e. Sales prohibitions.  (1) No person shall sell, expose for\nsale or transport for sale farm products in open or closed packages, if\nthe package containing them or the label on them shall bear any\nstatement, design or device regarding such farm products which shall be\nfalse or misleading in any particular. (2) No person shall sell or offer\nfor sale or transport for sale in either open or closed packages farm\nproducts packed in such manner that the face or shown surface shall not\nbe an average of the contents of the package. (3) It shall be unlawful\nfor any person or persons to designate, display any sign designating, or\nadvertise any place of business as a farmers' market, unless farm\nproducts as defined in section two hundred twenty-three of the\nagriculture and markets law principally are displayed and offered for\nsale or sold therein or thereon.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

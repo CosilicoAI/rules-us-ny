@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.1"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-5.1"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_5_1">
+        <num>7-5.1</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_7_5_1__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A "beneficiary" is a person who is described by a depositor as a\nperson for whom a trust account is established or maintained.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_5_1__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A "depositor" is a person in whose name a trust account subject to\nthis part is established or maintained.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_5_1__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A "financial institution" is a bank, trust company, national\nbanking association, savings bank, industrial bank, private banker,\nforeign banking corporation, federal savings and loan association, a\nsavings institution chartered and supervised as a savings and loan or\nsimilar institution under federal law or the laws of a state, a federal\ncredit union, or a credit union chartered and supervised under the laws\nof a state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_5_1__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>A "trust account" includes a savings, share, certificate or\ndeposit account in a financial institution established by a depositor\ndescribing himself as trustee for another, other than a depositor\ndescribing himself as acting under a will, trust instrument or other\ninstrument, court order or decree.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-Y-1"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-Y-1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-Y-1"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-Y-1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-Y-1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-Y-1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-Y-1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_Y_1">
+        <num>399-Y-1</num>
+        <heading>Automated teller machines transaction denial; fees prohibited</heading>
+        <content>
+          <p>  § 399-y-1. Automated teller machines transaction denial; fees\nprohibited. 1. For the purposes of this section, the following terms\nshall have the following meanings:\n  a. "automated teller machine operator" shall mean any person who\noperates an automated teller machine at which consumers may make\nfinancial transactions, including, but not limited to, deposits,\nwithdrawals, balance inquiries, and loan payments; and\n  b. "automated teller machine" shall mean a device which is linked to\nthe accounts and records of a banking institution and which enables\nconsumers to make financial transactions, including, but not limited to,\ndeposits, withdrawals, balance inquiries, and loan payments.\n  2. No automated teller machine operator or banking institution shall\nimpose a fee on a consumer using such machine for any transaction which\nis for any reason denied or terminated in a manner that prevents such\nconsumer from completing such transaction.\n  3. Any automated teller machine operator or banking institution who\nfails to comply with the requirements of this section shall be assessed\na civil penalty not to exceed two hundred fifty dollars per transaction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

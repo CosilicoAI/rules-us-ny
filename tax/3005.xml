@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3005"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3005"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3005"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3005/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3005/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3005/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3005/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3005">
+        <num>3005</num>
+        <heading>Requirements of certain department letters, notices and documents</heading>
+        <subsection eId="sec_3005__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>letter to a\ntaxpayer regarding the taxpayer's liability for tax,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3005__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>notice which\ngives a person the right to a hearing under any tax,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3005__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>billing or\ncollection document and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3005__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>administrative law judge determination and\ntribunal decision, to which the taxpayer may write with questions\nregarding the letter, notice, document, determination or decision.  Such\nnotices and documents described in subdivisions</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3005__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3005__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of this\nsection shall also include a telephone number which the taxpayer may\ncall with questions regarding the notice or document. Such address or\ntelephone number may be within the division of taxation or the division\nof tax appeals, or within another appropriate state or other agency, and\nmay be included in the letter, notice, document, determination or\ndecision, or on a separate, accompanying document. Nothing in this\nsection shall be construed to prevent either such division from\nincluding an address or telephone number in other letters, notices or\ndocuments sent to taxpayers or other persons.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

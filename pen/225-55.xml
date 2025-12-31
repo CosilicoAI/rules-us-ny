@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.55"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225.55"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_55">
+        <num>225.55</num>
+        <heading>Gaming fraud in the second degree</heading>
+        <content>
+          <p>§ 225.55 Gaming fraud in the second degree.\n  A person is guilty of gaming fraud in the second degree when he or\nshe:\n  1. with intent to defraud and in violation of the rules of the casino\ngaming, misrepresents, changes the amount bet or wagered on, or the\noutcome or possible outcome of the contest or event which is the subject\nof the bet or wager, or the amount or frequency of payment in the casino\ngaming; or\n  2. with intent to defraud, obtains anything of value from casino\ngaming without having won such amount by a bet or wager contingent\nthereon.\n  Gaming fraud in the second degree is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

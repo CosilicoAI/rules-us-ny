@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.05"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43.05"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_05">
+        <num>43.05</num>
+        <heading>Securing financial information</heading>
+        <subsection eId="sec_43_05__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person who applies for the reduction or waiver of fees on the\nground of inability to pay shall disclose all assets and shall file a\nrelease to permit the department to investigate resources and assets and\nto verify statements made in the application.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_43_05__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The commissioner or his authorized representatives may develop\nsufficient financial information through investigations and shall have\nthe power to initiate proceedings in a court of competent jurisdiction\nto discover property, including the examination and inventory of safe\ndeposit boxes leased by a patient, and to otherwise secure payment from\nall patients or persons liable for them.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_43_05__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Banking organizations, insurance companies, brokers, fiduciaries,\nbusiness managers, guardians, trustees, representative payees of\nresources and assets of a patient, or any relative or person having\nknowledge of any resources and assets of a patient, upon request of the\ncommissioner or his authorized representative, shall furnish full\ninformation on the resources and assets of a patient or of any person\nlegally responsible for the support of a patient.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1112"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1112"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1112"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1112">
+        <num>1112</num>
+        <heading>Fingerprints and criminal history</heading>
+        <content>
+          <p>  § 1112. Fingerprints and criminal history. In order to determine the\nsuitability to be licensed of an applicant or licensee, the commission\nshall require a full set of fingerprints be furnished to the commission\nto enable a criminal background investigation to be conducted. For any\nperson who intends to participate in racing in New York state, the\ncommission shall submit such fingerprints to the division of criminal\njustice services, and the division of criminal justice services is\nauthorized to submit such fingerprints to the federal bureau of\ninvestigation, in accordance with the rules or regulations promulgated\nby such entities, to obtain relevant criminal history record\ninformation, if any, concerning such applicant or licensee. The\ncommission shall require the applicant or licensee to pay the cost of\nthe criminal history investigation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

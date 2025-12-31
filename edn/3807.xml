@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3807"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3807"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3807"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3807/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3807/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3807/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3807/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3807">
+        <num>3807</num>
+        <heading>Penalty for false reports and misapplication of public funds</heading>
+        <content>
+          <p>  § 3807. Penalty for false reports and misapplication of public funds.\nEvery person in the employ of the board of education of the city of New\nYork, and every school officer and every officer or teacher of a school\nor society, who shall wilfully sign a false report to such board of\neducation, shall for each offense forfeit the sum of twenty-five\ndollars; and every such person or officer who shall wilfully misapply\nany of the public funds committed to his care shall be deemed guilty of\nembezzlement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

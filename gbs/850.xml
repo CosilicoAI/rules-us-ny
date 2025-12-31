@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-850"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-850"/>
+          <FRBRdate date="2021-10-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="850"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-850/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-850/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-850/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-850/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_850">
+        <num>850</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_850__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Drug-related paraphernalia" consists of the following objects\nused for the following purposes:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_850__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>Kits, used or designed for the purpose of planting, propagating,\ncultivating, growing or harvesting of any species of plant which is a\ncontrolled substance or from which a controlled substance can be\nderived;\n  (ii) Kits, used or designed for the purpose of manufacturing,\ncompounding, converting, producing, or preparing controlled substances;\n  (iii) Isomerization devices, used or designed for the purpose of\nincreasing the potency of any species of plant which is a controlled\nsubstance;\n  (iv) Scales and balances, used or designed for the purpose of weighing\nor measuring controlled substances;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_850__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>Diluents and adulterants, including but not limited to quinine\nhydrochloride, mannitol, mannite, dextrose and lactose, used or designed\nfor the purpose of cutting controlled substances;\n  (vi) and\n  (vii) Objects, used or designed for the purpose of ingesting,\ninhaling, or otherwise introducing cocaine into the human body.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_850__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Drug-related paraphernalia" shall not include hypodermic needles,\nhypodermic syringes and other objects used for the purpose of\nparenterally injecting controlled substances into the human body.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

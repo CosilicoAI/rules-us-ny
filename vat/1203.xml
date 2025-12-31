@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1203"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1203"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1203">
+        <num>1203</num>
+        <heading>Additional parking regulations</heading>
+        <subsection eId="sec_1203__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except where angle\nparking is authorized, every vehicle stopped, standing, or parked wholly\nupon a two-way roadway shall be so stopped, standing, or parked with the\nright-hand wheels of such vehicle parallel to and within twelve inches\nof the right-hand curb or edge of the roadway.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except where angle parking is authorized, every vehicle stopped,\nstanding, or parked wholly upon a one-way roadway shall be so stopped,\nstanding, or parked parallel to the curb or edge of the roadway, in the\ndirection of authorized traffic movement, with its right-hand wheels\nwithin twelve inches of the right-hand curb or edge of the roadway, or\nits left-hand wheels within twelve inches of the left-hand curb or edge\nof the roadway.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Except where angle parking is authorized, every vehicle stopped,\nstanding, or parked partly upon a roadway shall be so stopped, standing,\nor parked parallel to the curb or edge of the roadway. On a one-way\nroadway such vehicle shall be facing in the direction of authorized\ntraffic movement; on a two-way roadway such vehicle shall be facing in\nthe direction of authorized traffic movement on that portion of the\nroadway on which the vehicle rests.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1203__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>No person regularly engaged in the sale or repair of vehicles\nshall park a vehicle upon any highway for the purpose of:\n  1. Displaying such vehicle for sale.\n  2. Greasing or repairing such vehicle, except for such repairs as may\nbe necessitated by an emergency.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

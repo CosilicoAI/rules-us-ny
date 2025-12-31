@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-98-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-98-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="98-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-98-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-98-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-98-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-98-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_98_A">
+        <num>98-A</num>
+        <heading>Club accounts</heading>
+        <content>
+          <p>  § 98-a. Club accounts. 1. No contract under which a bank or trust\ncompany agrees to repay deposits of fixed sums made at regular intervals\nat a given time with all interest or dividends credited thereon, or to\nrepay said deposits when, together with interest or dividends credited\nthereon, they shall equal a specified sum, may provide for any\nforfeiture of the sums deposited in the event of the discontinuance of\nthe regular payments. Interest or dividends on club accounts, if\noffered, must be credited at least quarterly and may not be forfeited\nonce credited, in the event of the discontinuance of regular payments.\n  2. Any bank which provides for deposits in club accounts shall, in all\nadvertising, announcements or brochures pertaining to such accounts,\nstate whether or not interest or dividends are paid thereon and, if\ninterest or dividends are paid, shall state the rate or form of interest\nor dividends so paid in accordance with any rules and regulations that\nmay be prescribed by the superintendent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

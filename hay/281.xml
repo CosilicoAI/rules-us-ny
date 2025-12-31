@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-281"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-281"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="281"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-281/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-281/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281">
+        <num>281</num>
+        <heading>Mileage and actual valuation</heading>
+        <content>
+          <p>  § 281. Mileage and actual valuation. 1. The mileage of highways in\ntowns to be used in determining the amounts to be paid to such towns\nunder the provisions of this article shall be the tables of mileage\nheretofore prepared by the state engineer, until the corrected tables of\nmileage prepared as provided in section ten of this chapter are filed.\nSuch tables and all corrections thereof shall be filed in the department\nof transportation and with the comptroller. The actual valuation of real\nproperty to be used in determining such amounts shall be the full\nvaluation thereof, according to the latest table of percentages of\nassessments as fixed and determined by the commissioner of taxation and\nfinance.\n  2. The actual valuation shall be determined by applying the\npercentages contained in the latest table of percentages of assessments\nas fixed and determined by the state tax commission, to the assessed\nvaluations of the several towns as they appear on the statement of the\nclerk of the board of supervisors for the year prior to the levy of\ntaxes upon which is based the amounts to be paid as provided in section\ntwo hundred and seventy-nine.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

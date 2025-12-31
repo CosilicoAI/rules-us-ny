@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-231-A"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-231-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="231-A"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-231-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-231-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-231-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-231-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_231_A">
+        <num>231-A</num>
+        <heading>Permanent financing of district improvements to be paid from general taxation</heading>
+        <content>
+          <p>  § 231-a. Permanent financing of district improvements to be paid from\ngeneral taxation. When the cost of any improvement is to be assessed,\nlevied and collected from the several lots and parcels of lands within a\ndistrict in the same manner and at the same time as other town charges,\nthe town board may finance said improvement pursuant to the local\nfinance law. The town board shall raise annually by tax a sum sufficient\nto pay the interest and the principal of obligations issued to finance\nsuch improvement, if not otherwise paid, as the same shall become due;\nsuch tax shall be assessed, levied and collected from the several lots\nand parcels of land within the district in the same manner and at the\nsame time as the annual tax for other town charges.\n  Annual collections of such taxes shall be applied by the supervisor in\npayment of maturing obligations and accruing interest, for which such\ntaxes were levied. If the total of annual collections of such taxes\nshall be less than the amount required for such purposes, the town board\nmay direct that surplus moneys not otherwise appropriated be applied.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

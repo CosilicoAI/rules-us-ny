@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-83"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-83"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="83"/>
+          <FRBRname value="CVS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-83/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-83/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-83/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-83/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_83">
+        <num>83</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 83. Legislative intent. In the event that municipalities propose a\nmerger of all or part of existing police agencies within counties in\nestablishing a countywide, a part-county or combinations of municipal\npolice agencies, orderly transitional procedures will be required.  In\nsuch consolidations of the police functions within a county it is\nnecessary to provide a uniform and equitable method for transferring the\nmembers of existing police departments into the combined agency\nstructure.  Such methods should protect the rights held by present\nemployees in their existing organization.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

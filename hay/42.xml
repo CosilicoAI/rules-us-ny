@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-42"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-42"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="42"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-42/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-42/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-42/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-42/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42">
+        <num>42</num>
+        <heading>Maintenance of detours during construction</heading>
+        <content>
+          <p>  § 42. Maintenance of detours during construction. The maintenance and\nrepair of any highway or right of way designated by official order of\nthe department of transportation for use as a detour, during the\nconstruction, reconstruction, or improvement of a state highway, shall\nbe under the supervision of the department of transportation and shall\nbe paid out of the construction fund. Such highway or right of way\ndesignated as a detour by the department of transportation shall be\ndeemed as an improved highway during construction, reconstruction or\nrepair, when the detour is necessary, and shall be maintained, repaired\nand under the supervision of the department of transportation for the\nperiod of necessity only.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

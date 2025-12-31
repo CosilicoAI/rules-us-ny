@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="81-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_81_A">
+        <num>81-A</num>
+        <heading>Special license to sell wine at retail for consumption on the premises</heading>
+        <content>
+          <p>  § 81-a. Special license to sell wine at retail for consumption on the\npremises.  1. On or after the effective date hereof, any person may make\nan application to the appropriate board for a special license to sell\nwine at retail to be consumed on the premises where sold.\n  2. Such special license shall in form and in substance be a license to\nthe person specifically licensed to sell wine at retail to be consumed\non the premises specifically licensed. Such license shall also be deemed\nto include a license to sell beer at retail to be consumed under the\nsame terms and conditions, without the payment of any additional fee.\n  3. The provisions contained in subdivisions three, four, six, eight\nand nine of section sixty-four-a shall apply to applicants for licenses\nunder this section.\n  4. a. No such license shall be issued to any person for any premises\nother than premises for which a license may be issued under section\nsixty-four of this chapter or a hotel or premises which are kept, used,\nmaintained, advertised or held out to the public to be a place where\nfood is prepared and served for consumption on the premises in such\nquantities as to satisfy the liquor authority that the sale of wine\nintended is incidental to and not the prime source of revenue from the\noperation of such premises. Such license may also include such suitable\nspace outside the licensed premises and adjoining it as may be approved\nby the liquor authority.\n  b. Notwithstanding paragraph a of this subdivision, a special\non-premises license for a premises in which the principal business shall\nbe the operation of a legitimate theater by a corporation organized\npursuant to the not-for-profit corporation law may be granted\nnotwithstanding the proximity of such premises to any school, provided\nthat the availability of alcoholic beverages on such premises shall not\nbe advertised in any way at such premises in any manner visible from\nsuch street or avenue.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

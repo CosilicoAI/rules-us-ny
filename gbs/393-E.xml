@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-E"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-E"/>
+          <FRBRdate date="2014-09-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="393-E"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-393-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-393-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393_E">
+        <num>393-E</num>
+        <heading>Sale of abandoned property location services</heading>
+        <content>
+          <p>  § 393-e. Sale of abandoned property location services. 1. For the\npurposes of this section, "abandoned property location services" shall\ninclude any service for a fee providing assistance to consumers for the\npurposes of locating and/or retrieving property held by the state\ncomptroller pursuant to the abandoned property law.\n  2. Any person, corporation, association, partnership or other entity\nwhich sells or offers to sell any abandoned property location services\nfor abandoned property delivered to the state and held by the state\ncomptroller shall, in every solicitation and agreement for such\nservices, provide to the purchaser the following notice in a clear and\nconspicuous manner, and in at least twelve-point boldface type prior to\nthe time of sale:\n  "Abandoned funds held by the State can be obtained directly from the\nOffice of the State Comptroller by the owner of such funds without\npaying a fee. These funds are held indefinitely by the Office of the\nState Comptroller. For more information, contact the Office of the State\nComptroller at (insert the current telephone number established by the\nOffice of the State Comptroller for receiving inquiries from consumers\nregarding unclaimed funds) or (insert the current address of the website\nof the Office of the State Comptroller)."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

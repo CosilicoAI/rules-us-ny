@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-125"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-125"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="125"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-125/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-125/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-125/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-125/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_125">
+        <num>125</num>
+        <heading>Soliciting the surrender of tickets a misdemeanor</heading>
+        <content>
+          <p>  § 125. Soliciting the surrender of tickets a misdemeanor.  Any hotel,\nboarding-house, lodging-house or restaurant owner, proprietor, manager,\nclerk or other employee or any runner, guide, porter or solicitor who\nsolicits in any manner any immigrant or steerage passenger inward or\noutward bound, having a railroad or steamship ticket, order or other\ninstrument entitling or purporting to entitle such passenger to\ntransportation or conveyance on any railroad or steamship, to surrender\nsuch ticket, order or other instrument to such hotel, boarding-house,\nlodging-house or restaurant owner, proprietor, manager or other employee\nor to any runner, guide, porter or solicitor or any other person for the\npurpose of detaining any such immigrant or steerage passenger in any\nsuch hotel, boarding-house, lodging-house, or restaurant, shall be\nguilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

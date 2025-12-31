@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-805-B"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-805-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="805-B"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-805-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-805-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-805-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-805-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_805_B">
+        <num>805-B</num>
+        <heading>Solemnization of marriages</heading>
+        <content>
+          <p>  § 805-b. Solemnization of marriages. Notwithstanding any statute, law\nor rule to the contrary, no public officer listed in section eleven of\nthe domestic relations law shall be prohibited from accepting any fee or\ncompensation having a value of one hundred dollars or less, whether in\nthe form of money, property, services or entertainment, for the\nsolemnization of a marriage by such public officer at a time and place\nother than the public officer's normal public place of business, during\nnormal hours of business. For the purpose of this section, a town or\nvillage judge's normal hours of business shall mean those hours only\nwhich are officially scheduled by the court for the performing of the\njudicial function.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

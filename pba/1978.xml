@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1978"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1978"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1978"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1978/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1978/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1978/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1978/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1978">
+        <num>1978</num>
+        <heading>Agreements of the state</heading>
+        <content>
+          <p>  § 1978. Agreements of the state. The state of New York does pledge to\nand agree with the holders of the bonds and notes that the state will\nnot limit or alter the rights hereby vested in the authority to acquire,\nlease, mortgage or dispose of real or personal property or any interest\ntherein or construct, improve, enlarge, operate and maintain the\nproject, to fix, establish and collect the rates, rentals, fees and\nother charges referred to in this act and to fulfill the terms of any\nagreements made with the holders of the bonds and notes, or in any way\nimpair the rights and remedies of such bondholders and noteholders until\nthe bonds and notes, together with interest thereon, interest on any\nunpaid installments of interest, and all costs and expenses in\nconnection with any action or proceeding by or on behalf of the\nbondholders and noteholders are fully met and discharged.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

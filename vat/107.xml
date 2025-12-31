@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-107"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-107"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="107"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-107/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-107/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107">
+        <num>107</num>
+        <heading>Classes of cities</heading>
+        <subsection eId="sec_107__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>City of the first class. A city with a\npopulation of one hundred seventy-five thousand or more.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>City of the second class. A city with a population of fifty\nthousand and less than one hundred seventy-five thousand.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>City of the third class. Any city not included in the foregoing\nclasses.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The classification herein made shall be determined by the federal\ncensus or state enumeration, whichever is the later, as last previously\ntaken before the effective date of this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

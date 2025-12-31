@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-71"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-71"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-71/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-71/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-71/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-71/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71">
+        <num>71</num>
+        <heading>Liability for damages by mobs and riots</heading>
+        <content>
+          <p>  § 71. Liability for damages by mobs and riots. A city or county shall\nbe liable to a person whose property is destroyed or injured therein by\na mob or riot, for the damages sustained thereby, if the consent or\nnegligence of such person did not contribute to such destruction or\ninjury, and such person shall have used all reasonable diligence to\nprevent such damage, shall have notified the mayor of the city, or\nsheriff of the county, of a threat or attempt to destroy or injure his\nproperty by a mob or riot, immediately upon acquiring such knowledge,\nand shall bring an action therefor within three months after such\ndamages were sustained. A mayor or sheriff receiving notification of a\nthreat or attempt to destroy or injure property by a mob or riot shall\ntake all lawful means to protect such property; and if he shall neglect\nor refuse, the person whose property shall be destroyed or injured, may\nelect to bring his action for damages against such officer instead of\nthe city or county.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

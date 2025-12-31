@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.07"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.07"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="41.07"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.07/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.07/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.07/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.07/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_07">
+        <num>41.07</num>
+        <heading>Provision of services by the local governmental unit</heading>
+        <subsection eId="sec_41_07__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Local governmental units may provide local services and facilities\ndirectly or may contract for the provision of those services by other\nunits of local or state government, by voluntary agencies, or by\nprofessionally qualified individuals.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_41_07__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Subject to the approval of the commissioners of the offices having\njurisdiction over the services, local governments may arrange for the\nprovision of services eligible for state aid outside their territorial\njurisdictions or the state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_41_07__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Local governments may provide joint local services and facilities\nthrough agreements, made pursuant to law, which may provide either that\none local government provide and supervise these services for other\nlocal governments or that a joint board or a joint local department be\nestablished to administer these services for the populations of all\ncontracting local governments.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-918"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-918"/>
+          <FRBRdate date="2022-06-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="918"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-918/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-918/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-918/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-918/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_918">
+        <num>918</num>
+        <heading>Airport transactions</heading>
+        <content>
+          <p>  § 918. Airport transactions. If an airport operator, including but not\nlimited to the public authority responsible for regulating commerce at\nsuch airport within this state, requests that a peer-to-peer car sharing\nprogram administrator enter into an airport concession agreement, such\npeer-to-peer car sharing program shall enter into a written agreement,\nwhere the peer-to-peer car sharing program administrator or shared\nvehicle owner uses the program to:\n  1. list vehicles parked on airport property or at airport facilities;\n  2. contract for transportation to or from airport property or airport\nfacilities;\n  3. facilitate the use of a shared vehicle to transport airport\npassengers on or off airport property; or\n  4. promote or market a shared vehicle to transport airport passengers\non or off airport property.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

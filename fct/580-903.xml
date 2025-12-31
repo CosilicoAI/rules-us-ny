@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-903"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-903"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-903"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-903/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-903/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-903/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-903/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_903">
+        <num>580-903</num>
+        <heading>Effective date</heading>
+        <content>
+          <p>  § 580-903. Effective date. This article shall take effect on January\nfirst, two thousand sixteen; provided, however, that if it shall become\na law after January first, two thousand sixteen, it shall be deemed to\nhave been in full force and effect on and after January first, two\nthousand sixteen; and provided further, that the provisions of this\narticle shall apply to any action or proceeding filed or order issued on\nor before the effective date of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

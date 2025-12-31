@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-8"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-8"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8">
+        <num>8</num>
+        <heading>Trespasses upon state lands</heading>
+        <content>
+          <p>  § 8. Trespasses upon state lands.  Where, in the judgment of the\ncommissioner of general services, sufficient information has been\nprovided to her or him that a possible trespass upon state-owned lands\nhas occurred then the commissioner may investigate such allegations of\ntrespass upon state-owned lands. The commissioner of general services\nmay report to the attorney general instances of trespass committed upon\nIndian lands, or lands and lands underwater belonging to the state, and\nunder the general care and superintendence of the commissioner. The\nattorney general, on receiving such report and whenever directed by the\ncommissioner, shall commence and prosecute appropriate actions or\nproceedings in the name of the people of the state, against the person\nor entity committing such trespass.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

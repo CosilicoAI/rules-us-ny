@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-273"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-273"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="273"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-273/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-273/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-273/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-273/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_273">
+        <num>273</num>
+        <heading>Canceling stamps; penalty for failure</heading>
+        <content>
+          <p>  § 273. Canceling stamps; penalty for failure. In every case where an\nadhesive stamp shall be used to denote the payment of the tax provided\nby this article, the person using or affixing the same shall write or\nstamp thereupon the initials of his name and the date upon which the\nsame shall be attached or used, and shall cut or perforate the stamp in\na substantial manner, so that such stamp cannot be again used; and if\nany person makes use of an adhesive stamp to denote the payment of the\ntax imposed by this article, without so effectually canceling the same,\nsuch person shall be deemed guilty of a misdemeanor, and upon conviction\nthereof shall pay a fine of not less than two hundred nor more than five\nhundred dollars or be imprisoned for not less than six months, or both,\nin the discretion of the court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

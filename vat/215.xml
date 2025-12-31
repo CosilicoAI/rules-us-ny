@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-215"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-215"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-215/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-215/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215">
+        <num>215</num>
+        <heading>Rules and regulations</heading>
+        <subsection eId="sec_215__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. Subject to and in\nconformity with the provisions of the vehicle and traffic law and the\nconstitution and laws of the state, the commissioner may enact, amend\nand repeal rules and regulations which shall regulate and control the\nexercise of the powers of the department and the performance of the\nduties of officers, agents and other employees thereof.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_215__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Vehicle equipment. If the commissioner and the attorney general\nshall determine that any provision of this chapter relating to required\nvehicle equipment has been preempted by a federal regulation or\nstandard, the commissioner may, in his discretion, promulgate a\nregulation governing such item or items of equipment, in a manner\nconsistent with such federal regulation or standard. Such regulation,\nwhen filed with the secretary of state, shall supersede the provisions\nof this chapter relating to the same item or items of equipment,\nprovided that such regulation shall only remain in force and effect\nuntil thirty days after the next adjournment of a regular session of the\nlegislature provided, however, that the authority to promulgate such\nregulation shall only be exercised if the federal regulation or standard\ninvolved does not take effect at a time when the legislature is in\nregular session, and the commissioner's regulation is promulgated and\ntakes effect prior to the next ensuing regular session of the\nlegislature.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_215__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner shall determine the degree to which an\nidentification card issued to veterans by the United States department\nof veterans affairs may be used as proof of name and/or age for the\npurpose of obtaining a driver's license or non-driver identification\ncard under this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-T"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-T"/>
+          <FRBRdate date="2019-12-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2994-T"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2994_T">
+        <num>2994-T</num>
+        <heading>Regulations</heading>
+        <content>
+          <p>  § 2994-t. Regulations. 1. The commissioner shall establish such\nregulations as may be necessary to implement this article.\n  2. The commissioner, in consultation with the commissioners of the\noffice of mental health and the office for people with developmental\ndisabilities, shall promulgate regulations identifying the credentials\nof health care professionals qualified to provide an independent\ndetermination, pursuant to subdivision three of section twenty-nine\nhundred ninety-four-c of this article, that a patient lacks\ndecision-making capacity because of mental illness or developmental\ndisability.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

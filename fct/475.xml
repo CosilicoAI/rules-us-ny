@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-475"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-475"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="475"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-475/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-475/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-475/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-475/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_475">
+        <num>475</num>
+        <heading>Procedure as to defaults</heading>
+        <content>
+          <p>  § 475. Procedure as to defaults. If the surety contests the default\nthe court shall hear and determine the issue. In the event that the\ncourt finds that a default has been suffered, it shall make an order\nspecifying the amount in default and forfeiting the undertaking or cash\ndeposit to the extent of such default. A certified copy of such order\nshall be filed in the county clerk's office with a certified copy of the\nundertaking and thereupon the said clerk shall docket the same in the\nbook kept by the clerk for the docketing of judgments, as if the same\nwas a transcript of a judgment directed for the amount of such sum in\ndefault. The certified copy of the undertaking and of the order shall be\nthe judgment record. Such judgment shall be a lien on all of the real\nestate and collectible out of the real and personal property of the\nsurety. An execution may be issued to collect the amount thereof in the\nsame manner as upon a judgment recovered in any court of record.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

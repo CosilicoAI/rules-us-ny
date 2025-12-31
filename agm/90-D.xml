@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-D"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-D"/>
+          <FRBRdate date="2024-08-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90-D"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90_D">
+        <num>90-D</num>
+        <heading>Application and permit fees</heading>
+        <content>
+          <p>  § 90-d. Application and permit fees. Application for an animal health\npermit shall be made to the commissioner. The application shall be on a\nform prescribed by the commissioner and shall be accompanied by an\nanimal health permit fee of fifty dollars. The applicant shall satisfy\nthe commissioner of their character and responsibility and shall set\nforth such information as the commissioner shall require regarding the\npast record of infection or contagion among domestic animals dealt in,\nor handled, or sold, or rescued by the applicant during the past five\nyears. A permit shall be issued for a two year period and a renewal\napplication shall be submitted to the commissioner on or before the\nthirtieth day prior to the expiration of the permit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

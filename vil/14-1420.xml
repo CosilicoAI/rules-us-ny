@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1420"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1420"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-1420"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1420/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1420/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1420/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1420/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_1420">
+        <num>14-1420</num>
+        <heading>Hearing of appeal</heading>
+        <content>
+          <p>  § 14-1420 Hearing of appeal. Either party may bring on the appeal upon\na notice of not less than ten nor more than twenty days. All appeals\nfrom the same apportionment must be consolidated and heard as one\nappeal. The county court may affirm or reverse the apportionment. If it\nbe reversed upon the ground that it is erroneous, unequal or\ninequitable, the court shall by the order of reversal appoint three\ndisinterested freeholders of the village as commissioners to make a new\napportionment, and no appeal shall be allowed from such order.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

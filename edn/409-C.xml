@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-C"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="409-C"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-409-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-409-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_409_C">
+        <num>409-C</num>
+        <heading>Athletic safety equipment</heading>
+        <content>
+          <p>  § 409-c. Athletic safety equipment.  The board of education or\ntrustees of every school district and the principal or other person in\ncharge of every nonpublic elementary or secondary school within the\nstate shall arrange for and require that batboys or batgirls\nparticipating in baseball or softball competition conducted as an\nactivity of such school district or nonpublic school shall wear\nprotective headgear at all times when a game is in play and such batboys\nor batgirls are on the playing field.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

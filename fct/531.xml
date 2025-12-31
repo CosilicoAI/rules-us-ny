@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-531"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-531"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="531"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-531/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-531/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-531/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-531/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_531">
+        <num>531</num>
+        <heading>Hearing</heading>
+        <content>
+          <p>  § 531. Hearing. The trial shall be by the court without a jury. The\nmother or the alleged father shall be competent to testify but the\nrespondent shall not be compelled to testify. If the mother is married\nboth she and her husband may testify to nonaccess. If the respondent\nshall offer testimony of access by others at or about the time charged\nin the complaint, such testimony shall not be competent or admissible in\nevidence except when corroborated by other facts and circumstances\ntending to prove such access. The court may exclude the general public\nfrom the room where the proceedings are heard and may admit only persons\ndirectly interested in the case, including officers of the court and\nwitnesses.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="470.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_470_10">
+        <num>470.10</num>
+        <heading>Determination of appeals; definitions of terms</heading>
+        <content>
+          <p>§ 470.10  Determination of appeals; definitions of terms.\n  The following definitions are applicable to this article:\n  1.  "Reversal" by an appellate court of a judgment, sentence or order\nof another court means the vacating of such judgment, sentence or order.\n  2.  "Modification" by an appellate court of a judgment or order of\nanother court means the vacating of a part thereof and affirmance of the\nremainder.\n  3.  "Corrective action" means affirmative action taken or directed by\nan appellate court upon reversing or modifying a judgment, sentence or\norder of another court, which disposes of or continues the case in a\nmanner consonant with the determinations and principles underlying the\nreversal or modification.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

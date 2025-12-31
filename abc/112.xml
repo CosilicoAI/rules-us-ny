@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-112"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-112"/>
+          <FRBRdate date="2016-11-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="112"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_112">
+        <num>112</num>
+        <heading>Bonds of licensees and permittees</heading>
+        <content>
+          <p>  § 112. Bonds of licensees and permittees. The liquor authority may\nrequire the licensees and permittees of one or more of the kinds or\nclasses described in this chapter to file with it a bond to the people\nof the state of New York issued by a surety company, approved by the\nsuperintendent of financial services as to solvency and responsibility\nand authorized to transact business in this state, in such penal sum as\nthe liquor authority may heretofore have prescribed or hereafter shall\nprescribe, conditioned that such licensee or permittee will not suffer\nor permit any violation of the provisions of this chapter and that all\nfines and penalties which shall accrue, during the time the license or\npermit shall be in effect, will be paid, together with all costs taxed\nor allowed in any action or proceeding brought or instituted for a\nviolation of any of the provisions of this chapter. A suit to recover on\nany bond filed pursuant to chapter one hundred eighty of the laws of\nnineteen hundred thirty-three or this chapter may be brought by the\nliquor authority or on relation of any party aggrieved, in a court of\ncompetent jurisdiction and in the event that the obligor named in such\nbond has violated any of the conditions of such bond, recovery for the\npenal sum of such bond may be had in favor of the people of the state.\nNotwithstanding the provisions of this section, no bond shall be\nrequired to be filed by the holder of a solicitor's permit issued under\nsection ninety-three of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

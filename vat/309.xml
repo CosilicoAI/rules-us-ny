@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-309"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-309"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="309"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-309/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-309/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_309">
+        <num>309</num>
+        <heading>Legislative findings</heading>
+        <content>
+          <p>  § 309. Legislative findings. 1. The legislature hereby finds and\ndeclares that the safety of the motoring public depends on a modern\nsystem of periodic motor vehicle inspection.\n  2. In nineteen hundred fifty-nine New York state recognized the need\nfor inspection of motor vehicles to assure its citizens that their\nsafety would be protected by removing from its highways those cars whose\nmechanical condition did not meet rigid standards of safety.\n  3. The introduction of anti-pollution devices and newly developed\nsafety attachments to modern automobiles requires that experimental\ninspection stations be established to permit the testing of new methods\nof periodic motor vehicle inspection.\n  4. The creation of new techniques of periodic motor vehicle inspection\nhas become the concern of the federal government, and federal funds are\nnow available for the development of criteria for modern inspection\nmethods.  Therefore, legislation should be enacted to promote the\nadvancement of the periodic motor vehicle inspection program in New York\nstate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

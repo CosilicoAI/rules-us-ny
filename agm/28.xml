@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-28"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-28"/>
+          <FRBRdate date="2022-03-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="28"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-28/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-28/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28">
+        <num>28</num>
+        <heading>Advisory group for improving urban and rural consumer access to locally produced, healthy foods</heading>
+        <content>
+          <p>  * § 28. Advisory group for improving urban and rural consumer access\nto locally produced, healthy foods. The commissioner shall convene an\nadvisory group with representatives from agriculture, food access\norganizations, food retailers and economic development agencies to\nidentify strategies and opportunities to expand access for underserved,\nnutritionally deficient urban and rural communities to healthy, locally\nproduced food in New York state, including identifying new and\ninnovative methods to increase the production, marketing and\ndistribution of locally produced, fresh food in such communities in New\nYork state.\n  Not later than one year after the effective date of this section, a\nreport shall be delivered by the commissioner to the governor and the\nlegislature on the findings and recommendations of such advisory group.\n  * NB Repealed after the report required to this section has been\ndelivered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

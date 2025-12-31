@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.4"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131.4"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_4">
+        <num>131.4</num>
+        <heading>Complaints of wrongs</heading>
+        <content>
+          <p>  § 131.4. Complaints of wrongs.  Any member of the organized militia\nwho believes himself wronged by his commanding officer, and, upon due\napplication to such commander, is refused redress, may complain to any\nsuperior officer who shall forward the complaint to the adjutant\ngeneral, who shall examine into said complaint and, if justified shall\ntake proper measures for redressing the wrong complained of.  If the\nadjutant general finds the complaint not to be justified and refuses\nredress, the member who initiated the complaint may appeal to the\ngovernor for redress, in accordance with regulations issued pursuant to\nthis chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

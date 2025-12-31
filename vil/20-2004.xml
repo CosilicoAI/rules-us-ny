@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-20-2004"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-20-2004"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="20-2004"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-20-2004/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-20-2004/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-20-2004/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-20-2004/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_2004">
+        <num>20-2004</num>
+        <heading>Proof of ordinance adopted prior to September first, nineteen hundred seventy-four</heading>
+        <content>
+          <p>  § 20-2004 Proof of ordinance adopted prior to September first,\nnineteen hundred seventy-four. The certificate of the village clerk\nsetting forth the records of the village showing the adoption of one or\nmore ordinances and the publishing of the notice of adoption shall be\npresumptive evidence of such adoption and publication in any action or\nspecial proceeding in any court or otherwise.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

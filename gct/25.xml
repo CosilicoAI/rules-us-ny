@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="25"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25">
+        <num>25</num>
+        <heading>Increasing compensation during fiscal year prohibited</heading>
+        <content>
+          <p>  § 25. Increasing compensation during fiscal year prohibited. The board\nof estimate and apportionment of any city or the body exercising similar\nfunctions in any city, excepting a city of the first class having a\npopulation of more than five hundred thousand and less than one million,\nis hereby prohibited from increasing the compensation of any office or\nposition, except compensation on per diem basis, paid out of the\ntreasury of such city, during any fiscal year, after the same shall have\nbeen fixed and provided for in the budget of such city for such fiscal\nyear.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

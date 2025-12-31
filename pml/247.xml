@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-247"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-247"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="247"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-247/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-247/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-247/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-247/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_247">
+        <num>247</num>
+        <heading>Racing zones</heading>
+        <content>
+          <p>  § 247. Racing zones. There are hereby created two racing zones to be\nknown as the first zone and the second zone. The first zone shall\ninclude all of the counties in the first, second, ninth, tenth, eleventh\nand twelfth judicial districts. The second zone shall include all the\nother counties of the state. Not more than six corporations shall\nhereafter be licensed by the commission or franchised by the state to\nconduct a race course or race meeting for running races or steeplechases\nat which pari-mutuel betting shall be authorized within the first zone,\nand not more than three of such corporations shall hereafter be so\nlicensed within the second zone. The commission shall not hereafter\napprove the incorporation of such a corporation for conducting a race\ncourse or race meeting within the second zone if the location of the\nproposed race course of such corporation is within seventy-five miles of\nthe race course of another such corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

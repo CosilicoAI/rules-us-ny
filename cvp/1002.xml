@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1002"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1002"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1002"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1002/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1002/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1002/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1002/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1002">
+        <num>1002</num>
+        <heading>Permissive joinder of parties</heading>
+        <subsection eId="sec_1002__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Plaintiffs. Persons who\nassert any right to relief jointly, severally, or in the alternative\narising out of the same transaction, occurrence, or series of\ntransactions or occurrences, may join in one action as plaintiffs if any\ncommon question of law or fact would arise.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1002__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Defendants. Persons against whom there is asserted any right to\nrelief jointly, severally, or in the alternative, arising out of the\nsame transaction, occurrence, or series of transactions or occurrences,\nmay be joined in one action as defendants if any common question of law\nor fact would arise.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1002__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Separate relief; separate trials. It shall not be necessary that\neach plaintiff be interested in obtaining, or each defendant be\ninterested in defending against, all the relief demanded or as to every\nclaim included in an action; but the court may make such orders as will\nprevent a party from being embarrassed, delayed, or put to expense by\nthe inclusion of a party against whom he asserts no claim and, who\nasserts no claim against him, and may order separate trials or make\nother orders to prevent prejudice.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

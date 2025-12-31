@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1900"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1900"/>
+          <FRBRdate date="2024-05-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1900"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1900/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1900/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1900/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1900/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1900">
+        <num>1900</num>
+        <heading>Statement of legislative intent</heading>
+        <content>
+          <p>  * § 1900. Statement of legislative intent. It is the intent of the\nlegislature in enacting this title to empower the New York state energy\nresearch and development authority to establish effective programs and\nother mechanisms to: (1) foster and encourage the orderly and expedient\nsiting and development of renewable energy facilities and qualified\nenergy storage systems, particularly at sites which are difficult to\ndevelop, consistent with applicable law for the purpose of enabling the\nstate to meet CLCPA targets as defined in subdivision one of section one\nhundred thirty-seven of article eight of the public service law; (2)\nincentivize the re-use of previously developed sites for renewable\nenergy facilities and qualified energy storage systems to protect the\nvalue of taxable land, capitalize on existing infrastructure; (3)\nsupport the provision of benefits to communities that host renewable\nenergy facilities and qualified energy storage systems; and (4) protect\nenvironmental justice areas from adverse environmental impacts.\n  * NB Repealed December 31, 2030\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

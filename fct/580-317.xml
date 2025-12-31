@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-317"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-317"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-317"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-317/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-317/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-317/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-317/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_317">
+        <num>580-317</num>
+        <heading>Communications between tribunals</heading>
+        <content>
+          <p>  § 580-317. Communications between tribunals. A tribunal of this state\nmay communicate with a tribunal outside this state in a record or by\ntelephone, electronic mail or other means, to obtain information\nconcerning the laws, the legal effect of a judgment, decree or order of\nthat tribunal, and the status of a proceeding. A tribunal of this state\nmay furnish similar information by similar means to a tribunal outside\nthis state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

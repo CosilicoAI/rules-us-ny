@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-D"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-D"/>
+          <FRBRdate date="2018-01-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="187-D"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_187_D">
+        <num>187-D</num>
+        <heading>Green building credit</heading>
+        <content>
+          <p>  § 187-d. Green building credit. 1. Allowance of credit. A taxpayer\nshall be allowed a credit, to be computed as provided in section\nnineteen of this chapter, against the taxes imposed by sections one\nhundred eighty-three, one hundred eighty-four and former section one\nhundred eighty-six of this article. Provided, however, that the amount\nof such credit allowable against the tax imposed by section one hundred\neighty-four of this article shall be the excess of the amount of such\ncredit over the amount of any credit allowed by this section against the\ntax imposed by section one hundred eighty-three of this article.\n  2. Carryovers. In no event shall the credit under this section be\nallowed in an amount which will reduce the tax payable to less than the\napplicable minimum tax fixed by section one hundred eighty-three or\nformer section one hundred eighty-six of this article. If, however, the\namount of credit allowable under this section for any taxable year\nreduces the tax to such amount, any amount of credit not deductible in\nsuch taxable year may be carried over to the following year or years and\nmay be deducted from the taxpayer's tax for such year or years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

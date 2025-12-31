@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-E"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="69-E"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-69-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-69-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_69_E">
+        <num>69-E</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 69-e. Definitions. 1. "Scrap metal processing facility" shall mean\nan establishment engaged primarily in the purchase, processing and\nshipment of ferrous and/or non-ferrous scrap, the end product of which\nis the production of raw material for remelting purposes for steel\nmills, foundaries, smelters, refiners, and similar users.\n  2. "Scrap processor" shall mean any person, association, partnership\nor corporation operating and maintaining a "scrap metal processing\nfacility".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

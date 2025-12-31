@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1201"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1201"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1201">
+        <num>1201</num>
+        <heading>Representation of infant, incompetent person, or conservatee</heading>
+        <content>
+          <p>  § 1201. Representation of infant, incompetent person, or conservatee.\nUnless the court appoints a guardian ad litem, an infant shall appear by\nthe guardian of his property or, if there is no such guardian, by a\nparent having legal custody, or, if there is no such parent, by another\nperson or agency having legal custody, or, if the infant is married, by\nan adult spouse residing with the infant, a person judicially declared\nto be incompetent shall appear by the committee of his property, and a\nconservatee shall appear by the conservator of his property. A person\nshall appear by his guardian ad litem if he is an infant and has no\nguardian of his property, parent, or other person or agency having legal\ncustody, or adult spouse with whom he resides, or if he is an infant,\nperson judicially declared to be incompetent, or a conservatee as\ndefined in section 77.01 of the mental hygiene law and the court so\ndirects because of a conflict of interest or for other cause, or if he\nis an adult incapable of adequately prosecuting or defending his rights.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

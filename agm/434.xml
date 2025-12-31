@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-434"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-434"/>
+          <FRBRdate date="2025-12-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="434"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-434/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-434/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-434/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-434/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_434">
+        <num>434</num>
+        <heading>Waiving of requirements authorized</heading>
+        <content>
+          <p>  § 434. Waiving of requirements authorized. The commissioner is hereby\nauthorized to waive the requirements established pursuant to this\narticle during a disaster emergency, provided that an official\ndeclaration of such disaster emergency has been made by the governor or\nhis or her delegated state official pursuant to section twenty-eight of\nthe executive law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

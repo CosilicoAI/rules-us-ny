@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="128-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_128_A">
+        <num>128-A</num>
+        <heading>Police officers allowed to work in licensed premises in certain cases</heading>
+        <content>
+          <p>  § 128-a. Police officers allowed to work in licensed premises in\ncertain cases. Notwithstanding any inconsistent provision of law to the\ncontrary, the authority shall promulgate such rules and regulations as\nmay be necessary to provide that it shall not be unlawful for a police\nofficer employed in this state, having written permission and consent\nfrom his commanding officer, to work in a premises licensed to sell beer\nat retail for off-premises consumption under section fifty-four of this\nchapter or to work solely as a security guard or director of traffic on\nthe premises of a volunteer firefighters' organization licensed to sell\nbeer and wine at retail pursuant to a temporary permit for on-premises\nconsumption under section ninety-seven of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

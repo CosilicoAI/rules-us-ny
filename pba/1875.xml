@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1875"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1875"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1875"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1875/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1875/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1875/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1875/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1875">
+        <num>1875</num>
+        <heading>Legislative findings and declaration of intent</heading>
+        <content>
+          <p>  § 1875. Legislative findings and declaration of intent. The\nlegislature hereby finds and declares that energy is essential to\nmaintain the industrial vitality of New York state. The legislature\nfurther finds that, because of the state's limited indigenous energy\nresource, efficient energy use is especially crucial to sustain its\ncompetitive posture.\n  The legislature finds that many of the issues related to energy\nefficiency in industry are associated with high temperature operations\nand that insufficient research has been conducted to discover\ntechnologies to increase the efficiency of these operations.\n  The legislature therefore declares that a coherent research program\nfocused on high temperature technology be established under the auspices\nof the authority within a major university of the state. The legislature\nfurther declares that such program shall further the energy conservation\nobjectives of the state and is an appropriate use of petroleum\novercharge restitution funds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

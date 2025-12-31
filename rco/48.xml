@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-48"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-48"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="48"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-48/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-48/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-48/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-48/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48">
+        <num>48</num>
+        <heading>Legacies</heading>
+        <content>
+          <p>  § 48. Legacies. Any devise or bequest of real or personal property to\nan unincorporated parish, mission, congregation, chapel or religious\nsociety under the jurisdiction of or in communion with the Protestant\nEpiscopal Church, for the purposes of such gift, may be taken, held and\nadministered for the benefit of such devisee or legatee by the diocesan\ncorporation of the diocese in which such devisee or legatee is situate,\nand such diocesan corporation shall have the power, subject to the\nprovisions of article five of the not-for-profit corporation law and of\nsection twelve of this chapter, to lease, improve, mortgage, sell,\nconvey and transfer any property so held.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-N"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-N"/>
+          <FRBRdate date="2025-08-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1439-N"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1439_N">
+        <num>1439-N</num>
+        <heading>Miscellaneous</heading>
+        <content>
+          <p>  * § 1439-n. Miscellaneous. The local law adopted by the legislative\nbody of the county of Columbia may contain such other provisions as such\nlegislative body deems necessary for the proper administration of the\ntax imposed pursuant to this article, including provisions concerning\nthe determination of tax, the imposition of interest on underpayments\nand overpayments and the imposition of civil penalties. Such provisions\nshall be identical to the corresponding provisions of the real estate\ntransfer tax imposed by article thirty-one of this chapter, so far as\nsuch provisions can be made applicable to the tax imposed pursuant to\nthis article.\n  * NB Repealed December 31, 2027\n  * NB There are 3 § 1439-n's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

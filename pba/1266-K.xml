@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1266-K"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1266-K"/>
+          <FRBRdate date="2022-07-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1266-K"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1266-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1266-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1266-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1266-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1266_K">
+        <num>1266-K</num>
+        <heading>Expired fare transfer policy</heading>
+        <content>
+          <p>  * § 1266-k. Expired fare transfer policy. Notwithstanding any other\nprovision of law to the contrary, the authority shall, within ninety\ndays of the effective date of this section, establish an expired fare\ntransfer policy that may be amended from time to time. Such policy shall\nprovide any person who purchases a fare the ability to transfer any\nremaining balance for two years after such fare is deemed expired.\n  * NB Repealed December 31, 2029\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

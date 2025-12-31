@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1507"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1507"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1507"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1507/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1507/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1507/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1507/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1507">
+        <num>1507</num>
+        <heading>Alteration by consent</heading>
+        <content>
+          <p>  § 1507. Alteration by consent.  1. With the written consent of the\ntrustees of all the districts to be affected thereby, the district\nsuperintendent may make an order altering the boundaries of any school\ndistrict within his jurisdiction, and fix in such order a day when the\nalteration shall take effect.\n  2. With the written consent of the board of education of a union free\nschool district having a population of forty-five hundred or more, and\nemploying a superintendent of schools, and the written consent of the\nboard of education or trustees of a district in a supervisory district\nadjoining such union free school district, the district superintendent\nhaving jurisdiction may make an order altering the boundaries of such\ndistricts, and fix in such order a day when the alteration shall take\neffect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

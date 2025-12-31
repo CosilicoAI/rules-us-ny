@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-405"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-405"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="405"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-405/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-405/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405">
+        <num>405</num>
+        <heading>Notice of meetings of members</heading>
+        <subsection eId="sec_405__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as provided in the\noperating agreement, whenever under the provisions of this chapter\nmembers are required or permitted to take any action by vote at a\nmeeting, written notice shall be given stating the place, date and hour\nof the meeting, indicating that it is being issued by or at the\ndirection of the person or persons calling the meeting and, in the case\nof a special meeting, stating the purpose or purposes for which the\nmeeting is called.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_405__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except as provided in the operating agreement, a copy of the\nnotice of any meeting shall be given, personally or by first class mail,\nnot less than ten or more than sixty days before the date of the\nmeeting, provided, however, that a copy of such notice may be given by\nthird class mail not less than twenty-four nor more than sixty days\nbefore the date of the meeting, to each member entitled to vote at such\nmeeting. If mailed, such notice is given when deposited in the United\nStates mail, with postage thereon prepaid, directed to the member at his\nor her address as it appears in the records of the limited liability\ncompany. An affidavit of a manager, if any, or other person giving the\nnotice that the notice required by this section has been given shall, in\nthe absence of fraud, be prima facie evidence of the facts therein\nstated.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_405__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Except as provided in the operating agreement, when a meeting is\nadjourned to another time or place, it shall not be necessary to give\nany notice of the adjourned meeting if the time and place to which the\nmeeting is adjourned are announced at the meeting at which the\nadjournment is taken, and at the adjourned meeting any business may be\ntransacted that might have been transacted at the original date of the\nmeeting.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

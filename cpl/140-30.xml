@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="140.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_30">
+        <num>140.30</num>
+        <heading>Arrest without a warrant; by any person; when and where authorized</heading>
+        <subsection eId="sec_140_30__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>for a felony when the latter has in fact\ncommitted such felony, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_140_30__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>for any offense when the latter has in\nfact committed such offense in his presence.\n  2.  Such an arrest, if for a felony, may be made anywhere in the\nstate.  If the arrest is for an offense other than a felony, it may be\nmade only in the county in which such offense was committed.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

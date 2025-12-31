@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2977"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2977"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2977"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2977/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2977/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2977/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2977/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2977">
+        <num>2977</num>
+        <heading>Applicability of title</heading>
+        <subsection eId="sec_2977__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>require the application of monies pledged to the security of\nbonds, notes or other obligations in violation of applicable bond\ncovenants; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2977__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>otherwise impair the rights of bondholders of the public benefit\ncorporations affected by this title.\n  2. To the extent precluded by interstate or international compact\nwhich creates any public benefit corporation, the provisions of this\ntitle shall not apply to any such public benefit corporation until the\npassage of legislation, by the other party to such compact, which\nvalidates or has the same effect as this title.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

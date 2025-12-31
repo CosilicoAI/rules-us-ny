@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-P"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="509-P"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-509-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-509-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_509_P">
+        <num>509-P</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 509-p. Definitions. As used in this article, the term:\n  1. "Commercial motor vehicle" shall mean a motor vehicle or\ncombination of vehicles having a gross combination weight rating of more\nthan ten thousand pounds used in commerce to transport property and it\nshall include a tow truck with a gross vehicle weight rating of at least\neighty-six hundred pounds.\n  2. "Gross vehicle weight rating" or "GVWR" shall mean the weight of a\nvehicle consisting of the unladen weight and the maximum carrying\ncapacity recommended by the manufacturer of such vehicle. The GVWR of a\ncombination of vehicles commonly referred to as the gross combination\nweight rating or GCWR is the GVWR of the power unit plus the GVWR of\neach vehicle in the combination.\n  3. "Commercial driver" shall mean every person who is self-employed or\nemployed by a commercial motor carrier and who drives a commercial motor\nvehicle for hire or profit.\n  4. "Commercial motor carrier" shall mean any person, corporation, or\nentity, who directs one or more commercial motor vehicles and who\noperates a commercial motor vehicle wholly within or partly within and\npartly without this state in connection with the operation or\nadministration of any business.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-315"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-315"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="315"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-315/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-315/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315">
+        <num>315</num>
+        <heading>Claims procedures</heading>
+        <content>
+          <p>  § 315. Claims procedures. Claims shall be subject to the\nadministrative procedures prescribed for claims filed with the chairman\nfor disability benefits payable under section two hundred seven.\n  The chairman may require a claimant under this article to file the\nsame proofs required under other articles of this chapter or other\nproofs for determination of rights under this article, and may require\nthe employer or any former employer of the claimant and the local\ndirector to file reports and to furnish such information as may be\nreasonably necessary for such determination. If any such report or\ninformation is not filed or furnished, the chairman may make\ndetermination on the basis of available information, including the\nclaimant's statement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

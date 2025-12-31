@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4110"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4110"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4110">
+        <num>4110</num>
+        <heading>Challenges for cause</heading>
+        <subsection eId="sec_4110__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Challenge to the favor.  The fact\nthat a juror is in the employ of a party to the action; or if a party to\nthe action is a corporation, that he is a shareholder or a stockholder\ntherein; or, in an action for damages for injuries to person or\nproperty, that he is a shareholder, stockholder, director, officer or\nemployee, or in any manner interested, in any insurance company issuing\npolicies for protection against liability for damages for injury to\npersons or property; shall constitute a ground for a challenge to the\nfavor as to such juror. The fact that a juror is a resident of, or\nliable to pay taxes in, a city, village, town or county which is a party\nto the action shall not constitute a ground for challenge to the favor\nas to such juror.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4110__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Disqualification of juror for relationship.  Persons shall be\ndisqualified from sitting as jurors if related within the sixth degree\nby consanguinity or affinity to a party. The party related to the juror\nmust raise the objection before the case is opened; any other party must\nraise the objection no later than six months after the verdict.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

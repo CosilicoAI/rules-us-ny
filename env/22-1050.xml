@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-22-1050"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-22-1050"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="22-1050"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-22-1050/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-22-1050/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-22-1050/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-22-1050/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_22_1050">
+        <num>22-1050</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 22-1050. Definitions.\n  For the purposes of this article the following terms shall have the\nfollowing meanings:\n  1. "Mining" means the extraction or removal of minerals from the\nground or the breaking of the surface soil in order to facilitate or\naccomplish the extraction or removal of such minerals for commercial or\nindustrial use; but shall not include excavation or grading when\nconducted solely in aid of on-site farming or construction.\n  2. "Person" means any natural person, corporation, association,\npartnership, receiver, trustee, executor, administrator, guardian,\nfiduciary or other representative of any kind, and includes any\ndepartment, agency or instrumentality of the state or any of its\ngovernmental subdivisions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-425"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-425"/>
+          <FRBRdate date="2019-02-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="425"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-425/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-425/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425">
+        <num>425</num>
+        <heading>Repossession of motor vehicle or motorcycle; garageman's lien; notice to police</heading>
+        <subsection eId="sec_425__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>notice of such repossession or retaking in such form as the\ncommissioner may require and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_425__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the number plates of such motor vehicle\nor motorcycle. Notice of such repossession or retaking, including the\nname and address of the person, firm or corporation repossessing or\nretaking the same, shall also be given within twenty-four hours thereof\nto the owner of such motor vehicle or motorcycle, either personally or\nby registered or certified mail, or by first class mail, with a\ncertificate of mailing properly endorsed by the postal service to be\nobtained, directed to such owner at his or her last-known address.\nUnless the motor vehicle or motorcycle can be repossessed or retaken\nwithout breach of the peace, it shall be repossessed or retaken by legal\nprocess, but nothing herein contained shall be construed to authorize a\nviolation of the criminal law.\n  2. Any person, firm or corporation, or agent, employee or\nrepresentative thereof holding a motor vehicle or motorcycle under a\nlien for repairs or storage pursuant to any authority of law, or any\ncontract or agreement shall return any registration plates for such\nvehicle which are in his possession to the registrant upon the\nregistrant's request, or if not so returned shall, within twenty-four\nhours after such request, personally deliver or mail by special delivery\nfirst class mail to the nearest motor vehicle office</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_425__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>notice of such\nholding in such form as the commissioner may require and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_425__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the number\nplates of such motor vehicle or motorcycle.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

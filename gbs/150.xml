@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-150"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-150"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="150"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-150/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-150/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150">
+        <num>150</num>
+        <heading>Shooting ranges</heading>
+        <subsection eId="sec_150__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Shooting range" shall mean an outdoor range equipped with targets\nfor use with firearms and shall include, but not be limited to, all\nrifle, pistol and shotgun ranges.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_150__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"A-weighted sound level" shall mean the sound pressure level\nmeasured by the use of an instrument with the metering characteristics\nand A-weighting frequency response prescribed by sound level meters\nusing the impulse response mode.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_150__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Sound pressure level" shall mean twenty times the logarithm to\nthe base ten of the ratio of the root mean squared pressure of a sound\nto a reference pressure of twenty micropascals. The unit applied to this\nmeasure shall be the decibel (dB).\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_150__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"Small arms" shall mean projectile firearms of small caliber,\nincluding rifles, pistols, and shotguns.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

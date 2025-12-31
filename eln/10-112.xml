@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-112"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-112"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10-112"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_112">
+        <num>10-112</num>
+        <heading>Military voter; voting</heading>
+        <content>
+          <p>  § 10-112. Military voter; voting. The military voter shall mark the\nmilitary ballot provided for in this article in the same manner as an\nabsentee ballot. After marking the ballot, he or she shall fold such\nballot and enclose it in the inner affirmation envelope bearing the\nmilitary voter's affirmation on the outside of the envelope and seal the\nenvelope. He or she shall then sign the affirmation, with the blanks\nproperly filled in. The inner affirmation envelope containing the\nmilitary ballot shall then be inserted in the outer envelope addressed\nto the appropriate board of elections, which shall be mailed or\npersonally delivered to such board of elections of his or her county of\nresidence within the time limits provided by this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

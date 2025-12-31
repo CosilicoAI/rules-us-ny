@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-91"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-91"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="91"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-91/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-91/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-91/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-91/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91">
+        <num>91</num>
+        <heading>Payment of rewards for apprehension and conviction of a person or persons guilty of felony or misdemeanor</heading>
+        <content>
+          <p>  § 91. Payment of rewards for apprehension and conviction of a person\nor persons guilty of felony or misdemeanor. The governing board of any\nmunicipal corporation shall have power to offer, appropriate and pay\nrewards of not more than one thousand dollars for information which\nshall lead to detection, arrest and conviction of a person or persons\nguilty of a misdemeanor and not more than twenty-five thousand dollars\nfor information which shall lead to the detection, arrest and conviction\nof a person or persons guilty of a felony or felonies; provided,\nhowever, that no police officer, peace officer, or any other law\nenforcement officer or official shall be entitled, directly or\nindirectly, to collect any such reward.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

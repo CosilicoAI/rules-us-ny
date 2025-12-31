@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-47"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-47"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="47"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-47/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-47/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-47/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-47/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_47">
+        <num>47</num>
+        <heading>Organization of offices; officers and employees</heading>
+        <content>
+          <p>  § 47. Organization of offices; officers and employees. 1.\nNotwithstanding any inconsistent provision of law, the welfare inspector\ngeneral may, from time to time, subject to the approval of the state\ncomptroller, create, abolish, transfer and consolidate divisions,\nbureaus and other units within the office as he may determine necessary\nfor the efficient operation of the office.\n  2. The welfare inspector general may, subject to the approval of the\nstate comptroller, appoint such deputies, directors, assistants and\nother officers and employees as may be needed for the performance of his\nduties and may prescribe their powers and fix their compensation within\nthe amounts appropriated therefor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

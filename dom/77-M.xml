@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-M"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77-M"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_M">
+        <num>77-M</num>
+        <heading>Appeals</heading>
+        <content>
+          <p>  § 77-m. Appeals. An appeal may be taken from a final order in a\nproceeding under this title in accordance with article fifty-five of the\ncivil practice law and rules and article eleven of the family court act\nand may be granted a preference in the discretion of the court to which\nthe appeal is taken. Unless the court enters a temporary emergency order\nunder section seventy-six-c of this article, the enforcing court may not\nstay an order enforcing a child custody determination pending appeal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

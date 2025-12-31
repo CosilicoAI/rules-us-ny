@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-146-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-146-A"/>
+          <FRBRdate date="2019-01-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="146-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-146-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-146-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-146-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-146-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146_A">
+        <num>146-A</num>
+        <heading>Inspection, sampling, analysis</heading>
+        <content>
+          <p>  § 146-a. Inspection, sampling, analysis. a. It shall be the duty of\nthe commissioner, who may act through his authorized agent, to sample,\ninspect, and analyze commercial fertilizers distributed within this\nstate at such time and place and to the extent he may deem necessary to\ndetermine whether such commercial fertilizers are in compliance with the\nprovisions of this article. The methods of sampling and analysis shall\nbe those the commissioner may require by regulation and be based on\nmethods adopted by an agricultural and food analytical standards\nassociation, as further defined in regulations by the commissioner.\n  b. The results of the analysis of such sample shall be reported to the\nlicensee within ninety days of the date of sampling and the commissioner\nshall publish or cause to be published at least annually a summary of\nall analyses made, together with such additional information as\ncircumstances advise.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

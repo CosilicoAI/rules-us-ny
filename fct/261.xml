@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-261"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-261"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="261"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-261/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-261/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_261">
+        <num>261</num>
+        <heading>Legislative findings and purpose</heading>
+        <content>
+          <p>  § 261. Legislative findings and purpose. Persons involved in certain\nfamily court proceedings may face the infringements of fundamental\ninterests and rights, including the loss of a child's society and the\npossibility of criminal charges, and therefore have a constitutional\nright to counsel in such proceedings. Counsel is often indispensable to\na practical realization of due process of law and may be helpful to the\ncourt in making reasoned determinations of fact and proper orders of\ndisposition. The purpose of this part is to provide a means for\nimplementing the right to assigned counsel for indigent persons in\nproceedings under this act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

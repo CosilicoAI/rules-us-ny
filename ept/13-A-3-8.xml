@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.8"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.8"/>
+          <FRBRdate date="2016-10-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-A-3.8"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_A_3_8">
+        <num>13-A-3.8</num>
+        <heading>Disclosure of digital assets to guardian of ward</heading>
+        <subsection eId="sec_13_A_3_8__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>After an opportunity for a hearing concerning the appointment or\nauthority of a guardian, the court may grant a guardian access to the\ndigital assets of a ward.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_3_8__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Unless otherwise ordered by the court or directed by the user, a\ncustodian shall disclose to a guardian the catalogue of electronic\ncommunications sent or received by a ward and any digital assets, other\nthan the content of electronic communications, in which the ward has a\nright or interest if the ward gives the custodian:\n</p>
+          </content>
+          <paragraph eId="sec_13_A_3_8__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a written request for disclosure in physical or electronic form;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_13_A_3_8__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>a certified copy of the court order that gives the guardian\nauthority over the digital assets of the ward; and\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_13_A_3_8__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>if requested by the custodian:\n  (A) a number, username, address, or other unique subscriber or account\nidentifier assigned by the custodian to identify the account of the\nward; or\n  (B) evidence linking the account to the ward.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_13_A_3_8__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A guardian with general authority to manage the assets of a ward\nmay request a custodian of the digital assets of the ward to suspend or\nterminate an account of the ward for good cause. A request made under\nthis section must be accompanied by a certified copy of the court order\ngiving the guardian authority over the ward's property.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-145.22"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-145.22"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="145.22"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-145.22/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-145.22/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-145.22/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-145.22/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_145_22">
+        <num>145.22</num>
+        <heading>Cemetery desecration in the second degree</heading>
+        <subsection eId="sec_145_22__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>with intent to damage property of another person, and having no\nright to do so nor any reasonable ground to believe that he has such\nright, he damages any real or personal property maintained as a cemetery\nplot, grave, burial place or other place of interment of human remains;\nor\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_145_22__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>with intent to steal personal property, he steals personal\nproperty which is located at a cemetery plot, grave, burial place or\nother place of interment of human remains and which property is owned by\nthe person or organization which maintains or owns such place or the\nestate, next-of-kin or representatives of the deceased person interred\nthere.\n  Cemetery desecration in the second degree is a class A misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

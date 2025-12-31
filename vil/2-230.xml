@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-230"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-230"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2-230"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-230/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-230/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-230/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-230/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_230">
+        <num>2-230</num>
+        <heading>New election</heading>
+        <content>
+          <p>  § 2-230 New election. If the election is set aside as a result of a\nfinal determination in a proceeding instituted pursuant to section 2-224\nof this article, a new election shall be held. The right to such an\nelection shall be complete upon the filing of certified copies of such\nfinal determination with the town clerks of the towns in which any\nportion of such territory is located. Upon such filing such clerks shall\ngive notice of a new election. All the provisions of this article\nregulating the first election shall apply to a new election. Further new\nelections shall be held in like manner if any subsequent election is set\naside.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-304.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-304.1"/>
+          <FRBRdate date="2023-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-304.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-304.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-304.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-304.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304_1">
+        <num>304.1</num>
+        <heading>Detention</heading>
+        <subsection eId="sec_304_1__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision one of section 301.2\nof this article, nor shall the detention of a child adjudicated solely\nfor an act that would constitute a violation as defined in subdivision\nthree of section 10.00 of the penal law, be directed under any of the\nprovisions of this article.\n  4. A detention facility which receives a child under subdivision four\nof section 305.2 of this part shall immediately notify the child's\nparent or other person legally responsible for his or her care or, if\nsuch legally responsible person is unavailable the person with whom the\nchild resides, that he or she has been placed in detention.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

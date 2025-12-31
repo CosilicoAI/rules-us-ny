@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-50-EE"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-50-EE"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="50-EE"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-50-EE/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-50-EE/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-50-EE/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-50-EE/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_EE">
+        <num>50-EE</num>
+        <heading>Certificate of incorporation</heading>
+        <subsection eId="sec_50_EE__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The name of the proposed corporation;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50_EE__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The number of laymen trustees thereof, the names of the persons\nelected as laymen trustees, the terms of office for which they were\nrespectively elected as laymen trustees;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50_EE__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An exact copy of the resolution which provides for the clerical\ntrustees by virtue of their offices;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50_EE__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The county and town, city or village in which the principal place\nof worship is or is intended to be located.\n  2. On filing such certificate in the office of the county clerk of the\ncounty in which such church is or is intended to be located, such church\nshall be a corporation by the name stated in the certificate, and the\npersons therein stated to be elected clerical and laymen trustees of\nsuch church shall be the trustees therefor for their respective terms\nand until their successors are elected.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0901"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0901"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51-0901"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0901/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0901/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0901/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0901/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_0901">
+        <num>51-0901</num>
+        <heading>Allocation of moneys</heading>
+        <content>
+          <p>§ 51-0901. Allocation of moneys.\n  Of the moneys received by the state from the sale of bonds pursuant to\nthe environmental quality bond act of nineteen hundred seventy-two, one\nhundred seventy-five million dollars ($175,000,000) shall be expended\npursuant to appropriations thereof, for municipal solid waste management\nprojects, including at least five million dollars ($5,000,000) of this\namount which shall be earmarked for resource recovery equipment, source\nseparation equipment, or both, for the implementation of small scale,\nlow-technology approaches to resource recovery, including source\nseparation programs, recycling centers, composting projects and other\nsolid waste recovery and management projects with a design capacity of\nless than one hundred tons per day.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

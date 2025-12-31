@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-658"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-658"/>
+          <FRBRdate date="2022-01-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="658"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-658/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-658/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-658/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-658/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_658">
+        <num>658</num>
+        <heading>Consideration of blindness during guardianship, custody or visitation proceedings</heading>
+        <content>
+          <p>  § 658. Consideration of blindness during guardianship, custody or\nvisitation proceedings. 1. The court may not deny or decide a petition\nfor custody or visitation under this part or guardianship under part\nfour of this article solely on the basis that the petitioner is blind.\nThe blindness of the petitioner shall be considered relevant only to the\nextent that the court finds, based on evidence in the record, that the\nblindness affects the best interests of the child whose guardianship,\ncustody or visitation is the subject of the petition.\n  2. As used in this section, "blind" or "blindness" means:\n  a. vision that is 20/200 or less in the best corrected eye; or\n  b. vision that subtends an angle of not greater than twenty degrees in\nthe best corrected eye.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

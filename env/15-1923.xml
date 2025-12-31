@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1923"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1923"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-1923"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1923/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1923/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1923/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1923/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_1923">
+        <num>15-1923</num>
+        <heading>Plans and estimates</heading>
+        <content>
+          <p>§ 15-1923. Plans and estimates.\n  The department may make a study of the works necessary to drain the\ndistrict and prepare maps, plans, estimates and reports showing a\ncomplete system of drainage therefor, the estimated cost of the various\nditches and other works and parts thereof and the boundaries of the land\nwhich will be served by and therefor should contribute to the cost of\neach structure. These estimates of costs shall be made on the assumption\nthat no drainage work has ever been done in the district. In addition\nthe department may show on the plans any drainage work which has\nheretofore been done in the district, may estimate the cost of those\nworks on the same basis used for the estimate of the cost of the\nproposed system and in similar manner may determine the boundaries of\nthe land served by the existing ditches.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

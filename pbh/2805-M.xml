@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2805-M"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2805-M"/>
+          <FRBRdate date="2015-10-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2805-M"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2805-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2805-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2805-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2805-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2805_M">
+        <num>2805-M</num>
+        <heading>Confidentiality</heading>
+        <subsection eId="sec_2805_M__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Hospital sepsis data submitted to the department, shall for the\ninitial phase of data collection be considered a "pilot phase", the\npurpose of which is to ensure the completeness and accuracy of reporting\nby hospitals.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2805_M__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For data reported during the pilot phase, hospital identifiers\nshall be encrypted by the department in any and all public databases and\nreports. The department shall provide each hospital with an encryption\nkey for that hospital only to permit access to its own performance data\nfor internal quality improvement purposes. Hospital specific public\nreporting of sepsis data including, but not limited to risk adjusted\nsepsis mortality rates, may require up to, but no more than, two years\nof "pilot phase" collection depending on the validity and reliability\noutcomes of the data collected.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2805_M__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>As described in the regulations pertaining to the submission of\ndata on sepsis to the department, consultation with appropriate\nnational, hospital and expert stakeholders will assist in determining\nthe appropriate public release of hospital performance.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2805_M__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The department shall issue regular reports as needed to hospitals\nassessing the accuracy of the data submitted during the pilot phase and\nprovide guidance for improving the accuracy of data reporting.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2805_M__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>After the pilot phase is completed, all data submitted under this\nsection and compiled in the database established herein and all public\nreports derived therefrom shall include hospital identifiers.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2805_M__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>Clinical performance data, including but not limited to individual\nhospital mortality rates adjusted for potential differences in risk\nfactors and comparisons with state (or national, if available) averages,\nshall be developed and posted on the department's web site.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

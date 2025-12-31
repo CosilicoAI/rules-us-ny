@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0509"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0509"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21-0509"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0509/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0509/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0509/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0509/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_0509">
+        <num>21-0509</num>
+        <heading>Powers to be additional; inconsistent provisions</heading>
+        <content>
+          <p>§ 21-0509. Powers to be additional; inconsistent provisions.\n  Any powers herein granted to the interstate environmental commission\nshall be regarded as in aid of and supplemental to, and in no case a\nlimitation upon, any other powers legally vested in said commission. No\nprovision of the Public Health Law and no provision of the Environmental\nConservation Law, if such provision of the Environmental Conservation\nLaw was derived from a provision of the Public Health Law, which is\ninconsistent with the provisions of the tri-state compact shall be\napplicable to the interstate environmental commission or to any matter\ngoverned by the tri-state compact.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1200"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1200"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1200"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1200">
+        <num>1200</num>
+        <heading>Basic rules</heading>
+        <subsection eId="sec_1200__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When stopping is prohibited by this article,\nor by local law, ordinance, order, rule or regulation, no person shall\nstop, stand or park a vehicle, whether occupied or not, except when\nnecessary to avoid conflict with other traffic or in compliance with the\ndirections of a police officer or traffic-control sign or signal.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1200__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>When standing is prohibted by this article, or by local law,\nordinance, order, rule or regulation, no person shall stand or park a\nvehicle, whether occupied or not, but may stop temporarily for the\npurpose of and while actually engaged in receiving or discharging\npassengers.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1200__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When parking is prohibited by this article, or by local law,\nordinance, order, rule or regulation, no person shall park a vehicle,\nwhether occupied or not, but may stop or stand temporarily for the\npurpose of and while actually engaged in loading or unloading\nmerchandise or passengers.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1200__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>When official signs have been posted prohibiting, restricting or\nlimiting the stopping, standing or parking of vehicles on any highway,\nno person shall stop, stand or park any vehicle in violation of the\nrestrictions stated on such signs.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

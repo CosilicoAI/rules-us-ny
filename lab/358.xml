@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-358"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-358"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="358"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-358/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-358/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-358/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-358/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_358">
+        <num>358</num>
+        <heading>Revocation or suspension of permits and certificates</heading>
+        <content>
+          <p>  § 358. Revocation or suspension of permits and certificates.  The\ncommissioner may revoke or suspend the permit of any employer or any\nhomeworker's certificate for a violation by such employer or by any\nperson named in such certificate, of the terms of such permit or\ncertificate, or of any provision of this chapter or of any regulation\nmade by the commissioner, or for non-compliance with an order issued by\nthe commissioner, within the time specified in such order.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

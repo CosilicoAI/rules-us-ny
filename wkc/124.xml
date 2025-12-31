@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-124"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-124"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="124"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-124/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-124/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-124/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-124/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_124">
+        <num>124</num>
+        <heading>Reporting</heading>
+        <content>
+          <p>  § 124. Reporting. 1. The chair shall prescribe the form and format for\nthe collection and dissemination of information and data as the\nadministration of this chapter requires. In the event the proper format\nrequires the submission of a complete paper document, the chair shall\nhave distributed such blank forms, including forms of notice and claims\nand forms for processing injury, death, medical or other attendance or\ntreatment, employment or wage earnings as are necessary.\n  2. Insurance carriers shall constantly keep on hand, at their own\nexpense, a sufficient supply of such forms or, in the event of\nelectronic transfer, be responsible for all charges associated with\ntransmission of such information.\n  3. Nothing stated above shall preclude the chair from requiring the\nsubmission or dissemination of notices or reports in an electronic or\ntyped form, with the exact format to be prescribed by the chair.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

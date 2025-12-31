@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-IIII*2"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-IIII*2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1199-IIII*2"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-IIII*2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-IIII*2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-IIII*2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-IIII*2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1199_IIII*2">
+        <num>1199-IIII*2</num>
+        <heading>State and municipalities not liable on authority bonds</heading>
+        <content>
+          <p>  * § 1199-iiii. State and municipalities not liable on authority bonds.\nNeither the state nor any municipality shall be liable on the bonds of\nthe authority and such bonds shall not be a debt of the state or of any\nmunicipality, and such bonds shall contain on the face thereof a\nstatement to such effect.\n  * NB There are 2 § 1199-iiii's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

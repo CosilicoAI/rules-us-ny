@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-321"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-321"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="321"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-321/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-321/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321">
+        <num>321</num>
+        <heading>Exceptions</heading>
+        <content>
+          <p>  § 321. Exceptions. 1. This article shall not apply to any motor\nvehicle for the operation of which security is required to be furnished\nunder section three hundred seventy of this chapter, including those for\nwhich a certificate is issued pursuant to section three hundred\nseventy-one of this chapter or under a similar law in another state\nexcept as may be provided in section three hundred seventy; to any motor\nvehicle operated under a permit or a certificate of convenience and\nnecessity issued pursuant to the transportation law, or under a permit\nor certificate issued by the public utility regulatory agency of another\nstate; nor to any vehicle for which a permit or certificate is in force\npursuant to the interstate commerce act nor to any motor vehicle owned\nby the United States, any state or any political subdivisions of any\nstate.\n  2. Provided, however, that any motor vehicle exempted in subdivision\none of this section from the provisions of any portion of this article\nshall be subject to the provisions of article fifty-one of the insurance\nlaw.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

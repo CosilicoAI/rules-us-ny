@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-116"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="116"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_116">
+        <num>116</num>
+        <heading>Penalties</heading>
+        <content>
+          <p>  § 116. Penalties. Notwithstanding any inconsistent provision of law,\nany person or entity that violates any provision of this chapter, or any\nrule, regulation or order promulgated thereto, or the terms and\nconditions of any license, permit or approval issued thereunder, shall\nbe liable to a civil penalty of not more than twenty-five thousand\ndollars for each violation, and an additional civil penalty of not more\nthan twenty-five thousand dollars for each day during which such\nviolation continues. Any civil penalty may be assessed by the commission\nfollowing a hearing or opportunity to be heard.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

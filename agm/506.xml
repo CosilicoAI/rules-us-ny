@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-506"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-506"/>
+          <FRBRdate date="2020-03-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="506"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-506/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-506/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_506">
+        <num>506</num>
+        <heading>Growth, sale, distribution, transportation and processing of hemp and products derived from such hemp permitted</heading>
+        <subsection eId="sec_506__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>authorize the growing,\ncultivating, processing and manufacturing of hemp as part of\nagricultural pilot programs conducted by the department or an\ninstitution of higher education to study the growth and cultivation,\nsale, distribution, transportation, processing and manufacturing of such\nhemp and products derived from such hemp provided that the sites and\nprograms used for growing or cultivating hemp are authorized by, and\nregistered with, the department; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_506__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>license the growth and\ncultivation of hemp, including the processing of hemp in connection with\nits growing and cultivation, and the sale of hemp plants or hemp seed.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

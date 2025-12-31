@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.61"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.61"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.61"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.61/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.61/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.61/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.61/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_61">
+        <num>130.61</num>
+        <heading>Waiver or withdrawal of appeal</heading>
+        <subsection eId="sec_130_61__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In each case subject to\nappellate review under section 130.65 or section 130.68 of this article\nthe accused may file with the convening authority a statement expressly\nwaiving the right of the accused to such review. Such a waiver shall be\nsigned by both the accused and by defense counsel and must be filed\nwithin ten days after the action under subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_61__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of section 130.60\nof this article is served on the accused or on defense counsel. The\nconvening authority or other person taking such action, for good cause,\nmay extend the period for such filing by not more than thirty days.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_61__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The accused may withdraw an appeal at any time.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_61__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A waiver of the right to appellate review or the withdrawal of an\nappeal under this section bars review under section 130.65 or 130.68 of\nthis article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

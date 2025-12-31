@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.6"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-5.6"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_5_6">
+        <num>7-5.6</num>
+        <heading>Joint depositors</heading>
+        <content>
+          <p>§ 7-5.6 Joint depositors\n  If a trust account is established in the names of more than one\ndepositor, in form to be paid or delivered to any, or the survivor of\nthem, in trust for another, such account shall be subject to the terms\nof this part, except that the title to the funds on deposit, as between\nthe depositors, shall be governed by article XIII-E of the banking law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

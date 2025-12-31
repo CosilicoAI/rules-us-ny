@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1230"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1230"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1230"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1230/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1230/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1230/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1230/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1230">
+        <num>1230</num>
+        <heading>Exempt organizations</heading>
+        <subsection eId="sec_1230__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The state of New York, or any of its agencies, instrumentalities,\npublic corporations (including a public corporation created pursuant to\nagreement or compact with another state or Canada) or political\nsubdivisions where it is the purchaser, user or consumer;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1230__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The United States of America, and any of its agencies and\ninstrumentalities insofar as it is immune from taxation where it is the\npurchaser, user or consumer;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1230__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The United Nations or other international organizations of which\nthe United States of America is a member; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1230__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Any corporation, or association, or trust, or community chest,\nfund or foundation, organized and operated exclusively for religious,\ncharitable, or educational purposes, or for the prevention of cruelty to\nchildren or animals, and no part of the net earnings of which inures to\nthe benefit of any private shareholder or individual, and no substantial\npart of the activities of which is carrying on propaganda, or otherwise\nattempting to influence legislation; provided, however, that this\nsubdivision shall not apply to an organization operated for the primary\npurpose of carrying on a trade or business for profit, whether or not\nall of its profits are payable to one or more organizations described in\nthis subdivision. Nothing in this subdivision shall prohibit any\norganization exempt from taxation pursuant to this section from\ncollecting the taxes imposed under the authority of section twelve\nhundred two-f from individuals who are doing business with such exempt\norganization and who are not exempt from taxation pursuant to this\nsection.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

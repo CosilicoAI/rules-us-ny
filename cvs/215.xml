@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-215"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-215"/>
+          <FRBRdate date="2020-04-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215"/>
+          <FRBRname value="CVS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-215/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-215/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvs/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvs/section-215/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215">
+        <num>215</num>
+        <heading>Dues or agency shop fee deductions</heading>
+        <content>
+          <p>  § 215. Dues or agency shop fee deductions. 1. Notwithstanding any\nother law to the contrary, any public employer, any employee\norganization, the comptroller and the board, or any of their employees\nor agents, shall not be liable for, and shall have a complete defense\nto, any claims or actions under the laws of this state for requiring,\ndeducting, receiving, or retaining dues or agency shop fee deductions\nfrom public employees, and current or former public employees shall not\nhave standing to pursue these claims or actions, if the dues or fees\nwere permitted or mandated at the time under the laws of this state then\nin force and paid, through payroll deduction or otherwise, prior to June\ntwenty-seventh, two thousand eighteen.\n  2. This section shall apply to claims and actions pending or filed on\nor after June twenty-seventh, two thousand eighteen.\n  3. The enactment of this section shall not be interpreted to create\nthe inference that any relief made unavailable by this section would\notherwise be available.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79">
+        <num>79</num>
+        <heading>Seven day license to sell wine at retail for consumption off the premises</heading>
+        <content>
+          <p>  § 79. Seven day license to sell wine at retail for consumption off the\npremises. 1. The procedure set forth in section sixty-three of this\nchapter shall apply so far as applicable to applications for seven day\nlicenses to sell wine at retail for off-premise consumption. Such seven\nday license shall in form and in substance be a license to the person\nspecifically licensed to sell wine at retail for off-premise\nconsumption.\n  1-a. The liquor authority shall convert all current licenses to sell\nwine at retail for consumption off the premises to seven day licenses to\nsell wine at retail for consumption off the premises pursuant to\nsubdivision three of section seventy-five of this article. However, the\nconversion of the license to the seven day license shall not affect\nlicenses other than licenses issued pursuant to subdivision three of\nsection seventy-five of this article prior to the effective date of part\nW3 of chapter 62 of the laws of 2003.\n  2. Not more than one license shall be granted to any person under this\nsection.\n  3. No licensee under this section shall be engaged in any other\nbusiness in the premises licensed. The sale of those items specifically\nenumerated in subdivision four of section sixty-three of this chapter\nshall not constitute engaging in another business within the meaning of\nthis subdivision.\n  4. Determinations under this section with respect to the issuance of a\nnew license or under section one hundred eleven with respect to the\ntransfer to any other premises of a license issued hereunder shall be\nmade in accordance with public convenience and advantage.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

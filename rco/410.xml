@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-410"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-410"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="410"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-410/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-410/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-410/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-410/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_410">
+        <num>410</num>
+        <heading>By-laws</heading>
+        <subsection eId="sec_410__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The initial by-laws of a society shall be adopted\nat the meeting for incorporation. By-laws may thereafter be amended,\nrepealed or adopted as provided in the by-laws. But in the absence of\nsuch provision, by-laws may be amended, repealed or adopted by a vote of\ntwo-thirds of the members present and voting at a meeting of the members\ncalled for that purpose.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_410__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The substance of any proposed by-law change shall be stated in the\nnotice to members of the meeting.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_410__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The by-laws may contain any provision relating to the business of\nthe society, the conduct of its affairs and the rights or powers of its\nmembers, trustees and officers, not inconsistent with this article or\nany other applicable statute, or the certificate of incorporation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

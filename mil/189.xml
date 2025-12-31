@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-189"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-189"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="189"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-189/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-189/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-189/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-189/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_189">
+        <num>189</num>
+        <heading>Qualifications of armory employees; membership in New York state employees' retirement system</heading>
+        <content>
+          <p>  § 189. Qualifications of armory employees; membership in New York\nstate employees' retirement system.  1. The employees authorized by this\nsection shall be residents of the state who shall by employed by the\nadjutant general upon the recommendation of the officer in charge and\ncontrol of the armory.\n  2. All persons employed under this article on or after the twelfth day\nof April, nineteen hundred twenty-four, will be required to become\nmembers of the New York state employees' retirement system in the same\nmanner as if such employees were in the competitive class of the civil\nservice, provided that the foregoing shall not apply to persons who are\neligible to retirement with compensation under this chapter upon\nreaching the required age and having the required service.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

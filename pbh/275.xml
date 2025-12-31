@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-275"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-275"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="275"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-275/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-275/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-275/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-275/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275">
+        <num>275</num>
+        <heading>Applicability of prior authorization to EPIC</heading>
+        <content>
+          <p>  § 275. Applicability of prior authorization to EPIC. The panel shall,\nno later than April first, two thousand eight, proceed to make prior\nauthorization under the preferred drug program and the clinical review\ndrug program, under this article, applicable to prescriptions under\nEPIC. The panel shall take necessary actions consistent with this\narticle to apply prior authorization under this article to EPIC. Upon\ndetermining that the necessary steps have been taken to apply prior\nauthorization under this article to EPIC, the panel shall, with\nreasonable prior public notice, make prescriptions under EPIC subject to\nprior authorization under this article as of a specified date. If\nnecessary, the panel may provide that such applicability take effect on\nseparate dates for the preferred drug program and the clinical drug\nreview program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

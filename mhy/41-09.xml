@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.09"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.09"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="41.09"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.09/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.09/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-41.09/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-41.09/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41_09">
+        <num>41.09</num>
+        <heading>Director</heading>
+        <subsection eId="sec_41_09__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Charter governments may provide for appointment and removal of\ndirectors in a manner authorized by such governments. In all other local\ngovernments, the board shall appoint and remove the director.  Salaries\nand allowable expenses shall be set by the appointing authority.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_41_09__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each director shall be a psychiatrist or other professional person\nwho meets standards set by the commissioner for the position. If the\ndirector is not a physician, he shall not have the power to conduct\nexaminations authorized to be conducted by an examining physician or by\na director of community services pursuant to this chapter but he shall\ndesignate an examining physician who shall be empowered to conduct such\nexaminations on behalf of such director. A director need not reside in\nthe area to be served. The director shall be a full-time employee except\nin cases where the commissioner has expressly waived the requirement.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

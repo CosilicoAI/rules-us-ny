@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-549"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-549"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="549"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-549/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-549/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-549/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-549/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_549">
+        <num>549</num>
+        <heading>Cancellation of an escort certificate</heading>
+        <content>
+          <p>  § 549. Cancellation of an escort certificate. An escort certificate\nshall be cancelled by the commissioner if such person's underlying\ndriver's license has expired, is revoked or suspended or upon\nnotification by the commissioner of transportation or the New York state\nthruway authority that the person has violated any rule or regulation of\nthe commissioner of transportation or the New York state thruway\nauthority governing the operation, use and equipment of escort vehicles\nand the duties and responsibilities of the operator of an escort\nvehicle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

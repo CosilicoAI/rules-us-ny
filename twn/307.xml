@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-307"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-307"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="307"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-307/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-307/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-307/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-307/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_307">
+        <num>307</num>
+        <heading>Damages for insufficient fence</heading>
+        <content>
+          <p>  § 307. Damages for insufficient fence. Whenever the electors of any\ntown shall have made any rule or regulation prescribing what shall be\ndeemed a sufficient division fence in such town, any person who shall\nthereafter neglect to keep a fence according to such rule or regulation\nshall be precluded from recovering compensation for damages done by any\nbeast lawfully kept upon the adjoining lands that may enter therefrom on\nany lands of such person, not fenced in conformity to the said rule or\nregulation, through any such defective fence. When the sufficiency of a\nfence shall come in question in any action, it shall be presumed to have\nbeen sufficient until the contrary be established.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

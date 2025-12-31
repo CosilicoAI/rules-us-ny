@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="279"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279">
+        <num>279</num>
+        <heading>Assignment</heading>
+        <content>
+          <p>  § 279. Assignment. The certificate of the filing of any name, mark or\ndevice under this article and the benefits obtained thereunder shall be\nassignable with the sale of the vessels, receptacles or utensils on\nwhich the same are produced and used. Assignments shall be made upon\nforms supplied by the secretary of state, which shall be duly executed\nand may be recorded upon the payment of a fee of fifty dollars payable\nto the secretary of state who, after recording the assignment, may, upon\nrequest of the assignee, issue in his name a new certificate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

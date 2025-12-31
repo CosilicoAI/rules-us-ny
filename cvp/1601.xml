@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1601"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1601"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1601">
+        <num>1601</num>
+        <heading>Limited liability of persons jointly liable</heading>
+        <content>
+          <p>  § 1601. Limited liability of persons jointly liable.  1.\nNotwithstanding any other provision of law, when a verdict or decision\nin an action or claim for personal injury is determined in favor of a\nclaimant in an action involving two or more tortfeasors jointly liable\nor in a claim against the state and the liability of a defendant is\nfound to be fifty percent or less of the total liability assigned to all\npersons liable, the liability of such defendant to the claimant for\nnon-economic loss shall not exceed that defendant's equitable share\ndetermined in accordance with the relative culpability of each person\ncausing or contributing to the total liability for non-economic loss;\nprovided, however that the culpable conduct of any person not a party to\nthe action shall not be considered in determining any equitable share\nherein if the claimant proves that with due diligence he or she was\nunable to obtain jurisdiction over such person in said action (or in a\nclaim against the state, in a court of this state); and further provided\nthat the culpable conduct of any person shall not be considered in\ndetermining any equitable share herein to the extent that action against\nsuch person is barred because the claimant has not sustained a "grave\ninjury" as defined in section eleven of the workers' compensation law.\n  2. Nothing in this section shall be construed to affect or impair any\nright of a tortfeasor under section 15-108 of the general obligations\nlaw.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

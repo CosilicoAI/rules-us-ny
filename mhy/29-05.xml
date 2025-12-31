@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-29.05"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-29.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="29.05"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-29.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-29.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-29.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-29.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_29_05">
+        <num>29.05</num>
+        <heading>Community agreements regarding admission procedures</heading>
+        <content>
+          <p>§ 29.05 Community agreements regarding admission procedures.\n  A director of community services and the commissioner may enter into\nan agreement concerning screening of applications for admission to a\nfacility pursuant to this chapter. The agreement may provide procedures\nfor submitting certain applications to the director or his authorized\nrepresentative for review, for examining a person allegedly in need of\nor suitable for care and treatment, for obtaining additional\ninformation, and for offering recommendations on appropriate or\nalternate modes of care and treatment or any other guidelines on\ndetermining options in the community for the care and treatment of an\nindividual.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

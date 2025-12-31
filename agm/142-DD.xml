@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-DD"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-DD"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="142-DD"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-DD/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-DD/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-DD/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-DD/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_142_DD">
+        <num>142-DD</num>
+        <heading>Certificate to be filed</heading>
+        <content>
+          <p>  § 142-dd. Certificate to be filed. Before any person shall sell, offer\nor expose for sale, barter, give, or otherwise supply in this state any\nproduct labelled as agricultural liming material, he or she shall, for\neach brand thereof, file biennially with the commissioner, upon forms\nsupplied by the commissioner, a certificate for the registration of each\nsuch brand, stating the name, principal office address and plant\nlocation of the manufacturer or shipper, the type of liming material,\nthe brand name, the minimum specifications as to total neutralizing\nvalue, the calcium and magnesium content, effective neutralizing value\nand fineness. Such certificate shall constitute a warranty by the\nsupplier to the receiver that the material will meet the minimum\nspecifications stated therein at the time of delivery.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

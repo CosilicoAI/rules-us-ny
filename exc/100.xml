@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-100"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100">
+        <num>100</num>
+        <heading>Central state registry of armored car guards</heading>
+        <content>
+          <p>  § 100. Central state registry of armored car guards. 1. The secretary\nof state shall maintain a computerized registry of all individuals who\napply for a registration card or have been issued a registration card as\nan armored car guard pursuant to the provisions of article eight-C of\nthe general business law. An armored car carrier, as that term is\ndefined in subdivision six of section eighty-nine-bbb of the general\nbusiness law, shall obtain only the name, address and armored car guard\nregistration status of an employee or potential employee listed in such\nregistry.\n  2. The secretary of state shall maintain all records collected for\napplicants pursuant to the armored car guard act for a period of five\nyears after the applicant's termination as an armored car guard,\nretirement, resignation, death, failure to be rehired, or non-renewal of\nthe applicant's registration card. Every armored car carrier shall file\nwith the secretary, on a monthly basis, a report, stating all armored\ncar guards in their employ who have retired, resigned, died, been\nterminated, have not been rehired, or have otherwise been removed from\nactive duty, in such form and on such media as approved for such purpose\nby the secretary.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-619-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-619-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="619-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-619-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-619-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-619-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-619-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_619_A">
+        <num>619-A</num>
+        <heading>Incentive standards of performance</heading>
+        <content>
+          <p>  § 619-a. Incentive standards of performance. 1. The commissioner may\nestablish statewide incentive performance standards for the delivery of\ncore public health services.\n  2. Within amounts appropriated, and subject to the approval of the\ndirector of the budget, the commissioner may increase state aid to any\nmunicipality that meets or exceeds statewide incentive performance\nstandards established under this section, provided that the total of\nsuch payments to all municipalities may not exceed one million dollars\nannually.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

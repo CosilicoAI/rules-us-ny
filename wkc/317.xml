@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-317"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-317"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="317"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-317/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-317/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_317">
+        <num>317</num>
+        <heading>Determination of contested claims for compensation</heading>
+        <content>
+          <p>  § 317. Determination of contested claims for compensation. A civil\ndefense volunteer may file with the board a notice that his claim for\ncompensation under this article has not been paid, and the board shall\nhave full power and authority to determine all issues in relation to\nevery such claim and shall file its decision in the office of the\nchairman. The decision of the board shall be final as to all questions\nof fact and, except as provided in section twenty-three, as to all\nquestions of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

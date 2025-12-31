@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-503"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-503"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="503"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-503/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-503/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-503/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-503/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_503">
+        <num>503</num>
+        <heading>Laboratories; state hospitals; service to counties and municipalities</heading>
+        <content>
+          <p>  § 503. Laboratories; state hospitals; service to counties and\nmunicipalities. 1. The director of any hospital in the department, with\nthe approval of the commissioner, may enter into a contract with proper\nmunicipal or county officials under which the laboratory service of the\nhospital may be made available to municipalities or counties or parts\nthereof when in his judgment such a contract shall be in the interest of\npublic health and not prejudicial to the interest or work of the\ninstitution.\n  2. The treasurer of the hospital, or the director thereof, if there is\nno treasurer, shall receive all moneys paid in consideration of such\ncontract and pay the same into the general fund of the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

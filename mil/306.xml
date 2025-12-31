@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-306"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-306"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="306"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-306/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-306/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-306/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-306/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_306">
+        <num>306</num>
+        <heading>Actions against persons in service</heading>
+        <content>
+          <p>  § 306. Actions against persons in service.  In any action or\nproceeding commenced in any court or in any adjudicatory or licensing\nproceeding before any state agency, including any public benefit\ncorporation or public authority, or any political subdivision of the\nstate, against a person in military service: before or during the period\nof such service, or within sixty days thereafter, the court or\nadjudicatory or licensing agency may, in its discretion, on its own\nmotion, or on application to it by such person or some person on his\nbehalf shall, unless in the opinion of the court or adjudicatory or\nlicensing agency the ability of the party to comply with the judgment or\norder entered or sought is not materially affected by reason of his\nmilitary service:\n  1. Stay the execution of any judgment or order entered against such\nperson, as provided in this act; and\n  2. Vacate or stay any attachment or garnishment of property, money, or\ndebts in the hands of another, whether before or after judgment as\nprovided in this act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

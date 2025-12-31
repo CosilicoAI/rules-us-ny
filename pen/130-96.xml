@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.96"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.96"/>
+          <FRBRdate date="2024-09-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.96"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.96/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.96/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.96/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.96/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_96">
+        <num>130.96</num>
+        <heading>Predatory sexual assault against a child</heading>
+        <content>
+          <p>§ 130.96 Predatory sexual assault against a child.\n  A person is guilty of predatory sexual assault against a child when,\nbeing eighteen years old or more, he or she commits the crime of rape in\nthe first degree, a crime formerly defined in section 130.50 of this\ntitle, the crime of aggravated sexual abuse in the first degree, or\ncourse of sexual conduct against a child in the first degree, as defined\nin this article, and the victim is less than thirteen years old.\n  Predatory sexual assault against a child is a class A-II felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

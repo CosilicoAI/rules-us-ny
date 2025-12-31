@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-550"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-550"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="550"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-550/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-550/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-550/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-550/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_550">
+        <num>550</num>
+        <heading>Negotiable notes given for patent rights</heading>
+        <content>
+          <p>  § 550. Negotiable notes given for patent rights. Notwithstanding\narticle three of the uniform commercial code, a negotiable promissory\nnote, the consideration of which consists wholly or partly of the right\nto make, use or sell any invention claimed or represented by the vendor\nat the time of sale to be patented, must contain the words "given for a\npatent right" prominently and legibly written or printed on the face of\nsuch note above the signature thereto; and such note in the hands of any\npurchaser or holder is subject to the same defenses as in the hands of\nthe original holder; but this section does not apply to a negotiable\nnote given solely for the purchase price or the use of a patented\narticle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

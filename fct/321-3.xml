@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.3"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="321.3"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321_3">
+        <num>321.3</num>
+        <heading>Acceptance of an admission</heading>
+        <subsection eId="sec_321_3__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>he committed the act or\nacts to which he is entering an admission,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_321_3__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>he is voluntarily waiving\nhis right to a fact-finding hearing, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_321_3__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>he is aware of the possible\nspecific dispositional orders. The provisions of this subdivision shall\nnot be waived.\n  2. Upon consenting to the entry of an admission pursuant to this\nsection, the court must state the reasons for granting such consent.\n  3. Upon the entry of an admission pursuant to this section the court\nshall enter an appropriate order pursuant to section 345.1 and schedule\na dispositional hearing pursuant to section 350.1.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

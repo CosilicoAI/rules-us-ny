@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-780"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-780"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="780"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-780/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-780/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-780/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-780/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_780">
+        <num>780</num>
+        <heading>Failure to comply with order of protection</heading>
+        <content>
+          <p>  § 780. Failure to comply with order of protection.  If any person is\nbrought before the court for failure to comply with the terms and\nconditions of an order of protection properly issued under this article\nand applicable to him and if, after hearing, the court is satisfied by\ncompetent proof that that person without just cause failed to comply\nwith such terms and conditions, the court may modify or revoke the order\nof protection, or commit said person, if he willfully violated the\norder, to jail for a term not to exceed six months, or both. The court\nmay suspend an order of commitment under this section on condition that\nthe said person comply with the order of protection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

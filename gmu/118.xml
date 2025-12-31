@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-118"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-118"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="118"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-118/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-118/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-118/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-118/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_118">
+        <num>118</num>
+        <heading>Development of a supply of water for sale</heading>
+        <content>
+          <p>  § 118. Development of a supply of water for sale. Any city or village,\nany county on behalf of a county water district and any town on behalf\nof a town water district or water storage and distribution district may,\nin addition to all other powers possessed with respect to the\ndevelopment and distribution of water, provide for the development of a\nsupply of water in excess of its own needs, for the purpose of sale to a\npublic corporation or improvement district which possesses the power to\npurchase a supply of water, and, any provision of law to the contrary\nnotwithstanding, may contract indebtedness for such purpose. The term\n"public corporation" as used in this article shall mean a public\ncorporation as defined in the general corporations law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

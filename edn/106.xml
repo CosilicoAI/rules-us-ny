@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-106"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="106"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106">
+        <num>106</num>
+        <heading>Joint seal</heading>
+        <content>
+          <p>  § 106. Joint seal.  The regents of the university upon the\nrecommendation of the commissioner of education shall adopt, and may\nmodify at any time, a seal, which shall be used in common as the seal of\nthe education department and of the university; and copies of all\nrecords thereof and of all acts, orders, decrees and decisions made by\nthe regents or by the commissioner of education, and of their official\npapers, and of the drafts or machine copies of any of the foregoing, may\nbe authenticated under the said seal and shall then be evidence equally\nwith and in like manner as the originals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

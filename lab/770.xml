@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-770"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-770"/>
+          <FRBRdate date="2020-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="770"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-770/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-770/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-770/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-770/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_770">
+        <num>770</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_770__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The term "call center employer" means any business entity that\nemploys fifty or more employees, excluding part-time employees; or fifty\nor more employees that in the aggregate work at least fifteen hundred\nhours per week, excluding overtime hours, for the purpose of staffing a\ncall center.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_770__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The term "part-time employee" means an employee who is employed\nfor an average of fewer than twenty hours per week or who has been\nemployed for fewer than six of the twelve months preceding the date on\nwhich notice is required under this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_770__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The term "tax credit" means any of the following tax credits\nallowed under the tax law: recovery tax credit, tax-free New York area\ntax elimination credit, minimum wage reimbursement credit, empire state\njobs retention program credit, economic transformation and facility\nredevelopment program tax credit, excelsior jobs program credit,\nemployee training incentive program tax credit, empire state\napprenticeship program tax credit, and employment incentive tax credit.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

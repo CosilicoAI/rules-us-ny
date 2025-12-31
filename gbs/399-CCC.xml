@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-CCC"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-CCC"/>
+          <FRBRdate date="2019-04-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-CCC"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-CCC/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-CCC/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_CCC">
+        <num>399-CCC</num>
+        <heading>Smoke detecting devices</heading>
+        <subsection eId="sec_399_CCC__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the manufacturer's name or registered trademark and the model\nnumber of the smoke detecting alarm device; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_399_CCC__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that such alarm device is designed to have a minimum battery life\nof ten years.\n  3. The provisions of this section shall not apply to solely battery\noperated smoke detecting alarm devices powered by a replaceable,\nremovable battery that have been ordered by, or are in the inventory of,\nowners, managing agents, contractors, wholesalers or retailers on or\nbefore the effective date of this section. The provisions of this\nsection shall not apply to smoke detecting alarm devices that receive\ntheir power from the electrical system of the building, fire alarm\nsystems with smoke detectors, fire alarm devices that connect to a\npanel, devices that use a low-power radio frequency wireless\ncommunication signal, or such other devices as the state fire\nadministrator shall designate through its regulatory process.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-1.2"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-1.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-1.2"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-1.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-1.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-1.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-1.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_1_2">
+        <num>11-1.2</num>
+        <heading>Tax elections by personal representatives</heading>
+        <subsection eId="sec_11_1_2__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Unless otherwise expressly provided by a will under which a\ndisposition is made to or for the benefit of the surviving spouse of a\ndecedent which qualifies for an estate tax marital deduction under any\ntax law of the state of New York or of the United States and the amount\nor size of such disposition is defined by the will in terms of the\nmaximum marital deduction allowable under such tax law:\n</p>
+          </content>
+          <paragraph eId="sec_11_1_2__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>No adjustment shall be required to be made between such\ndisposition and the other interests in the decedent's estate by reason\nof (A) any increase in the amount or size of such disposition resulting\nfrom any election by the fiduciary, under such tax laws, to treat estate\nadministration expenses as income tax deductions over the amount or size\nof such disposition had the contrary election been made or (B) any\nincrease or decrease in the amount or size of such disposition resulting\nfrom an election by the fiduciary, under such tax laws, of an estate tax\nvaluation date other than the date of the decedent's death as compared\nwith the amount or size of such disposition had the contrary election\nbeen made.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_11_1_2__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>Such definition shall not be construed as a direction by the\ndecedent to the fiduciary to exercise any election respecting the\ndeduction of estate administration expenses or the determination of the\nestate tax valuation date, which the fiduciary may have under such tax\nlaws, only in such manner as will result in a larger allowable estate\ntax marital deduction than if the contrary election had been made.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

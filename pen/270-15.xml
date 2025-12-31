@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.15"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="270.15"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_270_15">
+        <num>270.15</num>
+        <heading>Unlawfully refusing to yield a party line</heading>
+        <subsection eId="sec_270_15__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Party line" means a subscriber's line telephone circuit,\nconsisting of two or more main telephone stations connected therewith,\neach station with a distinctive ring or telephone number.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_270_15__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Emergency call" means a telephone call to a police or fire\ndepartment, or for medical aid or ambulance service, necessitated by a\nsituation in which human life or property is in jeopardy and prompt\nsummoning of aid is essential.\n  2. A person is guilty of unlawfully refusing to yield a party line\nwhen, being informed that a party line is needed for an emergency call,\nhe refuses immediately to relinquish such line.\n  Unlawfully refusing to yield a party line is a class B misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

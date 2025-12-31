@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-E"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="45-E"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_E">
+        <num>45-E</num>
+        <heading>Reimbursement</heading>
+        <subsection eId="sec_45_E__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>local social services district financial participation is\nunavailable in all or a portion of such expenditures although such\ndistrict  financial participation in the single room occupancy support\nservices program equals or exceeds such financial participation in the\nprevious program year; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_45_E__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>such eligible projects require financial assistance under this\ntitle to ensure the financial viability of supportive services programs.\n  Actual or in-kind expenditures made by an eligible applicant receiving\nassistance pursuant to section forty-five-c of this title shall be\nreimbursed by the state at the rate of fifty per centum after first\ndeducting therefrom any federal funds properly received or to be\nreceived on account thereof.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

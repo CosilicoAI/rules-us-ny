@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-206"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-206"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="206"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-206/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-206/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_206">
+        <num>206</num>
+        <heading>Computing periods of limitation in particular actions</heading>
+        <subsection eId="sec_206__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nWhere demand necessary. Except as provided in article 3 of the uniform\ncommercial code, where a demand is necessary to entitle a person to\ncommence an action, the time within which the action must be commenced\nshall be computed from the time when the right to make the demand is\ncomplete, except that\n  1. where a right grows out of the receipt or detention of money or\nproperty by a trustee, agent, attorney or other person acting in a\nfiduciary capacity, the time within which the action must be commenced\nshall be computed from the time when the person having the right to make\nthe demand discovered the facts upon which the right depends; and\n  2. where there was a deposit of money to be repaid only upon a special\ndemand, or a delivery of personal property not to be returned\nspecifically or in kind at a fixed time or upon a fixed contingency, the\ntime within which the action must be commenced shall be computed from\nthe demand for repayment or return.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_206__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Based on misconduct of agent. Where a judgment is entered against\na principal in an action based upon an injury resulting from the act or\nomission of his deputy or agent, the time within which an action by the\nprincipal against the deputy or agent to recover damages by reason of\nsuch judgment must be commenced shall be computed, from the time when\nthe action against the principal was finally determined. Where an injury\nresults from the representation by a person that he is an agent with\nauthority to execute a contract in behalf of a principal, the time\nwithin which an action to recover damages for breach of warranty of\nauthority must be commenced by the person injured against the purported\nagent shall be computed from the time the person injured discovered the\nfacts constituting lack of authority.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_206__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Based on breach of covenant of seizin or against incumbrances.  In\nan action based upon breach of a covenant of seizin or against\nincumbrances, the time within which the action must be commenced shall\nbe computed from an eviction.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_206__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Based on account. In an action based upon a mutual, open and\ncurrent account, where there have been reciprocal demands between the\nparties, the time within which the action must be commenced shall be\ncomputed from the time of the last transaction in the account on either\nside.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

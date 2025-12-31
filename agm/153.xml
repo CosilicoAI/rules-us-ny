@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-153"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-153"/>
+          <FRBRdate date="2019-09-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="153"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-153/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-153/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-153/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-153/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_153">
+        <num>153</num>
+        <heading>Adulteration and sale of raw linseed oil</heading>
+        <content>
+          <p>  § 153. Adulteration and sale of raw linseed oil. No person shall\nmanufacture or mix for sale, offer or expose for sale, or sell under the\nname of raw linseed oil, or any compounding of the name raw linseed oil,\nor under any name or device illustrating or suggesting raw linseed oil,\nany article which is not wholly the product of commercially pure linseed\nor flaxseed.\n  No person shall sell such adulterated raw linseed oil unless the\npackage containing the same shall be plainly marked in legible black\nletters two inches high and one inch in width "adulterated linseed oil"\nor without informing the purchaser at the time of sale that the same is\nnot pure linseed oil; and the invoice shall accordingly read\n"adulterated linseed oil."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

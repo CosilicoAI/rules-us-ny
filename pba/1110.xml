@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1110"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1110"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1110">
+        <num>1110</num>
+        <heading>Audit of authority; annual report</heading>
+        <content>
+          <p>  § 1110. Audit of authority; annual report. In conformity with the\nprovisions of section five of article ten of the constitution, the\naccounts of the authority shall be subject to the supervision of the\nstate comptroller and such state comptroller and his legally authorized\nrepresentatives are hereby authorized and empowered from time to time to\nexamine the accounts and the books of the authority, including its\nreceipts, disbursements, contracts, leases, sinking funds, investments\nand any other matters relating to its financial standing. The authority\nshall annually submit to the governor and to the legislature a detailed\nreport pursuant to the provisions of section twenty-eight hundred of\nthis chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

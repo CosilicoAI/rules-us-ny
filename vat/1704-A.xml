@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1704-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1704-A"/>
+          <FRBRdate date="2019-04-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1704-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1704-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1704-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1704-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1704-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1704_A">
+        <num>1704-A</num>
+        <heading>Central business district toll</heading>
+        <subsection eId="sec_1704_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The Triborough bridge and tunnel authority shall implement a\nplan for credits, discounts and/or exemptions for tolls paid on bridges\nand crossings informed by the recommendations of the traffic mobility\nreview board.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1704_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The Triborough bridge and tunnel authority shall be authorized to\nprovide additional credits, discounts and exemptions informed by the\nrecommendations of the traffic mobility review board and a traffic study\nthat considers impact.\n  4. The Triborough bridge and tunnel authority shall implement a plan\nto address credits, discounts, and/or exemptions for for-hire vehicles\nas defined by, and subject to a surcharge imposed by, article\ntwenty-nine-C of the tax law for a for-hire transportation trip,\ninformed by the recommendation of the traffic mobility review board.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

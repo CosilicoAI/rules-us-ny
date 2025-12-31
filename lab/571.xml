@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-571"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-571"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="571"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-571/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-571/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-571/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-571/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_571">
+        <num>571</num>
+        <heading>Assessment of contributions due</heading>
+        <subsection eId="sec_571__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of\nsection six hundred seventy-four of the tax law for the purpose of\ndetermining the amount of contributions due or for the purpose of\ndetermining contribution rates under this article, or if such return\nwhen filed is incorrect or insufficient and the employer fails to file a\ncorrected or sufficient return within thirty days after the commissioner\nrequires the same by written notice, the commissioner shall determine\nthe amount of contribution due from such employer and the amount of\nwages paid by such employer on the basis of such information as may be\navailable and shall give written notice of such determination to the\nemployer. Such determination shall finally and irrevocably fix the\namount of contribution and the amount of wages paid for the purpose of\ncomputing contribution rates, unless the commissioner shall modify the\namounts thereof, as provided under this article, subject, however, to\nthe right to a hearing as hereinafter provided.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

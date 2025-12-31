@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1644"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1644"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1644"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1644/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1644/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1644/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1644/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1644">
+        <num>1644</num>
+        <heading>Special speed limits on bridges and other elevated structures in cities and villages</heading>
+        <content>
+          <p>  § 1644. Special speed limits on bridges and other elevated structures\nin cities and villages. The legislative body of any city or village may\ndetermine the maximum speed which may be maintained without structural\ndamage on bridges and elevated structures in such city or village, and\nif such maximum speed is lower than the maximum speed limit otherwise\napplicable, subject to the limitations imposed by section sixteen\nhundred eighty-four, may by local law, ordinance, order, rule or\nregulation establish such lower maximum speed limits at which vehicles\nmay proceed on such bridge or structure.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

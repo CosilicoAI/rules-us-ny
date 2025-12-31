@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-109"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-109"/>
+          <FRBRdate date="2015-11-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="109"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_109">
+        <num>109</num>
+        <heading>Supplementary regulatory powers of the commission</heading>
+        <content>
+          <p>  § 109. Supplementary regulatory powers of the commission.\nNotwithstanding any inconsistent provision of law, the commission\nthrough its rules and regulations or in allotting dates for racing,\nsimulcasting or in licensing race meetings at which pari-mutuel betting\nis permitted shall be authorized to:\n  1. permit racing at which pari-mutuel betting is conducted on any or\nall dates from the first day of January through the thirty-first day of\nDecember, inclusive of Sundays but exclusive of December twenty-fifth\nand Easter Sunday; and\n  2. fix minimum and maximum charges for admission at any race meeting.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="359-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_359_C">
+        <num>359-C</num>
+        <heading>Publication of state notices</heading>
+        <content>
+          <p>  § 359-c. Publication of state notices. 1. Every state notice filed in\nthe department of state pursuant to this article shall be published by\nsuch department in the next issue of the state bulletin following the\nreceipt thereof, except that a notice received by the department less\nthan five days before the next issue may be published either in such\nnext issue or the next issue but one, at the convenience and in the\ndiscretion of such department.\n  2. The department of state shall collect a fee of seventy-five dollars\nfor filing and publishing each state notice and each further state\nnotice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

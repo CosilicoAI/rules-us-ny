@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.42"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.42"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.42"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.42/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.42/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.42/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.42/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_42">
+        <num>130.42</num>
+        <heading>Oaths</heading>
+        <subsection eId="sec_130_42__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Before performing their respective duties,\nmilitary judges, members of general and special courts-martial, trial\ncounsel, assistant trial counsel, defense counsel, assistant defense\ncounsel, reporters, and interpreters shall take an oath to perform their\nduties faithfully.  The form of the oath, the time and place of the\ntaking thereof, the manner of recording the same, and whether the oath\nshall be taken for all cases in which these duties are to be performed\nor for a particular case, shall be as prescribed in regulations issued\npursuant to this chapter.  These regulations may provide that an oath to\nperform faithfully duties as a military judge, trial counsel, assistant\ntrial counsel, defense counsel, or assistant defense counsel may be\ntaken at any time by any judge advocate or other person certified to be\nqualified or competent for the duty, and if such oath is taken it need\nnot again be taken at the time the judge advocate or other person is\ndetailed to that duty.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_42__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>All witnesses before military courts shall be examined on oath or\naffirmation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

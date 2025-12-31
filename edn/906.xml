@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-906"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-906"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="906"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-906/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-906/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-906/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-906/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_906">
+        <num>906</num>
+        <heading>Existence of communicable diseases; return after illness</heading>
+        <content>
+          <p>  § 906. Existence of communicable diseases; return after illness. 1.\nWhenever, upon investigation and evaluation by the director of school\nhealth services or other health professionals acting upon direction or\nreferral of such director for care and treatment, a student in the\npublic schools shows symptoms of any communicable or infectious disease\nreportable under the public health law that imposes a significant risk\nof infection of others in the school, he or she shall be excluded from\nthe school and sent home immediately, in a safe and proper conveyance.\nThe director of school health services shall immediately notify a local\npublic health agency of any disease reportable under the public health\nlaw.\n  2. Following absence on account of illness or from unknown cause, the\ndirector of school health services may examine each student returning to\na school without a certificate from a local public health officer, a\nduly licensed physician, physician assistant, or nurse practitioner.\n  3. The director of school health services, or other health\nprofessionals acting upon direction or referral of such director, may\nmake such evaluations of teachers and any other school employees, school\nbuildings and premises as, in their discretion, they may deem necessary\nto protect the health of the students and staff.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

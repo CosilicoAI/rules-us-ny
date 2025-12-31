@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-210"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-210"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-210"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_210">
+        <num>580-210</num>
+        <heading>Application of article to nonresident subject to personal jurisdiction</heading>
+        <content>
+          <p>  § 580-210. Application of article to nonresident subject to personal\njurisdiction. A tribunal of this state exercising personal jurisdiction\nover a nonresident in a proceeding under this article, under other law\nof this state relating to a support order, or recognizing a foreign\nsupport order may receive evidence from outside this state pursuant to\nsection 580-316 of this article, communicate with a tribunal outside\nthis state pursuant to section 580-317 of this article and obtain\ndiscovery through a tribunal outside this state pursuant to section\n580-318 of this article. In all other respects, parts three through six\nof this article do not apply, and the tribunal shall apply the\nprocedural and substantive law of this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

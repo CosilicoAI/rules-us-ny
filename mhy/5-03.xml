@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-5.03"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-5.03"/>
+          <FRBRdate date="2019-09-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5.03"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-5.03/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-5.03/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-5.03/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-5.03/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_03">
+        <num>5.03</num>
+        <heading>Commissioners</heading>
+        <content>
+          <p>§ 5.03 Commissioners.\n  The head of the office of mental health shall be the commissioner of\nmental health; the head of the office for people with developmental\ndisabilities shall be the commissioner of developmental disabilities;\nand the head of the office of addiction services and supports shall be\nthe commissioner of addiction services and supports. Each commissioner\nshall be appointed by the governor, by and with the advice and consent\nof the senate, to serve at the pleasure of the governor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

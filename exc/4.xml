@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-4"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4">
+        <num>4</num>
+        <heading>Secretary and counsel to the governor</heading>
+        <content>
+          <p>  § 4. Secretary and counsel to the governor.  A secretary to the\ngovernor shall be appointed by the governor, and shall receive a salary\nto be fixed by the governor within the amount appropriated therefor. It\nshall be the duty of such secretary to assist the governor in matters\npertaining to the executive department and perform such duties as the\ngovernor may assign to him. The governor may also appoint and at\npleasure remove a counsel to the governor who shall receive a salary to\nbe fixed by the governor within the amount appropriated therefor. It\nshall be the duty of such counsel to advise the governor in regard to\nthe constitutionality, consistency and legal effect of bills presented\nto the governor for his approval and on matters involving the exercise\nof executive clemency and such other legal matters as may be referred to\nhim by the governor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

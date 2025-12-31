@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-811"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-811"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="811"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-811/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-811/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-811/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-811/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_811">
+        <num>811</num>
+        <heading>Repurchase of vessels and parts</heading>
+        <content>
+          <p>  § 811. Repurchase of vessels and parts. Upon the termination,\ncancellation or non-renewal of any dealer agreement, except as otherwise\nprovided in subdivision one of section eight hundred twelve of this\narticle, by a manufacturer or distributor pursuant to this article the\nnew vessel dealer shall be paid the dealer invoice price plus any\nshipping costs paid by such dealer for:\n  1. new current and previous model year vessels and motors in the\ndealer's inventory which were purchased from the manufacturer or\ndistributor, within twelve months of the delivery date for each vessel\nand motor, and which are unused, and not materially damaged or altered\nwhile in the dealer's possession, and to which the dealer has clear\ntitle and is in position to convey such title to the manufacturer or\ndistributor;\n  2. unused parts which were required from the manufacturer or\ndistributor and which are listed on the current parts price sheet\navailable to the dealer;\n  3. equipment and furnishings required from the manufacturer,\ndistributor, or one of the manufacturer's or distributor's approved\nservices; and\n  4. special tools that are only usable on the specific brand of vessel\nor engine offered by the manufacturer or distributor terminating,\ncanceling or nonrenewing a dealer agreement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

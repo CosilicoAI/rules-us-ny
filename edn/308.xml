@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-308"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-308"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="308"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-308/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-308/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-308/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_308">
+        <num>308</num>
+        <heading>Other powers</heading>
+        <content>
+          <p>  § 308. Other powers.  The commissioner of education shall also have\npower and it shall be his duty to cause to be instituted such\nproceedings or processes as may be necessary to properly enforce and\ngive effect to any provision in this chapter or in any other general or\nspecial law pertaining to the school system of the state or any part\nthereof or to any school district or city.  He shall possess the power\nand authority to likewise enforce any rule or direction of the regents.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-N"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="389-N"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-389-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-389-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_389_N">
+        <num>389-N</num>
+        <heading>Labeling required</heading>
+        <subsection eId="sec_389_N__subsec_l">
+          <num>(l)</num>
+          <content>
+            <p>Each light of safety glazing material\nmanufactured, distributed, imported, or sold for use in hazardous\nlocations or installed in such a location within the state of New York\nshall be permanently labeled by such means as etching, sandblasting,\nfiring of ceramic material, hot-die stamping on the safety glazing\nmaterial, or by other suitable means. The label shall identify the\nmanufacturer, and the nominal thickness and the type of safety glazing\nmaterial and the fact that said material meets the test requirements of\nthe American National Standards Institute Standard ANSI Z-97.1-1971.\n  The label must be legible after installation.\n</p>
+          </content>
+          <paragraph eId="sec_389_N__subsec_l__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>Such safety glazing labeling shall not be used on other than\nsafety glazing materials.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_389_N__subsec_l__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>Permanent labeling of wire glass, laminated glass and rigid\nplastics shall not be required where the seller or installer of such\nwire glass furnishes each buyer thereof a certificate stating that such\nwire glass meets the test requirements of the American National\nStandards Institute Standard ANSI Z-97.1-1972.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

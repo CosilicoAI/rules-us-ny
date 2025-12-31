@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-230"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-230"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-230/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-230/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-230/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-230/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230">
+        <num>230</num>
+        <heading>Membership in a national thoroughbred racing association</heading>
+        <subsection eId="sec_230__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>identify the\ntwelve month period commencing on April first during which a specific\nsum is to be paid and (ii) delineate a timetable for making the\npayments, which are to be equal in amount and made no less frequently\nthan every three months.\n  3. Upon receipt of a duly adopted corporate resolution from the\nqualified horsemen's organization stating that a majority of its board\nmembers has voted to rescind approval of such payments, the franchised\ncorporation shall make no further payments unless and until it receives\na duly adopted corporate resolution as described in this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-577"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-577"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="577"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-577/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-577/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-577/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-577/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_577">
+        <num>577</num>
+        <heading>Notice of intention to suspend or cease redemption of stamps</heading>
+        <content>
+          <p>  § 577. Notice of intention to suspend or cease redemption of stamps.\nNo trading stamp company shall cease or suspend the redemption of\ntrading stamps in this state without filing with the secretary of state\nat least ninety days' prior written notice of its intention to do so and\nconcurrently mailing a copy of such notice to each retailer within this\nstate which has at any time theretofore within one year issued trading\nstamps which the trading stamp company is obligated to redeem.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

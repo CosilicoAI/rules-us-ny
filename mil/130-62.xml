@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.62"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.62"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.62"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.62/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.62/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.62/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.62/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_62">
+        <num>130.62</num>
+        <heading>Rehearings</heading>
+        <content>
+          <p>  § 130.62. Rehearings.  Each rehearing under this chapter shall take\nplace before a court-martial composed of members not members of the\ncourt-martial which first heard the case. Upon a rehearing the accused\nmay not be tried for any offense of which he was found not guilty by the\nfirst court-martial, and no sentence in excess of or more severe than\nthe original sentence may be imposed, unless the sentence is based upon\na finding of guilty of an offense not considered upon the merits in the\noriginal proceedings. If the sentence approved after the first\ncourt-martial was in accordance with a pretrial agreement and the\naccused at the rehearing changes his plea with respect to the charges or\nspecifications upon which the pretrial agreement was based, or otherwise\ndoes not comply with the pretrial agreement, the sentence as to those\ncharges or specifications may include any punishment not in excess of\nthat lawfully adjudged at the first court-martial.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

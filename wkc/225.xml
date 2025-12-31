@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-225"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-225"/>
+          <FRBRdate date="2016-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-225/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-225/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-225/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-225/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225">
+        <num>225</num>
+        <heading>Fees for representing employees</heading>
+        <content>
+          <p>  § 225. Fees for representing employees. Claims of attorneys and\ncounsellors-at-law for services in connection with any contested claim\narising under this article shall not be enforceable unless approved by\nthe board. If so approved, such fee or fees shall become a lien upon the\nbenefits ordered, but shall be paid therefrom only in the manner fixed\nby the board or the alternative dispute resolution association. Any\nother person, firm, corporation, organization, or other association who\nshall exact or receive any fee or gratuity for any services rendered on\nbehalf of an employee except in an amount so determined shall be guilty\nof a misdemeanor. Any person, firm, corporation, organization, or\nassociation who shall solicit the business of an employee claiming\nbenefits under this article, or who shall make it a business to solicit\nemployment for a lawyer in connection with any claim for disability or\nfamily leave benefits under this article, or who shall exact or receive\nany fee or gratuity or other charge with respect to the collection of\nany uncontested claim for disability or family leave benefits, shall be\nguilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

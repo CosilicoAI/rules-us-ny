@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1000"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1000"/>
+          <FRBRdate date="2022-09-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1000"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1000/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1000/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1000/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1000/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1000">
+        <num>1000</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_1000__subsec_c">
+          <num>(c)</num>
+          <paragraph eId="sec_1000__subsec_c__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>of the U.S. Internal Revenue\nCode. For the purposes of this article, this term does not include a\nfederal or tribal nation government organization, agency, or entity.\n  5. "Public service loan forgiveness form" means the form used by the\nU.S. department of education to certify an individual's employment at a\npublic service organization and determine eligibility for the purposes\nof the public service loan forgiveness program.\n  6. "Public service loan forgiveness program" means the federal loan\nforgiveness program established pursuant to 20 U.S.C. 1087e</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_1000__subsec_m">
+          <num>(m)</num>
+          <content>
+            <p>and\nadministered pursuant to 34 C.F.R 685.219, as of the effective date of\nthis article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

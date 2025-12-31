@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0505"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0505"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51-0505"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0505/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0505/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-0505/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-0505/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_0505">
+        <num>51-0505</num>
+        <heading>Appoval of projects</heading>
+        <content>
+          <p>§ 51-0505. Appoval of projects.\n  1. Air quality improvement projects shall be undertaken pursuant to\nthis title only with the approval of the commissioner, and in the case\nof municipal projects, pursuant to an approved contract for state\nassistance.\n  2. In reviewing projects, the commissioner shall give due\nconsideration to:\n  a. the urgency of the need for upgrading to meet ambient air quality\nstandards;\n  b. the age and condition of the incinerator, furnace or boiler;\n  c. the economic feasibility of upgrading;\n  d. expected increased efficiency;\n  e. expected life of any public facility associated with the\nincinerator, furnace, or boiler;\n  f. the reduction in air contaminants required to bring the\nincinerator, furnace, or boiler emissions into compliance with the\napplicable air quality standards.\n  g. in the case of a project defined in paragraph b of subdivision one\nof section 51-0503 of this title, the matters required to be taken into\naccount under sections 51-0905 and 51-0907 of this article.\n  3. The state share of the cost of a municipal air quality improvement\nproject shall not exceed fifty (50) percent of the cost thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

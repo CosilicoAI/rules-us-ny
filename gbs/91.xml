@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-91"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-91"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="91"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-91/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-91/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-91/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-91/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_91">
+        <num>91</num>
+        <heading>Offenses by pipe-line corporations</heading>
+        <content>
+          <p>  § 91. Offenses by pipe-line corporations. A pipe-line corporation, or\na person being the officer, agent, manager or representative thereof,\nwho:\n  1. Accepts, makes or issues any receipt, certificate or order of any\nkind for any commodity, unless the commodity represented is actually at\nthe time in the possession of the corporation; or,\n  2. Delivers to any person any petroleum or other commodity received\nfor transportation by such corporation without the presentation and\nsurrender of all vouchers, receipts, orders or certificates that have\nbeen issued or accepted for the same; or,\n  3. Having parted with the possession of any commodity and having\nreceived therefor an order, voucher, receipt or certificate, shall\nreissue the same, or shall not cause it to be cancelled by the word\n"cancelled" stamped or printed legibly across the face thereof, and to\nbe filed and recorded by such corporation, as provided by law,\n  Is guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

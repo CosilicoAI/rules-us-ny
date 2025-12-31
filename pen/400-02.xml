@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-400.02"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-400.02"/>
+          <FRBRdate date="2022-09-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="400.02"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-400.02/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-400.02/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-400.02/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-400.02/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_400_02">
+        <num>400.02</num>
+        <heading>Statewide license and record database</heading>
+        <subsection eId="sec_400_02__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>before the completion of the transfer, the licensee or seller\ncontacts the statewide license and record database and provides the\ndatabase with information sufficient to identify such dealer or seller\ntransferee based on information on the transferee's identification\ndocument as defined in paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_400_02__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of this subdivision, as well as the\namount, caliber, manufacturer's name and serial number, if any, of such\nammunition;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_400_02__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the licensee or seller is provided with a unique identification\nnumber; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_400_02__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the transferor has verified the identity of the transferee by\nexamining a valid state identification document of the transferee issued\nby the department of motor vehicles or if the transferee is not a\nresident of the state of New York, a valid identification document\nissued by the transferee's state or country of residence containing a\nphotograph of the transferee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

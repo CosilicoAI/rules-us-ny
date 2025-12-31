@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1408"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1408"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-1408"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1408/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1408/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-14-1408/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-14-1408/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_1408">
+        <num>14-1408</num>
+        <heading>Establishment or enlargement of sewage treatment plant</heading>
+        <content>
+          <p>  § 14-1408 Establishment or enlargement of sewage treatment plant.  The\nboard of trustees of any village may establish a sewage treatment plant\nor enlarge or remodel an existing sewage treatment plant at the expense\nof the village by resolution adopted at a regular meeting. The\nresolution shall state the maximum amount to be expended for such work.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

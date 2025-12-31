@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7408"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7408"/>
+          <FRBRdate date="2017-10-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7408"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7408/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7408/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7408/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7408/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7408">
+        <num>7408</num>
+        <heading>Special provisions</heading>
+        <subsection eId="sec_7408__subsec_s">
+          <num>(s)</num>
+          <content>
+            <p>of\n(name of business or organization) as of the (time period) and for the\n(period) then ended. This presentation is limited to preparing, in the\nform of a financial statement</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7408__subsec_s">
+          <num>(s)</num>
+          <content>
+            <p>, information that is the representation\nof (name of business or organization)"; and\n  b. "(I, We) have not audited or reviewed the accompanying financial\nstatement</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7408__subsec_s">
+          <num>(s)</num>
+          <content>
+            <p>and accordingly do not express an opinion or any other form\nof assurance on them."\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

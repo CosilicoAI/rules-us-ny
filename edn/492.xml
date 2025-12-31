@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-492"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-492"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="492"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-492/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-492/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-492/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-492/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_492">
+        <num>492</num>
+        <heading>Exemptions from taxation</heading>
+        <content>
+          <p>  § 492. Exemptions from taxation. 1. It is hereby declared that the\ncreation of the fund and the carrying out of its corporate purposes is\nin all respects for the benefit of the people of the city of Yonkers and\nstate of New York and for the improvement of their health, safety,\nwelfare and security and is a public purpose and the fund shall be\nregarded as performing a governmental function in the exercise of the\npowers conferred upon it by this article.\n  2. The monies and properties of the fund, including all properties\nconstructed, acquired, reconstructed, rehabilitated or improved by it or\non its behalf and all properties under its jurisdiction, control or\nsupervision, and all of its operations and activities shall be exempt\nfrom taxation.\n  3. The notes and bonds of the fund issued pursuant to this article,\nand the income therefrom, and all fees, charges, rents, gifts, grants,\nrevenues, receipts and other monies received or to be received by the\nfund shall at all times be free from taxation, except for estate and\ngift taxes and taxes on transfers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

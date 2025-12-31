@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.2"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-3.2"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-3.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-3.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_3_2">
+        <num>11-A-3.2</num>
+        <heading>Apportionment of receipts and disbursements when decedent</heading>
+        <subsection eId="sec_11_A_3_2__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A trustee shall allocate an income receipt or disbursement other\nthan one to which paragraph 11-A-2.1</p>
+          </content>
+          <paragraph eId="sec_11_A_3_2__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>applies to principal if its due\ndate occurs before a decedent dies in the case of an estate or before an\nincome interest begins in the case of a trust or successive income\ninterest.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_11_A_3_2__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A trustee shall allocate an income receipt or disbursement to\nincome if its due date occurs on or after the date on which a decedent\ndies or an income interest begins and it is a periodic due date. An\nincome receipt or disbursement must be treated as accruing from day to\nday if its due date is not periodic or it has no due date. The portion\nof the receipt or disbursement accruing before the date on which a\ndecedent dies or an income interest begins must be allocated to\nprincipal and the balance must be allocated to income.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_3_2__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An item of income or an obligation is due on the date the payer is\nrequired to make a payment. If a payment date is not stated, there is no\ndue date for the purposes of this article. Distributions to shareholders\nor other owners from an entity to which 11-A-4.1 applies are deemed to\nbe due on the date fixed by the entity for determining who is entitled\nto receive the distribution or, if no date is fixed, on the declaration\ndate for the distribution. A due date is periodic for receipts or\ndisbursements that must be paid at regular intervals under a lease or an\nobligation to pay interest or if an entity customarily makes\ndistributions at regular intervals.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

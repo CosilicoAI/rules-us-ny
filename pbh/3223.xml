@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3223"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3223"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3223"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3223">
+        <num>3223</num>
+        <heading>Enforcement</heading>
+        <content>
+          <p>  § 3223. Enforcement.  1. The commissioner may conduct scheduled or\nunscheduled inspections of facilities where certified activities are\nbeing conducted.\n  2. The commissioner may suspend a certificate on the ground that the\nholder unreasonably refused to admit a department inspector to the\npremises where a recombinant DNA activity was taking place, or for any\nother violation of a regulation promulgated pursuant to this article.\nThe commissioner shall hold a hearing within fifteen days following any\nsuch suspension to determine whether the suspension was reasonable. The\ncommissioner may then annul the suspension, or if he finds the\nsuspension to have been reasonable he may revoke the certificate or\ncontinue its suspension for a period not to exceed three months.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

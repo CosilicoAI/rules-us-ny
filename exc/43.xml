@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-43"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-43"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-43/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-43/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43">
+        <num>43</num>
+        <heading>Examiners</heading>
+        <content>
+          <p>  § 43. Examiners.  1. Whenever the comptroller may deem it necessary to\nenable him to perform the duties imposed upon him by law with regard to\nthe inspection, examination and audit of the fiscal affairs of the state\nor of the several officers, departments, institutions, public\ncorporations or political subdivisions thereof, he may assign the work\nof such inspection, audit and examination to any examiner or examiners\nappointed by him pursuant to law.\n  2. The comptroller is authorized to employ such examiners as he may\ndeem necessary to carry out the provisions of law in relation to his\nduty as to money paid into court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

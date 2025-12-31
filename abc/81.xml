@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81"/>
+          <FRBRdate date="2022-07-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="81"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-81/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-81/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_81">
+        <num>81</num>
+        <heading>License to sell wine at retail for consumption on the premises</heading>
+        <subsection eId="sec_81__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"soju" shall mean an imported Korean alcoholic beverage that\ncontains not more than twenty-four per centum alcohol, by volume, and is\nderived from agricultural products.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_81__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"shochu" shall mean an imported Japanese alcoholic beverage that\ncontains not more than twenty-four per centum alcohol, by volume, and is\nderived from agricultural products.\n  4. A restaurant licensed to sell wine under this section may permit a\npatron to remove one unsealed bottle of wine for off-premises\nconsumption provided that the patron has purchased a full course meal\nand consumed a portion of the bottle of wine with such meal on the\nrestaurant premises. For the purposes of this subdivision the term "full\ncourse meal" shall mean a diversified selection of food which is\nordinarily consumed with the use of tableware and cannot conveniently be\nconsumed while standing or walking. A partially consumed bottle of wine\nthat is to be removed from the premises pursuant to this subdivision\nshall be securely sealed by the licensee or an agent of the licensee\nprior to removal from the premises, in a bag such that it is visibly\napparent that such resealed bottle of wine has not been tampered with.\nSuch licensee or agent of the licensee shall provide a dated receipt for\nthe bottle of wine to the patron.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

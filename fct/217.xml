@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-217"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-217"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-217/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-217/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217">
+        <num>217</num>
+        <heading>Orders; filing and service</heading>
+        <content>
+          <p>  § 217. Orders; filing and service. 1. An order shall be in writing and\nsigned with the judge's signature or initials by the judge who made it.\nThe form of such order shall be promulgated by the chief administrator\nof the courts pursuant to section two hundred fourteen of this article.\n  2. The original of an order of the family court shall be filed with\nthe clerk of the family court in the county in which the family court\nmaking the order is located.\n  3. The court shall file or direct the filing of an order within twenty\ndays of the decision of the court. If the court directs that such order\nbe settled on notice, such twenty day period shall commence on the date\non which such order is settled.\n  4. The court shall direct service of a copy of an order in whatever\nmanner it deems appropriate. If the court makes no direction, the\napplicable provisions of the civil practice law and rules shall apply.\nWhere the clerk of the court is directed to serve such order, the clerk\nshall note in the court record the manner and date of service and the\nperson to whom such order was served.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

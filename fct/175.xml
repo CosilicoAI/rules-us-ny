@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-175"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-175"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-175/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-175/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175">
+        <num>175</num>
+        <heading>Violation of probation in other county</heading>
+        <content>
+          <p>  § 175. Violation of probation in other county. Except for cases\nbrought under articles three and seven of this act which shall be\nsubject to the terms of subdivision two of section one hundred\nseventy-six of this part, if an act or omission which constitutes a\nviolation of the terms of probation allegedly occurs in a county other\nthan the one in which the order of probation was made, the family court\nin either county may hear the allegation of a violation of the terms of\nprobation and proceed in accordance with the provisions of this act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

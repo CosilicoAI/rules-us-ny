@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9">
+        <num>9</num>
+        <heading>Checks drawn against corporate funds or payable to corporations; no notice of defense against or claim to check</heading>
+        <content>
+          <p>  § 9. Checks drawn against corporate funds or payable to corporations;\nno notice of defense against or claim to check. Notwithstanding section\n3-304 of the uniform commercial code, the drawing of a check by an\nofficer or agent of a corporation against the account of, or in the name\nof the corporation, whether the check is drawn against an account in the\nname of the corporation, or in the name of such officer or agent of the\ncorporation as such, to himself as payee, or the endorsement of a check\nin the name of the corporation, to himself as endorsee, and in either\ncase the cashing of such check or the deposit thereof to the credit of\nhis personal account, shall not constitute notice to a private banker,\nbanking organization or branch of a foreign banking corporation of any\ndefense against or claim to the check on the part of any person,\nprovided that the private banker, banking organization or branch has on\nfile an authorization from the corporation showing that the officer or\nagent is authorized on behalf of the corporation to perform any of the\nabove acts for unlimited or limited amounts, and that the amount of the\ncheck does not exceed the maximum limits of the amount so contained in\nthe authorization so filed for the officer or agent when such a\nlimitation is contained therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

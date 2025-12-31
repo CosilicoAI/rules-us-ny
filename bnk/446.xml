@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-446"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-446"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="446"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-446/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-446/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-446/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-446/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_446">
+        <num>446</num>
+        <heading>Exemptions</heading>
+        <content>
+          <p>  § 446. Exemptions. The bonds and notes issued by the savings and loan\nbank and the savings and loan bank itself, together with its capital,\naccumulations and funds, shall have the same exemption from taxation as\nother institutions for savings. No law which taxes corporations in any\nform, or the shares thereof, or the accumulations therein, shall be\ndeemed to include the savings and loan bank or its issues of bonds or\nnotes unless they are specifically named in such law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

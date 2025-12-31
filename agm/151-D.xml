@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151-D"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="151-D"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-151-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-151-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_151_D">
+        <num>151-D</num>
+        <heading>Local regulation</heading>
+        <content>
+          <p>  § 151-d. Local regulation. Nothing in this article shall preclude a\nlocal government from exercising any of its powers to enact, administer\nor enforce local laws or ordinances, provided that no local government\nshall exercise such powers in a manner which is inconsistent with this\narticle or which unreasonably restricts planning, practices, structures,\nprojects or other measures conducted or implemented in relation to the\nparticipation of a farm owner or operator in the AEM program as set\nforth in this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

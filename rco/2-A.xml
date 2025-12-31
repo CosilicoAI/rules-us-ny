@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-2-A"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-2-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2-A"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-2-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-2-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-2-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-2-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_A">
+        <num>2-A</num>
+        <heading>Application</heading>
+        <subsection eId="sec_2_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>to every corporation\nheretofore or hereafter formed under this chapter, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>to every\ncorporation formed under any other statute or special act of this state\nwhich would, if it were to be formed currently under the laws of this\nstate, be formed under this chapter, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>to every corporation formed\nunder laws other than the statutes of this state which is authorized to\nconduct or which conducts activities in this state and which would, if\nit were to be formed currently under the laws of this state, be formed\nunder this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

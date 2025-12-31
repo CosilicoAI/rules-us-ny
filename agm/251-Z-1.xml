@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-251-Z-1"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-251-Z-1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="251-Z-1"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-251-Z-1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-251-Z-1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-251-Z-1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-251-Z-1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_251_Z_1">
+        <num>251-Z-1</num>
+        <heading>Declaration of policy and purpose</heading>
+        <content>
+          <p>  § 251-z-1. Declaration of policy and purpose. The general purposes of\nthis article are to assure that foods processed in New York state and\noffered for sale for human consumption are pure and wholesome and that\nthe food processing establishments, in which such foods are manufactured\nor processed, conform to proper operating and sanitary standards.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

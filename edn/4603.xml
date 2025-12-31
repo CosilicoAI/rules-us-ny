@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4603"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4603"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4603"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4603/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4603/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4603/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4603/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4603">
+        <num>4603</num>
+        <heading>Practical arts</heading>
+        <content>
+          <p>  § 4603. Practical arts.  1. The board of education of each school\ndistrict may establish and maintain non-vocational practical arts tryout\nor exploratory courses in industrial arts, home economics, business and\nagriculture.\n  2. Such practical arts courses and exploratory courses shall be\nclassified as general education.  The schools which offer such courses\nshall not designate them as trade, technical or occupational courses.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

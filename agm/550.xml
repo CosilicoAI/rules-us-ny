@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-550"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-550"/>
+          <FRBRdate date="2015-06-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="550"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-550/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-550/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-550/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-550/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_550">
+        <num>550</num>
+        <heading>Application of provisions of other laws and of documents</heading>
+        <content>
+          <p>  § 550. Application of provisions of other laws and of documents.\nWherever the terms department of agriculture, department of farms and\nmarkets, department of foods and markets, department of weights and\nmeasures, department of health, commissioner of agriculture,\ncommissioner of farms and markets, commissioner of foods and markets,\nstate superintendent of weights and measures, or state commissioner of\nhealth, shall occur in any law, contract or document, such terms shall\nbe deemed to mean and refer to the department of agriculture and markets\nand the commissioner of agriculture and markets respectively, so far as\nsuch law, contract or document pertains to matters which are within the\njurisdiction of such department under the provisions of this chapter.\nWhenever, by the education law or other statute, the commissioner of\nagriculture is made a member by virtue of his office of the board of\nmanagers or trustees or other governing body of a state institution, the\nterm commissioner of agriculture shall be deemed to mean the\ncommissioner of agriculture and markets.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

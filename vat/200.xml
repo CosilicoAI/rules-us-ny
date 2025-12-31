@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-200"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-200"/>
+          <FRBRdate date="2016-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200">
+        <num>200</num>
+        <heading>Department of motor vehicles; commissioner</heading>
+        <subsection eId="sec_200__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The commissioner of motor vehicles may enter into a contract\nfor the publication of a driver's manual. Such contract may provide for\nthe sale of advertising by the contractor. A contract for publication of\na driver's manual shall be awarded following consideration of factors\nwhich shall include, but not be limited to, the most favorable financial\nadvantage for the state, and the greatest utility to the motorist. The\ncommissioner shall issue a request for proposal for publication of the\ndriver's manual which shall set requirements for the preparation of\nbids; responsibility for preparation and placement of appropriate\nadvertising content, which shall be limited to no more than thirty\npercent of the total space available; approval of the commissioner at\ncritical stages of the driver's manual development, including\nappropriate timetables and schedules; approval of advertising standards\nand rates; any securities which shall be required of the contractor and\ndeadlines for selection of a competent contractor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_200__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>On or before February first of each year following enactment\nhereof, the department shall submit a report to the director of the\ndivision of the budget detailing any proposed privatization initiatives\nit would like to undertake including a summary of each initiative, the\ncost savings associated with each initiative and the impact of each\ninitiative on customer service and departmental staffing levels. Copies\nof such report shall be simultaneously filed with the chairpersons of\nthe senate finance committee and the assembly ways and means committee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

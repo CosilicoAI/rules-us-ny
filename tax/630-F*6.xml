@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-F*6"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-F*6"/>
+          <FRBRdate date="2019-01-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="630-F*6"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-F*6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-F*6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-F*6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-F*6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_630_F*6">
+        <num>630-F*6</num>
+        <heading>Gift for city university of New York</heading>
+        <content>
+          <p>  * § 630-f. Gift for city university of New York. An individual in any\ntaxable year may elect to contribute to the city university of New York.\nSuch contribution shall be in any whole dollar amount and shall not\nreduce the amount of state tax owed by such individual. The commissioner\nshall include space on the personal income tax return to enable a\ntaxpayer to make such contribution. Notwithstanding any other provision\nof law all revenues collected pursuant to this section shall be credited\nto the city university construction fund and used only for the purposes\nenumerated in section sixty-two hundred seventy-three of the education\nlaw.\n  * NB There are 6 § 630-f's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

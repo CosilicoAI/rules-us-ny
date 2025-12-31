@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-111"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-111"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-111/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-111/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111">
+        <num>111</num>
+        <heading>License to be confined to premises licensed</heading>
+        <content>
+          <p>  § 111. License to be confined to premises licensed.  A license issued\nto any person, pursuant to chapter one hundred eighty of the laws of\nnineteen hundred thirty-three or this chapter, for any licensed premises\nshall not be transferable to any other person or to any other premises\nor to any other part of the building containing the licensed premises\nexcept in the discretion of the authority. It shall be available only to\nthe person therein specified, and only for the premises licensed and no\nother except if authorized by the authority.  Provided, however, that\nthe provisions of this section shall not be deemed to prohibit the\nissuance of a license under section seventy-six-b or seventy-six-c of\nthis chapter. For the purposes of this section each railroad car and\neach vessel shall be deemed premises separately to be licensed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

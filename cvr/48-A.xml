@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-48-A"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-48-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="48-A"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-48-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-48-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-48-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-48-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_A">
+        <num>48-A</num>
+        <heading>Employment of persons with certain genetic disorders</heading>
+        <content>
+          <p>  § 48-a. Employment of persons with certain genetic disorders. Unless\nit can be clearly shown that a person's unique genetic disorder would\nprevent such person from performing the particular job, no person who is\notherwise qualified shall be denied equal opportunities to obtain and/or\nmaintain employment and/or to advance in position in his job solely\nbecause said person has a unique genetic disorder regardless of whether\nthe employer or prospective employer is the state or any political\nsubdivision thereof or any other category of employer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

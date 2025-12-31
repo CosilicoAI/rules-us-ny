@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-314"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-314"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-314"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-314/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-314/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-314/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-314/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_314">
+        <num>580-314</num>
+        <heading>Limited immunity of petitioner</heading>
+        <subsection eId="sec_580_314__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Participation by a\npetitioner in a proceeding under this article before a responding\ntribunal, whether in person, by private attorney or through services\nprovided by the support enforcement agency, does not confer personal\njurisdiction over the petitioner in another proceeding.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_314__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A petitioner is not amenable to service of civil process while\nphysically present in this state to participate in a proceeding under\nthis article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_314__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The immunity granted by this section does not extend to civil\nlitigation based on acts unrelated to a proceeding under this article\ncommitted by a party while physically present in this state to\nparticipate in the proceeding.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

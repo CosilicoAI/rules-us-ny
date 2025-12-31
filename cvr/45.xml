@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-45"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="45"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45">
+        <num>45</num>
+        <heading>Powers of administration vested in industrial commissioner</heading>
+        <content>
+          <p>  § 45. Powers of administration vested in industrial commissioner.  The\nindustrial commissioner may enforce the provisions of sections\nforty-two, forty-three and forty-four of this chapter. For this purpose\nhe may use the powers of administration, investigation, inquiry,\nsubpoena, and hearing vested in him by the labor law; he may require\nsubmission at regular intervals or otherwise of information, records and\nreports pertinent to discriminatory practices in industries.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

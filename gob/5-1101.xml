@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1101"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-1101"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_1101">
+        <num>5-1101</num>
+        <heading>Agreements relating to securities</heading>
+        <content>
+          <p>  § 5-1101. Agreements relating to securities. An agreement, promise or\nundertaking for the purchase, sale, transfer, assignment or delivery of\na certificate or other evidence of debt, issued by the United States or\nby any state, or a municipal or other corporation, or of any share or\ninterest in the stock of any bank corporation or joint stock\nassociation, incorporated or organized under the laws of the United\nStates or of any state, is not void or voidable, for want of\nconsideration, or because of the nonpayment of consideration, or because\nthe vendor, at the time of making such contract, is not the owner or\npossessor of the certificate or certificates or other evidence of debt,\nshare or interest.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

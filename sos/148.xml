@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-148"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-148"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="148"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-148/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-148/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-148/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-148/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_148">
+        <num>148</num>
+        <heading>Penalty for unlawfully bringing a needy person into a public welfare district</heading>
+        <content>
+          <p>  § 148. Penalty for unlawfully bringing a needy person into a public\nwelfare district.  No person shall, without legal authority, send or\nbring, or cause to be sent or brought, any needy person into a public\nwelfare district with the purpose of making him a charge on such public\nwelfare district, or for the purpose of avoiding the responsibility of\nassistance or care in the public welfare district from which he is\nbrought or sent.  Any person found guilty of such an act shall be guilty\nof a misdemeanor and liable to a fine of fifty dollars, recoverable in\nthe name of the public welfare district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

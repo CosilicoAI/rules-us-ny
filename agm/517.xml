@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-517"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-517"/>
+          <FRBRdate date="2020-03-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="517"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-517/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-517/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-517/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-517/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_517">
+        <num>517</num>
+        <heading>Penalties</heading>
+        <content>
+          <p>  § 517. Penalties. Notwithstanding the provisions of any law to the\ncontrary, except section five hundred sixteen of this article, the\nfailure to comply with a requirement of this article, a rule or\nregulation promulgated thereunder, or the research agreements entered\ninto by those conducting department authorized research may be\npunishable by a civil penalty of not more than one thousand dollars for\na first violation; not more than five thousand dollars for a second\nviolation within three years; and not more than ten thousand dollars for\na third violation and each subsequent violation thereafter, within three\nyears.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

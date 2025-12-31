@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-F"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77-F"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_F">
+        <num>77-F</num>
+        <heading>Simultaneous proceedings</heading>
+        <content>
+          <p>  § 77-f. Simultaneous proceedings. If a proceeding for enforcement\nunder this title is commenced in a court of this state and the court\ndetermines that a proceeding to modify the determination is pending in a\ncourt of another state having jurisdiction to modify the determination\nunder title two of this article, the enforcing court shall immediately\ncommunicate with the modifying court. The proceeding for enforcement\ncontinues unless the enforcing court, after consultation with the\nmodifying court, stays or dismisses the proceeding.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-173-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-173-A"/>
+          <FRBRdate date="2021-12-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="173-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-173-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-173-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-173-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-173-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173_A">
+        <num>173-A</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 173-a. Definitions. When used in this article:\n  1. "Apiary" shall mean any location used for raising honey bees or\nproducing honey or other bee related products.\n  2. "Colony" shall mean any production unit of bees.\n  3. "Nucleus colony or nucs" shall mean a starter colony, consisting of\na laying queen and up to five frames of brood and bees.\n  4. "Beekeeper" shall mean any individual or entity that maintains\nmanaged honey bees for profit, research, recreational, or educational\npurposes.\n  5. "Queen" shall mean the single reproductive female in a colony of\nhoney bees.\n  6. "Brood comb" shall mean the beeswax structure of cells where the\nqueen bee lays eggs in which immature bees are reared.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

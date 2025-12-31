@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-172"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-172"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="172"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-172/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-172/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_172">
+        <num>172</num>
+        <heading>Commencement of enforcement and modification proceedings in other county</heading>
+        <content>
+          <p>  § 172. Commencement of enforcement and modification proceedings in\nother county. An enforcement or modification proceeding commenced in the\nfamily court in a county other than that in which the order was made is\ncommenced by a petition alleging that fact in addition to the facts\nrequired under this act for enforcement or modification orders. An\noriginal or certified copy of the order sought to be enforced or\nmodified shall be attached to the petition.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

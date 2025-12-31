@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-372-B"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-372-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="372-B"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-372-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-372-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-372-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-372-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_372_B">
+        <num>372-B</num>
+        <heading>Forged checks for cashing; signage</heading>
+        <content>
+          <p>  § 372-b. Forged checks for cashing; signage. All licensees shall post\nin a conspicuously prominent place, clearly visible to all patrons, a\nstatement printed in plain language as provided by the superintendent\ninforming the public that cashing a forged check is illegal and that\nthose who knowingly cash forged checks will be prosecuted pursuant to\narticle one hundred seventy of the penal law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

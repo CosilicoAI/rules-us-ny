@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-350"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-350"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="350"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-350/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-350/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350">
+        <num>350</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 350. Definitions. 1. "Animal," as used in this article, includes\nevery living creature except a human being;\n  2. "Torture" or "cruelty" includes every act, omission, or neglect,\nwhereby unjustifiable physical pain, suffering or death is caused or\npermitted.\n  3. "Adoption" means the delivery to any natural person eighteen years\nof age or older, for the limited purpose of harboring a pet, of any dog\nor cat, seized or surrendered.\n  4. "Farm animal", as used in this article, means any ungulate,\npoultry, species of cattle, sheep, swine, goats, llamas, horses or\nfur-bearing animals, as defined in section 11-1907 of the environmental\nconservation law, which are raised for commercial or subsistence\npurposes. Fur-bearing animal shall not include dogs or cats.\n  5. "Companion animal" or "pet" means any dog or cat, and shall also\nmean any other domesticated animal normally maintained in or near the\nhousehold of the owner or person who cares for such other domesticated\nanimal. "Pet" or "companion animal" shall not include a "farm animal" as\ndefined in this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-85"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-85"/>
+          <FRBRdate date="2016-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="85"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-85/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-85/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-85/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-85/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_85">
+        <num>85</num>
+        <heading>Prosecution</heading>
+        <content>
+          <p>  § 85. Prosecution. Criminal action for violation of this article shall\nbe prosecuted by the attorney general, his or her deputy, or a district\nattorney, in the name of the people of the state. In any such\nprosecution the attorney general, or his or her deputy, shall exercise\nall the powers and perform all duties which the district attorney would\notherwise be authorized to exercise or to perform therein. The attorney\ngeneral or a district attorney shall, upon a conviction for a violation\nof any provision of this article and within ten days thereafter, make\nand file with the department of state a detailed report showing the date\nof such conviction, the name of the person convicted and the nature of\nthe charge.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

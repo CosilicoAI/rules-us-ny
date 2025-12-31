@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1102"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1102"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1102">
+        <num>1102</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 1102. Definitions. For the purposes of this article, the following\nterms shall have the following meanings:\n  a. "Compact committee" means the organization of officials from the\nparty states that is authorized and empowered by this compact to carry\nout the purposes of this compact;\n  b. "Official" means the duly selected member of a party state racing\ncommission, or its equivalent, who represents that party state as a\nmember of the compact committee;\n  c. "Participants in live racing" means participants in live horse\nracing with pari-mutuel wagering in the party states;\n  d. "Party state" means each state that has enacted this compact; and\n  e. "State" means each of the several states of the United States, the\nDistrict of Columbia, the Commonwealth of Puerto Rico, and each\nterritory or possession of the United States.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

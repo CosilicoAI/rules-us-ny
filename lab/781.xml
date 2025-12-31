@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-781"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-781"/>
+          <FRBRdate date="2023-06-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="781"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-781/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-781/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-781/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-781/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_781">
+        <num>781</num>
+        <heading>Quotas</heading>
+        <content>
+          <p>  § 781. Quotas. Each employer shall provide to each employee, upon\nhire, or within thirty days of the effective date of this article, a\nwritten description of each quota to which the employee is subject,\nincluding the quantified number of tasks to be performed or materials to\nbe produced or handled, within the defined time period, and any\npotential adverse employment action that could result from failure to\nmeet the quota. Each time the quota changes thereafter, the employer\nshall provide an updated written description of each quota to which the\nemployee is subject within two business days of such quota change. Each\ntime an employer takes an adverse employment action against an employee,\nthe employer shall provide that employee with the applicable quota for\nthe employee. The employer must provide the written description of any\nquota pursuant to this section in English and in the language identified\nby each employee as the primary language of such employee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

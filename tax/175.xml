@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-175"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-175"/>
+          <FRBRdate date="2025-07-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-175/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-175/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175">
+        <num>175</num>
+        <heading>Manner of execution of instruments by the commissioner</heading>
+        <content>
+          <p>  § 175. Manner of execution of instruments by the commissioner.\nNotwithstanding any other provision of law, whenever a statute\nauthorizes or requires the commissioner to execute an instrument, such\ninstrument shall be executed by having the name or title of the\ncommissioner appear on such instrument and, underneath such name or\ntitle, such instrument shall be signed by the commissioner or by a\ndeputy tax commissioner or by the secretary to such commissioner. An\nelectronic signature may be used in lieu of a signature affixed by hand\npursuant to article three of the state technology law. The seal of such\ncommissioner may be affixed or appear on such instrument as a facsimile\nwhich is engraved, printed or reproduced in any other manner. No\nacknowledgment of the execution of any such instrument shall be\nnecessary for the purpose of the recordation thereof or for any other\npurpose.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

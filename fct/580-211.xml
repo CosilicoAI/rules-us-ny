@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-211"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-211"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-211"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_211">
+        <num>580-211</num>
+        <heading>Continuing exclusive jurisdiction to modify spousal-support order</heading>
+        <subsection eId="sec_580_211__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A tribunal of this state issuing a spousal-support order\nconsistent with the law of this state has continuing, exclusive\njurisdiction to modify the spousal-support order throughout the\nexistence of the support obligation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_211__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A tribunal of this state may not modify a spousal-support order\nissued by a tribunal of another state or a foreign country having\ncontinuing, exclusive jurisdiction over that order under the law of that\nstate or foreign country.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_211__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A tribunal of this state that has continuing, exclusive\njurisdiction over a spousal-support order may serve as:\n</p>
+          </content>
+          <paragraph eId="sec_580_211__subsec_c__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>an initiating tribunal to request a tribunal of another state to\nenforce the spousal-support order issued in this state; or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_580_211__subsec_c__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>a responding tribunal to enforce or modify its own spousal-support\norder.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

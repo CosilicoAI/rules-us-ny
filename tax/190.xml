@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-190"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-190"/>
+          <FRBRdate date="2015-01-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-190/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-190/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-190/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-190/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190">
+        <num>190</num>
+        <heading>Long-term care insurance credit</heading>
+        <content>
+          <p>  § 190. Long-term care insurance credit.  1. General. A taxpayer shall\nbe allowed a credit against the tax imposed by this article equal to\ntwenty percent of the premium paid during the taxable year for long-term\ncare insurance. In order to qualify for such credit, the taxpayer's\npremium payment must be for the purchase of or for continuing coverage\nunder a long-term care insurance policy that qualifies for such credit\npursuant to section one thousand one hundred seventeen of the insurance\nlaw.\n  2. Computation. The credit allowed by this section shall first be\ndeducted from the taxes imposed by section one hundred eighty-three or\nformer section one hundred eighty-six of this article. The amount of any\nsuch credit remaining shall next be deducted from the taxes imposed by\nsection one hundred eighty-four of this article.\n  3. Carryover. In no event shall the amount of credit allowed under\nthis section reduce the tax payable to less than the minimum tax fixed\nby section one hundred eighty-three or former section one hundred\neighty-six of this article. If, however, the amount of credit allowable\nunder this section for any taxable year reduces the tax to such amount,\nany amount of credit not deductible in such taxable year may be carried\nover to the following year or years and may be deducted from the\ntaxpayer's tax for such year or years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

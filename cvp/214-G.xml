@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-G"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-G"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="214-G"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_G">
+        <num>214-G</num>
+        <heading>Certain child sexual abuse cases</heading>
+        <subsection eId="sec_214_G__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>in\naddition to any other defense and affirmative defense that may be\navailable in accordance with law, rule or the common law, to the extent\nthat the acts alleged in such action are of the type described in\nsubdivision one of section 130.30 of the penal law or subdivision one of\nsection 130.45 of the penal law, the affirmative defenses set forth,\nrespectively, in the closing paragraph of such sections of the penal law\nshall apply; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_214_G__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>dismissal of a previous action, ordered before the\neffective date of this section, on grounds that such previous action was\ntime barred, and/or for failure of a party to file a notice of claim or\na notice of intention to file a claim, shall not be grounds for\ndismissal of a revival action pursuant to this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

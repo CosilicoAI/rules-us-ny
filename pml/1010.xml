@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1010"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1010"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1010"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1010">
+        <num>1010</num>
+        <heading>Job security for employees</heading>
+        <content>
+          <p>  § 1010. Job security for employees. 1. Plans for operation of\nsimulcast facilities shall include provision for job security for\nemployees of racetracks and off-track betting corporations within the\ndistrict where the facility is located, compatible with and in\nfurtherance of the objectives of this article and subject to the\napproval of the commission. Job security agreements that have been or\nmay be concluded from time to time after July first, nineteen hundred\nseventy-three between employee organizations and the operators of\nsimulcast facilities shall be subject to the approval of the commission\nand when approved shall be deemed a part of the plan of operation of\nsuch simulcast facility.\n  2. Notwithstanding any provision to the contrary, no job security\nagreement shall apply to any employee not included on the active track\nor off-track betting employment roster maintained as of the effective\ndate of a job security agreement currently in effect between an operator\nand an employee organization. If such job security agreement is not\ncurrently in effect, the effective date of such active employment roster\nshall be January first, nineteen hundred ninety.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

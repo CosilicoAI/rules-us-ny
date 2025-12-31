@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-109"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-109"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12-109"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-12-109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-12-109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12_109">
+        <num>12-109</num>
+        <heading>Judgments; execution and enforcement</heading>
+        <content>
+          <p>  § 12-109. Judgments; execution and enforcement. 1. The provisions of\nthe civil practice law and rules relating to the exemption of certain\nreal and personal property from execution and enforcement of civil\njudgments shall not apply to judgment rendered in favor of the plaintiff\nunder this article.\n  2. Any assets subject to an administrative, civil or criminal\nforfeiture proceeding under state or federal law or which have been\nseized for forfeiture by any state or federal agency may not be used to\nsatisfy a judgment under this article unless and until such assets have\nbeen released following the conclusion of the forfeiture action or\nreleased by the agency that seized such assets.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-173"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-173"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="173"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-173/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-173/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-173/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-173/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173">
+        <num>173</num>
+        <heading>Transfer of papers to other county</heading>
+        <content>
+          <p>  § 173. Transfer of papers to other county. If the family court in\nwhich an enforcement or modification proceeding is brought under this\narticle does not transfer it under section one hundred seventy-four of\nthis part, it shall advise the family court that issued the order sought\nto be enforced or modified of the commencement of such proceedings and\nshall request that court to forward to it by electronic or other means a\ncopy of all or any of the papers with respect to the order sought to be\nenforced or modified. The requested court shall forthwith comply with\nthe request.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

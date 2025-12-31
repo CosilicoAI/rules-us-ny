@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-202"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-202"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="202"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-202/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-202/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-202/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-202/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_202">
+        <num>202</num>
+        <heading>Rates of interest; installment obligations; personal loan departments; effect of usury</heading>
+        <content>
+          <p>  § 202. Rates of interest; installment obligations; personal loan\ndepartments; effect of usury. Branches and agencies of foreign banking\ncorporations licensed to do business in this state may make loans and\noffer extensions of credit to the same extent and subject to the same\nconditions as banks and trust companies may make loans and extend credit\npursuant to the provisions of subdivisions four-a and five of section\none hundred three of this chapter and section one hundred eight of this\nchapter. Without limiting the foregoing, a foreign banking corporation\nlicensed pursuant to article two of this chapter to maintain one or more\nbranches or agencies in this state, may, in pursuance of its otherwise\nlawful powers under this chapter, take, receive, reserve or charge on\nany loan or discount made, or upon any note, bill of exchange or other\nevidence of debt, negotiable or otherwise, interest at such rate and\nsuch other charges and fees as a bank or trust company shall be\npermitted to charge under the provisions of the laws of this state or\nthe laws of the United States, with respect to the same class or classes\nof loans or transactions to which such rate or such charges and fees\nshall be applicable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

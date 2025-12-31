@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-39"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-39"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="39"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-39/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-39/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-39/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-39/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_39">
+        <num>39</num>
+        <heading>Property, personal</heading>
+        <content>
+          <p>  § 39. Property, personal. The term personal property includes\nchattels, money, things in action, and all written instruments\nthemselves, as distinguished from the rights or interests to which they\nrelate, by which any right, interest, lien or incumbrance in, to or upon\nproperty, or any debt or financial obligation is created, acknowledged,\nevidenced, transferred, discharged or defeated, wholly or in part, and\neverything, except real property, which may be the subject of ownership.\n  Oil wells and all fixtures connected therewith, situate on lands\nleased for oil purposes and oil interests, and rights held under and by\nvirtue of any lease or contract or other right or license to operate for\nor produce petroleum oil, shall be deemed personal property for all\npurposes except taxation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

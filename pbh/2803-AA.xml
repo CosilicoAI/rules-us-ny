@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2803-AA"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2803-AA"/>
+          <FRBRdate date="2021-12-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2803-AA"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2803-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2803-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2803-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2803-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2803_AA">
+        <num>2803-AA</num>
+        <heading>Sickle cell disease information distribution</heading>
+        <content>
+          <p>  * § 2803-aa. Sickle cell disease information distribution. The\ncommissioner shall design an informational packet about sickle cell\ndisease, including screening, prevention, and treatment information.\nEvery general hospital shall distribute the packet to every patient, or,\nif the patient lacks capacity to make health care decisions, to a person\nwho has authority to make health care decisions for the patient, who is\nsuspected to be at high risk of inheriting sickle cell disease.\n  * NB There are 2 § 2803-aa's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

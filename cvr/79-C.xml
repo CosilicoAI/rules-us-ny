@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-C"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79-C"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_C">
+        <num>79-C</num>
+        <heading>Convict protected by law</heading>
+        <content>
+          <p>  § 79-c. Convict protected by law. A convict sentenced to imprisonment\nis under the protection of the law, and any injury to his person, not\nauthorized by law, is punishable in the same manner as if he were not\nsentenced or convicted.\n  Nothing in sections seventy-nine or seventy-nine-a of this chapter\nshall be deemed to deny a convict sentenced to imprisonment the right to\ninjunctive relief for improper treatment where such treatment\nconstitutes a violation of his constitutional rights.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

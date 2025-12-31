@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-603"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-603"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="603"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-603/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-603/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-603/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-603/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_603">
+        <num>603</num>
+        <heading>Issuance of new certificates of stock or other consideration</heading>
+        <content>
+          <p>  § 603. Issuance of new certificates of stock or other consideration.\nThe receiving corporation may require the return of the original\ncertificate or certificates held by each stockholder or shareholder in\nsuch other corporation or corporations and may issue in lieu thereof new\ncertificates for such number of its own shares, or pay or deliver such\nother consideration, as such stockholder or shareholder may be entitled\nto receive under the merger plan.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-283"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-283"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="283"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-283/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-283/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-283/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-283/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_283">
+        <num>283</num>
+        <heading>Issuance of licenses and permits in certain towns</heading>
+        <content>
+          <p>  § 283. Issuance of licenses and permits in certain towns. If, in any\ntown of the first class at the time of the enactment of this chapter,\nthere exists a building department, set up as an adjunct of the planning\nboard, all licenses or permits, whenever and in the manner required by\nany building zone ordinance, local law or building code, shall be issued\nby said department, and all fees therefor be collected as provided by\nthe requirements of the building zone ordinance, local law or building\ncode.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

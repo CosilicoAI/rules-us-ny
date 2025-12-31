@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1253"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1253"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1253"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1253/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1253/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1253/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1253/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1253">
+        <num>1253</num>
+        <heading>Registration</heading>
+        <content>
+          <p>  § 1253. Registration. Every person required to register pursuant to\nsection eleven hundred thirty-four shall be required to register for\npurposes of the taxes imposed under the authority of sections twelve\nhundred ten, twelve hundred eleven, twelve hundred twelve and twelve\nhundred twelve-A.  However, only one certificate of authority need be\nissued. Persons who elect to register under such section eleven hundred\nthirty-four pursuant to the election provided therein shall also be\nrequired to make a similar election for purposes of the taxes imposed\nunder the authority of such sections twelve hundred ten, twelve hundred\neleven, twelve hundred twelve and twelve hundred twelve-A, but only one\ncertificate of authority need be issued.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

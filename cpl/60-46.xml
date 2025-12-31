@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.46"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.46"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.46"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.46/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.46/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.46/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.46/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_46">
+        <num>60.46</num>
+        <heading>Rules of evidence, family offense proceedings in family court</heading>
+        <content>
+          <p>§ 60.46 Rules of evidence, family offense proceedings in family court.\n  Evidence of a written or oral admission or any testimony given by\neither party, or evidence derived therefrom, in a proceeding under\narticle eight of the family court act without the benefit of counsel in\nsuch proceeding may not be received into evidence in a criminal\nproceeding except for the purposes of impeachment unless such party\nwaives the right to counsel on the record. Nothing herein shall be\ndeemed to prohibit any testimony or exhibits received into evidence in a\ncriminal proceeding, or any orders, decisions or judgments arising from\nsuch proceeding from being received into evidence in any proceeding\nunder article eight of the family court act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

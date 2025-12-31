@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-405"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-405"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="405"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-405/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-405/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-405/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_405">
+        <num>405</num>
+        <heading>Authority to enter into agreements</heading>
+        <content>
+          <p>  § 405. Authority to enter into agreements. The commissioner is\nauthorized and empowered to enter into a reciprocal agreement or\nagreements on behalf of this state with the duly authorized\nrepresentatives of any state of the United States, the District of\nColumbia, or a state or province of a foreign country, or territory or\npossession of either the United States or of a foreign country to become\na member of the international registration plan, or such other\ndesignation that may, from time to time, be given to such plan,\ndeveloped by the American association of motor vehicle administrators\nfor the purpose of providing for the registration of vehicles on an\napportionment or allocation basis.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-235"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-235"/>
+          <FRBRdate date="2023-08-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="235"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-235/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-235/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-235/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-235/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235">
+        <num>235</num>
+        <heading>State science service</heading>
+        <content>
+          <p>  § 235. State science service. There shall be maintained in the\nuniversity a science service which shall be known as the state science\nservice and the state geologist, paleontologist, botanist, entomologist,\nand archaeologist shall constitute its staff together with such other\nscientists as the regents may employ or who are now employed by them.\nThis service is empowered and directed to make available its services to\nall the departments of the state, and the residents of the state under\nsuch rules and regulations as the regents may prescribe and is empowered\nto engage in such scientific research as directed by law or by the\nregents and shall cooperate with scientific units or agencies of other\nstates, the federal government, educational institutions and industry in\nthe discovery, analysis and dissemination of scientific information. The\ndirector of the state museum shall also be the director and head of the\nstate science service and the staff of the service shall be members of\nthe staff of the state museum.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

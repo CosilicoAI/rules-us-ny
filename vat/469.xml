@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-469"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-469"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="469"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-469/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-469/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-469/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-469/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_469">
+        <num>469</num>
+        <heading>Private actions</heading>
+        <content>
+          <p>  § 469. Private actions. 1. A franchised motor vehicle dealer who is or\nmay be aggrieved by a violation of this article shall be entitled to\nrequest an adjudicatory proceeding, as prescribed in section four\nhundred seventy-one-a of this article, or in lieu thereof, sue for, and\nhave, injunctive relief and damages in any court of the state having\njurisdiction over the parties. In any such judicial action or\nproceeding, the court may award necessary costs and disbursements plus a\nreasonable attorney's fee to any party.\n  2. Whenever a franchise provides for the use of arbitration to resolve\na controversy arising out of or relating to such contract, arbitration\nmay be used to settle such controversy only if after such controversy\narises all parties to such controversy consent in writing to use\narbitration to settle such controversy.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-341"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-341"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="341"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-341/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-341/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-341/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-341/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341">
+        <num>341</num>
+        <heading>Amount of proof required</heading>
+        <content>
+          <p>  § 341. Amount of proof required. Proof of financial responsibility\nshall mean proof of ability to respond in damages for liability\nthereafter incurred, arising out of the ownership, maintenance or use of\na motor vehicle, in the amount of twenty-five thousand dollars because\nof bodily injury to or fifty thousand dollars because of death of any\none person, and subject to said limit respecting one person, in the\namount of fifty thousand dollars because of bodily injury to or one\nhundred thousand dollars because of death of two or more persons in any\none accident, and in the amount of ten thousand dollars because of\ninjury to or destruction of property in any one accident. Such proof in\nsuch amounts shall be furnished for each motor vehicle registered by\nsuch person.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

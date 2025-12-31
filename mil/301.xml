@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301"/>
+          <FRBRdate date="2024-10-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="301"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_301">
+        <num>301</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 301. Definitions. As used in this article:\n  1. The term "military service" means duty by a person, male or female,\nin the active military service of the United States as defined in\nsection one of this chapter; active duty in the military service of the\nstate pursuant to an order of the governor issued pursuant to section\nsix or seven of this chapter; and state active duty by members of the\nnational guard who are activated pursuant to a call of the governor of\nthis state or of any other state as provided for by law.\n  2. The term "person" when used herein with reference to the holder of\nany right alleged to exist against a person in military service, or\nagainst a person secondarily liable under such right, shall include\nindividuals, partnerships, corporations, and any other forms of business\nassociation.\n  3. The term "court" as used herein, shall include any state court of\ncompetent jurisdiction, whether or not a court of record.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

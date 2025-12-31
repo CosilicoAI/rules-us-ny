@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-803"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-803"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="803"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_803">
+        <num>803</num>
+        <heading>Gender-specific questions on grant applications</heading>
+        <content>
+          <p>  § 803. Gender-specific questions on grant applications. In order to\nobtain reliable and comprehensive data on the health needs of women as\nwell as to ensure that women's health needs are served, in developing\ngrant applications and consistent with the objectives and nature of the\nstudies and research project, the department of health shall include\ngender-specific questions to determine whether the research and studies\nwill impact primarily men or women and whether there are significant\ndifferences between the sexes in the outcome of the research or studies.\n  For purposes of this section, studies and research shall mean any\nstudies or research for which the department of health provides funds.\nIt shall not apply to any grant for which there are contrary indications\nin federal regulations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

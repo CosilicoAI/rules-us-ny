@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.42"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.42"/>
+          <FRBRdate date="2024-07-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="155.42"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.42/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.42/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.42/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.42/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_155_42">
+        <num>155.42</num>
+        <heading>Grand larceny in the first degree</heading>
+        <subsection eId="sec_155_42__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nresidential real property that is occupied as a home by at least one\nperson; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_155_42__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>residential real property that involves a home that is\nowned by an elderly person, an incompetent, an incapacitated person, or\nphysically disabled person; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_155_42__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>three or more residential real\nproperties.\n  Grand larceny in the first degree is a class B felony.\n  * NB Separately amended; cannot be put together\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

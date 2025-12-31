@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-107"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-107"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="107"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-107/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-107/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107">
+        <num>107</num>
+        <heading>Advertising and forms of notices of the issuance of licenses</heading>
+        <subsection eId="sec_107__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Form of notice for manufacturer's license.  Notice is hereby given\nthat manufacturer's license (fill in beer, liquor or wine manufacturer\nor rectifier and number) has been issued to the undersigned to\nmanufacture (beer, liquor or wine, as the case may be) under the\nalcoholic beverage control law in the premises located at (fill in\nstreet address, city, town or village and county in which licensed\npremises are located).\n                                          (Name of licensee)\n                                       (Address of licensee)\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Form of notice for wholesaler's license.  Notice is hereby given\nthat wholesaler's license (fill in beer, liquor or wine wholesaler and\nlicense number) has been issued to the undersigned to sell (beer, liquor\nor wine, as the case may be) at wholesale under the alcoholic beverage\ncontrol law in the premises located at (fill in street address, city,\ntown or village and county in which licensed premises are located).\n                                          (Name of licensee)\n                                       (Address of licensee)\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Form of notice for off-premises license. Notice is hereby given\nthat license (fill in beer, liquor or wine store and license number) has\nbeen issued to the undersigned to sell (beer, liquor or wine, as the\ncase may be) at retail under the alcoholic beverage control law at (fill\nin street address, city, town or village and county in which licensed\npremises are located) for off-premises consumption.\n                                          (Name of licensee)\n                                       (Address of licensee)\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_107__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Form of notice for on-premises license. Notice is hereby given\nthat license (fill in beer, liquor or wine as the case may be, and\nlicense number) has been issued to the undersigned to sell (beer, liquor\nor wine, as the case may be) at retail in a (hotel, club, restaurant,\nvessel, car, or other type of establishment, as the case may be) under\nthe alcoholic beverage control law at (fill in street address, city,\ntown or village and county in which licensed premises are located) for\non-premises consumption.\n                                          (Name of licensee)\n                                       (Address of licensee)\n  4. The first publication of said notice shall be made within fifteen\ndays after the date of issuance of said license and proof of such\npublication, in the form hereinafter set forth, shall be obtained by the\nlicensee and retained by him during the license year. The form of proof\nof such publication shall be as follows:\nSTATE OF NEW YORK )\n                  ) ss:\nCounty of ....... )\n  ............  of  ............  ,  being  duly  sworn, says that he is\n............. of the publishers of  the  .............  ,  a  (daily)  or\n(weekly)  newspaper  (printed  and)  published  in  the  (city, town, or\nvillage and county) ........... and that the notice of which the annexed\nis a true copy, has been published in said newspaper for two  successive\nweeks commencing on the ........... day of ..................195 ...\n                                         .....................\nSworn to before me this\n  ......................., 195.....\n  ..................................\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

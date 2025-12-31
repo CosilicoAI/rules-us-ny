@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-209"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-209"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-209/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-209/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-209/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-209/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209">
+        <num>209</num>
+        <heading>Filing with the department of state</heading>
+        <content>
+          <p>  § 209. Filing with the department of state. A signed articles of\norganization and any signed certificate of amendment or other\ncertificates filed pursuant to this chapter or of any judicial decree of\namendment or cancellation shall be delivered to the department of state.\nIf the instrument that is delivered to the department of state for\nfiling complies as to form with the requirements of law and the filing\nfee required by any statute of this state in connection therewith has\nbeen paid, the instrument shall be filed and indexed by the department\nof state. The department of state shall not review such articles or\ncertificates for legal sufficiency; its review shall be limited to\ndetermining that the form has been completed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

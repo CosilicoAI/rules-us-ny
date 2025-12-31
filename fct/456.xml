@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-456"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-456"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="456"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-456/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-456/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-456/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-456/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_456">
+        <num>456</num>
+        <heading>Probation</heading>
+        <subsection eId="sec_456__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No person may be placed on probation under this\narticle unless the court makes an order to that effect, either at the\ntime of the making of an order of support or under section four hundred\nfifty-four. The period of probation may continue so long as an order of\nsupport, order of protection or order of visitation applies to such\nperson.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_456__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The court may at any time, where circumstances warrant it, revoke\nan order of probation. Upon such revocation, the probationer shall be\nbrought to court, which may, without further hearing, make any order\nthat might have been made at the time the order of probation was made.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

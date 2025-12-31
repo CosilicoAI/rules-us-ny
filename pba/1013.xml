@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1013"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1013"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1013"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1013/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1013/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1013/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1013/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1013">
+        <num>1013</num>
+        <heading>Repayment of state appropriations</heading>
+        <content>
+          <p>  § 1013. Repayment of state appropriations. All appropriations made by\nthe state to the authority shall be treated as advances by the state to\nthe authority, and shall be repaid to it without interest either out of\nthe proceeds of securities, or other obligations issued by the authority\nfor the construction of any project pursuant to the provisions of this\ntitle, or by the delivery of non-interest bearing obligations of the\nauthority to the state for all or any part of such advances, or out of\nexcess revenues from such project subject however to any pledges of such\nrevenues made pursuant to any resolution or resolutions of the authority\nauthorizing the issuance of obligations of the authority issued prior to\nnineteen hundred and sixty.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

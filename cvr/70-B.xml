@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70-B"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70-B"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70-B"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-70-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-70-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_B">
+        <num>70-B</num>
+        <heading>Unlawful interference with protected rights</heading>
+        <subsection eId="sec_70_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>compensatory damages, as well as costs and attorneys' fees,\nincluding expert witness fees, shall be recoverable upon a demonstration\nof unlawful interference; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_70_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>additional damages of up to three times the amount of compensatory\ndamages shall be recoverable upon an additional demonstration that the\naction against the plaintiff was commenced or continued for the purpose\nof harassing, intimidating, punishing or otherwise maliciously\ninhibiting the exercise of rights protected in New York, including but\nnot limited to legally protected health activity.\n  5. Any action or proceeding brought pursuant to this section shall be\ncommenced no later than six years after the date on which the claim\nunder this section arises.\n  6. Nothing in this section shall affect or preclude the right of any\nparty to any recovery otherwise authorized by common law, or by statute,\nlaw or rule.\n  7. An action under this section shall be brought in the Supreme Court\nof the state of New York.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

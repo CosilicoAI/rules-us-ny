@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-801"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-801"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-801"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-801/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-801/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-801/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-801/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_801">
+        <num>580-801</num>
+        <heading>Grounds for rendition</heading>
+        <subsection eId="sec_580_801__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For purposes of this part,\n"governor" includes an individual performing the functions of governor\nor the executive authority of a state covered by this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_801__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The governor of this state may:\n</p>
+          </content>
+          <paragraph eId="sec_580_801__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>demand that the governor of another state surrender an individual\nfound in the other state who is charged criminally in this state with\nhaving failed to provide for the support of an obligee; or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_580_801__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>on the demand of the governor of another state, surrender an\nindividual found in this state who is charged criminally in the other\nstate with having failed to provide for the support of an obligee.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_580_801__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A provision for extradition of individuals not inconsistent with\nthis article applies to the demand even if the individual whose\nsurrender is demanded was not in the demanding state when the crime was\nallegedly committed and has not fled therefrom.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

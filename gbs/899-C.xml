@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_C">
+        <num>899-C</num>
+        <heading>Athlete agents; registration required; void contracts</heading>
+        <subsection eId="sec_899_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a student-athlete or another person acting on behalf of the\nstudent-athlete initiates communication with such individual; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_899_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>within seven days after an initial act as an athlete agent, such\nindividual submits an application for registration as an athlete agent\nin this state.\n  3. An agency contract resulting from conduct in violation of this\nsection shall be void. In the event a student-athlete voids an agency\ncontract, the student-athlete shall not be required to pay any\nconsideration under such contract or to return any consideration\nreceived from the athlete agent to induce the student-athlete to enter\ninto the contract, and the athlete agent shall be required to return any\nconsideration received pursuant to such voided agency contract.\n  4. An agency contract shall be void and unenforceable unless it is in\nwriting.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

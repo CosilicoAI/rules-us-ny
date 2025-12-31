@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-616"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-616"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-616"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-616/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-616/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-616/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-616/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_616">
+        <num>580-616</num>
+        <heading>Procedure to register child support order of foreign country for modification</heading>
+        <content>
+          <p>  § 580-616. Procedure to register child support order of foreign\ncountry for modification. A party or support enforcement agency seeking\nto modify, or to modify and enforce, a foreign child support order not\nunder the Convention may register that order in this state under\nsections 580-601 through 580-608 of this part if the order has not been\nregistered. A petition for modification may be filed at the same time as\na request for registration, or at another time. The petition must\nspecify the grounds for modification.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

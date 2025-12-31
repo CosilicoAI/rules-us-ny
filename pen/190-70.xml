@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.70"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.70"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190.70"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.70/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.70/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.70/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.70/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_70">
+        <num>190.70</num>
+        <heading>Scheme to defraud the state by unlawfully selling prescriptions</heading>
+        <content>
+          <p>§ 190.70 Scheme to defraud the state by unlawfully selling\n           prescriptions.\n  A person is guilty of a scheme to defraud the state by unlawfully\nselling prescriptions when he or she engages, with intent to defraud the\nstate, in a scheme constituting a systematic, ongoing course of conduct\nto make, sell, deliver for sale or offer for sale one or more\nprescriptions and so obtains goods or services from the state with a\nvalue in excess of one thousand dollars or causes the state to reimburse\nanother in excess of one thousand dollars for the delivery of such goods\nor services.\n  Scheme to defraud the state by unlawfully selling prescriptions is a\nclass A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

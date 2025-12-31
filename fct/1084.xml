@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1084"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1084"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1084"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1084/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1084/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1084/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1084/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1084">
+        <num>1084</num>
+        <heading>Out-of-wedlock children; paternity</heading>
+        <content>
+          <p>  § 1084. Out-of-wedlock children; paternity. No visitation right shall\nbe enforceable under this part concerning any person claiming to be a\nparent of an out-of-wedlock child without an adjudication of the\npaternity of such person by a court of competent jurisdiction, or\nwithout an acknowledgement of the paternity of such person executed\npursuant to applicable provisions of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

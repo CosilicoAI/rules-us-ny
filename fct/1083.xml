@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1083"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1083"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1083"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1083/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1083/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1083/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1083/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1083">
+        <num>1083</num>
+        <heading>Duration of orders affecting visitation rights</heading>
+        <content>
+          <p>  § 1083. Duration of orders affecting visitation rights. 1. Where an\norder of the court has been made incorporating an order, judgment or\nagreement conferring visitation rights with a child on a non-custodial\nparent or grandparent into a dispositional order under this article, or\nwhere the court otherwise orders compliance by a person, official,\nagency or institution caring for the child, with an order, judgment or\nagreement granting visitation rights, such order shall remain in effect\nfor the length of time the child remains in such care pursuant to this\narticle, unless such order is subsequently modified by the court for\ngood cause shown.\n  2. Where the court makes an order denying a petition seeking\nenforcement of visitation rights or makes an order modifying visitation\nrights, pursuant to the provisions of section one thousand eighty-two of\nthis part, such order shall remain in effect for the length of time the\nchild is placed with a person, official, agency or institution caring\nfor the child pursuant to this article, unless such order is\nsubsequently modified by the court for good cause shown.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

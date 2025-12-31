@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2447"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2447"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2447"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2447/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2447/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2447/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2447/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2447">
+        <num>2447</num>
+        <heading>Actions</heading>
+        <subsection eId="sec_2447__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>prior to the expiration of thirty days from the date on which the\ndemand, claim or claims upon which the action is founded were presented\nto a director of the agency or other officer thereof designated for such\npurpose nor</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2447__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>more than one year and ninety days after the cause of\naction therefor shall have accrued. An action against the agency for\nwrongful death shall be commenced in accordance with the notice of claim\nand time limitation provisions of title eleven of article nine of this\nchapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

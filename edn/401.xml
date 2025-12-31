@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-401"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-401"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="401"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_401">
+        <num>401</num>
+        <heading>Sites; designation and change</heading>
+        <content>
+          <p>  § 401. Sites; designation and change.  1. The designation of a site by\nany school district meeting shall be by written resolution containing a\ndescription thereof by metes and bounds, and such resolution must\nreceive the assent of a majority of the qualified voters present and\nvoting at said meeting, to be ascertained by taking and recording the\nayes and noes, or by ballot.\n  2. A board of education in a union free school district containing a\npopulation of five thousand or more may, without a vote of the qualified\nvoters of said district, designate sites or additions thereto for school\nhouses or for any other school purpose.\n  3. No site of a schoolhouse shall be changed unless a majority of the\nlegal voters present and voting at a district meeting shall adopt a\nresolution designating a new site and describing such site by metes and\nbounds.  Such resolution shall be adopted either by ballot or by taking\nand recording the ayes and noes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-61"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-61"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="61"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-61/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-61/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-61/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-61/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_61">
+        <num>61</num>
+        <heading>Payment by counties of a portion of the cost of construction under repair contracts</heading>
+        <content>
+          <p>  § 61. Payment by counties of a portion of the cost of construction\nunder repair contracts. Whenever in the maintenance and repair of state\nhighways the department of transportation shall have determined upon the\nnecessity of resurfacing, reconstructing or repairing such highway, the\ncounty wherein the highway is located may by resolution provide that not\nto exceed fifty per centum of the cost of such resurfacing,\nreconstructing or repairing shall be borne by the county. The provisions\nof this chapter shall apply to such resurfacing, reconstructing and\nrepairing of state highways in the same manner as to the original\nconstruction thereof in so far as the same may be applicable thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

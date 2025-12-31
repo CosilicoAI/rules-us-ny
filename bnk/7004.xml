@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-7004"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-7004"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7004"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-7004/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-7004/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-7004/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-7004/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7004">
+        <num>7004</num>
+        <heading>Classification of directors</heading>
+        <subsection eId="sec_7004__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The organization certificate or the specific provisions of a\nby-law adopted by the stockholders may provide that the directors be\ndivided into either two, three or four classes. All classes shall be as\nnearly equal in number as possible, and no class shall include less than\nthree directors. The terms of office of the directors initially\nclassified shall be as follows: that of the first class shall expire at\nthe next annual meeting of stockholders, the second class at the second\nsucceeding annual meeting, the third class, if any, at the third\nsucceeding annual meeting, and the fourth class, if any, at the fourth\nsucceeding annual meeting.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7004__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>At each annual meeting after such initial classification,\ndirectors to replace those whose terms expire at such annual meeting\nshall be elected to hold office until the second succeeding annual\nmeeting if there are two classes, the third succeeding annual meeting if\nthere are three classes, or the fourth succeeding annual meeting if\nthere are four classes.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7004__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>If directors are classified and the number of directors is\nthereafter changed:\n</p>
+          </content>
+          <paragraph eId="sec_7004__subsec_c__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>Any newly created directorships or any decrease in directorships\nshall be so apportioned among the classes as to make all classes as\nnearly equal in number as possible.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_7004__subsec_c__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>When the number of directors is increased by the board and any\nnewly created directorships are filled by the board, there shall be no\nclassification of the additional directors until the next annual meeting\nof stockholders.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>What must be stated in passage ticket</heading>
+        <content>
+          <p>  § 123. What must be stated in passage ticket.  A ticket or instrument\nissued as evidence of a right of passage upon the high seas, from any\nport in this state, to any port of any other state or nation, and every\ncertificate or order issued for the purpose, or under pretense of\nprocuring any such ticket or instrument, and every receipt for money\npaid for such ticket or instrument must state the name of the vessel on\nboard of which the passage is to be made, the name of the owners or\nconsignees of such vessel, the name of the company, or line, if any, to\nwhich such vessel belongs, its country of registry, the place from which\nsuch passage is to commence, the place where such passage is to\nterminate, the day of the month and year upon which the voyage is to\ncommence, the name of the person purchasing such ticket or instrument,\nor receiving such order, certificate or receipt, and the amount paid\ntherefor; and such ticket or instrument, order, certificate or receipt,\nunless sold or issued by the owners or consignees of such vessel, must\nbe signed by their authorized agent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

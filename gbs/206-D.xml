@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="206-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-206-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-206-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_206_D">
+        <num>206-D</num>
+        <heading>Posting of rates of various type accommodations</heading>
+        <content>
+          <p>  § 206-d. Posting of rates of various type accommodations. In addition\nto other provisions in this article relating to posting of rates, every\nkeeper of a hotel, motel or inn shall post publicly and conspicuously at\nthe place maintained for the registration of guests so that it can be\neasily and readily seen and read by guests registering, a statement of\nthe charges or rate of charges by the day indicating the standard rates\nfor rooms or suites of different accommodations, and for meals\nfurnished.\n  The standard rates shall be that schedule of rates available to guests\nwho do not qualify for special discounts or rate reductions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

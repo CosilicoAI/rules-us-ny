@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-95-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-95-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="95-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-95-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-95-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-95-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-95-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95_A">
+        <num>95-A</num>
+        <heading>Programs for the aging</heading>
+        <content>
+          <p>  § 95-a. Programs for the aging. Any county, city, town, village or\nschool district is hereby authorized and empowered to establish,\nmaintain and operate programs devoted in whole or in part to the welfare\nof the aging, and to contract with private, nonprofit corporations,\nassociations, institutions or agencies for the operation and maintenance\nof such programs. Any such county, city, town, village or school\ndistrict may appropriate, raise and expend moneys for the purposes of\nestablishing, maintaining and operating, or contracting for the\noperation and maintenance of such programs, and may also receive and\nexpend moneys from the state, the federal government or private\nindividuals, corporations or associations for such purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

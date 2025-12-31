@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1502"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1502"/>
+          <FRBRdate date="2024-06-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1502"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1502/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1502/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1502/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1502/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1502">
+        <num>1502</num>
+        <heading>Overnight notifications</heading>
+        <content>
+          <p>  * § 1502. Overnight notifications. It shall be unlawful for the\ncovered operator of an addictive social media platform to, between the\nhours of 12 AM Eastern and 6 AM Eastern, send notifications concerning\nan addictive feed to a covered minor unless the operator has obtained\nverifiable parental consent to send such nighttime notifications.\n  * NB Effective on the 180th day after the office of the attorney\ngeneral promulgates rules and regulations necessary (see chapter 120 of\n2024 § 5)\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

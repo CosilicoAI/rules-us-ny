@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-505"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-505"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="505"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-505/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-505/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-505/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-505/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_505">
+        <num>505</num>
+        <heading>Guaranty</heading>
+        <subsection eId="sec_505__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a\nseparate guaranty specifically designating the product, fabric or\nrelated material guaranteed, in which case it may be on the invoice or\nother paper relating to such product, fabric or related material; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_505__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\na continuing guaranty filed with the department or with the federal\ntrade commission applicable to any product, fabric or related material\nhandled by a guarantor, in such form as the department or the federal\ntrade commission by rules or regulations may prescribe; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_505__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a\ncontinuing guaranty given by seller to buyer applicable to any product,\nfabric or related material sold or to be sold to buyer by seller in a\nform as the department or the federal trade commission by rules or\nregulations may prescribe.\n  2. The furnishing with respect to any product, fabric or related\nmaterial, of a false guaranty, except by a person relying upon a\nguaranty to the same effect received in good faith and signed by and\ncontaining the name and address of the person residing in the United\nStates by whom the product, fabric or related material guaranteed was\nmanufactured or from whom it was received, with reason to believe the\nproduct, fabric or related material falsely guaranteed may be\nintroduced, sold or transported in commerce, is unlawful.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

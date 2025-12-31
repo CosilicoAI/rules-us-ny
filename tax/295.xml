@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-295"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-295"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="295"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-295/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-295/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-295/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-295/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_295">
+        <num>295</num>
+        <heading>Procedural provisions</heading>
+        <content>
+          <p>  § 295.  Procedural provisions.  The provisions of section two hundred\neleven, except subdivisions one, four and nine thereof, the provisions\nof subdivision three of section two hundred sixteen, and the provisions\nof section two hundred nineteen of this chapter and the provisions of\narticle twenty-seven of this chapter, shall apply to the provisions of\nthis article in the same manner and with the same force and effect as if\nthe language of those sections had been incorporated in full into this\narticle and had expressly referred to the tax under this article, except\nto the extent that any such provision is either inconsistent with a\nprovision of this article or is not relevant to this article, and except\nthat the term "report" shall be read as "return", the term "taxable\nincome" shall be read as "unrelated business taxable income" and the\nterms "corporation" and "foreign corporation" shall be read as\n"taxpayer".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

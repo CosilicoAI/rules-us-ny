@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-CCC"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-CCC"/>
+          <FRBRdate date="2016-10-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343-CCC"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-CCC/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-CCC/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_CCC">
+        <num>343-CCC</num>
+        <heading>Portion of the state highway system to be designated as the "Corporal Tony Casamento Memorial Bridge"</heading>
+        <content>
+          <p>  § 343-ccc. Portion of the state highway system to be designated as the\n"Corporal Tony Casamento Memorial Bridge". The bridge on county route\n28, exits number 34 on the east and westbound Southern state parkway in\nthe town of Babylon, county of Suffolk, shall be designated and known as\nthe "Corporal Tony Casamento Memorial Bridge".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

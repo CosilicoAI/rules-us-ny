@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-106"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="106"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106">
+        <num>106</num>
+        <heading>Deposits by banks and trust companies with other banking corporations and private bankers; restrictions</heading>
+        <content>
+          <p>  § 106. Deposits by banks and trust companies with other banking\ncorporations and private bankers; restrictions.  1. No bank or trust\ncompany shall deposit any of its funds with any other foreign or\ndomestic banking corporation or private banker in an amount exceeding\none hundred per centum of the capital stock, surplus fund and undivided\nprofits of such bank or trust company unless such other banking\ncorporation or private banker has been approved by the superintendent as\na depositary for the purpose of this section, in which case the amount\nso deposited may equal but shall not exceed such per centum of the\ncapital stock, surplus fund and undivided profits of such bank or trust\ncompany as the superintendent shall approve.\n  2. The restrictions contained in this section shall not apply to\ndeposits by any bank or trust company with a federal reserve bank.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

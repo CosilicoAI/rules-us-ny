@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-BBBB*2"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-BBBB*2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1199-BBBB*2"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-BBBB*2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-BBBB*2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1199-BBBB*2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1199-BBBB*2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1199_BBBB*2">
+        <num>1199-BBBB*2</num>
+        <heading>Livingston county water and sewer authority district</heading>
+        <content>
+          <p>  * § 1199-bbbb. Livingston county water and sewer authority district.\nThere is hereby defined and established a district to be known as the\n"Livingston county water and sewer authority district" which shall\nembrace all of the territory located within the county of Livingston.\n  * NB There are 2 § 1199-bbbb's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

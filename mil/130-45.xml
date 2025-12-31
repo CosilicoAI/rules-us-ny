@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.45"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.45"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_45">
+        <num>130.45</num>
+        <heading>Pleas of the accused</heading>
+        <subsection eId="sec_130_45__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If an accused after arraignment\nmakes any irregular pleading, or after a plea of guilty sets up matter\ninconsistent with the plea, or if it appears that he has entered the\nplea of guilty improvidently or through lack of understanding of its\nmeaning and effect, or if he fails or refuses to plead, a plea of not\nguilty shall be entered in the record and the court shall proceed as\nthough he had pleaded not guilty.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_45__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>With respect to any charge or specification to which a plea of\nguilty has been made by the accused and accepted by the military judge\nor by a court-martial without a military judge, a finding of guilty of\nthe charge or specification may, if permitted by regulations issued\npursuant to this chapter, be entered immediately without vote. This\nfinding shall constitute the finding of the court unless the plea of\nguilty is withdrawn prior to announcement of the sentence, in which\nevent the proceeding shall continue as though the accused had pleaded\nnot guilty.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

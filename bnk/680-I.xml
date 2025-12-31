@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-680-I"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-680-I"/>
+          <FRBRdate date="2025-12-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="680-I"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-680-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-680-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-680-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-680-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_680_I">
+        <num>680-I</num>
+        <heading>Injunction or similar relief</heading>
+        <content>
+          <p>  * § 680-i. Injunction or similar relief. A court may enjoin, or grant\nsimilar relief that would have the effect of enjoining, a bank from\npaying a depositor or beneficiary only if payment would constitute a\nmaterial fraud or facilitate a material fraud with respect to a special\ndeposit.\n  * NB Effective January 1, 2026\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

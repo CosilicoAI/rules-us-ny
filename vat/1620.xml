@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1620"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1620"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1620"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1620/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1620/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1620/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1620/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1620">
+        <num>1620</num>
+        <heading>Speed limits on state highways, and on Indian reservations</heading>
+        <subsection eId="sec_1620__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The department of transportation with respect to state highways\nmaintained by the state outside of cities having a population in excess\nof one million, and highways on Indian reservations, may by order, rule\nor regulation establish higher or lower maximum speed limits at which\nvehicles may proceed on or along such highways than the fifty-five miles\nper hour statutory maximum speed limit. No such maximum speed limit\nshall be established at less than twenty-five miles per hour, except\nthat school speed limits may be established at not less than fifteen\nmiles per hour, for a distance not to exceed one thousand three hundred\ntwenty feet, on a highway passing a school building, entrance or exit of\na school abutting on the highway. Absence of signs installed pursuant to\nthis section shall be presumptive evidence that the department of\ntransportation has not established a higher maximum speed limit than the\nfifty-five miles per hour statutory limit.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1620__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The department of transportation, whenever it determines on the\nbasis of an engineering and traffic investigation that slow speeds on\nany part of a controlled-access state highway maintained by the state\noutside of cities having a population in excess of one million\nconsistently impede the normal and reasonable flow of traffic, may\nestablish minimum speed limits below which vehicles may not proceed on\nor along such highway,\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1620__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The department of transportation may determine the maximum speed\nwhich may be maintained without structural damage to bridges and\nelevated structures that are a part of any state highway maintained by\nthe state, and, if such maximum speed is lower than the maximum speed\nlimit otherwise applicable, may by order, rule or regulation establish\nsuch lower maximum speed limit at which vehicles may proceed on any such\nbridge or structure.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

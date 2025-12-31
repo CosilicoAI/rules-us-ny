@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-5.1"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-5.1"/>
+          <FRBRdate date="2016-10-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-A-5.1"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-5.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-5.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-5.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-5.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_A_5_1">
+        <num>13-A-5.1</num>
+        <heading>Relation to electronic signature in global and national</heading>
+        <subsection eId="sec_13_A_5_1__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of such act, 15\nU.S.C. section 7001</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_5_1__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>, or authorize electronic delivery of any of the\nnotices described in section 103</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_5_1__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of such act, 15 U.S.C. section\n7003</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_5_1__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

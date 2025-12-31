@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-202-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-202-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="202-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-202-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-202-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-202-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-202-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_202_A">
+        <num>202-A</num>
+        <heading>False advertising</heading>
+        <subsection eId="sec_202_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>that restraining the dissemination of a false\nadvertisement in any particular issue of such publication would delay\nthe delivery of such issue after the regular time therefor, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_202_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that\nsuch delay would be due to the methods by which the manufacture and\ndistribution of such publication is customarily conducted by the\npublisher in accordance with sound business practice, and not to any\nmethod or device adopted for evasion of this section or to prevent or\ndelay the issuance of an injunction or restraining order with respect to\nsuch false advertisement or any other advertisement, the commissioner\nshall exclude such issue from the operation of the restraining order or\ninjunction.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-265"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-265"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="265"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-265/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-265/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-265/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-265/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_265">
+        <num>265</num>
+        <heading>Detention</heading>
+        <content>
+          <p>  § 265. Detention.  Whoever wilfully detains any book, newspaper,\nmagazine, pamphlet, manuscript or other property belonging to any public\nor incorporated library, reading-room, museum or other educational\ninstitution, for thirty days after notice in writing to return the same,\ngiven after the expiration of the time which by the rules of such\ninstitution, such article or other property may be kept, shall be\npunished by a fine of not less than one nor more than twenty-five\ndollars, or by imprisonment in jail not exceeding six months, and the\nsaid notice shall bear on its face a copy of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

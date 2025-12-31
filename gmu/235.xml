@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-235"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-235"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="235"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-235/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-235/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-235/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-235/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235">
+        <num>235</num>
+        <heading>Officers, expenses and assistance</heading>
+        <content>
+          <p>  § 235. Officers, expenses and assistance. The commission shall elect\nannually, a chairman from its own members. It shall have the power and\nauthority to employ experts, clerks, and a secretary, and to pay for\ntheir services and such other expenses as may be necessary and proper,\nnot exceeding, in all, the annual appropriation that may be made by said\ncity or village for said commission. The body creating the commission\nshall by ordinance or resolution provide what compensation if any, each\nof such commissioners shall receive for his services as such\ncommissioner.  Each city and incorporated village is hereby authorized\nand empowered to make such appropriation as it may see fit for such\nexpenses and compensation, such appropriations to be made by those\nofficers or bodies in such city or village having charge of the\nappropriation of the public funds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

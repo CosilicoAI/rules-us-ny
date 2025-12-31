@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-160"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-160"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-160"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-160/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-160/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-160/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-160/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_160">
+        <num>6-160</num>
+        <heading>Primaries</heading>
+        <content>
+          <p>  § 6-160. Primaries. 1. If more candidates are designated for the\nnomination of a party for an office to be filled by the voters of the\nentire state than there are vacancies, the nomination or nominations of\nthe party shall be made at the primary election at which other\ncandidates for public office are nominated and the candidate or\ncandidates receiving the most votes shall be the nominees of the party.\n  2. All persons designated for uncontested offices or positions at a\nprimary election shall be deemed nominated or elected thereto, as the\ncase may be, without balloting.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-S"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-S"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120-S"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-S/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-S/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-S/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-S/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_S">
+        <num>120-S</num>
+        <heading>Joint meeting for acquisition and operation of property</heading>
+        <content>
+          <p>  § 120-s. Joint meeting for acquisition and operation of property.  The\njoint meeting representing any two or more of such municipalities, as\naforesaid, shall have power with their consent and on their behalf and\nby its own proper officers to enter into any contract and to acquire, by\npurchase or condemnation, and to hold, maintain and operate any\nproperty, necessary or desirable for any of the purposes authorized as\naforesaid, as fully and to the same extent as any municipality acting\nseverally.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-216"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-216"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="216"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-216/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-216/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-216/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-216/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216">
+        <num>216</num>
+        <heading>Capital stock</heading>
+        <content>
+          <p>  § 216. Capital stock. The capital stock of such corporation shall be\nfive hundred thousand shares of common and preferred stock, in such\namounts as shall be established in the by-laws by the board of\ndirectors, with the preferred stock having such relative rights,\npreferences and limitations as shall be established in the by-laws by\nthe board of directors.  At least a majority of the capital stock of\nsuch corporation shall at all times be held by residents of the state or\nby persons, firms or corporations engaged in doing business therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

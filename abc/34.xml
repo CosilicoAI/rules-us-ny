@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-34"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-34"/>
+          <FRBRdate date="2023-10-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="34"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-34/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-34/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-34/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-34/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34">
+        <num>34</num>
+        <heading>Mead and braggot tasting</heading>
+        <content>
+          <p>  § 34. Mead and braggot tasting. Any person holding a retail license\nunder this chapter shall be permitted to conduct consumer tastings of\nmead and braggot upon such person's licensed premises. All such tastings\nshall be subject to the following limitations:\n  1. Tastings of mead and braggot shall be conducted by the licensee or\nan authorized agent of the licensee. Provided, however, a licensed\nwholesaler shall not serve as the authorized agent for another entity,\nnor shall a licensed wholesaler be involved in any manner with a mead or\nbraggot tasting conducted by another entity.\n  2. No more than three samples of mead and/or braggot may be provided\nto a person in one calendar day.\n  3. No sample may exceed three fluid ounces.\n  4. No tasting shall be held during the hours prohibited by the\nprovisions of section one hundred five of this chapter.\n  5. Any liability stemming from a right of action resulting from a\ntasting authorized by this section and in accordance with the provisions\nof sections 11-100 and 11-101 of the general obligations law shall\naccrue to the licensee.\n  6. No person under the age of twenty-one shall be permitted to serve a\nsample or handle an open container of mead or braggot.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

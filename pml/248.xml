@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-248"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-248"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="248"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-248/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-248/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-248/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-248/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_248">
+        <num>248</num>
+        <heading>Racing season; allotment of dates for racing</heading>
+        <content>
+          <p>  § 248. Racing season; allotment of dates for racing. In the assignment\nof dates by the commission to corporations for conducting running races\nor steeplechases no conflict shall be deemed to exist by reason of\nduplication of dates as between race meetings in the first zone and race\nmeetings in the second zone, nor as between race meetings within a zone\nif the race courses at which such meetings are held are at least\nthirty-five miles apart in the first zone and at least seventy-five\nmiles apart in the second zone, except that a minimum of thirty-six days\nof racing shall be assigned exclusively to the second zone unless the\ngovernor determines that a sufficient emergency exists for reducing such\nnumber of days of racing, in which event the commission is then\nauthorized to assign a lesser number of days of racing to the second\nzone. The commission may separately apportion to the several\ncorporations licensed or franchised to conduct running races or\nsteeplechases as many of the racing days for the season, not to exceed\nthe maximum number of racing days permitted by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

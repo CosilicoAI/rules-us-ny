@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-9"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-9"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-9/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-9/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-9/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-9/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9">
+        <num>9</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 9. Definitions. For the purposes of this article, the following\nterms shall mean:\n  1. "World Trade Center rescue" shall mean any activity involving an\nemployee of a private voluntary hospital that worked rescue operations\nunder contract with the city of New York under direction of the fire\ndepartment of the city of New York, conducted between September eleventh\nand September fifteenth, two thousand one inclusive at or in the\nvicinity of the World Trade Center site of the September eleventh, two\nthousand one terrorist attack on the World Trade Center in the city of\nNew York, commonly referred to as "Ground Zero".\n  2. "Vicinity of the World Trade Center site" shall mean anywhere below\na line starting from the Hudson River and Canal Street; east on Canal\nStreet to Pike Street; south on Pike Street to the East River; and\nextending to the lower tip of Manhattan.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

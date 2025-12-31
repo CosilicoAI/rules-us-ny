@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-600"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-600"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="600"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-600/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-600/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-600/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-600/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_600">
+        <num>600</num>
+        <heading>State aid; general requirements</heading>
+        <content>
+          <p>  § 600. State aid; general requirements. In order to be eligible for\nstate aid under this title, a municipality shall be required to do the\nfollowing in accordance with the provisions of this article:\n  1. submit an application to the department for state aid which is\napproved by the commissioner in accordance with section six hundred one\nof this title;\n  2. provide core public health services, as defined in section six\nhundred two of this title, in accordance with an application for state\naid submitted by the municipality and approved by the commissioner;\n  3. submit a community health assessment in accordance with section six\nhundred two-a of this title;\n  4. establish, collect and report fees and revenue for services\nprovided by the municipality, in accordance with section six hundred six\nof this title; and\n  5. appropriate or otherwise make funds available to finance a\nprescribed share of the cost of public health services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

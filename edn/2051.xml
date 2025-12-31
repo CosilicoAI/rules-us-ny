@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2051"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2051"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2051"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2051/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2051/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2051/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2051/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2051">
+        <num>2051</num>
+        <heading>Charging for professional services</heading>
+        <content>
+          <p>  § 2051. Charging for professional services. 1. A lawyer shall not\nsimultaneously be an independent contractor and an employee of a school\ndistrict or board of cooperative educational services for the purpose of\nproviding legal services to such school district or board of cooperative\neducational services.\n  2. A lawyer who is not an employee of a school district or board of\ncooperative educational services, shall not seek to be or be considered,\ntreated or otherwise reported by the school district, or board of\ncooperative educational services as an employee thereof for purposes of\ncompensation, remuneration, health insurance, pension and all\nemployment-related benefits and emoluments associated therewith.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

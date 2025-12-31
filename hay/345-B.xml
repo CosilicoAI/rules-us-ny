@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-345-B"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-345-B"/>
+          <FRBRdate date="2023-11-17" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="345-B"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-345-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-345-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-345-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-345-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_345_B">
+        <num>345-B</num>
+        <heading>Portion of the state highway system to be designated as the "Doc Schelin Memorial Highway"</heading>
+        <content>
+          <p>  * § 345-b. Portion of the state highway system to be designated as the\n"Doc Schelin Memorial Highway". All that portion of the state highway\nsystem constituting state route three hundred forty between Thorpe Drive\nand state route three hundred three in the town of Orangetown, county of\nRockland, shall be designated and known as the "Doc Schelin Memorial\nHighway".\n  * NB There are 4 § 345-b's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

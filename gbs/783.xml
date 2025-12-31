@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-783"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-783"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="783"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-783/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-783/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-783/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-783/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_783">
+        <num>783</num>
+        <heading>Disposition of security</heading>
+        <content>
+          <p>  § 783. Disposition of security. 1. Upon transfer of title of the home\nto the vendee the bond posted pursuant to this article shall be\nreleased, and any funds held in escrow pursuant to the provisions of\nthis article, together with interest accumulated thereon shall become\nthe property of the vendor, unless otherwise agreed between the vendor\nand vendee.\n  2. Upon default by the vendor, the vendee may demand return of his\ndeposit or deposits from the vendor. If the vendor has placed the\ndeposit or deposits in an escrow account pursuant to the provisions of\nthis article, he shall physically transfer the account to the vendee, or\npay the balance of said account to the vendee within fourteen business\ndays after the day on which the demand was made. If the vendor has\nposted a bond pursuant to the provisions of this article, the vendee may\ninitiate action for payment thereon if his deposit or deposits have not\nbeen paid to such vendee by the vendor within fourteen business days\nafter the day in which said demand was made.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

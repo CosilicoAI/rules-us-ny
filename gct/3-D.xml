@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-D"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-D"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_D">
+        <num>3-D</num>
+        <heading>Receipts and disbursements of payrolls</heading>
+        <content>
+          <p>  § 3-d. Receipts and disbursements of payrolls. By resolution duly\nadopted, the common council or other legislative body of the city, may\ndetermine to enter into a contract to provide for the deposit of the\nperiodic payroll of the city in a bank or trust company for disbursal by\nit in accordance with provisions of section ninety-six-b of the banking\nlaw.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4406-H"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4406-H"/>
+          <FRBRdate date="2022-04-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4406-H"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4406-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4406-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4406-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4406-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4406_H">
+        <num>4406-H</num>
+        <heading>Health care facility applications</heading>
+        <subsection eId="sec_4406_H__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>whether the facility is credentialed; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4406_H__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>whether\nadditional time is necessary to make a determination because of a\nfailure of a third party to provide necessary documentation. In such\ninstances where additional time is necessary because of a lack of\nnecessary documentation, a health care plan shall make every effort to\nobtain such information as soon as possible and shall make a final\ndetermination within twenty-one days of receiving the necessary\ndocumentation.\n  2. For the purposes of this section, "facility" shall mean a health\ncare provider entity or organization that is licensed or certified\npursuant to article five, twenty-eight, thirty-six, forty, forty-four,\nor forty-seven of this chapter or article sixteen, nineteen, thirty-one,\nthirty-two, or thirty-six of the mental hygiene law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

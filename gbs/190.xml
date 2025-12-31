@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-190"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-190"/>
+          <FRBRdate date="2017-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-190/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-190/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-190/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-190/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190">
+        <num>190</num>
+        <heading>Penalties for violations</heading>
+        <content>
+          <p>  § 190. Penalties for violations. Any person who violates and the\nofficers of a corporation and stockholders holding ten percent or more\nof the stock of a corporation which is not publicly traded, who\nknowingly permit the corporation to violate sections one hundred\nseventy-two, one hundred seventy-three, one hundred seventy-six, one\nhundred eighty-four, one hundred eighty-four-a, one hundred eighty-five,\none hundred eighty-five-a, one hundred eighty-six, or one hundred\neighty-seven of this article shall be guilty of a misdemeanor and upon\nconviction shall be subject to a fine not to exceed two thousand five\nhundred dollars per violation, or imprisonment for not more than one\nyear, or both, by any court of competent jurisdiction. The violation of\nany other provision of this article shall be punishable by a fine not to\nexceed five hundred dollars or imprisonment for not more than thirty\ndays. Criminal proceedings based upon violations of these sections shall\nbe instituted by the commissioner and may be instituted by any persons\naggrieved by such violations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

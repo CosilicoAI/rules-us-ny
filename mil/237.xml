@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-237"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-237"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="237"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-237/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-237/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-237/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-237/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_237">
+        <num>237</num>
+        <heading>Free passage through toll-gates and tunnels and over toll-bridges and ferries</heading>
+        <content>
+          <p>  § 237. Free passage through toll-gates and tunnels and over\ntoll-bridges and ferries.  Any person belonging to the organized militia\nshall, together with the conveyance in his charge and property of the\nstate or of the United States in his charge, be allowed to pass free\nthrough all toll-gates and tunnels and over all toll-bridges and also\nover all ferries if he is in uniform or presents an order for duty or\ncertificate of an order for duty.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

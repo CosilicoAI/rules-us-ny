@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-315"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-315"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="315"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-315/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-315/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315">
+        <num>315</num>
+        <heading>Credit on private road</heading>
+        <content>
+          <p>  § 315. Credit on private road. Any person living upon a private road\nmay be credited on account of his highway taxes in any year an amount\nequal to the value of the work which the town superintendent may deem\nnecessary to be done in such year upon such road. The town\nsuperintendent shall issue to him a statement containing the name of the\nperson, the location of the road, the amount of work so deemed necessary\nto be done, and the value thereof.  Such statement shall be presented to\nthe town board at its annual meeting for the audit of town accounts, and\nif approved by such board, and such work shall have been done, an order\nshall be issued directing the supervisor to pay the sum specified in\nsuch statement to the person therein named, or his assignee, out of\nmoneys in the hands of the supervisor available for highway purposes.\nThe amount so paid in any year shall not exceed the amount payable by\nthe person named in such statement on account of moneys levied in such\ntown for the repair and improvement of highways as provided in this\nchapter. This section shall not apply to private roads or rights of way\nover lands of the owner thereof used by him for his own convenience.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

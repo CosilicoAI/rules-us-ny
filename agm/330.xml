@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-330"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-330"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="330"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-330/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-330/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-330/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-330/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_330">
+        <num>330</num>
+        <heading>Matching grant program</heading>
+        <content>
+          <p>  § 330. Matching grant program. 1. Subject to the availability of\nfunds, a matching grant program is hereby established to effectuate the\npurposes of the program. Grants to applicants, other than a county\nagricultural and farmland protection board, shall not exceed\nseventy-five percent of the costs of preparing or implementing a\nfarmland viability plan or portion thereof. Grants to county\nagricultural and farmland protection boards for implementation of an\napproved agricultural protection plan shall not exceed fifty percent of\nthe cost of implementing such plan or portion thereof.\n  2. Project grants shall be awarded on a competitive basis through a\nrequest for proposal process which shall set forth the standards for the\nselection process, the required project proposal format, costs eligible\nfor funding, project implementation, reporting requirements, and such\nother provisions as the commissioner may deem necessary or beneficial in\nimplementing the program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

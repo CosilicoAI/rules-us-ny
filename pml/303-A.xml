@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-303-A"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-303-A"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="303-A"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-303-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-303-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-303-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-303-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_303_A">
+        <num>303-A</num>
+        <heading>Non-managing ownership of standardbred horses</heading>
+        <subsection eId="sec_303_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For\npurposes of this section, a managing owner shall mean a person who\nthrough ownership, lease or designation manages all racing activities\nfor a race horse and is personally responsible for all liabilities\narising therefrom.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_303_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Non-managing owners. There shall be no restriction on the number\nof non-managing owners of a race horse except that no horse shall be\nentered or started that is owned by thirty-five or fewer owners unless\nall such owners are licensed; in the event that a horse is owned by more\nthan thirty-five owners, only those individuals having a three percent\nor greater property interest in such horse shall be required to be\nlicensed as an owner.\n  The commission shall adopt rules and regulations regarding ownership\nof horses not inconsistent with this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

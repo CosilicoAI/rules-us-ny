@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-FF"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-FF"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="89-FF"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-FF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-FF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-FF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-FF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_89_FF">
+        <num>89-FF</num>
+        <heading>Affidavits of service</heading>
+        <content>
+          <p>  § 89-ff. Affidavits of service. It shall be unlawful for a process\nserver to fail to set forth on any affidavit of service or process\nsigned by him his license or registration number if such process server\nis required to be licensed or registered pursuant to any state or local\nlaw and the name and address of any process serving agency from whom he\nobtained the process for service if any.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

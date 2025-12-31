@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-U"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-U"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="342-U"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_U">
+        <num>342-U</num>
+        <heading>Portion of the state highway system to be designated as "Senator Warren M</heading>
+        <content>
+          <p>  § 342-u. Portion of the state highway system to be designated as\n"Senator Warren M. Anderson Expressway". The entire length of interstate\nroute eighty-eight beginning at its intersection with interstate\neighty-one in or about the town of Chenango, continuing northeasterly to\nits intersection with interstate route ninety at exit twenty-five-A of\nthe New York state thruway in or about the city of Schenectady shall be\ndesignated and known as the "Senator Warren M. Anderson Expressway".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-120"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-120"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-120/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-120/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120">
+        <num>120</num>
+        <heading>Payrolls to be certified</heading>
+        <content>
+          <p>  § 120. Payrolls to be certified. All payrolls, or other claims for\ncompensation, for personal services rendered to the town by any person\nother than an elective town officer shall be certified by the town\nofficer or employee of the town having direct supervision of the\nclaimant to the effect that such services indicated on such payroll or\nclaim were actually performed by the person or persons mentioned\ntherein. The town board may, by resolution, determine that, in lieu of\ncertification, these payrolls and claims shall be verified by such\nofficer or employee to the same effect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

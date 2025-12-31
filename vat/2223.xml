@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2223"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2223"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2223"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2223">
+        <num>2223</num>
+        <heading>Display of registration numbers</heading>
+        <content>
+          <p>  § 2223. Display of registration numbers. 1. The registration numbers\nassigned to a snowmobile shall be displayed on the vehicle at all times\nin such manner as the commissioner may, by regulation, prescribe. No\nnumber other than the number assigned to a snowmobile by the\ncommissioner or the identification number of the registration in another\nstate should be painted, attached or otherwise displayed on either side\nof the cowling, except that racing numbers on a snowmobile being\noperated in special events, approved by the commissioner of parks and\nrecreation, may be temporarily displayed for the duration of the race.\n  2. Dealer demonstrator registration numbers shall conform to the\nrequirements set forth in subdivision one of this section with the\nexception that the numbers assigned may be printed upon or attached to a\nremovable plaque or plaques to be temporarily but firmly affixed to the\nsnowmobile being demonstrated or tested.\n  3. Numbers issued to dealers and manufacturers for the purpose of\ndemonstration or testing shall be used exclusively for these purposes\nand no other use is permitted.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

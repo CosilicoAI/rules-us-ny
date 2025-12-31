@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3051"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3051"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3051"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3051/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3051/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3051/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3051/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3051">
+        <num>3051</num>
+        <heading>Legislative findings and statement of purposes</heading>
+        <content>
+          <p>  § 3051. Legislative findings and statement of purposes. The\nlegislature hereby finds and declares that it is necessary for a\nmunicipal assistance corporation to be created to assist the city of\nTroy in providing essential services to its inhabitants without\ninterruption and in creating investor confidence in the soundness of the\nobligations of such city so that it may retain its ability to sell its\nobligations to the public.\n  The legislature further finds that it is in the interest of the state\nof New York and the city of Troy that certain capital programs of the\ncity of Troy be funded, and certain cumulative deficits of the city of\nTroy be liquidated, with the proceeds of debt obligations, including\nsecurities of the municipal assistance corporation for the city of Troy.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

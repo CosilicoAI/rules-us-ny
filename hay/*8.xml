@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*8"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*8"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="*8"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_*8">
+        <num>*8</num>
+        <heading>Portion of the state highway system to be designated as the "Arthur Benson Memorial Highway"</heading>
+        <content>
+          <p>  * § 343-s. Portion of the state highway system to be designated as the\n"Arthur Benson Memorial Highway". All that portion of the state highway\nsystem constituting United States Route two hundred nineteen, in Erie\ncounty from the interchange at New York Route three hundred ninety-one,\nmile marker 219-5312-116.5, in the town of Hamburg, to the terminus of\nthe United States Route two hundred nineteen Expressway at New York\nRoute thirty-nine mile marker 219-5312-103.3, in the town of Concord,\nshall be designated and known as the "Arthur Benson Memorial Highway".\n  * NB There are 12 § 343-s's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

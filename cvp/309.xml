@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-309"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-309"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="309"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-309/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-309/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_309">
+        <num>309</num>
+        <heading>Personal service upon an infant, incompetent or conservatee</heading>
+        <subsection eId="sec_309__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Upon an infant. Personal service upon an infant shall be made by\npersonally serving the summons within the state upon a parent or any\nguardian or any person having legal custody or, if the infant is\nmarried, upon an adult spouse with whom the infant resides, or, if none\nare within the state, upon any other person with whom he resides, or by\nwhom he is employed. If the infant is of the age of fourteen years or\nover, the summons shall also be personally served upon him within the\nstate.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_309__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Upon a person judicially declared to be incompetent. Personal\nservice upon a person judicially declared to be incompetent to manage\nhis affairs and for whom a committee has been appointed shall be made by\npersonally serving the summons within the state upon the committee and\nupon the incompetent, but the court may dispense with service upon the\nincompetent.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_309__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Upon a conservatee. Personal service on a person for whom a\nconservator has been appointed shall be made by personally serving the\nsummons within the state upon the conservator and upon the conservatee,\nbut the court may dispense with service upon the conservatee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

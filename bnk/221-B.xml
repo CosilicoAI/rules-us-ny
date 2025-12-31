@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-B"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="221-B"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221_B">
+        <num>221-B</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 221-b. Definitions. 1. Banking institution. The term "banking\ninstitution", when used in this article, shall mean any entity\nauthorized by its charter to accept deposits and to make loans.\n  2. Foreign banking corporation. The term "foreign banking\ncorporation", when used in this article, shall mean any banking\ninstitution organized under the laws of any jurisdiction other than the\nUnited States, any state of the United States or Puerto Rico.\n  3. Representative. The term "representative" shall mean any person or\nentity engaging in any activity in this state for or on behalf of a\nforeign banking corporation, provided that such activity is not\notherwise permitted by law.\n  4. The superintendent shall be authorized to exempt from the above\ndefinitions such additional persons, entities, activities or classes\nthereof which shall be deemed appropriate in order to effectuate the\npurposes of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

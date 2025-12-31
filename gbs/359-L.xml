@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-L"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="359-L"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_359_L">
+        <num>359-L</num>
+        <heading>Deposit of moneys by fiduciary</heading>
+        <content>
+          <p>  § 359-l. Deposit of moneys by fiduciary. If a fiduciary makes a\ndeposit in a bank to his personal credit of checks drawn by him upon an\naccount against which he is empowered to sign as a fiduciary, or of\nchecks drawn by him upon an account in the name of his principal if he\nis empowered to draw checks thereon, the bank receiving such deposit may\nassume, if acting in good faith and without actual knowledge to the\ncontrary, that the funds so deposited by the fiduciary are funds to\nwhich the fiduciary is personally entitled. Nothing contained in this\nsection shall be deemed to modify or otherwise affect any provision of\nsection ninety-five of the negotiable instruments law, nor to relieve\nsuch bank from any liability imposed upon it by law to the extent of any\npayment or amount which such bank may receive for its benefit from any\nwithdrawal or application of such funds so deposited.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

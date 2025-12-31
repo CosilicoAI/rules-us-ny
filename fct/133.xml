@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-133"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-133"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="133"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-133/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-133/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-133/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-133/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_133">
+        <num>133</num>
+        <heading>Vacancies</heading>
+        <content>
+          <p>  § 133. Vacancies. When a vacancy occurs, otherwise than by expiration\nof term, in the office of judge of the family court in a county not\nwithin the city of New York, the vacancy shall be filled for a full term\nat the next general election held not less than three months after such\nvacancy occurs and, until the vacancy shall be so filled, the governor\nby and with the advice and consent of the senate, if the senate shall be\nin session, or, if the senate not be in session, the governor may fill\nsuch vacancy by an appointment which shall continue until and including\nthe last day of December next after the election at which the vacancy\nshall be filled.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

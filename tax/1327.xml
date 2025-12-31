@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1327"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1327"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1327"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1327/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1327/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1327/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1327/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1327">
+        <num>1327</num>
+        <heading>Change of resident status during year</heading>
+        <subsection eId="sec_1327__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. If an\nindividual changes his status during his taxable year from city resident\nto city nonresident, or from city nonresident to city resident, he shall\nfile one return as a city resident for the portion of the year during\nwhich he is a city resident, and a return under a local law authorized\nby article thirty-B of this chapter for the portion of the year during\nwhich he is a city nonresident, subject to such exceptions as the state\ntax commission may prescribe by regulation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1327__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Trusts. If the status of a trust changes during its taxable year\nfrom city resident to city nonresident, or from city nonresident to city\nresident, the fiduciary shall file one return as a city resident trust\nfor the portion of the year during which the trust is a city resident\ntrust, and a return under a local law authorized by article thirty-B of\nthis chapter for the portion of the year during which the trust is a\ncity nonresident trust, subject to such exceptions as the state tax\ncommission may prescribe by regulations.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1327__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Computation of net state tax. When an individual or trust changes\nresident status during the taxable year, the net state tax shall be the\nnet state tax determined as if such individual or trust were a state\nresident for the entire taxable year, multiplied by a fraction the\nnumerator of which is such individual's or trust's New York adjusted\ngross income for the period of residence, computed as if the taxable\nyear for federal tax purposes were limited to the period of residence,\nand the denominator of which is such individual's or trust's New York\nadjusted gross income for the entire taxable year. For purposes of the\npreceding sentence, New York adjusted gross income means New York\nadjusted gross income determined under article twenty-two of this\nchapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-56"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-56"/>
+          <FRBRdate date="2017-05-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="56"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-56/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-56/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-56/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-56/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_56">
+        <num>56</num>
+        <heading>License fees</heading>
+        <subsection eId="sec_56__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>four thousand dollars for a brewer's license, unless the annual\nproduction of the brewer is less than seventy-five thousand barrels per\nyear, in which case the annual fee shall be three hundred twenty\ndollars;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_56__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>three hundred twenty dollars for a farm brewery license.\n  2. The annual fee for a wholesaler's beer license shall be eight\nhundred dollars.\n  3. The annual fee for a vendor's license shall be one hundred\nforty-four dollars.\n  4. The annual fee for a license to sell beer at retail not to be\nconsumed on the premises where sold shall be one hundred ten dollars.\nWhere, however, the applicant is the holder of two such licenses, the\nannual fee for each additional license thereafter issued to such\nlicensee shall be double the amount hereinabove set forth.\n  5. The annual fee for a license to sell beer at retail to be consumed\non the premises where sold shall be three hundred twenty dollars in\ncities having a population of one hundred thousand or over, and one\nhundred sixty dollars elsewhere; provided, however, that where the\npremises to be licensed remain open only within the period commencing\nApril first and ending October thirty-first of any one year or only\nwithin the period commencing October first and ending the following\nApril thirtieth, the liquor authority, in its discretion, may grant a\nsummer or winter license effective only for such appropriate period of\ntime, for which an annual fee of one hundred sixty dollars shall be paid\nwhere the premises are located in cities having a population of one\nhundred thousand or over, and eighty dollars where such premises are\nlocated elsewhere.\n  6. The annual fee for selling beer upon any railroad car to be\nconsumed on such car or any car connected therewith shall be ninety-six\ndollars for each railroad car licensed.\n  7. The annual fee for selling beer upon any vessel in this state,\nother than one regularly and exclusively engaged in the business of\ncarrying passengers for hire, by charter or otherwise, for fishing\npurposes, to be consumed on such vessel, shall be one hundred sixty\ndollars for each vessel licensed. The annual fee for selling beer upon a\nvessel regularly and exclusively engaged ...</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

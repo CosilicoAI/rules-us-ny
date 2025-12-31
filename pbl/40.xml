@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-40"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40">
+        <num>40</num>
+        <heading>Exchange of unappropriated state lands</heading>
+        <content>
+          <p>  § 40. Exchange of unappropriated state lands.  The commissioner of\ngeneral services may, from time to time, exchange a part or all of any\nparcel or parcels of unappropriated state lands for real property\nrequired by or of benefit to the state of New York and in which title is\nheld by the United States of America or a city, incorporated village,\ntown or county when the combined value of such unappropriated state\nlands and required real property does not exceed five hundred thousand\ndollars. An appraisal of the value of the real property to be acquired\nby the state and of the property to be conveyed by the state shall be\ncompleted by a qualified professional real estate appraiser. If the\nvalue of either property is in excess of one hundred thousand dollars,\ntwo appraisals of that property shall be required prior to the exchange.\nThe terms and conditions of such exchange, including any monetary\nconsideration to be paid to equalize the value of such exchange\nproperties, shall be subject to the prior approval of the state\ncomptroller. The attorney general shall approve the title to the lands\nto be thus acquired by the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

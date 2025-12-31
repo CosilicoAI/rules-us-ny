@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-116"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-116"/>
+          <FRBRdate date="2022-07-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-116"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_116">
+        <num>7-116</num>
+        <heading>Ballots; order of names on</heading>
+        <subsection eId="sec_7_116__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In cases where a name is added to or removed from the ballot by\ncourt order too late to make a complete adjustment to these requirements\nfeasible, the name may be added at the end of the list of candidates in\nall election districts, or removed from the ballot in all election\ndistricts without changing the previously arranged order of other names\nand without invalidating the election. Any inadvertent error in the\norder of names discovered too late to correct the order of the names on\nthe ballots concerned shall not invalidate an election.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7_116__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except where a contest or candidate is removed from the ballot by\ncourt order too late to make complete compliance with this paragraph\nfeasible, the title of each public office or party position and the\nnames of the candidates for such office or position appearing on any\nballot used for primary elections over which the county board of\nelections has jurisdiction shall appear on such ballot immediately\nadjacent to one another, either horizontally or vertically; and no blank\nspaces shall separate the names of candidates actually running for an\noffice or party position on such ballot, and no blank spaces shall\nseparate any two such offices or positions which appear on such ballot\nin the same column or row.\n  7. Whenever a county board of elections or the board of elections in\nthe city of New York must conduct a primary election in the respective\ncounty or the city of New York in which separate contests for candidates\nof different genders for the same party position are to be printed upon\nthe ballots, and when rules require these positions be listed separately\non the ballot, the respective county board of elections or the board of\nelections in the city of New York shall determine by lot the order of\nthe various gendered contests. This lottery will be conducted separately\nfor each election that is separated by gender.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

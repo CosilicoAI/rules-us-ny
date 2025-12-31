@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-24"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-24"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="24"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_24">
+        <num>24</num>
+        <heading>Privilege from arrest of officers of courts of record</heading>
+        <content>
+          <p>  § 24. Privilege from arrest of officers of courts of record. An\nofficer of a court of record, appointed or elected pursuant to law, is\nprivileged from arrest, during the actual sitting, which he is required\nto attend, of a term of the court of which he is an officer, and no\nlonger; but an attorney or counselor is not thus privileged, unless he\nis employed in a cause, to be heard at that term.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

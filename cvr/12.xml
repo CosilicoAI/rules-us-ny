@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-12"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-12"/>
+          <FRBRdate date="2022-12-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12">
+        <num>12</num>
+        <heading>Rights of persons accused of crime</heading>
+        <content>
+          <p>  § 12. Rights of persons accused of crime. In all criminal\nprosecutions, the accused has a right to a speedy and public trial, by\nan impartial jury, and is entitled to be informed of the nature and\ncause of the accusation; to be confronted with the witnesses against him\nor her; and to have compulsory process for obtaining witnesses in his or\nher favor.  A noncitizen is not entitled to a jury, composed in part of\nnoncitizens or strangers, in an action or special proceeding civil or\ncriminal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

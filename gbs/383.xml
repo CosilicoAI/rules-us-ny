@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-383"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-383"/>
+          <FRBRdate date="2018-06-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="383"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-383/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-383/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-383/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-383/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_383">
+        <num>383</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 383. Definitions. For the purposes of this article:\n  1. "Bedding" shall mean any mattress or box spring which can be used\nby any human being for sleeping or reclining purposes;\n  2. "New" shall mean any material or article which has not been\npreviously used for any purpose, including by-products produced in the\nmanufacture of new fabric, and material reclaimed from new fabric;\n  3. "Used" shall mean any components, articles or materials from\nbedding not classified as new.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

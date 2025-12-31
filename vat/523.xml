@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-523"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-523"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="523"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-523/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-523/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-523/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-523/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_523">
+        <num>523</num>
+        <heading>Reports</heading>
+        <content>
+          <p>  § 523. Reports. The commissioner shall report to the governor and to\nthe legislature annually with respect to the status of the alcohol and\ndrug rehabilitation program, including therein, among other things, the\nscope and results of procedures for screening and referral of program\nparticipants exhibiting an early stage, of alcoholism or chronic life\nproblem with alcohol, providing that such report shall not contain the\nname of or otherwise identify participants in such program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-612"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-612"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="612"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-612/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-612/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-612/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-612/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_612">
+        <num>612</num>
+        <heading>Sale and rental of video games and films</heading>
+        <content>
+          <p>  § 612. Sale and rental of video games and films. 1. No person,\npartnership or corporation shall sell or rent at retail or attempt to\nsell or rent at retail a video game or film unless a video game rating\nor the rating of the motion picture from which the film was copied is\nclearly displayed on the outside of the case, jacket or other cover of\nthe video game or film.\n  2. This section shall not apply to a "mail order business" as defined\nin section three hundred ninety-six-m of this chapter or to any film\nwhich is a reproduction of a motion picture, concert, musical production\nor other video event, or any video game, which has not been given a\nrating, nor shall it apply to any motion picture or video game which has\nbeen altered subsequent to receiving a rating.\n  3. A violation of subdivision one of this section shall be punishable\nby a civil penalty of not more than one hundred dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

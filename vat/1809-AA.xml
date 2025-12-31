@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1809-AA"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1809-AA"/>
+          <FRBRdate date="2024-05-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1809-AA"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1809-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1809-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1809-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1809-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1809_AA">
+        <num>1809-AA</num>
+        <heading>Mandatory surcharge required for certain parking violations</heading>
+        <content>
+          <p>  § 1809-aa. Mandatory surcharge required for certain parking\nviolations.  1. Notwithstanding any other provision of law, whenever\nproceedings in an administrative tribunal or court result in a\nconviction for a violation of section twelve hundred, twelve hundred one\nor twelve hundred two of this chapter, except an adjudication of\nliability of an owner for a violation of bus operation-related traffic\nregulations as defined by article twenty-four of this chapter imposed\npursuant to a demonstration program imposing monetary liability on the\nowner of a vehicle for failure of an operator thereof to comply with\nsuch bus operation-related traffic regulations through the installation\nand operation of bus operation-related photo devices, in accordance with\narticle twenty-four of this chapter, there shall be levied a mandatory\nsurcharge in addition to any other sentence, fine or penalty otherwise\npermitted or required, in the amount of twenty-five dollars.\n  2. The mandatory surcharge provided for in subdivision one of this\nsection shall be paid to the clerk of the court or administrative\ntribunal that rendered the conviction. Within the first ten days of the\nmonth following collection of the surcharge the collecting authority\nshall pay such money to the state comptroller who shall deposit such\nmoney in the state treasury pursuant to section one hundred twenty-one\nof the state finance law to the credit of the general fund.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-14"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-14"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-14/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-14/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-14/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-14/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14">
+        <num>14</num>
+        <heading>Rules and regulations for state highways</heading>
+        <content>
+          <p>  § 14. Rules and regulations for state highways. The commissioner of\ntransportation is hereby empowered to make rules and regulations from\ntime to time for the protection of any state highway or section thereof.\nHe may prohibit the use of chains or armored tires by motor vehicles\nupon such highways, and any violation of this section shall be\npunishable as a traffic infraction. Any person convicted of a violation\nof this section shall for a first conviction thereof be punished by a\nfine of not more than fifty dollars or by imprisonment for not more than\nfifteen days or by both such fine and imprisonment; for a second such\nconviction within eighteen months thereafter such person shall be\npunished by a fine of not more than one hundred dollars or by\nimprisonment for not more than forty-five days or by both such fine and\nimprisonment; upon a third or subsequent conviction within eighteen\nmonths after the first conviction such person shall be punished by a\nfine of not more than two hundred fifty dollars or by imprisonment for\nnot more than ninety days or by both such fine and imprisonment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

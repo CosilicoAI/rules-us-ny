@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-103"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="103"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_103">
+        <num>103</num>
+        <heading>Exemption from taxation</heading>
+        <content>
+          <p>  § 103. Exemption from taxation.  The bonds and securities issued by\nthe city and the income or profits therefrom, the railroads and property\nowned by the city and the gross receipts or income derived from such\nrailroads and property or from the operation thereof, and the\ntransportation or right to or privilege of transportation of persons or\nproperty upon any such railroads, shall at all times be free from\ntaxation or assessment by the state or by any subdivision thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

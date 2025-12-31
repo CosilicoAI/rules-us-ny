@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-216"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-216"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="216"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-216/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-216/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-216/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-216/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_216">
+        <num>216</num>
+        <heading>Disposition of uncommitted balance of employees' contributions</heading>
+        <content>
+          <p>  § 216. Disposition of uncommitted balance of employees' contributions.\nWhenever any arrangement for the provision of benefits as set forth in\nsection two hundred eleven is terminated, any uncommitted balance of\nemployee contributions shall be utilized only to pay accrued benefits\nand to provide benefits under this article. On the liquidation of a\ncovered employer's business, or when he shall cease to be a covered\nemployer, any such sums so remaining in excess of those required to\ndischarge obligations under this article may be used for the benefit of\nemployees on a reasonable basis approved by the chairman, and any such\nsums not so used shall be promptly paid to the chairman for deposit in\nthe fund created under section two hundred fourteen.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

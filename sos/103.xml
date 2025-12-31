@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-103"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="103"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_103">
+        <num>103</num>
+        <heading>Seizure of property of persons liable for support</heading>
+        <content>
+          <p>  § 103.  Seizure of property of persons liable for support.  The\nresponsible public welfare official may apply to a court having\njurisdiction in actions involving an amount equal to the value of\nproperty to be seized for a warrant to seize the real or personal estate\nof a person who absents himself, leaving any one for whose support he is\nliable dependent upon public support or liable to become so dependent.\nIf such a warrant be issued, the public welfare official may seize the\nproperty and apply the proceeds as directed by the court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

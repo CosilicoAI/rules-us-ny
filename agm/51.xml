@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-51"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-51"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-51/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-51/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51">
+        <num>51</num>
+        <heading>Milk inspection</heading>
+        <content>
+          <p>  § 51. Milk inspection.  The commissioner or his agent, in inspecting\nmilk for the purpose of analysis to determine the percentage of fat or\nother milk solids, shall take duplicate samples thereof and shall seal\nboth samples, and shall tender, and, if accepted, deliver one sample to\nthe person from whom the milk was taken. When samples are taken from the\nproducer of the milk sampled or his agent, at a place other than the\ndairy where the milk was produced, the commissioner or his agent shall\nwithin ten days thereafter, with the consent of the producer, take\nduplicate samples of the mixed milk of the herd of cows from which the\nmilk first sampled was drawn, and shall deliver one such sample to the\nproducer or his agent and shall submit the other to analysis. If upon\nanalysis it proves to contain no higher percentage of milk solids, or no\nhigher percentage of fat, or has no lower freezing temperature than the\nsample first taken, then no action shall lie against the producer for\nviolation of standards as established by the commissioner pursuant to\nthe provisions of section forty-six-a. If the producer refuses to allow\nsuch herd sample to be taken, then the producer shall be precluded from\noffering any evidence that the milk from which the first sample was\ntaken was just as it came from the cow. Where a sample of milk taken by\nthe commissioner or his agent consists of the entire contents of a\ncontainer unopened at the time of taking, no duplicate need be taken or\ntendered or delivered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

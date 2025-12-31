@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-246"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-246"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="246"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-246/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-246/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-246/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-246/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_246">
+        <num>246</num>
+        <heading>Unlawful conduct</heading>
+        <content>
+          <p>  § 246. Unlawful conduct. It shall be unlawful: 1. For any person to\nact as a dealer unless licensed pursuant to the provisions of this\narticle.\n  2. For any dealer to make any fraudulent charge in respect to any farm\nproduct.\n  3. For any dealer to reject or fail to account and make prompt\npayment, without reasonable cause, for any farm products, bought or\ncontracted to be bought or negotiated to be bought by such dealer.\n  4. For any dealer to discard, dump or destroy, without reasonable\ncause, any farm products received by him or her.\n  5. For any dealer to make any false or misleading statement, or other\nmisrepresentation concerning the condition, quality, grade, quantity or\ndisposition of or condition of the market for any farm products received\nby or bought or contracted to be bought by such dealer, or the purchase\nor sale of which is negotiated by such dealer.\n  6. For any dealer directly or indirectly to purchase for his or her\nown account farm products received by him or her for sale on commission,\nwithout prior authority from or without notifying the consignor thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

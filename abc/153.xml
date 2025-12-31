@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-153"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-153"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="153"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-153/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-153/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-153/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-153/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_153">
+        <num>153</num>
+        <heading>Stills and distilling apparatus</heading>
+        <subsection eId="sec_153__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>where the same has been duly registered in compliance with or has\notherwise complied with the provisions of federal law and regulations\nissued pursuant thereto, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_153__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>where the same is not required to be\nregistered under federal law, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_153__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>where the same is in the possession\nof a duly qualified manufacturer of stills under federal law.\n  The unlawful ownership, operation, possession, control or use of any\nstill or distilling apparatus or illicit alcoholic beverage is a\nnuisance, and each such still and distilling apparatus and illicit\nalcoholic beverage is hereby declared to be a nuisance, and when any\nsuch still or distilling apparatus or illicit alcoholic beverage shall\nbe taken from the possession of any person, the same shall be\nsurrendered and forfeited to the sheriff of the county wherein the same\nshall be taken, except that in a city having a population of\nseventy-five thousand or more, the same shall be surrendered and\nforfeited to the police commissioner or other head of the police force\nor department of said city and except that in the county of Nassau, the\nsame shall be surrendered and forfeited to the commissioner of the\ncounty police department.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

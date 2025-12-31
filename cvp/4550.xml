@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4550"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4550"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4550"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4550/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4550/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4550/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4550/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4550">
+        <num>4550</num>
+        <heading>Admissibility of evidence related to legally protected health activity</heading>
+        <subsection eId="sec_4550__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>sounds in\ntort or contract, (ii) is actionable, in an equivalent or similar\nmanner, under the laws of this state, and (iii) was brought by the\nperson who received reproductive health care or gender-affirming care,\nor the person's legal representative in a manner consistent with\nsubparagraph (iii) of paragraph one of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4550__subsec_g">
+          <num>(g)</num>
+          <content>
+            <p>of section three\nthousand one hundred nineteen of this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

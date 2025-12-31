@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-28"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-28"/>
+          <FRBRdate date="2022-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="28"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-28/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-28/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28">
+        <num>28</num>
+        <heading>Electronic meetings</heading>
+        <content>
+          <p>  § 28. Electronic meetings. Notwithstanding any provision of law,\ncertificate of incorporation or by-laws to the contrary, if the board of\ntrustees of a religious corporation is authorized to determine the place\nof trustee meetings, corporate meetings, congregant or membership\nmeetings, the board of trustees may, in its sole discretion, determine\nthat the meeting shall be held partially or solely by means of\nelectronic communication. In the case of a meeting held solely by\nelectronic communication, the electronic service and/or platform through\nwhich the meeting is held shall be the place of the meeting for purposes\nof this chapter. Meetings conducted partially or solely by means of\nelectronic communications in reliance upon this section and any\nindividual's electronic participation in such meetings shall be subject\nto those guidelines and procedures as the board of trustees adopts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

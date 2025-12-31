@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-88-B"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-88-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="88-B"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-88-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-88-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-88-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-88-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_88_B">
+        <num>88-B</num>
+        <heading>Coverage of employees in state-supported educational institutions</heading>
+        <content>
+          <p>  § 88-b. Coverage of employees in state-supported educational\ninstitutions. Compensations payable under this chapter to employees of\nstate colleges, schools and experiment stations, administered by Cornell\nuniversity, Syracuse university and Alfred university shall be paid from\nthe state insurance fund, and all payments to the state insurance fund\nfor insurance premiums on account of such employees including a\nproportionate share of the administrative expense of the state insurance\nfund on account thereof shall be paid out of the general fund of the\nstate treasury from moneys deposited to the credit of the public\nservices fund therein.\n  The payroll records of the employees so covered shall be established\nand segregated with the approval of the director of the budget.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

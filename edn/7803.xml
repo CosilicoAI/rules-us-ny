@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7803"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7803"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7803"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7803">
+        <num>7803</num>
+        <heading>State board for massage therapy</heading>
+        <content>
+          <p>  § 7803. State board for massage therapy. A state board for massage\ntherapy shall be appointed by the board of regents on recommendation of\nthe commissioner for the purpose of assisting the board of regents and\nthe department on matters of professional licensing and professional\nconduct in accordance with section sixty-five hundred eight of this\ntitle. The board shall be composed of not less than seven persons, four\nof whom shall have been engaged in the teaching, research, or practice\nof massage therapy for at least three years.  The remaining three\nmembers of the board shall be physicians licensed in this state. An\nexecutive secretary to the board shall be appointed by the board of\nregents on recommendation of the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

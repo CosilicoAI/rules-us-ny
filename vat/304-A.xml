@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-304-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-304-A"/>
+          <FRBRdate date="2024-03-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-304-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-304-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-304-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-304-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304_A">
+        <num>304-A</num>
+        <heading>Certified inspectors</heading>
+        <subsection eId="sec_304_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The commissioner shall issue a\ncertificate to an individual authorizing such person to conduct\ninspections under this article. No person shall conduct an inspection\nunless that person is a certified inspector. The commissioner may\nestablish a classified system of certified inspectors.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The fee for filing such an application shall be ten dollars. Such\nfee shall not be refundable. The annual fee for certification as an\ninspector shall be five dollars. A certification shall expire on any\ndate determined by the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner may, by regulation, establish standards of\ncompetency and fitness for certification as an inspector.\n  *</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304_A__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Fees, deposited. Fees assessed under this section shall be paid\nto the commissioner for deposit to the transportation safety account\nestablished pursuant to section ninety-one of the state finance law\nthrough March thirty-first, two thousand four and from April first, two\nthousand four and thereafter shall be deposited to the dedicated highway\nand bridge trust fund.\n  * NB Effective until April 1, 2026\n  *</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_304_A__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Fees, deposited. Fees assessed under this section shall be paid\nto the commissioner for deposit to the transportation safety account\nestablished pursuant to section ninety-one of the state finance law.\n  * NB Effective April 1, 2026\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

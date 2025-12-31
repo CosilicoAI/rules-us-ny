@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-K"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-K"/>
+          <FRBRdate date="2022-12-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131-K"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_K">
+        <num>131-K</num>
+        <heading>Undocumented noncitizens</heading>
+        <content>
+          <p>  § 131-k. Undocumented noncitizens. An otherwise eligible applicant or\nrecipient who has been determined to be ineligible for aid to dependent\nchildren, home relief or medical assistance because such individual is a\nnoncitizen unlawfully residing in the United States or because such\nindividual failed to furnish evidence that such individual is lawfully\nresiding in the United States shall be immediately referred to the\nUnited States immigration and naturalization service, or the nearest\nconsulate of the country of the applicant or the recipient for such\nservice or consulate to take appropriate action or furnish assistance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="382"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382">
+        <num>382</num>
+        <heading>Hydraulic brake fluid</heading>
+        <content>
+          <p>  § 382. Hydraulic brake fluid.  1. On and after January first, nineteen\nhundred sixty no hydraulic brake fluid shall be sold in this state for\nuse in motor vehicles if such brake fluid shall be below the minimum\nstandard of specifications established by the commissioner for heavy\nduty type brake fluid.\n  2. On and after January first, nineteen hundred sixty every package,\ncan or other container of brake fluid sold or distributed or kept for\nsale in this state must meet such specifications; furthermore the label\nthereof must indicate compliance with the specifications.\n  3. Any person who sells, distributes or keeps brake fluid in violation\nof any of the provisions of this section shall be guilty of a\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

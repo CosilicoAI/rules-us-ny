@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-OO"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-OO"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404-OO"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-OO/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-OO/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-OO/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-OO/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404_OO">
+        <num>404-OO</num>
+        <heading>Deposit of service charges for distinctive license plates</heading>
+        <content>
+          <p>  § 404-oo. Deposit of service charges for distinctive license plates.\nNotwithstanding any inconsistent provision of this chapter or of any\nother law, the first six thousand dollars of service charges collected\nfor issuance of distinctive license plates established pursuant to this\narticle on or after the effective date of this section and, unless\notherwise specified, any amounts in excess of such six thousand dollars,\nshall be deposited to the credit of the department of motor vehicles\ndistinctive plate development fund established pursuant to section\nninety-five-g of the state finance law and shall be used for the\nproduction, design, advertising and distribution of such distinctive\nlicense plates established pursuant to this article on or after the\neffective date of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

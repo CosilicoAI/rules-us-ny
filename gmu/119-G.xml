@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-G"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="119-G"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_G">
+        <num>119-G</num>
+        <heading>Contracts</heading>
+        <content>
+          <p>  § 119-g. Contracts. Two or more municipalities are hereby empowered to\nenter into contracts to provide for common drainage facilities,\nincluding joint acquisition, construction, operation and maintenance.\nSuch contracts shall provide for the method of acquisition or\nconstruction of the common facilities; the management and operation of\nthe system; the method of fixing the proportionate share of each\nparticipating municipality and of making contributions; the method of\nmaking annual adjustments of the proportionate shares of the annual cost\nand expense; the adoption of rules and regulations covering the\noperation of the system; the adjudication of disputes and all other\nmatters necessary to effectuate such an arrangement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

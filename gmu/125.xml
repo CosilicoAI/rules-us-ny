@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-125"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-125"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="125"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-125/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-125/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-125/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-125/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_125">
+        <num>125</num>
+        <heading>Issuance of building permits</heading>
+        <content>
+          <p>  § 125. Issuance of building permits. No city, town or village shall\nissue a building permit without obtaining from the permit applicant\neither:\n  1. proof duly subscribed that workers' compensation insurance and\ndisability benefits coverage issued by an insurance carrier in a form\nsatisfactory to the chair of the workers' compensation board as provided\nfor in section fifty-seven of the workers' compensation law is\neffective; or\n  2. an affidavit that such permit applicant has not engaged an employer\nor any employees as those terms are defined in section two of the\nworkers' compensation law to perform work relating to such building\npermit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

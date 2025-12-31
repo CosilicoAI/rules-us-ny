@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-234"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-234"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="234"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-234/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-234/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-234/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-234/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234">
+        <num>234</num>
+        <heading>Legislative findings and intent</heading>
+        <content>
+          <p>  § 234. Legislative findings and intent. The legislature hereby finds,\ndetermines, and declares that:\n  1. There is a necessity to address different approaches to rural\nhealth care delivery in the state. These approaches need to support\ndiverse community and individual needs including unique rural conditions\nsuch as low population density, a large proportion of elderly,\ngeographic isolation, inadequate transportation, absence of economies of\nscale, as well as fluctuating and limited service demands.\n  2. It is often difficult for small, rural health care providers to\nobtain timely information on rural programs.  Also, it is often\nburdensome for these providers to locate the resources to apply for aid\nfrom programs which exist to support rural health care services\ndelivery.\n  3. Both private and public sectors have begun to recognize the urgency\nfor programs that address the unique nature of rural health care access\nand service delivery. New rural health care programs have been estab-\nlished, however, these programs are administered by several\norganizations and municipalities.  Coordination is essential to maximize\ntheir potential impact on the rural community.\n  4. Rural health care providers would greatly benefit if there were a\nsingle office within the department which would coordinate the\nadministration and flow of information on rural health programs by\npromoting innovative and improved approaches to rural health care\ndelivery.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

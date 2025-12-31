@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-180.80"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-180.80"/>
+          <FRBRdate date="2021-05-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="180.80"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-180.80/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-180.80/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-180.80/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-180.80/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_80">
+        <num>180.80</num>
+        <heading>Proceedings upon felony complaint; release of defendant from custody upon failure of timely disposition</heading>
+        <subsection eId="sec_180_80__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The district attorney files with the court a written certification\nthat an indictment has been voted; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_180_80__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>An indictment or a direction to file a prosecutor's information\ncharging an offense based upon conduct alleged in the felony complaint\nwas filed by a grand jury; or\n  3. The court is satisfied that the people have shown good cause why\nsuch order of release should not be issued. Such good cause must consist\nof some compelling fact or circumstance which precluded disposition of\nthe felony complaint within the prescribed period or rendered such\naction against the interest of justice.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

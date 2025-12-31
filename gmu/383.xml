@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-383"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-383"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="383"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-383/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-383/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-383/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-383/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_383">
+        <num>383</num>
+        <heading>Jurisdiction to impose civil penalties</heading>
+        <content>
+          <p>  § 383. Jurisdiction to impose civil penalties.  a. Such local law may\nauthorize such bureau to (1) conduct proceedings for the adjudication of\nthose code or ordinance violations described in section three hundred\neighty of this article for which civil penalties may be imposed, and (2)\nto render decisions and orders and impose the civil penalties provided\nunder law for such violations.\n  b. No person subject to any charges may be sentenced to a term of\nimprisonment upon being found guilty thereof, nor may an administrative\nlaw judge order the arrest or detention of any person, nor may an\nadministrative law judge deprive any person of a right to counsel.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

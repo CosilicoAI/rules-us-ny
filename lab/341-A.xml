@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-341-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-341-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="341-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-341-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-341-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-341-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-341-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341_A">
+        <num>341-A</num>
+        <heading>Unlawfully manufactured apparel</heading>
+        <content>
+          <p>  § 341-a. Unlawfully manufactured apparel. The commissioner shall have\nthe power to affix to any article of apparel or component thereof, in\nthe manufacture or assembly of which any employee was employed in\nviolation of article six or nineteen of this chapter, a tag of no more\nthan six inches in length bearing the words "unlawfully manufactured."\nAny person other than the commissioner, the commissioner's duly\nauthorized representative or consumer of such article of apparel or\ncomponent thereof who removes, alters, defaces or otherwise interferes\nwith such a tag shall be guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

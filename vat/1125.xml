@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1125"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1125"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1125"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1125/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1125/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1125/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1125/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1125">
+        <num>1125</num>
+        <heading>Further limitations on driving to left of center of roadway</heading>
+        <subsection eId="sec_1125__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No vehicle shall at any time be driven to the left side of the\nroadway under the following conditions:\n  1. When approaching the crest of a grade or upon a curve in the\nhighway where the driver's view is obstructed within such distance as to\ncreate a hazard in the event another vehicle might approach from the\nopposite direction;\n  2. When approaching within one hundred feet of or traversing any\nrailroad grade crossing;\n  3. When the view is obstructed upon approaching within one hundred\nfeet of any bridge, viaduct, or tunnel.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1125__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The foregoing limitations shall not apply upon a one-way roadway\nnor to a vehicle in any lane which is at the time allocated exclusively\nto traffic moving in the direction the vehicle is proceeding and is\nmarked to give notice of such allocation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

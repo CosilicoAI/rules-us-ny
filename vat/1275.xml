@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1275"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1275"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1275"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1275/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1275/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1275/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1275/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1275">
+        <num>1275</num>
+        <heading>Lamps and other equipment</heading>
+        <content>
+          <p>  § 1275. Lamps and other equipment. 1. Every electric personal\nassistive mobility device when in use during the period from one-half\nhour after sunset to one-half hour before sunrise shall be equipped with\na lamp on the front which shall emit a white light visible during hours\nof darkness from a distance of at least five hundred feet to the front\nand with a red light visible to the rear for three hundred feet. At\nleast one of these lights shall be visible for two hundred feet from\neach side.\n  2. No person shall operate an electric personal assistive mobility\ndevice unless it is equipped with a bell or other device capable of\ngiving a signal audible for a distance of at least one hundred feet,\nexcept that such device shall not be equipped with nor shall any person\nuse upon such device any siren or whistle.\n  3. Every electric personal assistive mobility device shall be equipped\nwith a system that enables the operator to bring the device to a\ncontrolled stop.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

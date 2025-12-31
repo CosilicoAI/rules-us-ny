@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>Reports of directors' examinations</heading>
+        <content>
+          <p>  § 123. Reports of directors' examinations.  1.  A report in writing of\nany examination made pursuant to the requirements of section one hundred\ntwenty-two of this article, shall be presented to the board of directors\nof such bank or trust company at their next regular meeting after\ncompletion of such examination, and placed on file in such bank or trust\ncompany, and a duplicate thereof filed in the office of the\nsuperintendent. Such report shall contain such information as the\nsuperintendent shall require.\n  2. A report prepared pursuant to part three hundred sixty-three of the\nrules and regulations of the Federal Deposit Insurance Corporation, as\nthe same may be amended from time to time, may, in the sole discretion\nof the superintendent, satisfy the reporting requirements of this\nsection.\n  3. Any report filed in the office of the superintendent shall include\na certificate that such report was presented to the board of directors,\nin the form prescribed by the superintendent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

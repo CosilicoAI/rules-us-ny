@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-851*"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-851*"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="851*"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-851*/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-851*/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-851*/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-851*/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_851*">
+        <num>851*</num>
+        <heading>Comprehensive employment and training act allocation review board</heading>
+        <content>
+          <p>  * § 851 . Comprehensive employment and training act allocation review\nboard. There is hereby created a state comprehensive employment and\ntraining act allocation review board, hereafter referred to in this\narticle as the board, which shall consist of the commissioners of labor,\nsocial services, commerce, three appointees of the governor, one of whom\nshall be designated by the governor as chairman of the board, two\nrepresentatives appointed by the speaker of the assembly, two\nrepresentatives appointed by the temporary president of the state\nsenate, one representative appointed by the minority leader of the state\nsenate, one representative appointed by the minority leader of the\nassembly, nine representatives of comprehensive employment and training\nact prime sponsors who have been selected by the chief executive\nofficers of all twenty-eight prime sponsors in the state of New York.\nMembers of the board shall receive no compensation for their services\nbut shall be reimbursed for all expenses actually and necessarily\nincurred by them in the performance of their duties as herein set forth\nwithin the amount made available by appropriation therefor.\n  * NB Expired March 31, 1979\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

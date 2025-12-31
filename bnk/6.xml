@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6">
+        <num>6</num>
+        <heading>Investment in obligations of housing corporations indirectly guaranteed pursuant to the "Servicemen's Readjustment Act of 1944"</heading>
+        <subsection eId="sec_6__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>secured by a first mortgage lien on\nsuch project, or such part thereof, as was or is to be constructed or\nacquired out of the proceeds of such obligations, either directly or by\nissue under an indenture of mortgage from such corporation to a\ncorporate trustee having its principal office in this state, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nguaranteed indirectly through the pledge as security therefor of\nobligations directly guaranteed under title three of an act of congress\nentitled the "Servicemen's Readjustment Act of 1944", in an aggregate\namount equal to at least thirty per centum of the principal amount of\nall sums advanced to such corporation under the loan instrument or\nindenture during the period of construction and, upon completion, to the\nextent of at least forty per centum of the principal amount of such\nobligations.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

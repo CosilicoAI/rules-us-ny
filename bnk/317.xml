@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-317"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-317"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="317"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-317/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-317/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_317">
+        <num>317</num>
+        <heading>General powers</heading>
+        <content>
+          <p>  § 317. General powers. Every safe deposit company shall, subject to\nthe limitations and restrictions contained in this article, have the\npower:\n  1. To receive upon deposit as bailee for storage, upon terms and\nconditions to be prescribed by the safe deposit company, personal\nproperty and papers of any kind.\n  2. To engage in the safe deposit business by renting vaults, safe\ndeposit boxes and other receptacles upon premises occupied by the safe\ndeposit company upon such terms and conditions as may be prescribed by\nthe safe deposit company.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

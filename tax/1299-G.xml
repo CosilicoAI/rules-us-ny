@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1299-G"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1299-G"/>
+          <FRBRdate date="2018-04-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1299-G"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1299-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1299-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1299-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1299-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1299_G">
+        <num>1299-G</num>
+        <heading>Practice and procedure</heading>
+        <content>
+          <p>  § 1299-G. Practice and procedure. The provisions of article\ntwenty-seven of this chapter shall apply with respect to the\nadministration of and procedure with respect to the surcharge imposed by\nthis article in the same manner and with the same force and effect as if\nthe language of such article twenty-seven had been incorporated in full\ninto this article and had expressly referred to the surcharge imposed by\nthis article, except to the extent that any such provision is either\ninconsistent with a provision of this article or is not relevant to this\narticle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

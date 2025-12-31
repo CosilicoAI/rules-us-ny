@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-118"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-118"/>
+          <FRBRdate date="2016-09-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-118"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-118/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-118/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-118/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-118/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_118">
+        <num>14-118</num>
+        <heading>Treasurer and depository of political committee; filing of name and address</heading>
+        <subsection eId="sec_14_118__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every candidate who receives or expends any money or other\nvaluable thing or incurs any liability to pay money or its equivalent\nshall keep and retain detailed, bound accounts as provided in\nsubdivision one of this section.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_14_118__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Every candidate required to file sworn statements pursuant to\nsubdivision one of section 14-104 of this article, other than a\ncandidate who has filed a statement in lieu thereof at or before the\nfirst filing period as set forth in that section, shall file, in the\noffice or offices in which he or she is required to file his or her\nstatements under section 14-110 of this article, on a form prescribed by\nthe state board for such purposes, a statement providing the name and\naddress of the depository at which they maintain the accounts from which\nhe or she conducts his or her own campaign financial activity.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

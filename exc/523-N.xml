@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-N"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="523-N"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_523_N">
+        <num>523-N</num>
+        <heading>Confidentiality of reports</heading>
+        <content>
+          <p>  § 523-n. Confidentiality of reports. Office of the ombudsman reports\nand reports of the independent review board are confidential and shall\nbe safeguarded from coming to the knowledge of, and from inspection or\nexamination by any person other than the commissioner, other designated\nagency officials for the performance of their official duties and the\nindependent review board. Authorized persons receiving such reports\nshall not divulge information contained therein without the written\nconsent of the commissioner. The authorized disclosure of any such\ninformation shall not contain any individually identifiable information.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

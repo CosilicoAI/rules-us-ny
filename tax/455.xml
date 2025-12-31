@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-455"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-455"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="455"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-455/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-455/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-455/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-455/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_455">
+        <num>455</num>
+        <heading>Receipts exempted from tax</heading>
+        <content>
+          <p>  § 455. Receipts exempted from tax. 1. The gross receipts from any\nsparring, boxing or wrestling match or exhibition conducted under the\nsupervision or the control of the New York state national guard or naval\nmilitia where all of the contestants are members of the active militia\nshall not be subject to the tax imposed by this article.\n  2. The gross receipts from any such match or exhibition where the\ncontestants are all amateurs, sponsored by or under the supervision of\nany university, college, school or other institution of learning,\nrecognized by the regents of the state of New York shall not be subject\nto the tax imposed by this article.\n  3. The gross receipts from any such matches or exhibitions where the\ncontestants are all amateurs sponsored by or under the supervision of\nthe U. S. Amateur Boxing Federation or its local affiliates or the\nAmerican Olympic Association shall not be subject to the tax imposed by\nthis article.\n  4. For the purpose of this section, an amateur is deemed to mean a\nperson who engages in boxing, sparring or wrestling matches and\nexhibitions where no cash prizes are awarded to participants, and where\nthe prize competed for shall not in value exceed thirty-five dollars or,\nin boxing, a maximum amount established by the U.S. Amateur Boxing\nFederation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

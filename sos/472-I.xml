@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-472-I"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-472-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="472-I"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-472-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-472-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-472-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-472-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_472_I">
+        <num>472-I</num>
+        <heading>Quorum to do business</heading>
+        <content>
+          <p>  § 472-i.  Quorum to do business.  Five members of the board shall be a\nquorum provided however in the case where the then current board of\ndirectors is more than fifteen members then six members of the board\nshall be a quorum, and the board may delegate its powers, during the\ninterval between its meetings, to an executive committee of its own\nmembers, whose minutes shall be kept as provided by the by-laws, and\nshall be reported for approval to all stated meetings of the board; but\nno purchase or conveyance of real estate shall be made unless by the\nconcurrence of a majority of the whole board.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

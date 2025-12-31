@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-80"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-80"/>
+          <FRBRdate date="2025-01-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="80"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-80/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-80/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-80/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80">
+        <num>80</num>
+        <heading>Biennial town elections</heading>
+        <content>
+          <p>  § 80. Biennial town elections. Notwithstanding any provision of any\ngeneral, special or local law, charter, code, ordinance, resolution,\nrule or regulation to the contrary, a biennial town election for the\nelection of town officers, other than town justices or any town office\nwith a three-year term prior to January first, two thousand twenty-five,\nand for the consideration of such questions as may be proposed by the\ntown board or the duly qualified electors, pursuant to the provisions of\nthis chapter, shall be held on the Tuesday next succeeding the first\nMonday in November of every even-numbered year. All other town elections\nare special elections. A town election or special town election held\npursuant to this chapter, shall be construed as a substitute, for a town\nmeeting or a special town meeting heretofore provided to be held by law,\nand a reference in any law to a town meeting or special town meeting\nshall be construed as referring to a town election or special town\nelection. Any town completely coterminous with a village shall continue\nto elect its officers, including town justices, in odd-numbered years if\nboth such village and town last held such elections in an odd-numbered\nyear prior to January first, two thousand twenty-five.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

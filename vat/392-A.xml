@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-392-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-392-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="392-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-392-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-392-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-392-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-392-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392_A">
+        <num>392-A</num>
+        <heading>Sale or purchase of stolen, false or fraudulent license, identification card, certificate of registration, or number plate</heading>
+        <content>
+          <p>  § 392-a. Sale or purchase of stolen, false or fraudulent license,\nidentification card, certificate of registration, or number plate. A\nperson who knowingly sells or offers to sell or buys or offers to buy a\nfalse, fraudulent or stolen license, identification card, certificate of\nregistration or number plate, shall be guilty of a misdemeanor as a\nfirst offense and a class E felony as a second or subsequent offense\ncommitted within ten years of the prior offense.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-217"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-217"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-217/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-217/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217">
+        <num>217</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_217__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The term "food salvager" as used in this\narticle, means a person engaged in the business of reconditioning,\nlabeling, relabeling, packing, repacking, sorting, cleaning, culling, or\nby other means salvaging food or food products, single service food\ncontainers and utensils, soda straws, paper napkins or any product of a\nsimilar nature that may have become damaged, contaminated, adulterated\nor misbranded as a result of fire, flood, transit wreck, accident or\nother cause, or by water, smoke, chemicals, or any other adulterating\nagents. The term food salvager shall not include a person who collects\ndonated farm salvage from lands owned, occupied or leased by such person\nwith the intent to donate such farm salvage to a charitable\nnot-for-profit organization provided that such salvage is in fact so\ndonated. A person who manufactures animal feed or an animal feed\ningredient from food products in a facility registered pursuant to\nsection one hundred twenty-nine of this chapter shall not be considered\na food salvager based on such activity.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_217__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Donated farm salvage" shall mean an agricultural crop that is\nunharvested, surplus or unmarketable but otherwise nutritious and\nedible.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

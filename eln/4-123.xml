@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-123"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-123"/>
+          <FRBRdate date="2017-12-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4-123"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_123">
+        <num>4-123</num>
+        <heading>Publication of candidate websites</heading>
+        <content>
+          <p>  § 4-123. Publication of candidate websites. 1. The state board of\nelections shall publish on its website the campaign website address\ndesignated by any candidate for governor, lieutenant governor, attorney\ngeneral, state comptroller, member of the state senate and member of the\nstate assembly on the ballot at the next primary, special or general\nelection, except as provided in subdivision two of this section. Such\ncandidate may notify the state board of elections of his or her website\naddress on such candidate's petition cover sheet or in a separate\nwriting signed by the candidate. Any candidate who does not provide a\nwebsite address shall be listed as having not provided a website address\nfor publication.\n  2. The state board of elections shall not publish any website address\nfound to be unrelated to a candidacy for public office. Such denial to\npublish a website address shall be reviewed only in a special proceeding\nbrought by the candidate pursuant to article seventy-eight of the civil\npractice law and rules.\n  3. The state board of elections shall prominently display the\nfollowing disclaimer with relation to the list of candidate website\naddresses:  "The website addresses published here are designated by the\ncandidate.  The state board of elections is not responsible for and\nexpresses no opinion as to the content of candidate websites."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

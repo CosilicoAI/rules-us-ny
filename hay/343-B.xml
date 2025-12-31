@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-B"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343-B"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_B">
+        <num>343-B</num>
+        <heading>Portion of the state highway system to be designated as "The 94th Infantry Division Memorial Highway</heading>
+        <content>
+          <p>  § 343-b. Portion of the state highway system to be designated as "The\n94th Infantry Division Memorial Highway." That portion of the state\nhighway system beginning at the New York-New Jersey state line, thence\nrunning generally northeasterly on state highway 94 continuing to the\nnorthwestern terminus of highway 94 shall be designated and known as\n"The 94th Infantry Division Memorial Highway."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

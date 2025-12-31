@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2637"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2637"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2637"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2637/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2637/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2637/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2637/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2637">
+        <num>2637</num>
+        <heading>Tax exemptions</heading>
+        <content>
+          <p>  § 2637. Tax exemptions. It is hereby determined that the creation of\nthe commission and the carrying out of its corporate purposes is in all\nrespects for the benefit of the people of the state and is a public\npurpose, and the commission shall be regarded as performing a\ngovernmental function in the exercise of the powers conferred upon it by\nthis title and shall be required to pay no taxes or assessments upon any\nof the property acquired by it or under its jurisdiction or control or\nsupervision or upon its activities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

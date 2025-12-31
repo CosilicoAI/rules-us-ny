@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-150"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-150"/>
+          <FRBRdate date="2018-09-14" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="150"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-150/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-150/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150">
+        <num>150</num>
+        <heading>Legislative findings</heading>
+        <content>
+          <p>  § 150. Legislative findings. The legislature hereby finds and declares\nthat:\n  1. Strong local government has been a major positive factor in the\npolitical, economic and social development of the state;\n  2. The future welfare of the state depends in large measure on the\neffectiveness of local government and of its relationships to state\ngovernment;\n  3. Population shifts and other economic and social trends have brought\nnew problems to local government;\n  4. The state has the responsibility toward local government to\ncoordinate state services and information for the benefit of local\ngovernment, to assist in the solution of its problems, and otherwise to\nhelp local government in making itself as strong and effective as\npossible;\n  5. The need for a more rational planning process requires a high\ndegree of local, state and interstate cooperation;\n  6. The need for a single state agency to review and comment on local\nplanning efforts of statewide significance, state agency planning and\ninterstate planning commission programs is recognized;\n  7. A common data base developed by the official state planning agency\nin conjunction with planning efforts at all levels of government is\nessential to effective planning; and\n  8. State planning and development policies should promote planning\nprograms among state agencies and between levels of government that\nmaximize environmental and economic benefits to the localities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

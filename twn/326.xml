@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-326"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-326"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="326"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-326/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-326/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-326/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-326/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_326">
+        <num>326</num>
+        <heading>Erection and discontinuance of pounds</heading>
+        <content>
+          <p>  § 326. Erection and discontinuance of pounds. Whenever the electors of\nany town shall determine at a biennial town election to erect one or\nmore pounds therein, and whenever a pound shall now be erected in any\ntown, the same shall be kept under the care and direction of a\npound-master, to be appointed for that purpose. The electors of any town\nmay, at a biennial town election, discontinue any pounds therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

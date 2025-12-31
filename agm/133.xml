@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-133"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-133"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="133"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-133/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-133/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-133/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-133/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_133">
+        <num>133</num>
+        <heading>Prohibited acts</heading>
+        <content>
+          <p>  § 133. Prohibited acts. No person in this state shall commit or cause\nany of the following acts:\n  1. The manufacture or distribution of any commercial feed that is\nadulterated or misbranded.\n  2. The adulteration or misbranding of any commercial feed.\n  3. The distribution of agricultural commodities such as whole seed,\nhay, straw, stover, silage, cobs, husks, and hulls, which are\nadulterated within the meaning of section one hundred thirty-two of this\narticle.\n  4. The removal or disposal of a commercial feed in violation of a\nseizure or stop sale order under section one hundred thirty-five-b of\nthis article.\n  5. The failure or refusal to register in accordance with section one\nhundred twenty-nine of this article or to obtain a license in accordance\nwith section one hundred twenty-eight-a of this article.\n  6. The failure to submit tonnage reports or fees as required by\nsection one hundred thirty-three-a of this article.\n  7. The failure to maintain records or submit reports as required by\nsection one hundred thirty-four of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

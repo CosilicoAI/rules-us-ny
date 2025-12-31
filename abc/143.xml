@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-143"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-143"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="143"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-143/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-143/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-143/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-143/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_143">
+        <num>143</num>
+        <heading>Filing certificate of result with liquor authority</heading>
+        <content>
+          <p>  § 143. Filing certificate of result with liquor authority.  Whenever\nat an election a vote shall be taken on the local option questions\npursuant to sections one hundred forty-one or one hundred forty-two in\nany town or city, the officer or board charged by law with the duty of\nfiling a statement of the result and certificate of determination of\nsuch election shall file a duplicate thereof with the liquor authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

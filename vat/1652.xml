@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1652"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1652"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1652"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1652/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1652/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1652/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1652/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1652">
+        <num>1652</num>
+        <heading>Special speed limits on bridges and other elevated structures</heading>
+        <content>
+          <p>  § 1652. Special speed limits on bridges and other elevated structures.\nThe county superintendent of highways of a county may determine the\nmaximum speed which may be maintained without structural damage to\nbridges and elevated structures that are a part of any county road in\nsuch county and, if such maximum speed is lower than the maximum speed\nlimit otherwise applicable, may by order, rule or regulation establish\nsuch lower maximum speed limit at which vehicles may proceed on such\nbridge or structure.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-644"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-644"/>
+          <FRBRdate date="2022-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="644"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-644/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-644/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-644/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-644/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_644">
+        <num>644</num>
+        <heading>Local regulation</heading>
+        <content>
+          <p>  § 644. Local regulation. Nothing in this article shall be construed to\nrestrict the power of any county, city, town or village to adopt and\nenforce local laws, ordinances or regulations which exceed the minimum\nrequirements of this article, as long as such local laws, ordinances or\nregulations are not inconsistent with the provisions of this article.\nAny local laws or rules regulating weight loss services and products in\na city having a population of one million or more and which were in\neffect prior to the effective date of this article and any notice\nprovided pursuant to such law or rule, shall be deemed to be consistent\nwith the provisions of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

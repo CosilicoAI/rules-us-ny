@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-220.51"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-220.51"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="220.51"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-220.51/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-220.51/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-220.51/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-220.51/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_51">
+        <num>220.51</num>
+        <heading>Notice before entry of plea or trial involving a public official</heading>
+        <content>
+          <p>§ 220.51 Notice before entry of plea or trial involving a public\n           official.\n  Prior to trial, and before accepting a defendant's plea to a count or\ncounts of an indictment or a superior court information charging a\nfelony offense, the court must individually advise the defendant, on the\nrecord, that if at the time of the alleged felony crime the defendant\nwas a public official, as defined in subdivision six of section one\nhundred fifty-six of the retirement and social security law, the\ndefendant's plea of guilty and the court's acceptance thereof or\nconviction after trial may result in proceedings for the reduction or\nrevocation of such defendant's pension pursuant to article three-B of\nthe retirement and social security law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

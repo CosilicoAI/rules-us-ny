@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-106"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="106"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106">
+        <num>106</num>
+        <heading>Certificates as evidence</heading>
+        <subsection eId="sec_106__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any certificate or other instrument filed by the department of\nstate relating to a domestic or foreign corporation and containing\nstatements of fact required or permitted by law to be contained therein,\nshall be received in all courts, public offices and official bodies as\nprima facie evidence of such facts and of the execution of such\ninstrument.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_106__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Whenever by the laws of any jurisdiction other than this state,\nany certificate by any officer in such jurisdiction or a copy of any\ninstruments certified or exemplified by any such officer, may be\nreceived as prima facie evidence of the incorporation, existence or\ncapacity of any foreign corporation incorporated in such jurisdiction,\nor claiming so to be, such certificate when exemplified, or such copy of\nsuch instrument when exemplified shall be received in all courts, public\noffices and official bodies of this state, as prima facie evidence with\nthe same force as in such jurisdiction. Such certificate or certified\ncopy of such instrument shall be so received, without being exemplified,\nif it is certified by the secretary of state, or official performing the\nequivalent function as to corporate records, of such jurisdiction.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

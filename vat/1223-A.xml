@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1223-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1223-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1223-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1223_A">
+        <num>1223-A</num>
+        <heading>School buses; required identification</heading>
+        <content>
+          <p>  § 1223-a. School buses; required identification. All school buses, as\ndefined in section one hundred forty-two of this chapter, purchased,\nleased or acquired on or after September first, nineteen hundred\nninety-seven shall have the area code and telephone number of the owner\nand/or operator printed  in three inch bold type on the rear of such\nvehicle.  Provided, however, that nothing contained herein shall be\ndeemed to prohibit the printing of such information as herein provided\non school buses purchased, acquired or leased prior to September first,\nnineteen hundred ninety-seven.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

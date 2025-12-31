@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-182"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-182"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="182"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-182/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-182/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-182/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-182/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_182">
+        <num>182</num>
+        <heading>Costs; by whom paid</heading>
+        <content>
+          <p>  § 182. Costs; by whom paid. In all cases of assessments of damages by\nsupreme court, the costs thereof shall be paid by the town thereof,\nexcept that when reassessment of damages shall be had on the application\nof the party for whom the damages were assessed, and such damages shall\nnot be increased on such reassessment, the costs shall be paid by the\nparty applying for the reassessment; and when application shall be made\nby two or more persons for the reassessment of damages, all persons who\nmay be liable for costs under this section shall be liable in proportion\nto the amount of damages respectively assessed to the first assessment,\nand may be recovered by action in favor of any person, entitled to the\nsame.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

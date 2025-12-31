@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-767"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-767"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="767"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-767/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-767/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-767/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-767/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_767">
+        <num>767</num>
+        <heading>Effect of transition on employees</heading>
+        <content>
+          <p>  § 767. Effect of transition on employees. Except as otherwise provided\nby law and except for those officials and employees protected by tenure\nof office, civil service provisions or collective bargaining agreement,\nupon the effective date of consolidation, all appointive offices and\npositions then existing in all component local government entities\ninvolved in the consolidation shall be subject to the terms of the joint\nconsolidation agreement or elector initiated consolidation plan, as the\ncase may be. Such agreement or plan may provide for instances in which\nthere is duplication of positions and for other matters such as varying\nlength of employee contracts, different civil service regulations in the\nconstituent entities and differing ranks and position classifications\nfor similar positions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

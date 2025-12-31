@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1276-C"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1276-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1276-C"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1276-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1276-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1276-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1276-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1276_C">
+        <num>1276-C</num>
+        <heading>Independent audit of authority</heading>
+        <content>
+          <p>  § 1276-c. Independent audit of authority. The independent auditor\nretained by the authority shall not provide to the authority,\ncontemporaneously with the audit unless it shall have previously\nreceived written approval by the audit committee any non-audit service,\nincluding:\n  1. routine bookkeeping or other services;\n  2. financial information systems design and implementation;\n  3. appraisal or valuation services, fairness opinions, or\ncontribution-in-kind reports;\n  4. actuarial services;\n  5. outsourcing services;\n  6. authority management functions or human resources;\n  7. broker or dealer, investment advisor or investment banking\nservices;\n  8. legal services and expert services unrelated to the audit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

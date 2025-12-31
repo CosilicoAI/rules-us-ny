@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1878"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1878"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1878"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1878/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1878/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1878/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1878/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1878">
+        <num>1878</num>
+        <heading>State coordination, oversight and technology transfer</heading>
+        <content>
+          <p>  § 1878. State coordination, oversight and technology transfer. The New\nYork state energy research and development authority shall exercise\noversight over such program; in consultation with Rensselaer Polytechnic\nInstitute, coordinate the direction of the program with other research\nunder the auspices of the authority and insure, where appropriate, the\nexpeditious transfer of technology resulting from such program to New\nYork state industries.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

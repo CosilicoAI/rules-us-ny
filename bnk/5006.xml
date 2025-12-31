@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5006"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5006"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5006"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5006/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5006/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5006/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5006/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5006">
+        <num>5006</num>
+        <heading>Compensation for formation, reorganization and financing</heading>
+        <content>
+          <p>  § 5006. Compensation for formation, reorganization and financing. The\nreasonable charges and expenses of formation or reorganization of a\ncorporation, and the reasonable expenses of and compensation for the\nsale or underwriting of its shares may be paid or allowed by the\ncorporation out of the consideration received by it in payment for its\nshares without thereby impairing the fully paid and nonassessable status\nof such shares as provided in subdivision eight of section five thousand\nfour.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

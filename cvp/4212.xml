@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4212"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4212"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4212">
+        <num>4212</num>
+        <heading>Advisory jury; referee to report</heading>
+        <content>
+          <p>  Rule 4212. Advisory jury; referee to report. Upon the motion of any\nparty as provided in rule 4015 or on its own initiative, the court may\nsubmit any issue of fact required to be decided by the court to an\nadvisory jury or, upon a showing of some exceptional condition requiring\nit or in matters of account, to a referee to report.  An order under\nthis rule shall specify the issues to be submitted.  The procedures to\nbe followed in the use of an advisory jury shall be the same as those\nfor a jury selected under article forty-one. Where no issues remain to\nbe tried, the court shall render decision directing judgment in the\naction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

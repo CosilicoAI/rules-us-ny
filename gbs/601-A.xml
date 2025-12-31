@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-601-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-601-A"/>
+          <FRBRdate date="2019-03-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="601-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-601-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-601-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-601-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-601-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_601_A">
+        <num>601-A</num>
+        <heading>Disclosure by principal creditors and/or debt collection agencies</heading>
+        <content>
+          <p>  § 601-a. Disclosure by principal creditors and/or debt collection\nagencies. No principal creditors and/or debt collection agencies shall\nmake any representation that a person is required to pay the debt of a\nfamily member in a way that contravenes with the Fair Debt Collection\nPractices Act (15 USC § 1692 et seq.). In addition, the principal\ncreditors and/or debt collection agencies shall not make any\nmisrepresentation about the family member's obligation to pay such\ndebts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

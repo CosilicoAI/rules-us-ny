@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.20"/>
+          <FRBRdate date="2022-07-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="270.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-270.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-270.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_270_20">
+        <num>270.20</num>
+        <heading>Unlawful wearing of body armor</heading>
+        <content>
+          <p>§ 270.20 Unlawful wearing of body armor.\n  1. A person is guilty of the unlawful wearing of body armor when\nacting either alone or with one or more other persons he commits any\nviolent felony offense defined in section 70.02 while possessing a\nfirearm, rifle or shotgun and in the course of and in furtherance of\nsuch crime he or she wears body armor.\n  2. For the purposes of this section "body armor" means any product\nthat is a personal protective body covering intended to protect against\ngunfire, regardless of whether such product is to be worn alone or is\nsold as a complement to another product or garment.\n  The unlawful wearing of body armor is a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

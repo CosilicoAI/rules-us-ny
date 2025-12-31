@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-396-N"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-396-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="396-N"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-396-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-396-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-396-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-396-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_396_N">
+        <num>396-N</num>
+        <heading>Sales with "money back guarantee" and with "limited guarantee"</heading>
+        <subsection eId="sec_396_N__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Seller" shall include any person, firm, partnership or\ncorporation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_396_N__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Goods" shall mean merchandise that is bought for use primarily\nfor personal, family or household purposes.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_396_N__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Money back guarantee" shall mean a promise made by a seller to a\npurchaser to repay, within the time period specified by the seller and\nupon the return of the merchandise, the full purchase price thereof.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_396_N__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"Limited guarantee" shall mean a promise made by a seller to a\npurchaser to repay, within the time period specified by the seller and\nupon the return of the merchandise, a portion of the purchase price, the\ncomputation of which shall be described in the terms of the guarantee.\n  2. Whenever a seller offers or advertises for sale goods with a\nguarantee that promises the return of the purchase price, upon the\nreturn of the merchandise, such guarantee shall be deemed to be a money\nback guarantee unless the term "limited guarantee" is used and the terms\nof limitation of such guarantee are specified.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

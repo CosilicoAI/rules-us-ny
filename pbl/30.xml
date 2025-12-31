@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-30"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="30"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30">
+        <num>30</num>
+        <heading>Unappropriated state lands defined</heading>
+        <content>
+          <p>  § 30. Unappropriated state lands defined.  The term "unappropriated\nstate lands," as used in this chapter, includes all escheated lands; all\nlands conveyed to the state for the benefit of the canal fund and not\ndevoted in pursuance of law to any public use; all lands purchased by or\nfor the state on the foreclosure of any mortgage given on the loan of\nany United States deposit funds or on any loan of money for the state;\nall state lands lying within the limits of any city or village not\ndevoted to any public use; and all other lands belonging to this state\nwhich are not directed by law to be kept for or applied to any specific\npurpose, except lands under water the disposition of which is governed\nby article six of this chapter and except the lands the disposition of\nwhich is governed by the salt springs law and except abandoned canal\nlands the disposition of which is governed by article four of this\nchapter, and chapters eight hundred and ninety-three and eight hundred\nand ninety-four of the laws of nineteen hundred and eleven.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

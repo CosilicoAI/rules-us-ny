@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-12"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12">
+        <num>12</num>
+        <heading>Deputy adjutant general</heading>
+        <content>
+          <p>  § 12. Deputy adjutant general.  There shall be a deputy adjutant\ngeneral who shall serve as such at the pleasure of the governor. The\ndeputy adjutant general shall be appointed by the governor from among\nthe commissioned officers on the active list of the organized militia\nupon the recommendation of the adjutant general and, while holding such\ntitle, shall have the rank of a general officer or flag officer. He\nshall have such duties as may be prescribed by the adjutant general and\nshall act in place of the adjutant general during his absence or\ndisability.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

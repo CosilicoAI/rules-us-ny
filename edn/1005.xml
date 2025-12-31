@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1005"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1005"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1005"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1005/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1005/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1005/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1005/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1005">
+        <num>1005</num>
+        <heading>Gifts and donations</heading>
+        <content>
+          <p>  § 1005. Gifts and donations.  The department is authorized to receive,\naccept and use gifts and donations for the purpose of this article which\nmay be offered, conditionally or unconditionally, notwithstanding\nsection eleven of the state finance law or any other provision of law.\nAll money received as gifts or donations shall be paid to the\ncommissioner of taxation and finance, who together with the state\ncomptroller is hereby constituted and appointed the joint custodian\nthereof and shall constitute a special fund to be used under the\ndirection of the department for the purpose of this article.  A full\nreport of all such gifts and donations, together with the names of the\ndonors, the amounts contributed by each and all disbursements therefrom\nshall be submitted annually to the legislature as part of the report of\nthe department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

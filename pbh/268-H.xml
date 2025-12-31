@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-268-H"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-268-H"/>
+          <FRBRdate date="2019-04-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="268-H"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-268-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-268-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-268-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-268-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_268_H">
+        <num>268-H</num>
+        <heading>Construction</heading>
+        <content>
+          <p>  § 268-h. Construction. Nothing in this article, and no action taken by\nthe Marketplace pursuant hereto, shall be construed to:\n  1. preempt or supersede the authority of the superintendent or the\ncommissioner; or\n  2. exempt insurers, insurance producers or qualified health plans from\nthis chapter or the insurance law and any regulations promulgated\nthereunder.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

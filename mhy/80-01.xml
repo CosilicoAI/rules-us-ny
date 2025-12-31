@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-80.01"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-80.01"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="80.01"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-80.01/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-80.01/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-80.01/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-80.01/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_80_01">
+        <num>80.01</num>
+        <heading>Legislative findings and purpose</heading>
+        <content>
+          <p>§ 80.01 Legislative findings and purpose.\n  The legislature hereby finds and declares that timely access to health\ncare for people who are mentally disabled is an important objective for\nNew York state; that the autonomy of persons with decision-making\ncapacity to make health care decisions for themselves must be respected;\nand that, in cases involving persons with impaired decision-making\ncapacity, efforts should be made to ensure that health care decisions\nare based on the best interests of the patient and reflect, to the\nextent possible, the patient's own personal beliefs and values. The\nlegislature further finds that the exclusive utilization of judicial\nauthorization to obtain consent for medical care for the mentally\ndisabled has in some cases resulted in undue delay in the provision of\nnecessary care, needlessly jeopardizing the health of the mentally\ndisabled. The legislature further finds and declares that the public\ninterest will be served by the establishment of a statewide\nquasi-judicial surrogate decision-making process, which would determine\npatient capacity to consent to or refuse medical treatment and assess\nwhether the proposed treatment promotes the patient's best interests,\nconsistent with the patient's values and preferences. The process will\nstrengthen the surrogate decision-making role of parents and other\nfamily members, while assuring that those individuals without available\nfamily members have access to medical care.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

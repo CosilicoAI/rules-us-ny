@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1243"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1243"/>
+          <FRBRdate date="2020-04-17" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1243"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1243/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1243/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1243/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1243/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1243">
+        <num>1243</num>
+        <heading>Shared bicycle and shared bicycle with electric assist systems; data protection</heading>
+        <subsection eId="sec_1243__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>shall be for the exclusive\nuse of such shared bicycle or shared bicycle with electric assist system\nand shall not be sold, distributed, or otherwise made available for any\ncommercial purpose and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1243__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>shall not be disclosed or otherwise made\naccessible except</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1243__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>to the person who is the subject of such data,\ninformation or record; or (ii) if necessary to comply with a lawful\ncourt order, judicial warrant signed by a judge appointed pursuant to\narticle III of the United States constitution, or subpoena for\nindividual data, information or records properly issued pursuant to the\ncriminal procedure law or the civil practice law and rules. Provided,\nhowever, that nothing contained in this paragraph shall be deemed to\npreclude the exchange of such data, information or recorded images\nsolely for the purpose of administering such authorized shared system.\nFor the purposes of this subdivision, "personal information" shall mean\ninformation that identifies an individual, including but not limited to\nname, address, telephone number, and the type and form of payment\nincluding credit card number, debit card number, or other payment\nmethod.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

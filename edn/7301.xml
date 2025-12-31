@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7301"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7301"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7301">
+        <num>7301</num>
+        <heading>The practice of the profession of architecture is defined as rendering or offering to render services which require the application of th...</heading>
+        <content>
+          <p>  § 7301.  The practice of the profession of architecture is defined as\nrendering or offering to render services which require the application\nof the art, science, and aesthetics of design and construction of\nbuildings, groups of buildings, including their components and\nappurtenances and the spaces around them wherein the safeguarding of\nlife, health, property, and public welfare is concerned.  Such services\ninclude, but are not limited to consultation, evaluation, planning, the\nprovision of preliminary studies, designs, construction documents,\nconstruction management, and the administration of construction\ncontracts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

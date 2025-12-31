@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204_E">
+        <num>204-E</num>
+        <heading>Unauthorized destruction of property</heading>
+        <content>
+          <p>  § 204-e. Unauthorized destruction of property. No individual or\ncorporation having a possessory or proprietary interest in a building or\nmotor vehicle within the meaning of section 150.05 of the penal law\nshall ignite a fire or cause an explosion in such building or motor\nvehicle without the prior written permission of the chief of the local\ndepartment or fire company with the responsibility to respond to a fire\ncall, or the chief's designee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

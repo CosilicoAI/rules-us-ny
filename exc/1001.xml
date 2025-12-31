@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-1001"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-1001"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1001"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-1001/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-1001/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1001">
+        <num>1001</num>
+        <heading>Saving clause</heading>
+        <content>
+          <p>  § 1001. Saving clause.  1. Any act of the legislature of the year\nnineteen hundred fifty-one which, in form, amends or repeals or purports\nto amend or repeal any provision or provisions of the former executive\nlaw shall be legally effective notwithstanding the repeal of such former\nexecutive law by this chapter and shall be construed as an amendment or\nrepeal, as the case may be, of the corresponding provision or provisions\nof this chapter irrespective of whether such provision or provisions are\ncontained in this chapter in one or more than one article, section,\nsubdivision or other part thereof and such corresponding provision or\nprovisions shall be deemed and construed to be amended, modified,\nchanged or repealed as though the same had been expressly and in terms\nso amended or repealed.\n  2. Any act of the legislature of the year nineteen hundred fifty-one\nwhich adds or purports to add a new article, section, subdivision or\nother provision of the law to the former executive law shall be legally\neffective notwithstanding the repeal of such former executive law by\nthis chapter and shall be construed as having been added to this chapter\nand shall be given full effect according to its context as if the same\nhad been added expressly and in terms of this chapter and shall be\ndeemed and construed to have been inserted in this chapter in\njuxtaposition to and as modifying the effect of the corresponding\nprovision or provisions of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

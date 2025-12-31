@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-105-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-105-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="105-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-105-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-105-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-105-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-105-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_105_B">
+        <num>105-B</num>
+        <heading>Posting of certain signs</heading>
+        <content>
+          <p>  § 105-b. Posting of certain signs. 1. The authority shall prepare,\nhave printed and distribute across the state to all persons with a\nlicense to sell any alcoholic beverage for consumption on the premises\nor a license to sell any alcoholic beverage for consumption off the\npremises, a sign or poster with conspicuous lettering that states:\n"Government Warning: According to the Surgeon General, women should not\ndrink alcoholic beverages during pregnancy because of the risk of birth\ndefects".  Such sign or poster must have conspicuous lettering in at\nleast seventy-two point bold face type that states the warning set forth\nin this subdivision, except that such sign or poster shall be captioned\nwith the word "warning" in at least two inch lettering.\n  2. All persons with a license to sell any alcoholic beverage for\nconsumption on the premises or a license to sell any alcoholic beverage\nfor consumption off the premises shall display in a conspicuous place\nthe sign or poster upon receiving it from the authority. Such sign shall\nbe placed as close as possible to the place where alcoholic beverages\nare sold.\n  3. Any person with such license who violates the provisions of this\nsection shall be subject to a civil penalty, not to exceed one hundred\ndollars for each day of violation.\n  4.  Compliance with the provisions of any local law requiring the\nposting of signs containing warnings regarding alcoholic beverages\nenacted on or before the date on which the provisions of this section\nshall have become a law, shall be deemed to be in compliance with the\nprovisions of this section. Nothing contained herein, however, shall be\ndeemed to exempt any licensee not otherwise subject to the provisions of\nany such local law from complying with the provisions of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-695"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-695"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="695"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-695/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-695/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-695/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-695/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_695">
+        <num>695</num>
+        <heading>Separability clause; construction</heading>
+        <content>
+          <p>  § 695. Separability clause; construction. 1. If any part or provision\nof this article or the application thereof to any person or\ncircumstances be adjudged invalid by any court of competent\njurisdiction, such judgment shall be confined in its operation to the\npart, provision or application directly involved in the controversy in\nwhich such judgment shall have been rendered and shall not affect or\nimpair the validity of the remainder of this article or the application\nthereof to other persons or circumstances and the legislature hereby\ndeclares that it would have enacted this article or the remainder\nthereof had the invalidity of such provision or application thereof been\napparent.\n  2. This article shall be liberally construed to effect the purposes\nthereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3010"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3010"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3010"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3010">
+        <num>3010</num>
+        <heading>Commissioner and bureau of motor vehicles continued</heading>
+        <content>
+          <p>  § 3010. Commissioner and bureau of motor vehicles continued.  The\nrepeal by this chapter of the vehicle and traffic law as heretofore in\nforce and effect and the enactment of the provisions of this chapter\nshall not be deemed or construed as operating to create a new office of\ncommissioner of motor vehicles or a new bureau of motor vehicles, but\nshall be deemed and held to constitute a continuance of such office and\nbureau. The present commissioner of motor vehicles shall continue in\noffice until his successor shall have been duly appointed and has\nqualified and the organization of the present bureau of motor vehicles\nshall continue as the bureau of motor vehicles in the department of\ntaxation and finance until changed pursuant to law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

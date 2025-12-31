@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.16"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.16"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.16"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.16/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.16/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.16/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.16/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_16">
+        <num>130.16</num>
+        <heading>Courts-martial classified</heading>
+        <content>
+          <p>  § 130.16. Courts-martial classified.  There shall be three kinds of\ncourts-martial in each of the forces of the organized militia, namely:\n  (1) General courts-martial, consisting of---\n  (A) A military judge and not less than five members; or\n  (B) Only a military judge, if before the court is assembled the\naccused, knowing the identity of the military judge and after\nconsultation with defense counsel, requests in writing a court composed\nof only a military judge and the military judge approves;\n  (2) Special courts-martial, consisting of---\n  (A) Not less than three members; or\n  (B) A military judge and not less than three members; or\n  (C) Only a military judge, if one has been detailed to the court, and\nthe accused under the same conditions as those prescribed in clause (1)\n(B) so requests; and\n  (3) Summary courts-martial, which shall consist of one commissioned\nofficer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-D"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-D"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_D">
+        <num>111-D</num>
+        <heading>State reimbursement</heading>
+        <content>
+          <p>  § 111-d.  State reimbursement. 1. The provisions of section one\nhundred fifty-three of this chapter shall be applicable to expenditures\nby social services districts for activities related to the establishment\nof paternity of children born out-of-wedlock, the location of deserting\nparents and the enforcement and collection of support obligations owed\nto recipients of aid to dependent children and persons receiving\nservices pursuant to section one hundred eleven-g of this title.\n  2. The local share of expenditures incurred by the department for the\nprovision of centralized collection and disbursement services pursuant\nto section one hundred eleven-h of this title shall be charged back to\nsocial services districts. The local share shall be fifty per centum of\nthe amount expended by the department after first deducting therefrom\nany federal funds properly received or to be received on account\nthereof; provided, however, that a social services district's share of\nthe costs related to the centralized collection and disbursement\nfunctions shall not exceed those incurred for the year immediately\npreceding implementation of such functions, except to the extent to\nwhich those costs would have increased had centralization of collection\nand disbursement functions not occurred.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

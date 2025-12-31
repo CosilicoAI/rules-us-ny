@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1725"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1725"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-1725"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1725/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1725/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1725/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1725/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_1725">
+        <num>71-1725</num>
+        <heading>Assessment of Penalties</heading>
+        <content>
+          <p>§ 71-1725. Assessment of Penalties.\n  The commissioner may assess any penalty prescribed for a violation of\nor a failure to comply with any provision contained in this title or\nlisted in section 71-1701, or any lawful notice, order or regulation\nprescribed by the commissioner under any such provision, one thousand\ndollars for every such violation or failure, which penalty may be\nassessed after a hearing or an opportunity to be heard.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

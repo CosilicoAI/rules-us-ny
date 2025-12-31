@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-L"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="96-L"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-96-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-96-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_96_L">
+        <num>96-L</num>
+        <heading>Inspection legend required</heading>
+        <content>
+          <p>  § 96-l. Inspection legend required. Except as exempted by the\nprovisions of this article no carcasses of animals, parts thereof, meat,\nmeat by-product or meat food product for human consumption, shall be\nsold, exposed for sale, exchanged or transported within the state unless\nthe same shall bear an official inspection legend or a meat label\naffixed pursuant to a federal inspection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

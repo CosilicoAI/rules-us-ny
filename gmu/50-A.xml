@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-50-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-50-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="50-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-50-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-50-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-50-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-50-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50_A">
+        <num>50-A</num>
+        <heading>Municipal liability for negligent operation of vehicles</heading>
+        <content>
+          <p>  § 50-a. Municipal liability for negligent operation of vehicles.  1.\nEvery city, town and village shall be liable for the negligence of a\nperson duly appointed by the governing board or body of the\nmunicipality, or by any board, body, commission or other officer\nthereof, to operate a municipally owned vehicle within the state in the\ndischarge of a statutory duty imposed upon the municipality, provided\nthe appointee at the time of the accident or injury was acting in the\ndischarge of his duties and within the scope of his employment. Every\nsuch appointee shall, for the purpose of this section, be deemed an\nemployee of the municipality, notwithstanding the vehicle was being\noperated in the discharge of a public duty for the benefit of all\ncitizens of the community and the municipality derived no special\nbenefit in its corporate capacity.\n  2. The provisions of this section shall not apply to the city of New\nYork.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

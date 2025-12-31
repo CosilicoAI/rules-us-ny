@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-460-I"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-460-I"/>
+          <FRBRdate date="2015-02-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="460-I"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-460-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-460-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-460-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-460-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_460_I">
+        <num>460-I</num>
+        <heading>Violations</heading>
+        <content>
+          <p>  § 460-i. Violations. Any violation of any provision of this article\nshall be a class A misdemeanor, and upon conviction thereof, shall be\npunishable by a fine of not more than one thousand dollars, or by\nimprisonment for not more than one year, or by both such fine and\nimprisonment; provided however, a second or subsequent offense shall be\npunishable by a fine of not more than three thousand dollars or by\nimprisonment for not more than one year, or by both such fine and\nimprisonment. In addition, the court may order as part of the sentence\nimposed restitution or reparation to the victim of the crime pursuant to\nsection 60.27 of the penal law. The attorney general shall have the\npower to prosecute any violation of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

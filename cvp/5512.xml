@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5512"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5512"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5512"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5512">
+        <num>5512</num>
+        <heading>Appealable paper; entry of order made out of court</heading>
+        <subsection eId="sec_5512__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nAppealable paper. An initial appeal shall be taken from the judgment or\norder of the court of original instance and an appeal seeking review of\nan appellate determination shall be taken from the order entered in the\noffice of the clerk of the court whose order is sought to be reviewed.\nIf a timely appeal is taken from a judgment or order other than that\nspecified in the last sentence and no prejudice results therefrom and\nthe proper paper is furnished to the court to which the appeal is taken,\nthe appeal shall be deemed taken from the proper judgment or order.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5512__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Entry of order made out of court. Entry of an order made out of\ncourt and filing of the papers on which the order was granted may be\ncompelled by order of the court from or to which an appeal from the\norder might be taken.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

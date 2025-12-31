@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-803"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-803"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="803"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_803">
+        <num>803</num>
+        <heading>Disclosure of interest</heading>
+        <content>
+          <p>  § 803. Disclosure of interest. 1. Any municipal officer or employee\nwho has, will have, or later acquires an interest in or whose spouse\nhas, will have, or later acquires an interest in any actual or proposed\ncontract, purchase agreement, lease agreement or other agreement,\nincluding oral agreements, with the municipality of which he or she is\nan officer or employee, shall publicly disclose the nature and extent of\nsuch interest in writing to his or her immediate supervisor and to the\ngoverning body thereof as soon as he or she has knowledge of such actual\nor prospective interest. Such written disclosure shall be made part of\nand set forth in the official record of the proceedings of such body.\n  2. Notwithstanding the provisions of subdivision one of this section,\ndisclosure shall not be required in the case of an interest in a\ncontract described in subdivision two of section eight hundred two\nhereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

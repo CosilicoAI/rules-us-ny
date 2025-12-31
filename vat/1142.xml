@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1142"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1142"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1142"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1142/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1142/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1142/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1142/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1142">
+        <num>1142</num>
+        <heading>Vehicle entering stop or yield intersection</heading>
+        <subsection eId="sec_1142__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except when\ndirected to proceed by a police officer, every driver of a vehicle\napproaching a stop sign shall stop as required by section eleven hundred\nseventy-two and after having stopped shall yield the right of way to any\nvehicle which has entered the intersection from another highway or which\nis approaching so closely on said highway as to constitute an immediate\nhazard during the time when such driver is moving across or within the\nintersection.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1142__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The driver of a vehicle approaching a yield sign shall in\nobedience to such sign slow down to a speed reasonable for existing\nconditions, or shall stop if necessary as provided in section eleven\nhundred seventy-two, and shall yield the right of way to any pedestrian\nlegally crossing the roadway on which he is driving, and to any vehicle\nin the intersection or approaching on another highway so closely as to\nconstitute an immediate hazard during the time such driver is moving\nacross or within the intersection. Provided, however, that if such\ndriver is involved in a collision with a pedestrian in a crosswalk or a\nvehicle in the intersection after driving past a yield sign without\nstopping, such collision shall be deemed prima facie evidence of his\nfailure to yield the right of way.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

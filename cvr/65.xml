@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-65"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-65"/>
+          <FRBRdate date="2020-12-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="65"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-65/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-65/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-65/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-65/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65">
+        <num>65</num>
+        <heading>Optional change of name upon marriage, divorce or annulment</heading>
+        <subsection eId="sec_65__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of subdivision one of section fifteen of\nthe domestic relations law.\n  2. Any person may, upon divorce or annulment, elect to resume the use\nof a former surname or middle name according to the provisions of\nsection two hundred forty-a of the domestic relations law.\n  3. The effect of the name changes accomplished in the manner\nprescribed in subdivisions one and two of this section shall be as set\nforth in section sixty-four of this article.\n  4. Nothing in this article shall be construed to abrogate or alter the\ncommon law right of every person, whether married or single, to retain\nhis or her name or to assume a new one so long as the new name is used\nconsistently and without intent to defraud.\n  5. Notwithstanding any inconsistent provision of law, the state shall\nnot impose any fee, charge, surcharge or assessment solely to change the\nsurname or middle name contained on a license, permit, registration or\nother identifying document for a person who, because of a change in\nmarital status, has assumed a new name or reassumes use of a former\nsurname as provided for in this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

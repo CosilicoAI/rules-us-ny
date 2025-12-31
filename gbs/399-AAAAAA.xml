@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-AAAAAA"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-AAAAAA"/>
+          <FRBRdate date="2024-12-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-AAAAAA"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-AAAAAA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-AAAAAA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-AAAAAA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-AAAAAA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_AAAAAA">
+        <num>399-AAAAAA</num>
+        <heading>Diaper labeling</heading>
+        <subsection eId="sec_399_AAAAAA__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"ingredient" shall mean an intentionally added substance present\nin a diaper;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_399_AAAAAA__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"diaper" shall mean a type of garment or product inserted into a\ngarment for the purpose of absorbing waste products to prevent soiling\nof outer clothing or the external environment without the use of a\ntoilet. These products may be either disposable or reusable.\n  2. No later than twelve months after the effective date of this\nsection, each package or box containing diapers sold in this state shall\ncontain a plain and conspicuous printed list of all ingredients which\nshall be listed in order of predominance. Such list shall either be\nprinted on the package or affixed thereto.\n  3. The requirements of this section shall apply in addition to any\nother labeling requirements established pursuant to any other provision\nof law.\n  4. Whenever a violation of this section has occurred, a civil penalty\nof one percent of the manufacturer's total annual in-state sales not to\nexceed one thousand dollars per package or box shall be imposed on the\nmanufacturer.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

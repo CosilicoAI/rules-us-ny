@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1518"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1518"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1518"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1518/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1518/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1518/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1518/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1518">
+        <num>1518</num>
+        <heading>Continuance of dissolved districts for payment of debts</heading>
+        <content>
+          <p>  § 1518. Continuance of dissolved districts for payment of debts.\nThough a district be dissolved, it shall continue to exist in law, for\nthe purpose of providing for and paying all its just debts, except as\nprovided in section fifteen hundred seventeen; and to that end the\ntrustees and other officers shall continue in office, and the\ninhabitants may hold special meetings, elect officers to supply\nvacancies and vote taxes; and all other acts necessary to raise money\nand pay such debts shall be done by the inhabitants and officers of the\ndistrict.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

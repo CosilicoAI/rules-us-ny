@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-510.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-510.50"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="510.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-510.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-510.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-510.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-510.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_510_50">
+        <num>510.50</num>
+        <heading>Enforcement of securing order</heading>
+        <content>
+          <p>§ 510.50 Enforcement of securing order.\n  1. When the attendance of a principal confined in the custody of the\nsheriff is required at the criminal action or proceeding at a particular\ntime and place, the court may compel such attendance by directing the\nsheriff to produce the principal at such time and place. If the\nprincipal is at liberty on the principal's own recognizance or\nnon-monetary conditions or on bail, the principal's attendance may be\nachieved or compelled by various methods, including notification and the\nissuance of a bench warrant, prescribed by law in provisions governing\nsuch matters with respect to the particular kind of action or proceeding\ninvolved.\n  2. Except when the principal is charged with a new crime while at\nliberty, absent relevant, credible evidence demonstrating that a\nprincipal's failure to appear for a scheduled court appearance was\nwillful, the court, prior to issuing a bench warrant for a failure to\nappear for a scheduled court appearance, shall provide at least\nforty-eight hours notice to the principal or the principal's counsel\nthat the principal is required to appear, in order to give the principal\nan opportunity to appear voluntarily.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

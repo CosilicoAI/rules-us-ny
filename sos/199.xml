@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-199"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-199"/>
+          <FRBRdate date="2022-07-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="199"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-199/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-199/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-199/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-199/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199">
+        <num>199</num>
+        <heading>Power of commissioner of public welfare to detain certain incarcerated individuals</heading>
+        <content>
+          <p>  § 199. Power of commissioner of public welfare to detain certain\nincarcerated individuals. The commissioner of public welfare shall have\npower to detain in the public home, pending a vacancy for such person in\na state institution, a person over the age of sixteen who has been\ncertified as an individual with a developmental disability in accordance\nwith the provisions of the mental hygiene law and for whom an\napplication for admission to a state institution has been made. Whenever\nthe commissioner shall so detain an incarcerated individual in the\npublic home he or she shall at once notify the state department of\nmental hygiene.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

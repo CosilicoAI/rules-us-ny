@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-GG"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-GG"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1399-GG"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-GG/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-GG/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1399-GG/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1399-GG/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1399_GG">
+        <num>1399-GG</num>
+        <heading>Out-of-package sales and minimum package sizes</heading>
+        <subsection eId="sec_1399_GG__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>any package or\nother container of cigarettes containing fewer than twenty cigarettes;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1399_GG__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>any package of roll-your-own tobacco containing less than six-tenths\nof an ounce of tobacco; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1399_GG__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>any package or other container of\ncigarette wrapping papers, wrapping leaves or tubes, that are or are\nheld out to be suitable for use or used as devices to wrap tobacco for\nsmoking, containing fewer than twenty sheets, leaves or tubes.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

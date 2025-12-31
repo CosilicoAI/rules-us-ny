@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-240"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-240"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="240"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-240/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-240/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-240/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-240/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_240">
+        <num>240</num>
+        <heading>Military parades and organizations by unauthorized bodies prohibited</heading>
+        <subsection eId="sec_240__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any person who assembles or conspires to assemble with one or\nmore persons as a paramilitary organization and has knowledge of its\npurpose is guilty of a class C felony when he, with one or more other\nmembers of such organization, practices with a military weapon in order\nto further the purpose of such organization.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_240__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>As used in this subdivision:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_240__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>"paramilitary organization" means\nan organization of two or more persons who engage or conspire to engage\nin military instruction or training in warfare or sabotage for the\npurpose of unlawfully causing physical injury to any person or\nunlawfully damaging the property of any person.\n  (ii) "Military weapon" means any device capable of discharging a\nprojectile by means of a gas generated from an explosive compound, or\nany explosive or incendiary bomb, grenade, rocket, missile, or similar\ndevice or launching device therefor; or any device that simulates any of\nthe foregoing.\n  7. This section shall not be construed to prevent any organization\nauthorized to do so by law from parading with firearms, nor to prevent\nparades by the organized militia of any other state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

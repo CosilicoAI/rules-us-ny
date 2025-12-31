@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-741-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-741-C"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="741-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-741-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-741-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-741-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-741-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_741_C">
+        <num>741-C</num>
+        <heading>Private information security</heading>
+        <content>
+          <p>  § 741-c. Private information security. In addition to the requirements\nof subdivision twenty-one of section four hundred fifteen of the vehicle\nand traffic law, an automobile broker business shall:\n  1. keep and maintain all consumer records containing private\ninformation in a safe place that is not accessible to persons not\nemployed by the automobile broker business, including by keeping and\nmaintaining a clear and permanent physical barrier from other businesses\nthat share or neighbor its place of business;\n  2. have a separate mailbox at such place of business for the\nautomobile broker business; and\n  3. have a method of securing personal information, including but not\nlimited to in a locking cabinet or safe.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

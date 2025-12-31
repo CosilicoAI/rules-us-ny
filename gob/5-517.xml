@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-517"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-517"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-517"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-517/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-517/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-517/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-517/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_517">
+        <num>5-517</num>
+        <heading>Transfer of cause of action for usury</heading>
+        <content>
+          <p>  § 5-517. Transfer of cause of action for usury. A cause of action to\ncancel, or otherwise affect, an instrument executed, or an act done, as\nsecurity for a usurious loan or forbearance, can be transferred, where\nthe instrument or act creates a specific charge upon property, which is\nalso transferred in disaffirmance thereof, and not otherwise; but, in\nthat case, the transferee does not succeed to the right, conferred by\nstatute upon the borrower, to procure relief, without paying, or\noffering to pay, any part of the sum or thing loaned.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

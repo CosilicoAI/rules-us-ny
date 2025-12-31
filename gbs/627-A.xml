@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-627-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-627-A"/>
+          <FRBRdate date="2023-05-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="627-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-627-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-627-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-627-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-627-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_627_A">
+        <num>627-A</num>
+        <heading>Automated external defibrillator requirements</heading>
+        <subsection eId="sec_627_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision one of section three thousand-b of the\npublic health law and shall be subject to the requirements and\nlimitation of such section.\n  3. Pursuant to sections three thousand-a and three thousand-b of the\npublic health law, any public access defibrillation provider, or any\nemployee or other agent of the provider who, in accordance with the\nprovisions of this section, voluntarily and without expectation of\nmonetary compensation renders emergency medical or first aid treatment\nusing an AED which has been made available pursuant to this section, to\na person who is unconscious, ill or injured, shall be liable only\npursuant to section three thousand-a of the public health law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2550"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2550"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2550"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2550/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2550/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2550/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2550/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2550">
+        <num>2550</num>
+        <heading>Termination of authority and existence</heading>
+        <content>
+          <p>  § 2550. Termination of authority and existence. At such time as notes\nand bonds of the corporation or notes and bonds of the municipal\nassistance corporation for the city of New York, or any combination\nthereof, are outstanding in the aggregate principal amount equal to five\nhundred twenty million dollars, the purposes for which the corporation\nwas created shall have been satisfied and the corporation shall not be\nauthorized to issue any notes or bonds that would cause such aggregate\namount to be exceeded. If the corporation has no notes or bonds\noutstanding at such time as its authorization to issue notes or bonds\nterminates, the existence of the corporation shall terminate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

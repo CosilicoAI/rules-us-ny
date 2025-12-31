@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-526"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-526"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="526"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-526/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-526/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-526/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-526/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_526">
+        <num>526</num>
+        <heading>Issuance of warrant</heading>
+        <subsection eId="sec_526__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the summons cannot be served; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_526__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the respondent has failed to obey the summons; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_526__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the respondent is likely to leave the jurisdiction; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_526__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>a summons, in the court's opinion, would be ineffectual; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_526__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>the safety of the petitioner is endangered; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_526__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>a respondent on bail or on parole has failed to appear.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

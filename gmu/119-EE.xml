@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-EE"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-EE"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="119-EE"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-EE/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-EE/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-119-EE/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-119-EE/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_EE">
+        <num>119-EE</num>
+        <heading>Legislative findings and declaration</heading>
+        <content>
+          <p>  § 119-ee. Legislative findings and declaration. The legislature finds\nand declares that it is the policy of the state to achieve statewide\nenergy efficiency and renewable energy goals, reduce greenhouse gas\nemissions and mitigate the effect of global climate change, and advance\na clean energy economy; and that to achieve such policy and goals the\nstate must promote the deployment of renewable energy systems and energy\nefficiency measures throughout the state; and that municipalities would\nfulfill an important public purpose by providing loans to property\nowners for the installation of renewable energy systems and energy\nefficiency measures.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-228"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-228"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="228"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-228/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-228/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-228/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-228/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_228">
+        <num>228</num>
+        <heading>Sanitary code; application</heading>
+        <content>
+          <p>  § 228. Sanitary code; application. 1. The provisions of the sanitary\ncode, unless otherwise stated by the public health and health planning\ncouncil, shall apply to and be effective in all portions of the state\nand shall supersede all local ordinances heretofore or hereafter enacted\ninconsistent therewith.\n  2. Each county, city, town or village, in the manner hereinafter\nprescribed, may enact sanitary regulations not inconsistent with the\nsanitary code established by the public health and health planning\ncouncil.\n  3. Local laws, ordinances or regulations which comply with at least\nthe minimum applicable standards set forth in the sanitary code shall be\ndeemed not inconsistent with such code.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

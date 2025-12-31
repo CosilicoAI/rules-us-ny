@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-101"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="101"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_101">
+        <num>101</num>
+        <heading>Liability of relatives to support</heading>
+        <content>
+          <p>  § 101.  Liability of relatives to support. 1.  Except as otherwise\nprovided by law, the spouse or parent of a recipient of public\nassistance or care or of a person liable to become in need thereof\nshall, if of sufficient ability, be responsible for the support of such\nperson, provided that a parent shall be responsible only for the support\nof a child under the age of twenty-one years.  Step-parents shall in\nlike manner be responsible for the support of step-children under the\nage of twenty-one years. Nothing herein shall impose any liability upon\na person to support the adopted child of his or her spouse if such child\nwas adopted after the adopting spouse is living separate and apart from\nthe non-adopting spouse pursuant to a legally recognizable separation\nagreement or decree under the domestic relations law.  Such liability\nshall not be imposed for so long as the spouses remain separate and\napart after the adoption.\n  2.  The liability imposed by this section shall be for the benefit of\nthe public welfare district concerned or any legally incorporated\nnon-profit institution which receives payments from any governmental\nagency for the care of medically indigent persons, and such liability\nmay be enforced by appropriate proceedings and actions in a court of\ncompetent jurisdiction.  Such proceedings and actions may be brought by\nsuch an institution in any court wherein a similar proceeding or action\ncould be brought by a public welfare official.\n  3. The expiration of any period of time for the payment of maintenance\nby a court in a matrimonial action shall not be a bar to the enforcement\nof the liability imposed by this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

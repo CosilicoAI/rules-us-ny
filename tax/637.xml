@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-637"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-637"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="637"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-637/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-637/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-637/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-637/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_637">
+        <num>637</num>
+        <heading>Computation of separate tax on the ordinary income portion of lump sum distributions received by nonresident or part-year resident indivi...</heading>
+        <subsection eId="sec_637__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. The tax imposed under\nsection six hundred three for any taxable year, with respect to the\nordinary income portion of a lump sum distribution received by a\nnonresident or part-year resident individual, estate or trust shall be\napplicable to the ordinary income portion of a lump sum distribution\nwholly or partly derived from or connected with New York sources, and\nthe amount of such tax shall be computed in the same manner as that set\nforth in section six hundred twenty-four, except that if the lump sum\ndistribution was partly derived from or connected with New York sources,\nthe total taxable amount and the ordinary income portion of the lump sum\ndistribution referred to in such section shall be determined by\napportionment and allocation, pursuant to regulations promulgated by the\nstate tax commission.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_637__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Special rule for part-year residents. In the case of a part-year\nresident, the ordinary income portion of a lump sum distribution wholly\nor partly derived from or connected with New York sources shall be the\nsum of:\n</p>
+          </content>
+          <paragraph eId="sec_637__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>The ordinary income portion of a lump sum distribution for the\nperiod of residence, computed as if the taxable year for federal income\ntax purposes were limited to the period of residence.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_637__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>The ordinary income portion of a lump sum distribution for the\nperiod of nonresidence, determined in accordance with subsection</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_637__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of\nthis section, computed as if the taxable year for federal income tax\npurposes were limited to the period of nonresidence.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

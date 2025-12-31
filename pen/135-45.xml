@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-135.45"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-135.45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="135.45"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-135.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-135.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-135.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-135.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_135_45">
+        <num>135.45</num>
+        <heading>Custodial interference in the second degree</heading>
+        <content>
+          <p>§ 135.45 Custodial interference in the second degree.\n  A person is guilty of custodial interference in the second degree\nwhen:\n  1. Being a relative of a child less than sixteen years old, intending\nto hold such child permanently or for a protracted period, and knowing\nthat he has no legal right to do so, he takes or entices such child from\nhis lawful custodian; or\n  2. Knowing that he has no legal right to do so, he takes or entices\nfrom lawful custody any incompetent person or other person entrusted by\nauthority of law to the custody of another person or institution.\n  Custodial interference in the second degree is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

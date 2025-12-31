@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="205.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_00">
+        <num>205.00</num>
+        <heading>Escape and other offenses relating to custody; definitions of terms</heading>
+        <subsection eId="sec_205_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>charged with or\nconvicted of an offense, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_205_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>charged with being or adjudicated a\nyouthful offender, person in need of supervision or juvenile delinquent,\nor</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_205_00__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>held for extradition or as a material witness, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_205_00__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>otherwise\nconfined pursuant to an order of a court.\n  2. "Custody" means restraint by a public servant pursuant to an\nauthorized arrest or an order of a court.\n  3. "Contraband" means any article or thing which a person confined in\na detention facility is prohibited from obtaining or possessing by\nstatute, rule, regulation or order.\n  4. "Dangerous contraband" means contraband which is capable of such\nuse as may endanger the safety or security of a detention facility or\nany person therein.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

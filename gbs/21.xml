@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-21"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21">
+        <num>21</num>
+        <heading>Commissions; penalty</heading>
+        <content>
+          <p>  § 21. Commissions; penalty.  An auctioneer in any county, other than\nNew York or Kings, shall not, without a previous agreement in writing,\nwith the owner or consignee of the goods sold, demand or receive a\ngreater compensation for his services than a commission of two and\none-half per centum on the amount of any sale, public or private, made\nby him. For a violation of this section he shall refund the moneys\nillegally received and forfeit two hundred and fifty dollars to each\nperson from whom he demands or receives an unlawful compensation or\ncommission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

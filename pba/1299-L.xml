@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-L"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1299-L"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1299-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1299-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1299_L">
+        <num>1299-L</num>
+        <heading>Right of state to require redemption of bonds</heading>
+        <content>
+          <p>  § 1299-l. Right of state to require redemption of bonds.\nNotwithstanding and in addition to any provisions for the redemption of\nbonds which may be contained in any contract with the holders of the\nbonds, the state may, upon furnishing sufficient funds therefor, require\nthe authority to redeem, prior to maturity, as a whole, any issue of\nbonds on any interest payment date not less than twenty years after the\ndate of the bonds of such issue at one hundred five per centum of their\nface value and accrued interest or at such lower redemption price as may\nbe provided in the bonds in case of the redemption thereof as a whole on\nthe redemption date. Notice of such redemption shall be published in at\nleast two newspapers published and circulating respectively in the\ncities of Buffalo and Niagara Falls at least twice, the first\npublication to be at least thirty days before the date of redemption.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

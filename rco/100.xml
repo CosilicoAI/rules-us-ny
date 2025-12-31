@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-100"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100">
+        <num>100</num>
+        <heading>Incorporation of Ruthenian Greek Catholic churches</heading>
+        <content>
+          <p>  § 100. Incorporation of Ruthenian Greek Catholic churches. An\nunincorporated Ruthenian Greek Catholic church of the Greek rite in this\nstate may become incorporated as a church by executing, acknowledging\nand filing a certificate of incorporation, stating the corporate name by\nwhich said church shall be known, and the county, town, city or village\nwhere its principal place of worship is or is intended to be located.\n  A certificate of incorporation of an unincorporated Ruthenian Greek\nCatholic church shall be executed and acknowledged by the Ruthenian\nCatholic bishop, appointed by the pope of Rome to have supervision over\nRuthenian Catholics of the Greek rite in the United States, or in case\nof a vacancy in the office of bishop by reason of death, resignation or\notherwise, the Ruthenian administrator of the Ruthenian Catholic diocese\nduly appointed and recognized by the apostolic delegate in the United\nStates, and the chancellor of the diocese in which its place of worship\nis, and by the pastor of the church and by two laymen, members of such\nchurch, who shall be elected by such officers or by a majority of such\nofficers. On filing such certificate, said church shall be a corporation\nby the name stated in the certificate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

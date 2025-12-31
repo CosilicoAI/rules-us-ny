@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2405"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2405"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2405"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2405/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2405/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2405/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2405/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2405">
+        <num>2405</num>
+        <heading>Designation of highways and public lands for travel by ATVs</heading>
+        <subsection eId="sec_2405__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Such designated highways or portions thereof\nor designated lands shall be identified by markers in such manner as may\nbe provided by rules and regulations of the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2405__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>All signs or markers shall be erected at the expense of the state\nor municipality, provided, however, that the municipality may accept\nfunds or contributions therefor from private persons, clubs or\nassociations interested in the promotion of ATVs.\n  4. Any regulation, order, local law or ordinance which designates a\nhighway or portion thereof or designated lands which may be used for ATV\noperations may include rules and impose restrictions and conditions for\nthe regulation and safe operation of ATVs on the highways and lands so\ndesignated, such as travel on designated trails and hours of operation.\nAny restriction or condition not contained in this chapter must be\nposted.\n  5. Copies of orders, regulations, local laws or ordinances adopted by\ngovernmental agencies pursuant to this section shall be filed with the\ncommissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

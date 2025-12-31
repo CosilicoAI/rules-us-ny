@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-613"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-613"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-613"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-613/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-613/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-613/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-613/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_613">
+        <num>580-613</num>
+        <heading>Jurisdiction to modify child support order of another state when individual parties reside in this state</heading>
+        <subsection eId="sec_580_613__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If all of the parties\nwho are individuals reside in this state and the child does not reside\nin the issuing state, a tribunal of this state has jurisdiction to\nenforce and to modify the issuing state's child support order in a\nproceeding to register that order.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_613__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A tribunal of this state exercising jurisdiction under this\nsection shall apply the provisions of parts one and two of this article,\nthis part and the procedural and substantive law of this state to the\nproceeding for enforcement or modification. Parts three, four, five,\nseven and eight of this article do not apply.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

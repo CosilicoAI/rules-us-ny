@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-120"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-120"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-120/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-120/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-120/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120">
+        <num>120</num>
+        <heading>Expenses of the court</heading>
+        <subsection eId="sec_120__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>All salaries of the judicial and\nnon-judicial personnel of the court and all other expenses of the court\nwhatsoever, except as provided in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_120__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>, shall within the city\nof New York, be a city charge and in the counties outside the city of\nNew York, a county charge; provided however, that the final\ndetermination of the itemized estimates of the annual financial needs of\nthe court shall be made by the appropriate governing bodies of such\ncounties and the city of New York in the manner provided in article\nseven-a of the judiciary law, and section twenty-nine of article six of\nthe constitution.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_120__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Salaries of support magistrates appointed in proceedings to compel\nsupport pursuant to section four hundred thirty-nine of this act shall\nbe a state charge payable out of funds appropriated to the office of\ncourt administration for that purpose.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

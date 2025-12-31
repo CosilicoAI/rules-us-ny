@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-371"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-371"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="371"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-371/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-371/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-371/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-371/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_371">
+        <num>371</num>
+        <heading>Powers of peace officers</heading>
+        <content>
+          <p>  § 371. Powers of peace officers. A constable or police officer must,\nand any agent or officer of any duly incorporated society for the\nprevention of cruelty to animals may issue an appearance ticket pursuant\nto section 150.20 of the criminal procedure law, summon or arrest, and\nbring before a court or magistrate having jurisdiction, any person\noffending against any of the provisions of article twenty-six of the\nagriculture and markets law.  Any officer or agent of any of said\nsocieties may lawfully interfere to prevent the perpetration of any act\nof cruelty upon any animal in his presence. Any of said societies may\nprefer a complaint before any court, tribunal or magistrate having\njurisdiction, for the violation of any law relating to or affecting\nanimals and may aid in presenting the law and facts before such court,\ntribunal or magistrate in any proceeding taken.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

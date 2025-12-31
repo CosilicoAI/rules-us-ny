@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-350.2"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-350.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="350.2"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-350.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-350.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-350.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-350.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350_2">
+        <num>350.2</num>
+        <heading>Order of removal</heading>
+        <content>
+          <p>  § 350.2. Order of removal. 1. Where the proceeding has been commenced\nby the filing of an order of removal pursuant to a direction authorized\nby sections 220.10, 310.85 and 330.25 of the criminal procedure law, the\ndate of filing in the family court shall be deemed for purposes of\nsection 350.1 to be the date of the entry of an order pursuant to\nsubdivision one of section 345.1.\n  2. The clerk of court shall calendar an appearance to be held within\nseven days from the date the order of removal was filed. At such\nappearance the court shall schedule a dispositional hearing in\naccordance with section 350.1 and determine such other issues as may\nproperly be before it.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

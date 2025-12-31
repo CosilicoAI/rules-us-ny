@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-164-D"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-164-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="164-D"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-164-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-164-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-164-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-164-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164_D">
+        <num>164-D</num>
+        <heading>Availability of application forms</heading>
+        <content>
+          <p>  § 164-d. Availability of application forms. 1. The state and every\nstate agency, department, bureau, board, authority, office, commission,\nor any other instrumentality of the state shall make the various\napplication forms developed and distributed by such agency or\ninstrumentality for public use that are readily convertible to internet\nform and are intended to be commonly used by the general public\navailable on the internet.\n  2. Nothing in this section shall require that an agency or other state\nentity or instrumentality accept or process application forms submitted\nthrough the internet, or post application forms including user-specific\ndata on the internet.\n  3. The office of information technology services shall promulgate\nrules and regulations to implement the provisions of this section. Such\nrules shall at least provide for the prioritization and timing for\nmaking application forms available on the internet.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

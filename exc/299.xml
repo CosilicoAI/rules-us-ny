@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-299"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-299"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="299"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-299/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-299/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-299/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-299/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_299">
+        <num>299</num>
+        <heading>Penal provision</heading>
+        <content>
+          <p>  § 299. Penal provision.  Any person, employer, labor organization or\nemployment agency, who or which shall wilfully resist, prevent, impede\nor interfere with the division or any of its employees or\nrepresentatives in the performance of duty under this article, or shall\nwilfully violate an order of the division or commissioner, shall be\nguilty of a misdemeanor and be punishable by imprisonment in a\npenitentiary, or county jail, for not more than one year, or by a fine\nof not more than five hundred dollars, or by both; but procedure for the\nreview of the order shall not be deemed to be such wilful conduct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

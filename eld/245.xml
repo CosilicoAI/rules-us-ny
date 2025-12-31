@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELD">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eld/section-245"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-245"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="245"/>
+          <FRBRname value="ELD"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eld/section-245/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-245/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eld/section-245/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-245/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_245">
+        <num>245</num>
+        <heading>Information regarding the home energy assistance program for program participants</heading>
+        <subsection eId="sec_245__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"OTDA" shall mean the state office of temporary and disability\nassistance.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_245__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Home energy assistance program" or "HEAP" shall mean the\nlow-income home energy assistance program implemented pursuant to\nsection ninety-seven of the social services law.\n  2. The department of health shall notify program participants and\nprovide information regarding eligibility and how to apply for the home\nenergy assistance program. Such information shall be provided with each\nelderly pharmaceutical insurance coverage paper application that is\ndistributed and also annually to all program participants.\n  3. The department of health shall consult with OTDA and the office on\nthe development of the notification to program participants referenced\nin subdivision two of this section.\n  4. If a participant's household applies for and is enrolled in the\nhome energy assistance program, the applicable local social services\ndistrict shall provide written notification and information to the\nparticipant's household in accordance with OTDA regulations.\n  5. OTDA and the department of health, in consultation with each other,\nare authorized to promulgate any rules and regulations necessary to\ncarry out the provisions of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

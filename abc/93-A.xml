@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="93-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-93-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-93-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_93_A">
+        <num>93-A</num>
+        <heading>Broker's permit</heading>
+        <content>
+          <p>  § 93-a. Broker's permit. 1. No person shall engage as a broker in the\npurchase and sale of alcoholic beverages in this state unless such\nperson shall have a broker's permit.\n  2. Such permit shall authorize the permittee to act as a broker in the\npurchase and sale of alcoholic beverages for a fee or commission, for or\non behalf of a person authorized to manufacture or sell at wholesale\nalcoholic beverages within or without the state. Such permittee shall\nnot buy or sell any alcoholic beverages for his own account, or take or\ndeliver title to such alcoholic beverages, and shall not receive or\nstore any alcoholic beverages in his own name in this state, or offer,\nagree to offer or sell any alcoholic beverages to any retailer within\nthis state.\n  3. Such permit shall be issued either for one transaction or for a\ncalendar year and the exercise of the privileges granted thereby shall\nbe subject to such rules and conditions by the liquor authority as it\ndeems necessary.\n  4. The fee for a broker's permit shall be fixed by the liquor\nauthority, but shall not exceed twenty-six dollars for a permit valid\nfor one transaction nor two hundred fifty-six dollars for a permit\nissued for a calendar year.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

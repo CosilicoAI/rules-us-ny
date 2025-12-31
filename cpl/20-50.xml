@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-20.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-20.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="20.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-20.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-20.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-20.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-20.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20_50">
+        <num>20.50</num>
+        <heading>Geographical jurisdiction of offenses; jurisdiction of cities, towns and villages</heading>
+        <content>
+          <p>§ 20.50  Geographical jurisdiction of offenses; jurisdiction of cities,\n           towns and villages.\n  1.  The principles prescribed in section 20.40, governing geographical\njurisdiction over offenses as between counties of this state, are, where\nappropriate, applicable to the determination of geographical\njurisdiction over offenses as between cities, towns and villages within\na particular county unless a different determination is required by the\nprovisions of some other express provision of statute.\n  2.  Where an offense prosecutable in a local criminal court is\ncommitted in a city other than New York City, or in a town or village,\nbut within one hundred yards of any other such political subdivision, it\nmay be prosecuted in either such political subdivision.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

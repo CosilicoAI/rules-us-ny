@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-168"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-168"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="168"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-168/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-168/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-168/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-168/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_168">
+        <num>168</num>
+        <heading>Sale of fruit-bearing trees and grapevines; labels; damages</heading>
+        <content>
+          <p>  § 168. Sale of fruit-bearing trees and grapevines; labels; damages.\nThe vendor shall attach to every bundle of fruit-bearing trees and\ngrapevines sold or shipped within this state a tag or label specifying\nthe name of the variety of trees or vines contained therein. If the\nbundle shall contain trees or vines of different varieties, such label\nor tag shall be attached to each tree or vine or group thereof of the\nsame variety. The purchaser of any fruit-bearing tree or grapevine not\ntrue to name as specified on such tag or label, shall have a remedy at\nlaw in a civil action to recover the damages sustained.  Such action may\nbe brought at any time prior to the third bearing year.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

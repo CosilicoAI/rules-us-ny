@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-880"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-880"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="880"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-880/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-880/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-880/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-880/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_880">
+        <num>880</num>
+        <heading>Actions against the agency</heading>
+        <content>
+          <p>  § 880. Actions against the agency. (1) In an action against the agency\nfounded upon tort, the complaint shall contain an allegation that at\nleast thirty days have elapsed since the demand, claim or claims upon\nwhich the action is founded were presented to a member of the agency and\nto its secretary or to its chief executive officer, and that the agency\nhas neglected or refused to make an adjustment or payment thereof for\nthirty days after the presentment.\n  (2) In a case founded upon tort, a notice of claim shall be required\nas a condition precedent to the commencement of an action or special\nproceeding against the agency or an officer, appointee or employee\nthereof, and the provisions of section fifty-e of this chapter shall\ngovern the giving of such notice. No action shall be commenced more than\none year and ninety days after the cause of action therefor shall have\naccrued.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

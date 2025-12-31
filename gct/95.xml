@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-95"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-95"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="95"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-95/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-95/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-95/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-95/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95">
+        <num>95</num>
+        <heading>Proceeding in case of arrest of women</heading>
+        <content>
+          <p>  § 95. Proceeding in case of arrest of women.  Whenever a woman is\narrested and taken to a police station, to which a matron is attached,\nit shall be the duty of the officer in charge of the station to cause\nsuch matron to be summoned forthwith, and whenever, in any city in which\na police matron has been appointed, a woman is arrested and taken to a\nstation house to which no matron is attached, it shall be the duty of\nsuch officer to cause such woman to be removed as soon as possible to\nthe nearest station house within such city to which a police matron is\nattached. No such separate confinement nor any such removal of any woman\nshall operate to take from any court any jurisdiction it has.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

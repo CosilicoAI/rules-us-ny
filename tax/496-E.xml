@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-496-E"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-496-E"/>
+          <FRBRdate date="2023-05-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="496-E"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-496-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-496-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-496-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-496-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_496_E">
+        <num>496-E</num>
+        <heading>Notification of enforcement actions</heading>
+        <content>
+          <p>  § 496-e. Notification of enforcement actions. The commissioner shall\nnotify the cannabis control board and the office of cannabis management\nof the commencement of any enforcement actions taken under this article\nas well as the conclusion, outcomes, and the amount of penalties\ncollected as a result of such actions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="252"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_252">
+        <num>252</num>
+        <heading>Probation service</heading>
+        <subsection eId="sec_252__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The family court in each county shall\nhave a probation service. This service may include volunteer probation\nofficers when necessary, provided they have the qualifications required\nof salaried officers, but no such volunteer probation officer shall be a\nchief probation officer or receive pay from public funds for his\nservices.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The methods, organization, and responsibilities of the probation\nservice shall be defined by rule of court, which shall not be\ninconsistent with any provision of law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When there is a sufficient number of probation officers of the\nsame religious faith as that of a child to be placed on probation, the\nchild shall be placed on probation with a probation officer of the same\nreligious faith as that of the child.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The probation service shall be available to assist the court and\nparticipate in all proceedings under this act, including supervision of\nthe family or individual family members pending final disposition of a\nchild protection proceeding under article ten.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

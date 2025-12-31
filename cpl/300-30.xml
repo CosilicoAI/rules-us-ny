@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-300.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-300.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="300.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-300.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-300.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-300.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-300.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_300_30">
+        <num>300.30</num>
+        <heading>Court's charge; submission of indictment to jury; definitions of terms</heading>
+        <content>
+          <p>§ 300.30  Court's charge; submission of indictment to jury; definitions\n             of terms.\n  The following definitions are applicable to this article:\n  1.  "Submission of a count" of an indictment means submission of the\noffense charged therein, or of a lesser included offense, or submission\nin the alternative of both the offense charged and a lesser included\noffense or offenses.  When the court "submits a count," it must, at the\nleast, submit the offense charged therein if such is supported by\nlegally sufficient trial evidence, or if it is not, the greatest lesser\nincluded offense which is supported by legally sufficient trial\nevidence.\n  2.  "Consecutive counts" means two or more counts of an indictment\nupon which consecutive sentences may be imposed in case of conviction\nthereon.\n  3.  "Concurrent counts" means two or more counts of an indictment upon\nwhich concurrent sentences only may be imposed in case of conviction\nthereon.\n  4.  "Inclusory concurrent counts."  Concurrent counts are "inclusory"\nwhen the offense charged in one is greater than any of those charged in\nthe others and when the latter are all lesser offenses included within\nthe greater.  All other kinds of concurrent counts are "non-inclusory."\n  5.  "Inconsistent counts."  Two counts are "inconsistent" when guilt\nof the offense charged in one necessarily negates guilt of the offense\ncharged in the other.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

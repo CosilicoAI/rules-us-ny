@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-H"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380-H"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-380-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-380-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_H">
+        <num>380-H</num>
+        <heading>Restrictions on investigative consumer reports</heading>
+        <subsection eId="sec_380_H__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Whenever\na consumer reporting agency prepares an investigative consumer report,\nno adverse information in such report, other than information which is a\nmatter of public record, may be included in a subsequent consumer report\nunless such adverse information has been verified in the process of\nmaking such subsequent consumer report, unless the adverse information\nwas received within the three month period preceding the date upon which\nthe subsequent report is furnished.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_380_H__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each investigative consumer report shall be in writing, and a copy\nthereof shall be retained by the consumer reporting agency for at least\none year after it is issued.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

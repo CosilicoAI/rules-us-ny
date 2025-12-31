@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-40"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40">
+        <num>40</num>
+        <heading>Appointment of commanders</heading>
+        <content>
+          <p>  § 40. Appointment of commanders. 1. The commanding generals of the New\nYork army national guard and the New York guard, the commander of the\nNew York air national guard and the commanding officer of the New York\nnaval militia shall be appointed by the governor and shall hold command\nat the pleasure of the governor. They shall be responsible to the\ngovernor for the military efficiency of their respective forces.\n  2. The New York army national guard shall be commanded by a general\nofficer who shall be federally recognized or qualified for federal\nrecognition in a grade not below that of major general.\n  3. The New York air national guard shall be commanded by a general\nofficer who shall be federally recognized or qualified for federal\nrecognition in a grade not below that of brigadier general, and who has\nreceived an aeronautical rating.\n  4. The organized militia shall be commanded by the adjutant general to\nthe governor, subject to the orders of the governor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

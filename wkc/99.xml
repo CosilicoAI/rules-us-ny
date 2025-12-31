@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-99"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-99"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-99/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-99/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99">
+        <num>99</num>
+        <heading>Reports of state insurance fund</heading>
+        <content>
+          <p>  § 99. Reports of state insurance fund. 1. The commissioners shall make\nseparate reports to the superintendent of financial services concerning\nthe state insurance fund at the same time and in the same manner as is\nrequired from mutual employer's liability and workers' compensation\ncorporations by section three hundred seven of the insurance law, and\nthe superintendent of financial services may examine into the condition\nof such state insurance fund at any time, either personally or by any\nduly authorized examiner appointed by him for the purpose of determining\nthe condition of the investments and the adequacy of the reserves of\nsuch fund and such other matters as shall be in the jurisdiction of the\nsuperintendent of financial services.\n  2. The commissioners shall file annually with the state comptroller,\non or before June fifteenth, financial statements for the state\ninsurance fund audited by an independent auditor. Such statements shall\nbe prepared in the same manner as reports filed with the superintendent\nof financial services under subdivision one of this section. A copy of\nthe independent auditor's report shall accompany any financial\nstatements submitted pursuant to this subdivision.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

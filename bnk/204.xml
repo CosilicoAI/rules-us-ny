@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Reports of foreign banking corporations; penalties</heading>
+        <content>
+          <p>  § 204. Reports of foreign banking corporations; penalties. Every\nforeign banking corporation licensed by the superintendent to engage in\nbusiness in this state, shall at such times and in such form as the\nsuperintendent shall prescribe, make written reports to the\nsuperintendent under the oath of one of its officers, managers or agents\ntransacting business in this state, showing the amount of its assets and\nliabilities and containing such other matters as the superintendent\nshall prescribe. If any such corporation shall fail to make any such\nreport as directed by the superintendent, it shall be subject to the\npenalties prescribed by section one hundred twenty-five of this chapter,\nand any false statement contained in any such report or in any other\nsworn statement made to the superintendent by such corporation in\npursuance of the provisions of this chapter shall constitute perjury.\nNothing herein contained shall be deemed to modify the prohibitions of\nsection one hundred thirty-one of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

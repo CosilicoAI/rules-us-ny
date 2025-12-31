@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-771"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-771"/>
+          <FRBRdate date="2020-07-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="771"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-771/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-771/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-771/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-771/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_771">
+        <num>771</num>
+        <heading>List of relocated call centers</heading>
+        <content>
+          <p>  § 771. List of relocated call centers. 1. A call center employer that\nintends to relocate a call center or more than thirty percent of a call\ncenter's employees measured as the employment level of the previous\ncalendar month compared to the average employment level at such site\nover the previous twelve months, from New York state to a foreign\ncountry shall notify the commissioner at least ninety days before such\nrelocation.\n  2. A call center employer that violates subdivision one of this\nsection shall be subject to a civil penalty not to exceed ten thousand\ndollars for each day of such violation, except that the commissioner may\nreduce such amount for just cause shown.\n  3. The commissioner shall compile an annual list of all call center\nemployers that relocate pursuant to subdivision one of this section, and\nsuch list shall be made available to the public and shall prominently\ndisplay a link to the list on the department's website. The commissioner\nshall provide a copy of such list to the commissioner of taxation and\nfinance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

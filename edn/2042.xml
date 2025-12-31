@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2042"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2042"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2042"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2042/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2042/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2042/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2042/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2042">
+        <num>2042</num>
+        <heading>Form and validity of contract</heading>
+        <content>
+          <p>  § 2042.  Form and validity of contract.  Every contract for the\neducation of school children shall be in writing and in the form\nprescribed by the commissioner of education, and before such contract is\nexecuted the same shall be submitted for approval to the superintendent\nof schools having jurisdiction over said district and such contract\nshall not become effective until approved by such superintendent.  Such\ncontract shall not be valid or binding upon either party thereto until a\ncopy thereof is filed with the commissioner of education and approved by\nhim.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

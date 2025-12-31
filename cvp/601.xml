@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-601"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="601"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_601">
+        <num>601</num>
+        <heading>Joinder of claims</heading>
+        <subsection eId="sec_601__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The plaintiff in a complaint or the\ndefendant in an answer setting forth a counterclaim or cross-claim may\njoin as many claims as he may have against an adverse party. There may\nbe like joinder of claims when there are multiple parties.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_601__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Two or more plaintiffs may join no more than five claims in any\none action or proceeding against the same defendant arising out of\nseparate consumer credit transactions, provided that the plaintiffs are\nrepresented by the same attorney.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

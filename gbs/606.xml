@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-606"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-606"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="606"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-606/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-606/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-606/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-606/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_606">
+        <num>606</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_606__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Warehouseman means a person engaged in the business of storing\ngoods for hire.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_606__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Storage of household goods means goods stored by a consumer bailor\nwhich are used or bought for use primarily for personal, family or\nhousehold purposes.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_606__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Consumer bailor means a natural person.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

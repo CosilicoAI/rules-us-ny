@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-608"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-608"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="608"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-608/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-608/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-608/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-608/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_608">
+        <num>608</num>
+        <heading>Powers of estate of a deceased or incompetent member</heading>
+        <content>
+          <p>  § 608. Powers of estate of a deceased or incompetent member.  If a\nmember who is a natural person dies or a court of competent jurisdiction\nadjudges him or her to be incompetent to manage his or her person or his\nor her property, the member's executor, administrator, guardian,\nconservator or other legal representative may exercise all of the\nmember's rights for the purpose of settling his or her estate or\nadministering his or her property, including any power under the\noperating agreement of an assignee to become a member. If a member is a\ncorporation, trust or other entity and is dissolved or terminated, the\npowers of that member may be exercised by its legal representative or\nsuccessor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

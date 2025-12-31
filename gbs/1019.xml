@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1019"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1019"/>
+          <FRBRdate date="2016-09-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1019"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1019/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1019/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1019/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1019/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1019">
+        <num>1019</num>
+        <heading>Penalties</heading>
+        <subsection eId="sec_1019__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision twelve of section one thousand\nfifteen of this article shall be subject to a penalty of five hundred\ndollars to be collected by and paid to the department of state. Any\nindividual, corporation, association or club is prohibited from\noperating any shows or exhibitions until all penalties due pursuant to\nthis section and taxes, interest and penalties due pursuant to article\nnineteen of the tax law have been paid.\n  7. All penalties imposed and collected by the commission from any\ncorporation, entity, person or persons licensed under the provisions of\nthis article, which fines and penalties are imposed and collected under\nauthority hereby vested shall within thirty days after the receipt\nthereof by the commission be paid by them into the state treasury.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

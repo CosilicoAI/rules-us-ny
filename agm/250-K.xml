@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-K"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-K"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250-K"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_K">
+        <num>250-K</num>
+        <heading>Remedies</heading>
+        <content>
+          <p>  § 250-k. Remedies. The commissioner may institute such action at law\nor in equity as may be necessary to enforce compliance with any\nprovisions of this article or of any rule or regulation promulgated\nhereunder. In addition to any other remedy prescribed in article three\nof this chapter, or otherwise, if necessary to protect the producers or\ndealers of this state, the commissioner may apply for relief by\ninjunction without alleging or proving that an adequate remedy at law\ndoes not exist. Such application may be made to the supreme court in any\ndistrict or county, as provided by the civil practice law and rules, or\nto the supreme court in the third department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

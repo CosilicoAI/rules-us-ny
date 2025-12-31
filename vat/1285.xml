@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1285"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1285"/>
+          <FRBRdate date="2020-08-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1285"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1285/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1285/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1285/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1285/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1285">
+        <num>1285</num>
+        <heading>Lamps and other equipment</heading>
+        <content>
+          <p>  § 1285. Lamps and other equipment. 1. Every electric scooter when in\nuse during the period from one-half hour after sunset to one-half hour\nbefore sunrise shall be equipped with a lamp on the front which shall\nemit a white light visible during hours of darkness from a distance of\nat least five hundred feet to the front and with a red light visible to\nthe rear for three hundred feet. At least one such light shall be\nvisible for two hundred feet from each side.\n  2. No person shall operate an electric scooter unless such scooter is\nequipped with a bell or other device capable of giving a signal audible\nfor a distance of at least one hundred feet, except that an electric\nscooter shall not be equipped with nor shall any person use upon an\nelectric scooter any siren or whistle.\n  3. Every electric scooter shall be equipped with a brake that enables\nthe operator to bring the electric scooter to a controlled stop.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

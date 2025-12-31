@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-400"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-400"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="400"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-400/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-400/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-400/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-400/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_400">
+        <num>400</num>
+        <heading>Pensions; insurance</heading>
+        <content>
+          <p>  § 400. Pensions; insurance. Subject to such regulations as the\nsuperintendent of financial services may prescribe, a savings and loan\nassociation may, in the discretion of a majority of all the directors:\n  1. Provide pensions to officers and employees pursuant to a\nnondiscriminatory plan for service rendered to the savings and loan\nassociation or for having become incapacitated while in service to the\nsavings and loan association, including annual supplements to retirees\nbased upon the "current cost of living index figure" for any calendar\nyear based upon the Consumer Price Index as issued by the bureau of\nlabor statistics of the United States department of labor.\n  2. Provide life insurance for its officers and employees, provided\nthat life insurance is not purchased solely for or on behalf of officers\nand highly compensated employees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

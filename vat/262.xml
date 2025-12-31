@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-262"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-262"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="262"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-262/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-262/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262">
+        <num>262</num>
+        <heading>Stays pending appeal</heading>
+        <content>
+          <p>  § 262. Stays pending appeal. The appeals board, or chairman thereof,\nupon the request of any person who has filed an appeal, may, in its\ndiscretion, grant a stay pending a determination of the appeal. Whenever\na determination has not been made within thirty days after an appeal has\nbeen finally submitted, a stay of execution will be deemed granted by\noperation of law, and the license, certificate, permit or privilege\naffected will be automatically restored pending final determination.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

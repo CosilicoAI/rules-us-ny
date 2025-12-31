@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eml/section-7"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-7"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7"/>
+          <FRBRname value="EML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eml/section-7/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-7/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eml/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7">
+        <num>7</num>
+        <heading>Existing rights of action continued</heading>
+        <content>
+          <p>  § 7. Existing rights of action continued. Every right of action\nexisting on the seventeenth day of February, nineteen hundred and nine,\nfor negligence or to recover damages for injuries resulting in death is\ncontinued and nothing in this article contained shall be construed as\nlimiting any such right of action, nor shall the failure to give the\nnotice provided for in section three of this article be a bar to the\nmaintenance of a suit upon any such existing right of action.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

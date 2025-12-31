@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-1-108"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-1-108"/>
+          <FRBRdate date="2022-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1-108"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-1-108/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-1-108/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-1-108/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-1-108/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_108">
+        <num>1-108</num>
+        <heading>Expenses related to local mandatory and permissive referendum</heading>
+        <content>
+          <p>  § 1-108. Expenses related to local mandatory and permissive\nreferendum.  Notwithstanding any other provision of law to the contrary,\nno private individual, partnership, corporation, industry, association,\norganization, firm, trust, estate or other legal entity not associated\nwith the state or a municipality shall directly or indirectly pay or use\nor offer, consent to or agree to pay or use any money or property for or\nin aid of the payment of any expense incurred or expected to be incurred\nby the state or any county, city, town, village or special district,\nwhich expense is associated with the conduct of a mandatory or\npermissive referendum conducted for the purpose of deciding any ballot\nquestion submitted to all the voters of any county, city, town, village\nor special district. Such expenses shall include, but not be limited to\nthe costs associated with equipment, materials and personnel utilized to\nconduct the referendum.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

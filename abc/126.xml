@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-126"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-126"/>
+          <FRBRdate date="2022-12-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="126"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-126/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-126/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-126/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-126/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_126">
+        <num>126</num>
+        <heading>Persons forbidden to traffic in alcoholic beverages</heading>
+        <subsection eId="sec_126__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person who shall have had any license issued under this\nchapter revoked for cause, until the expiration of two years from the\ndate of such revocation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_126__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person not licensed under the provisions of this chapter, who\nhas been convicted of a violation of this chapter, until the expiration\nof two years from the date of such conviction.\n  6. A corporation or copartnership, if any officer and director or any\npartner, while not licensed under the provisions of this chapter, has\nbeen convicted of a violation of this chapter, or has had a license\nissued under this chapter revoked for cause, until the expiration of two\nyears from the date of such conviction or revocation.\n  * 8. Notwithstanding any of the provisions of this section, the\nauthority is authorized to waive the citizenship requirements therein,\nprovided that the applicant otherwise conforms to the requirements of\nthis section, and the application is for a premises located in the area\nleased by the city of New York to the New York World's Fair 1964-1965\nCorporation pursuant to the provisions of chapter four hundred\ntwenty-eight of the laws of nineteen hundred sixty as amended by chapter\nnine hundred nine of the laws of nineteen hundred sixty-one, during the\nterm or duration of such lease.\n  * NB Expired January 31, 1966\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

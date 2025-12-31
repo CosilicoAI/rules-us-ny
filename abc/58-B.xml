@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-58-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-58-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="58-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-58-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-58-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-58-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-58-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_B">
+        <num>58-B</num>
+        <heading>Retail sale of cider by wholesale licensees</heading>
+        <content>
+          <p>  § 58-b. Retail sale of cider by wholesale licensees. 1.\nNotwithstanding any other law upon payment to the liquor authority of an\nadditional annual fee of one hundred twenty-five dollars, the liquor\nauthority may in its discretion and upon such terms and conditions as it\nmay prescribe, issue to a licensed cider producer upon application\ntherefor a certificate authorizing such producer to sell cider at retail\nin sealed containers to a householder for consumption in his home, but\nno sale to such householder shall be in quantities aggregating more than\nfifteen gallons. Revenues received by any such licensed cider producer\nfrom the sale of cider at retail to householders under such a\ncertificate during the term thereof shall not exceed five per centum of\nall the revenues derived by such licensee from the sale of apples and\ncider during such term.\n  2. No retail licensee of cider authorized by this section shall keep\nor permit to be kept upon the licensed premises, any cider in any\nunsealed bottle or other unsealed container, except for the purpose of\ncider tasting or sampling by any person pursuant to authorization to\nconduct such a sampling or tasting pursuant to subdivision two of\nsection fifty-eight of this article, except to those persons to whom\nsales are prohibited in section sixty-five of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

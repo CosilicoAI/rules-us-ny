@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3233"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3233"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3233"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3233/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3233/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3233/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3233/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3233">
+        <num>3233</num>
+        <heading>New York local government assistance corporation</heading>
+        <content>
+          <p>  § 3233. New York local government assistance corporation. 1. There is\nhereby created the New York local government assistance corporation.\nThe corporation shall be a corporate governmental agency constituting a\npublic benefit corporation. It shall have the powers and privileges of a\ncorporation and all of its business shall be transacted, all funds\ninvested, all warrants for money drawn and payments made, and all cash\nand securities and other personal property held under its corporate\nname.\n  2. The corporation shall continue until six months after all its\nliabilities have been met or otherwise discharged. Upon the termination\nof the existence of the corporation, all of its rights and property\nshall pass to and be vested in the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-111"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-111"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-111/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-111/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111">
+        <num>111</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 111. Legislative intent.  Insofar as this chapter revises,\nconsolidates, codifies, continues or restates the provisions of the\nrapid transit act, as amended and supplemented, and articles seven and\neight of the public service law in force when this chapter shall take\neffect, such provisions shall be deemed unchanged in substance and\neffect. If in this chapter there shall have been incorporated any\nprovision of law that heretofore shall have been superseded or\nspecifically or impliedly repealed, the incorporation of any such\nprovision shall not revive such superseded or repealed provision, nor\nshall such incorporation be construed to indicate any legislative\ndetermination that such provision had not been theretofore so superseded\nor repealed. If in this chapter there shall have been incorporated any\nnew provision, which is not a revision, consolidation, codification,\ncontinuance or restatement of the provisions of the rapid transit act,\nas amended and supplemented, and articles seven and eight of the public\nservice law in force when this chapter shall take effect, such new\nprovision shall not become effective, but shall be deemed an\ninadvertence or error.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-602"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-602"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="602"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-602/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-602/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-602/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-602/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_602">
+        <num>602</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 602. Application. This title shall apply to a claimant employed by\nan employer whose application to participate in a shared work program\nhas been approved by the commissioner. The provisions of subdivision\nfour of section five hundred twenty-seven, subdivisions three and seven\nof section five hundred ninety and subdivision four of section five\nhundred ninety-six of this article shall not be applicable to such\nclaimant and he or she shall not be required to be available for work\nwith any other employer nor shall he or she be required to search for\nwork in accordance with subdivision two of section five hundred\nninety-one of this article if he or she is available for his or her\nusual hours of work with his or her employer that has been accepted to\nparticipate in the shared work program. The other provisions of this\narticle shall apply to such claimants and their employers to the extent\nthat they are not inconsistent with the provisions of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

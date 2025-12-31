@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-194-A"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-194-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="194-A"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-194-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-194-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-194-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-194-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_194_A">
+        <num>194-A</num>
+        <heading>Powers of town boards with respect to certain contracts</heading>
+        <content>
+          <p>  § 194-a. Powers of town boards with respect to certain contracts. Upon\nthe adoption of a resolution, the town board of any town may enter into\nsuch contracts, as it may deem necessary, with any person, corporation\nor association for the purpose of ensuring that the cost of any\nimprovement district will not constitute an undue burden upon the\nproperty within such district and may require the filing of a surety\nbond or bonds or the deposit of cash or securities with the town board\nto ensure the performance of such contracts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

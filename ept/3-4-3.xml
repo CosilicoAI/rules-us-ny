@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.3"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-4.3"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_4_3">
+        <num>3-4.3</num>
+        <heading>Revocatory effect of a conveyance, settlement or other act</heading>
+        <content>
+          <p>§ 3-4.3 Revocatory effect of a conveyance, settlement or other act\n          affecting property previously disposed of by will\n  A conveyance, settlement or other act of a testator by which an estate\nin his property, previously disposed of by will, is altered but not\nwholly divested does not revoke such disposition, but the estate in the\nproperty that remains in the testator passes to the beneficiaries\npursuant to the disposition.  However, any such conveyance, settlement\nor other act of the testator which is wholly inconsistent with such\nprevious testamentary disposition revokes it.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

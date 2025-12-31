@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="521-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_521_C">
+        <num>521-C</num>
+        <heading>Limitation on release of subscriber names</heading>
+        <content>
+          <p>  § 521-c. Limitation on release of subscriber names. No credit card\nregistration service shall rent, sell, exchange or otherwise make\navailable the names, addresses and account numbers of cardholders or\nowners of access devices entrusted to it by a credit card or access\ndevice issuer or other financial institution to any other person for use\nin direct mail marketing or solicitation without prior written approval\nof the cardholder or access device owner. Notwithstanding the foregoing,\nnothing in this section shall be construed to restrict a card issuer's\nuse of its own cardholder list.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

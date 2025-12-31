@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-AAA*2"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-AAA*2"/>
+          <FRBRdate date="2025-09-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="342-AAA*2"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-AAA*2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-AAA*2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-AAA*2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-AAA*2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_AAA*2">
+        <num>342-AAA*2</num>
+        <heading>Portion of the state highway system to be dedicated to Boston NY Fallen Firefighters</heading>
+        <content>
+          <p>  * § 342-aaa. Portion of the state highway system to be dedicated to\nBoston NY Fallen Firefighters. The bridge on Rice Hill Road, in the town\nof Boston, county of Erie, crossing over state route two hundred\nnineteen, shall be dedicated to Boston NY Fallen Firefighters.\n  * NB There are 2 § 342-aaa's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

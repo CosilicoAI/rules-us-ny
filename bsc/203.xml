@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-203"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203">
+        <num>203</num>
+        <heading>Defense of ultra vires</heading>
+        <subsection eId="sec_203__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No act of a corporation and no transfer of real or personal\nproperty to or by a corporation, otherwise lawful, shall be invalid by\nreason of the fact that the corporation was without capacity or power to\ndo such act or to make or receive such transfer, but such lack of\ncapacity or power may be asserted:\n</p>
+          </content>
+          <paragraph eId="sec_203__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>In an action by a shareholder against the corporation to enjoin\nthe doing of any act or the transfer of real or personal property by or\nto the corporation. If the unauthorized act or transfer sought to be\nenjoined is being, or is to be, performed or made under any contract to\nwhich the corporation is a party, the court may, if all of the parties\nto the contract are parties to the action and if it deems the same to be\nequitable, set aside and enjoin the performance of such contract, and in\nso doing may allow to the corporation or to the other parties to the\ncontract, as the case may be, such compensation as may be equitable for\nthe loss or damage sustained by any of them from the action of the court\nin setting aside and enjoining the performance of such contract;\nprovided that anticipated profits to be derived from the performance of\nthe contract shall not be awarded by the court as a loss or damage\nsustained.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_203__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>In an action by or in the right of the corporation to procure a\njudgment in its favor against an incumbent or former officer or director\nof the corporation for loss or damage due to his unauthorized act.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_203__subsec_a__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>In an action or special proceeding by the attorney-general to\nannul or dissolve the corporation or to enjoin it from the doing of\nunauthorized business.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

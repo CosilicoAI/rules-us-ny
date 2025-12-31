@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-95"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-95"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="95"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-95/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-95/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-95/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-95/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_95">
+        <num>95</num>
+        <heading>Drug store permit</heading>
+        <content>
+          <p>  § 95. Drug store permit. The liquor authority may issue a drug store\npermit to sell liquor and/or wine for off-premises consumption pursuant\nto this section.\n  1. Application must be made upon a form to be provided by the liquor\nauthority and shall be filed with the appropriate board. Section\nfifty-four shall control so far as applicable the procedure in\nconnection with such application.\n  2. Such permit shall authorize the permittee to sell liquor or wine in\nthe original sealed package only upon a written prescription of a\nregularly licensed physician in a quantity not exceeding one pint of\nliquor and one quart of wine; such prescription shall state the date\nthereof; the name of the person for whom prescribed and shall be\npreserved by the vendor and pasted in a book kept for the purpose and be\nbut once filled. Such package shall not be opened after sale nor its\ncontents consumed on the premises where sold.\n  3. No such permittee shall have, keep or offer for sale, or sell in\nthe premises designated in the permit any liquor which is not of the\nstrength, quality and purity prescribed in the latest United States\nPharmacopoeia.\n  4. Such permit shall be issued for a calendar year and the fee\ntherefor shall be at the rate of fifty-one dollars per year for each\nplace where such traffic is carried on except that where application\nshall be filed after July first in any year the fee to be paid shall be\nthe sum of twenty-six dollars for the balance of such year.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

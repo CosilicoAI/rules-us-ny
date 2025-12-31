@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-222"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-222"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="222"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-222/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-222/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222">
+        <num>222</num>
+        <heading>Exemptions for testing, demonstration or experimentation</heading>
+        <content>
+          <p>  § 222. Exemptions for testing, demonstration or experimentation.  The\ncommissioner, upon application of a person, or upon his own application,\nmay grant an exemption from any requirement of this chapter relating to\nregistration or equipment to any designated vehicle for the purpose of\ntesting, demonstration or experimentation.  Any such exemption shall be\nlimited to specific areas and times, and such exemptions shall be\nevidenced by a certificate issued by the commissioner or his designated\nagent, which certificate shall contain a description of the vehicle, the\nexemptions granted, and the areas and times to which the exemptions\napply. For the purposes of this section, testing, demonstration or\nexperimentation shall be limited to such activities being performed at\nthe request of, or with the consent of a governmental agency. For the\npurposes of articles six, seven and eight of this chapter, a certificate\nissued pursuant to this section shall be deemed to be a registration,\nand all the provisions of articles six, seven and eight of this chapter\nwith regard to proof of financial security at the time of registration\nand all the penalties found in said articles with respect to the failure\nto maintain such financial security shall apply to vehicles for which a\ncertificate is issued pursuant to this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

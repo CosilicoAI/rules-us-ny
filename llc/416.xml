@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-416"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-416"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="416"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-416/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-416/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-416/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-416/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_416">
+        <num>416</num>
+        <heading>Vacancies</heading>
+        <subsection eId="sec_416__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as provided in the operating agreement,\nif management of the limited liability company is vested in a group of\nmanagers, any vacancies occurring in such group may be filled by the\nvote of a majority in interest of the members entitled to vote thereon.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_416__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except as provided in the operating agreement, a manager chosen to\nfill a vacancy shall serve the unexpired term of his or her predecessor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_416__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Except as provided in the operating agreement, any manager's\nposition filled by reason of an increase in the number of managers shall\nbe filled by the vote of a majority in interest of the members entitled\nto vote thereon.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_416__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Except as provided in the operating agreement, a manager chosen to\nfill a position resulting from an increase in the number of managers\nshall hold office until the next annual meeting of members or until a\nsuccessor has been elected and qualified.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

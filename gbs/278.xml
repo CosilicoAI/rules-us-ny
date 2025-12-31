@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-278"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-278"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="278"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-278/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-278/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-278/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-278/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_278">
+        <num>278</num>
+        <heading>Filing under prior law</heading>
+        <content>
+          <p>  § 278. Filing under prior law. At the end of twelve months following\nthe effective date of this article, the secretary of state shall cancel\nall certificates issued under sections three hundred sixty and three\nhundred sixty-one of article twenty-four of the general business law,\nunless a new statement shall have been filed under this article;\nprovided, however, that such certificates issued under such prior law\nshall remain in full force and effect and shall be entitled to all of\nthe benefits of this article during said twelve months' period or until\nthe said statement has been filed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

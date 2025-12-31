@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBB"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBB"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1449-BBB"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBB/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBB/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBB/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBB/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1449_BBB">
+        <num>1449-BBB</num>
+        <heading>Imposition of tax</heading>
+        <content>
+          <p>  § 1449-bbb. Imposition of tax. Notwithstanding any other provisions of\nlaw to the contrary, the county of Nassau, acting through its local\nlegislative body, is hereby authorized and empowered to adopt and amend\nlocal laws imposing in such county a tax on each conveyance of real\nproperty or interest therein when the consideration exceeds five hundred\ndollars, at the rate of five dollars for each five hundred dollars or\nfractional part thereof.  The authority of the county to adopt and amend\nlocal laws imposing the tax authorized by this section and the\nimposition of all taxes pursuant thereto shall expire on January\nthirty-first, two thousand one.  Such local law may apply to any\nconveyance occurring on or after the date designated by such legislative\nbody, but shall not apply to conveyances made on or after such date\npursuant to binding written contracts entered into prior to such date,\nprovided that the date of execution of such contract is confirmed by\nindependent evidence such as the recording of the contract, payment of a\ndeposit or other facts and circumstances as determined by the treasurer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

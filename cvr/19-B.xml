@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-B"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-B"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_B">
+        <num>19-B</num>
+        <heading>Restraint of discrimination; damages for violations</heading>
+        <content>
+          <p>  § 19-b. Restraint of discrimination; damages for violations. Any\nperson aggrieved by a violation of section nineteen-a, including but not\nbe limited to, any person who has made a loan, authorized by law, for\nthe purpose of financing the purchase of certificates of stock or other\nevidence of ownership of an interest in a corporation formed for the\npurpose of the cooperative ownership of real estate with the state, or\nany of their lawful successors in interest shall have a right of action\nin any court of appropriate jurisdiction to restrain such violation and\nfor other equitable remedies, including such affirmative and other\nrelief as may be necessary to undo the effects of such violation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

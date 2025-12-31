@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-416"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-416"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="416"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-416/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-416/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-416/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-416/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_416">
+        <num>416</num>
+        <heading>Application of article</heading>
+        <content>
+          <p>  § 416. Application of article. 1. This article shall not apply to or\naffect the practice of the profession by duly licensed physicians,\nosteopaths, dentists, optometrists, nurses or physiotherapists.\n  2. This article shall not apply to, affect or prevent home\nadministration, without compensation or other consideration, of any\npractices defined in this article, nor shall the provisions of this\narticle be construed to prevent the application of facial creams and\nlotions by persons working for the manufacturer of such creams and\nlotions in its establishment and under the direction of a licensed\nesthetician.  Also, this article shall not apply to the retail sale, or\nthe trial demonstration by application to the skin for purposes of\nretail sale, of tonics, antiseptics, powders, oils, clays, lotions,\ncreams, cosmetics, cosmetic preparations or compounds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

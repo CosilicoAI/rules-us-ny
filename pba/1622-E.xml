@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1622-E"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1622-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1622-E"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1622-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1622-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1622-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1622-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1622_E">
+        <num>1622-E</num>
+        <heading>Civil service status of officers and employees</heading>
+        <content>
+          <p>  § 1622-e. Civil service status of officers and employees. Officers and\nemployees of any board, commission or department of the village may be\ntransferred to the authority in accordance with the provisions of the\ncivil service law and shall be eligible for such transfer and\nappointment without examination to offices and positions under the\nauthority. All such employees who have been appointed to positions in\nthe service of the village shall have the same status with respect\nthereto after transfer to the authority as they had under their original\nappointments. The appointment and promotion of all employees of the\nauthority shall be made in accordance with the provisions of the civil\nservice law and all employees of the authority may have the same rights\nand benefits as village employees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

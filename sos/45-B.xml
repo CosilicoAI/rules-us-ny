@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-B"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="45-B"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-45-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-45-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_B">
+        <num>45-B</num>
+        <heading>Notice of funding availability; contracts</heading>
+        <content>
+          <p>  § 45-b. Notice of funding availability; contracts. A local social\nservices district that receives funding pursuant to this title shall\nissue notices of funding availability together with application forms\nfor financial assistance under this title, provided that such notices,\napplication forms and competitive award procedures are approved in\nadvance by the department. When such applications are approved, the\nlocal social services official is authorized to enter into contracts\nwith eligible applicants to provide financial assistance in the form of\ngrants for eligible costs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

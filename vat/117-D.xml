@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-117-D"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-117-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="117-D"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-117-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-117-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-117-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-117-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_117_D">
+        <num>117-D</num>
+        <heading>Blood delivery vehicle</heading>
+        <content>
+          <p>  § 117-d. Blood delivery vehicle. Every vehicle owned, designated and\noperated by the not-for-profit corporation incorporated under the name\nNew York blood center specifically equipped for and used in response to\nreports of the need for transportation of blood or blood products to\ngeneral hospitals or other health care facilities.  No blood delivery\nvehicle shall be operated as an authorized emergency vehicle engaged in\nan emergency operation unless the driver of such vehicle has undergone\nappropriate training for the operation of authorized emergency vehicles\nduring emergency operations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

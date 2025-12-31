@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-S"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-S"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209-S"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-S/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-S/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-S/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-S/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209_S">
+        <num>209-S</num>
+        <heading>Contracts between municipalities and fire districts for joint fire training centers</heading>
+        <content>
+          <p>  § 209-s. Contracts between municipalities and fire districts for joint\nfire training centers.  The local governing bodies of the several\ncities, towns, villages and fire districts of the state, are hereby\nauthorized on behalf of their respective cities, towns, villages and\nfire districts to enter into contracts with any other municipality or\nmunicipalities or fire districts for the construction, operation and\nmaintenance and joint use of fire training centers at their joint\nexpense. Any such contract may provide for the apportionment and\nallocation of expenses among the parties and, in the case of expenses of\na town, may make provision for the elimination of dual liability of\ntaxable real property within the boundaries of the contracting parties;\nprovided however, that unless the governing board of any village within\nthe town shall agree otherwise, the expenses of a town shall not be\ncharged against the taxable real property within such village.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

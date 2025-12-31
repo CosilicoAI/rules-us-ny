@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-41"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-41"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="41"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-41/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-41/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-41/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-41/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41">
+        <num>41</num>
+        <heading>Limitations on tax credit eligibility</heading>
+        <content>
+          <p>  § 41. Limitations on tax credit eligibility. Any taxpayer who stands\nconvicted, or who is a shareholder of an S corporation or partner in a\npartnership which is convicted, of an offense defined in article two\nhundred or four hundred ninety-six or section 195.20 of the penal law\nshall not be eligible for any tax credit allowed under article nine,\nnine-A, thirty-two or thirty-three of this chapter or any business tax\ncredit allowed under article twenty-two of this chapter. For purposes of\nthis section, a business tax credit allowed under article twenty-two of\nthis chapter is a tax credit allowed to taxpayers under article\ntwenty-two which is substantially similar to a tax credit allowed to\ntaxpayers under article nine-A of this chapter. In the event a person or\nfirm, partnership or corporation is convicted of an offense defined in\narticle two hundred or four hundred ninety-six or section 195.00 of the\npenal law, the office responsible for prosecuting such offense shall\nsend notice of such conviction, together with the names of any firm,\npartnership or corporation of which the person is known to be a member,\npartner, officer or director, to the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-313"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-313"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-313"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-313/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-313/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-313/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-313/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_313">
+        <num>580-313</num>
+        <heading>Costs and fees</heading>
+        <subsection eId="sec_580_313__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The petitioner may not be required to\npay a filing fee or other costs.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_313__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If an obligee prevails, a responding tribunal of this state may\nassess against an obligor filing fees, reasonable attorney's fees, other\ncosts, and necessary travel and other reasonable expenses incurred by\nthe obligee and the obligee's witnesses. The tribunal may not assess\nfees, costs or expenses against the obligee or the support enforcement\nagency of either the initiating or responding state or foreign country,\nexcept as provided by other law. Attorney's fees may be taxed as costs,\nand may be ordered paid directly to the attorney, who may enforce the\norder in the attorney's own name. Payment of support owed to the obligee\nhas priority over fees, costs, and expenses.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_313__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The tribunal shall order the payment of costs and reasonable\nattorney's fees if it determines that a hearing was requested primarily\nfor delay. In a proceeding under part six of this article, a hearing is\npresumed to have been requested primarily for delay if a registered\nsupport order is confirmed or enforced without change.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

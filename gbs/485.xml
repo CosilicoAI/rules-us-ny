@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-485"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-485"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="485"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-485/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-485/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-485/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-485/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_485">
+        <num>485</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 485. Application. 1. Except as otherwise provided in this article,\nthis article shall not apply to the use or possession of lasers,\nradioactive material or radiation equipment which are subject to the\nregulatory powers and jurisdiction of the state department of health or\nthe health department of the city of New York.\n  2. a. Sections four hundred eighty-two, four hundred eighty-three and\nsubdivision one of section four hundred eighty-four of this article\nshall not apply to an individual operating a crane or acting as a\nblaster in a city having a population of one million or more.\n  b. No individual shall operate a crane or act as a blaster in a city\nhaving a population of one million or more without holding a valid\nlicense or certificate of fitness issued by such city, and such city is\nhereby authorized and directed to prescribe rules and regulations as\ndescribed in section four hundred eighty-three of this article.\n  c. No employer, contractor or agent thereof shall knowingly permit any\nindividual to operate a crane or act as a blaster in a city having a\npopulation of one million or more unless such individual holds a valid\nlicense or certificate of fitness issued by such city.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2998"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2998"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2998"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2998/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2998/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2998/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2998/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2998">
+        <num>2998</num>
+        <heading>Patient safety center</heading>
+        <content>
+          <p>  § 2998. Patient safety center. 1. There is established within the\ndepartment a patient safety center, referred to in this article as "the\ncenter".\n  2. The purpose of the center is to maximize patient safety, reduce\nmedical errors, and improve the quality of health care by improving\nsystems of data reporting, collection, analysis and dissemination, and\nto improve public access to health care information not otherwise\nrestricted.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

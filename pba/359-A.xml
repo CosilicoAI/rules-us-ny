@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-359-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-359-A"/>
+          <FRBRdate date="2017-01-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="359-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-359-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-359-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-359-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-359-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_359_A">
+        <num>359-A</num>
+        <heading>Procurement contracts</heading>
+        <content>
+          <p>  § 359-a. Procurement contracts. For the purposes of section\ntwenty-eight hundred seventy-nine of this chapter as applied to the\nauthority, the term "procurement contract" shall mean any written\nagreement for the acquisition of goods or services of any kind by the\nauthority in the actual or estimated amount of fifteen thousand dollars\nor more.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

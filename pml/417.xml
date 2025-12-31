@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-417"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-417"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="417"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-417/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-417/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-417/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-417/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_417">
+        <num>417</num>
+        <heading>Filing of certain agreements with commission</heading>
+        <content>
+          <p>  § 417. Filing of certain agreements with commission. Every association\nor corporation licensed to conduct quarter horse race meetings at which\npari-mutuel betting is permitted shall promptly after entering into any\nlease, agreement concerning any concession, labor management relations,\nthe hiring of designated classes of officers, employees or contractors\nspecified by the commission or any such other contract, agreement or\narrangement as the commission may from time to time prescribe file with\nthe commission a true and correct copy, or an accurate summary, if oral,\nthereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

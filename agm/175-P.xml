@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175-P"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175-P"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_P">
+        <num>175-P</num>
+        <heading>Reports of sale</heading>
+        <content>
+          <p>  § 175-p. Reports of sale.  Within three days after the sale under\npermit, as provided in this article, shall have been held, the person\nwho conducted the sale shall send a statement to the department giving a\ncomplete list of the number and kind of baby chicks sold at such sale,\ntogether with the representations and guarantees made in relation\nthereto, if any were made by the person who conducted such sale, and the\nperson conducting such sale shall be held to have had full knowledge of\nthe representations and guarantees made at the time of such sale and\nshall be as fully responsible and liable for any such representations\nand guarantees as is the person who set forth such representations and\nguarantees on the containers as provided in section one hundred\nseventy-five-o of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

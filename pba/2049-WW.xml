@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-WW"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-WW"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2049-WW"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-WW/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-WW/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-WW/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-WW/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2049_WW">
+        <num>2049-WW</num>
+        <heading>Preference for actions or proceedings against authority</heading>
+        <content>
+          <p>  § 2049-ww. Preference for actions or proceedings against authority.\nAny action or proceeding to which the authority or the people of the\nstate may be parties, in which any question arises as to the validity of\nthis title, shall be preferred over all other civil causes of action or\ncases, except election causes of action or cases, in all courts of the\nstate and shall be heard and determined in preference to all other civil\nbusiness pending therein, except election causes, irrespective of\nposition on the calendar. The same preference shall be granted upon\napplication of the authority or its counsel in any action or proceeding\nquestioning the validity of this title in which the authority may be\nallowed to intervene. The venue of any such action or proceeding shall\nbe laid in the supreme court of the county in which the principal office\nof the authority is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

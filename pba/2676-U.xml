@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2676-U"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2676-U"/>
+          <FRBRdate date="2024-07-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2676-U"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2676-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2676-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2676-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2676-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2676_U">
+        <num>2676-U</num>
+        <heading>Limited liability</heading>
+        <content>
+          <p>  § 2676-u. Limited liability. Neither members, officers, or employees\nof the authority, nor any municipality, or an officer or employee\nthereof acting on behalf of the authority, shall be subject to any\npersonal liability resulting from the construction, maintenance, or\noperation of any of the properties of the authority or from carrying out\nany of the powers expressly given in this title provided, however, that\nthis section shall not be held to apply to any independent contractor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-360.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-360.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="360.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-360.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-360.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-360.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-360.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_1">
+        <num>360.1</num>
+        <heading>Jurisdiction and supervision of respondent placed on probation</heading>
+        <content>
+          <p>  § 360.1. Jurisdiction and supervision of respondent placed on\nprobation. 1. A respondent who is placed on probation shall remain under\nthe legal jurisdiction of the court pending expiration or termination of\nthe period of the order of probation.\n  2. The probation service shall supervise the respondent during the\nperiod of such legal jurisdiction.\n  3. If at any time during the period of probation the court has\nreasonable cause to believe that the respondent has violated a condition\nof the probation order, it may issue a search order. A search order is\nan order directed to a probation officer authorizing such officer to\nsearch the person of the respondent or any personal property which he\nowns or which is in his possession.\n  4. In executing a search order pursuant to this section, a probation\nofficer may be assisted by a police officer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

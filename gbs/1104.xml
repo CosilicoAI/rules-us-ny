@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1104"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1104"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1104"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1104">
+        <num>1104</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 1104. Application. This article shall not apply to a social media\ncompany that generated less than one hundred million dollars in gross\nrevenue during the preceding calendar year or to an internet-based\nservice or application for which interactions between users are limited\nto direct messages, commercial transactions, consumer reviews of\nproducts, sellers, services, events, or places, or any combination\nthereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

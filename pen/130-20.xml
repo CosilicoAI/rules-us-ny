@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.20"/>
+          <FRBRdate date="2024-09-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_20">
+        <num>130.20</num>
+        <heading>Sexual misconduct</heading>
+        <content>
+          <p>§ 130.20 Sexual misconduct.\n  A person is guilty of sexual misconduct when:\n  1. He or she engages in vaginal sexual contact with another person\nwithout such person's consent; or\n  2. He or she engages in oral sexual contact with another person\nwithout such person's consent; or\n  3. He or she engages in anal sexual contact with another person\nwithout such person's consent; or\n  4. He or she engages in sexual conduct with an animal or a dead human\nbody.\n  Sexual misconduct is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

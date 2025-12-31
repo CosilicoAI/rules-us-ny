@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-208"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-208"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-208"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-208/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-208/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-208/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-208/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_208">
+        <num>6-208</num>
+        <heading>Petitions, qualifications of signers</heading>
+        <subsection eId="sec_6_208__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>such signature was made not more than six\nweeks prior to the last day to file such petition;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6_208__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>he has not signed\nmore than one petition designating or nominating a candidate for mayor\nor village justice. If he has signed more than one such petition, only\nthe earliest signature for each such office shall be valid;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6_208__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>he has\nnot signed more than one petition designating or nominating a candidate\nfor each vacancy which exists for the office of village trustee or\nvillage justice if the village has provided for two such justices. If he\nhas signed more than one such petition for each such vacancy, only the\nearlier signatures shall be valid; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6_208__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>he does not vote at a primary\nelection or party caucus where a candidate was nominated for the same\noffice for each such vacancy.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

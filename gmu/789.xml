@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-789"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-789"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="789"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-789/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-789/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-789/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-789/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_789">
+        <num>789</num>
+        <heading>Effect on existing laws of village</heading>
+        <content>
+          <p>  § 789. Effect on existing laws of village. 1. Except as otherwise\nprovided in the dissolution plan or elector initiated dissolution plan,\nas the case may be, all local laws, ordinances, rules and regulations of\na village in effect on the date of the dissolution of such village,\nincluding but not limited to zoning ordinances, shall remain in effect\nfor a period of two years following dissolution, as if same had been\nduly adopted by the town board and shall be enforced by the town within\nthe limits of the dissolved village, except that the town board shall\nhave the power at any time to amend or repeal such local laws,\nordinances, rules or regulations in the manner as other local laws,\nordinances, rules or regulations of the town.\n  2. If the village has a zoning board of appeals, or a planning board,\nor both, and the town does not, then upon dissolution the town board\nshall act in place of such board or boards until the town board shall\nhave appointed such board or boards for the town in accordance with the\nprovisions of the town law. Such appointments may be made prior to\ndissolution, to become effective upon the effective date of dissolution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-T"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-T"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209-T"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-209-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-209-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209_T">
+        <num>209-T</num>
+        <heading>Contracts for joint fire alarm systems</heading>
+        <content>
+          <p>  § 209-t. Contracts for joint fire alarm systems.  The local governing\nbodies of the several villages and fire districts of the state are\nhereby authorized on behalf of their respective villages and fire\ndistricts to enter into contracts with any other village or fire\ndistrict for the construction, operation and maintenance and joint use\nof a fire alarm system at their joint expense (each village or fire\ndistrict bearing a part of the expense in proportion to the assessed\nvaluation of real estate in such village or fire district, or on such\nother basis or division as may be jointly agreed upon).\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

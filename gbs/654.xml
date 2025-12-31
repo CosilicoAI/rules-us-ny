@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-654"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-654"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="654"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-654/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-654/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-654/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-654/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_654">
+        <num>654</num>
+        <heading>Right of cancellation</heading>
+        <content>
+          <p>  § 654. Right of cancellation. 1. The purchaser may cancel a membership\ncamping contract with or without cause within three business days after\nthe execution of such contract.  Notice of cancellation shall be\ndelivered by hand or mailed to the address specified in the contract.\nNotice of cancellation shall be deemed timely given if postmarked on or\nbefore the third business day following the date of execution.\n  2. A purchaser may cancel a membership camping contract pursuant to\nthis section without penalty or obligation and all payments made by the\npurchaser prior to cancellation shall be refunded within thirty days\nafter receipt of the notice of cancellation by the membership campground\noperator. Upon cancellation pursuant to this section, all notes,\nmortgages, security agreements or other loan documents executed by the\npurchaser in connection with the membership camping contract shall be\ndeemed cancelled without penalty or obligation to the purchaser.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

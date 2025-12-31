@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2104"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2104"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2104">
+        <num>2104</num>
+        <heading>Certificate of title required</heading>
+        <subsection eId="sec_2104__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every owner of a vehicle\nwhich is in this state and is not excluded from provisions of this title\nby section two thousand one hundred two of this article, and for which\nno certificate of title has been issued by the commissioner shall make\napplication to the commissioner for a certificate of title of the\nvehicle within thirty days after transfer to him of the vehicle;\nprovided, however, that a person may, but need not, make application to\nthe commissioner for a certificate of title for a fire truck designed,\nused and maintained for fire service purposes and the transportation of\nproperty in connection therewith owned and identified as being owned by\nthe state, a public authority, a county, town, city, village or fire\ndistrict, or a fire corporation subject to the provisions of paragraph\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2104__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of section fourteen hundred two of the not-for-profit corporation\nlaw, or a fire company as defined in section one hundred of the general\nmunicipal law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2104__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The commissioner shall not register or renew the registration of a\nvehicle unless a certificate of title has been issued by the\ncommissioner to the owner or an application therefor has been made by\nthe owner and delivered to the commissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

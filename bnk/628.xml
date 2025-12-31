@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-628"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-628"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="628"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-628/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-628/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-628/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-628/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_628">
+        <num>628</num>
+        <heading>Payment of dividends when deposits have been made available by Federal Deposit Insurance Corporation</heading>
+        <content>
+          <p>  § 628. Payment of dividends when deposits have been made available by\nFederal Deposit Insurance Corporation. When the superintendent shall\nhave taken possession of any banking organization for the purpose of\nliquidation, and Federal Deposit Insurance Corporation shall have made\navailable to the depositors thereof the amounts of their respective\ndeposits insured by such corporation, he shall be authorized, without\nrequiring assignments from depositors, to pay to such corporation such\ndividends on account of such insured deposits as such depositors would\nbe entitled to receive had their deposits not been made available to\nthem by such corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

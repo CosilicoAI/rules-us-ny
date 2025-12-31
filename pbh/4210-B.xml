@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4210-B"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4210-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4210-B"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4210-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4210-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4210-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4210-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4210_B">
+        <num>4210-B</num>
+        <heading>Certain unauthorized autopsies</heading>
+        <content>
+          <p>  § 4210-b. Certain unauthorized autopsies. A person authorized by law\nto perform a dissection or autopsy who acts in good faith in accordance\nwith the terms of this article but is unaware of the existence of an\nidentification card indicating the decedent's opposition to the\ndissection or autopsy of his body after a routine examination of the\ndecedent and his effects has been conducted shall not be subjected to\nprosecution in any criminal proceeding nor held liable for damages in\nany civil action for his involvement in such an unauthorized autopsy.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

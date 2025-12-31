@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1432"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1432"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1432"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1432/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1432/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1432/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1432/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1432">
+        <num>1432</num>
+        <heading>Deposit and disposition of revenue</heading>
+        <subsection eId="sec_1432__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>All taxes collected\nor received by the treasurer or his duly authorized agent under the\nprovisions of the local law enacted pursuant to this article shall be\ndeposited in accordance with provisions of a local law adopted by the\nlegislative body of Erie county which local law shall designate proper\nofficers to be responsible for deposit of revenue collected or received\nunder this article. Such local law shall also provide that any officer\ndesignated to collect, receive, or deposit such revenue shall maintain a\nsystem of accounts showing the revenue collected or received from the\ntax imposed pursuant to this article. Such local law shall also provide\nthat an officer of the county shall pay to the Niagara Frontier\ntransportation authority all revenue deposited under this section.  Such\npayment shall be made on the tenth day of each month for the preceding\nmonth.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1432__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Distributions made to the Niagara Frontier transportation\nauthority shall be used only for operations of mass transportation\nservices provided by the Niagara Frontier transportation authority\nwithin the county of Erie. All such distributions shall be made in\naccordance with the provisions of a contract between the county of Erie\nand the Niagara Frontier Transit Metro System, Inc. Such contract may\nonly be amended with the consent of the Niagara Frontier Transit Metro\nSystem, Inc. and when authorized by at least a two-thirds vote of the\ncounty legislature.\n  2. Notwithstanding the provisions of subdivision one of this section,\non and after the first day of April, nineteen hundred ninety-three,\ndistributions shall be paid into a repair reserve fund established by\nthe county pursuant to section six-d of the general municipal law for\nthe purpose of repair of county roads and bridges within such county.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

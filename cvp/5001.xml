@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5001"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5001"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5001"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5001/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5001/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5001/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5001/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5001">
+        <num>5001</num>
+        <heading>Interest to verdict, report or decision</heading>
+        <subsection eId="sec_5001__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Actions in which\nrecoverable. Interest shall be recovered upon a sum awarded because of a\nbreach of performance of a contract, or because of an act or omission\ndepriving or otherwise interfering with title to, or possession or\nenjoyment of, property, except that in an action of an equitable nature,\ninterest and the rate and date from which it shall be computed shall be\nin the court's discretion.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5001__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Date from which computed. Interest shall be computed from the\nearliest ascertainable date the cause of action existed, except that\ninterest upon damages incurred thereafter shall be computed from the\ndate incurred. Where such damages were incurred at various times,\ninterest shall be computed upon each item from the date it was incurred\nor upon all of the damages from a single reasonable intermediate date.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5001__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Specifying date; computing interest. The date from which interest\nis to be computed shall be specified in the verdict, report or decision.\nIf a jury is discharged without specifying the date, the court upon\nmotion shall fix the date, except that where the date is certain and not\nin dispute, the date may be fixed by the clerk of the court upon\naffidavit.  The amount of interest shall be computed by the clerk of the\ncourt, to the date the verdict was rendered or the report or decision\nwas made, and included in the total sum awarded.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

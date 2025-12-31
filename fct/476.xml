@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-476"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-476"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="476"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-476/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-476/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-476/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-476/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_476">
+        <num>476</num>
+        <heading>Forfeitures applied to support of petitioner</heading>
+        <subsection eId="sec_476__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>All sums\ncollected from the surety by judgment as well as forfeited cash deposits\nshall be applied by the clerk of court to the support of the petitioners\nfor whose benefit the order for support was made. Subsequent defaults\nshall be proceeded upon in the same manner until the amount of the\nprincipal of the undertaking or the cash deposited has been recovered in\nfull.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_476__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where the respondent, or any one in his behalf, shall have\ndeposited with the court monies as surety for compliance with the terms\nof the order of support and the respondent shall have died, the court\nmay make an order directing the payment to the petitioner of all monies\nstill in possession of the court in conformance with the order of\nsupport.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-40"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40">
+        <num>40</num>
+        <heading>Penalty for violation of rule or order</heading>
+        <content>
+          <p>§ 40. Penalty for violation of rule or order. Every person, association\nor corporation and all agents, officers and employees thereof, shall\nobey every order made as provided in this chapter, so long as such order\nshall be in force. A person, association or corporation who shall fail\nby himself, itself or through his or its agents, officers and employees,\nto obey any order of the commissioner, or who shall violate any rule of\nthe department shall be subject to a penalty not exceeding the sum of\nfour hundred dollars for each and every first offense, and a penalty not\nexceeding the sum of eight hundred dollars for a second and each\nsubsequent offense. Every violation of such order, or of the rules of\nthe department, shall be a separate and distinct offense, and in case of\na continuing violation, every day's continuance thereof shall be a\nseparate and distinct offense.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

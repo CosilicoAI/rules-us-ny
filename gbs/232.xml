@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-232"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-232"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="232"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-232/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-232/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_232">
+        <num>232</num>
+        <heading>Trade mark</heading>
+        <content>
+          <p>  § 232. Trade mark.  If there is any quality mark printed, stamped or\nbranded on the article itself there must also be printed, stamped or\nbranded on the said article itself the following mark, to wit: a trade\nmark duly applied for or registered under the laws of the United States\nof the manufacturer of such article; except that if such manufacturer\nhas sold or contracted to sell such article to a jobber, wholesaler or\nretail dealer regularly engaged in the business of buying and selling\nsimilar articles, this provision shall be deemed to be complied with if\nthere is so marked on the said article the trade mark duly registered\nunder the laws of the United States of such jobber, wholesaler or retail\ndealer respectively; and in such event there may also be marked on the\nsaid article itself numerals intended to identify the article, design or\npattern provided, however, that such numerals do not appear or purport\nto be a part of the quality mark and provided that they are not\ncalculated to mislead or deceive anyone into believing that they are\npartly of the quality mark.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

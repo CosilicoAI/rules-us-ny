@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-4000"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-4000"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4000"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-4000/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-4000/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-4000/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-4000/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4000">
+        <num>4000</num>
+        <heading>Construction</heading>
+        <content>
+          <p>  § 4000. Construction. This chapter shall not be considered a new act,\nbut a reenactment and a continuation of the several acts consolidated\nherein; nor shall this chapter affect or impair any right, power or duty\nconferred or imposed by any such act or any liability or right incurred\nor action or proceeding taken thereunder.\n  Whenever the terms "condemnation" or "appropriation" or any other term\nwhich refers to the taking of real property by exercise of the power of\neminent domain are used in this chapter such terms shall be deemed to\nmean "acquisition" as such term is defined in section one hundred three\nof the eminent domain procedure law.\n  Whenever the power to acquire real property by eminent domain\nproceedings has been given to any public authority under this chapter or\nany of its instrumentalities, such acquisition shall be pursuant to the\nprovisions of the eminent domain procedure law, and the provisions\ncontained herein relating to such power shall be given full force and\neffect to the extent that they are consistent with the provisions of the\neminent domain procedure law and to the extent that any of such\nprovisions are inconsistent with the provisions of such law, the\nprovisions of the eminent domain procedure law shall be deemed to be\ncontrolling.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

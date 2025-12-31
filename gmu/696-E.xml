@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-696-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-696-E"/>
+          <FRBRdate date="2023-10-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="696-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-696-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-696-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-696-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-696-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_696_E">
+        <num>696-E</num>
+        <heading>Charges</heading>
+        <content>
+          <p>  § 696-e. Charges. A municipality, or an agency, making a loan or grant\npursuant to this article, may require the payment of charges by an owner\nin consideration for the financing, regulation, supervision and audit of\nsuch loan, or for regulation, supervision and audit of such grant. Such\ncharges shall be paid into the treasury of the municipality requiring\nthe charges and shall be paid and deposited in the general fund of any\nsuch municipality.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

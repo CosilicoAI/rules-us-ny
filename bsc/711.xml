@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-711"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-711"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="711"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-711/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-711/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-711/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-711/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_711">
+        <num>711</num>
+        <heading>Notice of meetings of the board</heading>
+        <subsection eId="sec_711__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Unless otherwise provided by the by-laws, regular meetings of the\nboard may be held without notice if the time and place of such meetings\nare fixed by the by-laws or the board. Special meetings of the board\nshall be held upon notice to the directors.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_711__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The by-laws may prescribe what shall constitute notice of meeting\nof the board. A notice, or waiver of notice, need not specify the\npurpose of any regular or special meeting of the board, unless required\nby the by-laws.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_711__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Notice of a meeting need not be given to any director who submits\na signed waiver of notice whether before or after the meeting, or who\nattends the meeting without protesting, prior thereto or at its\ncommencement, the lack of notice to him.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_711__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>A majority of the directors present, whether or not a quorum is\npresent, may adjourn any meeting to another time and place. If the\nby-laws so provide, notice of any adjournment of a meeting of the board\nto another time or place shall be given to the directors who were not\npresent at the time of the adjournment and, unless such time and place\nare announced at the meeting, to the other directors.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

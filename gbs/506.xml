@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-506"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-506"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="506"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-506/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-506/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_506">
+        <num>506</num>
+        <heading>Exclusions</heading>
+        <content>
+          <p>  § 506. Exclusions. The provisions of this article shall not apply:\n  1. to any common carrier, contract carrier or freight forwarder with\nrespect to a product, fabric or related material shipped or delivered\nfor shipment into commerce in the ordinary course of its business; or\n  2. to any person manufacturing, delivering for shipment, shipping,\nselling, or offering for sale for export from the state to any foreign\ncounty a product, fabric or related material made in accordance with the\nspecifications of the purchaser; or\n  3. to any convertor, processor, or finisher in performing a contract\nor commission service for the account of a person subject to the\nprovisions of this article provided that such convertor, processor, or\nfinisher does not cause any product, fabric or related material to\nbecome subject to this article contrary to the terms of the contract or\ncommission service; or\n  4. to any product, fabric or related material shipped or delivered for\nshipment into commerce for the purpose of finishing or processing to\nrender such product, fabric or related material not so highly flammable\nunder the provisions of section five hundred two of this article as to\nbe dangerous when worn or used by individuals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

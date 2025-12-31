@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1237"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1237"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1237"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1237/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1237/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1237/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1237/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1237">
+        <num>1237</num>
+        <heading>Method of giving hand and arm signals by bicyclists</heading>
+        <content>
+          <p>  § 1237. Method of giving hand and arm signals by bicyclists. All\nsignals herein required to be given by bicyclists by hand and arm shall\nbe given in the following manner and such signals shall indicate as\nfollows:\n  1. Left turn. Left hand and arm extended horizontally.\n  2. Right turn. Left hand and arm extended upward or right hand and arm\nextended horizontally.\n  3. Stop or decrease speed. Left hand and arm extended downward.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-305"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-305"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="305"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-305/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-305/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_305">
+        <num>305</num>
+        <heading>Neglect to make or repair division fence</heading>
+        <content>
+          <p>  § 305. Neglect to make or repair division fence. If any person who is\nliable to contribute to the erection or repair of a division fence shall\nneglect or refuse to make and maintain his proportion of such fence, or\nshall permit the same to be out of repair, he shall be liable to pay the\nparty injured all such damages as shall accrue thereby, to be\nascertained and appraised by any two fence viewers of the town, and to\nbe recovered with costs. The appraisement shall be reduced to writing,\nand signed by the fence viewers making it. If such neglect or refusal\nshall be continued for the period of one month after request in writing\nto make or repair the fence, the party injured may make or repair the\nsame, at the expense of the party so neglecting or refusing, to be\nrecovered from him with costs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

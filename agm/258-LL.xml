@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-LL"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-LL"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="258-LL"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-LL/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-LL/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-LL/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-LL/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_258_LL">
+        <num>258-LL</num>
+        <heading>New York delegation to compact commission</heading>
+        <subsection eId="sec_258_LL__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The New York\ndelegation to the northeast interstate compact commission shall consist\nof five persons, at least one of whom shall be a dairy farmer who is\nengaged in the production of milk at the time of appointment or\nreappointment and one of whom shall be representative of consumers'\ninterests. One member shall be appointed by the governor, one by the\ntemporary president of the senate, one by the minority leader of the\nsenate, one by the speaker of the assembly and one by the minority\nleader of the assembly. Members shall serve for a term of three years,\nexcept that the members first appointed by the temporary president of\nthe senate and the speaker of the assembly shall serve for a term of two\nyears and the members first appointed by the minority leader of the\nsenate and the minority leader of the assembly shall serve for a term of\none year.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_258_LL__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The members of the delegation shall receive compensation for their\nservices of three hundred dollars per diem.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_258_LL__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The department and any other agency of the state shall, when\ncalled upon, provide the members with cooperation, information and staff\nsupport.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

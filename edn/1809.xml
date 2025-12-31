@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1809"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1809"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1809"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1809/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1809/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1809/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1809/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1809">
+        <num>1809</num>
+        <heading>Apportionment to central school districts containing former central school districts</heading>
+        <content>
+          <p>  § 1809. Apportionment to central school districts containing former\ncentral school districts.  Whenever a new central school district shall\nbe laid out and organized out of territory including existing central\nschool districts, or whenever a central school district shall have\nterritory annexed to it including existing central school districts,\nsuch central school district shall be entitled to receive the same\napportionments as it would have received had all the districts included\nin the existing central school district or districts included in such\nterritory been originally laid out and organized as a central school\ndistrict; provided that the amount of the building quota or quotas if\nany for each central school district included in such new central school\ndistrict or annexed to such central school district shall continue to be\npaid to the new central school district or the central school district\nto which such territory is annexed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

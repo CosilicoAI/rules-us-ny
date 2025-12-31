@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2061"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2061"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2061"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2061/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2061/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2061/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2061/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2061">
+        <num>2061</num>
+        <heading>Agreements of the state</heading>
+        <content>
+          <p>  * § 2061. Agreements of the state. The state of New York does pledge\nto and agree with the holders of the bonds that the state will not limit\nor impair the rights hereby vested in the authority to acquire,\nconstruct, maintain, reconstruct and operate the project, to establish\nand collect rentals, fees and other charges and to fulfill the terms of\nany agreements made with the holders of the bonds, or in any way impair\nthe rights and remedies of the bondholders, until the bonds, together\nwith interest thereon, with interest on any paid installments of\ninterest and all costs and expenses in connection with any action or\nproceeding by or on behalf of the bondholders are fully met and\ndischarged.\n  * NB Authority dissolved September 1, 1977\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

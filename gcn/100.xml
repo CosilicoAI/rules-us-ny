@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-100"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100">
+        <num>100</num>
+        <heading>Effect of consolidation upon laws passed at same session or before consolidation takes effect</heading>
+        <content>
+          <p>  § 100. Effect of consolidation upon laws passed at same session or\nbefore consolidation takes effect. No provision of any chapter of the\nconsolidation of the general laws, of which this chapter is a part,\nshall supersede or repeal by implication any law passed at the same\nsession of the legislature at which any such chapter was enacted, or\npassed after the enactment of any such chapter and before it shall have\ntaken effect; and an amendatory law passed at such session or at any\nsubsequent session begun before any such chapter takes effect, shall not\nbe deemed repealed, unless specifically designated in the repealing\nschedule of such chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

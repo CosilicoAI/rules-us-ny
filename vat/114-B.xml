@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-114-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-114-B"/>
+          <FRBRdate date="2022-04-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="114-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-114-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-114-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-114-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-114-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_114_B">
+        <num>114-B</num>
+        <heading>Emergency operation</heading>
+        <content>
+          <p>  § 114-b. Emergency operation. The operation, or parking, of an\nauthorized emergency vehicle, when such vehicle is engaged in\ntransporting a sick or injured person, transporting prisoners,\ndelivering blood or blood products in a situation involving an imminent\nhealth risk, transporting human organs and/or medical personnel for the\npurpose of organ recovery or transplantation in a situation involving an\nimminent health risk where undue delay would jeopardize such recovery or\ntransplantation, pursuing an actual or suspected violator of the law, or\nresponding to, or working or assisting at the scene of an accident,\ndisaster, police call, alarm of fire, actual or potential release of\nhazardous materials or other emergency. Emergency operation shall not\ninclude returning from such service.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

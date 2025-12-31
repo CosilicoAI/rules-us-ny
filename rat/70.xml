@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-70"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-70"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-70/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-70/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70">
+        <num>70</num>
+        <heading>Amendments of defects</heading>
+        <content>
+          <p>  § 70. Amendments of defects.  The special term of the supreme court,\nin the judicial district in which the property affected by the\nproceeding is situated, at any time may amend any defect or informality\nin any notice, petition, pleading, order or decree in a proceeding\ninstituted under this chapter or cause property affected by such defect,\ninformality or lack of jurisdiction to be excluded therefrom or other\nproperty affected by such defect, informality or lack of jurisdiction to\nbe included therein, by amendment, upon notice published twice a week\nfor two weeks in two public newspapers, published in such city, and may\ndirect such further notices to be given to any party in interest as it\nshall deem proper.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

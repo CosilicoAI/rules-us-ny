@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-67.03"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-67.03"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="67.03"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-67.03/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-67.03/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-67.03/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-67.03/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67_03">
+        <num>67.03</num>
+        <heading>Residents</heading>
+        <subsection eId="sec_67_03__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For the purposes of this article any person who resides in the\nstate continuously for one year, and any person under the age of sixteen\nor any person with a developmental disability whose parents or persons\nhaving legal custody of him have resided in the state continuously for\none year, shall be considered a state resident. Residence so acquired\ncontinues until the resident has remained away from the state for one\nyear.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_67_03__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No person shall lose state residence through absence from the\nstate while serving in or attached to the armed forces of the United\nStates or the United States Merchant Marine and no member of the family\nof any such person shall lose state residence through absence from the\nstate while living with or near such person during the period of\nservice.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_67_03__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The continuous residence required to become a resident does not\ninclude any period during which a person was residing on a military\nreservation, but periods of residence immediately before and after the\nperiod of residence on a military reservation, if equaling one year,\nshall satisfy the required period of continuous residence.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

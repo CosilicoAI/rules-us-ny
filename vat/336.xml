@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-336"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-336"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="336"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-336/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-336/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-336/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-336/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_336">
+        <num>336</num>
+        <heading>Duty of courts to report judgments</heading>
+        <content>
+          <p>  § 336. Duty of courts to report judgments. The clerk of the court, or\nthe court where it has no clerk, shall, upon written request of the\njudgment creditor or his attorney, forward to the commissioner a\ncertified copy of transcript of any judgment for damages, the rendering\nand non-payment of which judgment requires the commissioner to suspend\nthe operator's or chauffeur's license and/or the registrations in the\nname of the judgment debtor hereunder, such copy or transcript to be\nforwarded to the commissioner immediately upon the expiration of fifteen\ndays after such judgment has become final by expiration without appeal\nof the time within which appeal might have been perfected or by final\naffirmance on appeal, and has not been otherwise stayed, or satisfied.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2602"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2602"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2602"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2602/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2602/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2602/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2602/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2602">
+        <num>2602</num>
+        <heading>Payment into court of property other than money or securities; deposit with warehouse or safe deposit company</heading>
+        <content>
+          <p>  § 2602. Payment into court of property other than money or securities;\ndeposit with warehouse or safe deposit company. Property paid into\ncourt, other than money or securities, shall not be delivered to the\ncounty treasurer. The court may direct that such property be deposited\nin a warehouse or safe deposit company upon the filing of a bond for the\ncost of such storage by the party paying the property into court or the\nparty who requested such disposition, as the court may provide. It may\nmake such other or subsequent disposition as it deems proper.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

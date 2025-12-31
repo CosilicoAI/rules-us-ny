@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-265"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-265"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="265"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-265/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-265/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-265/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-265/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_265">
+        <num>265</num>
+        <heading>Ice cutting and ice bridges</heading>
+        <content>
+          <p>  § 265. Ice cutting and ice bridges. A person or corporation cutting\nice in or upon any waters within the boundaries of this state for the\npurpose of removing the ice for sale or use, must surround the cuttings\nand openings made with fences or guards of boards or other material\nsufficient to form an obstruction to the free passage of persons through\nsuch fences or guards into the place where such ice is being cut. Such\nfences or guards must be erected at or before the time of commencing the\ncuttings or openings, and must be maintained until ice has again formed\ntherein to the thickness of at least three inches, or until the ice\nabout such openings has melted or broken up. Whoever omits to comply\nwith this section is guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

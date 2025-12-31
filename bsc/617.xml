@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-617"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-617"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="617"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-617/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-617/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-617/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-617/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_617">
+        <num>617</num>
+        <heading>Voting by class or classes of shares</heading>
+        <subsection eId="sec_617__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The certificate of incorporation may contain provisions specifying\nthat any class or classes of shares or of any series thereof shall vote\nas a class in connection with the transaction of any business or of any\nspecified item of business at a meeting of shareholders, including\namendments to the certificate of incorporation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_617__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where voting as a class is provided in the certificate of\nincorporation, it shall be by the proportionate vote so provided or, if\nno proportionate vote is provided, in the election of directors, by a\nplurality of the votes cast at such meeting by the holders of shares of\nsuch class entitled to vote in the election, or for any other corporate\naction, by a majority of the votes cast at such meeting by the holders\nof shares of such class entitled to vote thereon.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_617__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Such voting by class shall be in addition to any other vote,\nincluding vote by class, required by this chapter and by the certificate\nof incorporation as permitted by this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

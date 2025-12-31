@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1218"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1218"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1218"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1218/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1218/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1218/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1218/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1218">
+        <num>1218</num>
+        <heading>Incorporation of articles twenty-eight and twenty-nine into local enactments</heading>
+        <content>
+          <p>  § 1218. Incorporation of articles twenty-eight and twenty-nine into\nlocal enactments.  A local law, ordinance or resolution imposing a tax\npursuant to subpart B of part I of this article shall, except as\notherwise provided in this article, be deemed to have incorporated\ntherein all of the provisions in articles twenty-eight and twenty-nine\nof this chapter and any amendment to the provisions in such articles to\nthe extent such provisions and amending acts are otherwise applicable to\nthe taxes imposed under such local law, ordinance or resolution by a\ncity, county or school district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-H"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120-H"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_H">
+        <num>120-H</num>
+        <heading>Further provisions as to apportionment of cost</heading>
+        <content>
+          <p>  § 120-h. Further provisions as to apportionment of cost. Each of the\ncontracting municipalities or districts shall pay its just and\nproportionate share for the public improvement authorized by this act\nand the general laws, including its just and proportionate share of the\ncost for the removal of sewage and of maintenance and carrying charges\nof the system. The manner of arriving at the share each local government\nshall bear and the method of payment thereof as hereinafter provided\nshall be determined by its local board or commissioners having charge of\nsewage, before such contract for construction or for sewerage removal\nbecomes effective, as hereinafter provided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

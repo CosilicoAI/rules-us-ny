@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-F"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="121-F"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_121_F">
+        <num>121-F</num>
+        <heading>Low speed vehicle</heading>
+        <content>
+          <p>  § 121-f. Low speed vehicle. A limited use automobile which has a\nmaximum performance speed of greater than twenty miles an hour, but not\ngreater than twenty-five miles an hour or a truck which has a maximum\nperformance speed of greater than twenty miles an hour, but not greater\nthan twenty-five miles an hour and whose gross vehicle weight rating\n(GVWR) is less than three thousand pounds. All such vehicles shall\ncomply with the safety standards established in 49 C.F.R. 571.500.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

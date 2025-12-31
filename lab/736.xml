@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-736"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-736"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="736"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-736/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-736/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-736/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-736/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_736">
+        <num>736</num>
+        <heading>Employee rights in related proceedings</heading>
+        <content>
+          <p>  § 736. Employee rights in related proceedings. No employee shall be\ndischarged, disciplined or discriminated against in any manner for\nfiling a complaint or testifying in any proceeding or action involving\nviolations of the provisions of this article. Any employee discriminated\nagainst in violation of the provisions of this section shall be\ncompensated by his employer for double the amount of any loss of wages\nand benefits arising out of such discrimination and shall be restored to\nhis previous position of employment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

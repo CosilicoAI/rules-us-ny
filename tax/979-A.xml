@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-979-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-979-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="979-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-979-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-979-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-979-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-979-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_979_A">
+        <num>979-A</num>
+        <heading>Notification by surrogate to commissioner concerning tax</heading>
+        <content>
+          <p>  § 979-a. Notification by surrogate to commissioner concerning tax. A\nsurrogate, in his discretion, may notify the commissioner of taxation\nand finance of any and all matters which come to the surrogate's\nattention as a result of any proceeding commenced in surrogate's court,\nor the filing therein of papers or documents, and which affect the tax\nimposed by this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.30"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165.30"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_30">
+        <num>165.30</num>
+        <heading>Fraudulent accosting</heading>
+        <content>
+          <p>§ 165.30 Fraudulent accosting.\n  1. A person is guilty of fraudulent accosting when he accosts a person\nin a public place with intent to defraud him of money or other property\nby means of a trick, swindle or confidence game.\n  2. A person who, either at the time he accosts another in a public\nplace or at some subsequent time or at some other place, makes\nstatements to him or engages in conduct with respect to him of a kind\ncommonly made or performed in the perpetration of a known type of\nconfidence game, is presumed to intend to defraud such person of money\nor other property.\n  Fraudulent accosting is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

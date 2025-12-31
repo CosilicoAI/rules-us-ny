@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-210"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-210"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-210"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_210">
+        <num>11-210</num>
+        <heading>Special federal voters; distribution of applications for ballots</heading>
+        <content>
+          <p>  § 11-210. Special federal voters; distribution of applications for\nballots. 1. Not earlier than sixty or later than forty days before each\ngeneral or primary election in which special federal voters are eligible\nto vote, the board of elections shall mail to each voter who is eligible\nto vote in such election and who was registered pursuant to this title\nfor the previous election at which such voters were eligible to vote,\nthe application for a special federal ballot provided for by this title;\nprovided, however, the board of elections shall not send such an\napplication to any person who has applied for a ballot and who is\nentitled to receive a ballot for such election.\n  2. If a special election for representative in congress is called by\nproclamation of the governor, such an application shall be mailed to\neach voter registered pursuant to this title, who is eligible to vote in\nsuch special election, not later than three days after the issuance of\nthe proclamation for such special election; provided, however, the board\nof elections shall not send such an application to any person who has\napplied for a ballot and who is entitled to receive a ballot for such\nelection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

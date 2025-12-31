@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-354"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-354"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="354"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-354/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-354/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-354/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-354/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_354">
+        <num>354</num>
+        <heading>Preferred provider organizations; medical treatment</heading>
+        <content>
+          <p>  § 354. Preferred provider organizations; medical treatment. 1. Each\npreferred provider organization shall provide at least two providers in\nevery medical specialty from which the employee may choose and at least\ntwo hospitals from which the employee may choose in the event that\nhospitalization is necessary. The commissioner of health may waive such\nnumerical requirements upon a finding that the geographical area in\nwhich the preferred provider organization is located cannot meet the\nrequirements.\n  2. An employee may seek medical treatment from outside the preferred\nprovider organization thirty days after his or her first visit to a\npreferred provider organization provider. In the event that such\nemployee seeks medical treatment outside the preferred provider\norganization the employer may require a second opinion from a provider\nwithin the preferred provider organization.\n  3. An employee may seek a second opinion with respect to such medical\ntreatment from another provider within the preferred provider\norganization at any time.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

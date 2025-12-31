@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-55"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-55"/>
+          <FRBRdate date="2021-01-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="55"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_55">
+        <num>55</num>
+        <heading>License to sell beer at retail for consumption on the premises</heading>
+        <content>
+          <p>  § 55. License to sell beer at retail for consumption on the premises.\n1.  Any person may make an application to the appropriate board for a\nlicense to sell beer at retail to be consumed upon the premises. Such\napplication shall be in writing and verified and shall contain such\ninformation as the liquor authority shall require. Such application\nshall be accompanied by a check or draft for the amount required by this\narticle for such license. All of the provisions contained in\nsubdivisions two and three of the preceding section shall apply to the\nprocedure relative to an application for a license under this section.\n  2. Such a license shall contain a description of the licensed premises\nand in form and in substance shall be a license to the person therein\nspecifically designated to sell beer in the premises therein\nspecifically licensed, at retail, to be consumed upon such premises.\nSuch license shall also include the privilege of selling beer at retail\nto be consumed off the premises.\n  3. No such license shall be issued, however, to any person for any\npremises other than premises for which a license may be issued under\nsection sixty-four or sixty-four-a of this chapter or a hotel or\npremises which are kept, used, maintained, advertised or held out to the\npublic to be a place where food is prepared and served for consumption\non the premises in such quantities as to satisfy the liquor authority\nthat the sale of beer intended is incidental to and not the prime source\nof revenue from the operation of such premises. The foregoing provisions\nof this subdivision shall not apply to any premises located at, in, or\non the area leased by the city of New York to New York World's Fair 1964\nCorporation pursuant to the provisions of chapter four hundred\ntwenty-eight of the laws of nineteen hundred sixty, as amended by a\nchapter of the laws of nineteen hundred sixty-one, during the term or\nduration of such lease. Such license may also include such suitable\nspace outside of the licensed premises and adjoining it as may be\napproved by the liquor authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-2-1.12"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-2-1.12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2-1.12"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-2-1.12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-2-1.12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-2-1.12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-2-1.12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_1_12">
+        <num>2-1.12</num>
+        <heading>Credit shelter formula bequests</heading>
+        <subsection eId="sec_2_1_12__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the decedent dies after January thirty-first, two thousand;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2_1_12__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>by reason of the death of the decedent property passes or is\nacquired from the decedent under a will executed or a trust created\nprior to February first, two thousand which contains a formula\nproviding, in sum or substance, for a bequest of the maximum amount of\nproperty that can be sheltered from federal estate tax by reason of\navailable credits against such tax; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2_1_12__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>such formula was not amended at any time after January\nthirty-first, two thousand and before the death of the decedent,\nthen, unless the instrument containing such formula specifically\nprovides that there are non-tax reasons for taking the federal credit\nfor state death taxes into account, such formula shall be deemed not to\ninclude a reference to the federal credit for state death taxes.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2104"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2104"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2104">
+        <num>2104</num>
+        <heading>Stipulations</heading>
+        <content>
+          <p>  Rule 2104. Stipulations. An agreement between parties or their\nattorneys relating to any matter in an action, other than one made\nbetween counsel in open court, is not binding upon a party unless it is\nin a writing subscribed by him or his attorney or reduced to the form of\nan order and entered. With respect to stipulations of settlement and\nnotwithstanding the form of the stipulation of settlement, the terms of\nsuch stipulation shall be filed by the defendant with the county clerk.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

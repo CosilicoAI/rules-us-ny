@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2780"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2780"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2780"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2780/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2780/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2780/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2780/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2780">
+        <num>2780</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_2780__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>is engaged in the business of insurance;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2780__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>provides\nhealth services coverage plans; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2780__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>provides benefits under,\nadministers, or provides services for, an employee welfare benefit plan\nas defined in 29 U.S.C. 1002</p>
+          </content>
+          <paragraph eId="sec_2780__subsec_c__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>.\n  17. "Insurance support organization" means any person who regularly\nengages, in whole or in part, in the practice of assembling or\ncollecting information about natural persons for the primary purpose of\nproviding the information to an insurance institution for insurance\ntransactions, including:</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_2780__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the furnishing of consumer reports or\ninvestigative consumer reports to an insurance instititution for use in\nconnection with an insurance transaction; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2780__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the collection of\npersonal information from insurance institutions or other insurance\nsupport organizations for the purpose of detecting or preventing fraud,\nmaterial misrepresentation, or material non-disclosure in connection\nwith insurance underwriting or insurance claim activity. The following\npersons shall not be considered "insurance-support organizations" for\nthe purposes of this article: government institutions, insurance\ninstitutions, health facilities and health care providers.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

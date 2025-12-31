@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1180-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1180-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1180-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1180-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1180-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1180-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1180-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1180_A">
+        <num>1180-A</num>
+        <heading>Shutting off water supply for unpaid sewer rents</heading>
+        <content>
+          <p>  § 1180-a. Shutting off water supply for unpaid sewer rents. Upon\ncertification by the authority to the director of water of the city of\nBuffalo that sewer rents, based upon the consumption of water charged\nagainst real property which is connected with the facilities of the\nauthority, remain unpaid for a period of more than one year from the due\ndate thereof and that notice and demand has been given by the authority\nto the owner or occupant of said premises, by registered or certified\nmail, addressed to said premises and to the address of the owner as\nshown on the records of the board of assessors of the city of Buffalo,\nto pay the same within ten days from the date of the mailing of said\nnotice and that such rents still remain unpaid, the director of water\nshall shut off the supply of water to said premises until the sewer\nrents are paid, together with a charge of five dollars for restoring\nwater service to said premises.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

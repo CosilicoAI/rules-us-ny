@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.02"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.02"/>
+          <FRBRdate date="2016-01-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.02"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.02/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.02/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.02/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.02/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_02">
+        <num>230.02</num>
+        <heading>Patronizing a person for prostitution; definitions</heading>
+        <subsection eId="sec_230_02__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Pursuant to a prior understanding, he or she pays a fee to another\nperson as compensation for such person or a third person having engaged\nin sexual conduct with him or her; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_230_02__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>He or she pays or agrees to pay a fee to another person pursuant\nto an understanding that in return therefor such person or a third\nperson will engage in sexual conduct with him or her; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_230_02__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>He or she solicits or requests another person to engage in sexual\nconduct with him or her in return for a fee.\n  2. As used in this article, "person who is patronized" means the\nperson with whom the defendant engaged in sexual conduct or was to have\nengaged in sexual conduct pursuant to the understanding, or the person\nwho was solicited or requested by the defendant to engage in sexual\nconduct.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

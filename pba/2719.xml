@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2719"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2719"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2719"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2719/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2719/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2719/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2719/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2719">
+        <num>2719</num>
+        <heading>Exemption from taxation of property and income</heading>
+        <content>
+          <p>  § 2719. Exemption from taxation of property and income. The property\nof the authority, and its income and operations shall be exempt from\ntaxation or assessments of every kind and nature; nor shall the\nauthority be required to pay any filing or recording fee or transfer tax\nof any kind on account of instruments filed or recorded by it or on its\nbehalf. Mortgages made or financed (directly or indirectly) by the\nauthority shall be exempt from the mortgage recording taxes imposed by\narticle eleven of the tax law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

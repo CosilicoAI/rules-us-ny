@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252-A"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252-A"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="252-A"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-252-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-252-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_252_A">
+        <num>252-A</num>
+        <heading>Fees</heading>
+        <subsection eId="sec_252_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Notwithstanding any other provision of law, every\ncounty, including the city of New York, may adopt a local law\nauthorizing its probation department which is ordered to conduct an\ninvestigation pursuant to section six hundred fifty-three of this act,\nto be entitled to a fee of not less than fifty dollars and not more than\nfive hundred dollars from the parties in such proceeding for performing\nsuch investigation. Such fee shall be based on the party's ability to\npay the fee and the schedule for payment shall be fixed by the court\nissuing the order for investigation, pursuant to the guidelines issued\nby the office of probation and correctional alternatives, and may in the\ndiscretion of the court be waived when the parties lack sufficient means\nto pay the fee. The court shall apportion the fee between the parties\nbased upon the respective financial circumstances of the parties and the\nequities of the case.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Fees pursuant to this section shall be paid directly to the local\nprobation department to be retained and utilized for local probation\nservices, and shall not be considered by the office of probation and\ncorrectional alternatives when determining state aid pursuant to section\ntwo hundred forty-six of the executive law.\n  * NB Expires September 1, 2027\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

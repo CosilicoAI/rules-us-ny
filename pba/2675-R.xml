@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2675-R"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2675-R"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2675-R"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2675-R/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2675-R/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2675-R/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2675-R/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2675_R">
+        <num>2675-R</num>
+        <heading>Severability</heading>
+        <content>
+          <p>  § 2675-r. Severability. If any provision of any section of this title\nor the application thereof to any person or circumstance shall be\nadjudged invalid by a court of competent jurisdiction, such order or\njudgement shall be confined in its operation to the controversy in which\nit was rendered, and shall not affect or invalidate the remainder of any\nprovision of any section of this title or the application of any part\nthereof to any other person or circumstance and to this end the\nprovisions of each section of this title are hereby declared to be\nseverable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

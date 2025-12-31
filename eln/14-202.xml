@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-202"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-202"/>
+          <FRBRdate date="2022-11-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-202"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-202/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-202/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-202/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-202/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_202">
+        <num>14-202</num>
+        <heading>Proof of compliance</heading>
+        <content>
+          <p>  § 14-202. Proof of compliance. Authorized and political committees\nshall maintain such records of receipts and expenditures for a covered\nelection as required by the PCFB. Authorized and political committees\nshall obtain and furnish to the PCFB any information it may request\nrelating to financial transactions or contributions and furnish such\ndocumentation and other proof of compliance with this title as may be\nrequested. In compliance with section 14-108 of this article, authorized\nand political committees shall maintain copies of such records for a\nperiod of five years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*3"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*3"/>
+          <FRBRdate date="2021-07-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="*3"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-*3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-*3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_*3">
+        <num>*3</num>
+        <heading>Portion of the state highway system in the county of Jefferson to be designated as the "Thousand Islands - Seaway Wine Trail"</heading>
+        <content>
+          <p>  * § 343-s. Portion of the state highway system in the county of\nJefferson to be designated as the "Thousand Islands - Seaway Wine\nTrail". All that portion of the state and county highway system located\nin the county of Jefferson and beginning at the intersection of Chestnut\nRidge Road and state route three at Wescott Beach State Park, and\ncontinuing north on state route three to its junction with state route\none hundred eighty, and continuing north along state route one hundred\neighty to its intersection with state route twelve-E, and continuing\nnorth along state route twelve-E in the town of Cape Vincent, and\ncontinuing further north along state route twelve-E in the town of\nClayton to its intersection with state route twelve in the town of\nClayton, and continuing further north along state route twelve to its\nintersection with state route twenty-six in the town of Alexandria, and\ncontinuing east along state route twenty-six to the unincorporated\ncommunity of Theresa, and continuing further east along state route\ntwenty-six to its intersection with United States route eleven in the\nunincorporated community of Philadelphia, and continuing south along\nUnited States route eleven to the unincorporated community of Evans\nMills, and continuing further south on United States route eleven to its\nintersection with state route three hundred forty-two, and continuing\nwest along state route three hundred forty-two to its intersection with\ninterstate eighty-one in the town of Pamelia, shall be designated and\nknown as the "Thousand Islands - Seaway Wine Trail".\n  * NB There are 12 § 343-s's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

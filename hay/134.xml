@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-134"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-134"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="134"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-134/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-134/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_134">
+        <num>134</num>
+        <heading>Purchases by county purchasing agent</heading>
+        <content>
+          <p>  § 134. Purchases by county purchasing agent. Notwithstanding any other\nprovisions of this article any county may, by a resolution of its board\nof supervisors regularly adopted, provide that all, or any part or class\nof supplies, materials, tools, implements and equipment, including\npurchase or rental of road machinery, required for any purpose\nauthorized in this article, shall be purchased or contracted for by the\ncounty purchasing agent in the manner provided by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

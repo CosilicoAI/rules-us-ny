@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-331"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-331"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="331"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-331/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-331/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_331">
+        <num>331</num>
+        <heading>Proof required upon certain convictions</heading>
+        <subsection eId="sec_331__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Whenever the\ncommissioner, or other authorized person, under any law of this state\nsuspends or revokes the operator's or chauffeur's license of any person\nbecause of the conviction of such person, the commissioner shall also\nsuspend any and all of the registration certificates and registration\nplates issued for any motor vehicle registered in the name of the person\nso convicted as owner except that he shall not suspend such evidence of\nregistration, unless otherwise required by law, in the event such owner\nhas previously given, or shall immediately give and thereafter maintain\nproof of his financial responsibility in the future in the manner\nhereinafter specified in this article with respect to each and every\nmotor vehicle owned and registered by such person.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_331__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such suspensions or revocation shall remain in effect and the\ncommissioner shall not issue to any such person any new or renewal\nlicense or register in the name of such person any motor vehicle, until\npermitted under this chapter and not then unless and until such person\ngives proof of his financial responsibility in the future as hereinafter\nprovided in this article. Reversal on appeal of any conviction because\nof which any license or registration has been suspended pursuant to this\narticle shall entitle the holder to the restoration thereof forthwith\nwithout proof of financial responsibility.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_331__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>For the purpose of this article the term conviction shall include\na forfeiture of bail or collateral deposited to secure a defendant's\nappearance in court, which forfeiture has not been vacated, upon a\ncharge which upon conviction of the defendant requires or authorizes the\ncommissioner to suspend or revoke the license of such person.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

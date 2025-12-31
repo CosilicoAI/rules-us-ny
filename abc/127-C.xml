@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-127-C"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-127-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="127-C"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-127-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-127-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-127-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-127-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_127_C">
+        <num>127-C</num>
+        <heading>Refunds on licenses and permits erroneously or unlawfully cancelled, revoked or suspended</heading>
+        <content>
+          <p>  § 127-c. Refunds on licenses and permits erroneously or unlawfully\ncancelled, revoked or suspended.  If a license or permit issued under\nthis chapter is cancelled, revoked or suspended and thereafter the\naction of the state liquor authority effecting such cancellation,\nrevocation or suspension is reversed or annulled, upon application made\nwithin six months of the date of such judgment of reversal or annulment\nthere shall be refunded to such licensee or his assignee such proportion\nof the fee paid for such license or permit as the period that such\nlicensee or permittee has not had the beneficial use of such license or\npermit by reason of such cancellation, revocation or suspension bears to\nthe full period for which the license or permit was issued. The\nprovisions of section one hundred twenty-seven of this chapter so far as\nthey can be made applicable and are not inconsistent with this section,\nshall govern the procedure to be followed in making application for\nrefunds under this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

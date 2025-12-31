@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-135"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-135"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="135"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-135/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-135/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-135/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-135/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_135">
+        <num>135</num>
+        <heading>Changing date of annual corporate meetings</heading>
+        <content>
+          <p>  § 135. Changing date of annual corporate meetings.  An annual\ncorporate meeting of an incorporated Baptist church may change the date\nof its annual meeting thereafter. If the date fixed for the annual\nmeeting shall be less than six months after the annual meeting at which\nsuch change is made, the next annual meeting shall be held one year from\nthe date so fixed. For the purpose of determining the terms of office of\ntrustees, the time between the annual meeting at which such change is\nmade and the next annual meeting thereafter shall be reckoned as one\nyear.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-31"/>
+          <FRBRdate date="2023-04-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="31"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-31/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-31/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-31/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-31/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31">
+        <num>31</num>
+        <heading>Divisions</heading>
+        <content>
+          <p>  § 31. Divisions. There shall be in the executive department the\nfollowing divisions:\n  1. The division of the budget.\n  2. The division of military and naval affairs.\n  3. The office of general services.\n  4. The division of state police.\n  5. The division of housing.\n  6. The division of alcoholic beverage control.\n  7. The division of human rights.\n  8. The division of homeland security and emergency services.\n  9. Office of information technology services.\n  The governor may establish, consolidate, or abolish additional\ndivisions and bureaus.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

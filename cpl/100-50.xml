@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_50">
+        <num>100.50</num>
+        <heading>Superseding informations and prosecutor's informations</heading>
+        <content>
+          <p>§ 100.50  Superseding informations and prosecutor's informations.\n  1.  If at any time before entry of a plea of guilty to or commencement\nof a trial of an information or a prosecutor's information, another\ninformation or, as the case may be, another prosecutor's information is\nfiled with the same local criminal court charging the defendant with an\noffense charged in the first instrument, the first such instrument is,\nwith respect to such offense, superseded by the second and, upon the\ndefendant's arraignment upon the latter, the count of the first\ninstrument charging such offense must be dismissed by the court.  The\nfirst instrument is not, however, superseded with respect to any count\ncontained therein which charges an offense not charged in the second\ninstrument.\n  2.  At any time before entry of a plea of guilty to or commencement of\na trial of an information, the district attorney may file with the local\ncriminal court a prosecutor's information charging any offenses\nsupported, pursuant to the standards prescribed in subdivision one of\nsection 100.40, by the allegations of the factual part of the original\ninformation and/or any supporting depositions which may accompany it.\nIn such case, the original information is superseded by the prosecutor's\ninformation and, upon the defendant's arraignment upon the latter, is\ndeemed dismissed.\n  3.  A misdemeanor complaint must or may be replaced and superseded by\nan information pursuant to the provisions of section 170.65.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-23-2202"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-23-2202"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="23-2202"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-23-2202/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-23-2202/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-23-2202/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-23-2202/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_23_2202">
+        <num>23-2202</num>
+        <heading>Exceptions</heading>
+        <content>
+          <p>  § 23-2202 Exceptions. This chapter shall not be deemed to repeal or\notherwise affect the provisions of any special or local law or ordinance\nof any county, city or village charter, or other special form of\ngovernment, it being the intention of the legislature that the same\nshall continue in full force and effect until and unless otherwise duly\namended, repealed or affected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-76"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-76"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="76"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-76/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-76/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-76/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-76/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76">
+        <num>76</num>
+        <heading>Action for libel: evidence, separate verdicts</heading>
+        <content>
+          <p>  § 76. Action for libel: evidence, separate verdicts. At the trial of\nany civil action for libel, the defendant may prove, for consideration\nby the jury in fixing the amount of the verdict, that the plaintiff has\nalready recovered damages, or has received, or agreed to receive,\ncompensation in respect of a libel or libels of a similar purport or\neffect as the libel for which such action has been brought.  In\nconsolidated actions based on libels of similar purport or effect the\njury shall assess the whole amount of the plaintiff's damages in one\nsum, but a separate verdict shall be taken for or against each defendant\nand the jury shall apportion the amount of damages among the defendants\nagainst whom it found a verdict.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

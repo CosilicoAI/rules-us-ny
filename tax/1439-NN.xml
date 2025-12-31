@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-NN"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-NN"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1439-NN"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-NN/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-NN/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-NN/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-NN/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1439_NN">
+        <num>1439-NN</num>
+        <heading>Miscellaneous</heading>
+        <content>
+          <p>  * § 1439-nn. Miscellaneous. A local law adopted by the town of\nNortheast, pursuant to this article, may contain such other provisions\nas the town deems necessary for the proper administration of the tax\nimposed pursuant to this article, including provisions concerning the\ndetermination of tax, the imposition of interest on underpayments and\noverpayments and the imposition of civil penalties. Such provisions\nshall be identical to the corresponding provisions of the real estate\ntransfer tax imposed by article thirty-one of this chapter, so far as\nsuch provisions can be made applicable to the tax imposed pursuant to\nthis article.\n  * NB Repealed December 31, 2028\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-C"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-C"/>
+          <FRBRdate date="2020-02-21" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="807-C"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_807_C">
+        <num>807-C</num>
+        <heading>Transmission of fire alarm to fire department</heading>
+        <content>
+          <p>  § 807-c. Transmission of fire alarm to fire department. 1. The school\nauthorities designated in subdivision eight of section eight hundred\nseven-a of this article in charge of the operation of any public school\nor of any private school designated in subdivision nine of such section,\nlocated in an area within which a fire department or fire company is\nresponsible for fire protection and within which there is no\nelectrically or electronically operated fire alarm reporting system\nprovided for public use may cause the internal fire alarm, fire\ndetection, or fire extinguishing system of each building in which is\ncontained classroom, dormitory, laboratory, physical education, dining\nor recreational facilities for student use to be interconnected with the\nfire alarm reporting location or system which is provided for such fire\ndepartment or fire company to receive alarms from the public so that\nupon activation of such internal fire alarm, fire detection, or fire\nextinguishing system a signal will be automatically transmitted to such\nfire alarm reporting location or system.\n  2. School authorities and the governing body having jurisdiction of\nany fire department or fire company are hereby authorized, by agreement\nbetween them, to apportion the costs of installing and maintaining any\nsuch interconnection, and such costs are hereby deemed appropriate\nexpenditures from the funds of such school authorities and governing\nbodies.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

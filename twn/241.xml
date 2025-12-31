@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-241"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-241"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="241"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-241/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-241/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-241/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-241/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241">
+        <num>241</num>
+        <heading>Notice by collector or receiver of taxes; return of assessment roll</heading>
+        <content>
+          <p>  § 241. Notice by collector or receiver of taxes; return of assessment\nroll. Each town tax collector or receiver of taxes and assessments, upon\nreceiving an assessment roll and warrant, shall forthwith cause notice\nof the reception thereof to be published at least once in the official\npaper and to be posted on the sign-board of the town maintained pursuant\nto subdivision six of section thirty of this chapter, specifying the\nplace where and the time when the assessments may be paid to him. Within\nten days after the last day specified in the warrant for the payment of\nthe assessments in whole or in part, the town tax collector or receiver\nof taxes and assessments shall deliver the assessment roll or, upon\nmutual agreement, the data file therefor, as provided in article\nfifteen-C of the real property tax law, to the supervisor of the town,\nindicating the several parcels of land for which assessments shall have\nbeen paid in full, or in part, and the parcels of land for which no part\nof such assessments shall have been paid, and he shall at the same time\naccount for and pay over to the supervisor all moneys so collected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

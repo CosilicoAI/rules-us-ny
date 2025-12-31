@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-C"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="76-C"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-76-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-76-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_76_C">
+        <num>76-C</num>
+        <heading>Special winery license</heading>
+        <content>
+          <p>  § 76-c. Special winery license. 1. Any person may apply to the liquor\nauthority for a license to operate a special winery on the premises of\nan existing winery licensee. Such application shall be in writing and\nverified and shall contain such information as the liquor authority\nshall require. Such application shall be accompanied by a check or draft\nfor the amount required by this article for such license. If the liquor\nauthority shall grant the application it shall issue a license in such\nform as shall be determined by its rules.\n  2. The provisions of section seventy-six of this article relating to\nthe operation of a winery shall also apply to the holder of a license\nunder this section.\n  3. Notwithstanding any other provision of this chapter, a special\nwinery license shall authorize the holder thereof to sell wines\nmanufactured or produced by such licensee to a roadside farm market\npursuant to section seventy-six-f of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

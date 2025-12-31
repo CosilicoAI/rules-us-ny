@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-681"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-681"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="681"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-681/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-681/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_681">
+        <num>681</num>
+        <heading>Declaration of policy</heading>
+        <content>
+          <p>  § 681. Declaration of policy.  In order to establish a more harmonious\nand cooperative relationship between government and its public\nemployees, it is hereby declared to be the purpose of this article to\nprovide by law for the settlement of certain differences between public\nemployees and their employers through procedures under which employees\nmay present grievances, free from coercion, interference, restraint,\ndiscrimination or reprisal. The provisions of this article shall be\nliberally construed for the accomplishment of this purpose.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

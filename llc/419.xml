@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-419"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-419"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="419"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-419/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-419/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-419/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-419/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_419">
+        <num>419</num>
+        <heading>Classes and voting of managers</heading>
+        <subsection eId="sec_419__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The articles of\norganization of a limited liability company may provide for classes or\ngroups of managers having such relative rights, powers, preferences and\nlimitations as the operating agreement may provide. The articles of\norganization may make provision for the future creation, in the manner\nprovided in the operating agreement, of additional classes of managers\nhaving such relative rights, powers, preferences and limitations as may\nfrom time to time be established pursuant to the operating agreement,\nincluding rights, powers, preferences, limitations and duties senior to\nexisting classes of managers. The operating agreement may provide for\nthe classification of managers within classes of managers for the\npurpose of determining the terms of office of such managers and may\ngrant to all or to one or more classes of managers the right to vote\nupon any matter on a per capita, class or other basis.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_419__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The operating agreement may set forth provisions relating to\nnotice of the time, place or purpose of any meeting at which any matter\nis to be voted on by any managers, waiver of any such notice, action by\nconsent without a meeting, the establishment of a record date, quorum\nrequirements, voting in person or by proxy or any other matter with\nrespect to the exercise of any such right to vote.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-J"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-J"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404-J"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-404-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-404-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404_J">
+        <num>404-J</num>
+        <heading>Registration and issuance of special number plates for veterans who survived the Pearl Harbor attack</heading>
+        <subsection eId="sec_404_J__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The application for registration\nunder this section shall be filed with the commissioner of motor\nvehicles in such form and detail as the commissioner shall prescribe,\nsetting forth such information as the commissioner may reasonably\nprescribe beyond such information required under section four hundred\none of this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_404_J__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Application under this section shall only apply to a vehicle\nsubject to registration pursuant to subdivision six of section four\nhundred one of this chapter and as provided in subdivision one of this\nsection.\n  4. Fee. A special plate and registration issued pursuant to this\nsection shall be issued upon payment of the regular registration fee\nprescribed by section four hundred one of this article provided,\nhowever, that an additional one-time service charge of ten dollars shall\nbe charged for such plate.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

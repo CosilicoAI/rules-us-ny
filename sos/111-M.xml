@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-M"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-M"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_M">
+        <num>111-M</num>
+        <heading>Agreement relating to information obtained by the state directory of new hires</heading>
+        <content>
+          <p>  § 111-m.  Agreement relating to information obtained by the state\ndirectory of new hires.  The department, through the commissioner, shall\nenter into the agreement provided for in section one hundred\nseventy-one-h of the tax law, and shall take such other actions as may\nbe necessary to carry out the agreement provided for in such section for\nmatching recipient records of public assistance and of the child support\nenforcement program with information provided by employers to the state\ndirectory of new hires for the purposes of verifying eligibility for\nsuch public assistance programs and for the administration of the child\nsupport enforcement program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

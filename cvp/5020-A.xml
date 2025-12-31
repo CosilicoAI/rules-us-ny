@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5020-A"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5020-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5020-A"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5020-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5020-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5020-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5020-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5020_A">
+        <num>5020-A</num>
+        <heading>Payment of judgment in certain cases</heading>
+        <content>
+          <p>  § 5020-a. Payment of judgment in certain cases. When a judgment debtor\nhas shown to the satisfaction of the clerk of the court from which an\nexecution has been issued that a sum of money which satisfies the\njudgment had been sent to the last known address of the judgment\ncreditor by registered or certified mail, return receipt requested, but\nwas returned as unclaimed or undeliverable by the post office, the\njudgment debtor may deposit with the clerk of such court a certified\ncheck in an amount equal to the sum of money which satisfies the\njudgment. Upon receipt of such check any additional charges relating to\nan execution shall cease to accrue against the judgment debtor and the\nclerk shall forthwith notify each sheriff to whom an execution was\nissued that such execution is hereby rescinded. Such notice shall not be\neffective upon the sheriff until its receipt by him from the clerk.\nProvided, however, no entry of the satisfaction on the docket of the\njudgment made be made by the clerk except pursuant to the provisions of\nsection 5021.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

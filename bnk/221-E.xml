@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-E"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="221-E"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-221-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-221-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221_E">
+        <num>221-E</num>
+        <heading>License provisions</heading>
+        <content>
+          <p>  § 221-e. License provisions. Each license issued under this article\nshall state the address or addresses at which a representative is to be\nlocated and shall state fully the name of the licensee. Such license\nshall not be transferable or assignable. In the event the location of\nthe representative shall be changed, the licensee shall forthwith notify\nthe superintendent who shall thereupon without charge attach to the\nlicense an amendment certificate setting forth such changed location.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

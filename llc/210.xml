@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-210"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-210"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210">
+        <num>210</num>
+        <heading>Liability for false statement in articles or certificates</heading>
+        <subsection eId="sec_210__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nIf any articles of organization, certificate of amendment or other\ncertificate filed pursuant to this chapter contains a materially false\nstatement, one who suffers loss by reasonable reliance on the statement\nmay recover damages for the loss from:\n</p>
+          </content>
+          <paragraph eId="sec_210__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>any person who executes the articles of organization or\ncertificate, or caused another to execute it on his or her behalf, and\nknew, and any manager who knew of the filing of such articles or\ncertificate and who knew or should have known with the exercise of\nreasonable care and diligence, the statement to be false in any material\nrespect at the time the articles or certificate was executed; and\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_210__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>any manager who thereafter knows of the filing of such articles or\ncertificate and who knows or should have known with the exercise of\nreasonable care and diligence that any arrangement or other fact\ndescribed in such articles or certificate has changed, making the\nstatement false in any material respect.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_210__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Notwithstanding paragraph two of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_210__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of this section,\nno person shall have any liability for failing to cause the amendment or\ncancellation of the articles of organization or a certificate to be\nfiled or failing to file a petition for its amendment or cancellation,\nif the articles of organization, certificate or petition is filed within\nninety days of the time when that person knew or should have known that\nthe statement in the articles of organization or certificate was false\nin any material respect.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63-A"/>
+          <FRBRdate date="2015-09-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="63-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_63_A">
+        <num>63-A</num>
+        <heading>Liquor tasting</heading>
+        <subsection eId="sec_63_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any person licensed pursuant to section\nsixty-one or sixty-two of this article shall be permitted to conduct\nconsumer tastings of liquor in establishments licensed under section\nsixty-three of this article to sell alcoholic beverages for off-premises\nconsumption.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_63_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any person holding a retail license to sell liquor\nunder this chapter shall be permitted to conduct consumer tastings of\nliquor upon such person's licensed premises.\n  2. All consumer tastings of liquor shall be conducted subject to the\nfollowing limitations:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_63_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>tastings of liquor shall be conducted by the licensee or an\nauthorized agent of the licensee. Such licensee or agent shall be\nphysically present upon the premises at all times during the conducting\nof the consumer tasting of liquor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_63_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>no more than a total of three samples of liquor may be provided\nfor tasting to a person in one calendar day.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_63_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>no sample of liquor for tasting may exceed one-quarter fluid\nounce.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_63_A__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>any liability stemming from a right of action resulting from a\nconsumer tasting of liquor authorized by this section and in accordance\nwith the provisions of sections 11-100 and 11-101 of the general\nobligations law, shall accrue to the licensee, who conducted such\ntasting.\n  3. The state liquor authority shall promulgate rules and regulations\nregarding liquor tastings as provided for in this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

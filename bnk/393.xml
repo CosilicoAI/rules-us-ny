@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-393"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-393"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="393"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-393/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-393/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-393/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-393/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_393">
+        <num>393</num>
+        <heading>Repayment of mortgage loans; application of pledged shares</heading>
+        <subsection eId="sec_393__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Interest for a period of three months on the principal so prepaid;\nor\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_393__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Interest for the remaining months of the first year on the\nprincipal so prepaid if the prepayment is made at any time within one\nyear from the date the loan is made.\n  The book value of instalment shares pledged as security for any such\nloan shall be deducted from the amount of the loan in determining the\namount of principal upon which such interest may be charged.\n  3. Whenever any mortgage is foreclosed, the withdrawal value of the\nshares transferred and pledged to any such association as security for\nthe loan shall be applied toward the payment of the indebtedness of the\nmember and his rights under such shares shall terminate.\n  4. In event of the voluntary or involuntary liquidation of any\nassociation, the holder of shares pledged as security for a mortgage\nloan pursuant to the provisions of subdivision one of section three\nhundred eighty of this article shall be entitled to have the payments on\nsuch shares and the dividends credited or entitled to be credited\nthereon applied in reduction of such mortgage loan.\n  5. No shares pledged as security for a mortgage loan may be withdrawn\nwhile the mortgage loan against which they are pledged is outstanding.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

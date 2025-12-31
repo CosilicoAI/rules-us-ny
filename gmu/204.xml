@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Qualifications necessary to entitle to certain exemptions</heading>
+        <content>
+          <p>  § 204. Qualifications necessary to entitle to certain exemptions. No\nperson who became a member of a volunteer fire organization within the\nstate since the first day of January nineteen hundred and two, or who\nshall have thereafter become such member who shall not possess the\nqualifications prescribed by this article shall be entitled to any of\nthe exemptions and privileges secured to volunteer firefighters by the\ncivil service law of this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

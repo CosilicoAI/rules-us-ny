@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-330"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-330"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="330"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-330/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-330/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-330/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-330/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_330">
+        <num>330</num>
+        <heading>Ramps in street curbing</heading>
+        <content>
+          <p>  § 330. Ramps in street curbing. No public street, sidewalk adjacent to\na curb, sidewalk adjacent to a parking lot, sidewalk adjacent to a\nprivate road open to public motor vehicle traffic or highway shall be\nconstructed or reconstructed unless the curbing thereof is designed and\nconstructed so as to allow reasonable access to pedestrian crosswalks\nfor persons with disabilities, in accordance with accessibility\nguidelines mandated pursuant to the federal Americans with Disabilities\nAct of 1990, as amended.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

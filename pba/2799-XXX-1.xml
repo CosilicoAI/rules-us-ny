@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-XXX-1"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-XXX-1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2799-XXX-1"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-XXX-1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-XXX-1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2799-XXX-1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2799-XXX-1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2799_XXX_1">
+        <num>2799-XXX-1</num>
+        <heading>Website</heading>
+        <content>
+          <p>  § 2799-xxx-1. Website. The authority shall make accessible to the\npublic, via its official or shared internet website, documentation\npertaining to its mission, current activities, most recent annual\nfinancial reports, current year budget and its most recent independent\naudit report unless such information is covered by subdivision two of\nsection eighty-seven of the public officers law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

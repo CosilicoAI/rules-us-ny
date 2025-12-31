@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.12"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="195.12"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_195_12">
+        <num>195.12</num>
+        <heading>Harming an animal trained to aid a person with a disability in the first degree</heading>
+        <content>
+          <p>§ 195.12 Harming an animal trained to aid a person with a disability in\n           the first degree.\n  A person is guilty of harming an animal trained to aid a person with a\ndisability in the first degree when such person:\n  1. intentionally causes physical injury to such animal while it is in\nthe performance of aiding a person with a disability, and thereby\nrenders such animal permanently incapable of providing such aid to such\nperson, or to another person with a disability; or\n  2. intentionally kills such animal while it is in the performance of\naiding a person with a disability.\n  Harming an animal trained to aid a person with a disability in the\nfirst degree is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

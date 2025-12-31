@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-12"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12">
+        <num>12</num>
+        <heading>Certain patents and grants ratified</heading>
+        <content>
+          <p>  § 12. Certain patents and grants ratified.  All patents of lands\nissued before July eleventh, eighteen hundred and eighty-one, pursuant\nto resolutions of the commissioners of the land office, and sold by them\nat private sale to purchasers in good faith, purporting to convey the\nright, title and interest of the people of this state in and to any\nstate lands, except lands under water in the bay or harbor of New York\nor adjacent thereto, have been ratified and confirmed, to as full an\nextent as though the same had been sold at public auction, according to\nlaw, but not so as to affect any action pending July eleventh, eighteen\nhundred and eighty-one, or to impair, release or discharge any right,\nclaim or interest of any person in and to such lands.  All grants made\nby the commissioners of the land office prior to March twenty-fifth,\neighteen hundred and forty-one, of parts of lots for which payments were\nmade and certified in the manner prescribed by law, have been confirmed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

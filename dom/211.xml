@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-211"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="211"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211">
+        <num>211</num>
+        <heading>Pleadings, proof and motions</heading>
+        <content>
+          <p>  § 211. Pleadings, proof and motions. A matrimonial action shall be\ncommenced by the filing of a summons with the notice designated in\nsection two hundred thirty-two of this chapter, or a summons and\nverified complaint as provided in section three hundred four of the\ncivil practice law and rules. A final judgment shall be entered by\ndefault for want of appearance or pleading, or by consent, only upon\ncompetent oral proof or upon written proof that may be considered on a\nmotion for summary judgment.  Where a complaint or counterclaim in an\naction for divorce or separation charges adultery, the answer or reply\nthereto may be made without verifying it, except that an answer\ncontaining a counterclaim must be verified as to that counterclaim. All\nother pleadings in a matrimonial action shall be verified.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

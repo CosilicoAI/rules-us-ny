@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-451"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-451"/>
+          <FRBRdate date="2025-01-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="451"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-451/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-451/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-451/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-451/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_451">
+        <num>451</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 451. Definitions. 1. "Food relief organization" means a religious\norganization or other not-for-profit that provides food for free to\npersons experiencing food insecurity, including but not limited to a\nfood pantry, food bank, or soup kitchen or community-based organization\nthat provides food for free to persons experiencing food insecurity.\n  2. "Surplus agricultural products" means consumable or edible\nagricultural products grown, produced or harvested in New York,\nincluding processed products as defined pursuant to subdivision three of\nthis section, but shall not include beverages containing alcohol.\n"Surplus agricultural products" shall also include New York grown,\nproduced or harvested milk, and milk products, including but not limited\nto two percent fat milk and whole milk.\n  3. "Processed products" means any agricultural commodity that is\ngrown, produced or harvested in New York state and further processed by\nbutchering, freezing, canning, pasteurizing, boiling, altering its state\nand/or blending with other ingredients, so long as the final product\ncontains at least fifty-one percent by weight or volume agricultural\nproducts that are grown, produced or harvested in New York state,\nregardless of where processed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

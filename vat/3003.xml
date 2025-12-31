@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3003"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3003"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3003">
+        <num>3003</num>
+        <heading>Reference to existing laws</heading>
+        <content>
+          <p>  § 3003. Reference to existing laws.  The reference by any law, general\nor special or by any local law, ordinance, order, rule, regulation,\nadministrative code provision or sanitary or health code provision to\nany section of this chapter or of the highway law, penal law or\ninsurance law as in force immediately prior to the time this act shall\ntake effect, shall be deemed to be construed as a reference to the\ncorresponding provision or provisions of such law, as renumbered,\nmodified or amended by this chapter, irrespective of whether such\nprovision or provisions is or are contained in one or more than one\ntitle, article, section, subdivision or other part thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

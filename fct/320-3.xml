@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-320.3"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-320.3"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="320.3"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-320.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-320.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-320.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-320.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_320_3">
+        <num>320.3</num>
+        <heading>Notice of rights</heading>
+        <content>
+          <p>  § 320.3. Notice of rights. At the time the respondent first appears\nbefore the court, the respondent and his or her parent or other person\nlegally responsible for his or her care shall be advised of the\nrespondent's right to remain silent and of his or her right to be\nrepresented by counsel chosen by him or her or by an attorney assigned\nby the court. Provided, however, that in the event of the failure of the\nrespondent's parent or other person legally responsible for his care to\nappear, after reasonable and substantial effort has been made to notify\nsuch parent or responsible person of the commencement of the proceeding\nand such initial appearance, the court shall appoint an attorney for the\nrespondent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

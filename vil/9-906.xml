@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-906"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-906"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-906"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-906/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-906/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-906/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-906/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_906">
+        <num>9-906</num>
+        <heading>Reconsideration of act or resolution upon submission to referendum</heading>
+        <content>
+          <p>  § 9-906 Reconsideration of act or resolution upon submission to\nreferendum. At any time after the adoption of an act or resolution and\nnot later than fifteen days prior to the election, the board of trustees\nof the village may reconsider its action thereon and if upon such\nreconsideration the said act or resolution is repealed, the proposition\nfor its approval shall not be submitted at such election or if\nsubmitted, the vote of the electors thereon shall be without effect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-6.7"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-6.7"/>
+          <FRBRdate date="2025-12-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-6.7"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-6.7/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-6.7/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-6.7/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-6.7/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_6_7">
+        <num>3-6.7</num>
+        <heading>Revocation</heading>
+        <subsection eId="sec_3_6_7__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>An electronic will may revoke all or part of a previous will.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3_6_7__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>An electronic will is revoked by:\n</p>
+          </content>
+          <paragraph eId="sec_3_6_7__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a subsequent will that revokes all or part of the electronic will;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_3_6_7__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>removal of the electronic will from the custody of the New York\nstate unified court system by:\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_3_6_7__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the testator;\n  (ii) another person duly authorized by the testator as proved by at\nleast two witnesses, neither of whom shall be the person removing the\nelectronic will; or\n  (iii) as otherwise authorized by the uniform rules of the surrogate's\ncourt; or\n</p>
+          </content>
+          <paragraph eId="sec_3_6_7__subsec_i__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>a writing of the testator clearly indicating an intention to\neffect such a revocation or alteration, executed with the formalities\nprescribed by this article for the execution and attestation of a will.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_3_6_7__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An electronic will may be removed from the custody of the New York\nstate court system by order of a court of competent jurisdiction which,\nif occurring during the lifetime of the testator, shall not be deemed a\nrevocation of the electronic will.\n  * NB Effective June 10, 2027\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

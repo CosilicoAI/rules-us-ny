@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-102"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-102"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_102">
+        <num>15-102</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 15-102. Definitions. The terms used in this article shall have the\nmeaning herein defined unless other meaning is clearly apparent in\nlanguage or context:\n  1. "General village election" means the annual or biennial election\nfor village officers.\n  2. "Special village election" means any election of village officers,\nother than, the general village election.\n  3. "Village election" means and includes both general and special\nvillage elections for officers.\n  4. "Publish" means that any notice or resolution required to be\npublished by a village shall be so printed within the time required in\nthe law requring publication in the official newspaper of the village,\nor if none, one of general circulation within the village.\n  5. "Village primary" means any election held by a political party for\nthe purpose of nominating candidates for elective village offices.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-G"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="750-G"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_750_G">
+        <num>750-G</num>
+        <heading>Fees</heading>
+        <content>
+          <p>  § 750-g. Fees.  1. The fee for a license to engage in the business of\noperating a pet cemetery or pet crematorium shall be one hundred fifty\ndollars. For each renewal thereof, the fee shall be one hundred fifty\ndollars.\n  2. The fee for issuing a duplicate license in substitution for one\nlost, destroyed or mutilated shall be twenty-five dollars.\n  3. The fee for changing a name or address shall be ten dollars.\n  4. The fees hereinabove set forth shall be those for licenses issued\nfor the license period of two years or fraction of such period.\n  5. No fees listed in subdivisions one, two, three or four of this\nsection shall be charged to any municipality seeking a license to\noperate a pet cemetery or pet crematorium.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-331"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-331"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="331"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-331/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-331/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-331/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_331">
+        <num>331</num>
+        <heading>Penalty for failing to publish</heading>
+        <content>
+          <p>  § 331. Penalty for failing to publish. 1. Any person, partnership,\nlimited partnership, unincorporated joint-stock association or\ncorporation publishing in the state of New York, a newspaper, magazine,\nbook, pamphlet or any other periodical or printed publication which\nomits, fails or neglects to carry out the provisions of the preceding\nsection shall be guilty of a misdemeanor for each issue of such\npublication over which such neglect or failure so to do extends; and\nupon conviction thereof shall be fined not less than one hundred dollars\nnor more than five hundred dollars.\n  2. Whenever such publications are discovered and the identity and\naddress of neither the owner, the proprietor, the publisher or the\nprinter appears as required by this article and cannot be ascertained\nafter reasonable diligence, then upon a verified application of a peace\nofficer, acting pursuant to his special duties, or of any police officer\nshowing such circumstances, a magistrate, may issue an order directing\nthat such publications be seized and destroyed by such officer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

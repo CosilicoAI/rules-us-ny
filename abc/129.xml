@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-129"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-129"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="129"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-129/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-129/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-129/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-129/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_129">
+        <num>129</num>
+        <heading>Surrender of license; notice to police officials</heading>
+        <content>
+          <p>  § 129. Surrender of license; notice to police officials.  Within three\ndays after a license shall have been revoked pursuant to this chapter,\nnotice thereof shall be given to the licensee by mailing such notice\naddressed to him at the premises licensed. Notice shall also be mailed\nto the owner of the premises licensed. The holder of such license shall\nthereupon surrender same to the liquor authority.  The mailing thereof\nby the licensee to the liquor authority by registered mail or insured\nparcel post shall be deemed sufficient compliance with this section. The\nliquor authority, immediately upon giving notice of revocation, shall\nserve a written notice thereof upon the commissioner of police, chief of\npolice or chief police officer of the city, or village in which the\npremises for which the revoked license was issued is situated, or upon\nthe sheriff of the county or a constable of the town in case the license\nwas issued for premises situated in a town and not within any city or\nvillage. Such notice shall include a statement of the number of such\nlicense, the name and place of residence of the holder thereof, the\nlocation of the licensed premises, and the date when such license was\nrevoked. In case such license be not forthwith surrendered, the liquor\nauthority shall issue a written demand for the surrender of such license\nand deliver said demand to the sheriff of the county in which the\nlicensed premises are located, or to any representative of the liquor\nauthority, and said sheriff or representative shall immediately take\npossession of such license and return the same to the liquor authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

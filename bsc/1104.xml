@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1104"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1104"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1104">
+        <num>1104</num>
+        <heading>Petition in case of deadlock among directors or shareholders</heading>
+        <subsection eId="sec_1104__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as otherwise provided in the certificate of incorporation\nunder section 613 (Limitations on right to vote), the holders of shares\nrepresenting one-half of the votes of all outstanding shares of a\ncorporation entitled to vote in an election of directors may present a\npetition for dissolution on one or more of the following grounds:\n</p>
+          </content>
+          <paragraph eId="sec_1104__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>That the directors are so divided respecting the management of the\ncorporation's affairs that the votes required for action by the board\ncannot be obtained.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1104__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>That the shareholders are so divided that the votes required for\nthe election of directors cannot be obtained.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1104__subsec_a__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>That there is internal dissension and two or more factions of\nshareholders are so divided that dissolution would be beneficial to the\nshareholders.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_1104__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the certificate of incorporation provides that the proportion\nof votes required for action by the board, or the proportion of votes of\nshareholders required for election of directors, shall be greater than\nthat otherwise required by this chapter, such a petition may be\npresented by the holders of shares representing more than one-third of\nthe votes of all outstanding shares entitled to vote on non-judicial\ndissolution under section 1001 (Authorization of dissolution).\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1104__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Notwithstanding any provision in the certificate of incorporation,\nany holder of shares entitled to vote at an election of directors of a\ncorporation, may present a petition for its dissolution on the ground\nthat the shareholders are so divided that they have failed, for a period\nwhich includes at least two consecutive annual meeting dates, to elect\nsuccessors to directors whose terms have expired or would have expired\nupon the election and qualification of their successors.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

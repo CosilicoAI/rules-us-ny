@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1332-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1332-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1332-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1332-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1332-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1332-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1332-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1332_A">
+        <num>1332-A</num>
+        <heading>Restrictions</heading>
+        <content>
+          <p>  § 1332-a. Restrictions. With respect to any statewide mass\ntransportation operating assistance program established pursuant to\nsection eighteen-a of the transportation law which by its terms makes\navailable to the authority monies for operating expenses as mass\ntransportation operating assistance service payments, no application\ntherefor shall be made and no monies available under such program shall\nbe accepted by the authority, notwithstanding the provision of any other\nlaw, unless the county legislature of any member county whose matching\nfund percentage for service payments under such section is at least\neighty-five percent, authorizes the authority, by resolution adopted by\na majority of the county legislature, to make such application.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

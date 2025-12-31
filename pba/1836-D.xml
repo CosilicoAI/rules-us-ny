@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-D"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1836-D"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1836_D">
+        <num>1836-D</num>
+        <heading>Loan preferences</heading>
+        <content>
+          <p>  § 1836-d. Loan preferences. In approving applications for loans under\nthis subtitle, the authority shall give preference to projects which:\n  1. have a higher level of funding from the funding partners;\n  2. have the most direct impact on local economic development and the\ncreation or retention of employment opportunities;\n  3. are most likely to stimulate other private sector investments; and\n  4. are least speculative, and provide greatest assurance of repayment\nof the loan.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

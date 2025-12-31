@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-601"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="601"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_601">
+        <num>601</num>
+        <heading>By-laws</heading>
+        <subsection eId="sec_601__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The  initial  by-laws  of  a  corporation shall be adopted by its\nincorporator or incorporators at the organization meeting.   Thereafter,\nsubject  to  section  613 (Limitations on right to vote), by-laws may be\nadopted, amended or repealed by a majority of  the  votes  cast  by  the\nshares  at  the  time entitled to vote in the election of any directors.\nWhen so provided in the certificate of incorporation or a by-law adopted\nby the shareholders, by-laws may also be adopted, amended or repealed by\nthe board by such vote as may be therein specified, which may be greater\nthan the vote otherwise prescribed  by  this  chapter,  but  any  by-law\nadopted  by  the  board  may  be amended or repealed by the shareholders\nentitled to vote thereon as  herein  provided.  Any  reference  in  this\nchapter to a "by-law adopted by the shareholders" shall include a by-law\nadopted by the incorporator or incorporators.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_601__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The by-laws may contain any provision relating to the business of\nthe corporation, the conduct of its affairs, its rights or powers or the\nrights or powers of its shareholders, directors or officers, not\ninconsistent with this chapter or any other statute of this state or the\ncertificate of incorporation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

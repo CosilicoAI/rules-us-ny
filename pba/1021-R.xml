@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-R"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-R"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1021-R"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-R/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-R/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-R/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-R/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1021_R">
+        <num>1021-R</num>
+        <heading>Periodic review by legislature</heading>
+        <content>
+          <p>  § 1021-r. Periodic review by legislature. Beginning in the year two\nthousand fifteen, and not more than every ten years thereafter, the\nlegislature of the state of New York shall conduct a comprehensive\nreview, of the structure, activities and operations of the NCPA, and the\nNCPA shall provide such records, reports and testimony as the\nlegislature may request to assist in the conduct of this review.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-497"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-497"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="497"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-497/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-497/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-497/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-497/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_497">
+        <num>497</num>
+        <heading>Amendment and repeal of local laws and ordinances</heading>
+        <content>
+          <p>  § 497. Amendment and repeal of local laws and ordinances.  Any such\nlocal law or ordinance may be amended, from time to time, or repealed by\nthe common council or other local legislative body of the municipality\nwhich enacted it and such amendment or repeal, as the case may be, may\nbe made effective and operative not earlier than thirty days following\nthe date of enactment of the local law or ordinance effecting such\namendment or repeal, as the case may be; and the approval of a majority\nof the electors of such municipality shall not be a condition\nprerequisite to the taking effect of such local law or ordinance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

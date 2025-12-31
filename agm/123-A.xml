@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-123-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-123-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-123-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-123-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-123-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-123-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123_A">
+        <num>123-A</num>
+        <heading>Exemption from civil liability</heading>
+        <content>
+          <p>  § 123-a. Exemption from civil liability. 1. If any dog shall, without\njustification, attack a person, or behaves in a manner which a\nreasonable person would believe poses a serious and unjustified imminent\nthreat of serious physical injury to a person, when such person is\npeaceably conducting himself in a place where he may lawfully be, such\nperson or any other person witnessing the attack or threatened attack\nmay destroy such dog while so attacking, and no liability in damages or\notherwise shall be incurred on account of such destruction.\n  2. If any dog shall, without justification, attack a companion animal,\nfarm animal or domestic animal, or shall behave in a manner which a\nreasonable person would believe poses a serious and unjustified imminent\nthreat of serious physical injury or death to a companion animal, farm\nanimal or domestic animal, where such animal is in any place where it\nmay lawfully be, the owner or caretaker of such animal, or any other\nperson witnessing the attack, may destroy such dog, and no liability in\ndamages or otherwise shall be incurred on account of such destruction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

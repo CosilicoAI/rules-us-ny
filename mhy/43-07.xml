@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.07"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.07"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43.07"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.07/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.07/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-43.07/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-43.07/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43_07">
+        <num>43.07</num>
+        <heading>Bill collection procedures</heading>
+        <subsection eId="sec_43_07__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The commissioner may enter into agreements with the patient or a\nperson liable for him pursuant to this chapter to assure the regular\npayment of fees.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_43_07__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The commissioner may collect bills not paid within sixty days of\npresentment or pursuant to agreement by the enforcement of liens, the\ninitiation of suit against liable parties to recover amounts due, or the\ninitiation of suit to enforce an agreement.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_43_07__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An action to collect fees due pursuant to this chapter shall\ncommence within six years from the accrual of the cause of action.  This\ncause of action accrues when the fees become due.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

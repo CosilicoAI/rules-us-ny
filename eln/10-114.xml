@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-114"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-114"/>
+          <FRBRdate date="2021-07-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10-114"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-114/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-114/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-10-114/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-10-114/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10_114">
+        <num>10-114</num>
+        <heading>Military ballots; deadline for receipt, and delivery to polling place</heading>
+        <content>
+          <p>  § 10-114. Military ballots; deadline for receipt, and delivery to\npolling place. 1. The board of elections shall cause all military\nballots received by it before the close of the polls on election day and\nall ballots contained in envelopes showing a cancellation mark of the\nUnited States postal service or a foreign country's postal service, or\nshowing a dated endorsement of receipt by another agency of the United\nStates government or are signed and dated by the voter and one witness\nthereto, with a date which is ascertained to be not later than the day\nof the election and received by such board of elections not later than\nseven days following the day of a primary election and not later than\nthirteen days following the day of a general or special election to be\ncast and counted.\n  2. The board of elections shall thereafter process such ballots in the\nmanner provided in this chapter for processing absentee ballots.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

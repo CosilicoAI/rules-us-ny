@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-186"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-186"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="186"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-186/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-186/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-186/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-186/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_186">
+        <num>186</num>
+        <heading>Disposition of real property of the state devoted to the use of the organized militia</heading>
+        <content>
+          <p>  § 186. Disposition of real property of the state devoted to the use of\nthe organized militia.  Whenever the adjutant general shall determine\nthat any real property owned by the state and devoted to the use of the\norganized militia is no longer needed or adapted for such use, he may,\nwith the approval of the director of the budget, make and file with the\ncommissioner of general services a certificate in writing of such\ndetermination and a consent that such real property be sold or exchanged\nby the commissioner of general services in accordance with the\nprovisions of section twenty-five of the public lands law.  Such\ncertificate shall be accompanied by, annexed to, or endorsed upon, an\naccurate map and description of such real property.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-407"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-407"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="407"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-407/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-407/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-407/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-407/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_407">
+        <num>407</num>
+        <heading>Exemptions</heading>
+        <content>
+          <p>  § 407. Exemptions. Savings and loan associations shall be deemed\ninstitutions for savings, and such associations and the property of such\nassociations shall be exempt from taxation under any law which shall\nexempt savings banks or institutions for savings from taxation.  The\nshares held by members of any association and the dues and dividends\ncredited thereon shall be exempt from sale on execution and proceedings\nsupplementary thereto to the amount of six hundred dollars, and the\nmembers of any such association shall not be individually liable for the\npayment of its debts. The shares of savings and loan associations shall\nnot be subject to the stock transfer tax either when issued by the\nassociation or when transferred from one member to another.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

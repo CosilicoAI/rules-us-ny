@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-F"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2999-F"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2999_F">
+        <num>2999-F</num>
+        <heading>Authorizations</heading>
+        <subsection eId="sec_2999_F__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>diminish or waive any right, remedy or benefit of any health care\nprovider, consumer, enrollee, or recipient under the provisions of this\nchapter, the insurance law or the social services law; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2999_F__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>diminish, waive, or provide any exemption from any provision of\nthe anti-trust or trade regulation laws of the state or the United\nStates; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2999_F__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>diminish, waive or supersede any provision of an applicable\ncollective bargaining agreement.\n  6. This title shall expire on April first, two thousand eleven.\n  * NB Expired April 1, 2011\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

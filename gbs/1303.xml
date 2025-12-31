@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1303"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1303"/>
+          <FRBRdate date="2024-02-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1303"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1303/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1303/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1303/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1303/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1303">
+        <num>1303</num>
+        <heading>Fiduciary duty</heading>
+        <content>
+          <p>  § 1303. Fiduciary duty. The board, the individual members of the\nboard, the trustees, any other agents appointed or engaged by the board,\nand all persons serving as program staff shall discharge their duties\nwith respect to the program solely in the interest of the program's\nenrollees and beneficiaries as follows:\n  1. for the exclusive purposes of providing benefits to enrollees and\nbeneficiaries and defraying reasonable expenses of administering the\nprogram;\n  2. by investing with the care, skill, prudence, and diligence under\nthe prevailing circumstances that a prudent person acting in a like\ncapacity and familiar with those matters would use in the conduct of an\nenterprise of a like character and with like aims; and\n  3. by using any contributions paid by employees, and employers\nremitting employees' own contributions into the fund exclusively for the\npurpose of paying benefits to the enrollees of the program, for the cost\nof administration of the program, and for investments made for the\nbenefit of the program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

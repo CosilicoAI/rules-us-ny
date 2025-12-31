@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-70.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-70.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-70.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-70.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-70.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-70.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_10">
+        <num>70.10</num>
+        <heading>Standards of proof; definitions of terms</heading>
+        <content>
+          <p>§ 70.10  Standards of proof; definitions of terms.\n  The following definitions are applicable to this chapter:\n  1.  "Legally sufficient evidence" means competent evidence which, if\naccepted as true, would establish every element of an offense charged\nand the defendant's commission thereof; except that such evidence is not\nlegally sufficient when corroboration required by law is absent.\n  2.  "Reasonable cause to believe that a person has committed an\noffense" exists when evidence or information which appears reliable\ndiscloses facts or circumstances which are collectively of such weight\nand persuasiveness as to convince a person of ordinary intelligence,\njudgment and experience that it is reasonably likely that such offense\nwas committed and that such person committed it.  Except as otherwise\nprovided in this chapter, such apparently reliable evidence may include\nor consist of hearsay.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

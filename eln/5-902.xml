@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-902"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-902"/>
+          <FRBRdate date="2023-01-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-902"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-902/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-902/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-902/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-902/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_902">
+        <num>5-902</num>
+        <heading>Failure to receive exemplar signature not to prevent registration</heading>
+        <content>
+          <p>  § 5-902. Failure to receive exemplar signature not to prevent\nregistration. If a voter registration exemplar signature is not received\nfrom an applicant who submits a voter registration or pre-registration\napplication pursuant to this title and such signature exemplar is not\notherwise available from the statewide voter registration database or a\nstate or local agency, the local board of elections shall, absent\nanother reason to reject the application, proceed to register or\npre-register and, as applicable, enroll the applicant. Within ten days\nof such action, the board of elections shall send a standard form\npromulgated by the state board of elections to the voter whose record\nlacks an exemplar signature, requiring such voter to submit a signature\nfor identification purposes. The voter shall submit to the board of\nelections a voter registration exemplar signature by any one of the\nfollowing methods: in person, by mail with return postage paid provided\nby the board of elections, by electronic mail, or by electronic upload\nto the board of elections through the electronic voter registration\ntransmittal system. If such voter does not provide the required exemplar\nsignature, when the voter appears to vote the voter shall be entitled to\nvote by affidavit ballot.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

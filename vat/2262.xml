@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2262"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2262"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2262"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2262/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2262/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2262/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2262/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2262">
+        <num>2262</num>
+        <heading>Limitations on registrations</heading>
+        <subsection eId="sec_2262__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>with a speed limit in excess of thirty-five miles per hour,\nprovided that the provisions of this paragraph shall not prohibit the\ncrossing of a public highway with a speed limit in excess of thirty-five\nmiles per hour where such highway intersects with a highway with a speed\nlimit of thirty-five miles per hour or less; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2262__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>which, in the interest of public safety, a local authority or the\ndepartment of transportation has prohibited low speed vehicles.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

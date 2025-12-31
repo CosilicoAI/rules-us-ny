@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-44-B"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-44-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="44-B"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-44-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-44-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-44-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-44-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_44_B">
+        <num>44-B</num>
+        <heading>Liability of employer; compressed air illness</heading>
+        <content>
+          <p>  § 44-b. Liability of employer; compressed air illness. With respect to\nclaims filed after July first, nineteen hundred sixty-one, for\ncompensation on account of disability or death resulting from compressed\nair illness or its sequelae, the employer who is made liable for the\ntotal compensation as provided by section forty-four of this article,\nshall not be entitled to an apportionment of such compensation among\nprior employers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

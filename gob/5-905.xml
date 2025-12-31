@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-905"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-905"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-905"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-905/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-905/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-905/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-905/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_905">
+        <num>5-905</num>
+        <heading>Certain provisions of leases to be inoperative unless express notice thereof is given to tenant</heading>
+        <content>
+          <p>  § 5-905. Certain provisions of leases to be inoperative unless express\nnotice thereof is given to tenant. No provision of a lease of any real\nproperty or premises which states that the term thereof shall be deemed\nrenewed for a specified additional period of time unless the tenant\ngives notice to the lessor of his intention to quit the premises at the\nexpiration of such term shall be operative unless the lessor, at least\nfifteen days and not more than thirty days previous to the time\nspecified for the furnishing of such notice to him, shall give to the\ntenant written notice, served personally or by registered or certified\nmail, calling the attention of the tenant to the existence of such\nprovision in the lease.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

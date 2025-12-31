@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-129-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-129-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="129-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-129-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-129-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-129-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-129-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_129_A">
+        <num>129-A</num>
+        <heading>Erie county; county hospital superintendent and county hospital board of managers</heading>
+        <content>
+          <p>  § 129-a. Erie county; county hospital superintendent and county\nhospital board of managers.  In the county of Erie, the county executive\nwhen authorized by the charter may appoint the county hospital\nsuperintendent and the county hospital board of managers for terms as\nare specified in such charter. Such charter may provide that the powers\nof such board of managers may be advisory only in which event the powers\nnow granted by statute to such board shall be vested in the\nsuperintendent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

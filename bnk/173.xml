@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-173"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-173"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="173"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-173/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-173/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-173/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-173/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_173">
+        <num>173</num>
+        <heading>Rate of interest; effect of usury</heading>
+        <subsection eId="sec_173__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>to or\nfor any partner of a firm which is a member firm of a national\nsecurities exchange registered with the securities and exchange\ncommission as a national securities exchange under the federal\nsecurities exchange act of 1934, as amended, to enable such partner to\nmake a contribution of capital to such firm or to purchase stock of an\naffiliated corporation of such firm, provided that such partner is\nactively engaged in the business of such firm and devotes the major\nportion of his time thereto, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_173__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>to or for any person who is or will\nbecome a holder of stock of a corporation which is a member corporation\nof such a national securities exchange to enable such person to purchase\nstock of such corporation or to purchase stock of an affiliated\ncorporation of such corporation, provided that such person is actively\nengaged in the business of such corporation and devotes the major\nportion of his time thereto.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

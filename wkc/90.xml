@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Dividends</heading>
+        <content>
+          <p>  § 90. Dividends. Policyholders insured in the state insurance fund may\nbe divided into such groups as shall be equitable for the purpose of\naccounting and declaration of dividends but for the purpose of paying\ncompensation the state fund shall be deemed one and indivisible.\nSeparate accounts shall be kept of income and of losses and expenses\nincurred, including contributions to catastrophe surplus and reserves\nadequate to meet anticipated losses and carry all claims to maturity,\nfor each such group. If such accounting shows a balance remaining to the\ncredit of the group at the close of any policy period, which shall be\ndeemed to be safely and properly so applied, there may be credited or\npaid to each individual member of such group such proportion of such\nbalance as the amount of his earned premium sustains to the total earned\npremium of the group for the period for which the accounting is made. If\nany member who has withdrawn from the group would otherwise have been\nentitled to such a dividend, the same may be credited or paid to him.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

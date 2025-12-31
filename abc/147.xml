@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-147"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-147"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="147"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-147/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-147/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-147/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-147/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_147">
+        <num>147</num>
+        <heading>Effective duration of local option determination</heading>
+        <content>
+          <p>  § 147. Effective duration of local option determination. 1. In any\ntown or city in which a vote shall be taken on any one or more of the\nlocal option questions provided for in this article, no further vote\nshall be submitted upon any local option question that was presented to\nthe voters before the second general election thereafter.\n  2. If at the time of any subsequent submission of such questions it\nshall be lawful to sell alcoholic beverages and a majority of the votes\ncast shall be in the negative on such questions, then all of the\nprovisions of this article applicable thereto shall become effective.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

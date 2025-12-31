@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1002"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1002"/>
+          <FRBRdate date="2022-09-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1002"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1002/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1002/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1002/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1002/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1002">
+        <num>1002</num>
+        <heading>Certifying employment</heading>
+        <content>
+          <p>  § 1002. Certifying employment. 1. Should the U.S. department of\neducation permit public service employers to certify employment for past\nor present individual employees or groups of employees directly with the\nU.S. department of education or its agents, notwithstanding other\nprovisions of law, a public service employer shall be permitted to send\nto the U.S. department of education or its agents the information\nnecessary for employment certification.\n  2. If a public service employer does not directly certify employment\nwith the U.S. department of education pursuant to subdivision one of\nthis section, the public service employer shall annually provide notice\nof renewal and a copy of the public service loan forgiveness form with\nthe employer information and employment certification sections of the\nform already completed to:\n  a. an employee who requests a public service loan forgiveness form;\n  b. any current employee for whom the public service employer has\npreviously certified employment; and\n  c. an employee who is ending his or her work with the public service\nemployer.\n  The partially completed form should reflect employment for the prior\ncalendar year, and may reflect longer periods of employment, as\nnecessary.\n  3. A public service employer shall not unreasonably delay in\ncertifying employment.\n  4. Nothing in this section shall prevent a public service employer\nfrom seeking permission from its employees prior to certifying their\nemployment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

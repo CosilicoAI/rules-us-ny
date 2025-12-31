@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-FFF"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-FFF"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-FFF"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-FFF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-FFF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-FFF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-FFF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_FFF">
+        <num>899-FFF</num>
+        <heading>Repayment</heading>
+        <content>
+          <p>  * § 899-fff. Repayment. The repayment of the funded amount plus\ncharges to be paid to the consumer litigation funding company by the\nconsumer shall be a predetermined amount based upon intervals of time\nfrom the funding date through the resolution date, and shall not be\ndetermined as a percentage of the recovery from the legal claim.\n  * NB Effective June 17, 2026\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3214"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3214"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3214"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3214/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3214/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3214/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3214/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3214">
+        <num>3214</num>
+        <heading>Motions heard by judge supervising disclosure; stay of disclosure</heading>
+        <subsection eId="sec_3214__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Judge supervising disclosure. Unless the chief\nadministrator of the courts has, by rule, provided otherwise, if a case\nhas been assigned to a judge to supervise disclosure pursuant to section\n3104, all motions preliminary to trial shall be referred to such judge\nwhenever practicable.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3214__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Stay of disclosure. Service of a notice of motion under rule 3211,\n3212, or section 3213 stays disclosure until determination of the motion\nunless the court orders otherwise.  If the motion is based solely on the\ndefense that the summons and complaint, summons with notice, or notice\nof petition and petition was not properly served, disclosure shall not\nbe stayed unless the court orders otherwise.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

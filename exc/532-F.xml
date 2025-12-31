@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-532-F"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-532-F"/>
+          <FRBRdate date="2018-01-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="532-F"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-532-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-532-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-532-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-532-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_532_F">
+        <num>532-F</num>
+        <heading>Required certification for residential programs</heading>
+        <content>
+          <p>  § 532-f. Required certification for residential programs.\nNotwithstanding any other provision of law to the contrary, any\nresidential program established for the purpose of serving runaway and\nhomeless youth that serves any youth under the age of eighteen or that\nis contained in a municipality's approved comprehensive plan, must be\ncertified by the office of children and family services and must be\noperated by an authorized agency as such term is defined in subdivision\nten of section three hundred seventy-one of the social services law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

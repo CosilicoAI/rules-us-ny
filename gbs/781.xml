@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-781"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-781"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="781"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-781/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-781/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-781/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-781/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_781">
+        <num>781</num>
+        <heading>Security to be furnished by vendor</heading>
+        <content>
+          <p>  § 781. Security to be furnished by vendor. When a vendor undertakes to\nbuild or construct a home for a vendee, and such vendee is required to\npay a deposit to such vendor, the vendor shall post with the chief\nfiscal officer of the municipality wherein such home is to be erected or\nconstructed, a bond in the amount of such deposit or deposits. Such bond\nshall be posted within five business days after receipt of said deposit\nor deposits, by the vendor, and shall secure the payment of said deposit\nto the vendee upon the vendor's default. Such bond shall be in such form\nas required by the superintendent of financial services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

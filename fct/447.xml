@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-447"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-447"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="447"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-447/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-447/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-447/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-447/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_447">
+        <num>447</num>
+        <heading>Order of visitation</heading>
+        <subsection eId="sec_447__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In the absence of an order of custody\nor of visitation entered by the supreme court, the court may make an\norder of custody or of visitation, in accordance with subdivision one of\nsection two hundred forty of the domestic relations law, requiring one\nparent to permit the other to visit the children at stated periods\nwithout an order of protection, even where the parents are divorced and\nthe support order is for a child only.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_447__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any order of the family court under this section shall terminate\nwhen the supreme court makes an order of custody or of visitation\nconcerning the children, unless the supreme court continues the order of\nthe family court.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-120"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-120"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-120"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-120/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-120/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-120/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-120/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_120">
+        <num>17-120</num>
+        <heading>Misconduct in relation to certificate of nomination and official ballot</heading>
+        <content>
+          <p>  § 17-120. Misconduct in relation to certificate of nomination and\nofficial ballot. A person who:\n  1. Falsely makes or makes oath to, or fraudulently defaces or destroys\na certificate of nomination or any part thereof; or,\n  2. Files or receives for filing a certifiate of nomination, knowing\nthat any part thereof was falsely made; or,\n  3. Suppresses a certificate of nomination which has been duly filed,\nor any part thereof; or,\n  4. Forges or falsely makes the official indorsement of any ballot; or,\n  5. Having charge of official ballots, destroys, conceals or suppresses\nthem, except as provided by the law. is guilty of a felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

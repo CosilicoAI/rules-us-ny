@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-312"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-312"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="312"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-312/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-312/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_312">
+        <num>312</num>
+        <heading>Exclusiveness of remedy</heading>
+        <content>
+          <p>  § 312. Exclusiveness of remedy. Compensation as provided in this\narticle shall be the exclusive remedy of a civil defense volunteer or\nhis or her spouse, dependents, executor or administrator, for injury,\ndisease or death arising in the course of civil defense volunteer\nservice, as against the state or any political subdivision of the state\nor civil defense agency or any person or other agency acting under\ngovernmental authoritiy in furtherance of civil defense activities, with\nor without negligence, except only as otherwise provided by law. A\nmember of a civil defense agency of the federal government or of another\nstate or of the Dominion of Canada or a province thereof, who may\nperform services within this state, whether pursuant to a mutual aid\ncompact or otherwise, shall not be entitled to compensation under the\nprovisions of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

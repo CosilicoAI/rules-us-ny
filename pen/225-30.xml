@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.30"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225.30"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_30">
+        <num>225.30</num>
+        <heading>Possession of a gambling device</heading>
+        <subsection eId="sec_225_30__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the manufacturer or distributor of the gambling\ndevice has filed a statement with the state gaming commission required\nby subdivision twenty-one of section one hundred four of the racing,\npari-mutuel wagering and breeding law, (ii) such gambling device was\ntransported into this state in a sealed container and possessed for the\npurpose of exhibition or marketing in accordance with such statement,\nand (iii) such device is thereafter transported in a sealed container to\na jurisdiction outside of this state for purposes that are lawful in\nsuch outside jurisdiction.\n  Possession of a gambling device is a class A misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

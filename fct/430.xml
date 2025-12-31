@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-430"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-430"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="430"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-430/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-430/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-430/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-430/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_430">
+        <num>430</num>
+        <heading>Temporary order of protection</heading>
+        <subsection eId="sec_430__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Upon the filing of a\npetition under this article, the court for good cause shown may issue a\ntemporary order of protection which may contain any of the provisions\nauthorized on the making of an order of protection under section four\nhundred forty-six.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_430__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A temporary order of protection is not a finding of wrongdoing.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_430__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The court may issue or extend a temporary order of protection ex\nparte or on notice simultaneously with the issuance of a warrant,\ndirecting that the respondent be arrested and brought before the court\npursuant to section four hundred twenty-eight of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

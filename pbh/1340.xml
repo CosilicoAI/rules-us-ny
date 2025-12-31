@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1340"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1340"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1340"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1340/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1340/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1340/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1340/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1340">
+        <num>1340</num>
+        <heading>Bathing places; sanitary requirements</heading>
+        <subsection eId="sec_1340__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>to provide separate toilet rooms, with water-closets properly\nprovided with sanitary plumbing, constructed in a manner approved by the\nlocal board of health of the health district wherein the bathing\nestablishment is located, and in such a way as not to contaminate the\nwaters used by the bathers; and,\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1340__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>to thoroughly wash and disinfect, or cause to be thoroughly washed\nand disinfected, in a manner approved by the said local board of health,\nall bathing suits that have been hired or used, before re-hiring or\npermitting the use of the same again.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-126"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-126"/>
+          <FRBRdate date="2015-11-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-126"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-126/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-126/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-7-126/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-7-126/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_126">
+        <num>7-126</num>
+        <heading>Ballots; pasters, or stickers, use of</heading>
+        <content>
+          <p>  § 7-126. Ballots; pasters, or stickers, use of. No pasters or stickers\nshall be affixed to any official ballot by any voter. The board of\nelections may authorize election officials to affix a paster or sticker\nupon unvoted ballots. All of the voted ballots for which the use of a\npaster or sticker shall have been authorized shall be manually canvassed\nand shall not be canvassed by a ballot scanner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1830-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1830-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1830-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1830-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1830-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1830-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1830-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1830_A">
+        <num>1830-A</num>
+        <heading>Conveyance of state land</heading>
+        <content>
+          <p>  § 1830-a. Conveyance of state land. Notwithstanding section\nthirty-three of the public lands law the commissioner of general\nservices shall have power, in his discretion, from time to time to grant\nand convey to the authority, upon such terms and conditions including\nconsideration as the commissioner of general services may fix and\ndetermine, unappropriated state lands, lands under water, abandoned\ncanal lands and salt springs lands which the authority shall certify to\nbe in conformity with its corporate purposes. Certification shall be\nevidenced by a formal request from the authority and shall be subject to\nthe approval of the director of the budget.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

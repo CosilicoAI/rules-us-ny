@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7555"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7555"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7555"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7555/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7555/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7555/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7555/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7555">
+        <num>7555</num>
+        <heading>Screening for bias; communication with arbitrator candidates</heading>
+        <subsection eId="sec_7555__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Prior to inclusion on a list of proposed associate arbitrators, the\narbitration administrator shall make an appropriate initial screening\nfor bias and shall require associate arbitrator candidates for a\nparticular case to complete a current personal disclosure statement\nunder oath. In addition to other relevant information, the statement\nshall disclose any personal acquaintance with any of the parties or\ntheir counsel and the nature of such acquaintance. If the statement\nreveals facts which suggest the possibility of partiality, the\narbitration administrator shall communicate those facts to the parties.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7555__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No party shall communicate with an associate arbitrator candidate,\ndirectly or indirectly, except through the arbitration administrator, at\nany time after the filing of the demand for arbitration. Any candidate\nwho is aware of such communication shall immediately notify the\narbitration administrator.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

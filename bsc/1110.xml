@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1110"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1110"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1110">
+        <num>1110</num>
+        <heading>Application for final order</heading>
+        <content>
+          <p>§ 1110. Application for final order.\n  When the hearing is before a referee, a motion for a final order must\nbe made to the court upon notice to each party to the action or special\nproceeding who has appeared therein. The notice of motion may be served\nas prescribed for the service of papers upon an attorney in an action in\nsuch court. When the hearing is before the court, a motion for a final\norder may be made at the hearing or at such time and upon such notice as\nthe court prescribes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

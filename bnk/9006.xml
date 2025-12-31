@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9006"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9006"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9006"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9006/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9006/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9006/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9006/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9006">
+        <num>9006</num>
+        <heading>Authorization for indemnification of directors and officers</heading>
+        <subsection eId="sec_9006__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a threatened action, or a pending action\nwhich is settled or otherwise disposed of, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_9006__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>any claim, issue or\nmatter as to which such person shall have been adjudged to be liable to\nthe corporation, unless and only to the extent that the court in which\nthe action was brought, or, if no action was brought, any court of\ncompetent jurisdiction, determines upon application that, in view of all\nthe circumstances of the case, the person is fairly and reasonably\nentitled to indemnity for such portion of the settlement amount and\nexpenses as the court deems proper.\n  4. For the purpose of this section, a corporation shall be deemed to\nhave requested a person to serve an employee benefit plan where the\nperformance by such person of his duties to the corporation also imposes\nduties on, or otherwise involves services by, such person to the plan or\nparticipants or beneficiaries of the plan; excise taxes assessed on a\nperson with respect to an employee benefit plan pursuant to applicable\nlaw shall be considered fines; and action taken or omitted by a person\nwith respect to an employee benefit plan in the performance of such\nperson's duties for a purpose reasonably believed by such person to be\nin the interest of the participants and beneficiaries of the plan shall\nbe deemed to be for a purpose which is not opposed to the best interests\nof the corporation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

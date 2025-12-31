@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-HH"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-HH"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-HH"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-HH/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-HH/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-HH/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-HH/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_HH">
+        <num>899-HH</num>
+        <heading>Ongoing coverage</heading>
+        <subsection eId="sec_899_HH__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>shall not process the personal data of the covered user that would\notherwise be subject to the provisions of this article until it receives\ninformed consent pursuant to subdivision three of section eight hundred\nninety-nine-ff of this article, and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_899_HH__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>shall provide notice to such user that they may no longer be\nentitled to all of the protections and rights provided under this\narticle.\n  2. Upon learning that a user is no longer a covered user, an operator\nshall provide notice to such user that such user is no longer covered by\nthe protections and rights provided under this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

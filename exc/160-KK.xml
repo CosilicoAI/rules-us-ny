@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-KK"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-KK"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-KK"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-KK/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-KK/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-KK/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-KK/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_KK">
+        <num>160-KK</num>
+        <heading>Financial oversight of the fund</heading>
+        <content>
+          <p>  § 160-kk. Financial oversight of the fund.  No later than May first of\neach year, the fund shall submit to the governor and legislature\ncertified financial statements prepared in accordance with generally\naccepted accounting principles by a certified public accountant. The\nmembers of the fund shall be required on and after January first of each\nyear to afford the certified public accountant convenient access at all\nreasonable hours to all books, records and other documents, including\nbut not limited to invoices and vouchers, necessary or useful in the\npreparation of such statements and in the verification of the monthly\nstatements submitted to the fund.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

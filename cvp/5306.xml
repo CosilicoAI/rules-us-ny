@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5306"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5306"/>
+          <FRBRdate date="2021-06-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5306"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5306/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5306/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5306/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5306/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5306">
+        <num>5306</num>
+        <heading>Stay of a proceeding pending appeal of a foreign country judgment</heading>
+        <content>
+          <p>  § 5306. Stay of a proceeding pending appeal of a foreign country\njudgment. If a party establishes that an appeal from a foreign country\njudgment is pending or will be taken, the court may stay any proceeding\nwith regard to the foreign country judgment until the appeal is\nconcluded, the time for appeal expires, or the appellant has had\nsufficient time to prosecute the appeal and has failed to do so.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

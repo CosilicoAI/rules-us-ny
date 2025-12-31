@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-901"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-901"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-901"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-901/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-901/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-901/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-901/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_901">
+        <num>5-901</num>
+        <heading>Certain provisions of leases of personal property inoperative unless notice thereof given to lessee</heading>
+        <content>
+          <p>  § 5-901. Certain provisions of leases of personal property inoperative\nunless notice thereof given to lessee. No provision of a lease of any\npersonal property which states that the term thereof shall be deemed\nrenewed for a specified additional period unless the lessee gives notice\nto the lessor of his intention to release the property at the expiration\nof such term, shall be operative unless the lessor, at least fifteen\ndays and not more than thirty days previous to the time specified for\nthe furnishing of such notice to him, shall give to the lessee written\nnotice, served personally or by mail, calling the attention of the\nlessee to the existence of such provision in the lease. Nothing herein\ncontained shall be construed to apply to a contract in which the\nautomatic renewal period specified is one month or less.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

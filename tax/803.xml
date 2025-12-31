@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-803"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-803"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="803"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_803">
+        <num>803</num>
+        <heading>Exemption override</heading>
+        <subsection eId="sec_803__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as provided in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_803__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nof this section, any exemption from tax specified in any other New York\nstate law will not apply to the tax imposed by this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_803__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If a tax-free NY area approved pursuant to the provisions of\narticle twenty-one of the economic development law is located within the\nMCTD, the payroll expense in such tax-free NY area of any employer that\nis located in such area and accepted into the START-UP NY program shall\nbe exempt from the tax imposed under this article. In addition, the net\nearnings from self-employment of an individual from a business in such\ntax-free NY area that is accepted into the START-UP NY program shall be\nexempt from the tax imposed under this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

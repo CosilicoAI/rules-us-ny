@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-78"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-78"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="78"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-78/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-78/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78">
+        <num>78</num>
+        <heading>Renewal of licenses</heading>
+        <content>
+          <p>  § 78. Renewal of licenses. A license granted under the provisions of\nthis article may be renewed by the department of state upon application\ntherefor by the holder thereof, in such form as such department may\nprescribe, accompanied by the non-refundable fee and surety bond each in\namounts equivalent to those specified in section seventy-four of this\narticle as pertaining to original licenses.  The application shall be\nfiled six weeks before the expiration date of the license unless the\napplication is accompanied by a non-refundable late filing fee of one\nhundred dollars. In no event will renewal be granted more than six\nmonths after the date of expiration of a license. No person, firm,\nlimited liability company, partnership or corporation shall carry on any\nbusiness subject to this article during any period which may exist\nbetween the date of expiration of a license and the renewal thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

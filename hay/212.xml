@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-212"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="212"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212">
+        <num>212</num>
+        <heading>Changing location of highways over certain lands owned and occupied by the state</heading>
+        <content>
+          <p>  § 212. Changing location of highways over certain lands owned and\noccupied by the state. If a highway passes over or through lands wholly\nowned and occupied by the state, the location of such portion of such\nhighway as passes through such lands may be altered and changed, or the\nsame may be abandoned or the use thereof as a highway discontinued with\nthe consent and approval of the state authority having jurisdiction or\ncontrol over such lands by an order directing such change in location,\nabandonment or discontinuance. Such order shall contain a description of\nthat portion of the highway the location of which has been changed,\nabandoned or discontinued, and a description of the new location\nthereof, if any, and shall be filed in the office of the state authority\nhaving control of such lands.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

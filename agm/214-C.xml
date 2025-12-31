@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214-C"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="214-C"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-214-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-214-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_C">
+        <num>214-C</num>
+        <heading>No provisions contained in sections one hundred ninety-eight, one hundred ninety-nine, two hundred, two hundred one, two hundred two, two...</heading>
+        <content>
+          <p>  § 214-c. No provisions contained in sections one hundred ninety-eight,\none hundred ninety-nine, two hundred, two hundred one, two hundred two,\ntwo hundred two-a, two hundred two-b and two hundred fourteen-b of this\narticle shall be construed to alter, supersede or repeal any of the\nprovisions of sections two hundred three to two hundred fourteen-a,\ninclusive, of this article, sections ninety-one, ninety-two and\nninety-three of article five, or articles four, four-a, twelve-a,\ntwelve-b, thirteen, thirteen-a and thirteen-b of this chapter, but each\nof said sections and articles shall continue in full force and effect.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

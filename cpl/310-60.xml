@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="310.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_310_60">
+        <num>310.60</num>
+        <heading>Discharge of jury before rendition of verdict and effect thereof</heading>
+        <subsection eId="sec_310_60__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The jury has deliberated for an extensive period of time without\nagreeing upon a verdict with respect to any of the charges submitted and\nthe court is satisfied that any such agreement is unlikely within a\nreasonable time; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_310_60__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The court, the defendant and the people all consent to such\ndischarge; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_310_60__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A mistrial is declared pursuant to section 280.10.\n  2.  When the jury is so discharged, the defendant or defendants may be\nretried upon the indictment.  Upon such retrial, the indictment is\ndeemed to contain all counts which it contained, except those which were\ndismissed or were deemed to have resulted in an acquittal pursuant to\nsubdivision one of section 290.10.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

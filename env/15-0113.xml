@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0113"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0113"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-0113"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0113/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0113/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0113/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0113/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_0113">
+        <num>15-0113</num>
+        <heading>State to be reimbursed for costs</heading>
+        <content>
+          <p>§ 15-0113. State to be reimbursed for costs.\n  In the event that the department shall carry out a project paid for by\nthe beneficiaries, as provided by various parts in this article, the\ndepartment may, if such procedure shall be found to be just and\nreasonable, require that the state be reimbursed for costs which may\nhave been paid from state appropriations. This reimbursement may cover\ncosts and expenses incurred prior to the time the project funds could be\nmade available for salaries and expenses for regular employees of any\nstate department who may have devoted all or a part of their time to\nthat particular project, except this is not intended to apply to the\nsalaries of the members of the department engaged only in general\nadministrative work in connection with the project.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

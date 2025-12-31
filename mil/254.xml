@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-254"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-254"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="254"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-254/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-254/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-254/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-254/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_254">
+        <num>254</num>
+        <heading>Video teleconferencing for families of persons ordered to active duty</heading>
+        <content>
+          <p>  § 254. Video teleconferencing for families of persons ordered to\nactive duty. 1. Definition. For the purposes of this section, "military\nservice" shall mean military duty in the active military service of the\nUnited States, as defined in section three hundred one of this chapter.\n  2. The division of military and naval affairs shall make available\nteleconferencing facilities to the families, which shall include\nspouses, domestic partners, children, and parents and such others as\nmeet criteria established by the division of every person in military\nservice who is a resident of this state so as to facilitate, in\ncooperation with the department of defense and the armed forces of the\nUnited States, communications between such persons in military service\nand their families.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

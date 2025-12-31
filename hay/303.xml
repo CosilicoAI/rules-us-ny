@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-303"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-303"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="303"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-303/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-303/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-303/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-303/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_303">
+        <num>303</num>
+        <heading>Copy and notice to be served</heading>
+        <content>
+          <p>  § 303. Copy and notice to be served. The applicant on receiving the\ncopy and notice shall, on the same day, or the next day thereafter,\nexcluding Sundays and holidays, cause such copy and notice to be served\nupon the persons to whom it is addressed, by delivering to each of them\nwho reside in the same town a copy thereof, or in case of his absence,\nby leaving the same at his residence and upon such as reside elsewhere,\nby depositing in the postoffice a copy thereof to each, properly\nenclosed in an envelope, addressed to them respectively at their\npostoffice address, and paying the postage thereon, or, in case of\ninfant owners, by like service upon their parent or guardian.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

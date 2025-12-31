@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-F"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="153-F"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-153-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-153-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_153_F">
+        <num>153-F</num>
+        <heading>State reimbursement of home energy grant expenses</heading>
+        <content>
+          <p>  § 153-f. State reimbursement of home energy grant expenses.\nNotwithstanding any other provision of law, expenditures made by social\nservices districts in the form of payments made as home energy grants\npursuant to the provisions of subdivision three-c of section one hundred\nthirty-one-a of this article shall be reimbursed as follows:\n  There shall be paid to each such city, district or town;\n  1. The amount of federal funds properly received or to be received on\naccount of such expenditures; and\n  2. One hundred percent of the amount expended after first deducting\ntherefrom any federal funds properly received or to be received on\naccount thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

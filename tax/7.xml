@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-7"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-7"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-7/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-7/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-7/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7">
+        <num>7</num>
+        <heading>Inapplicability of certain money judgment enforcement procedures</heading>
+        <content>
+          <p>  § 7. Inapplicability of certain money judgment enforcement\nprocedures.--Notwithstanding any provision in article fifty-two of the\ncivil practice law and rules or any other provision of law to the\ncontrary, the procedures in such article for the enforcement of money\njudgments shall not apply to the tax commission, any officer or employee\nof the department of taxation and finance, or the comptroller or any\nofficer or employee of the department of audit and control, as a\ngarnishee, with respect to any amount of money to be refunded or\ncredited to a taxpayer pursuant to any tax administered by the tax\ncommission, which is imposed by this chapter or by a law enacted\npursuant to the authority of this chapter or article two-E of the\ngeneral city law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

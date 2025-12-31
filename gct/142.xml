@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-142"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-142"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="142"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-142/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-142/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-142/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-142/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_142">
+        <num>142</num>
+        <heading>Jurisdiction of local board of health</heading>
+        <content>
+          <p>  § 142. Jurisdiction of local board of health. All hospitals or\ninstitutions now or hereafter established or maintained by any city of\nthe first class for the regular or special treatment of persons\nsuffering from the disease known as pulmonary tuberculosis shall be\nsubject to the approval of the local board of health; special wards or\npavilions for the treatment of cases of pulmonary tuberculosis in\nexisting hospitals shall be provided with separate nurses, cooking\nutensils, washing and plumbing facilities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

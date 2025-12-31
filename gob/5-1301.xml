@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1301"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-1301"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_1301">
+        <num>5-1301</num>
+        <heading>How interest calculated</heading>
+        <content>
+          <p>  § 5-1301. How interest calculated. Whenever, in any statute, act,\ndeed, written or verbal contract, or in any public or private instrument\nwhatever, any certain rate of interest is or shall be mentioned, and no\nperiod of time is stated for which such rate is to be calculated,\ninterest shall be calculated at the rate mentioned, by the year, in the\nsame manner as if the words "per annum" or "by the year" had been added\nto such rate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

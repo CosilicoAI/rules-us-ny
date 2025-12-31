@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-430"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-430"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="430"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-430/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-430/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-430/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-430/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_430">
+        <num>430</num>
+        <heading>Retail sale of junk and salvage vehicles</heading>
+        <subsection eId="sec_430__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>no major component part of the motor vehicle has been replaced\nsince the theft of such vehicle,\n  (ii) repairs made to the motor vehicle since the recovery of such\nvehicle either have not exceeded one-fourth of the amount paid by the\ninsurance company in settlement of the claim or have not exceeded one\nthousand dollars,\n  (iii) the vehicle identification number and all other manufacturers'\nidentifying numbers on the motor vehicle have been examined by the\ninsurance company and are intact in the same form as at the time of the\ntheft of such vehicle,\n  (iv) an affidavit sworn to by an officer of the insurance company is\nsubmitted by the insurance company which made payment in settlement of\nthe claim for theft with the application for title certifying to the\nabove conditions, which affidavit shall also certify additional facts as\nrequired by the commissioner relating to the theft and recovery of such\nvehicle and the amount of settlement and repair costs.\n  3. The commissioner may, by regulation, exempt vehicles from the\nphysical examination required by subdivision one of this section based\nupon the age of the vehicles if the commissioner deems that such\nphysical examination would not further the purposes of the motor vehicle\ntheft prevention program established by section two hundred twenty-three\nof this chapter.\n  4. Fees; deposited. Fees assessed under this section shall be paid to\nthe commissioner for deposit to the general fund, with the exception of\nthe fifty dollar increase in the fee for scheduling an examination\npursuant to subdivision one of this section, which shall be deposited to\nthe dedicated highway and bridge trust fund established pursuant to\nsection eighty-nine-b of the state finance law and the dedicated mass\ntransportation fund established pursuant to section eighty-nine-c of the\nstate finance law and distributed according to the provisions of\nsubdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_430__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of section three hundred one-j of the tax law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

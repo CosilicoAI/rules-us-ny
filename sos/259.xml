@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-259"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-259"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="259"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-259/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-259/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-259/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-259/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_259">
+        <num>259</num>
+        <heading>Application of other provisions</heading>
+        <content>
+          <p>  § 259. Application of other provisions. 1. Provisions of this chapter\nand other laws relating to public assistance and care not inconsistent\nwith this title shall be applied in carrying out the provisions of this\ntitle.\n  2. The provisions of any city charter or other local or special act\nwhich are inconsistent with the provisions of this title shall not be\napplicable to the services provided by this title, nor impair nor limit\nthe statewide operation of this title, according to its terms.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

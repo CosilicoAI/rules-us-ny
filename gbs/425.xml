@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-425"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-425"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="425"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-425/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-425/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425">
+        <num>425</num>
+        <heading>Insurance</heading>
+        <content>
+          <p>  § 425. Insurance. 1. Every coin processor shall obtain a minimum of\nten million dollars all risk insurance coverage and such additional\namounts as are sufficient to cover the value of coins consigned to such\ncoin processor for counting. In addition, each such coin processor shall\nobtain comprehensive general liability insurance coverage for death,\npersonal injury and property damage in the minimum amount of five\nhundred thousand dollars per occurrence and one million dollars in the\naggregate.\n  2. A written certificate or certificates of insurance shall be\nprovided to the secretary by all coin processors as part of the\napplication for licenses process set forth in section four hundred\ntwenty-one of this article.\n  3. Failure by a coin processor to keep such all risk insurance or\ncomprehensive general liability insurance coverage in full force and\neffect, shall be grounds for the secretary to refuse to issue or renew a\nlicense or to suspend or revoke such license, in accordance with the\nprovisions of section four hundred twenty-four of this article.\n  4. All such insurance required by this section shall be issued by an\ninsurer authorized to do business in the state or otherwise be procured\nby an excess line broker duly licensed pursuant to the applicable\nprovisions of the insurance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

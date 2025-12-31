@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-64"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-64"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="64"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-64/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-64/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-64/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-64/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64">
+        <num>64</num>
+        <heading>Payment of liens and encumbrances</heading>
+        <content>
+          <p>  § 64. Payment of liens and encumbrances.  Whenever a person would be\nentitled to the payment of any advance under section sixty-three of this\nchapter and there shall exist mortgages or other prior liens on such\nproperty, the holder of any such prior lien may apply to the city for\npayment of his mortgage or encumbrance. If after five days' written\nnotice given by the corporation counsel to the owner of such property to\nfile a verified statement of his objections, if any, to the payment of\nsuch mortgage or lien, the corporation counsel shall be satisfied as to\nthe amount due to such mortgagee or lienor, and shall so certify, the\ncity shall, to the extent of the moneys available under such section\nsixty-three, after providing for prior liens or encumbrances, if any,\npay such mortgage or lien with the interest due thereon.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

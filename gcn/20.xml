@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-20"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="20"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20">
+        <num>20</num>
+        <heading>Day, computation</heading>
+        <content>
+          <p>  § 20. Day, computation. A number of days specified as a period from a\ncertain day within which or after or before which an act is authorized\nor required to be done means such number of calendar days exclusive of\nthe calendar day from which the reckoning is made. If such period is a\nperiod of two days, Saturday, Sunday or a public holiday must be\nexcluded from the reckoning if it is an intervening day between the day\nfrom which the reckoning is made and the last day of the period. In\ncomputing any specified period of time from a specified event, the day\nupon which the event happens is deemed the day from which the reckoning\nis made. The day from which any specified period of time is reckoned\nshall be excluded in making the reckoning.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

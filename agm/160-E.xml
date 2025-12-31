@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-E"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-E"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_E">
+        <num>160-E</num>
+        <heading>Making and filing of invoice</heading>
+        <content>
+          <p>  § 160-e. Making and filing of invoice.  Every person, other than the\nproducer, in selling eggs to a retailer, shall furnish to such retailer\nan invoice showing the exact grade or quality of such eggs according to\nthe standards prescribed by the commissioner of agriculture and markets.\nIf any of the eggs covered by the invoice have been in cold storage, as\ndefined in article nineteen of this chapter, for more than thirty days,\neither within or without the state, the invoice, in addition to showing\nthe grade or quality of such eggs, shall indicate the fact of such\nstorage by the use of the words "cold storage" or "refrigerator." A copy\nof such invoice shall be kept on file by the person selling and the\nretailer at their respective places of business for a period of sixty\ndays, and shall be available and open for inspection at all reasonable\ntimes by the state department of agriculture and markets.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

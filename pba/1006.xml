@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1006"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1006"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1006"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1006/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1006/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1006/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1006/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1006">
+        <num>1006</num>
+        <heading>Power to compel attendance of witnesses</heading>
+        <content>
+          <p>  § 1006. Power to compel attendance of witnesses.  For the purpose of\nexercising its powers and performing its duties hereunder and of\nsecuring such information as it may deem necessary hereunder, the\nauthority shall have the power to compel the attendance of witnesses and\nthe production of documents. The power hereby conferred upon the\nauthority may be exercised by any one or more of the trustees if he or\nthey are authorized so to act on behalf of the authority by resolution\nor by law. A subpoena issued under this section shall be regulated by\nthe civil practice law and rules.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

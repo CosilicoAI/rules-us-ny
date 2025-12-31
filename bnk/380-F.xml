@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-F"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380-F"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_F">
+        <num>380-F</num>
+        <heading>Power to make advances of federal funds</heading>
+        <content>
+          <p>  § 380-f. Power to make advances of federal funds. A savings and loan\nassociation may make advances of federal funds to commercial banks,\nprovided such advances are made on the condition that they be repaid on\nthe next business day following the day on which the advance is made.\nFor purposes of this section the term "federal funds" shall mean funds\nwhich a savings and loan association has on deposit at a commercial bank\nwhich are exchangeable for funds on deposit at a federal reserve bank;\nthe term "commercial bank" shall mean any bank, trust company, private\nbanker, national banking association, having its principal office in\nthis state; and the term "business day" shall mean any day on which the\nsavings and loan association, the commercial bank and the federal\nreserve bank where the funds are on deposit are all open for general\nbusiness.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

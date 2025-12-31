@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-261"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-261"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="261"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-261/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-261/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_261">
+        <num>261</num>
+        <heading>Fire door</heading>
+        <content>
+          <p>  § 261. Fire door. "Fire door" means a door constructed of such\nfire-resisting material as shall be specified in the rules of the board.\nThe board shall determine and specify in its rules the materials and the\nmanner of construction and erection of such doors, the sills thereof,\nand the automatic or self-closing device requirements of such doors.\nElectric contacts or interlocks of a type approved by the board may be\naccepted in lieu of self-closing devices on fire doors at each entrance\nto elevator or dumbwaiter hoistways.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-332"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-332"/>
+          <FRBRdate date="2022-07-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="332"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-332/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-332/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-332/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-332/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_332">
+        <num>332</num>
+        <heading>Portion of the Mohawk-Hudson Bike-Hike Trail to be designated as the "Ronald H</heading>
+        <content>
+          <p>  § 332. Portion of the Mohawk-Hudson Bike-Hike Trail to be designated\nas the "Ronald H. Miller Memorial Bike Trail". All that portion of the\nMohawk-Hudson Bike-Hike Trail in the village of Menands, commencing at\nthe city of Watervliet border, continuing in a generally southerly\ndirection and terminating at the city of Albany border, shall be\ndesignated and known as the "Ronald H. Miller Memorial Bike Trail".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

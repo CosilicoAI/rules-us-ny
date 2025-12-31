@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-C"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="382-C"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_C">
+        <num>382-C</num>
+        <heading>Occupant compartments</heading>
+        <content>
+          <p>  § 382-c. Occupant compartments.  The commissioner may prescribe, by\nregulation, standards consistent with federal motor vehicle safety\nstandards specifying requirements for instrument panels, seat backs,\nprotrusions (including knobs, switches, levers, handles, bezels, and\npanel contours), sun visors, arm rests, steering control systems and\nother similar components of the interior of the occupant's compartment\nof motor vehicles to afford impact protection for occupants. The\ncommissioner may limit the application of such regulations to specified\nclasses of vehicles; provided, however, that such regulations shall not\napply to any motor vehicle manufactured prior to June thirtieth,\nnineteen hundred sixty-seven. No motor vehicle shall be registered or\ndriven on the public highways of the state unless it is constructed,\nequipped or maintained as required by the regulations promulgated\npursuant to this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

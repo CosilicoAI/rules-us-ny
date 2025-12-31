@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-119-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-119-A"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="119-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-119-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-119-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-119-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-119-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119_A">
+        <num>119-A</num>
+        <heading>Ignition interlock device</heading>
+        <content>
+          <p>  * § 119-a. Ignition interlock device. Any blood alcohol concentration\nequivalence measuring device which connects to a motor vehicle ignition\nsystem and prevents a motor vehicle from being started without first\ndetermining through a deep lung breath sample that the operator's\nequivalent breath alcohol level does not exceed the calibrated setting\non the device as required by section eleven hundred ninety-eight of this\nchapter.\n  * NB Repealed September 1, 2027\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

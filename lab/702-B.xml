@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-702-B"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-702-B"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="702-B"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-702-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-702-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-702-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-702-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_702_B">
+        <num>702-B</num>
+        <heading>Impasse resolution procedures for agricultural employers and farm laborers</heading>
+        <subsection eId="sec_702_B__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>hazards of employment; (ii)\nphysical qualifications; (iii) educational qualifications; (iv) mental\nqualifications;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_702_B__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>job training and skills;\n  D. the terms of collective agreements negotiated between the parties\nin the past providing for compensation and fringe benefits; and\n  E. the impact on the food supply and commodity pricing.\n  iv. the determination of the neutral arbitrator shall be final and\nbinding upon the parties for the period prescribed by the arbitrator,\nbut in no event shall such period exceed two years from the date of the\narbitrator's determination;\n  v. the determination of the public arbitration panel shall be subject\nto review by a court of competent jurisdiction in the manner prescribed\nby law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

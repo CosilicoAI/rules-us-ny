@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-410-O"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-410-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="410-O"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-410-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-410-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-410-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-410-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_410_O">
+        <num>410-O</num>
+        <heading>Separability</heading>
+        <content>
+          <p>  § 410-o.  Separability. If any clause, sentence, paragraph or part of\nthis article shall be adjudged by any court of competent jurisdiction to\nbe invalid, such judgment shall not affect, impair or invalidate the\nremainder thereof, but shall be confined in its operation to the clause,\nsentence, paragraph, section or part thereof directly involved in the\ncontroversy in which such judgment shall have been rendered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

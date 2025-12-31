@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-632"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-632"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="632"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-632/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-632/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-632/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-632/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_632">
+        <num>632</num>
+        <heading>Order dismissing petition</heading>
+        <subsection eId="sec_632__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If the allegations of a petition\nunder this part are not established, the court shall dismiss the\npetition.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_632__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If a motion or application has been made in the course of a\nproceeding under this part to reconsider an underlying order of\nplacement or commitment, or upon the court's own motion on notice to all\nparties, the court retains jurisdiction to dispose of that motion or\napplication regardless of whether it dismisses the petition.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

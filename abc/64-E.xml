@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-64-E"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-64-E"/>
+          <FRBRdate date="2022-12-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="64-E"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-64-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-64-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-64-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-64-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64_E">
+        <num>64-E</num>
+        <heading>License to sell liquor at retail as an off-premises catering establishment</heading>
+        <subsection eId="sec_64_E__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of subdivision seven-a of section three of this chapter,\nand such licenses shall be issued to all applicants except for good\ncause shown.\n  2. Such application shall be in such form and shall contain such\ninformation as shall be required by the rules of the authority and shall\nbe accompanied by a check or draft or other form of payment acceptable\nto the authority in the amount required by this article for such\nlicense.\n  3. Section fifty-four of this chapter shall control the procedure in\nconnection with such application, so far as applicable.\n  4. Such license shall in form and in substance be a license to the\nperson specifically licensed to sell liquors at retail, to be consumed\nonly at sites at which a permit has been applied for and granted as\nprovided for in section ninety-eight of this chapter. Such license shall\nalso be deemed to include a license to sell wine and beer at retail to\nbe consumed under the same terms and conditions, without the payment of\nany additional fee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

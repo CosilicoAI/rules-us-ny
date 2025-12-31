@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-341"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-341"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="341"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-341/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-341/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-341/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-341/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_341">
+        <num>341</num>
+        <heading>Background reports</heading>
+        <content>
+          <p>  § 341. Background reports.  1. Whenever any test agency prepares or\ncauses to have prepared research which is used in any study, evaluation\nor statistical report pertaining to a test operational after January\nfirst, nineteen hundred eighty, such study, evaluation or report shall\nbe filed with the commissioner. This section shall apply to any\nunpublished study, evaluation or statistical report cited in memoranda\nof support or opposition to legislation or proposed rules and\nregulations relating to standardized testing  written or published by\nthe test agency or its employees in behalf of the test agency on or\nafter July first, nineteen hundred ninety-three.\n  2. If any reports or other documents submitted pursuant to this\nsection contain information identifiable with any  test subject or test\nuser institution, such information shall be deleted prior to filing with\nthe commissioner.\n  3. All reports or other documents submitted pursuant to this section\nshall be public records.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1009"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1009"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1009"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1009/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1009/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1009/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1009/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1009">
+        <num>1009</num>
+        <heading>Powers and duties of department of social services relating to vocational rehabilitation of blind persons</heading>
+        <subsection eId="sec_1009__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Notwithstanding any inconsistent provision of this article,\nfunds made available to the state by the United States to be used for\nvocational rehabilitation of blind persons shall be accepted and used by\nthe state for such purposes provided the department of social services\nshall determine to accept and to use the same in accordance with the\nprovisions of any law of the United States.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1009__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Provided the federal government shall make funds available, the\ndepartment of social services and its commission for the visually\nhandicapped are empowered to accept gifts for the extension and\nimprovement of non-profit facilities and workshops for the training and\nrehabilitation of blind persons, and to match the value of such gifts\nmade to such department or commission for such purposes by or on behalf\nof such non-profit facilities or workshops. The department may utilize\nsuch federal funds and gifts for such purposes and may make appropriate\nagreements therefor with suitable non-profit agencies serving the blind.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

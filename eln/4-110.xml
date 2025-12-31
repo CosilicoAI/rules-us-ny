@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-110"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-110"/>
+          <FRBRdate date="2019-01-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4-110"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-4-110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-4-110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4_110">
+        <num>4-110</num>
+        <heading>Certification of primary election candidates; state board of elections</heading>
+        <content>
+          <p>  § 4-110. Certification of primary election candidates; state board of\nelections. The state board of elections, not later than fifty-five days\nbefore a primary election, shall certify to each county board of\nelections: The name and residence of each candidate to be voted for\nwithin the political subdivision of such board for whom a designation\nhas been filed with the state board; the title of the office or position\nfor which the candidate is designated; the name of the party upon whose\nprimary ballot his or her name is to be placed; and the order in which\nthe names of the candidates are to be printed as determined by the state\nboard. Where an office or position is uncontested, such certification\nshall state such fact.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

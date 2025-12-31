@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2105"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2105"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2105">
+        <num>2105</num>
+        <heading>Communicable diseases; state institutions; duty to report; duty of commissioner</heading>
+        <content>
+          <p>  § 2105. Communicable diseases; state institutions; duty to report;\nduty of commissioner.  1. It shall be the duty of the director or person\nin charge of each state institution to report immediately an outbreak of\na communicable disease in such institution to the commissioner and as\nmay otherwise be provided in the sanitary code.\n  2. Upon receipt of a report from a state institution of the outbreak\nof a communicable disease in said institution, the commissioner shall\nadvise the director or person in charge of the institution as to the\nbest means to control said disease effectually.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

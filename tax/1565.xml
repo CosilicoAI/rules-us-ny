@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1565"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1565"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1565"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1565/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1565/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1565/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1565/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1565">
+        <num>1565</num>
+        <heading>Credit</heading>
+        <content>
+          <p>  § 1565. Credit. A buyer shall be allowed a credit against the tax due\non a conveyance of real property to the extent tax was paid by such\nbuyer on a prior creation of a leasehold of all or a portion of the same\nreal property or on the granting of an option or contract to purchase\nall or a portion of the same real property by such buyer. Such credit\nshall be computed by multiplying the tax paid on the creation of the\nleasehold or on the granting of the option or contract by a fraction,\nthe numerator of which is the value of the consideration used to compute\nsuch tax paid which is not yet due to such seller on the date of the\nsubsequent conveyance (and which such seller will not be entitled to\nreceive after such date), and the denominator of which is the total\nvalue of the consideration used to compute such tax paid.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

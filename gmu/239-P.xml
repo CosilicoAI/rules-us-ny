@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-P"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="239-P"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-239-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-239-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_239_P">
+        <num>239-P</num>
+        <heading>Officers and employees; expenses</heading>
+        <content>
+          <p>  § 239-p. Officers and employees; expenses. The commission shall have\nthe power and authority to employ an executive director, a secretary and\nsuch attorneys, experts and other employees as may be necessary, within\nthe amount made available by the local governing board. Each county,\ncity, village and town is hereby authorized and empowered to make such\nappropriation for such expenses and for the compensation, if any, to be\npaid to the members of the commission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

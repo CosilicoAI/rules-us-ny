@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.18"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.18"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.18"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.18/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.18/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.18/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.18/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_18">
+        <num>130.18</num>
+        <heading>Jurisdiction of general courts-martial</heading>
+        <content>
+          <p>  § 130.18. Jurisdiction of general courts-martial.  Subject to section\n130.17, general courts-martial shall have jurisdiction to try persons\nsubject to this code for any offense for which they may be punished by\nthis code and shall have the power to sentence to:  confinement with\nhard labor for not exceeding two hundred days; fines not exceeding two\nhundred dollars; confinement with hard labor in lieu of fines imposed\nnot exceeding one day for each dollar of fine imposed; forfeiture of pay\nand allowances, not exceeding two hundred dollars; dismissal;\ndishonorable discharge; bad conduct discharge; reprimand; reduction of\nnon-commissioned officers to an inferior grade; and to combine any two\nor more of such punishments in the sentences imposed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

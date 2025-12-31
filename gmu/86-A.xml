@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-86-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-86-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="86-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-86-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-86-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-86-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-86-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_86_A">
+        <num>86-A</num>
+        <heading>Regulation of installation of portable electrical equipment used for amusement devices</heading>
+        <content>
+          <p>  § 86-a. Regulation of installation of portable electrical equipment\nused for amusement devices. The governing body of any city, town or\nvillage in this state, may adopt ordinances or local laws making it\nunlawful for any person, firm or corporation to install or cause to be\ninstalled, or to alter, repair or maintain any portable electrical\nequipment connected to fifty or more volts of electrical power, which\nequipment is intended for use by the public, either as an amusement\ndevice or a vending machine, unless such equipment shall be so installed\nthat all exposed metal or other conducting surfaces and parts are\neffectively grounded in a manner approved by existing electrical\ninstallation codes. Provisions shall be made in such ordinances or local\nlaws for punishment of violations thereof.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

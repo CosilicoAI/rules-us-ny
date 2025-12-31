@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-AA"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-AA"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1020-AA"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1020-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1020-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1020_AA">
+        <num>1020-AA</num>
+        <heading>Conflicts of interest</heading>
+        <content>
+          <p>  § 1020-aa. Conflicts of interest. 1. If any member, officer or\nemployee of the authority shall have an interest, either direct or\nindirect, in any contract to which the authority is, or is to be, a\nparty, such interest shall be disclosed to the authority in writing and\nshall be set forth in the minutes of the authority. The member, officer\nor employee having such interest shall not participate in any action by\nthe authority with respect to such contract.\n  2. No member, officer or employee shall be deemed to have such an\ninterest solely by reason of the ownership of two percent or less of the\nsecurities of a corporation which is, or is to be, a party to a contract\nwith the authority, including without limitation the holding company of\nany banking institution in which the funds of the authority are, or are\nto be, deposited or which is, or is to be, acting as trustee or paying\nagent under any bond or note resolution, trust indenture or similar\ninstrument to which the authority is a party.\n  3. Nothing in this section shall be deemed or construed to limit the\nright of any member, officer or employee of the authority to acquire an\ninterest in bonds or notes of the authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

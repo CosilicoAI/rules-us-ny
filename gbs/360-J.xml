@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-J"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-J"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="360-J"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_J">
+        <num>360-J</num>
+        <heading>Fraudulent registration</heading>
+        <content>
+          <p>  § 360-j. Fraudulent registration. Any person who shall for himself or\nherself, or on behalf of any other person, procure the filing or\nregistration of any mark in the office of the secretary under the\nprovisions hereof, by knowingly making any false or fraudulent\nrepresentation or declaration, orally or in writing, or by any other\nfraudulent means, shall be liable to pay all damages sustained in\nconsequence of such filing or registration, to be recovered by or on\nbehalf of the party injured thereby in any court of competent\njurisdiction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

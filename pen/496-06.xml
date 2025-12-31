@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.06"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.06"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="496.06"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.06/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.06/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.06/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.06/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_496_06">
+        <num>496.06</num>
+        <heading>Public corruption</heading>
+        <subsection eId="sec_496_06__subsec_a">
+          <num>(a)</num>
+        </subsection>
+        <subsection eId="sec_496_06__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>being\na public servant he or she commits a specified offense through the use\nof his or her public office, or (ii) being a person acting in concert\nwith such public servant he or she commits a specified offense, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_496_06__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nthe state or any political subdivision thereof or any governmental\ninstrumentality within the state is the owner of the property.\n  2. A "specified offense" is an offense defined by any of the following\nprovisions of this chapter: section 155.25 (petit larceny); section\n155.30 (grand larceny in the fourth degree); section 155.35 (grand\nlarceny in the third degree); section 155.40 (grand larceny in the\nsecond degree); section 155.42 (grand larceny in the first degree);\nsection 190.60 (scheme to defraud in the second degree); or section\n190.65 (scheme to defraud in the first degree).\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

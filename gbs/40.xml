@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-40"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40">
+        <num>40</num>
+        <heading>Licenses</heading>
+        <content>
+          <p>  § 40. Licenses. No person, corporation, partnership or firm shall\nhereafter carry on the business of collateral loan broker, without\nhaving first obtained from the mayor of the city or licensing authority\nof the local governing body where the business is to be carried on a\nlicense authorizing such person to carry on the same in the manner and\nupon the conditions stated in the succeeding sections of this article.\nIn the city of New York such license may be issued by the commissioner\nof consumer affairs. Nothing herein shall be construed to prohibit a\ncollateral loan broker from employing the title pawnbroker in connection\nwith the collateral loan business. The title pawnbroker shall be used\nexclusively by a collateral loan broker.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

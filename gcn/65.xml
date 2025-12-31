@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-65"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-65"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="65"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-65/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-65/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-65/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-65/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65">
+        <num>65</num>
+        <heading>Classification of corporations</heading>
+        <content>
+          <p>  § 65. Classification of corporations. a. A corporation shall be\neither,\n  1. A public corporation,\n  2. A corporation formed other than for profit, or\n  3. A corporation formed for profit.\n  b. A public corporation shall be either,\n  1. A municipal corporation,\n  2. A district corporation,\n  3. A public benefit corporation.\n  c. A corporation formed other than for profit shall be either,\n  1. A religious corporation,\n  2. An education corporation,\n  3. A cooperative corporation,\n  4. A not-for-profit corporation, or\n  5. Any other corporation formed other than for profit which is not a\npublic corporation. A reference in a general law to a class of\ncorporations described in accordance with this classification shall\ninclude all corporations belonging to such class.\n  d. A corporation formed for profit shall be either,\n  1. A business corporation,\n  2. A moneyed corporation,\n  3. A railroad corporation,\n  4. A transportation corporation, or\n  5. A benefit corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

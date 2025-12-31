@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-A"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-A"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-19-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-19-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_A">
+        <num>19-A</num>
+        <heading>Prohibition against unreasonable withholding of consent</heading>
+        <content>
+          <p>  § 19-a. Prohibition against unreasonable withholding of consent.  1.\nNo corporation formed for the purpose of the cooperative ownership of\nreal estate within the state shall withhold its consent to the sale or\nproposed sale of certificates of stock or other evidence of ownership of\nan interest in such corporation because of the race, creed, national\norigin, or sex of the purchaser.\n  2. For the purposes of this section a "corporation" shall include the\ncooperative management, cooperative tenants, cooperative shareholders,\nor any appointee or successor in interest of a corporation.\n  3. This section shall apply to every sale or proposed sale whether by\na corporation directly, its successor in interest, or by any other\nlawfully entitled party.\n  4. Every agreement, negative covenant, restrictive covenant or other\nprovision, whether written or oral and wherever contained, inconsistent\nwith this section shall be void and unenforceable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

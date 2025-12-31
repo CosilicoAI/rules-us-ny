@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-701"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="701"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_701">
+        <num>701</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 701. Definitions.  As used in this article the following terms shall\nmean or include:\n  1. "Annexation." An alteration of the boundaries of a county, city,\ntown or village which has the effect of adding territory to it. Such\nterm shall not include the creation or dissolution of a county, city,\ntown or village, or the consolidation of two or more counties, two or\nmore cities, two or more towns or two or more villages, respectively, or\nthe diminution of the area of a village pursuant to section 18-1804 of\nthe village law.\n  2. "Governing board." The board of supervisors, board of aldermen,\ncommon council, council, commission, town board, board of trustees or\nother elective board or body of a local government now or hereafter\nvested by state statute, charter or other law with jurisdiction to\ninitiate and enact ordinances or local laws, whether or not such\nordinances or local laws require the approval of any other official or\nbody to become effective.\n  3. "Local government." A city, a town, a village, or a county not\nwholly included within a city where a boundary of the county would be\naffected by a proposed annexation of territory.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

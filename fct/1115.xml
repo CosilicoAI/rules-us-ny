@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1115"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1115"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1115"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1115/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1115/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1115">
+        <num>1115</num>
+        <heading>Notices of appeal</heading>
+        <content>
+          <p>  § 1115. Notices of appeal. An appeal as of right shall be taken by\nfiling the original notice of appeal with the clerk of the family court\nin which the order was made and from which the appeal is taken.\n  A notice of appeal shall be served on any adverse party as provided\nfor in subdivision one of section five thousand five hundred fifteen of\nthe civil practice law and rules and upon the child's attorney, if any.\nThe appellant shall file two copies of such notice, together with proof\nof service, with the clerk of the family court who shall forthwith\ntransmit one copy of such notice to the clerk of the appropriate\nappellate division or as otherwise required by such appellate division.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

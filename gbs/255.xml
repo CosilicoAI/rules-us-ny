@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-255"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-255"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="255"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-255/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-255/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-255/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-255/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_255">
+        <num>255</num>
+        <heading>The provisions of this article shall not apply to consumer sales made pursuant to article nine of the personal property law, credit card ...</heading>
+        <content>
+          <p>  § 255. The provisions of this article shall not apply to consumer\nsales made pursuant to article nine of the personal property law, credit\ncard transactions, consumer sales of personal property or services which\ncould require or entail the execution of a promissory note pursuant to\nsection four hundred three of the personal property law, or transactions\ninvolving the purchase of an automobile.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

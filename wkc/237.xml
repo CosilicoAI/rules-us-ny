@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-237"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-237"/>
+          <FRBRdate date="2016-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="237"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-237/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-237/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-237/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-237/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_237">
+        <num>237</num>
+        <heading>Reimbursement for advance payments by employers</heading>
+        <content>
+          <p>  § 237. Reimbursement for advance payments by employers. If an employer\nhas made advance payments of benefits or has made payments to an\nemployee in like manner as wages during any period of disability or\nfamily leave for which such employee is entitled to the benefits\nprovided by this article, he or she shall be entitled to be reimbursed\nby the carrier out of any benefits due or to become due for the existing\ndisability or family leave, if the claim for reimbursement is filed with\nthe carrier prior to payment of the benefits by the carrier.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

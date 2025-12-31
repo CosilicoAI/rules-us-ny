@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-165"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-165"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-165/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-165/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165">
+        <num>165</num>
+        <heading>Reopening of disallowed claims</heading>
+        <content>
+          <p>  § 165. Reopening of disallowed claims. The board, upon receiving a\nstatement duly filed as required under section one hundred sixty-two of\nthis article, from a participant in World Trade Center rescue, recovery\nand clean-up operations for a qualifying condition that was disallowed\nas barred by section eighteen or section twenty-eight of this chapter or\nby section one hundred sixty-two of this article for failure to register\ntimely shall reopen and redetermine such claim in accordance with the\nprovisions of this article, provided that no such previously disallowed\nclaim for a qualifying condition shall be determined to have a date of\ndisablement that would bar the claim under section eighteen or section\ntwenty-eight of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

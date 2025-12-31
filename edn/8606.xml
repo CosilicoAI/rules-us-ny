@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8606"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8606"/>
+          <FRBRdate date="2023-01-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8606"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8606/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8606/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8606/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8606/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8606">
+        <num>8606</num>
+        <heading>Requirements for certification as a clinical laboratory technician</heading>
+        <subsection eId="sec_8606__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>current clinical laboratory technician certification by a national\ncertification organization acceptable to the department; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8606__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>clinical laboratory technician licensure in a jurisdiction\nacceptable to the department.\n  3. Examination: pass an examination satisfactory to the board and in\naccordance with the commissioner's regulations;\n  4. Age: be at least eighteen years of age;\n  5. Character: be of good moral character as determined by the\ndepartment; and\n  6. Fees: pay a fee of one hundred twenty-five dollars for an initial\ncertification and a fee of one hundred twenty dollars for each triennial\nregistration period.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

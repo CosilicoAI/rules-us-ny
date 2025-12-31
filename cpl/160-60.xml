@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-160.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-160.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-160.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-160.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-160.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-160.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_60">
+        <num>160.60</num>
+        <heading>Effect of termination of criminal actions in favor of the accused</heading>
+        <content>
+          <p>§ 160.60 Effect of termination of criminal actions in favor of the\n           accused.\n  Upon the termination of a criminal action or proceeding against a\nperson in favor of such person, as defined in subdivision two of section\n160.50 of this chapter, the arrest and prosecution shall be deemed a\nnullity and the accused shall be restored, in contemplation of law, to\nthe status he occupied before the arrest and prosecution.  The arrest or\nprosecution shall not operate as a disqualification of any person so\naccused to pursue or engage in any lawful activity, occupation,\nprofession, or calling.  Except where specifically required or permitted\nby statute or upon specific authorization of a superior court, no such\nperson shall be required to divulge information pertaining to the arrest\nor prosecution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

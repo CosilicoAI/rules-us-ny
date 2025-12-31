@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-MMMM"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-MMMM"/>
+          <FRBRdate date="2021-08-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1449-MMMM"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-MMMM/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-MMMM/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-MMMM/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-MMMM/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1449_MMMM">
+        <num>1449-MMMM</num>
+        <heading>Apportionment</heading>
+        <content>
+          <p>  * § 1449-mmmm. Apportionment. A local law adopted by the town of\nWarwick, pursuant to this article, shall provide for a method of\napportionment for determining the amount of tax due whenever the real\nproperty or interest therein is situated within and without the town.\n  * NB Repealed December 31, 2050\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

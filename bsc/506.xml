@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-506"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-506"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="506"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-506/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-506/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-506/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_506">
+        <num>506</num>
+        <heading>Determination of stated capital</heading>
+        <subsection eId="sec_506__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Upon issue by a corporation of shares with a par value, the\nconsideration received therefor shall constitute stated capital to the\nextent of the par value of such shares.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_506__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Upon issue by a corporation of shares without par value, the\nentire consideration received therefor shall constitute stated capital\nunless the board within a period of sixty days after issue allocates to\nsurplus a portion, but not all, of the consideration received for such\nshares. No such allocation shall be made of any portion of the\nconsideration received for shares without par value having a preference\nin the assets of the corporation upon involuntary liquidation except all\nor part of the amount, if any, of such consideration in excess of such\npreference, nor shall such allocation be made of any portion of the\nconsideration for the issue of shares without par value which is fixed\nby the shareholders pursuant to a right reserved in the certificate of\nincorporation, unless such allocation is authorized by vote of the\nshareholders.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_506__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The stated capital of a corporation may be increased from time to\ntime by resolution of the board transferring all or part of the surplus\nof the corporation to stated capital. The board may direct that the\namount so transferred shall be stated capital in respect of any\ndesignated class or series of shares.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

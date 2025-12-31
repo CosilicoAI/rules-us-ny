@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-191"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-191"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="191"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-191/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-191/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-191/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-191/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_191">
+        <num>191</num>
+        <heading>Definition</heading>
+        <content>
+          <p>  § 191. Definition. Whenever used in this article: "employer fee paid\nemployment agency" means any person who on behalf of employers procures\nor attempts to procure employees for "Class B" employment (as defined in\nsection one hundred eighty-five of this article) and who in no instance\ncharges a fee directly, or indirectly, to persons seeking such\nemployment even though a fee may be charged to employers seeking the\nservices of such employees, and who engages in no activity constituting\nthe operation of an employment agency as defined in section one hundred\nseventy-one of this chapter and who in no instance enters into any\narrangement through which the employer fee paid employment agency\nreceives remuneration or any other thing of value from any person, firm\nor corporation which collects fees from applicants.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

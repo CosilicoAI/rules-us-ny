@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-914"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-914"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="914"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-914/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-914/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-914/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-914/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_914">
+        <num>914</num>
+        <heading>Audit and annual reports</heading>
+        <content>
+          <p>  § 914. Audit and annual reports. In conformity with the provisions of\nsection five of article ten of the constitution, the accounts of the\nauthority shall be subject to the supervision of the state comptroller\nand an annual audit shall be performed by an independent certified\npublic accountant. The authority shall annually submit to the county\nlegislature, county executive, governor and the state comptroller and to\nthe chairperson of the senate finance committee and the chairperson of\nthe assembly ways and means committee a detailed report pursuant to the\nprovisions of section twenty-eight hundred of this chapter, and a copy\nof such report shall be filed with the clerk of the county legislature\nand the county executive.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

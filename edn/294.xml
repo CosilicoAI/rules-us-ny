@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-294"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-294"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="294"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-294/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-294/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-294/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-294/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_294">
+        <num>294</num>
+        <heading>Appointment of members of governing board of interstate library district</heading>
+        <subsection eId="sec_294__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The board of trustees of each public library which is a\nparty to an agreement establishing an interstate library district\npursuant to section two hundred ninety-three of this article, shall\nappoint a member or members to represent such library on the governing\nboard of such interstate library district.  The number of such\nrepresentatives shall be determined by the agreement establishing such\ninterstate library district.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_294__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The governing board of such interstate library district shall be a\nbody corporate.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_294__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Such governing board shall administer such interstate library\ndistrict as provided in this act.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

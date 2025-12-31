@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-H"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-H"/>
+          <FRBRdate date="2016-11-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99-H"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_H">
+        <num>99-H</num>
+        <heading>Sunday on-premises sales permit</heading>
+        <content>
+          <p>  § 99-h. Sunday on-premises sales permit. 1. A permit issued under this\nsection shall authorize a person licensed to sell alcoholic beverages\nfor consumption on the premises pursuant to this chapter to sell\nalcoholic beverages for on-premises consumption on Sunday between the\nhours of eight o'clock a.m. and ten o'clock a.m.\n  2. A permit under this section shall be issued for one calendar day.\n  3. The fee for such a permit shall be twenty-five dollars, together\nwith a filing fee of ten dollars.\n  4. An applicant for a permit under this section shall provide notice\nto the local municipality of such application as provided in section one\nhundred ten-b of this chapter.\n  5. No more than twelve permits under this section may be issued to the\nsame licensee in any calendar year.\n  6. A permit under this section shall not be available for any licensed\npremises located in a city with a population of one million or more.\n  7. Such permit and the exercise of the privileges granted thereunder\nshall be subject to such rules that the authority may deem necessary.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-625"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-625"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="625"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-625/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-625/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-625/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-625/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_625">
+        <num>625</num>
+        <heading>Infant shareholders and bondholders</heading>
+        <subsection eId="sec_625__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A corporation may treat an infant who holds shares or bonds of\nsuch corporation as having capacity to receive and to empower others to\nreceive dividends, interest, principal and other payments and\ndistributions, to vote or express consent or dissent, in person or by\nproxy, and to make elections and exercise rights relating to such shares\nor bonds, unless, in the case of shares, the corporate officer\nresponsible for maintaining the list of shareholders or the transfer\nagent of the corporation or, in the case of bonds, the treasurer or\npaying officer or agent has received written notice that such holder is\nan infant.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_625__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>An infant holder of shares or bonds of a corporation who has\nreceived or empowered others to receive payments or distributions, voted\nor expressed consent or dissent, or made an election or exercised a\nright relating thereto, shall have no right thereafter to disaffirm or\navoid, as against the corporation, any such act on his part, unless\nprior to such receipt, vote, consent, dissent, election or exercise, as\nto shares, the corporate officer responsible for maintaining the list of\nshareholders or its transfer agent or, in the case of bonds, the\ntreasurer or paying officer had received written notice that such holder\nwas an infant.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_625__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>This section does not limit any other statute which authorizes any\ncorporation to deal with an infant or limits the right of an infant to\ndisaffirm his acts.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

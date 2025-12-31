@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1898"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1898"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1898"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1898/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1898/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1898/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1898/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1898">
+        <num>1898</num>
+        <heading>Advisory council</heading>
+        <subsection eId="sec_1898__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the president of the authority; the secretary of state; the\ncommissioner of housing and community renewal; the commissioner of\nlabor; the commissioner of temporary and disability assistance; the\nchair of the department of public service; the president of the power\nauthority of the state of New York; the president of the Long Island\npower authority; the commissioner of economic development; the\ncommissioner of environmental conservation; or the designees of such\npersons; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1898__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>representatives of constituency-based community groups; consumer\nadvocates on utility and housing issues; community-based workforce\ndevelopment groups; unions, including building trades and property\nservices; home performance contractors; large-scale construction\ncontractors; and investment market experts.\n  2. The president of the authority shall serve as the chair of the\ncouncil.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

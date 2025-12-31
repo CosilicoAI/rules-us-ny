@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-108"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-108"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="108"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-108/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-108/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-108/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-108/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_108">
+        <num>108</num>
+        <heading>Workmen's compensation insurance on public works</heading>
+        <content>
+          <p>  § 108. Workmen's compensation insurance on public works.  Each\ncontract to which a political subdivision or any officer, board or\nagency thereof, or of any district therein, is a party and which is of\nsuch a character that the employees engaged thereon are required to be\ninsured under the provisions of the workmen's compensation law, shall\ncontain a stipulation that such contract shall be void and of no effect\nunless the person or corporation making or performing such contract\nshall secure compensation for the benefit of, and keep insured during\nthe life of such contract, such employees, in compliance with the\nprovisions of the workmen's compensation law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

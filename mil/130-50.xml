@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.50"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.50"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_50">
+        <num>130.50</num>
+        <heading>Admissibility of records of courts of inquiry</heading>
+        <subsection eId="sec_130_50__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In any\ncase not extending to the dismissal of an officer, the sworn testimony,\ncontained in the duly authenticated record of proceedings of a court of\ninquiry, of a person whose oral testimony cannot be obtained, may, if\notherwise admissible under the rules of evidence, be read in evidence by\nany party before a court-martial if the accused was a party before the\ncourt of inquiry and if the same issue was involved or if the accused\nconsents to the introduction of such evidence.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_50__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such testimony may be read in evidence only by the defense in\ncases extending to the dismissal of an officer.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_50__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Such testimony may also be read in evidence before a court of\ninquiry or a military board.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

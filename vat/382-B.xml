@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="382-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-382-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-382-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_382_B">
+        <num>382-B</num>
+        <heading>Service brake system</heading>
+        <content>
+          <p>  § 382-b. Service brake system.  Every motor vehicle of a passenger car\nor station wagon type, registered in this state and manufactured or\nassembled after June thirtieth, nineteen hundred sixty-seven, and\ndesignated as a nineteen hundred sixty-eight or later model, shall be\nequipped with a service brake system of such design that rupture or\nfailure of an actuating force component of any single brake shall not\nresult in complete loss of braking function.  The braking function may\nbe obtained by hydraulic or other means through the normal service brake\nmechanism.\n  "Actuating force component" as used in this section shall mean the\nbrake master cylinder, brake actuating cylinder, brake line, brake hose,\nor similar components performing like functions if the brake systems are\nother than hydraulic.\n  In the event of rupture or failure of an actuating force component,\nthe unaffected brakes shall be capable of applying an adequate braking\nforce to the vehicle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

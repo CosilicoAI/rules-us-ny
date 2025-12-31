@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-116"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="116"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_116">
+        <num>116</num>
+        <heading>Spaying and neutering facilities authorized</heading>
+        <content>
+          <p>  § 116. Spaying and neutering facilities authorized. 1. Any\nmunicipality may, by local law or ordinance, provide for the\nestablishment and operation of a facility to provide services for the\nalteration of the reproductive capacity through spaying or neutering of\ndogs and cats owned by the residents thereof.\n  2. Any animal which is presented at such facility for alteration must\nbe accompanied by a notarized authorization signed by the owner thereof\nconsenting to such alteration and agreeing to hold the municipality, its\nagents, servants and employees harmless for any damages arising\ntherefrom or incidental thereto.\n  3. Any municipality enacting a local law or ordinance as authorized by\nthis section shall further provide for the regulation of such facility\nwith respect to the terms and conditions, including compensation, under\nwhich any animal will be maintained while the animal remains in the\ncustody of the facility.\n  4. In no event shall any of the moneys or fees derived from, or\ncollected pursuant to, the provisions of this article except as provided\nin subdivision three of section one hundred ten of this article and\nsection one hundred seventeen-a of this article be used to subsidize the\nspaying or neutering of cats.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

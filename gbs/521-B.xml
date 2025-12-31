@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="521-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-521-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-521-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_521_B">
+        <num>521-B</num>
+        <heading>Contract renewals</heading>
+        <content>
+          <p>  § 521-b. Contract renewals. 1. No contract for services shall provide\nthat services will be automatically renewed and the subscriber billed,\nunless the subscriber named in the expiring contract is notified not\nmore than sixty and not less than fifteen days prior to the termination\nof the existing contract, by mail, of the credit card registration\nservices' intention to automatically renew the contract.\n  2. The written notice of renewal shall state the proposed renewal\nterm, the price for renewal and any additions, changes or deletions in\nthe services to be furnished. The notice shall state, conspicuously,\nthat the subscriber may elect not to renew the service by sending a\nwritten notice of cancellation or by calling a toll free telephone\nnumber prior to the end of the expiring contract.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1470-J"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1470-J"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1470-J"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1470-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1470-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1470-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1470-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1470_J">
+        <num>1470-J</num>
+        <heading>Agreements of the state</heading>
+        <subsection eId="sec_1470_J__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the bonds, together with interest thereon,\ninterest on any unpaid installments of interest and all costs and\nexpenses in connection with any action or proceeding by or on behalf of\nthe bondholders are fully met and discharged or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1470_J__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>principal or\ninterest of any of the bonds shall be overdue and unpaid for a period of\nthree years or more.\n  * NB City of Rome Parking Authority ceased to exist 12/31/2000 per §\n1470-b, and thereafter until all liabilities have been met/discharged,\nand all bonds paid/discharged\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

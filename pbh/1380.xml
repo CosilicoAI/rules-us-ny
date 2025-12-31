@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1380"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1380"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1380"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1380/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1380/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1380/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1380/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1380">
+        <num>1380</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 1380. Definitions. As used in this title:\n  1. "Solid waste management facility" means any area or site,\nstructure, facility or equipment used for or in connection with methods\nincluding, but not limited to shredding, compression, high-temperature\nincineration, pyrolization, separation or any other technology for\nresource recovery, transporting, storing, or the final placement and\ndisposal of solid wastes in a manner satisfactory to the commissioner.\n  2. "Municipality" means a town, city, county, or village or any\ndesignated public agency thereof, or any two or more of the foregoing\nwhich are acting jointly in connection with a solid waste management\nfacility, or a public authority.\n  3. "Commissioner" means the commissioner of environmental conservation\nof the state of New York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

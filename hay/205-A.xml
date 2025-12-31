@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-205-A"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-205-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="205-A"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-205-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-205-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-205-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-205-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_A">
+        <num>205-A</num>
+        <heading>Seasonal limited use highway</heading>
+        <content>
+          <p>  § 205-a. Seasonal limited use highway. 1. The town highway\nsuperintendent is authorized to annually designate, on or before the\nfirst day of November in each year, a town highway as a seasonal limited\nuse highway.\n  2. Seasonal limited use highways shall be those town highways without\noccupied residences or commercial buildings dependent upon such highways\nfor access.\n  3. Seasonal limited use highways shall be appropriately posted.\n  4. The town is authorized to temporarily discontinue snow and ice\nremoval and maintenance from the first day of December until the first\nday of April on any highway so designated.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

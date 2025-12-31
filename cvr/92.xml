@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-92"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-92"/>
+          <FRBRdate date="2019-09-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="92"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-92/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-92/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-92/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-92/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92">
+        <num>92</num>
+        <heading>Protections not applicable to breaches of lease, illicit activities or other violations of law</heading>
+        <content>
+          <p>  § 92. Protections not applicable to breaches of lease, illicit\nactivities or other violations of law. The protections of this article\nshall not be deemed to prohibit a municipality from enforcing an\nordinance or local law, nor restrict a landlord from terminating,\nevicting or refusing to renew a tenancy, when such action is premised\nupon grounds other than access of police or emergency assistance or is\notherwise premised on conduct unrelated to the residential occupant's\nstatus as a target or victim of violence or harm.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

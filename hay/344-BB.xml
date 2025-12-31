@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-BB"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-BB"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="344-BB"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-BB/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-BB/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-BB/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-BB/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_BB">
+        <num>344-BB</num>
+        <heading>Portion of the state highway system to be designated as the "Honorable Donald Olson Memorial Highway"</heading>
+        <content>
+          <p>  § 344-bb. Portion of the state highway system to be designated as the\n"Honorable Donald Olson Memorial Highway". All that portion of the state\nhighway system constituting New York state route twenty-three, in the\ntown of Windham, county of Greene, from its northern intersection with\nOld road and continuing in a generally southwesterly direction to its\nintersection with county route sixty-five, known as Brooksburg road,\nshall be designated and known as the "Honorable Donald Olson Memorial\nHighway".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

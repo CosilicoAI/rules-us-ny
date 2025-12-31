@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-774"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-774"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="774"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-774/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-774/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-774/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-774/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_774">
+        <num>774</num>
+        <heading>Action on petition for transfer</heading>
+        <content>
+          <p>  § 774. Action on petition for transfer. On receiving a petition under\nsection seven hundred seventy-three of this part, the court may proceed\nunder sections seven hundred thirty-seven, seven hundred thirty-eight or\nseven hundred thirty-nine of this article with respect to the issuance\nof a summons or warrant. Due notice of the petition and a copy of the\npetition shall also be served personally or by mail upon the office of\nthe locality chargeable for the support of the person involved and upon\nthe person involved and his or her parents and other persons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

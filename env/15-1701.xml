@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1701"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-1701"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_1701">
+        <num>15-1701</num>
+        <heading>Reservation of state control</heading>
+        <content>
+          <p>§ 15-1701. Reservation of state control.\n  Where any person takes, diverts, appropriates, or otherwise uses,\nwhether by virtue of the provisions of title 17 of this article or\notherwise, the waters of the state over which the state has the\nproprietary ownership of the flow and to the use of which the state has\nthe right paramount and exclusive, or concurrently with any other\njurisdiction, such waters shall remain subject to the power and control\nof the state for the purposes of regulating, licensing, controlling, or\nterminating the use and disposition of the same by such person, as well\nas for the purpose of exacting any rentals or charges therefor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

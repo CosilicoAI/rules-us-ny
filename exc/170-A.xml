@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170_A">
+        <num>170-A</num>
+        <heading>Celebration of Rosa Parks; bus companies</heading>
+        <content>
+          <p>  § 170-a. Celebration of Rosa Parks; bus companies. 1. For purposes of\nthis section, the terms "bus company" and "bus line" shall have the same\nmeanings as set forth in subdivisions two and three of section two of\nthe transportation law.\n  2. On February fourth, two thousand eight and every February fourth\nthereafter, a day of commemoration designated as "Rosa Parks Day"\npursuant to section one hundred sixty-eight-a of this article, every bus\ncompany operating a bus line in this state may reserve and keep empty\none seat on each bus placed in service by such bus company in honor of\ncivil rights activist Rosa Parks.\n  3. Compliance with the provisions of this section shall be voluntary,\nand no bus company operating a bus line in this state shall be subject\nto any liability, either civil or criminal, solely for the failure to\ncomply with the provisions of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

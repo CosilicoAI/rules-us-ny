@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-582"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-582"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="582"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-582/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-582/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-582/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-582/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_582">
+        <num>582</num>
+        <heading>Agreement of the state</heading>
+        <content>
+          <p>  § 582. Agreement of the state. The state does pledge to and agree with\nthe holders of any bonds that the state will not authorize the\nconstruction of any causeway, bridge, tunnel, road, highway or other\nconnection for vehicular traffic, which will be competitive with the\nbridges authorized pursuant to this title nor will it limit or alter the\nrights hereby vested in the authority to establish and collect tolls and\nfix and collect payments, charges and fees or in any way impair the\nrights and remedies of bondholders; provided that a causeway, bridge,\ntunnel, road, highway or other connection for vehicular traffic shall be\nconsidered as competitive only if it shall form a connection for\nvehicular traffic between the state and the province of Ontario, Canada,\nacross the Saint Lawrence river within a distance of thirty miles from\nthe bridges authorized pursuant to this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

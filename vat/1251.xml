@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1251"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1251"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1251"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1251/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1251/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1251/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1251/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1251">
+        <num>1251</num>
+        <heading>Riding on motorcycles</heading>
+        <subsection eId="sec_1251__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person operating a motorcycle\nshall ride only upon the permanent and regular seat attached thereto,\nand such operator shall not carry any other person nor shall any other\nperson ride on a motorcycle unless such motorcycle is designed to carry\nmore than one person, in which event a passenger may ride upon the\npermanent and regular seat if designed for two persons, or upon another\nseat firmly attached to the motorcycle at the rear or side of the\noperator.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1251__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person shall ride upon a motorcycle only while sitting astride\nthe seat, facing forward, with one leg on each side of the motorcycle,\nunless said person is seated in a sidecar affixed to said motorcycle.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1251__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>No person shall operate a motorcycle while carrying any package,\nbundle or other article which prevents him from keeping both hands on\nthe handlebars.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1251__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>No operator shall carry any person, nor shall any person ride, in\na position that will interfere with the operation or control of the\nmotorcycle or the view of the operator.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-250"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-250"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-250/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-250/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250">
+        <num>250</num>
+        <heading>Pensions; insurance</heading>
+        <content>
+          <p>  § 250. Pensions; insurance. Subject to such regulations as the\nsuperintendent of financial services may prescribe, a savings bank may,\nin the discretion of a majority of all the trustees:\n  1. Provide pensions to officers and employees pursuant to a\nnondiscriminatory plan for service rendered to the savings bank or for\nhaving become incapacitated while in service to the savings bank,\nincluding annual supplements to retirees based upon the "current cost of\nliving index figure" for any calendar year based upon the Consumer Price\nIndex as issued by the bureau of labor statistics of the United States\ndepartment of labor.\n  2. Provide life insurance for its officers and employees, provided\nthat life insurance is not purchased solely for or on behalf of officers\nand highly compensated employees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

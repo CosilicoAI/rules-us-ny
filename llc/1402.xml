@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1402"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1402"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1402"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1402/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1402/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-1402/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-1402/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1402">
+        <num>1402</num>
+        <heading>Statutory construction; references</heading>
+        <subsection eId="sec_1402__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Unless otherwise\nstated, all references in this chapter to articles or sections refer to\nthe articles or sections of this chapter, and all references in any\nsection of this chapter to a lettered or numbered subdivision refer to\nthe subdivision so lettered or numbered in such section.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1402__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Headings to sections are supplied in this chapter for the purpose\nof convenient reference and do not constitute part of the law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1402__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>As used in this chapter all pronouns and any variations thereof\nrefer to the masculine, feminine or neuter, singular or plural, as the\ncontext may require.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

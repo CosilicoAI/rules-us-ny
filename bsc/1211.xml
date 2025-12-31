@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1211"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1211"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1211">
+        <num>1211</num>
+        <heading>Final distribution by receiver</heading>
+        <subsection eId="sec_1211__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If there remains property of the corporation after the first\ndistribution, the receiver shall, within one year thereafter, make a\nfinal distribution among the creditors entitled thereto. Notice that\nsuch distribution will be the final distribution to creditors shall be\npublished once a week for two consecutive weeks in a newspaper of\ngeneral circulation in the county where the office of the corporation is\nlocated.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1211__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A creditor or claimant who failed to prove his claim before the\nfirst distribution and who proves it before the final one shall receive\nthe sum he would have been entitled to on the first distribution before\nany further distribution shall be made to other creditors or claimants.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1211__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Unless the court shall otherwise direct, no other distribution\nshall be made thereafter to creditors, except to those having pending\nactions against the corporation or the receiver.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1211__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>After the final distribution to creditors, the receiver shall not\nbe answerable to any creditor or claimant, unless his claim shall have\nbeen proved before or at the time specified in the notice of the final\ndistribution.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

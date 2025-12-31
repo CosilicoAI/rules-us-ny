@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-784"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-784"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="784"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-784/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-784/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_784">
+        <num>784</num>
+        <heading>Public hearings on proposed elector initiated dissolution plan</heading>
+        <subsection eId="sec_784__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>cause a copy of the amended version of the proposed elector\ninitiated dissolution plan, along with a descriptive summary thereof, to\nbe displayed and readily accessible to the public for inspection in a\npublic place or places within the entity; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_784__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>cause the amended version of the proposed elector initiated\ndissolution plan, along with a descriptive summary thereof and a\nreference to the public place or places within the entity where a copy\nthereof may be examined, to be displayed on a website maintained by the\nentity or otherwise on a website maintained by the village, town and/or\ncounty in which the entity is located.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

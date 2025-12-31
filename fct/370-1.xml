@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-370.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-370.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="370.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-370.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-370.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-370.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-370.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_370_1">
+        <num>370.1</num>
+        <heading>Securing the attendance of witnesses; securing certain testimony</heading>
+        <content>
+          <p>  § 370.1. Securing the attendance of witnesses; securing certain\ntestimony. 1. The provisions of article six hundred twenty of the\ncriminal procedure law concerning the securing of attendance of\nwitnesses by material witness order shall apply to proceedings under\nthis article.\n  2. Article six hundred sixty, six hundred seventy and six hundred\neighty of the criminal procedure law concerning the securing of\ntestimony for use in a subsequent proceeding, the use of testimony given\nin a previous proceeding and the examination of witness by commission\nshall apply to proceedings under this article.\n  3. The provisions of the uniform act to secure attendance of witnesses\nfrom without the state in criminal cases, as incorporated in article six\nhundred forty of the criminal procedure law, shall apply to proceedings\nunder this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

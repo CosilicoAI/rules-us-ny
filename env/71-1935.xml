@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1935"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1935"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-1935"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1935/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1935/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1935/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1935/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_1935">
+        <num>71-1935</num>
+        <heading>Emergencies excepted</heading>
+        <content>
+          <p>§ 71-1935. Emergencies excepted.\n  The civil and criminal liabilities imposed by sections 71-1929 and\n71-1933 of this title upon persons violating the provisions of titles 1\nthrough 11 inclusive and title 19 of article 17 and by sections 71-1929\nand 71-1933 of this title shall not be construed to include any\nviolation which was caused by an act of God, war, strike, riot or other\ncatastrophe as to which negligence or willful misconduct on the part of\nsuch person was not the proximate cause.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

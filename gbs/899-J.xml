@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-J"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-J"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-J"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_J">
+        <num>899-J</num>
+        <heading>Student-athlete's right to cancel</heading>
+        <content>
+          <p>  § 899-j. Student-athlete's right to cancel. 1. A student-athlete may\ncancel an agency contract by giving notice of the cancellation to the\nathlete agent in a record within five days after the contract is signed.\n  2. A student-athlete may not waive the right to cancel an agency\ncontract.\n  3. If a student-athlete cancels an agency contract, the\nstudent-athlete shall not be required to pay any consideration under\nsuch contract or to return any consideration received from the athlete\nagent to induce the student-athlete to enter into the contract.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

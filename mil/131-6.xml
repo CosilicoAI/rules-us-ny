@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.6"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131.6"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_6">
+        <num>131.6</num>
+        <heading>Marshals</heading>
+        <subsection eId="sec_131_6__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Summary courts-martial and the military judges\nor presidents of other courts-martial and of courts of inquiry may each\nappoint and, at any time, remove one or more marshals.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_131_6__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each marshal shall perform the usual duties of such marshals and\nshall execute any process, mandate or order issued by such military\njudge or president or court or officer.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_131_6__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A bond given as herein provided may be prosecuted for breach of\nthe conditions thereof, in the name of the people, by the attorney\ngeneral or a judge advocate and all moneys recovered shall be paid to\nthe military fund injured.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

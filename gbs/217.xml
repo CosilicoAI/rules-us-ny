@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-217"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-217"/>
+          <FRBRdate date="2025-08-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-217/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-217/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217">
+        <num>217</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 217. Definitions. As used in this article, the following words and\nphrases shall have the following meanings:\n  1. "Retail mercantile establishment" shall mean a place where goods,\nwares or merchandise are offered to the public for sale.\n  2. "Restocking fee" shall mean any amount charged by a seller for\naccepting returned merchandise and paying a refund or credit.\n  3. "Online retailer" shall mean a seller of goods, wares or\nmerchandise, primarily for personal, family or household purposes,\nexcluding used goods, who offers to consumers in New York such items for\nsale online through a website, mobile application or other online\nplatform. "Online retailer" shall not include an online marketplace\nwhere such marketplace is not the seller.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

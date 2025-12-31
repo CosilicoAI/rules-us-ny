@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2555"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2555"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2555"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2555/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2555/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2555/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2555/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2555">
+        <num>2555</num>
+        <heading>Kindergartens, nursery and night schools</heading>
+        <content>
+          <p>  § 2555.  Kindergartens, nursery and night schools.  1. The board of\neducation of each city may maintain kindergartens which shall be free to\nresident children between the ages of four and six years, provided,\nhowever, such board may fix a higher minimum age for admission to such\nkindergartens.\n  2. A board of education may  maintain nursery schools which shall be\nfree to resident children and may fix the age for admission.\n  3. Night schools, which shall be free to all persons residing in the\ncity, and wherein the common branches and such additional subjects as\nmay be adapted to students applying for instruction are taught on at\nleast two nights each week, for two hours each night, shall be\nmaintained by the board of education on at least one hundred nights.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

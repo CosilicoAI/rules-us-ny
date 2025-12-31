@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-G"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="391-G"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_G">
+        <num>391-G</num>
+        <heading>Rental of motor vehicles; discrimination on the basis of age prohibited</heading>
+        <content>
+          <p>  § 391-g. Rental of motor vehicles; discrimination on the basis of age\nprohibited. 1. It shall be unlawful for any person, firm, partnership,\nassociation or corporation engaged in the business of renting motor\nvehicles to refuse to rent such vehicle to any person eighteen years of\nage or older solely on the basis of age provided that insurance coverage\nfor persons of such age is available. Any actual extra cost for\ninsurance related to the age of the person renting such motor vehicle\nmay be passed on to such person.\n  2. A knowing violation of this section shall be punishable by a fine\nnot to exceed five hundred dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

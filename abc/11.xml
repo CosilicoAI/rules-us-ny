@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-11"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-11"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-11/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-11/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-11/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-11/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11">
+        <num>11</num>
+        <heading>Appointment of authority</heading>
+        <content>
+          <p>  § 11. Appointment of authority. The members of the authority shall be\nappointed by the governor by and with the advice and consent of the\nsenate. Not more than two members of the authority shall belong to the\nsame political party. The chairman of the state alcoholic beverage\ncontrol board heretofore appointed and designated by the governor and\nthe remaining members of such board heretofore appointed by the governor\nshall continue to serve as chairman and members of the authority until\nthe expiration of the respective terms for which they were appointed.\nUpon the expiration of such respective terms the successors of such\nchairman and members shall be appointed to serve for a term of three\nyears each and until their successors have been appointed and qualified.\nThe commissioners, other than the chairman shall, when performing the\nwork of the authority, be compensated at a rate of two hundred sixty\ndollars per day, together with an allowance for actual and necessary\nexpenses incurred in the discharge of their duties. The chairman shall\nreceive an annual salary established in section one hundred sixty-nine\nof the executive law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

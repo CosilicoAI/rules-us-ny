@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-37"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-37"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="37"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-37/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-37/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-37/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-37/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37">
+        <num>37</num>
+        <heading>Definitions and application</heading>
+        <content>
+          <p>  § 37. Definitions and application.\n  1. For the purposes of this article, the term "itinerant vendor" shall\nmean a merchant, other than a merchant with an established retail store,\nwho transports to a building, vacant lot, or other location, including a\nlocation where a fee is charged for the privilege of offering or\ndisplaying goods for sale and/or where a fee is charged to prospective\nbuyers for admission to the area where goods are offered or displayed\nfor sale, an inventory of goods for the purpose of offering or\ndisplaying such goods for sale, but shall not include persons who sell\nby sample, catalog or brochure for future delivery, or who make sale\npresentations pursuant to a prior invitation issued by the owner or\nlegal occupant.\n  2. This article shall not be construed to pre-empt any municipality\nfrom adopting a local law, rules or regulations containing more\nstringent penalties than those provided in this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

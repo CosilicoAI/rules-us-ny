@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-354-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-354-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="354-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-354-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-354-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-354-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-354-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_354_A">
+        <num>354-A</num>
+        <heading>Distribution of homework to employees by employer</heading>
+        <content>
+          <p>  § 354-a. Distribution of homework to employees by employer. The\nemployer shall, wherever homework is permitted, distribute directly to\nhis homeworkers all material and articles of homework.  No employer\nshall give out any material or articles for homework through any\nhomework contractors or distributors. No homework contractors or\ndistributors shall receive or distribute any materials or articles for\nor as a result of industrial homework.\n  This prohibition shall be deemed absolute; anything in this article to\nthe contrary notwithstanding, and shall not be subject to the powers of\nthe industrial commissioner under section three hundred fifty-one.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

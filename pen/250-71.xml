@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.71"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.71"/>
+          <FRBRdate date="2023-03-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250.71"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.71/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.71/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.71/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.71/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_71">
+        <num>250.71</num>
+        <heading>Unlawful dissemination of a personal image</heading>
+        <subsection eId="sec_250_71__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>creates and disseminates or publishes a still or video image of\nsuch victim on a social media platform, without the victim's consent, in\na manner that has no or minimal cultural or social value;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_71__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the victim is identifiable from the still or video image itself or\nfrom information displayed in connection with the still or video image;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_71__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the victim suffered physical injury as a result of a sex offense\nas defined by article one hundred thirty of this part, serious physical\ninjury as a result of any non-sex offense, or death, and this injury or\ndeath is depicted in the image; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_71__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>the actor committed, participated in the commission of, or\nconspired to commit the crime that resulted in such injury to such\nvictim; or\n  2. acting as an agent of the actor who created an image in violation\nof subdivision one of this section, he or she knowingly disseminates or\npublishes such image.\n  Unlawful dissemination of a personal image in the second degree is a\nclass A misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

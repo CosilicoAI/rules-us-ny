@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-T"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-T"/>
+          <FRBRdate date="2023-06-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2999-T"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2999-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2999-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2999_T">
+        <num>2999-T</num>
+        <heading>Program established</heading>
+        <content>
+          <p>  § 2999-t. Program established. 1. The program of all-inclusive care of\nthe elderly is established in the department to provide community-based,\nrisk-based, and capitated long-term care services as optional services\nunder Medicaid and, where applicable, under Medicare, as well as under\ncontracts among CMS, the department and PACE organizations.\n  2. A PACE organization operating at the time this article becomes law\nmay continue to operate while the organization transitions into full\ncompliance with this article, under a process and requirements\nestablished by the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-314"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-314"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="314"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-314/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-314/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-314/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-314/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_314">
+        <num>314</num>
+        <heading>Claim filing</heading>
+        <content>
+          <p>  § 314. Claim filing. The right to compensation including medical care\nand funeral expenses under the provisions of this article shall be\nbarred unless written claim is filed with the chairman within ninety\ndays after injury or, if death results therefrom, within ninety days\nafter death; except that if death shall occur more than one year after\nthe injury, the right shall be barred unless prior written claim based\non the injury has been timely filed. If disability or death is caused by\na disease that is included among the diseases enumerated in section\nforty, then the claim may be filed within the time and in the manner\nprovided in section forty.\n  Failure to file written claim as required may be excused by the\nchairman on the ground that, for good and sufficient reason, claim could\nnot be filed on time.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

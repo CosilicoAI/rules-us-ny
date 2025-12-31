@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-E"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225-E"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_E">
+        <num>225-E</num>
+        <heading>Effect upon existing corporations</heading>
+        <content>
+          <p>  § 225-e. Effect upon existing corporations. Every free Methodist\nchurch heretofore incorporated in the state of New York shall, three\nmonths after this article takes effect, automatically come under its\nprovisions, unless in the meantime it shall elect by a two-thirds vote\nof all its members in full connection to remain under the provisions of\nthe general or special law applicable thereto at such time. A\ncertificate of such vote shall be filed in the office of the clerk of\nthe county in which the principal place of worship of such corporation\nis located and shall be recorded by such clerk in the book in which\ncertificates of religious corporations are recorded pursuant to law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

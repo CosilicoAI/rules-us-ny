@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170"/>
+          <FRBRdate date="2019-11-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170">
+        <num>170</num>
+        <heading>Audit of agencies by the state comptroller; reports of corrective action</heading>
+        <content>
+          <p>  § 170. Audit of agencies by the state comptroller; reports of\ncorrective action. Whenever the state comptroller shall conduct an audit\nof the activities and operations of any department, bureau, board,\ncommission, authority or any other agency or instrumentality, he or she\nshall submit a tentative copy of a report of such audit to the head of\nthe entity audited. The head of such entity may submit a written\nresponse to such tentative report within thirty days of the receipt\nthereof. The state comptroller shall thereafter submit a final report of\nsuch audit which shall contain a complete copy of the response, if any,\nsubmitted to the tentative report. If the final report makes\nrecommendations for corrective action, the head of the entity audited\nshall report within one hundred eighty days after receipt thereof to the\ngovernor, the state comptroller, the president, president pro tem and\nminority leader of the senate, the speaker, majority and minority\nleaders of the assembly, and the chairman and ranking minority members\nof the senate finance committee and the assembly ways and means\ncommittees of the state legislature what steps were taken to implement\nsuch recommendations, and, where recommendations were not implemented,\nthe reasons therefor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

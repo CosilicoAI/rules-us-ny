@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-581-B"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-581-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="581-B"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-581-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-581-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-581-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-581-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_581_B">
+        <num>581-B</num>
+        <heading>Contributions to the re-employment service fund</heading>
+        <content>
+          <p>  § 581-b. Contributions to the re-employment service fund. Each\neligible employer that is liable for contributions under this article\nshall each calendar quarter make an additional contribution to the\nre-employment service fund in an amount equal to seventy-five\none-thousandths of a percent (0.075%) of its quarterly taxable payroll.\nIn any particular calendar year when contributions paid into the\nre-employment service fund by all eligible employers equals thirty-five\nmillion dollars, any further contributions for the remainder of such\nyear shall be credited to the general account pursuant to section five\nhundred seventy-seven of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

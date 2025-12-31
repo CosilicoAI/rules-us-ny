@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1123"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1123"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1123">
+        <num>1123</num>
+        <heading>When overtaking on the right is permitted</heading>
+        <subsection eId="sec_1123__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The driver of a\nvehicle may overtake and pass upon the right of another vehicle only\nunder the following conditions:\n  1. When the vehicle overtaken is making or about to make a left turn;\n  2. Upon a street or highway with unobstructed pavement not occupied by\nparked vehicles of sufficient width for two or more lines of moving\nvehicles in each direction;\n  3. Upon a one-way street, or upon any roadway on which traffic is\nrestricted to one direction of movement, where the roadway is free from\nobstructions and of sufficient width for two or more lines of moving\nvehicles.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1123__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The driver of a vehicle may overtake and pass another vehicle upon\nthe right only under conditions permitting such movement in safety.\nSuch movement shall not be made by driving off the pavement or\nmain-traveled portion of the roadway, except as permitted by section\neleven hundred thirty-one of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

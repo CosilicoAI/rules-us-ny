@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-419-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-419-A"/>
+          <FRBRdate date="2022-02-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="419-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-419-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-419-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-419-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-419-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_419_A">
+        <num>419-A</num>
+        <heading>Inflatable restraint system, required equipment upon sale</heading>
+        <content>
+          <p>  § 419-a. Inflatable restraint system, required equipment upon sale. No\nretail dealer may sell a second hand motor vehicle which is subject to\nfederal motor vehicle safety standards for inflatable restraint systems\nas provided in part 571.208 of title 49 of the code of federal\nregulations, unless such vehicle is equipped with an inflatable\nrestraint system which conforms to such federal motor vehicle safety\nstandard applicable to that vehicle and the readiness indicator light\ndoes not indicate a malfunction of the inflatable restraint system.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

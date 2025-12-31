@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Payment of overtime compensation to public officers or employees</heading>
+        <content>
+          <p>  § 90. Payment of overtime compensation to public officers or\nemployees. The governing board of each municipal corporation or other\ncivil division or political subdivision of the state, or in the city of\nNew York, the mayor, by ordinance, local law, resolution, order or rule,\nmay provide for the payment of overtime compensation to any or all\npublic officers except elective officers and those officers otherwise\nexcluded by law and to any or all public employees under their\njurisdiction at the regular basic pay rate of such officers or employees\nfor all time such officers or employees are required to work in excess\nof their regularly established hours of employment or at such other rate\nas such governing board, or in the city of New York, the mayor, may\nauthorize. The amounts received as overtime compensation under this\nsection shall be regarded as salary or compensation for any of the\npurposes of any pension or retirement system of which the officer or\nemployee receiving the same is a member, except as set forth in sections\nfive hundred one, six hundred one, and twelve hundred three of the\nretirement and social security law. Such overtime compensation shall not\nbe regarded as salary or compensation for the purpose of determining the\nright to any increase of salary or any salary increment on account of\nlength of service or otherwise. No such overtime compensation shall be\nconstrued to constitute a promotion.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

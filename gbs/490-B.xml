@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-490-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-490-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="490-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-490-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-490-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-490-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-490-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_490_B">
+        <num>490-B</num>
+        <heading>Manufacturers' requirements to include product safety owner's cards</heading>
+        <subsection eId="sec_490_B__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of section 104 of\nthe United States Consumer Product Safety Improvement Act of 2008, Pub.\nL. No. 110-314 and the United States consumer product safety commission\nrules promulgated in accordance with such act, to effectuate the\nnotification required by this article. The product safety owner's card\nshall include a statement indicating that the information shall not be\nused for any purpose other than to facilitate a recall of or safety\nalert regarding that product.\n  2. Such manufacturer shall retain for a period of no less than six\nyears any initial consumer contact information obtained. This\ninformation shall not be sold, posted, transferred or used for any other\npurpose other than to communicate information relating to a recall,\nwarning or defect directly associated with the product.\n  3. Nothing in this section shall be deemed to compel a consumer to\ncomplete and return such product safety owner's card.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

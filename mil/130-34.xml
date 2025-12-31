@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.34"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.34"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.34"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.34/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.34/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.34/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.34/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_34">
+        <num>130.34</num>
+        <heading>Advice of staff judge advocate and reference for trial</heading>
+        <subsection eId="sec_130_34__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nBefore directing the trial of any charge by general court-martial, the\nconvening authority shall refer it to the state judge advocate for\nconsideration and advice. The convening authority shall not refer a\ncharge to a general court-martial for trial unless he has found that the\ncharge alleges an offense under this code and is warranted by evidence\nindicated in the report of investigation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_34__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the charges or specifications are not formally correct or do\nnot conform to the substance of the evidence contained in the report of\nthe investigating officer, formal corrections and such changes in the\ncharges and specifications as are needed to make them conform to the\nevidence may be made.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

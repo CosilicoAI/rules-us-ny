@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-466"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-466"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="466"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-466/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-466/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-466/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-466/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_466">
+        <num>466</num>
+        <heading>Unreasonable restrictions</heading>
+        <subsection eId="sec_466__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>directly or indirectly to\nprevent or attempt to prevent a franchised motor vehicle dealer from\nobtaining the fair value of the franchise or the fair value of the\ndealership business as a going concern; or (ii) to refuse to approve the\nsale or transfer of a dealership due to the fact that the franchised\nmotor vehicle dealer owns, has an investment in, participates in the\nmanagement of or holds a franchise for the sale or service of another\nline make of new motor vehicles, or that the franchised motor vehicle\ndealer has established another franchise in the same dealership\nfacilities for the sale or service of another line make of new motor\nvehicles prior to the effective date of this paragraph, or the other\nfranchise has been approved in writing by the franchisor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

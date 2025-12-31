@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_E">
+        <num>120-E</num>
+        <heading>By whom proposed district represented</heading>
+        <content>
+          <p>  § 120-e. By whom proposed district represented. Until a sewer district\nof a town is organized as provided by the town law, the supervisor, or a\nmember of the town board appointed by the supervisor, of the town in\nwhich the proposed sewer district is located, may act for and on behalf\nof the people of the territory proposed to be embraced in a sewer\ndistrict, when requested so to do by a petition in writing signed by not\nless than five per centum of the voters of such proposed district, at\nsuch joint meeting of municipalities and districts; provided, however,\nthat except as otherwise provided by the local finance law, neither the\ntown nor any property within the town, except such property as may be\nwithin such proposed district, shall be chargeable with any debt or\nexpenses created by such municipalities or districts acting jointly.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

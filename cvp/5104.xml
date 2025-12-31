@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5104"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5104"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5104">
+        <num>5104</num>
+        <heading>Enforcement of judgment or order by contempt</heading>
+        <content>
+          <p>  § 5104. Enforcement of judgment or order by contempt. Any\ninterlocutory or final judgment or order, or any part thereof, not\nenforceable under either article fifty-two or section 5102 may be\nenforced by serving a certified copy of the judgment or order upon the\nparty or other person required thereby or by law to obey it and, if he\nrefuses or wilfully neglects to obey it, by punishing him for a contempt\nof the court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

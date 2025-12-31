@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-94"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-94"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="94"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-94/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-94/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_94">
+        <num>94</num>
+        <heading>Women under arrest to have separate accommodations</heading>
+        <content>
+          <p>  § 94. Women under arrest to have separate accommodations.  It shall be\nthe duty of the boards of commissioners of police in every city, or if\nthere be no board of police, then of the mayor of such city, to provide\nsufficient accommodations for women held under arrest to keep them\nseparate and apart from the cells, corridors and apartments provided for\nmales under arrest, and to so arrange each station house that no\ncommunication can be had between the men and women therein confined,\nexcept with the consent of the matrons and officers in charge of such\nstation house.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

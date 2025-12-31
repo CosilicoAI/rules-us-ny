@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-306"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-306"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="306"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-306/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-306/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-306/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-306/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_306">
+        <num>306</num>
+        <heading>Fence destroyed by accident</heading>
+        <content>
+          <p>  § 306. Fence destroyed by accident. Whenever a division fence shall be\ninjured or destroyed by floods, or other casualty, the person bound to\nmake and repair such fence, or any part thereof, shall make or repair\nthe same, or his just proportion thereof, within ten days after he shall\nbe so required by any person interested therein. Such requisition shall\nbe in writing, and signed by the party making it. If the person so\nnotified shall refuse or neglect to make or repair his proportion of\nsuch fence, for the space of ten days after such request, the party\ninjured may make or repair the same at the expense of the party so\nrefusing or neglecting, to be recovered from him with costs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

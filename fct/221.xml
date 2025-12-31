@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-221"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-221"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="221"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-221/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-221/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-221/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-221/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_221">
+        <num>221</num>
+        <heading>Support collection unit; local probation department</heading>
+        <content>
+          <p>  § 221. Support collection unit; local probation department. 1.  When\nreferred to in this chapter, the support collection unit designated by\nthe appropriate social services district, shall be deemed to refer to\nany support collection unit established by a social services district\npursuant to the provisions of section one hundred eleven-h of the social\nservices law, or to a local public agency, where such agency is\nresponsible for the performance of all the functions of the support\ncollection unit pursuant to an agreement under the provisions of section\none hundred eleven-h of the social services law.\n  2. The local probation department shall be responsible for providing\nservices to the family court, in accordance with the provisions of\nsubdivision six of section two hundred fifty-six of the executive law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

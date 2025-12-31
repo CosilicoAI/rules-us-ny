@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7403"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7403"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7403"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7403/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7403/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7403/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7403/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7403">
+        <num>7403</num>
+        <heading>State board for public accountancy</heading>
+        <content>
+          <p>  § 7403. State board for public accountancy.  A state board for public\naccountancy shall be appointed by the board of regents on recommendation\nof the commissioner for the purpose of assisting the board of regents\nand the department on matters of professional licensing and professional\nconduct in accordance with section sixty-five hundred eight of this\ntitle.  The board shall be composed of not less than twenty licensed\naccountants, not less than fifteen of whom shall be licensed as\ncertified public accountants in this state, and the board should be kept\nin such proportion if it is ever increased.  An executive secretary to\nthe board shall be appointed by the board of regents on recommendation\nof the commissioner and shall be a certified public accountant licensed\nin this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

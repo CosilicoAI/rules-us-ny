@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-602"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-602"/>
+          <FRBRdate date="2019-01-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8-602"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-602/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-602/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-8-602/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-8-602/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_602">
+        <num>8-602</num>
+        <heading>State board of elections; powers and duties for early voting</heading>
+        <subsection eId="sec_8_602__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>ensure that ballots cast early, by any method allowed under law,\nare counted and canvassed as if cast on election day, (ii) ensure an\nefficient and fair early voting process that respects the privacy of the\nvoter, and (iii) require that the voting history record for each voter\nbe continually updated to reflect each instance of early voting by such\nvoter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

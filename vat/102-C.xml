@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-102-C"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-102-C"/>
+          <FRBRdate date="2020-04-17" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="102-C"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-102-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-102-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-102-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-102-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_102_C">
+        <num>102-C</num>
+        <heading>Bicycle with electric assist</heading>
+        <subsection eId="sec_102_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Class one bicycle with electric assist." A bicycle with electric\nassist having an electric motor that provides assistance only when the\nperson operating such bicycle is pedaling, and that ceases to provide\nassistance when such bicycle reaches a speed of twenty miles per hour.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_102_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Class two bicycle with electric assist." A bicycle with electric\nassist having an electric motor that may be used exclusively to propel\nsuch bicycle, and that is not capable of providing assistance when such\nbicycle reaches a speed of twenty miles per hour.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_102_C__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Class three bicycle with electric assist." Solely within a city\nhaving a population of one million or more, a bicycle with electric\nassist having an electric motor that may be used exclusively to propel\nsuch bicycle, and that is not capable of providing assistance when such\nbicycle reaches a speed of twenty-five miles per hour.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

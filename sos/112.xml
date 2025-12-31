@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-112"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-112"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="112"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_112">
+        <num>112</num>
+        <heading>Local personnel training</heading>
+        <content>
+          <p>  § 112.  Local personnel training.  Each public welfare district shall\nmake provision, with the assistance and cooperation of the department,\nfor suitable training of employees of its welfare department.  Such\nprovision shall include such of the following as the department may\napprove or require for such district:  employment of qualified training\ndirectors and/or teachers; the granting of scholarships and fellowships;\ncontinuing salaries of employees while undergoing training, pursuant to\nsection thirty; contracting with approved schools, colleges and\nuniversities for courses of instruction and/or classes or special\nclasses; sponsoring, conducting and participating in seminars, workshops\nand meetings and allowing or requiring attendance of selected employees;\npayment of stipends and expenses, within prescribed limits, of employees\nundergoing training.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

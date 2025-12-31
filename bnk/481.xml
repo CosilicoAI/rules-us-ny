@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-481"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-481"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="481"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-481/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-481/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-481/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-481/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_481">
+        <num>481</num>
+        <heading>Communications from department of financial services must be submitted to directors and supervisory committee, and noted in the minutes</heading>
+        <content>
+          <p>  § 481. Communications from department of financial services must be\nsubmitted to directors and supervisory committee, and noted in the\nminutes. Every official communication as defined in article two of this\nchapter directed to a credit union shall be submitted to both the board\nof directors and the supervisory committee at the next meeting of each\nsuch board or committee and duly noted in the minutes of the meeting of\nsuch board or committee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

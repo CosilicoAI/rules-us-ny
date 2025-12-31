@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-108"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-108"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-108"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-108/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-108/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-108/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-108/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_108">
+        <num>11-108</num>
+        <heading>Special presidential voters lists</heading>
+        <content>
+          <p>  § 11-108. Special presidential voters lists. Prior to each general\nelection at which presidential electors are to be elected, each board of\nelections shall prepare for each election district within its\njurisdiction a list containing the names, alphabetically arranged, and\nthe addresses of all persons whom the board of elections has determined\nto be qualified as special presidential voters in such election\ndistrict, which list shall contain a column headed "remarks".  Such list\nshall be designated "List of Special Presidential Voters" and shall\ninclude a photostatic copy or duplicate of the signature of each person\non such list. In those counties in which special presidential ballots\nare delivered to the boards of inspectors to be counted, such lists of\nspecial presidential voters shall be delivered to such boards of\ninspectors with the election supplies.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

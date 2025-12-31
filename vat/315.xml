@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-315"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-315"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="315"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-315/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-315/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-315/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315">
+        <num>315</num>
+        <heading>Release of financial security bonds or deposits</heading>
+        <content>
+          <p>  § 315. Release of financial security bonds or deposits. 1. The\ncommissioner, upon the surrender of the registration and number plates\nfor a motor vehicle for which a financial security bond or deposit was\naccepted by the commissioner, shall permit the cancellation of any such\nbond or shall direct that any such deposit be returned by the\ncommissioner of taxation and finance. The commissioner shall not release\nsuch bond or deposit in the event any action for damages upon a\nliability referred to in this article is then pending or any judgment\nupon any such liability then outstanding and unsatisfied, or in the\nevent the commissioner has received notice that such person has within\nthe period of three months immediately preceding been involved as a\ndriver in any motor vehicle accident. An affidavit of the applicant of\nnon-existence of such facts shall be sufficient evidence thereof in the\nabsence of evidence to the contrary in the records of the bureau.\n  2. The commissioner, subject to such reasonable regulations as he may\nestablish shall permit the form of proof of financial security\nacceptable under this article to be substituted for another form of\nproof of financial security which may already have been accepted by the\ncommissioner as complying with the provisions of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

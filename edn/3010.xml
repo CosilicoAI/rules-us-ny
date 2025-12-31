@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3010"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3010"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3010"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3010">
+        <num>3010</num>
+        <heading>Penalty for payment of unqualified teacher</heading>
+        <content>
+          <p>  § 3010. Penalty for payment of unqualified teacher.  Any trustee or\nmember of a board of education who applies, or directs, or consents to\nthe application of, any district money to the payment of an unqualified\nteacher's salary, thereby commits a misdemeanor; and any fine imposed\nupon him therefor shall be for the benefit of the common schools of the\ndistrict.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

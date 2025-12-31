@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-232"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-232"/>
+          <FRBRdate date="2015-10-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="232"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-232/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-232/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-232/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_232">
+        <num>232</num>
+        <heading>Sexual assault victims unit</heading>
+        <content>
+          <p>  § 232. Sexual assault victims unit. There is hereby established within\nthe division of state police the sexual assault victims unit, which\nshall be a specialized unit having advanced training in responding to\nsexual assaults, including campus sexual assaults, and related crimes.\nThe sexual assault victims unit shall perform such tasks as determined\nby the superintendent, which shall include but not be limited to\nproviding assistance, including forensic support services, to campus\npolice or local police or sheriff's departments, and providing training\nto college campus communities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

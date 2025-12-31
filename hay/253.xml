@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-253"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-253"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="253"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-253/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-253/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-253/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-253/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_253">
+        <num>253</num>
+        <heading>Use of toll bridge by public service corporations; conditions; powers of town board</heading>
+        <content>
+          <p>  § 253. Use of toll bridge by public service corporations; conditions;\npowers of town board. After a bridge shall be acquired by the state\nunder the provisions of this article, the same shall not be used by any\nrailroad, telephone, gas, electric light, heat or power company or any\nother public service corporation, for any purpose except upon such terms\nand the payment of such rental as shall be determined by the town board\nof the town or towns and the common council of the city or cities within\nwhich it is situated. The money received therefor shall be divided\nequally between the localities. The provisions of this section, however,\nshall not affect any existing contract for the use of such bridge by any\nsuch corporation, except that the compensation provided for such use in\nsuch existing contract shall be paid to the localities as herein\nprovided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

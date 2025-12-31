@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-S"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-S"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-S"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-S/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-S/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-S/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-S/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_S">
+        <num>399-S</num>
+        <heading>Posting of notice when air rifles or guns are sold</heading>
+        <content>
+          <p>  § 399-s. Posting of notice when air rifles or guns are sold. 1. In\neach mercantile establishment in this state where air rifles or air guns\nare sold, a notice must be posted in a conspicuous place, and in close\nproximity to any air rifle or air gun displayed for sale, that in\nlegible format states: "Except under supervision at a shooting range or\nfor hunting pursuant to license, Section 265.05 of the New York State\nPenal Law makes it unlawful for any person under the age of sixteen\nyears to possess an air rifle or air gun."\n  2. Any violation of this section shall be punishable by a civil\npenalty not to exceed one hundred dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

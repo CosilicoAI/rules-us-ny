@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99"/>
+          <FRBRdate date="2018-12-14" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99">
+        <num>99</num>
+        <heading>Special permit to remain open during certain hours of the morning</heading>
+        <content>
+          <p>  § 99. Special permit to remain open during certain hours of the\nmorning.  1. Any person licensed to sell alcoholic beverages for\nconsumption on the premises pursuant to this chapter may apply to the\nliquor authority for a special permit to remain open on any week day\nbetween the hours of four o'clock a.m. or the closing hour prescribed by\na rule adopted in a county on or before April first, nineteen hundred\nninety-five or pursuant to subdivision eleven of section seventeen of\nthis chapter, and eight o'clock a.m. The fee for such permit shall be\nfifty-one dollars per day.\n  2. The liquor authority may, in its discretion, issue to any such\nlicensed person, whose premises are located within a trade area, a\nspecial permit to remain open during such hours of the morning on\nweek-days. The fee for such permit shall be at the rate of two hundred\nfifty-six dollars per annum.\n  3. Such permits and the exercise of the privileges granted thereunder\nmay be subjected by the liquor authority to such rules as it may deem\nnecessary.\n  4. Notice of intent to apply for a permit pursuant to this section\nmust be sent to the local police department or, if there is no local\npolice department then to the county sheriff's office, and such notice\nmust also be sent to the local community board.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

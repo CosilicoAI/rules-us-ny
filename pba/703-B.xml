@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-703-B"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-703-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="703-B"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-703-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-703-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-703-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-703-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_703_B">
+        <num>703-B</num>
+        <heading>Tolls, rules and regulations</heading>
+        <content>
+          <p>  § 703-b. Tolls, rules and regulations.  The authority shall have power\nto make rules and regulations for the preservation and use of the bridge\nand for the payment and collection of tolls, fees, fares and special\ncharges. Until such time as the state of New York is fully reimbursed by\nthe authority for the total amount of money advanced by the state to the\nauthority, no rule, regulation, schedule or rate of tolls, fees, fares,\nspecial charges or rentals shall become effective or controlling unless\napproved by the director of the budget of the state of New York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-77"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-77"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-77/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-77/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-77/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-77/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77">
+        <num>77</num>
+        <heading>Examination by veterinarian prerequisite to destruction of animal</heading>
+        <content>
+          <p>  § 77. Examination by veterinarian prerequisite to destruction of\nanimal.  No animal shall be destroyed by the commissioner or by his\norder unless first examined by a veterinarian in the employ of the\ndepartment, or whose work is approved by the commissioner, nor until\nsuch veterinarian renders a certificate to the commissioner, to the\neffect that he has made such examination, that, in his judgment, such\nanimal is infected with a specified infectious or communicable disease,\nor that its destruction is necessary in order to prevent or suppress, or\nto aid in preventing or suppressing such disease.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-B"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="301-B"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_301_B">
+        <num>301-B</num>
+        <heading>Extension of benefits to dependents</heading>
+        <content>
+          <p>  § 301-b. Extension of benefits to dependents. 1. Dependents of a\nperson in military service shall be entitled to the benefits accorded to\npersons in military service under the provisions of this article upon\napplication to a court therefor, unless in the opinion of the court the\nability of such dependents to comply with the terms of the obligation,\ncontract, lease, or bailment has not been materially impaired by reason\nof the military service of the person upon whom the applicants are\ndependent.\n  2. If no court proceeding is pending, the dependent claiming\nentitlement may initially apply to any agency, private party, business\nor other entity to whom the claim for benefit is made. Such agency,\nprivate party, business or other entity shall grant such entitlement\nunless the ability of such dependents to comply with the terms of the\nobligation, contract, lease, or bailment has not been materially\nimpaired by reason of the military service of the person upon whom the\napplicants are dependent. Such initial application in accordance with\nthis subdivision shall in no way affect the ability of such dependents\nto apply to a court as authorized by subdivision one of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

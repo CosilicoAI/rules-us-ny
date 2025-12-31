@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_20">
+        <num>250.20</num>
+        <heading>Divulging an eavesdropping warrant</heading>
+        <content>
+          <p>§ 250.20 Divulging an eavesdropping warrant.\n  A person is guilty of divulging an eavesdropping warrant when,\npossessing information concerning the existence or content of an\neavesdropping warrant issued pursuant to article seven hundred of the\ncriminal procedure law, or concerning any circumstances attending an\napplication for such a warrant, he discloses such information to another\nperson; except that such disclosure is not criminal or unlawful when\npermitted by section 700.65 of the criminal procedure law or when made\nto a state or federal agency specifically authorized by law to receive\nreports concerning eavesdropping warrants, or when made in a legal\nproceeding, or to a law enforcement officer or agency connected with the\napplication for such warrant, or to a legislative committee or temporary\nstate commission, or to the telephone or telegraph corporation whose\nfacilities are involved, or to any entity operating an electronic\ncommunications service whose facilities are involved.\n  Divulging an eavesdropping warrant is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

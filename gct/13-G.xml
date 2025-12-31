@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-13-G"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-13-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-G"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-13-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-13-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-13-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-13-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_G">
+        <num>13-G</num>
+        <heading>Moneys for maintaining the New York State Assessors Association and any of its activities</heading>
+        <content>
+          <p>  § 13-g. Moneys for maintaining the New York State Assessors\nAssociation and any of its activities. The common council of any city is\nhereby authorized to appropriate and expend annually a sum to meet its\nproportionate share of the actual and necessary expenses of maintaining\nand continuing the New York State Assessors Association and any of its\nactivities, in this state, for the purpose of the improvement of\nassessment administration.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54"/>
+          <FRBRdate date="2021-01-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="54"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-54/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-54/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_54">
+        <num>54</num>
+        <heading>License to sell beer at retail for consumption off the premises</heading>
+        <content>
+          <p>  § 54. License to sell beer at retail for consumption off the premises.\n1. Any person may apply to the appropriate board for a license to sell\nbeer at retail not to be consumed upon the premises where sold. Such\napplication shall be in writing and verified and shall contain such\ninformation as the liquor authority shall require. Such application\nshall be accompanied by a check or draft for the amount required by this\narticle for such license. The term "premises" shall include any duly\nlicensed supply ship operating in harbors in Lake Erie.\n  2. In the event that the liquor authority issues such license it shall\nforward the same to the applicant.\n  3. If the authority shall disapprove an application for a license or\npermit, it shall state and file in its offices the reasons therefor and\nshall notify the applicant thereof. Such applicant may thereupon apply\nto the liquor authority for a review of such action in a manner to be\nprescribed by the rules of the liquor authority. A hearing upon notice\nto the applicant shall thereupon be held by the liquor authority or by\none of its members at its office most conveniently situated to the\noffice of its duly authorized representative in a manner to be\nprescribed in its rules; and on such hearing proof may be taken by oral\ntestimony or by affidavit relative thereto. After such hearing, if the\nliquor authority confirms such disapproval, it shall endorse such\napplication accordingly and shall send notice to the applicant of its\naction in such form as the liquor authority may prescribe. If the liquor\nauthority does not confirm the disapproval action it may grant such\napplication and issue such license.\n  4. No such license shall be issued, however, to any person for any\npremises other than a grocery store, drug store, or duly licensed supply\nship operating in harbors in Lake Erie.\n  5. Such license shall contain a description of the licensed premises\nand in form and in substance shall be a license to the person\nspecifically designated therein to sell beer at retail in the premises\nspecifically licensed, not to be consumed upon said premises.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

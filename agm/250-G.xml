@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-G"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250-G"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-250-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-250-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_G">
+        <num>250-G</num>
+        <heading>Release of security by commissioner</heading>
+        <content>
+          <p>  § 250-g. Release of security by commissioner. If upon investigation by\nthe commissioner, the licensee is found to have fully paid all the\nproducers of farm products received or purchased by him or her, the\ncommissioner may cancel the license of such licensee upon request of the\nlicensee and release security deposited with a bank or trust company\npursuant to section two hundred fifty of this article, other than\ncontributions to the agricultural producers security fund.  Such\ncontributions to the agricultural producers security fund shall not be\nconstrued to create a legal and equitable interest in such funds for any\nlicensee or producer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

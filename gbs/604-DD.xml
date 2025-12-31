@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-604-DD"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-604-DD"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="604-DD"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-604-DD/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-604-DD/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-604-DD/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-604-DD/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_604_DD">
+        <num>604-DD</num>
+        <heading>Scope</heading>
+        <content>
+          <p>  * § 604-dd. Scope. The provisions of this article shall apply only to\na creditor to whom a debt is owed, due, or asserted to be due or owed,\nwhere such debt is asserted to be the result of economic abuse. The\nprovisions of this article shall not be construed to impose any duty or\nliability not expressly provided herein.\n  * NB Effective March 19, 2026\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

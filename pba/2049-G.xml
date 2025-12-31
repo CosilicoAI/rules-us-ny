@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-G"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2049-G"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2049_G">
+        <num>2049-G</num>
+        <heading>Governmental capacity of the authority and municipalities</heading>
+        <content>
+          <p>  § 2049-g. Governmental capacity of the authority and municipalities.\nThe authority, the town and other municipalities, in carrying out their\nrespective powers and duties under this title, shall be deemed to be\nacting in a governmental capacity. The construction, operation and\nmaintenance of any project financed in whole or in part by the authority\nshall be deemed to be the performance of an essential governmental\nfunction by the authority acting in its governmental capacity, whether\nsuch project shall be owned or operated by the authority or by any\nperson or public corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

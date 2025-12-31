@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-655"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-655"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="655"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-655/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-655/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-655/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-655/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_655">
+        <num>655</num>
+        <heading>Restriction on conveyance of campgrounds</heading>
+        <content>
+          <p>  § 655. Restriction on conveyance of campgrounds. 1. No membership\ncampground operator shall convey or transfer a membership campground\nunless the transferee takes title or possession subject to all rights of\npurchasers; or the membership campground operator immediately\nsubstitutes for the use of purchasers another campground which is\nlocated within a fifty-mile radius and is at least as desirable for the\npurpose of camping and outdoor recreation as the campground being\nconveyed or transferred.\n  2. For the purpose of this section, the terms "convey" and "transfer"\nshall not include the granting of a security interest in or the pledging\nof the property for financing purposes, but shall include the assignment\nof any leasehold interest the campground operator may have in the\ncampground property.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

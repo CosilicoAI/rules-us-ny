@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-808"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-808"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="808"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-808/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-808/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_808">
+        <num>808</num>
+        <heading>Doing business without certificate of authority</heading>
+        <subsection eId="sec_808__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A foreign\nlimited liability company doing business in this state without having\nreceived a certificate of authority to do business in this state may not\nmaintain any action, suit or special proceeding in any court of this\nstate unless and until such limited liability company shall have\nreceived a certificate of authority in this state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_808__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The failure of a foreign limited liability company that is doing\nbusiness in this state to comply with the provisions of this chapter\ndoes not impair the validity of any contract or act of the foreign\nlimited liability company or prevent the foreign limited liability\ncompany from defending any action or special proceeding in any court of\nthis state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_808__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A member, manager or agent of a foreign limited liability company\nis not liable for the contractual obligations or other liabilities of\nthe foreign limited liability company solely by reason of the limited\nliability company's doing or having done business in this state without\nhaving received a certificate of authority.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_808__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>By doing business in this state without authority, a foreign\nlimited liability company appoints the secretary of state as its agent\nfor service of process with respect to causes of action arising out of\ndoing business in this state. In any such case, process against such\nforeign limited liability company may be served upon the secretary of\nstate in the manner set forth in article three of this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

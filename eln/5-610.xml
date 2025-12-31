@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-610"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-610"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-610"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-610/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-610/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-610/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-610/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_610">
+        <num>5-610</num>
+        <heading>Registration records; new election district</heading>
+        <content>
+          <p>  § 5-610. Registration records; new election district. When an election\ndistrict is created, abolished or altered in any way, the board of\nelections shall do all things necessary to transfer the affected\nregistration records to conform to the new plan of election districts\nand shall make all necessary changes in the designation of the election\ndistrict and political subdivision on the registration record of each\nvoter affected. At least twenty days before the next election, after\nsuch new plan of election districts has been effected, the board of\nelections shall mail a written notice to each affected registered voter\nnotifying him of the designation of the new political subdivision, if\nany, and the number of the election district to which his registration\nrecord has been transferred, and if available, the address of his\npolling place.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

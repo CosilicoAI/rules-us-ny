@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7516"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7516"/>
+          <FRBRdate date="2022-05-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7516"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7516/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7516/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7516/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7516/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7516">
+        <num>7516</num>
+        <heading>Confirmation of an award based on a consumer credit transaction</heading>
+        <subsection eId="sec_7516__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the agreement to arbitrate;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7516__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the demand for arbitration or notice\nof intention to arbitrate, with proof of service; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7516__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the\narbitration award, with proof of service. If the award does not contain\na statement of the claims submitted for arbitration, of the claims ruled\nupon by the arbitrator, and of the calculation of figures used by the\narbitrator in arriving at the award, then the petition shall contain\nsuch a statement. The court shall not grant confirmation of an award\nbased on a consumer credit transaction unless the party seeking to\nconfirm the award has complied with this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

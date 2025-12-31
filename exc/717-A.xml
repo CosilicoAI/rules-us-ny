@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-717-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-717-A"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="717-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-717-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-717-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-717-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-717-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_717_A">
+        <num>717-A</num>
+        <heading>Direct dialing to public service answering points</heading>
+        <content>
+          <p>  § 717-a. Direct dialing to public service answering points. 1. For\npurposes of this section, "public building" shall mean any building\nbelonging to the state, county, town, village, school district or any\nother political or civil subdivision of state or local government.\n  2. For purposes of this section, "multi-line telephone system" shall\nmean any system comprised of common control units, telephone sets,\ncontrol hardware and software, and adjunct systems which enables users\nto make and receive telephone calls using shared resources such as\ntelephone network trunks or data link bandwidth. This term includes, but\nis not limited to, network-based and premises-based systems such as\nCentrex service, premises-based, hosted and cloud-based VoIP, as well as\nPBX, Hybrid and Key Telephone Systems, as classified by the FCC under\nPart 68 of its rules.\n  3. All public buildings which operate on a multi-line telephone system\nin this state must configure their multi-line telephone system hardware\nto allow any call to 911 on the system to be directly connected to a\npublic service answering point; provided however, that in the case of\npublic buildings governed by section three hundred fifty-five or six\nthousand two hundred four of the education law which have on-campus\nemergency answering points, such public buildings may route such 911\ncalls to their on-campus answering points.\n  4. The requirements of subdivision three of this section shall not\napply to any public building operating on a multi-line telephone system\nthat would be required to upgrade the hardware of their telephone\nnetwork to meet said requirement. However, every telephone in any exempt\npublic building operating on a multi-line telephone system shall place\nan instructional sticker on or immediately adjacent to each telephone\ninforming users of the phone's inability to directly dial 911 and the\nprocedures to follow to connect to a 911 public service answering point,\nor in the case of public buildings governed by section three hundred\nfifty-five or six thousand two hundred four of the education law which\nhave on-campus emergency answering points, such on-campus answering\npoints, in case of an emergency.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

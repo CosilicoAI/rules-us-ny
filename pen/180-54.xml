@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-180.54"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-180.54"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="180.54"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-180.54/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-180.54/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-180.54/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-180.54/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_180_54">
+        <num>180.54</num>
+        <heading>Rent gouging; definition of term</heading>
+        <content>
+          <p>§ 180.54 Rent gouging; definition of term.\n  As used in this article, "lawful rental and other lawful charges"\nmeans registered, reported or contracted for rent pursuant to chapter\nfour hundred three of the laws of nineteen hundred eighty-three, article\ntwo of the private housing finance law or section eight of the federal\nhousing act of nineteen hundred sixty-eight, or, rent contained in a\ncourt approved stipulation of settlement, even if such rent or charges\nare subsequently decreased by order of the department of housing and\ncommunity renewal or a court of competent jurisdiction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

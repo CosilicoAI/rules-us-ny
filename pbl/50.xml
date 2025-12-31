@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-50"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="50"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50">
+        <num>50</num>
+        <heading>Sale of abandoned canal lands</heading>
+        <content>
+          <p>  § 50. Sale of abandoned canal lands.  The commissioner of general\nservices may sell and convey at public or private sale the right, title\nand interest of the state in and to any real property, acquired for\ncanal purposes, which the commissioner of transportation may determine\nto have been abandoned for such purposes, or as to which a determination\nof abandonment shall have been heretofore made pursuant to law.  The\ncommissioner of general services may sell and convey such abandoned\nlands in the same manner and with the same discretion as he may sell and\nconvey unappropriated state land pursuant to article three of this\nchapter. The commissioner may sell such abandoned canal lands for not\nless than the appraised value thereof to occupants of such abandoned\ncanal lands or owners of adjacent land who have used or improved such\nabandoned canal lands either under a permit issued pursuant to section\none hundred of the canal law or in good faith without knowledge that\nsuch canal lands were owned by the state; provided that such appraised\nvalue shall be exclusive of the value of improvements made on the\nproperty by the purchaser.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

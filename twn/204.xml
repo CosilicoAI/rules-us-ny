@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Transition to benefit basis levy of assessments in existing lighting districts</heading>
+        <subsection eId="sec_204__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If after the expiration of the time for filing a petition\nrequesting that the matter be submitted to a referendum of the property\nowners of the existing district, no such petition has been filed with\nthe town clerk, he shall file a certificate stating such fact in the\noffice of the county clerk.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_204__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If such petition was filed and after the referendum held pursuant\nto this section, the town clerk shall prepare and file a certificate\nstating that a petition was filed and a referendum was held pursuant to\nthe provisions of this section and certifying the result of the vote on\nthe proposition submitted at such referendum in the office of the county\nclerk.\n  3. If the certificate of the town clerk required to be filed pursuant\nto subdivision two of this section establishes that no petition was\nfiled requesting a referendum or that such petition was filed and the\nresult of the vote on the proposition submitted at the referendum held\npursuant thereto was in the affirmative, the town board shall adopt a\nfinal order establishing the transition to the benefit basis.\n  4. The authority conferred by this section to make such transition\nshall not be construed to authorize a transition from the benefit basis\nto the ad valorem basis of levying assessments.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

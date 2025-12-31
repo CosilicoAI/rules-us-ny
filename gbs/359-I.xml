@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-I"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="359-I"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-359-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-359-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_359_I">
+        <num>359-I</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 359-i. Definitions. 1. In this article unless the context or subject\nmatter otherwise requires:\n  "Bank" includes any person or association of persons, whether\nincorporated or not, carrying on the business of banking.\n  "Fiduciary" includes a trustee under any trust, expressed, implied,\nresulting or constructive, executor, administrator, guardian,\nconservator, curator, committee, receiver, trustee in bankruptcy,\nassignee for the benefit of creditors, partner, agent, officer of a\ncorporation, public or private, public officer, or any other person\nacting in a fiduciary capacity for any person, trust or estate.\n  "Person" includes a corporation, partnership, or other association, or\ntwo or more persons having a joint or common interest.\n  "Principal" includes any person to whom a fiduciary as such owes an\nobligation.\n  2. An act is done "in good faith" when it is done in fact honestly,\nwhether it be done negligently or not.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

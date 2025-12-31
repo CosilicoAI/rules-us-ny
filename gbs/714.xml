@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-714"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-714"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="714"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-714/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-714/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-714/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-714/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_714">
+        <num>714</num>
+        <heading>Automatic refund of credit balances</heading>
+        <content>
+          <p>  § 714. Automatic refund of credit balances. Where a credit balance\ngreater than one dollar exists, and where no purchases, payments or\nother transactions (other than the imposition of service, membership or\nother administrative charges) occur with respect to a consumer credit\naccount for six consecutive billing cycles, the creditor shall refund\nthe full amount of such credit balance by cash or check within thirty\ndays after the end of such period of inactivity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

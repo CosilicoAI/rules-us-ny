@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-Z"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-Z"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343-Z"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-Z/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-Z/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-343-Z/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-343-Z/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_Z">
+        <num>343-Z</num>
+        <heading>Portion of the state highway system to be designated as the "Jamestown Veterans Memorial Bridge"</heading>
+        <content>
+          <p>  * § 343-z. Portion of the state highway system to be designated as the\n"Jamestown Veterans Memorial Bridge". The bridge across Steele Street\nand the Chadakoin River on West Third Street in the city of Jamestown,\ncounty of Chautauqua, shall be designated and known as the "Jamestown\nVeterans Memorial Bridge".\n  * NB There are 10 § 343-z's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

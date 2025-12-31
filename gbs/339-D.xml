@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="339-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_339_D">
+        <num>339-D</num>
+        <heading>Transactions by brokers and dealers after insolvency</heading>
+        <content>
+          <p>  § 339-d. Transactions by brokers and dealers after insolvency.  Any\nperson, firm, association or corporation engaged in the business of\npurchasing and selling as broker or dealer, stocks, bonds or other\nevidences of debt of corporations, companies or associations who,\nknowing that he or it is insolvent, accepts or receives from a customer\nignorant of such broker's or dealer's insolvency, money, stocks, bonds\nor other evidences of debt belonging to the customer otherwise than in\nliquidation of, or as security for, an existing indebtedness, is guilty\nof a misdemeanor. Any person, firm, association or corporation shall be\ndeemed insolvent within the meaning of this section whenever the\naggregate of his or its property shall not, at a fair valuation, be\nsufficient in amount to pay his or its debts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

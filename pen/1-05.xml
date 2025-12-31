@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-1.05"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-1.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1.05"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-1.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-1.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-1.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-1.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_05">
+        <num>1.05</num>
+        <heading>General purposes</heading>
+        <content>
+          <p>§ 1.05 General purposes.\n  The general purposes of the provisions of this chapter are:\n  1. To proscribe conduct which unjustifiably and inexcusably causes or\nthreatens substantial harm to individual or public interests;\n  2. To give fair warning of the nature of the conduct proscribed and of\nthe sentences authorized upon conviction;\n  3. To define the act or omission and the accompanying mental state\nwhich constitute each offense;\n  4. To differentiate on reasonable grounds between serious and minor\noffenses and to prescribe proportionate penalties therefor;\n  5. To provide for an appropriate public response to particular\noffenses, including consideration of the consequences of the offense for\nthe victim, including the victim's family, and the community; and\n  6. To insure the public safety by preventing the commission of\noffenses through the deterrent influence of the sentences authorized,\nthe rehabilitation of those convicted, the promotion of their successful\nand productive reentry and reintegration into society, and their\nconfinement when required in the interests of public protection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

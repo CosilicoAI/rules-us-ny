@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-S"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-S"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1021-S"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-S/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-S/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1021-S/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1021-S/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1021_S">
+        <num>1021-S</num>
+        <heading>Severability</heading>
+        <content>
+          <p>  § 1021-s. Severability. The provisions of this title are severable,\nand if any clause, sentence, paragraph, action or part of this title, or\nthe application thereof to any person or circumstance, shall be adjudged\nby any court of competent jurisdiction to be invalid or unenforceable,\nsuch judgment shall not affect, impair or invalidate the remainder of\nthis title or the application of such provision to any other person or\ncircumstance, but shall be confined in its operation to the clause,\nsentence, paragraph, section or part thereof or person or circumstance\ndirectly involved in the controversy in which such judgment shall have\nbeen rendered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

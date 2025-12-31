@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1682"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1682"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1682"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1682/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1682/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1682/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1682/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1682">
+        <num>1682</num>
+        <heading>Local traffic-control devices</heading>
+        <content>
+          <p>  § 1682. Local traffic-control devices. Local authorities in their\nrespective jurisdiction shall place and maintain such traffic-control\ndevices, conforming to the state manual and specifications, as they may\ndeem necessary to indicate and carry out the provisions of this chapter\nor local traffic ordinances, orders, rules or regulations or to\nregulate, warn, or guide traffic, except that a city having a population\nin excess of one million shall conform to the state manual and\nspecifications only insofar as such local authority in its discretion\ndeems practicable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

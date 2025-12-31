@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.79"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.79"/>
+          <FRBRdate date="2022-06-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="240.79"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.79/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.79/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.79/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.79/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_240_79">
+        <num>240.79</num>
+        <heading>Aggravated threat of mass harm</heading>
+        <content>
+          <p>§ 240.79 Aggravated threat of mass harm.\n  1. A person is guilty of aggravated threat of mass harm when such\nperson engages in conduct as defined in section 240.78 of this article\nand has made any overt act in furtherance of the commission of such\ncrime.\n  2. For purposes of this section, an overt act may include making a\nplan to carry out such threat, compiling a list of targets, possession\nof any weapon or device that can be used to carry out such threat, or\nother preparatory action.\n  Aggravated threat of mass harm is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

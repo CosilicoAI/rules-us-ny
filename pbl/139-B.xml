@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-B"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="139-B"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_B">
+        <num>139-B</num>
+        <heading>Transcript to be filed in each county where real property is situated</heading>
+        <content>
+          <p>  § 139-b. Transcript to be filed in each county where real property is\nsituated.  Immediately after making the entry prescribed in the last\nsection, the commissioner of general services must transmit a certified\ntranscript thereof to the clerk, or the register, as the case requires,\nof each county, in which the real property affected by the judgment is\nsituated.  The clerk or register must file it; and, if the\nletters-patent are recorded in his office, he must note the contents of\nthe transcript in the margin of the record.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

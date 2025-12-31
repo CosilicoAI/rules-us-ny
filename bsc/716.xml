@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-716"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-716"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="716"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-716/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-716/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-716/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-716/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_716">
+        <num>716</num>
+        <heading>Removal of officers</heading>
+        <subsection eId="sec_716__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any officer elected or appointed by the board may be removed by\nthe board with or without cause. An officer elected by the shareholders\nmay be removed, with or without cause, only by vote of the shareholders,\nbut his authority to act as an officer may be suspended by the board for\ncause.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_716__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The removal of an officer without cause shall be without prejudice\nto his contract rights, if any. The election or appointment of an\nofficer shall not of itself create contract rights.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_716__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>An action to procure a judgment removing an officer for cause may\nbe brought by the attorney-general or by ten percent of the votes of the\noutstanding shares, whether or not entitled to vote. The court may bar\nfrom re-election or reappointment any officer so removed for a period\nfixed by the court.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

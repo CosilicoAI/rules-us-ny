@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-C"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-C"/>
+          <FRBRdate date="2022-04-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="128-C"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_128_C">
+        <num>128-C</num>
+        <heading>Police officers allowed to serve as an officer of veterans' organization</heading>
+        <content>
+          <p>  § 128-c. Police officers allowed to serve as an officer of veterans'\norganization. Notwithstanding any inconsistent provision of law to the\ncontrary, a veterans' organization, including, but not limited to the\nVeterans of Foreign Wars, the American Legion, or any other "veterans\nclub" identified in subdivision nine of section three of this chapter,\nshall not be precluded from applying for an on-premises license or\npermit under the provisions of this chapter due to the presence of a\npolice officer serving as an officer of such organization and the state\nliquor authority shall be authorized to issue such license or permit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

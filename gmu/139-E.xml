@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-139-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-139-E"/>
+          <FRBRdate date="2025-03-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="139-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-139-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-139-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-139-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-139-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_E">
+        <num>139-E</num>
+        <heading>Posting of sanitary inspection grade</heading>
+        <content>
+          <p>  § 139-e. Posting of sanitary inspection grade. 1. As used in this\nsection "internet-based food delivery service provider" shall mean any\nfood service establishment that accepts food orders for delivery from\ncustomers via the internet or mobile application, or any third party\nwebsite that accepts food orders for delivery from customers via the\ninternet or mobile application.\n  2. In any municipal corporation that has adopted a local law or rule\nrequiring the posting of sanitary inspection results, every\ninternet-based food delivery service provider shall conspicuously post\non their website or mobile application a hyperlink to the municipal or\nstate health department food establishments lookup tool, which lists the\nmost current sanitary inspection results of any food service\nestablishment located in such municipal corporation for which food\ndelivery services are provided to customers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

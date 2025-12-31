@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-402"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-402"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="402"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-402/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-402/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_402">
+        <num>402</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 402. Application. The rules and procedures for display and use of\nthe flag set forth in this article shall govern the display of the flag\non all public buildings within the state and shall supersede any\ncontrary rule or custom of state or local agencies governing display\nprovided, however, a school district may promulgate its own regulations\nto allow the flag to be flown at half-staff to commemorate the death of\na present or former board member, present employee, teacher, student,\nclerk or custodian.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

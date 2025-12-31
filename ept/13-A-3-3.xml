@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.3"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.3"/>
+          <FRBRdate date="2016-10-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-A-3.3"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-A-3.3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-A-3.3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_A_3_3">
+        <num>13-A-3.3</num>
+        <heading>Disclosure of content of electronic communications of</heading>
+        <subsection eId="sec_13_A_3_3__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a written request for disclosure in physical or electronic form;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_3_3__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a copy of the power of attorney expressly granting the agent\nauthority over the content of electronic communications of the\nprincipal;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_3_3__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>an affidavit in which the affiant attests that the copy is an\naccurate copy of the original power of attorney and that, to the best of\nthe affiant's knowledge, the power remains in effect; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_13_A_3_3__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>if requested by the custodian:\n</p>
+          </content>
+          <paragraph eId="sec_13_A_3_3__subsec_d__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a number, username, address, or other unique subscriber or account\nidentifier assigned by the custodian to identify the principal's\naccount; or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_13_A_3_3__subsec_d__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>evidence linking the account to the principal.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

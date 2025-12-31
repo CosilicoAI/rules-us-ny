@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-104"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-104"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_104">
+        <num>17-104</num>
+        <heading>False registration</heading>
+        <content>
+          <p>  § 17-104. False registration. Any person who:\n  1. Registers or attempts to register as an elector in more than one\nelection district for the same election, or more than once in the same\nelection district; or,\n  2. Registers or attempts to register as an elector, knowing that he\nwill not be a qualified voter in the district at the election for which\nsuch registration is made; or\n  3. Registers or attempts to register as an elector under any name but\nhis own; or\n  4. Knowingly gives a false residence within the election district when\nregistering as an elector; or\n  5. Knowingly permits, aids, assists, abets, procures, commands or\nadvises another to commit any such act, is guilty of a felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

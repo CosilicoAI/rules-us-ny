@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-333"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-333"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="333"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-333/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-333/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-333/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-333/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_333">
+        <num>333</num>
+        <heading>Payments sufficient to satisfy requirements of this article</heading>
+        <subsection eId="sec_333__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When twenty-five thousand dollars has been\ncredited upon any judgment or judgments rendered in excess of that\namount because of bodily injury to or when fifty thousand dollars has\nbeen credited upon any judgment or judgments rendered in excess of that\namount because of death of one person as the result of any one accident;\nor\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_333__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>When subject to such limit of twenty-five thousand dollars because\nof bodily injury to or fifty thousand dollars because of death of one\nperson, the sum of fifty thousand dollars has been credited upon any\njudgment or judgments rendered in excess of that amount because of\nbodily injury to or when one hundred thousand dollars has been credited\nupon any judgment or judgments rendered in excess of that amount because\nof death of two or more persons as the result of any one accident; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_333__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When ten thousand dollars has been credited upon any judgment or\njudgments rendered in excess of that amount because of injury to or\ndestruction of property of others as a result of any one accident.\n  Payments made in settlement of any claims because of bodily injury,\ndeath or property damage arising from a motor vehicle accident shall be\ncredited in reduction of the amounts provided for in this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

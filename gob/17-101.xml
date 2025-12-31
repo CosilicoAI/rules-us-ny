@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-17-101"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-17-101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-101"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-17-101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-17-101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-17-101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-17-101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_101">
+        <num>17-101</num>
+        <heading>Acknowledgment or new promise must be in writing</heading>
+        <content>
+          <p>  § 17-101. Acknowledgment or new promise must be in writing. An\nacknowledgment or promise contained in a writing signed by the party to\nbe charged thereby is the only competent evidence of a new or continuing\ncontract whereby to take an action out of the operation of the\nprovisions of limitations of time for commencing actions under the civil\npractice law and rules other than an action for the recovery of real\nproperty. This section does not alter the effect of a payment of\nprincipal or interest.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

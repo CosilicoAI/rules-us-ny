@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-F"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-F"/>
+          <FRBRdate date="2025-08-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="501-F"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_501_F">
+        <num>501-F</num>
+        <heading>Commissioner for the interstate compact for juveniles</heading>
+        <content>
+          <p>  * § 501-f. Commissioner for the interstate compact for juveniles.\nPursuant to subdivision B of article III of section five hundred one-e\nof this article, the commissioner shall be appointed by the governor in\nconsultation with the state council established pursuant to article IX\nof section five hundred one-e and section five hundred one-g of this\narticle.\n  * NB Repealed September 1, 2030\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

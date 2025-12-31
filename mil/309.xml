@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-309"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-309"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="309"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-309/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-309/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-309/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_309">
+        <num>309</num>
+        <heading>Evictions; restraint</heading>
+        <content>
+          <p>  § 309. Evictions; restraint. 1. No eviction or distress shall be made\nduring the period of military service in respect of any premises\noccupied chiefly for dwelling purposes by a person in military service\nor the spouse, children, or other dependents of a person in military\nservice, except upon leave of court granted upon application therefor or\ngranted in any action or proceeding affecting the right of possession.\n  2. On any such application or in any such action the court may, in its\ndiscretion, on its own motion, and shall, on application, unless in the\nopinion of the court the ability of the tenant to pay the agreed rent is\nnot materially affected by reason of military service, stay the\nproceedings for not longer than six months, as provided in this article,\nor it may make such other order as may be just.\n  3. Any person who shall knowingly take part in any eviction or\ndistress otherwise than as provided in subdivision one of this section,\nor attempts so to do, shall be guilty of a misdemeanor, and shall be\npunishable by imprisonment not to exceed one year or by fine not to\nexceed one thousand dollars, or both.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

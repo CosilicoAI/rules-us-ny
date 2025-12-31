@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-248"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-248"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="248"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-248/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-248/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-248/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-248/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_248">
+        <num>248</num>
+        <heading>Oaths</heading>
+        <content>
+          <p>  § 248.  Oaths.  1. Any officer of any force of the organized militia\nand any officer in the active military service of the United States is\nhereby authorized to administer the oath required for the enlistment of\nany person, the oath required for the appointment of any person to\ncommissioned or warrant officer grade and any other oath required by the\nlaws of the United States and by this chapter and by the regulations\nissued thereunder in connection with the enlistment or appointment of\nany person in any of such forces.\n  2. As used in this section the term "officer" shall mean a\ncommissioned officer, commissioned warrant officer or warrant officer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

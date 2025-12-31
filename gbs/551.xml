@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-551"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-551"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="551"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-551/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-551/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-551/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-551/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_551">
+        <num>551</num>
+        <heading>Negotiable notes given for a speculative consideration</heading>
+        <content>
+          <p>  § 551. Negotiable notes given for a speculative consideration.\nNotwithstanding article three of the uniform commercial code, a\nnegotiable promissory note, the consideration of which consists in whole\nor in part of the purchase price of any farm product, at a price greater\nby at least four times than the fair market value of the same product at\nthe time in the locality, or of the membership and rights in an\nassociation, company or combination to produce or sell any farm product\nat a fictitious rate, or of a contract or bond to purchase or sell any\nfarm product at a price greater by four times than the market value of\nthe same product at the time in the locality, must contain the words\n"given for a speculative consideration" or other words clearly showing\nthe nature of the consideration, prominently and legibly written or\nprinted on the face of such note above the signature thereof; and such\nnote, in the hands of any purchaser or holder, is subject to the same\ndefenses as in the hands of the original owner or holder.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

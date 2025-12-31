@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-323-A"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-323-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="323-A"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-323-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-323-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-323-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-323-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_323_A">
+        <num>323-A</num>
+        <heading>Maximum rate of interest</heading>
+        <content>
+          <p>  § 323-a. Maximum rate of interest. No obligation or liability bearing\ninterest at a rate in excess of six percent per year incurred by a\nperson in active military service in the armed forces of the United\nStates or in active military service of the organized militia of the\nstate before that person's entry into such service shall, during any\npart of the period active military service, bear interest at a rate in\nexcess of six percent per year unless, in the opinion of the court, upon\napplication thereto by the obligee, the ability of such person in\nmilitary service to pay interest upon such obligation or liability at a\nrate in excess of six percent per year is not materially affected by\nreason of such service, in which case the court may make such order as\nin its opinion may be just. As used in this section the term "interest"\nincludes service charges, renewal charges, fees and any other charges\n(except bona fide insurance) with respect to such obligation or\nliability.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

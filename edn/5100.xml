@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5100"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5100"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5100">
+        <num>5100</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 5100. Definitions.  As used in this article, the following terms\nshall have the following meanings:\n  1. "Eligible agency" means labor organizations, their federations or\norganizations of employers acting in consortium with labor\norganizations, that have been approved by the commissioner, upon\napplication therefor, to conduct workplace literacy and basic skills\neducation programs.\n  2. "Labor organization" means organizations of workers established to\nbargain collectively on behalf of their member workers.\n  3. "Workplace literacy and basic skills education" means those common\nbranch skills and English-as-a-second-language skills that are directly\nrelated to the ability to perform occupational tasks.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

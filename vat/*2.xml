@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-*2"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-*2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="*2"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-*2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-*2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-*2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-*2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_*2">
+        <num>*2</num>
+        <heading>Issuance of distinctive plates for agriculture</heading>
+        <content>
+          <p>  * § 404-s. Issuance of distinctive plates for agriculture. 1. On and\nafter April first, two thousand two, any person residing in this state,\nupon filing a complete application and paying a fee as provided in\nsubdivision two of this section, shall be issued his or her choice of a\ndistinctive license plate for agriculture from those approved by the\ncommissioner. Application for said license plate shall be filed with the\ncommissioner in such form and detail as the commissioner shall\nprescribe.\n  2. A distinctive plate for agriculture issued pursuant to this section\nshall be issued in the same manner as other number plates upon the\npayment of the regular registration fee prescribed by section four\nhundred one of this article provided, however, that an additional annual\nservice charge of twenty-five dollars shall be charged for such plate.\nAll moneys received as annual service charges under this section shall\nbe deposited to the credit of the "agriculture in the classroom fund"\nestablished pursuant to section ninety-seven-xxx of the state finance\nlaw; and shall be used for agriculture in the classroom programs.\n  * NB There are 4 § 404-s's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

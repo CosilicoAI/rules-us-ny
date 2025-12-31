@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-320.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-320.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="320.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-320.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-320.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-320.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-320.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_320_10">
+        <num>320.10</num>
+        <heading>Non-jury trial; when authorized</heading>
+        <content>
+          <p>§ 320.10  Non-jury trial; when authorized.\n  1.  Except where the indictment charges the crime of murder in the\nfirst degree, the defendant, subject to the provisions of subdivision\ntwo, may at any time before trial waive a jury trial and consent to a\ntrial without a jury in the superior court in which the indictment is\npending.\n  2.  Such waiver must be in writing and must be signed by the defendant\nin person in open court in the presence of the court, and with the\napproval of the court.  The court must approve the execution and\nsubmission of such waiver unless it determines that it is tendered as a\nstratagem to procure an otherwise impermissible procedural advantage or\nthat the defendant is not fully aware of the consequences of the choice\nhe is making.  If the court disapproves the waiver, it must state upon\nthe record its reasons for such disapproval.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-507"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-507"/>
+          <FRBRdate date="2020-03-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="507"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-507/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-507/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-507/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-507/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_507">
+        <num>507</num>
+        <heading>Prohibitions</heading>
+        <content>
+          <p>  § 507. Prohibitions. 1. Except as authorized by federal and state law,\nand rules and regulations promulgated thereunder, the growth,\ncultivation, sale, distribution or export of hemp is prohibited.\n  2. Hemp produced outside the state and sold or distributed in the\nstate shall meet all standards established for hemp under state law,\nrules and regulations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

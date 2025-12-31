@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-350"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-350"/>
+          <FRBRdate date="2024-05-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="350"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-350/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-350/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-350/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_350">
+        <num>350</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_350__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision two of section sixteen hundred seventy-six\nof the public authorities law.\n  13. "Dormitory facility revenue bond" means any note or bond of the\ndormitory authority</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_350__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>issued on or after the first day of April, two\nthousand thirteen for the purposes of financing dormitory facilities or\nrefinancing notes or bonds previously issued in connection with\ndormitory facilities, including notes or bonds issued to pay costs\nincurred in connection with the issuance of such notes or bonds, to fund\nany reserve for the payment of debt service on such bonds or notes, to\nfund any reserve established for the improvement, repair, maintenance or\noperations of dormitory facilities, or to pay or provide for the payment\nof any note or bond previously issued for any such purpose, and (ii) is\npayable from moneys on deposit in the dormitory facilities revenue fund\nand is not payable from any revenue of the state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

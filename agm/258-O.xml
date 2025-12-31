@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-O"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="258-O"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-258-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-258-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_258_O">
+        <num>258-O</num>
+        <heading>The commissioner is hereby authorized and directed to make a study of the sanitary regulations, codes and rules applicable to milk and mi...</heading>
+        <content>
+          <p>  § 258-o. The commissioner is hereby authorized and directed to make a\nstudy of the sanitary regulations, codes and rules applicable to milk\nand milk products produced in the state of New York, and to study and\nreport to the governor the possible economic impact of a national\nsanitation act upon New York milk production and New York dairy farmers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

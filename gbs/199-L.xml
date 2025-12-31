@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-L"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="199-L"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_L">
+        <num>199-L</num>
+        <heading>Removal of certain actions and proceedings</heading>
+        <content>
+          <p>  § 199-l. Removal of certain actions and proceedings. Where a\nproceeding is commenced to dispossess a dealer in a court which does not\nhave jurisdiction to grant the relief provided in this article and the\ndealer demonstrates that he has a defense or counterclaim cognizable\nunder this article, a court having such jurisdiction may remove the\naction to itself upon motion. Provided, however, that no such removal\nshould be permitted where a federal or state court has already entered a\nfinal judgment on the franchise or possession issues and no stay order\npending appeal has been filed and the proceeding is being commenced\nsolely for the purpose of enforcing such judgment.  No removal provided\nfor herein shall serve to extend a franchisee's time to take certain\nactions provided for under state or federal law, including but not\nlimited to the time within which to seek injunctive relief under the\nfederal petroleum marketing practices act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

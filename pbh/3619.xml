@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3619"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3619"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3619"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3619/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3619/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3619/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3619/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3619">
+        <num>3619</num>
+        <heading>Exempt agencies</heading>
+        <content>
+          <p>  § 3619. Exempt agencies. Only an agency licensed pursuant to section\nthirty-six hundred five or certified pursuant to section thirty-six\nhundred eight of this chapter or exempt from the licensure requirements\nof section thirty-six hundred five of this chapter because the agency\nprovides personal care or home care services exclusively to individuals\npursuant to a program administered, operated or regulated by another\nstate agency shall hold itself out or call itself a home health services\nagency, a home health agency or a home care services agency.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5010"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5010"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5010"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5010">
+        <num>5010</num>
+        <heading>Share distributions and changes</heading>
+        <subsection eId="sec_5010__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Such shares shall be issued at not less than the par value thereof\nand there shall be transferred to capital stock at the time of such\ndistribution an amount of undivided profits or surplus equal to the\naggregate par value of such shares.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5010__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A distribution of shares of any class or series may be made only\nto holders of the same class or series of shares unless the organization\ncertificate permits distribution, subject to the preemptive rights of\nholders of any outstanding shares, to holders of another class or series\nor unless such distribution is authorized, when there are no outstanding\npreemptive rights, by the affirmative vote or the written consent of the\nholders of a majority of the outstanding shares of the class or series\nto be distributed.\n  2. A corporation making a pro rata distribution of authorized but\nunissued shares to the holders of any class or series of outstanding\nshares may at its option make an equivalent distribution upon treasury\nshares of the same class or series, and any shares so distributed shall\nbe treasury shares.\n  3. A change of issued shares of any class which increases the\naggregate par value of those shares may be made if the sum of the\nundivided profits and surplus of the corporation is sufficient to permit\nthe transfer, and a transfer is concurrently made, from undivided\nprofits or surplus to capital stock, of an amount equal to such\nincrease.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

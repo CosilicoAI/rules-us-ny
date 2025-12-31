@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4101"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4101"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4101">
+        <num>4101</num>
+        <heading>Issues triable by a jury revealed before trial</heading>
+        <content>
+          <p>  § 4101. Issues triable by a jury revealed before trial. In the\nfollowing actions, the issues of fact shall be tried by a jury unless a\njury trial is waived or a reference is directed under section 4317,\nexcept that equitable defenses and equitable counterclaims shall be\ntried by the court:\n  1. an action in which a party demands and sets forth facts which would\npermit a judgment for a sum of money only;\n  2. an action of ejectment; for dower; for waste; for abatement of and\ndamages for a nuisance; to recover a chattel; or for determination of a\nclaim to real property under article fifteen of the real property\nactions and proceedings law; and\n  3. any other action in which a party is entitled by the constitution\nor by express provision of law to a trial by jury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

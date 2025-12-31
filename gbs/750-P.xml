@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-P"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="750-P"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-750-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-750-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_750_P">
+        <num>750-P</num>
+        <heading>Area requirements for pet cemeteries</heading>
+        <content>
+          <p>  § 750-p. Area requirements for pet cemeteries. A pet cemetery which\ncommences operations on or after the effective date of this article and\nwhich provides for the permanent interment of pets shall consist of not\nless than five contiguous acres of real property in total area,\ninclusive of any structures, facilities, or buildings situated thereon\nand used for the business purposes of the pet cemetery. The secretary of\nstate may grant a waiver of the minimum size limit based on factors\nincluding the number of above-ground entombments, the number of remains\nburied and the nature of the surrounding community. Nothing contained in\nthis section shall restrict any town, village or city from enacting any\nlocal law which provides for an area requirement greater than as set\nforth herein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

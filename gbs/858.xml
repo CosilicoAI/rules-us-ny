@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-858"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-858"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="858"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-858/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-858/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-858/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-858/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_858">
+        <num>858</num>
+        <heading>Posting of notice</heading>
+        <content>
+          <p>  § 858. Posting of notice. In each place of business in this state\nwhere a merchant is regularly engaged in sale of Torah scrolls he shall\npost in a conspicuous place a sign which in legible format states:\n"Article 39-A of the New York General Business Law requires merchants to\ndisclose in writing certain information concerning Torah scrolls. If you\nare a prospective recipient of a Torah scroll from a merchant that\ninformation must be given to you in accordance with and under penalty of\nthat law."\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

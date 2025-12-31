@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-109-E"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-109-E"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="109-E"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-109-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-109-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-109-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-109-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_109_E">
+        <num>109-E</num>
+        <heading>Additional requirements for right-of-way permits</heading>
+        <content>
+          <p>  § 109-e. Additional requirements for right-of-way permits. As a\nrequirement of obtaining a public right-of-way permit, all applicants\nshall disclose to the local permitting authority of a municipality prior\nto the issuance of such permit the identity of each contractor,\nsubcontractor, or agent that will perform work authorized by the permit\nin the right-of-way, whether a sole proprietor, independent contractor,\ncompany, or other entity. If there are any changes to the entities that\nwill perform permitted work in the right-of-way after submission, the\napplicant shall update the municipality with the new information within\nfive business days.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

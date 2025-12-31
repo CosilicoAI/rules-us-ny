@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-226"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-226"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-226"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-226/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-226/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-226/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-226/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_226">
+        <num>5-226</num>
+        <heading>Registration; voter registered in wrong district</heading>
+        <content>
+          <p>  § 5-226. Registration; voter registered in wrong district. 1.  If any\nvoter has been registered in a wrong election district, the board of\nelections shall, if he is a qualified voter in any election district\nwithin the jurisdiction of such board, change his registration to the\ncorrect election district. The board of elections shall thereupon give\nimmediate notice by mail to such voter that his registration has been\ncorrected, and also the location of the polling place of the election\ndistrict in which he is a qualified voter.\n  2. If such voter does not reside in any election district within the\njurisdiction of the board, his registration shall be cancelled and he\nshall be notified of the cancellation and the reason therefor.\n  3. The board shall maintain a list of all such corrections and\ncancellations as a public record in its office and shall deliver a copy\nof such list to the chairman of each political party seven days before\neach election.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

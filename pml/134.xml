@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-134"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-134"/>
+          <FRBRdate date="2021-06-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="134"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-134/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-134/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_134">
+        <num>134</num>
+        <heading>Transfer of employees</heading>
+        <content>
+          <p>  § 134. Transfer of employees. Upon the transfer of functions, powers,\nduties and obligations to the office of the state inspector general\npursuant to this article, provision shall be made for the transfer of\nall gaming inspector general employees from within the gaming commission\ninto the office of the state inspector general. Any employees\ntransferred shall be transferred in accordance with the provisions of\nsection seventy of the civil service law. Employees so transferred shall\nbe transferred without further examination or qualification to the same\nor similar titles, shall remain in the same collective bargaining units\nand shall retain their respective civil service classifications, status\nand rights pursuant to their collective bargaining units and collective\nbargaining agreements.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

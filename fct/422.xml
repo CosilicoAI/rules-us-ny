@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-422"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-422"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="422"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-422/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-422/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-422/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-422/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_422">
+        <num>422</num>
+        <heading>Persons who may originate proceedings</heading>
+        <subsection eId="sec_422__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A husband, wife,\nchild, or relative in need of public assistance or care may originate a\nproceeding under this article to compel a person chargeable with the\nsupport to support the petitioner as required by law. A social services\nofficial may originate a proceeding under this article if so authorized\nby section one hundred and two of the social services law. The\ncommissioner of mental health may originate a proceeding under this\narticle when authorized by article forty-three of the mental hygiene\nlaw. A parent or guardian, of a child, or other person in loco parentis,\nor a representative of an incorporated charitable or philanthropic\nsociety having a legitimate interest in the petitioner, or, when the\npetitioner is unable because of his physical or mental condition to file\na petition, a guardian ad litem, or a committee, conservator, next\nfriend or other person appointed by the court, may file a petition in\nbehalf of a dependent relative.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_422__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any party to a decree of divorce, separation, or annulment may\noriginate a proceeding to enforce or modify a decree of the supreme\ncourt or a court of competent jurisdiction, not of the state of New\nYork, as is provided in part six of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1114"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1114"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1114"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1114/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1114/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1114/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1114/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1114">
+        <num>1114</num>
+        <heading>Display of unauthorized signs, signals, or markings</heading>
+        <subsection eId="sec_1114__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No\nperson shall place, maintain, or display upon or in view of any highway\nany unauthorized sign, signal, marking or device which purports to be or\nis an imitation of or resembles or is likely to be construed as an\nofficial traffic-control device or railroad sign or signal, or which\nattempts to direct or regulate the movement of traffic, or which hides\nfrom view or interferes with the effectiveness of any official\ntraffic-control device or any railroad sign or signal.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1114__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No person shall place or maintain nor shall any public authority\npermit upon any highway any traffic sign or signal bearing thereon any\ncommercial advertising.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1114__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Every such prohibited sign, signal, or marking is hereby declared\nto be a public nuisance and any police officer or public authority is\nhereby empowered to remove the same or cause it to be removed without\nnotice.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-200-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-200-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-200-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-200-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-200-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-200-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200_A">
+        <num>200-A</num>
+        <heading>Laws to be posted at airports</heading>
+        <content>
+          <p>  § 200-a. Laws to be posted at airports. An airport, as defined in\nsection two hundred forty of the general business law, shall permanently\nand prominently post signs indicating the increased penalties for\ninterference with security personnel under 49 USC 46503. Such signs\nshall state an individual in an area within a commercial service airport\nin the United States who, by assaulting or intimidating a federal,\nairport, or air carrier employee who has security duties within the\nairport, interferes with the performance of the duties of the employee\nor lessens the ability of the employee to perform those duties, shall be\nfined under title 18 of the United States code, imprisoned for not more\nthan ten years, or both. If the individual used a dangerous weapon in\ncommitting the assault, intimidation, or interference, the individual\nmay be imprisoned for any term of years or life imprisonment. Signage\nshall include the telephone numbers of local law enforcement and the\nTransportation Security Administration for the purpose of reporting a\nviolation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

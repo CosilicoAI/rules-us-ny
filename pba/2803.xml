@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2803"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2803"/>
+          <FRBRdate date="2016-05-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2803"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2803">
+        <num>2803</num>
+        <heading>Examination of the books and accounts of public authorities by the state comptroller</heading>
+        <subsection eId="sec_2803__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The state comptroller may, pursuant to subdivisions two and\nthree of section eight-c of the state finance law, in his or her sole\ndiscretion, apply to state authorities the electronic data analytical\nenterprise fraud prevention and detection system as provided for in such\nsection eight-c of the state finance law. Public authorities shall fully\nsupport and cooperate with the state comptroller by providing the state\ncomptroller with access to data of the authority requested by the state\ncomptroller, in accordance with state and federal law, to allow such\ndata to be integrated into such analytic efforts as the state\ncomptroller may deem necessary.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2803__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For purposes of this subdivision, the term "state authority" shall\nhave the same meaning as in subdivision one of section two of this\nchapter, provided that for purposes of this subdivision, the term\n"public benefit corporation" as used in such subdivision one of section\ntwo of this chapter shall have the same meaning as in subdivision four\nof section sixty-six of the general construction law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

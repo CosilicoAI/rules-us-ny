@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-93"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-93"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="93"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-93/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-93/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-93/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-93/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_93">
+        <num>93</num>
+        <heading>Custody of records</heading>
+        <content>
+          <p>  § 93. Custody of records. 1. The secretary of state shall have the\ncustody of all laws and concurrent resolutions of the legislature, all\ndocuments issued under the great seal, all books, records, deeds,\nparchments, maps and papers deposited or kept in his or her office, and\nshall properly arrange and preserve them.\n  2. The records in the custody of the secretary of state need not be\nretained in the form in which the record is received so long as the\ntechnology used to retain such record results in a permanent record\nwhich may be accurately reproduced during the period for which the\nrecord is required to be retained. The secretary of state may promulgate\nrules and regulations relating to the use by the department of state of\nautomatic data processing, telecommunications and other information\ntechnologies for the processing of records for retention by the\ndepartment of state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

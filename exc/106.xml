@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-106"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="106"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106">
+        <num>106</num>
+        <heading>Proof of codes, rules and regulations</heading>
+        <content>
+          <p>  § 106. Proof of codes, rules and regulations. Any code, rule or\nregulation of the state of New York may be read in evidence from the\nofficial compilation or supplement thereto.  To entitle any copy of a\ncode, rule or regulation published, other than those published in such\nofficial compilation or supplement thereto, to be read in evidence there\nshall be contained in the same book or pamphlet a printed certificate of\nthe secretary of state that such copy is a correct transcript of the\ntext of the code, rule or regulation as published in such official\ncompilation or supplement thereto. For such a certificate the secretary\nof state shall collect such a fee as he shall deem just and reasonable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

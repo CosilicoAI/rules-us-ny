@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1551"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1551"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1551"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1551/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1551/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1551/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1551/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1551">
+        <num>1551</num>
+        <heading>Imposition of tax</heading>
+        <content>
+          <p>  § 1551. Imposition of tax. There is hereby imposed on any person whose\nhome state is New York and who purchases or renews a taxable insurance\ncontract from an insurer not authorized to transact business in this\nstate under a certificate of authority from the superintendent of\nfinancial services a tax at the rate of three and six-tenths percent of\nthe premiums paid or to be paid, less returns thereon, for such\ninsurance. Nothing in this article modifies or abrogates any provision\nof the insurance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

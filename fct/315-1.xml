@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-315.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-315.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="315.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-315.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-315.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-315.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-315.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_315_1">
+        <num>315.1</num>
+        <heading>Motion to dismiss; defective petition</heading>
+        <subsection eId="sec_315_1__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>it does not substantially conform to the requirements stated in\nsections 311.1 and 311.2; provided that a petition may not be dismissed\nas defective, but must instead be amended when the defect or\nirregularity is of a kind that may be cured by amendment pursuant to\nsection 311.5, and where the presentment agency moves to so amend; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_315_1__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the allegations demonstrate that the court does not have\njurisdiction of the crime charged; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_315_1__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the statute defining the crime charged is unconstitutional or\notherwise invalid.\n  2. An order dismissing a petition as defective may be issued upon\nmotion of the respondent or of the court itself.\n  3. A motion to dismiss under this section must be made within the time\nprovided for in section 332.2.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

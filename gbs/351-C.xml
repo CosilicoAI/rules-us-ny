@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="351-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_351_C">
+        <num>351-C</num>
+        <heading>Corporations; additional penalty for second offense</heading>
+        <content>
+          <p>  § 351-c. Corporations; additional penalty for second offense. If a\ndomestic corporation shall be convicted of a second offense hereunder\nthe supreme court shall have jurisdiction upon an action brought by the\nattorney-general, in the name of the people, for that purpose, to\ndissolve such corporation; and if a foreign corporation shall be\nconvicted of a second offense, such court shall have jurisdiction in an\naction brought in like manner to restrain such corporation from doing\nbusiness in this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

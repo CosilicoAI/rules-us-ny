@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1421"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1421"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1421"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1421/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1421/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1421/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1421/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1421">
+        <num>1421</num>
+        <heading>Transparency requirements regarding frontier model training and use</heading>
+        <subsection eId="sec_1421__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Implement a written safety and security protocol;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Retain an unredacted copy of the safety and security protocol,\nincluding records and dates of any updates or revisions. Such unredacted\ncopy of the safety and security protocol, including records and dates of\nany updates or revisions, shall be retained for as long as a frontier\nmodel is deployed plus five years;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_c">
+          <num>(c)</num>
+        </subsection>
+        <subsection eId="sec_1421__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>Conspicuously publish a copy of the safety and security\nprotocol with appropriate redactions and transmit a copy of such\nredacted safety and security protocol to the attorney general and\ndivision of homeland security and emergency services;\n  (ii) Grant the attorney general and division of homeland security and\nemergency services or the attorney general access to the safety and\nsecurity protocol, with redactions only to the extent required by\nfederal law, upon request;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Record, as and when reasonably possible, and retain for as long as\nthe frontier model is deployed plus five years information on the\nspecific tests and test results used in any assessment of the frontier\nmodel required by this section or the developer's safety and security\nprotocol that provides sufficient detail for third parties to replicate\nthe testing procedure; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>Implement appropriate safeguards to prevent unreasonable risk of\ncritical harm.\n  2. A large developer shall not deploy a frontier model if doing so\nwould create an unreasonable risk of critical harm.\n  3. A large developer shall conduct an annual review of any safety and\nsecurity protocol required by this section to account for any changes to\nthe capabilities of their frontier models and industry best practices\nand, if necessary, make modifications to such safety and security\nprotocol. If any material modifications are made, the large developer\nshall publish the safety and security protocol in the same manner as\nrequired pursuant to paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision one of this section.\n  4. A large developer shall disclose each safety incident affecting the\nfrontier model to the attorney general and division of homeland security\nand emergency services within seventy-two hours of the large developer\nlearning of the safety incident or within seventy-two hours of the large\ndeveloper learning facts sufficient to establish a reasonable belief\nthat a safety incident has occurred. Such disclosure shall include:</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nthe date of the safety incident;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the reasons the incident qualifies\nas a safety incident as defined in subdivision thirteen of section\nfourteen hundred twenty of this article; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1421__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a short and plain\nstatement describing the safety incident.\n  5. A large developer shall not knowingly make false or materially\nmisleading statements or omissions in or regarding documents produced\npursuant to this section.\n  * NB Effective March 19, 2026\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

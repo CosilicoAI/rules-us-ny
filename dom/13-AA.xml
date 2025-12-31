@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-13-AA"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-13-AA"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-AA"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-13-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-13-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-13-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-13-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_AA">
+        <num>13-AA</num>
+        <heading>Test to determine the presence of sickle cell anemia</heading>
+        <content>
+          <p>  § 13-aa.  Test to determine the presence of sickle cell anemia.  1. On\nand after the effective date of this act, such test as may be necessary\nshall be given to each applicant for a marriage license who is not of\nthe Caucasian, Indian or Oriental race for the purposes of discovering\nthe existence of sickle cell anemia and notifying the applicant of the\nresults of such test.\n  2.  No application for a marriage license shall be denied solely on\nthe ground that such test proves positive, nor shall the absence of such\ntest invalidate a marriage.\n  3.  The provisions of this section shall not apply to any person who\nrefuses to take such test because of his religious beliefs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

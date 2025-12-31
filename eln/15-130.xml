@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-130"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-130"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-130"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-130/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-130/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-130/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-130/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_130">
+        <num>15-130</num>
+        <heading>Election of trustees by wards</heading>
+        <content>
+          <p>  § 15-130. Election of trustees by wards. The board of trustees of any\nvillage may, by resolution, and subject to a mandatory referendum,\nprovide for the election of trustees by wards, alter existing ward\nboundaries or abolish wards and the election of trustees by wards. If a\nvillage elects trustees by wards separate ballot boxes or voting\nmachines shall be provided for each ward.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

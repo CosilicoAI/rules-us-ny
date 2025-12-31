@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-675"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-675"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="675"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-675/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-675/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-675/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-675/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_675">
+        <num>675</num>
+        <heading>Civil liability</heading>
+        <subsection eId="sec_675__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section eighty-three\nhundred three of the civil practice law and rules, and direct\nrestitution. Whenever the court shall determine that a violation of this\narticle has occurred, the court may impose a civil penalty of not more\nthan one thousand dollars for such violation. In connection with any\nsuch proposed application, the attorney general is authorized to take\nproof and make a determination of the relevant facts and to issue\nsubpoenas in accordance with the civil practice law and rules.\n  3. No action may be brought under the provisions of this section\nunless such action is commenced within two years from the date of the\nact complained of or of the date of discovery of such act.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

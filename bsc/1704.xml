@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1704"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1704"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1704"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1704/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1704/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1704/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1704/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1704">
+        <num>1704</num>
+        <heading>Election of an existing business corporation to become a benefit corporation</heading>
+        <subsection eId="sec_1704__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A business corporation may become a benefit corporation under this\narticle by amending its certificate of incorporation so that it contains\na statement that the corporation is a benefit corporation. The amendment\nshall not be effective unless it is adopted by at least the minimum\nstatus vote.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1704__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any corporation that is not a benefit corporation that is a party\nto a merger or consolidation in which the surviving or consolidated\ncorporation will be a benefit corporation must approve the plan of\nmerger or consolidation by at least the minimum status vote in addition\nto any other vote required by this chapter, the certificate of\nincorporation or the bylaws.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1704__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any corporation that is not a benefit corporation that is party to\na merger or consolidation in which shares of stock of such corporation\nwill be converted into a right to receive shares of stock of a benefit\ncorporation must approve the plan of merger or consolidation by at least\nthe minimum status vote in addition to any other vote required by this\nchapter, the certificate of incorporation or the bylaws.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

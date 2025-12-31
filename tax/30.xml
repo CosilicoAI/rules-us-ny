@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-30"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="30"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30">
+        <num>30</num>
+        <heading>Bad check or failed electronic funds withdrawal fee</heading>
+        <content>
+          <p>  § 30. Bad check or failed electronic funds withdrawal fee. If, in\npayment of any amount due under a tax, fee, special assessment or other\nimposition administered by the commissioner, a person tenders a check or\nmoney order to the department, or the department, with the consent of a\nperson, originates an electronic funds withdrawal against the designated\nbank account, and the check, money order or electronic funds withdrawal,\nas applicable, is returned without payment, the person must pay a fee to\nthe commissioner of fifty dollars; provided, however, that in the case\nof an electronic funds withdrawal, the fee will not be paid if the\nreason for return of the payment is attributable to error of the\ndepartment or its originating depository financial institution. The fee\nmust be paid upon notice and demand, and will be assessed, collected and\npaid in the same manner as the tax, fee, special assessment or other\nimposition to which the payment relates. All fees collected by the\ncommissioner pursuant to this subdivision must be deposited monthly, to\nthe credit of the general fund of the state. The commissioner will\nmaintain a system of accounts showing the amount of money collected from\nthe fee imposed by this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

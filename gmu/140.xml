@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-140"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-140"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="140"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-140/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-140/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-140/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-140/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140">
+        <num>140</num>
+        <heading>Trusts for public parks, playgrounds, libraries and public buildings</heading>
+        <content>
+          <p>  § 140. Trusts for public parks, playgrounds, libraries and public\nbuildings. It shall be lawful to grant and devise real estate, and to\ngive and bequeath personal property to trustees and their successors in\ntrust, for the purpose of creating, continuing and maintaining,\naccording to the terms, conditions and provisions of such grant, gift,\ndevise or bequest, one or more public parks, or public playgrounds, or a\npublic library, or a public building, or for the purpose of aiding and\ninstructing children, or for any one or more of such purposes, in any\ncity, village or town of this state. The number of such trustees shall\nnot be less than three nor more than nine.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

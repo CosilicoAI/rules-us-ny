@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-26"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-26"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="26"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-26/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-26/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-26/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-26/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26">
+        <num>26</num>
+        <heading>Refunds when sales cannot be completed</heading>
+        <content>
+          <p>  § 26. Refunds when sales cannot be completed.  Within three years\nafter the receipt thereof, moneys heretofore received by the division of\nthe land office in the department of state and transferred to the office\nof general services or heretofore or hereafter received by the office of\ngeneral services on account of sales of interests in real property\nordered by the office of general services or its predecessor, the board\nof commissioners of the land office, may be refunded to the person or\nparty for whose account same were received, upon satisfactory proof\nbeing submitted to the commissioner of general services that the sale or\nsales so ordered cannot be completed by the issuance of letters patent\nor an instrument of conveyance.\n  Notwithstanding the provisions of section one hundred twenty-one of\nthe state finance law, such refunds shall, upon approval by the\ncommissioner of general services and after audit by the comptroller, be\npaid from any moneys in the custody of the office of general services or\nheretofore transferred or received from the division of the land office\nas proceeds of sale of real property, except that moneys derived from\nthe sale of detached parcels of forest preserve lands as provided in\nsection twenty-four of the public lands law shall not be used to make\nrefunds with respect to inability to complete sales affecting other\nlands and such moneys shall be the sole fund from which to make refunds\nin cases of inability on the part of the state to complete sales, as\naforesaid, of such detached parcels of forest preserve lands.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

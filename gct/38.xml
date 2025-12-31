@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-38"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-38"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="38"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-38/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-38/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-38/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-38/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_38">
+        <num>38</num>
+        <heading>Court review</heading>
+        <content>
+          <p>  § 38. Court review. Any person or persons, jointly or severally\naggrieved by any decision of the planning board concerning such plat or\nthe changing of the zoning regulations of such land, or any officer,\ndepartment, board or bureau of the city, may obtain a review in the\nmanner provided by the civil practice law and rules provided the\nproceeding is commenced within thirty days after the filing of the\ndecision in the office of the city clerk.\n  Commencement of the proceeding shall stay proceedings upon the\ndecision appealed from.\n  The court may reverse or affirm, wholly or partly, or may modify the\ndecision brought up for review.\n  Costs shall not be allowed against the planning board, unless it shall\nappear to the court that it acted with gross negligence or in bad faith\nor with malice in making the decision appealed from.\n  All issues in any proceeding under this section shall have preference\nover all other civil actions and proceedings.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

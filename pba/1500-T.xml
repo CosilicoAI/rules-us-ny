@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-T"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-T"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1500-T"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1500_T">
+        <num>1500-T</num>
+        <heading>Contracting for municipal services</heading>
+        <content>
+          <p>  § 1500-t. Contracting for municipal services. In addition to any other\ngeneral or special powers vested in public benefit corporations for the\nperformance of their respective functions, powers or duties on an\nindividual, cooperative, joint, or contract basis, the authority shall\nhave power to enter into, amend, cancel, and terminate agreements with\nthe city of Buffalo for the provision and reimbursement of services. Any\nagreement entered into hereunder shall be subject to prior approval of\nthe common council of the city of Buffalo and the authority by a\nmajority vote of the voting strength of its governing body.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

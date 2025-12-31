@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-5.11"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-5.11"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-5.11"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-5.11/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-5.11/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-6-5.11/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-6-5.11/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_5_11">
+        <num>6-5.11</num>
+        <heading>Non-destructibility of remainders subject to a condition</heading>
+        <content>
+          <p>§ 6-5.11 Non-destructibility of remainders subject to a condition\n           precedent\n  A remainder is not defeated by the determination of a precedent estate\nbefore the occurrence of the condition precedent on which the remainder\nwas limited to take effect.  If such condition precedent subsequently\noccurs, the remainder takes effect in the same manner and to the same\nextent as if the precedent estate had continued.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

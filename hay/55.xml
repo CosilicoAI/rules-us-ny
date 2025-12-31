@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-55"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="55"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_55">
+        <num>55</num>
+        <heading>Emergency aid for control of snow and ice in municipalities</heading>
+        <subsection eId="sec_55__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>that such aid is required to promote the public\nwelfare,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_55__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that such municipality does not have available and is\nunable to secure and provide the necessary equipment, facilities and\npersonnel to perform the immediate work of control of snow and ice, and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_55__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>that adequate and appropriate provision has been made to reimburse\nthe state for any actual costs of labor and of maintenance and operation\nand for the depreciation of the necessary equipment and facilities of\nthe state. The governing board or body of any such municipality and the\ncommissioner of transportation are hereby authorized to enter into a\ncontract for the purposes of this section upon such terms and conditions\nas shall be reasonable for the protection of the public.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-107-A"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-107-A"/>
+          <FRBRdate date="2016-09-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-107-A"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-107-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-107-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-14-107-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-14-107-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_107_A">
+        <num>14-107-A</num>
+        <heading>Prohibited spending by independent expenditure committees and political action committees</heading>
+        <subsection eId="sec_14_107_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A political action committee shall not make any independent\nexpenditures and may only make contributions to any independent\nexpenditure committee if such committee does not have common operational\ncontrol. For purposes of this paragraph, "common operational control"\nmeans that</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_14_107_A__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the same individual or individuals exercise actual and\nstrategic control over the day-to-day affairs of both the political\naction committee and the independent expenditure committee, or (ii)\nemployees of the political action committee and the independent\nexpenditure committee engage in communications related to the strategic\noperations of either committee.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_14_107_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No candidate, candidate's authorized committee, party committee,\nor constituted committee shall contribute to an independent expenditure\ncommittee that is making expenditures benefitting the candidate or the\ncandidate supported by such party or constituted committee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

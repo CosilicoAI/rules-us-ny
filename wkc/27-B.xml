@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-27-B"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-27-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-B"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-27-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-27-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-27-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-27-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_B">
+        <num>27-B</num>
+        <heading>Amortization of gains or losses</heading>
+        <content>
+          <p>  § 27-b. Amortization of gains or losses. Gains or losses realized by\nthe aggregate trust fund as a result of transactions made pursuant to\nsubdivision two of section twenty-seven-a, or section twenty-seven-c of\nthis chapter, shall be transferred to a special asset account to be\nknown as the deferred charge on account of security transactions and\nshall be amortized within such account on a basis which matches as\nnearly as possible all gains or losses so realized against any increase\nor decrease in income resulting from the reinvestment of the proceeds of\nsuch transactions, provided that the period of amortization of the gain\nor loss resulting from the disposition of each investment shall not be\nlonger than the unexpired period from the date of such disposition to\nthe maturity of the investment so disposed of, or on such other basis as\nthe superintendent of financial services may authorize in his\ndiscretion.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

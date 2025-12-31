@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1001"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1001"/>
+          <FRBRdate date="2022-09-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1001"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1001/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1001/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1001">
+        <num>1001</num>
+        <heading>Hours worked and full-time employment</heading>
+        <content>
+          <p>  § 1001. Hours worked and full-time employment. The following shall\napply for the purposes of certifying employment for the purposes of the\npublic service loan forgiveness program only and shall have no other\napplicability for public service employers and their employees.\n  1. For faculty or teacher employees, a public service employer\ncertifying employment after the effective date of this subdivision shall\ncredit 3.35 hours worked for each hour of lecture or classroom time,\nregardless of when the hours were worked, including hours worked prior\nto the effective date of this subdivision. This subdivision does not\nsupersede any greater adjustment factor established by a collective\nbargaining agreement or employer policy in recognition of additional\nwork associated with lecture or classroom time for the purpose of the\npublic service loan forgiveness program.\n  2. When determining whether an employee is considered "full-time," as\nthat term is defined in this article, for the purpose of certifying\nemployment for the public service loan forgiveness program only, a\npublic service employer shall not treat any adjusted total hours worked\npursuant to subdivision one of this section differently from hours\nworked without an adjustment factor.\n  3. For the purpose of certifying employment only, a public service\nemployer shall consider as "full-time" any employee who satisfies the\ndefinition of "full-time" provided in this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

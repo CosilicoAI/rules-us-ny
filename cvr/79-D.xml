@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-D"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79-D"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-79-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-79-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_D">
+        <num>79-D</num>
+        <heading>Creditor of convict</heading>
+        <content>
+          <p>  § 79-d. Creditor of convict. A person injured by the commission of a\nfelony, for which the offender is sentenced to imprisonment in a state\nprison, is deemed the creditor of the offender, and of his estate after\nhis death, within the provisions of the statutes relating thereto.\n  The damages sustained by the person injured by the felonious act, may\nbe ascertained in an action brought for that purpose by him against the\ntrustees of the estate of the offender, appointed under the provisions\nof the statutes, or the executor or administrator of the offender's\nestate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-200"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-200"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200">
+        <num>200</num>
+        <heading>Defining qualifications of exempt volunteer firefighters</heading>
+        <subsection eId="sec_200__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision one of section eighty-five of the\ncivil service law, who, as a result of such military service, shall have\nbecome incapacitated for performing the full duties of a volunteer\nfirefighter, or to a volunteer firefighter who, as the result of the\nperformance of his or her duties as such, shall have become likewise\nincapacitated, but any such volunteer firefighter shall be an exempt\nvolunteer firefighter even though he or she may have served as such for\na lesser period than five years, and he or she shall be entitled to a\ncertificate as provided in section two hundred two of this article\nwhich, in addition to the specifications contained in said section,\nshall set forth the facts in reference to his or her military service,\nif any, as aforesaid and that as a result of such military service, or\nas the result of service as a volunteer firefighter, he or she was\nincapacitated for performing the full duties of a volunteer firefighter.\nThe term "military service" as used in this section shall mean the same\nas the term "military duty" as used in section two hundred forty-three\nof the military law, except that it shall relate to service for an ally\nof the United States in world war II as well as to service for the\nUnited States.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

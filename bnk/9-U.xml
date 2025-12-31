@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-U"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-U"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-U"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-9-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-9-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_U">
+        <num>9-U</num>
+        <heading>ATM transactions by persons using foreign bank accounts</heading>
+        <content>
+          <p>  § 9-u. ATM transactions by persons using foreign bank accounts. 1.\nSubject to the requirements of section three hundred ninety-nine-y of\nthe general business law, as added by chapter four hundred ninety-five\nof the laws of nineteen hundred ninety-nine, an agreement to operate or\nshare an automated teller machine shall not have the effect of\nprohibiting, limiting or restricting the right of the operator or owner\nof the automated teller machine to charge a customer who is conducting a\ntransaction using an account from a financial institution that is\nlocated outside the United States an access fee or surcharge not\notherwise prohibited under state or federal law.\n  2. Nothing in this section shall be construed to prohibit or otherwise\nlimit the ability of an operator or owner of an automated teller machine\nto voluntarily enter into an agreement regarding participation in a\nsurcharge free network.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

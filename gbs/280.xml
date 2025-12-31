@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-280"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-280"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="280"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-280/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-280/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-280/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-280/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_280">
+        <num>280</num>
+        <heading>Duty of carrier as to unclaimed articles</heading>
+        <content>
+          <p>  § 280. Duty of carrier as to unclaimed articles. The proprietors of\nthe several lines of stages and the proprietors of the several canal\nboat lines, and the proprietors of the several steamboats, who shall\nhave any unclaimed trunks, boxes or baggage within their custody, shall\nimmediately enter the time the same was left, with a proper description\nthereof, in a book to be by them provided and kept for that purpose. In\ncase the name and residence of the owner shall be ascertained it shall\nbe the duty of such person who shall have any such property as above\nspecified, to immediately notify the owner thereof by mail.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-139"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-139"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="139"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-139/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-139/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-139/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-139/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139">
+        <num>139</num>
+        <heading>Exemptions</heading>
+        <content>
+          <p>  § 139. Exemptions.  The provisions of this article do not apply\n  1. To seed not intended for planting purposes.\n  2. To seed sold by the grower thereof on his own premises and\ndelivered to the vendee or his agent or representative personally on\nsuch premises unless such seed has been advertised as being for sale.\n  3. To seed in storage in, or consigned to, a seed cleaning or\nprocessing establishment for cleaning or processing: Provided, that any\nlabeling or other representation which may be made with respect to the\nuncleaned and unprocessed seed shall be subject to this article.\n  4. To any carrier in respect to any seed transported or delivered for\ntransportation in the ordinary course of its business as a carrier,\nprovided, that such carrier is not engaged in producing, processing, or\nmarketing seed subject to the provisions of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

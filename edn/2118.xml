@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2118"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2118"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2118"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2118/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2118/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2118/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2118/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2118">
+        <num>2118</num>
+        <heading>Expenses of school district officers</heading>
+        <content>
+          <p>  § 2118. Expenses of school district officers.  All school district\nofficers, including trustees and members of boards of education, shall\nbe entitled to be reimbursed for any expenses actually and necessarily\nincurred in the performance of their official duties.  Mileage rates\nestablished for the use of personally owned cars in lieu of auditing and\nallowing claims for actual and necessary expenses of travel under the\nprovisions of subdivision twenty-seven of section sixteen hundred four\nof this chapter, shall apply to claims under this section.  This section\nshall not apply to district superintendents of schools.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

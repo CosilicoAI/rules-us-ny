@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-18-C"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-18-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="18-C"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-18-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-18-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-18-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-18-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_C">
+        <num>18-C</num>
+        <heading>Sick leave for per diem employees</heading>
+        <content>
+          <p>  § 18-c. Sick leave for per diem employees. A per diem officer or\nemployee holding a position in the competitive, non-competitive or labor\nclass of the civil service of the state whose compensation or salary is\non a per diem basis may be granted a sick leave with pay of not more\nthan thirty days in each year by the head of the department, bureau,\ncommission, agency, board or council of said state. The provisions of\nthis section shall not apply to any employee who is subject to the rules\ngoverning sick leave, vacation and other time allowances adopted by the\nstate civil service commission pursuant to law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

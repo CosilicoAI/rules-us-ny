@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-309.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-309.1"/>
+          <FRBRdate date="2022-04-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="309.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-309.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-309.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-309.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-309.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_309_1">
+        <num>309.1</num>
+        <heading>Community based treatment referrals</heading>
+        <content>
+          <p>  § 309.1. Community based treatment referrals. 1. A youth who is\nreleased prior to the filing of a petition shall be made aware of and\nreferred to community based organizations offering counseling,\ntreatment, employment, educational, or vocational services in which they\nmay voluntarily enroll or participate. Such services shall be separate\nfrom and in addition to any adjustment services provided under section\n308.1 of this part, where applicable.\n  2. The youth shall be advised that the service referrals are being\nmade as a resource and participation in them is voluntary and that\nrefusal to participate will not negatively impact any aspect of their\npending case.  Provided, however, nothing shall preclude the youth from\nvoluntarily providing information, after consulting with their attorney,\ndemonstrating successful enrollment, participation, and completion,\nwhere applicable, of any such services. The court shall consider any\ninformation provided by the youth regarding such participation in the\ncase proceedings including but not limited to dispositional or placement\ndeterminations. The court may require supporting documentation for any\nsuch consideration that the youth requests, provided however, that such\ninformation shall be maintained as confidential in accordance with any\napplicable state or federal law.\n  3. No statements made to probation when discussing any service\nreferrals under this section shall be admissible in a fact-finding\nhearing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

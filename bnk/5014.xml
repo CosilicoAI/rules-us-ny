@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5014"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5014"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5014"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5014/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5014/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-5014/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-5014/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5014">
+        <num>5014</num>
+        <heading>Reacquired shares</heading>
+        <subsection eId="sec_5014__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the corporation by action of the board shall file a\ncertificate of amendment under section eight thousand five eliminating\nsuch shares from the number of authorized shares, except that if the\norganization certificate does not prohibit the reissue of such shares,\nsuch shares may with the written approval of the superintendent be\nrestored to the status of authorized but unissued shares, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5014__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>unless\nstated in a certificate of amendment so filed, a certificate of the\ncorporation shall be signed, verified and filed as provided in section\none thousand three stating the number of shares of each class or series\nthereof so cancelled, the manner of reacquisition thereof and, if\nconverted shares, the number of shares of each class or series thereof\ninto which the same were converted, and such other information with\nrespect thereto as the superintendent may require.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

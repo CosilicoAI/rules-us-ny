@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1725-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1725_A">
+        <num>1725-A</num>
+        <heading>Powers of boards of education; instructional equipment</heading>
+        <content>
+          <p>  § 1725-a. Powers of boards of education; instructional equipment.\nNotwithstanding any inconsistent provision of law, the board of\neducation of any school district is hereby authorized and empowered to\nenter into agreements for the lease-purchase of instructional equipment,\nwith the payments to be applied against the purchase price of the\nequipment. The term "instructional equipment" shall be defined in\nregulations by the commissioner. Any such lease-purchase agreements\nshall have the prior written approval of the commissioner before\nexecution. Such agreements shall be subject to the bidding requirements\nof the general municipal law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

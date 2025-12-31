@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1607"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1607"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1607"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1607/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1607/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1607/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1607/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1607">
+        <num>1607</num>
+        <heading>Cooperation with other departments</heading>
+        <content>
+          <p>  § 1607. Cooperation with other departments. The board may request from\nany department, division, board, bureau, commission or other agency of\nthe state, and the same are authorized to provide, without additional\ncompensation, such assistance, services and data as may be necessary to\ncarry out the purpose of this article. The board may, within\nappropriations available therefor, employ such other personnel as may be\nnecessary to carry out its responsibilities under this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

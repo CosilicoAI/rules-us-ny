@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-512"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-512"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512">
+        <num>512</num>
+        <heading>Limitation of liability for unauthorized use of a credit card or a debit card</heading>
+        <content>
+          <p>  § 512. Limitation of liability for unauthorized use of a credit card\nor a debit card. A provision which imposes liability upon a holder for a\ncash advance or loan or for the purchase or lease of property or\nservices obtained by the unauthorized use of a credit card or a debit\ncard shall not be enforceable to the extent that it imposes a greater\nliability upon the holder than is imposed upon the holder of a credit\ncard under the provisions of the act of congress entitled "Truth in\nLending Act" and the regulations thereunder, as such act and regulations\nmay from time to time be amended.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

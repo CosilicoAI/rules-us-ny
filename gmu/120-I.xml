@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-I"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120-I"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-120-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-120-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_I">
+        <num>120-I</num>
+        <heading>Means of payment</heading>
+        <content>
+          <p>  § 120-i. Means of payment. The indebtedness created for such public\nworks may be paid by each contracting municipality, including a sewer\ndistrict of a town, partly by assessment on the property deemed\nspecially benefited by such improvement and partly by a charge on such\nmunicipality at large. In the case of a sewer district of a town the\npetition for the creation thereof or a supplemental petition may state\nthe means of payment as above provided and the assessment therein shall\nbe made in form and substance so far as applicable as provided in\nsection two hundred and thirty-seven of said law, except that such sewer\ncommissioner shall assess a part of the district's proportionate share\nof the total cost of such system on the lands within such district, or\nextension of an existing district in proportion, as nearly as may be, to\nthe benefit which each lot or parcel will derive therefrom. Such sewer\ncommissioners shall determine the amount to be raised by general\ntaxation for such expense. Nothing herein contained shall be construed\nas preventing the contracting municipalities from paying such\nindebtedness, in whole or in part, by the issuance of obligations\npursuant to the terms of the local finance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

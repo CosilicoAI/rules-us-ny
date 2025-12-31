@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-253"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-253"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="253"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-253/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-253/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-253/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-253/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_253">
+        <num>253</num>
+        <heading>Consumer defenses</heading>
+        <content>
+          <p>  § 253. Consumer defenses. A creditor, who made a consumer loan the\nproceeds of which were primarily used in a consumer sale, shall be\nsubject to all of the defenses of a consumer arising from such consumer\nsale, provided that the creditor knowingly participated in or was\ndirectly connected with such consumer sale. The creditor's liability\nunder this article shall not exceed the amount owing to the creditor at\nthe time the defenses of the consumer are asserted against the creditor.\nRights of the consumer under this article can only be asserted as a\nmatter of defense to or set-off against a claim by the creditor.  The\ncreditor shall be subrogated to the rights of the consumer arising from\nthe consumer sale and shall have recourse against the seller to the\nextent of any liability incurred by the creditor pursuant to this\narticle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

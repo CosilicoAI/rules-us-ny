@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-B"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="344-B"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-344-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-344-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344_B">
+        <num>344-B</num>
+        <heading>Portion of the state highway system to be designated as the "Levon Helm Memorial Boulevard"</heading>
+        <content>
+          <p>  * § 344-b. Portion of the state highway system to be designated as the\n"Levon Helm Memorial Boulevard". All that portion of the state highway\nsystem constituting New York state route 375, beginning at the\nintersection of New York state route 28 in West Hurley, county of Ulster\nand continuing north 2.92 miles to its intersection of New York state\nroute 212 in Woodstock, shall be designated and known as the "Levon Helm\nMemorial Boulevard".\n  * NB There are 8 § 344-b's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

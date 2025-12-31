@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-300"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-300"/>
+          <FRBRdate date="2019-12-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="300"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-300/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-300/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-300/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-300/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_300">
+        <num>300</num>
+        <heading>Construction</heading>
+        <content>
+          <p>  § 300. Construction. The provisions of this article shall be construed\nliberally for the accomplishment of the remedial purposes thereof,\nregardless of whether federal civil rights laws, including those laws\nwith provisions worded comparably to the provisions of this article,\nhave been so construed. Exceptions to and exemptions from the provisions\nof this article shall be construed narrowly in order to maximize\ndeterrence of discriminatory conduct. Nothing contained in this article\nshall be deemed to repeal any of the provisions of the civil rights law\nor any other law of this state relating to discrimination; but, as to\nacts declared unlawful by section two hundred ninety-six of this\narticle, the procedure herein provided shall, while pending, be\nexclusive; and the final determination therein shall exclude any other\nstate civil action based on the same grievance of the individual\nconcerned. If such individual institutes any action based on such\ngrievance without resorting to the procedure provided in this article,\nhe or she may not subsequently resort to the procedure herein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

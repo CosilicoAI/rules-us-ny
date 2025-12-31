@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-313"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-313"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="313"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-313/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-313/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-313/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-313/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_313">
+        <num>313</num>
+        <heading>Settlement of cases involving stayed proceeding in foreclosure or repossession of personal property</heading>
+        <content>
+          <p>  § 313. Settlement of cases involving stayed proceeding in foreclosure\nor repossession of personal property.  Where a proceeding to foreclose a\nmortgage upon or to resume possession of personal property, or to\nrescind or terminate a contract for the purchase thereof, has been\nstayed as provided in this act, the court may, unless in its opinion an\nundue hardship would result to the dependents of the person in military\nservice, appoint three disinterested parties to appraise the property\nand, based upon the report of the appraisers, order such sum, if any, as\nmay be just, paid to the person in military service or his dependent, as\nthe case may be, as a condition of foreclosing the mortgage, resuming\npossession of the property, or rescinding or terminating the contract.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-175"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-175"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-175/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-175/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175">
+        <num>175</num>
+        <heading>Legitimacy of children</heading>
+        <content>
+          <p>  § 175. Legitimacy of children. 1. Where the action for divorce is\nbrought by the wife, the legitimacy of any child of the parties, born or\nbegotten before the commencement of the action, is not affected by the\njudgment dissolving the marriage.\n  2. Where the action for divorce is brought by the husband, the\nlegitimacy of a child born or begotten before the commission of the\noffense charged is not affected by a judgment dissolving the marriage;\nbut the legitimacy of any other child of the wife may be determined as\none of the issues in the action. In the absence of proof to the\ncontrary, the legitimacy of all the children begotten before the\ncommencement of the action must be presumed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

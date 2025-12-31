@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-682"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-682"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="682"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-682/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-682/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-682/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-682/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_682">
+        <num>682</num>
+        <heading>Scope</heading>
+        <content>
+          <p>  § 682. Scope. The disclosure requirements mandated by this article\napply to all written or oral arrangements between a franchisor and\nfranchisee in connection with the offer or sale of a franchise,\nincluding, but not limited to, the franchise offering, the franchise\nagreement, sales of goods or services, leases and mortgages of real or\npersonal property, promises to pay, security interests, pledges,\ninsurance, advertising, construction or installation contracts,\nservicing contracts, and all other arrangements in which the franchisor\nor subfranchisor has an interest.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

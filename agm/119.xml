@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-119"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-119"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="119"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-119/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-119/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-119/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-119/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_119">
+        <num>119</num>
+        <heading>Disposition of fines</heading>
+        <content>
+          <p>  § 119. Disposition of fines. Notwithstanding any other provision of\nlaw, all moneys collected as fines or penalties by any municipality as a\nresult of any prosecution for violations of the provisions of this\narticle or any local law or ordinance and all bail forfeitures by\npersons charged with such violations shall be the property of the\nmunicipality and shall be paid to the financial officer of such\nmunicipality. Such moneys shall be used only for controlling dogs and\nenforcing this article and any rule, regulation, or local law or\nordinance adopted pursuant thereto, including subsidizing the spaying or\nneutering of dogs and any facility as authorized under section one\nhundred sixteen of this article used therefor, and subsidizing public\nhumane education programs in responsible dog ownership.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

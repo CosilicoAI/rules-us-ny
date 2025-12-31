@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-307.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-307.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="307.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-307.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-307.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-307.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-307.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_307_1">
+        <num>307.1</num>
+        <heading>Family court appearance ticket</heading>
+        <content>
+          <p>  § 307.1. Family court appearance ticket. 1. A family court appearance\nticket is a written notice issued and subscribed by a peace officer or\npolice officer, a probation service director or his designee or the\nadministrator responsible for operating a detention facility or his\ndesignee, directing a child and his parent or other person legally\nresponsible for his care to appear, without security, at a designated\nprobation service on a specified return date in connection with the\nchild's alleged commission of the crime or crimes specified on such\nappearance ticket. The form of a family court appearance ticket shall be\nprescribed by rules of the chief administrator of the courts.\n  2. If the crime alleged to have been committed by the child is a\ndesignated felony as defined by subdivision eight of section 301.2, the\nreturn date shall be no later than seventy-two hours excluding\nSaturdays, Sundays and public holidays after issuance of such family\ncourt appearance ticket. If the crime alleged to have been committed by\nsuch child is not a designated felony, the return date shall be no later\nthan fourteen days after the issuance of such appearance ticket.\n  3. A copy of the family court appearance ticket shall be forwarded by\nthe issuing person or agency to the complainant, respondent,\nrespondent's parent, and appropriate probation service within\ntwenty-four hours after its issuance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

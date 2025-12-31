@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-III"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-III"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-III"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-III/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-III/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-160-III/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-160-III/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_III">
+        <num>160-III</num>
+        <heading>Insurance premiums</heading>
+        <content>
+          <p>  § 160-iii. Insurance premiums. Nothing in this article or in the\nprovisions of the workers' compensation law pertaining to coverage of\nlivery drivers under this article shall be construed as limiting the\ndiscretion of the state insurance fund, in providing coverage to the New\nYork independent livery driver benefit fund, inc., in choosing a premium\nbasis, rating plan or setting a rate to cover the risk posed by insuring\nsuch fund.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

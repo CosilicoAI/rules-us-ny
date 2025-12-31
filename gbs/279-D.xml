@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="279-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-279-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-279-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_279_D">
+        <num>279-D</num>
+        <heading>Prohibited acts</heading>
+        <content>
+          <p>  § 279-d. Prohibited acts. It is hereby declared unlawful for any\nperson to fill or use, to give, buy, take, destroy, sell or otherwise\ndispose of, or traffic in, vessels, receptacles or utensils, upon which\na name, mark or device which has been filed hereunder is produced, or\nrefuse to return such vessel, receptacle or utensil on demand of the\nowner, or to deface, erase, obliterate, cover up or otherwise remove or\nconceal any such name, mark or device, unless in each case written\nconsent of the owner is obtained or unless the vessels, receptacles or\nutensils shall have been purchased from the said owner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

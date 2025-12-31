@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-862"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-862"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="862"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-862/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-862/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-862/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-862/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_862">
+        <num>862</num>
+        <heading>Recision and other penalties</heading>
+        <content>
+          <p>  § 862. Recision and other penalties. If a merchant fails to comply\nwith the disclosure provisions of section eight hundred fifty-seven of\nthis article, the transferee may rescind the transaction. In addition,\nwhere the merchant has made knowingly false statements to a transferee,\nthe transferee may recover actual damages, if any, and a penalty in the\nsum of two hundred fifty dollars. The remedies provided in this section\nare in addition to other remedies available by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

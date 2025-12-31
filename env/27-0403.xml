@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0403"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0403"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-0403"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0403/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0403/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0403/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0403/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_0403">
+        <num>27-0403</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>§ 27-0403. Legislative intent.\n  The legislature hereby finds and declares that development and\nimplementation of local programs to conserve energy through sound solid\nwaste management efforts can be of broad benefit to the state. Through\nutilization of resource reuse and other programs, primary raw materials\ncan be conserved, energy savings can be gained, the amount of waste\ndisposed of in landfills can be reduced, and, through proper management\nof the waste stream, improved operations at waste-to-energy facilities\nmay be realized. In recognition of the potential benefits to be accrued\nfrom implementing sound solid waste management programs, the legislature\nhereby declares that a program directed toward enhancing the state's\nresource reuse efforts will provide energy, economic and environmental\nbenefits for New York state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

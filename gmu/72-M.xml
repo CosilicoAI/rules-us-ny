@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-72-M"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-72-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="72-M"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-72-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-72-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-72-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-72-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_M">
+        <num>72-M</num>
+        <heading>Appropriations for Bicentennial celebration</heading>
+        <content>
+          <p>  * § 72-m. Appropriations for Bicentennial celebration. A municipal\ncorporation may after a public hearing appropriate annually a sum that\nit deems appropriate for the purpose of defraying the expenses of the\npreparation and celebration of the bicentennial celebration of the\nUnited States of America. The provisions of this section shall remain in\nfull force and effect until December thirty-first, nineteen hundred\nseventy-seven.\n  * NB There are 2 § 72-m's\n  * NB Expired December 31, 1977\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

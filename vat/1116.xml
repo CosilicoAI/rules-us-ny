@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1116"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1116"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1116">
+        <num>1116</num>
+        <heading>Lane-use control signal indications</heading>
+        <subsection eId="sec_1116__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Traffic facing a steady downward green arrow signal indication is\npermitted to drive in the lane over which the arrow signal indication is\nlocated.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1116__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Traffic facing a steady yellow X signal indication shall prepare\nto vacate the lane over which the signal indication is located because a\nlane control change is being made to a steady red X signal indication.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1116__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Traffic facing a steady white two-way left-turn arrow signal\nindication is permitted to use a lane over which the signal indication\nis located for a left turn, but not for through travel, with the\nunderstanding that common use of the lane by oncoming road users for\nleft turns is also permitted.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1116__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Traffic facing a steady white one way left-turn arrow signal\nindication is permitted to use a lane over which the signal indication\nis located for a left turn (without opposing turns in the same lane),\nbut not for through travel.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1116__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>Traffic facing a steady red X signal shall not use the lane over\nwhich the signal indication is located and this signal indication shall\nmodify accordingly the meaning of other traffic controls present.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

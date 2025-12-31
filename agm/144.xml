@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-144"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-144"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="144"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-144/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-144/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-144/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-144/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_144">
+        <num>144</num>
+        <heading>Guaranteed analysis</heading>
+        <content>
+          <p>  § 144. Guaranteed analysis. Guaranteed analysis shall contain a\nstatement of chemical composition in the following form:\n  a. A statement of the minimum percentage of claimed plant nutrients\nshall be expressed in whole numbers or as decimal fractions for\nspecialty fertilizers and in whole numbers for all other commercial\nfertilizers, as follows:\n      Total nitrogen (N)..........................percent\n      Available phosphoric acid (P2O5) or available\n      phosphate P2O5..............................percent\n      Soluble potash (K2O)........................percent\n  b. For unacidulated mineral phosphatic materials and basic slag, bone,\ntankage and other organic phosphate materials, the total phosphoric acid\nand/or degree of fineness may also be guaranteed if expressed in whole\nnumbers.\n  c. Guarantees for plant nutrients except phosphoric acid and potash\nshall be expressed in the form of the element in a manner prescribed by\nthe commissioner. The sources of such other nutrients (oxides, salt,\nchelates, etc.) may be included as a parenthetical statement on the\nlabel. Other beneficial substances or compounds, determinable by\nlaboratory methods, also may be guaranteed if approved in regulations\npromulgated by the commissioner.\n  d. A statement of the potential basicity or acidity expressed in terms\nof calcium carbonate equivalent in multiples of one hundred pounds per\nton, if required by regulation of the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

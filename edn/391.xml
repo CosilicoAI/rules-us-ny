@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-391"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-391"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="391"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-391/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-391/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-391/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-391/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391">
+        <num>391</num>
+        <heading>Optional retirement program established</heading>
+        <subsection eId="sec_391__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the nature and extent of\nthe rights and benefits to be provided by such contracts for electing\nemployees and their beneficiaries, (ii) the relation of such rights and\nbenefits to the amount of contributions to be made under this article,\n(iii) the suitability of such rights and benefits to the needs and\ninterests of electing employees and to the interests of state university\nand of electing employers in the employment and retention of eligible\nemployees, and (iv) the authority and ability of the designated insurer\nor insurers to provide rights and benefits under such contracts.\n  3. The board is hereby authorized to provide for the administration of\nsuch optional retirement program and to perform or authorize the\nperformance of such functions as may be necessary for such purposes in\naccordance with this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

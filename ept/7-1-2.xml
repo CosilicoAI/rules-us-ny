@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-1.2"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-1.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-1.2"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-1.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-1.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-1.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-1.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_1_2">
+        <num>7-1.2</num>
+        <heading>Trustee of passive trust not to take</heading>
+        <content>
+          <p>§ 7-1.2 Trustee of passive trust not to take\n  Every disposition of property shall be made directly to the person in\nwhom the right to possession and income is intended to be vested and not\nto another in trust for such person, and if made to any person in trust\nfor another, no estate, legal or equitable, vests in the trustee. But\nneither this section nor 7-1.1 shall apply to trusts arising or\nresulting by implicaiton of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

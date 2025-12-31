@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-64"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-64"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="64"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-64/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-64/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-64/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-64/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_64">
+        <num>64</num>
+        <heading>Maintenance by state of certain improved roads and highways</heading>
+        <content>
+          <p>  § 64. Maintenance by state of certain improved roads and highways. The\ncommissioner of transportation may inspect all roads and highways which\nhave been constructed or improved under any general or special law by\nthe county, town or village which are indicated for improvement in\nsection three hundred and forty-one of this act, and if any such road is\nproperly constructed he shall make an order directing that such highway\nbe taken over by the state for maintenance as a state highway. Such\norder shall be served upon the chairman of the board of supervisors and\na certified copy thereof filed in the office of the county clerk and\nalso in the office of the state comptroller.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-519-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-519-A"/>
+          <FRBRdate date="2024-10-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="519-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-519-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-519-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-519-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-519-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_519_A">
+        <num>519-A</num>
+        <heading>Credit cards and payment for health care services</heading>
+        <content>
+          <p>  § 519-a. Credit cards and payment for health care services. 1. For\npurposes of this section, the term "credit card" shall have the same\nmeaning as in section five hundred eleven of this article.\n  2. No hospital or health care provider shall require credit card\npre-authorization nor require the patient to have a credit card on file\nprior to providing emergency or medically necessary medical services to\nsuch patient.\n  3. Hospitals and health care providers shall notify all patients about\nthe risks of paying for medical services with a credit card. Such\nnotification shall highlight the fact that by using a credit card to pay\nfor medical services, the patient is forgoing state and federal\nprotections that regard medical debt. The commissioner of health shall\nhave the authority and sole discretion to set requirements for the\ncontents of such notices.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

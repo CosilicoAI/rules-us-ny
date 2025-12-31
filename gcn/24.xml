@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-24"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-24"/>
+          <FRBRdate date="2020-10-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="24"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_24">
+        <num>24</num>
+        <heading>Public holidays; half-holidays</heading>
+        <content>
+          <p>  § 24. Public holidays; half-holidays. The term public holiday includes\nthe following days in each year: the first day of January, known as New\nYear's day; the third Monday of January, known as Dr. Martin Luther\nKing, Jr. day; the twelfth day of February, known as Lincoln's birthday;\nthe third Monday in February, known as Washington's birthday; the last\nMonday in May, known as Memorial day; the second Sunday in June, known\nas Flag day; the nineteenth day of June, known as Juneteenth; the fourth\nday of July, known as Independence day; the first Monday in September,\nknown as Labor day; the second Monday in October, known as Columbus day;\nthe eleventh day of November, known as Veterans' day; the fourth\nThursday in November, known as Thanksgiving day; and the twenty-fifth\nday of December, known as Christmas day, and if any of such days except\nFlag day is Sunday, the next day thereafter; each general election day,\nand each day appointed by the president of the United States or by the\ngovernor of this state as a day of general thanksgiving, general fasting\nand prayer, or other general religious observances. The term\nhalf-holiday includes the period from noon to midnight of each Saturday\nwhich is not a public holiday.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1101"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1101"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1101">
+        <num>1101</num>
+        <heading>Attorney-general's action for judicial dissolution</heading>
+        <subsection eId="sec_1101__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The attorney-general may bring an action for the dissolution of a\ncorporation upon one or more of the following grounds:\n</p>
+          </content>
+          <paragraph eId="sec_1101__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>That the corporation procured its formation through fraudulent\nmisrepresentation or concealment of a material fact.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1101__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>That the corporation has exceeded the authority conferred upon it\nby law, or has violated any provision of law whereby it has forfeited\nits charter, or carried on, conducted or transacted its business in a\npersistently fraudulent or illegal manner, or by the abuse of its powers\ncontrary to the public policy of the state has become liable to be\ndissolved.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_1101__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>An action under this section is triable by jury as a matter of\nright.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1101__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The enumeration in paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1101__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of grounds for dissolution shall\nnot exclude actions or special proceedings by the attorney-general or\nother state officials for the annulment or dissolution of a corporation\nfor other causes as provided in this chapter or in any other statute of\nthis state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

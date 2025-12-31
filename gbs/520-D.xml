@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="520-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-520-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-520-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_520_D">
+        <num>520-D</num>
+        <heading>Unsolicited convenience checks</heading>
+        <subsection eId="sec_520_D__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"check" means any negotiable instrument, as defined by section\n3-104 of the uniform commercial code, that has imprinted on it the\nholder's name and the depository institution's name, location, and\nrouting number.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_520_D__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"unsolicited check" means any check mailed or otherwise delivered\nto a holder by an issuer or agent acting on behalf of an issuer for the\npurpose of drawing on an existing account that is an extension of credit\nor activating an account to obtain credit other than:\n</p>
+          </content>
+          <paragraph eId="sec_520_D__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>in response to a request or application for a check or account; or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_520_D__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>as a substitute for a check or account previously issued to the\nperson to whom the check is mailed or otherwise delivered.\n  2. No holder in whose name an unsolicited check is issued shall be\nliable for any amount resulting from use of that check or account,\nunless the holder has accepted the check or account by using the check\nor account. Failure to destroy or return an unsolicited check shall not\nconstitute acceptance of the check or account.\n  3. Any agreement entered into by a holder which waives, limits or\ndisclaims the rights set forth in this section shall be void as contrary\nto public policy.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

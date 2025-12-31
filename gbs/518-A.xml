@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-518-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-518-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="518-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-518-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-518-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-518-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-518-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_518_A">
+        <num>518-A</num>
+        <heading>Presentment of social security number as condition for accepting a check, traveler's check, gift certificate, money order or other negoti...</heading>
+        <content>
+          <p>  § 518-a. Presentment of social security number as condition for\naccepting a check, traveler's check, gift certificate, money order or\nother negotiable instrument in payment of sales transaction prohibited.\n1. No seller in any sales transaction shall record on a check,\ntraveler's check, gift certificate, money order, other negotiable\ninstrument or attachment thereto, a social security number of a buyer in\nsuch transaction as a condition for accepting such instrument as payment\nin such transaction. Nothing contained in this subdivision shall\nprohibit a seller from so recording the identifying number from a\nbuyer's driver's license where such number is identical to or is a part\nof the buyer's social security number.\n  2. A violation of the provisions of this section shall be punishable\nby a civil fine not to exceed one hundred dollars for a first violation\nand not to exceed two hundred fifty dollars for subsequent violations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

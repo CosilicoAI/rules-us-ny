@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-304"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-304"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-304/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-304/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304">
+        <num>304</num>
+        <heading>Local boards of health; town boards; jurisdiction; appropriations</heading>
+        <content>
+          <p>  § 304. Local boards of health; town boards; jurisdiction;\nappropriations.  A town board of health shall not have jurisdiction over\nany city or incorporated village or part of such city or village in such\ntown unless otherwise provided by law. Appropriations for a town board\nof health in a town in which there are one or more incorporated villages\nshall be a charge upon the taxable property of that part of the town\noutside of any incorporated village and shall be assessed, levied and\ncollected therefrom in the same manner as other town charges levied on\nproperty outside of incorporated villages.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

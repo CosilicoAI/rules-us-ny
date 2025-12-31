@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-67"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-67"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="67"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-67/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-67/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-67/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-67/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_67">
+        <num>67</num>
+        <heading>Additional counsel</heading>
+        <content>
+          <p>  § 67. Additional counsel.  The governor or attorney-general may\ndesignate and employ such additional attorneys or counsel as may be\nnecessary to assist in the transaction of any of the legal business\nmentioned in section sixty-three of this chapter and such attorneys or\ncounsel shall be paid a reasonable fee upon the certificate of the\ngovernor and attorney-general, the amount thereof to be audited and\nallowed by them or to be paid by the attorney-general out of costs,\npenalties and judgments collected by him, prior to the payment thereof\ninto the state treasury as required by section one hundred twenty-one of\nthe state finance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

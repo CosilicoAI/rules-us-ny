@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-10"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-10"/>
+          <FRBRdate date="2022-12-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="10"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_10">
+        <num>10</num>
+        <heading>Licenses to adult blind persons</heading>
+        <content>
+          <p>  § 10. Licenses to adult blind persons. The mayor of any city shall\nhave the power to issue a license to any adult blind person for the\nvending of goods, or newspapers in such places as he or she may set\naside for this purpose. The license shall be issued for a term of one\nyear and no charge shall be made for the license. A license shall not be\nissued to a blind person unless he or she is a resident for three years\nin the city in which application for such license is made and is a\ncitizen of the United States or a noncitizen lawfully admitted for\npermanent residence in the United States.\n  This license shall be revocable only for cause.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

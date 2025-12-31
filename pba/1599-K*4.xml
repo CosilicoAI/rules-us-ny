@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1599-K*4"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1599-K*4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1599-K*4"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1599-K*4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1599-K*4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1599-K*4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1599-K*4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1599_K*4">
+        <num>1599-K*4</num>
+        <heading>Agreements of the city and the state</heading>
+        <subsection eId="sec_1599_K*4__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the bonds,\ntogether with interest thereon, interest on any unpaid installments of\ninterest and all costs and expenses in connection with any action or\nproceeding by or on behalf of the bondholders are fully met and\ndischarged or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1599_K*4__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>principal or interest of any of the bonds shall be\noverdue and unpaid for a period of three years or more, provided that\nnothing herein contained shall be deemed to impair the right of the city\nto install and operate parking meters on the public streets of the city.\n  * NB Authority ceased to exist 08/05/2002\n  * NB There are 4 § 1599-k's\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

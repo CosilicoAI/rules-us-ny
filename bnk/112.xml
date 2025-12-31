@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-112"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-112"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="112"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_112">
+        <num>112</num>
+        <heading>Dividends; payable from net profits; restrictions</heading>
+        <content>
+          <p>  § 112. Dividends; payable from net profits; restrictions. 1. The\ndirectors of a bank or trust company may annually, semi-annually or\nquarterly, but not more frequently unless authorized by the\nsuperintendent by regulation or otherwise, declare such dividends as\nthey deem judicious to be paid from net profits. No dividend shall be\ndeclared, credited or paid so long as there is any impairment of capital\nstock. No bank or trust company having outstanding preferred stock\nshall, except as otherwise authorized by the superintendent, declare\ndividends upon common stock for any period other than a period for which\ndividends are declared upon preferred stock.\n  2. The approval of the superintendent shall be required if the total\nof all dividends declared by a bank or trust company in any calendar\nyear shall exceed the total of its net profits for that year combined\nwith its retained net profits of the preceding two years, less any\nrequired transfer to surplus or a fund for the retirement of any\npreferred stock.\n  3. For the purposes of this section, the term "net profits" shall mean\nthe remainder of all earnings from current operations plus actual\nrecoveries on loans and investments and other assets, after deducting\nfrom the total thereof all current operating expenses, actual losses,\naccrued dividends on preferred stock, if any, and all federal and state\ntaxes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

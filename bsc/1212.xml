@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1212"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1212"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1212">
+        <num>1212</num>
+        <heading>Disposition of moneys retained; surplus; unclaimed distributions</heading>
+        <subsection eId="sec_1212__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When any action pending at the time of the final distribution\nshall be terminated, the receiver shall apply the moneys retained by him\nto the payment of the amount recovered, and his necessary charges and\nexpenses incurred therein.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1212__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>After the final distribution to creditors and after deducting his\ncharges and expenses, the receiver shall distribute any surplus among\nthe shareholders of the corporation, in accordance with their respective\nrights.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1212__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any portion of the assets distributable to a creditor or\nshareholder who is unknown or cannot be found, or who is under\ndisability and for whom there is no legal representative, shall be paid\nby the receiver to the state comptroller as abandoned property within\nsix months from the date fixed for the payment of the final liquidating\ndistribution, and be subject to the provisions of the abandoned property\nlaw.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

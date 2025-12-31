@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.45"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="275.45"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275_45">
+        <num>275.45</num>
+        <heading>Limitations of application</heading>
+        <subsection eId="sec_275_45__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>any broadcaster who, in connection with or as part of a radio,\ntelevision, or cable broadcast transmission, or for the purpose of\narchival preservation, transfers any such recorded sounds or images; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_275_45__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>any person who transfers such sounds or images for personal use,\nand without profit for such transfer.\n  2. This article shall neither enlarge nor diminish the rights of\nparties in civil litigation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

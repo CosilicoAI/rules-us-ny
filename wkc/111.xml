@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-111"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-111"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-111/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-111/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-111/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111">
+        <num>111</num>
+        <heading>Information to be furnished by employer</heading>
+        <content>
+          <p>  § 111. Information to be furnished by employer. Every employer shall\nfurnish the chairman, upon request, any information required by him to\ncarry out the provisions of this chapter.  The chairman or board may\nexamine under oath any employer, officer, agent or employee. An employer\nor an employee receiving from the chairman a blank with directions to\nfile the same shall cause the same to be properly filled out so as to\nanswer fully and correctly all questions therein, or if unable to do so,\nshall give good and sufficient reasons for such failure. Answers to such\nquestions shall be subscribed by the employer or the employee and\naffirmed as true under the penalties of perjury and returned to the\nchairman within the period fixed by the chairman therefor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

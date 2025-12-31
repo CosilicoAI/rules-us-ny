@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-108"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-108"/>
+          <FRBRdate date="2018-08-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="108"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-108/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-108/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-108/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-108/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_108">
+        <num>108</num>
+        <heading>Restrictions upon licensees</heading>
+        <content>
+          <p>  § 108. Restrictions upon licensees. 1. No licensee except the holder\nof a license to manufacture alcoholic beverages shall keep or permit to\nbe kept or consumed on the licensed premises any alcoholic beverage\nexcept the alcoholic beverages which he is permitted to sell under the\nterms of the license issued to him.\n  2. The provisions of subdivision one of this section shall not\nprohibit a person holding a retail on-premises license and a retail\noff-premises beer or beer and wine products license for an adjacent\npremises to transport alcoholic beverages through such off-premises\nlocation to supply such adjacent on-premises location.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

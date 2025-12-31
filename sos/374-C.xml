@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-374-C"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-374-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="374-C"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-374-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-374-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-374-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-374-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_374_C">
+        <num>374-C</num>
+        <heading>Authority to operate group homes</heading>
+        <subsection eId="sec_374_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If an authorized agency plans to establish one or more group\nhomes within a municipality, it shall notify the chief executive officer\nof the municipality in writing of its intentions and include in such\nnotice a description of the nature, size and the community support\nrequirements of the program.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_374_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For purposes of this subdivision, "municipality" means an\nincorporated village, if a facility is to be located therein; a town, if\nthe facility is to be located therein, and not simultaneously within an\nincorporated village; or a city, except that in the city of New York,\nthe community board with jurisdiction over the area in which such a\nfacility is to be located shall be considered the municipality.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

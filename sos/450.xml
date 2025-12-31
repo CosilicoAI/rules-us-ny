@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-450"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-450"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="450"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-450/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-450/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_450">
+        <num>450</num>
+        <heading>Statement of legislative intent</heading>
+        <content>
+          <p>  § 450.  Statement of legislative intent.  The legislature intends, by\nthe enactment of this title, to promote permanency of family status\nthrough adoption for children who might not otherwise derive the\nbenefits of that status.  By providing for an adoption subsidy program\nwhich will be applied uniformly on a statewide basis, the legislature\nalso intends to eliminate, or at the very least substantially reduce,\nunnecessary and inappropriate long-term foster care situations which\nhave proven financially burdensome to the state and, more importantly,\ninimical to the best interests of many children who have not been placed\nfor adoption because of emotional or physical handicaps, age or other\nfactors, in accordance with regulations of the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

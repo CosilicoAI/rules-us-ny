@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-165"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-165"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-165/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-165/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-165/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165">
+        <num>165</num>
+        <heading>Segregation of investments; title to be taken in descriptive name</heading>
+        <content>
+          <p>  § 165. Segregation of investments; title to be taken in descriptive\nname. 1. Every private banker shall segregate and keep separate and\napart from all other property and assets of the individual or\npartnership all securities and property, and the evidences of title\nthereto, in which funds held by him as a private banker and the surplus\nused by him in his private banking business have been invested. The\nphrase "funds held by him as a private banker" shall for the purpose of\nthis chapter mean such private banker's permanent capital and moneys\nreceived by him on deposit.\n  2. All conveyances, deeds, mortgages, assignments, contracts and\nagreements received, taken, or entered into by any private banker, in\nconnection with his banking business, shall be received, taken, or\nentered into in the firm name if such private banker is a partnership or\nin the name of such private banker with the addition of the descriptive\nname "private banker" if such private banker is not a partnership.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

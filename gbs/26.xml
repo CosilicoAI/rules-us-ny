@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-26"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-26"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="26"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-26/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-26/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-26/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-26/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_26">
+        <num>26</num>
+        <heading>Record open to inspection</heading>
+        <content>
+          <p>  § 26. Record open to inspection.  The said book and the entries\ntherein, made as provided by the preceding section, shall, at all\nreasonable times, be open to the inspection of the mayor and the head of\nthe police department of the city in which the auctioneer conducts his\nbusiness, the district attorney of any county in which said city is\nlocated or which is a part of such city, and any person who shall be\nduly authorized in writing for that purpose by any or either of them and\nwho shall exhibit such written authorization to such auctioneer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

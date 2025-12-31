@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-208"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-208"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="208"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-208/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-208/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-208/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-208/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_208">
+        <num>208</num>
+        <heading>Affirmation of complaints</heading>
+        <content>
+          <p>  § 208. Affirmation of complaints. Where a traffic summons has been\nserved by a police officer, police cadet or bridge and tunnel officers\nemployed by the triborough bridge and tunnel authority in cases of\nviolations of any provision of this chapter, except title eleven, or of\nany ordinance, rule or regulation enacted pursuant thereto or pursuant\nto any other law relating to traffic, any chief, deputy chief, captain,\nlieutenant or acting lieutenant, or sergeant or acting sergeant of a\npolice department, or any sheriff, undersheriff, chief deputy, deputy\nsergeant or deputy in charge of a road patrol maintained by any sheriff\nin any county to whom the service of the traffic summons is reported, is\nhereby authorized to administer to such police officer, police cadet or\nbridge and tunnel officer employed by the triborough bridge and tunnel\nauthority all necessary oaths in connection with the execution of the\ncomplaint to be presented in court by such police officer, police cadet\nor bridge and tunnel officer employed by the triborough bridge and\ntunnel authority in the prosecution of such offense, but a complaint\nneed not be verified provided it shall be affirmed under penalty of\nperjury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

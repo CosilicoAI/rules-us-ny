@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-FF"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-FF"/>
+          <FRBRdate date="2024-03-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2994-FF"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-FF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-FF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-FF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-FF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2994_FF">
+        <num>2994-FF</num>
+        <heading>Interinstitutional transfer</heading>
+        <content>
+          <p>  § 2994-ff. Interinstitutional transfer. If a patient with a\nnonhospital order not to resuscitate is admitted to a hospital, or if a\nhospital patient with an order not to resuscitate is transferred from a\nhospital to a different hospital, the order shall be treated as an order\nnot to resuscitate for a patient transferred from another hospital, and\nshall be governed by section twenty-nine hundred ninety-four-l of this\nchapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-214-I"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-214-I"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="214-I"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-214-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-214-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-214-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-214-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_I">
+        <num>214-I</num>
+        <heading>Child-sensitive arrests</heading>
+        <subsection eId="sec_214_I__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>procedures regarding identification and documentation of whether\nan arrestee is the parent, guardian or person legally charged with the\ncare or custody of a child;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_214_I__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>procedures to allow for the arrangement of temporary care for the\nchild of an arrested parent, guardian or other person legally charged\nwith the care or custody of such child, which may include allowing the\narrested parent, guardian or other person legally charged with the care\nor custody of such child to place additional phone calls to arrange for\nchild care;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_214_I__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>appropriate actions that will allow law enforcement to assist in\nminimizing the impact of the emotional harm caused by witnessing such\narrests; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_214_I__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>information on the availability of access to community-based\nproviders of crisis intervention, child protection and other supportive\nresources that could aid the child of an arrested parent, guardian or\nother person legally charged with the care or custody of such child.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

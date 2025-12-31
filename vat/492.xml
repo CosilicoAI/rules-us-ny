@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-492"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-492"/>
+          <FRBRdate date="2022-07-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="492"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-492/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-492/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-492/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-492/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_492">
+        <num>492</num>
+        <heading>Duplicate identification card; change of address</heading>
+        <content>
+          <p>  § 492. Duplicate identification card; change of address. 1. Lost,\nmutilated or destroyed identification card. In the event of the loss,\nmutilation or destruction of any identification card, the holder thereof\nmay file with the commissioner proof of the facts with respect to such\nloss, mutilation or destruction, together with the fee prescribed by\nlaw. If the commissioner is satisfied that the applicant is entitled to\na duplicate thereof, he shall issue a duplicate of the lost, mutilated\nor destroyed identification card.\n  2. Amendment of identification card. Any person holding an\nidentification card which contains any error other than a clerical error\nmade by the issuing agency, with respect to the information contained\nthereon, shall file an application with the commissioner for an amended\nidentification card to have such error corrected. The commissioner shall\nrequire such person to submit proof acceptable to him with respect to\nthe facts, and upon approval of such proof and the surrender of the\nprior identification card, the commissioner shall issue an appropriate\namended identification card.\n  3. Change of address. It shall be the duty of every holder of an\nidentification card to notify the commissioner in writing of any change\nof residence of such holder within ten days after such change occurs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

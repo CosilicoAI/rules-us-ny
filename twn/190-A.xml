@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-190-A"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-190-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190-A"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-190-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-190-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-190-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-190-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_A">
+        <num>190-A</num>
+        <heading>Water storage and distribution districts</heading>
+        <content>
+          <p>  § 190-a. Water storage and distribution districts. In the manner\nhereinafter provided, the town board of any town may establish or extend\nin such town a water storage and distribution district for the purpose\nof acquiring or developing a supply of water for sale to water and water\nsupply districts within the water storage and distribution district for\nredistribution by them. A water storage and distribution district shall\nconsist of water districts and water supply districts which need not be\ncontiguous.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

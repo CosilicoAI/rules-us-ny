@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1011"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1011"/>
+          <FRBRdate date="2025-09-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1011"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1011/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1011/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1011/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1011/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1011">
+        <num>1011</num>
+        <heading>Certain credit to off-track betting corporations</heading>
+        <content>
+          <p>  § 1011. Certain credit to off-track betting corporations. a. During\nthe days that a franchised corporation is simulcasting from a racetrack\nfacility operated by such franchised corporation and located in the\nfirst zone to a racetrack facility operated by such franchised\ncorporation located wholly within a city of one million or more, one\npercent of the total wagers placed at such receiving facility shall be\npaid to such city.\n  b. During the days that a franchised corporation is simulcasting from\na facility located wholly within a city in the first zone to a racetrack\nfacility operated by such franchised corporation located partially\nwithin a city with a population in excess of one million and partially\nwithin a county, one-half percent of the total wagers placed at such\nreceiving facility shall be paid to such city and one-half percent of\nsuch wagers shall be paid to such county.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.07"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.07"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="195.07"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.07/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.07/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-195.07/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-195.07/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_195_07">
+        <num>195.07</num>
+        <heading>Obstructing governmental administration in the first degree</heading>
+        <content>
+          <p>§ 195.07 Obstructing governmental administration in the first degree.\n  A person is guilty of obstructing governmental administration in the\nfirst degree when he commits the crime of obstructing governmental\nadministration in the second degree by means of interfering with a\ntelecommunications system thereby causing serious physical injury to\nanother person.\n  Obstructing governmental administration in the first degree is a class\nE felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

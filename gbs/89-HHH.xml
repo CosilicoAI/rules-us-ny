@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-HHH"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-HHH"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="89-HHH"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-HHH/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-HHH/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-HHH/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-HHH/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_89_HHH">
+        <num>89-HHH</num>
+        <heading>Enforcement of article; investigations</heading>
+        <content>
+          <p>  § 89-hhh. Enforcement of article; investigations.  All armored car\ncarriers shall be subject to the enforcement provisions contained in\narticle seven of this chapter, provided that such provisions shall be\nread in such a manner as to apply to armored car carriers or armored car\nguards, as the context requires.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-110"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-110"/>
+          <FRBRdate date="2021-07-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-110"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-11-110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-11-110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_110">
+        <num>11-110</num>
+        <heading>Special presidential ballots; deadline for receipt</heading>
+        <content>
+          <p>  § 11-110. Special presidential ballots; deadline for receipt. 1. To be\ncounted, any ballot cast under the provisions of this article must be\nreceived by the appropriate board of elections not later than the close\nof the polls on election day except that all ballots contained in\nenvelopes showing a cancellation mark of the United States postal\nservice, or a foreign country's postal service with a date which is\nascertained to be not later than the day of the election, shall be cast\nand counted if received by the board of elections not later than seven\ndays following the day of election.\n  2. Special presidential ballots received by the board of elections\nbefore the close of the polls on election day may be delivered to the\ninspectors of election in the manner prescribed by this chapter for\nabsentee ballots or retained by the board of elections and cast and\ncanvassed pursuant to the provisions of section 9-209 of this chapter as\nsuch board shall, in its discretion, determine by resolution adopted at\nleast thirty days before election day. All ballots received by the board\nof elections between election day and the seventh day after election day\nshall be retained at the board and shall be cast and canvassed in the\nsame manner as other ballots retained by such board.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-106"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="106"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_106">
+        <num>106</num>
+        <heading>Records; prima facie evidence</heading>
+        <content>
+          <p>  § 106. Records; prima facie evidence.  The record of the proceedings\nof the board of transportation, and the records and printed minutes of\nthe transit commission, of the former transit construction commissioner,\nof the former public service commission for the first district, and of\nthe former board of rapid transit railroad commissioners, transferred to\nthe board of transportation, or certified copies thereof when such\ncertified copies are authorized by this chapter to be delivered to the\nboard of transportation instead of originals, shall be prima facie\nevidence of the proceedings of the board of transportation, of the\ntransit commission, of the former transit construction commissioner, of\nthe former public service commission for the first district, or of the\nformer board of rapid transit railroad commissioners, as the case may\nbe, in respect to matters concerning which such records or minutes\nrelate. Certified copies of such records or papers shall in like manner\nconstitute prima facie evidence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-792"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-792"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="792"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-792/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-792/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-792/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-792/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_792">
+        <num>792</num>
+        <heading>Supersession</heading>
+        <content>
+          <p>  § 792. Supersession. This article shall supersede and replace all\nother state and local laws relating to the procedures and requirements\nfor the consolidation and dissolution of local government entities to\nthe extent such laws are not consistent with this article, provided,\nhowever, that the provisions of any other state or local law now in\neffect or hereafter enacted that are less restrictive or burdensome than\nthose provided in this chapter shall govern during the period in which\nsuch provisions are in effect. A state or local law that imposes\nprocedures and requirements for consolidation and dissolution not\naddressed by this article is deemed inconsistent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

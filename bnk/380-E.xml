@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-E"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="380-E"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-380-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-380-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_380_E">
+        <num>380-E</num>
+        <heading>Effect of usury</heading>
+        <content>
+          <p>  § 380-e. Effect of usury. The knowingly taking, receiving, reserving,\nor charging by a savings and loan association of interest, as computed\npursuant to this article, at a rate greater than such rate of interest\nas may be authorized by law shall be held and adjudged a forfeiture of\nthe entire interest which the note or other evidence of debt carries\nwith it, or which has been agreed to be paid thereon. If such greater\nrate of interest has been paid, the person paying the same or his legal\nrepresentatives may recover from the savings and loan association twice\nthe entire amount of the interest thus paid. Nothing in this section\nshall be deemed to affect the powers of any savings and loan association\nwith respect to loans or investments it is authorized to make.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

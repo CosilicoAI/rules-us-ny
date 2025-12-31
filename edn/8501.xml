@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8501"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8501"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8501">
+        <num>8501</num>
+        <heading>Definition of the practice of respiratory therapy</heading>
+        <content>
+          <p>  § 8501. Definition of the practice of respiratory therapy. The\npractice of the profession of respiratory therapy, which shall be\nundertaken pursuant to the direction of a duly licensed physician, is\ndefined as the performance of cardiopulmonary evaluation, respiratory\ntherapy treatment techniques, and education of the patient, family and\npublic.\n  1. Evaluation shall include the acquisition, analysis and\ninterpretation of data obtained from physiological specimens, performing\ndiagnostic tests, studies and research of the cardiopulmonary system and\nneurophysiological studies related to respiratory care.\n  2. Therapy shall include the application and monitoring of medical\ngases (excluding anesthetic gases) and environmental control systems,\nmechanical ventilatory support, artificial airway care, bronchopulmonary\nhygiene, pharmacologic agents related to respiratory care procedures,\nand cardiopulmonary rehabilitation related and limited to respiratory\ncare.\n  3. Respiratory therapy services may be performed pursuant to a\nprescription of a licensed physician or certified nurse practitioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

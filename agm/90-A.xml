@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-A"/>
+          <FRBRdate date="2024-08-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90_A">
+        <num>90-A</num>
+        <heading>Declaration of policy and purposes</heading>
+        <content>
+          <p>  § 90-a. Declaration of policy and purposes. Infectious and\ncommunicable disease affecting domestic animals continues to exist in\nthis state, and the existence thereof endangers the health and welfare\nof the people of the state. Despite the moneys spent to control,\nsuppress and eradicate such infection and disease its incidence is the\nconcern of the legislature. The powers of quarantine and condemnation\nheld and exercised by the department of agriculture and markets tend to\nsuppress but do not constitute an adequate control. It is hereby\ndeclared to be a matter of legislative determination that a more\nexacting supervision of those who, as a business, whether for profit or\nnot-for-profit, deal in, handle, transport, and rescue domestic animals\nis needed in the public interest and that in the exercise of the police\npower such persons be required to hold a permit before engaging in such\nactivities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

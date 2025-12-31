@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4372"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4372"/>
+          <FRBRdate date="2023-04-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4372"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4372/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4372/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4372/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4372/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4372">
+        <num>4372</num>
+        <heading>Transplant education of patients with kidney disease or end stage renal failure</heading>
+        <content>
+          <p>  § 4372. Transplant education of patients with kidney disease or end\nstage renal failure. Nephrologists and primary care providers with\nprimary responsibility of caring for patients with chronic kidney\ndisease stage three or four, or end stage renal disease, shall provide\npatients with current and evidence based printed educational materials\nabout the progression of kidney disease and relevant prevention and\ntreatment options, including transplantation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

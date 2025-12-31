@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-179.15"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-179.15"/>
+          <FRBRdate date="2021-04-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="179.15"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-179.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-179.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-179.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-179.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_179_15">
+        <num>179.15</num>
+        <heading>Criminal retention of medical cannabis</heading>
+        <content>
+          <p>* § 179.15 Criminal retention of medical cannabis.\n  A person is guilty of criminal retention of medical cannabis when,\nbeing a certified patient or designated caregiver, as those terms are\ndefined in section three of the cannabis law, he or she knowingly\nobtains, possesses, stores or maintains an amount of cannabis in excess\nof the amount he or she is authorized to possess under the provisions of\narticle three of the cannabis law.\n  Criminal retention of medical cannabis shall be punishable as provided\nin section 222.25 of this chapter.\n  * NB Repealed July 5, 2028\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

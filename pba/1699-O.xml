@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1699-O"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1699-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1699-O"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1699-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1699-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1699-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1699-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1699_O">
+        <num>1699-O</num>
+        <heading>Withdrawal of designation of small business set-asides</heading>
+        <content>
+          <p>  § 1699-o. Withdrawal of designation of small business set-asides. If\nthe total number of small businesses responding to the invitation to bid\nand considered capable of meeting the specifications and terms of the\ninvitation to bid is less than three, or if the chairman determines that\nacceptance of the best bid will result in the payment of an unreasonable\nprice, the chairman shall reject all bids and withdraw the designation\nof small business set-aside.\n  If the chairman withdraws the designation of small business set-aside\nit shall notify the bidders of the reason why the bids were rejected.\nInvitations to bid containing the same or rewritten specifications and\nterms shall then be re-issued as otherwise so provided under this title,\nwithout the designation of small business set-aside.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-107"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-107"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="107"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-107/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-107/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-107/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_107">
+        <num>107</num>
+        <heading>Claims against political subdivisions; contractor's undertaking</heading>
+        <content>
+          <p>  § 107. Claims against political subdivisions; contractor's\nundertaking.  A contractor under a contract heretofore or hereafter made\nor awarded by any political subdivision, or by any officer, board or\nagency thereof, or of any district therein, in case any claim or notice\nof claim for injury or damage to person or property arising out of or in\nconnection with the performance of such contract, be made against or\nfiled with such municipality or district therein, may file with the\nfiscal officer of such political subdivision or district therein an\nundertaking as prescribed in this section, and thereupon such fiscal\nofficer shall be authorized to make payments to such contractor pursuant\nto the terms of such contract. Such undertaking shall be executed with\nsuch sureties, in such form and for such amount as the fiscal officer of\nsuch political subdivision or district therein may prescribe, and shall\nbe conditioned for the payment by such contractor of any judgment which\nmay be recovered in an action brought upon such claim.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

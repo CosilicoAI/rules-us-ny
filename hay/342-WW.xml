@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-WW"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-WW"/>
+          <FRBRdate date="2017-07-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="342-WW"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-WW/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-WW/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-342-WW/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-342-WW/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_342_WW">
+        <num>342-WW</num>
+        <heading>Portion of the New York state thruway to be designated as the "Jewish War Veterans Memorial Highway"</heading>
+        <content>
+          <p>  § 342-ww. Portion of the New York state thruway to be designated as\nthe "Jewish War Veterans Memorial Highway". All that portion of the New\nYork state thruway in the county of Rockland constituting interstate\nroute 287 from the New Jersey border to "The Governor Mario M. Cuomo\nBridge" shall be designated and known as the "Jewish War Veterans\nMemorial Highway".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

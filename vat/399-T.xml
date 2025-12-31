@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-399-T"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-399-T"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-T"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-399-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-399-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-399-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-399-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_T">
+        <num>399-T</num>
+        <heading>Report by commissioner</heading>
+        <content>
+          <p>  * § 399-t. Report by commissioner. No later than June first, two\nthousand twenty-five, the commissioner shall report to the governor, the\ntemporary president of the senate and the speaker of the assembly on the\npre-licensing course internet pilot program and its results. Such report\nshall include recommendations as to the future use of the internet as an\neffective way, in addition to classroom presentation, to deliver to the\npublic approved pre-licensing courses, and qualifications for\nparticipants in such approved internet delivered programs.\n  * NB Repealed June 30, 2030\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

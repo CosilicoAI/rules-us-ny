@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-B"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="214-B"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-214-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-214-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_214_B">
+        <num>214-B</num>
+        <heading>Action to recover damages for personal injury caused by contact with or exposure to phenoxy herbicides</heading>
+        <content>
+          <p>  § 214-b. Action to recover damages for personal injury caused by\ncontact with or exposure to phenoxy herbicides. Notwithstanding any\nprovision of law to the contrary, an action to recover damages for\npersonal injury caused by contact with or exposure to phenoxy herbicides\nwhile serving as a member of the armed forces of the United States in\nIndo-China from January first, nineteen hundred sixty-two through May\nseventh, nineteen hundred seventy-five, may be commenced within two\nyears from the date of the discovery of such injury, or within two years\nfrom the date when through the exercise of reasonable diligence the\ncause of such injury should have been discovered, whichever is later.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

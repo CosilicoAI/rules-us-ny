@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-27"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-27"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-27/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-27/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-27/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-27/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27">
+        <num>27</num>
+        <heading>Reservation as to Baptist churches, churches of the United Church of Christ and Congregational Christian churches</heading>
+        <content>
+          <p>  § 27. Reservation as to Baptist churches, churches of the United\nChurch of Christ and Congregational Christian churches. Sections\ntwenty-five and twenty-six are not applicable to a Baptist church, a\nchurch of the United Church of Christ, a Congregational Christian church\nor to any other religious corporation having a congregational form of\ngovernment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

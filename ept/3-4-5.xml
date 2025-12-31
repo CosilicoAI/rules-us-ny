@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.5"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.5"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-4.5"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.5/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.5/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-3-4.5/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-3-4.5/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_4_5">
+        <num>3-4.5</num>
+        <heading>Insurance proceeds from specific disposition not subject to</heading>
+        <content>
+          <p>§ 3-4.5 Insurance proceeds from specific disposition not subject to\n          ademption\n  Where insurance proceeds from property which was the subject of a\nspecific disposition are paid after the testator's death, such proceeds,\nto the extent received by the personal representative, are payable by\nhim to the beneficiary of such disposition; and such proceeds retain the\ncharacter of a specific disposition for all other purposes, including\n12-1.2 and 13-1.3.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

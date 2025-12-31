@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2106"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2106"/>
+          <FRBRdate date="2025-11-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2106"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2106">
+        <num>2106</num>
+        <heading>Affirmation of truth of statement</heading>
+        <subsection eId="sec_2106__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The statement of any\nperson wherever made, subscribed and affirmed by that person to be true\nunder the penalties of perjury, other than in a deposition, or an oath\nof office, or an oath required to be taken before a specified person\nother than a notary, may be used in an action in New York in lieu of and\nwith the same force and effect as an affidavit, a certificate, a\nresponse to a notice to admit, an answer to interrogatories, a\nverification of a pleading, a bill of particulars and any other sworn\nstatement. Such affirmation shall be in substantially the following\nform:\n  I affirm this ___ day of ______, ____, under the penalties of perjury\nunder the laws of New York, which may include a fine or imprisonment,\nthat the foregoing is true, except as to matters alleged on information\nand belief and as to those matters I believe it to be true, and I\nunderstand that this document may be filed in an action or proceeding in\na court of law.\n  (Signature)\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2106__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Nothing in this rule shall be construed to eliminate any\nrequirement under the domestic relations law that matrimonial agreements\nmust be acknowledged in the form of deed.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

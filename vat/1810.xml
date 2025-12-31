@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1810"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1810"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1810"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1810/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1810/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1810/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1810/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1810">
+        <num>1810</num>
+        <heading>Compensation of officers shall not depend upon apprehension or arrests</heading>
+        <subsection eId="sec_1810__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No city or village shall employ any officer, agent or\nperson whose compensation shall in any way depend upon the apprehension\nor arrest of any person or persons for violating any ordinance adopted\npursuant to section sixteen hundred four of this chapter or for reckless\ndriving as defined in section twelve hundred twelve of this chapter. If\nany person be apprehended or arrested or haled before a magistrate for a\nviolation of a local ordinance adopted pursuant to section sixteen\nhundred four or for reckless driving as defined by section twelve\nhundred twelve of this chapter by any officer, agent or employee of any\ncity or village who is so employed, the fact of such employment at the\ntime shall be a defense to any charge made for violation of such\nordinance or for reckless driving.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1810__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>No county or town shall employ any officer, agent or person,\nwhether such employee be elected or appointed, whose compensation shall\nin any way depend upon the apprehension or arrest of any person for\nreckless driving as defined in section twelve hundred twelve of this\nchapter. If any person be apprehended or arrested or haled before a\nmagistrate for reckless driving as so defined, by any officer, agent or\nemployee of any county or town who is so employed, the fact of such\nemployment at the time shall be a defense to any charge made for\nreckless driving as defined in section twelve hundred twelve of this\nchapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

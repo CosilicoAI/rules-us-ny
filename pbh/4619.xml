@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4619"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4619"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4619"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4619/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4619/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4619/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4619/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4619">
+        <num>4619</num>
+        <heading>Criminal penalties</heading>
+        <content>
+          <p>  § 4619. Criminal penalties. 1. A person, partnership, corporation,\ncontrolling person, or agent or employee thereof, who knowingly uses or\nemploys any act or practice in violation of this article shall be guilty\nof a class A misdemeanor.\n  2. Nothing under this article limits the power of the state to punish\nany person for any conduct which also constitutes a separate crime under\nany other statute.\n  3. The council may refer such evidence as is available concerning\nviolations of this article to the appropriate district attorney who may,\nwith or without such reference, institute appropriate criminal\nproceedings.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

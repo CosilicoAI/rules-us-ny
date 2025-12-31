@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-322"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-322"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="322"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-322/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-322/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_322">
+        <num>322</num>
+        <heading>Standard of pressure</heading>
+        <content>
+          <p>  § 322. Standard of pressure. The minimum pressure of gas so furnished\nor supplied which shall be permitted in any service main in any such\ncity shall be sufficient to balance a column of water one and one-half\ninches in height. The maximum pressure therein allowed shall be an\namount sufficient to balance a column of water three and three-fourths\ninches in height, plus an allowance at the rate of one inch for\nvariation of each one hundred feet of increase in altitude in the\ndistributing system between the holder and the point of consumption,\nexcept that no maximum pressure shall be prescribed in service mains the\npressure of gas from which is regulated by service governors, supplied\nand maintained without charge to consumers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

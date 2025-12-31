@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-G"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="490-G"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-490-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-490-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_490_G">
+        <num>490-G</num>
+        <heading>Payment of liquidating dividends on uninsured shares</heading>
+        <content>
+          <p>  § 490-g. Payment of liquidating dividends on uninsured shares. In the\nevent of liquidation by the superintendent of any credit union which is\na party to the agreement, he shall pay on account of its uninsured share\nliabilities and deposit liabilities, dividends in the same manner and\namount as he would pay on account thereof if none of the share\nliabilities of such credit union were insured.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

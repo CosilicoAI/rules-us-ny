@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-74-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-74-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="74-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-74-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-74-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-74-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-74-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_A">
+        <num>74-A</num>
+        <heading>Notification</heading>
+        <content>
+          <p>  § 74-a. Notification. Prior to taking or attempting to take into\ncustody a person, a bail enforcement agent shall notify a local law\nenforcement agency having jurisdiction over the area in which the person\nis believed to be located of such bail enforcement agent's intentions.\nThe notification shall be provided on a form prescribed by the local law\nenforcement agency. Notwithstanding, the form shall include information\nincluding but not limited to name, address, local address and motor\nvehicle registration of said agent. The local law enforcement agency in\nprescribing such form may consult with the division of criminal justice\nservices. A representative of a local law enforcement agency may\naccompany a bail enforcement agent when the bail enforcement agent\nenters what is believed to be an occupied structure to search for or to\napprehend a person.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

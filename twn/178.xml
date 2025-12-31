@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="178"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-178/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-178/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_178">
+        <num>178</num>
+        <heading>Powers and duties of fire district secretary</heading>
+        <content>
+          <p>  § 178. Powers and duties of fire district secretary. The fire district\nsecretary shall attend all meetings of the board of fire commissioners,\nact as clerk thereof, and keep a complete and accurate record of the\nproceedings of each meeting and of all propositions, rules and\nregulations adopted pursuant to this article. The fire district\nsecretary shall have such additional powers and perform such additional\nduties as the board of fire commissioners may determine, not\ninconsistent with law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

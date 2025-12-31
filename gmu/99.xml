@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99">
+        <num>99</num>
+        <heading>Regulation of open wells, cesspools, basins or sumps</heading>
+        <content>
+          <p>  § 99. Regulation of open wells, cesspools, basins or sumps. The\ngoverning board of any city, town or village may by local law, ordinance\nor resolution regulate the construction, maintenance or use of open\nwells, cesspools, cisterns, re-charging basins, catch basins or sumps\nand may require that such installations be suitably covered or\nsurrounded with protective fencing. Provision shall be made in such\nlocal laws, ordinances or resolutions for punishment of violations\nthereof.\n  Nothing herein contained shall be construed to deprive the state water\npower and control commission of any jurisdiction which that commission\nmay now or hereafter have pursuant to the provisions of the conservation\nlaw.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

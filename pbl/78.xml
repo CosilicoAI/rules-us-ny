@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-78"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-78"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="78"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-78/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-78/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-78/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_78">
+        <num>78</num>
+        <heading>Failure to comply with conditions of grant; annulment</heading>
+        <content>
+          <p>  § 78. Failure to comply with conditions of grant; annulment.  On or\nbefore the tenth day of January in each year the commissioner of general\nservices shall examine the records of all grants of land under water for\nwhich patents shall have been issued containing conditions to be\ncomplied with within fixed period of time after the issue of such\npatents and make a list of all such grants containing such conditions of\nwhich the periods for performance have expired. It shall thereupon be\nthe duty of the commissioner of general services to cause an\ninvestigation to be made without delay for the purpose of ascertaining\nwhether or not compliance with the conditions contained in such grants\nshall have been had, and he shall report thereon to the\nattorney-general. It shall be the duty of the attorney-general to begin\nactions against all such patentees or their successors in interest or\nassigns for the annulment of all patents the conditions of which shall\nbe found not to have been complied with within the period fixed in such\ngrants for compliance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

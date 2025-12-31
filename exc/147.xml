@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-147"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-147"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="147"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-147/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-147/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-147/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-147/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_147">
+        <num>147</num>
+        <heading>Schedule of publication</heading>
+        <subsection eId="sec_147__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>contain an index of all notices published in the state register\npursuant to article two of the state administrative procedure act\nbetween January first of the year of publication and the state register\nissue immediately preceding publication of this special issue;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_147__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>cite each notice in the index by the identification number\ndescribed in subdivision three of section one hundred forty-nine of this\narticle and for each such notice cited, the index shall include a\ndescription of the subject and purpose of the rule, the date of\npublication of the notice, and a symbol denoting whether the notice was\nfor</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_147__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>a proposed rule making, (ii) an adoption, (iii) an emergency\nadoption, (iv) an expiration,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_147__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>a revised rule making or (vi) a\nwithdrawal; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_147__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>arrange notice citations by agency in alphabetical order and\npresent consecutively all such citations relating to a single rule\nmaking.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

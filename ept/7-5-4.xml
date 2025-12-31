@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.4"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.4"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-5.4"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.4/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.4/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-7-5.4/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-7-5.4/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_5_4">
+        <num>7-5.4</num>
+        <heading>Effect of payment</heading>
+        <content>
+          <p>§ 7-5.4 Effect of payment\n  A financial institution which, upon the death of a depositor and prior\nto service upon it of a restraining order, injunction or other\nappropriate process from a court of competent jurisdiction prohibiting\npayment, makes payment to a beneficiary or if the beneficiary is under\neighteen years of age, to the guardian of the property or to the parent\nor parents of the infant beneficiary pursuant to section 7-5.3, shall,\nto the extent of such payment, be released from liability to any person\nclaiming a right to the funds and the receipt or acquittance of the\nperson to whom payment is made shall be a valid and sufficient release\nand discharge of the financial institution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

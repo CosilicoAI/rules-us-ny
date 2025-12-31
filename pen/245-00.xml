@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-245.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-245.00"/>
+          <FRBRdate date="2015-11-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="245.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-245.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-245.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-245.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-245.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_245_00">
+        <num>245.00</num>
+        <heading>Public lewdness</heading>
+        <subsection eId="sec_245_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>in a public place, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_245_00__subsec_b">
+          <num>(b)</num>
+        </subsection>
+        <subsection eId="sec_245_00__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>\nin private premises under circumstances in which he or she may readily\nbe observed from either a public place or from other private premises,\nand with intent that he or she be so observed, or (ii) while\ntrespassing, as defined in section 140.05 of this part, in a dwelling as\ndefined in subdivision three of section 140.00 of this part, under\ncircumstances in which he or she is observed by a lawful occupant.\n  Public lewdness is a class B misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

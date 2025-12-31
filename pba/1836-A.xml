@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1836-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1836-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1836-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1836_A">
+        <num>1836-A</num>
+        <heading>Legislative findings</heading>
+        <content>
+          <p>  § 1836-a. Legislative findings. The legislature hereby finds and\ndeclares that the health, safety and general welfare of the people of\nthis state are directly dependent upon the state economy, and that one\nof the principal problems of our present economy is the permanent\nclosing of industrial and manufacturing plants, and their relocation out\nof state, which results in the loss of jobs and increasing unemployment.\n  It is the purpose of this subtitle to encourage the employees of\nplants that are about to be permanently closed, or relocated, to acquire\nsuch plants and to continue to operate them as employee-owned\nenterprises, thereby retaining the jobs that would otherwise be lost,\nand strengthening the economic base of this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

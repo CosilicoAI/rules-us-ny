@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-260"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-260"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="260"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-260/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-260/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-260/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-260/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260">
+        <num>260</num>
+        <heading>Appeals board; functions</heading>
+        <content>
+          <p>  § 260. Appeals board; functions. 1. Appeals board. The appeals board\nestablished pursuant to article two-A of this chapter shall also\nconstitute the appeals board for the purposes of this article.\n  2. Functions. Each appeal filed pursuant to this article shall be\nreviewed by the appeals board, which shall make a determination of such\nappeal, and shall cause an appropriate order to be entered in the\nrecords of the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

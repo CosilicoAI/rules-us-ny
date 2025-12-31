@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-359"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-359"/>
+          <FRBRdate date="2017-08-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="359"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-359/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-359/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-359/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-359/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_359">
+        <num>359</num>
+        <heading>Reports of the state university trustees</heading>
+        <subsection eId="sec_359__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>quarterly reports summarizing all\nexpenditures from and status of the health care account and the\ncontractual reserve account authorized by subdivision eight-a of section\nthree hundred fifty-five of this article; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_359__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a list of networks in\nwhich state university health care facilities are participating.\n  6. The state university trustees shall annually report on how the\nrevenue generated has been invested in faculty, instruction, initiatives\nto improve student success and on-time completion and student financial\nassistance for the duration of the four year tuition plan. The trustees\nshall submit the report by September first of each subsequent year.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

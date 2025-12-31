@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eml/section-6"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-6"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6"/>
+          <FRBRname value="EML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eml/section-6/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-6/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eml/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-6/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6">
+        <num>6</num>
+        <heading>Defense; insurance fund</heading>
+        <content>
+          <p>  § 6. Defense; insurance fund. An employer who shall have contributed\nto an insurance fund created and maintained for the mutual purpose of\nindemnifying an employee for personal injuries, for which compensation\nmay be recovered under this article, or to any relief society or benefit\nfund created under the laws of this state, may prove in mitigation of\ndamages recoverable by an employee under this article such proportion of\nthe pecuniary benefit which has been received by such employee from such\nfund or society on account of such contribution of the employer, as the\ncontribution of such employer to such fund or society bears to the whole\ncontribution thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

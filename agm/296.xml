@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-296"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-296"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="296"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-296/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-296/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-296/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-296/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_296">
+        <num>296</num>
+        <heading>Legislative findings and intent</heading>
+        <content>
+          <p>  § 296. Legislative findings and intent. Agriculture, a leading\nindustry in the state, is the foundation upon which hundreds of\nthousands of jobs are based. Agriculture related employment is found not\nonly in the production of crops and other basic foods, but also in the\nprocessing, distribution and sale thereof. Rapid changes taking place in\nthe food and agriculture industry require new approaches in the\nresearch, development, production, processing and distribution of\nagricultural products which capitalize on the state's unique resources\nand strategic location near significant markets. Failure to keep pace\nwith such changes would be detrimental to this major state industry and\nto the supply of quality food for the public. It is essential that those\nengaged in agriculture and related businesses be offered encouragement\nand incentives to keep pace with the rapid changes. It is the intent of\nthe legislature to provide matching grants for projects that will\npromote such strategic business undertakings as are necessary to assure\nthe continued prominence of agriculture as a leading industry in the\nstate and of the state as a supplier of quality foods.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

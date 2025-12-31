@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-156"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-156"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="156"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-156/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-156/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-156/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-156/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_156">
+        <num>156</num>
+        <heading>Contempts</heading>
+        <content>
+          <p>  § 156. Contempts. The provisions of the judiciary law relating to\ncivil and criminal contempts shall apply to the family court in any\nproceeding in which it has jurisdiction under this act or any other law,\nand a violation of an order of the family court in any such proceeding\nwhich directs a party, person, association, agency, institution,\npartnership or corporation to do an act or refrain from doing an act\nshall be punishable under such provisions of the judiciary law, unless a\nspecific punishment or other remedy for such violation is provided in\nthis act or any other law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

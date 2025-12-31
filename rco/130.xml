@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-130"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-130"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-130/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-130/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130">
+        <num>130</num>
+        <heading>Notice of meeting for incorporation</heading>
+        <content>
+          <p>  § 130. Notice of meeting for incorporation.  Notice of a meeting for\nthe purpose of incorporating an unincorporated Baptist church shall be\ngiven as follows: The notice shall be in writing, and shall state, in\nsubstance, that a meeting of such unincorporated church will be held at\nits usual place of worship at a specified day and hour, for the purpose\nof incorporating such church, electing trustees thereof, and selecting a\ncorporate name therefor. The notice must be signed by at least six\npersons of full age, who are then members in good and regular standing\nof such church by admission into full communion or membership therewith.\nA copy of such notice shall be publicly read at a regular meeting of\nsuch unincorporated church for public worship, on the two successive\nSundays immediately preceding the meeting, by the minister of such\nchurch, or a deacon thereof or by any person qualified to sign such\nnotice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

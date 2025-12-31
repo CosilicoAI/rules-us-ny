@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-34"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-34"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="34"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-34/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-34/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-34/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-34/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_34">
+        <num>34</num>
+        <heading>Preferences</heading>
+        <content>
+          <p>  § 34. Preferences. Compensation shall be a lien against the assets of\nthe carrier of employer without limit of amount subordinate, however, to\nclaims for unpaid wages and prior recorded liens. The provisions of this\nsection shall not apply to the state insurance fund with respect to\nthose liabilities and obligations assumed by the state pursuant to\nsection eighty-seven-d of this chapter or as the result of any insuring\nagreement between the state insurance fund and the department of civil\nservice pursuant to section eighty-eight-c of this chapter. In such\ninstances compensation shall be alien against the assets of the state as\nthe employer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

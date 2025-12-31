@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-19"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-19"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-19/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-19/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-19/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-19/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19">
+        <num>19</num>
+        <heading>General grant of powers</heading>
+        <content>
+          <p>  § 19. General grant of powers. 1. Every city is granted power to\nregulate, manage and control its property and local affairs and is\ngranted all the rights, privileges and jurisdiction necessary and proper\nfor carrying such power into execution. No enumeration of powers in this\nor any other law shall operate to restrict the meaning of this general\ngrant of power, or to exclude other powers comprehended within this\ngeneral grant.\n  2. Whenever the constitutionality of any local law, ordinance, rule or\nregulation of a city is brought into issue upon a trial or hearing of\nany civil cause of action or proceeding in any court, and the city is\nnot a party to such action or proceeding, notice shall be served upon\nthe city in accordance with section one thousand twelve of the civil\npractice law and rules.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

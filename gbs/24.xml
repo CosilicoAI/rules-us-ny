@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-24"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-24"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="24"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_24">
+        <num>24</num>
+        <heading>Mock auction</heading>
+        <content>
+          <p>  § 24. Mock auction.  A person who buys or sells, or pretends to buy or\nsell, any goods, wares, or merchandise, or any species of property\nexcept ships, vessels, or real or leasehold estate, exposed for sale by\nauction, if an actual sale, purchase, and change of ownership therein\ndoes not thereupon take place, is guilty of a misdemeanor, punishable by\nimprisonment for thirty days, or by fine not exceeding one hundred\ndollars or both.\n  A person who obtains money or property from another, or obtains the\nsignature of another to any writing, the false making of which would be\nforgery, by means of any false or fraudulent sale of property or\npretended property by auction, or by any of the practices known as mock\nauctions, is guilty of a misdemeanor; and in addition thereto he\nforfeits any license he may hold to act as an auctioneer, and is forever\ndisqualified from receiving a license to act as an auctioneer in this\nstate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

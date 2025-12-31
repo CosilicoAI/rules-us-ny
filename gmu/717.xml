@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-717"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-717"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="717"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-717/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-717/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-717/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-717/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_717">
+        <num>717</num>
+        <heading>Boundaries and map of local government to which territory is annexed</heading>
+        <subsection eId="sec_717__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a survey to be made of the\nannexed territory,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_717__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the boundaries of the same to be marked with\nmonuments, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_717__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a map to be made of such local government including\nthe annexed territory. In cooperation with the local government or\ngovernments in which such territory was situated prior to such\nannexation, it shall also cause a partial map to be made of such local\ngovernment or governments, which map shall be sufficient to show the\nexclusion of such territory from such local government or governments.\nCopies of such maps shall be filed in the office of the clerk of the\nlocal government, in the office of the clerk of each county in which the\naffected local governments are situated and in the office of the\nsecretary of state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

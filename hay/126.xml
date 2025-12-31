@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-126"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-126"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="126"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-126/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-126/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-126/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-126/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_126">
+        <num>126</num>
+        <heading>Awarding of contracts</heading>
+        <content>
+          <p>  § 126. Awarding of contracts. Contracts for construction,\nreconstruction or work to be performed under contract for purposes\nauthorized in this article shall be awarded by the county superintendent\nof highways with the approval of the chairman of the board of\nsupervisors, except where the board of supervisors, by resolution,\ndetermines that any or all such contracts shall be awarded by such board\nor by the county purchasing agent; and the provisions of article five-A\nof the general municipal law shall apply to such contracts.\nNotwithstanding any other general or special law any such contract may\nbe let to a town board without submitting the contract to competitive\nbidding.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

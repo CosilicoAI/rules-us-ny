@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="538-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-538-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-538-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_538_B">
+        <num>538-B</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_538_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the term "hijack", with respect to a modem or internet-capable\ndevice, means taking control of the modem or the modem-function of a\nuser's computer or internet-capable device to initiate a toll telephone\ncall via a telecommunications network, a voice over internet protocol,\nor other internet communication for which the authorized user or\nprovider pays a monetary charge.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_538_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the term "authorized user" with respect to a computer or\ninternet-capable device, means a person who is authorized by the owner\nor lessee to use the computer or internet-capable device.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_538_B__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the term "internet-capable device" means any hardware technology\nincluding, but not limited to, a cellular telephone, handheld computer,\nor calendaring and messaging device with telephony functions, that is\nindividually or collectively capable of providing wireless or wireline\ninternet access, in addition to origination and completion of telephone\ncalls.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

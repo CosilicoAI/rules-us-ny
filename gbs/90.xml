@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Fictitious bills of lading, receipts and vouchers</heading>
+        <content>
+          <p>  § 90. Fictitious bills of lading, receipts and vouchers. A person who:\nBeing the master, owner or agent of any vessel, or officer or agent of\nany railway, express or transportation company, or otherwise being or\nrepresenting any carrier, delivers any bill of lading, receipt or other\nvoucher, by which it appears that mechandise of any kind has been\nshipped on board a vessel, or delivered to a railway, express or\ntransportation company, or other carrier, unless the same has been so\nshipped or delivered and is at the time actually under the control of\nsuch carrier, or the master, owner or agent of such vessel or of some\nofficer or agent of such company, to be forwarded as expressed in such\nbill of lading, receipt or voucher, is guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

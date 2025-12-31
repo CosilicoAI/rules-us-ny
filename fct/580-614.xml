@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-614"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-614"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-614"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-614/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-614/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-614/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-614/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_614">
+        <num>580-614</num>
+        <heading>Notice to issuing tribunal of modification</heading>
+        <content>
+          <p>  § 580-614. Notice to issuing tribunal of modification. Within thirty\ndays after issuance of a modified child support order, the party\nobtaining the modification shall file a certified copy of the order with\nthe issuing tribunal that had continuing, exclusive jurisdiction over\nthe earlier order, and in each tribunal in which the party knows the\nearlier order has been registered. A party who obtains the order and\nfails to file a certified copy is subject to appropriate sanctions by a\ntribunal in which the issue of failure to file arises. The failure to\nfile does not affect the validity or enforceability of the modified\norder of the new tribunal having continuing, exclusive jurisdiction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-431"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-431"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="431"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-431/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-431/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-431/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-431/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431">
+        <num>431</num>
+        <heading>Preliminary procedure on warrant</heading>
+        <subsection eId="sec_431__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When a respondent is\ntaken into custody pursuant to a warrant issued by a family court in New\nYork city under section four hundred twenty-eight, he shall be taken\nbefore the court issuing the warrant if the respondent is taken into\ncustody in New York city. If the respondent is taken into custody in a\ncounty not within New York city, he shall be taken before a family judge\nin that county.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_431__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>When a respondent is taken into custody pursuant to a warrant\nissued by a family court in a county not within the city of New York, he\nshall be taken before the court issuing the warrant if the respondent is\ntaken into custody in the county in which the court sits. If the\nrespondent is taken into custody in a different county, he shall be\nbrought before a family court judge in that county.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

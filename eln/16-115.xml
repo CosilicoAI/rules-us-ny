@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-115"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-115"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16-115"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-115/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-115/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-115/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-115/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_115">
+        <num>16-115</num>
+        <heading>Proceedings with respect to utilizing certain buildings as polling places</heading>
+        <content>
+          <p>  § 16-115. Proceedings with respect to utilizing certain buildings as\npolling places.  The supreme court or a justice thereof, in a proceeding\ninstituted by any board or body empowered to designate polling places,\nmay compel by order, any person or entity which owns or operates a\nbuilding or facility which is required by this chapter to be made\navailable as a place of registration and voting to make such building or\nfacility available for such purposes and in a proceeding instituted by\nany person or entity which owns or operates such a building or facility,\nmay vacate a determination by such a board or body that such a building\nis suitable for registration and voting upon a finding that such\nbuilding is not required to be made available as a place of registration\nand voting.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

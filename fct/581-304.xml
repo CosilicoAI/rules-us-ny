@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-304"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-304"/>
+          <FRBRdate date="2021-02-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="581-304"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-304/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-304/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-581-304/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-581-304/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_581_304">
+        <num>581-304</num>
+        <heading>Consent to assisted reproduction</heading>
+        <subsection eId="sec_581_304__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Where the intended\nparent who gives birth to a child by means of assisted reproduction is a\nspouse, the consent of both spouses to the assisted reproduction is\npresumed and neither spouse may challenge the parentage of the child,\nexcept as provided in section 581-305 of this part.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_581_304__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where the intended parent who gives birth to a child by means of\nassisted reproduction is not a spouse, the consent to the assisted\nreproduction must be in a record in such a manner as to indicate the\nmutual agreement of the intended parents to conceive and parent a child\ntogether.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_581_304__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The absence of a record described in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_581_304__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of this\nsection shall not preclude a finding that such consent existed if the\ncourt finds by clear and convincing evidence that at the time of the\nassisted reproduction the intended parents agreed to conceive and parent\nthe child together.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

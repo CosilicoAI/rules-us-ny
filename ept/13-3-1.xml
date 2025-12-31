@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-3.1"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-3.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13-3.1"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-3.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-3.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-13-3.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-13-3.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13_3_1">
+        <num>13-3.1</num>
+        <heading>Rights of payees in non-transferable United States savings</heading>
+        <content>
+          <p>§ 13-3.1 Rights of payees in non-transferable United States savings\n           bonds\n  Where any United States savings bond is payable to a designated\nperson, whether as owner, co-owner or beneficiary, and such bond is not\ntransferable, the right of such person to receive payment of the bond\naccording to its terms, and the ownership of the money so received,\nshall not be impaired or defeated by any statute or rule of law\ngoverning the transfer of property by will, gift or intestacy, except as\nprovided in section 5-1.1-A; provided further that nothing herein shall\nlimit article 10 of the debtor and creditor law or 2-1.8.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

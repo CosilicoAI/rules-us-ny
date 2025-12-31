@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-196"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-196"/>
+          <FRBRdate date="2021-08-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="196"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-196/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-196/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-196/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-196/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_196">
+        <num>196</num>
+        <heading>Report on needs of incarcerated individuals of public homes</heading>
+        <content>
+          <p>  § 196. Report on needs of incarcerated individuals of public homes. It\nshall be the duty of the commissioner of public welfare to report to the\nlegislative body as to the needs of the home and to make recommendations\nof any changes, improvements, additional equipment or other provision\nwhich he or she may consider necessary to provide adequate care for the\nincarcerated individuals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

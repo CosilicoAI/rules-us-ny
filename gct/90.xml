@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Police station houses for the detention of women; how designated</heading>
+        <content>
+          <p>  § 90. Police station houses for the detention of women; how\ndesignated.  The mayor of every city containing a population of\ntwenty-five thousand shall and the mayor of every other city when\nauthorized by a resolution of the common council may designate one or\nmore station houses within his city for the detention and confinement of\nall women under arrest in such city. Such mayor or board of\ncommissioners of police may at any time designate for such purpose any\nadditional station house or houses, or may revoke the designation of any\nstation house or houses theretofore designated, provided that at least\none such station house shall at all times be so designated for such\npurpose in each city.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

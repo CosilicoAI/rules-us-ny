@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2046-O"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2046-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2046-O"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2046-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2046-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2046-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2046-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2046_O">
+        <num>2046-O</num>
+        <heading>Tax contract</heading>
+        <content>
+          <p>  § 2046-o. Tax contract. The state covenants with the purchasers and\nwith all subsequent holders and transferees of bonds or notes issued by\nthe agency pursuant to this title, in consideration of the acceptance of\nand payment for the bonds or notes that the bonds and notes of the\nagency issued pursuant to this title and the income therefrom, and all\nmoneys, funds and revenues pledged to pay or secure the payment of such\nbonds or notes, shall at all times, be free from taxation except for\nestate and gift taxes and taxes on transfers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

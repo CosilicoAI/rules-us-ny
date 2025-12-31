@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-917"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-917"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="917"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-917/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-917/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-917/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-917/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_917">
+        <num>917</num>
+        <heading>Technical assistance</heading>
+        <content>
+          <p>  § 917. Technical assistance. The secretary shall encourage and assist\nlocal governments in the preparation of waterfront revitalization\nprograms and in the administration and implementation of approved\nprograms. Such assistance shall be provided on request by the local\ngovernment and shall include, as may be deemed appropriate by the\nsecretary, the provision of maps, data, criteria, model implementation\nprovisions, and technical counsel and advice. In addition, the secretary\nshall facilitate consultation and coordination among local, county,\nregional, state and federal agencies and community based groups in\nconnection with the preparation and administration of approved\nwaterfront revitalization programs, and to facilitate the development of\nprojects called for by approved programs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

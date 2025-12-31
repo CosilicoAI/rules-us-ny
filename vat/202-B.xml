@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-202-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-202-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="202-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-202-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-202-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-202-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-202-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_202_B">
+        <num>202-B</num>
+        <heading>Penalties for submission of dishonored checks and credit card payments</heading>
+        <subsection eId="sec_202_B__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A thirty-five dollar penalty fee shall be charged to any\nperson who has submitted a check to the commissioner or his or her agent\nas payment for any license, permit or registration or any other type of\nfee for any type of transaction as required by this chapter and such\ncheck has been dishonored. Such thirty-five dollar penalty shall be\nadded to the amount due to the commissioner. In addition, any or all\nlicenses, permits or registrations issued in the name of such person may\nbe suspended and, if a suspension has been issued, any other transaction\nin the name of such person with this department may be prohibited until\nfull satisfaction of the amount due to the commissioner and the\nthirty-five dollar penalty fee is paid to the commissioner. No such\nsuspension shall be issued until thirty days after notification that the\ncheck has been dishonored is mailed to such person. If satisfaction is\nmade within thirty days from the date of mailing of such notification,\nno suspension shall be issued.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_202_B__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>In any case where a person has made a\ncredit card payment to the commissioner or his or her agent as payment\nfor any license, permit or registration or any other type of fee for any\ntype of transaction as required by this chapter, and such credit card\npayment is contested and is not honored by the credit card company, any\nother transaction in the name of such person with the department may be\nprohibited, upon at least thirty days notice, until full satisfaction of\nthe amount due to the commissioner has been paid.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

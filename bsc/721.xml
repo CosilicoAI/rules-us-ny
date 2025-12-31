@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-721"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-721"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="721"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-721/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-721/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-721/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-721/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_721">
+        <num>721</num>
+        <heading>Nonexclusivity of statutory provisions for indemnification of directors and officers</heading>
+        <subsection eId="sec_721__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>a resolution of\nshareholders, (ii) a resolution of directors, or (iii) an agreement\nproviding for such indemnification, provided that no indemnification may\nbe made to or on behalf of any director or officer if a judgment or\nother final adjudication adverse to the director or officer establishes\nthat his acts were committed in bad faith or were the result of active\nand deliberate dishonesty and were material to the cause of action so\nadjudicated, or that he personally gained in fact a financial profit or\nother advantage to which he was not legally entitled. Nothing contained\nin this article shall affect any rights to indemnification to which\ncorporate personnel other than directors and officers may be entitled by\ncontract or otherwise under law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

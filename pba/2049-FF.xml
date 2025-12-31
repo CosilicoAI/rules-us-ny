@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-FF"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-FF"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2049-FF"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-FF/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-FF/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2049-FF/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2049-FF/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2049_FF">
+        <num>2049-FF</num>
+        <heading>Governmental capacity of the authority and municipalities</heading>
+        <content>
+          <p>  § 2049-ff. Governmental capacity of the authority and municipalities.\nThe counties, other municipalities within the area of operation and the\nauthority, in carrying out their respective powers and duties under this\ntitle, shall be deemed to be acting in a governmental capacity.  The\nconstruction, operation and maintenance of any project financed in whole\nor in part by the authority shall be deemed to be the performance of an\nessential governmental function by the authority acting in its\ngovernmental capacity, whether such project shall be owned or operated\nby the authority or by any person or other public corporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

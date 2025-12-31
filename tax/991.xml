@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-991"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-991"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="991"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-991/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-991/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-991/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-991/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_991">
+        <num>991</num>
+        <heading>Interest accrual relief for additional tax attributable to newly-discovered abandoned property</heading>
+        <content>
+          <p>  § 991. Interest accrual relief for additional tax attributable to\nnewly-discovered abandoned property. Notwithstanding any other provision\nof law, in computing the interest due on an addition to tax owed by an\nestate attributable to the inclusion in the estate's federal gross\nestate of an asset held by the comptroller as abandoned property, the\ncommissioner shall apply the interest rate used by the comptroller,\npursuant to section fourteen hundred five of the abandoned property law,\nin computing the interest due on such abandoned property while in the\ncomptroller's possession (including a zero rate if the comptroller did\nnot pay interest on such property) if, as of the date prescribed for the\nfiling of a return required by this article, including any extensions\ngranted for filing, information pertaining to the asset had not yet\nappeared in the public records of abandoned property required to be\nmaintained by the comptroller pursuant to section fourteen hundred one\nof the abandoned property law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

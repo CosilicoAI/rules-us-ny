@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-914"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-914"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-914"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-914/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-914/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-9-914/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-9-914/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_914">
+        <num>9-914</num>
+        <heading>Resubmission of defeated propositions</heading>
+        <content>
+          <p>  § 9-914 Resubmission of defeated propositions. A proposition submitted\nin pursuance of section 9-912 of this article or of section 9-900 of\nthis article and which has been defeated, or in the case of a permissive\nreferendum in which the action of the board of trustees has been\ndisapproved by a role of the electors, shall not again be submitted to\nsuch electors until after the expiration of three months or until the\nnext general village election, whichever shall be the later.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6009"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6009"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6009"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6009/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6009/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6009/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6009/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6009">
+        <num>6009</num>
+        <heading>Proxies</heading>
+        <subsection eId="sec_6009__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A pledgee;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6009__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person who has purchased or agreed to purchase the shares.\n  7. Notwithstanding a provision in a proxy, stating that it is\nirrevocable, the proxy becomes revocable after the pledge is redeemed.\nThis paragraph does not affect the duration of a proxy under subdivision\ntwo.\n  8. A proxy may be revoked, notwithstanding a provision making it\nirrevocable, by a purchaser of shares without knowledge of the existence\nof the provision unless the existence of the proxy and its\nirrevocability is noted conspicuously on the face or back of the\ncertificate representing such shares.\n  9. No director, officer, clerk, teller or bookkeeper of a corporation\nshall act as proxy at any meeting of such corporation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

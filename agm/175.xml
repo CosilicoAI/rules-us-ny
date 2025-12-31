@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175"/>
+          <FRBRdate date="2021-12-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-175/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175">
+        <num>175</num>
+        <heading>Rules and regulations</heading>
+        <content>
+          <p>  § 175.   Rules and regulations. The commissioner is hereby authorized,\nafter public hearing, to adopt, promulgate and issue such rules and\nregulations as the commissioner may deem necessary to carry out and give\nfull force and effect to the provisions of this article, including, but\nnot limited to, the designation of species or subspecies of bees\ndetermined by him or her to cause injury, directly or indirectly, to the\npublic safety or to this state's managed bee population, crops, or other\nplants. Such rules and regulations shall be filed and open for public\ninspection at the principal office of the department and shall have the\nforce and effect of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

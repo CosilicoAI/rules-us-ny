@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3"/>
+          <FRBRdate date="2022-08-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-3/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-3/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3">
+        <num>3</num>
+        <heading>Members of common council; appointments to other city offices</heading>
+        <content>
+          <p>  § 3. Members of common council; appointments to other city offices. No\nmember of the common council of any city shall, during the period for\nwhich they were elected, be capable of holding under the appointment or\nelection of the common council any office the emoluments of which are\npaid from the city treasury, or paid by fees or compensation directed to\nbe paid by any act or ordinance of the common council, but this section\nshall not affect the right to any fees or emoluments belonging to any\noffice, provided, however, that in any city having a city manager or\ncouncil-manager form of government in which a mayor and vice-mayor may\nbe elected or appointed from the membership of its council, such mayor\nand vice-mayor may, in addition to the emoluments received as council\nmember, receive compensation for their services from the city treasury\nas mayor and vice-mayor. An officer of any city who violates any\nprovision of this section shall be guilty of a misdemeanor and on\nconviction thereof their office shall be vacant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

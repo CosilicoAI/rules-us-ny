@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-301"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-301"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_301">
+        <num>3-301</num>
+        <heading>Powers of married woman</heading>
+        <content>
+          <p>  § 3-301. Powers of married woman. 1. A married woman has all the\nrights in respect to property, real or personal, and the acquisition,\nuse, enjoyment and disposition thereof, and to make contracts in respect\nthereto with any person, including her husband, and to carry on any\nbusiness, trade or occupation, and to exercise all powers and enjoy all\nrights in respect thereto and in respect to her contracts, and be liable\non such contracts, as if she were unmarried.\n  2. All sums that may be recovered in actions or special proceedings by\na married woman to recover damages to her person, estate or character\nshall be the separate property of the wife.\n  3. Judgment for or against a married woman, may be rendered and\nenforced, in a court of record, or not of record, as if she was single.\nA married woman may confess a judgment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

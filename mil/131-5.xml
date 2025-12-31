@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.5"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.5"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131.5"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.5/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.5/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-131.5/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-131.5/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_5">
+        <num>131.5</num>
+        <heading>Redress of injuries to property</heading>
+        <subsection eId="sec_131_5__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Whenever complaint is\nmade to any commanding officer that willful damage has been done to the\nproperty of any person or that his property has been wrongfully taken by\nmembers of the organized militia he may, subject to such regulations as\nmay be prescribed pursuant to this chapter, convene a board to\ninvestigate the complaint. The board shall consist of from one to three\nofficers and shall have, for the purpose of such investigation, power to\nsummon witnesses and examine them upon oath or affirmation, to receive\ndepositions or other documentary evidence, and to assess the damages\nsustained against the responsible parties. The assessment of damages\nmade by such board shall be subject to the approval of the commanding\nofficer, and in the amount approved by him shall be charged against the\npay of the offenders. The order of such commanding officer directing\ncharges herein authorized shall be conclusive on any disbursing officer\nfor the payment by him to the injured parties of the damages so assessed\nand approved.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_131_5__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where the offenders cannot be ascertained, but the organization or\ndetachment to which they belong is known, the adjutant general may\ndirect that the amount of damages assessed and approved be paid to the\ninjured parties from the military fund of the unit or units of the\norganized militia to which such offenders belong.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-I"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-I"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_I">
+        <num>899-I</num>
+        <heading>Notice to educational institution</heading>
+        <content>
+          <p>  § 899-i. Notice to educational institution. 1. Within seventy-two\nhours after entering into an agency contract or before the next\nscheduled athletic event in which the student-athlete may participate,\nwhichever occurs first, the athlete agent shall give notice in a record\nof the existence of the contract to the athletic director of the\neducational institution at which the student-athlete is enrolled or the\nathlete agent has reasonable grounds to believe the student-athlete\nintends to enroll.\n  2. Within seventy-two hours after entering into an agency contract or\nbefore the next athletic event in which the student-athlete may\nparticipate, whichever occurs first, the student-athlete shall inform\nthe athletic director of the educational institution at which the\nstudent-athlete is enrolled that he or she has entered into an agency\ncontract.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

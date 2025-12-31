@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-219"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-219"/>
+          <FRBRdate date="2015-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="219"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-219/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-219/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-219/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-219/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_219">
+        <num>219</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 219. Application. Application for license as a food salvager shall\nbe made upon a form prescribed by the commissioner. The applicant shall\nsatisfy the commissioner of his or her character and that he or she has\nadequate physical facilities for salvaging food and food products. If so\nsatisfied, the commissioner shall issue to the applicant a\nnon-transferable license, which will expire on the thirtieth of June of\nthe next even numbered year following its issuance. Application for\nrenewal of such license for a period of two years shall be made\nbiennially, upon a form prescribed by the commissioner and submitted no\nlater than thirty days prior to the expiration of the existing license.\nWhere a person operates more than one salvage warehouse a separate\nlicense is required for each location.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

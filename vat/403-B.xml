@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-403-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-403-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="403-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-403-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-403-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-403-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-403-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403_B">
+        <num>403-B</num>
+        <heading>Sales of special number or distinctive license plates by certain dealers</heading>
+        <content>
+          <p>  § 403-b. Sales of special number or distinctive license plates by\ncertain dealers. 1. A dealer, retail dealer, new motor vehicle dealer or\nqualified dealer holding a certificate of registration issued pursuant\nto section four hundred fifteen of this title shall be authorized to\nobtain or order special number or distinctive license plates for a\npurchaser of a vehicle from such dealer in return for a processing fee\nnot to exceed five dollars. Such dealer shall not be required to secure\na license pursuant to section three hundred ninety-five of this chapter.\n  2. The commissioner is hereby authorized to promulgate rules and\nregulations necessary to implement the provisions of this section\nincluding, but not limited to, the provision of a credit for number\nplates or other interim or temporary plates issued in advance of the\nreceipt of the special number or distinctive plate, and the requirement\nthat dealers authorized by this section disclose the initial and annual\nfees applicable to any special number and distinctive plates that are\nordered. The processing fee authorized in subdivision one of this\nsection shall apply only upon orders of special or distinctive plates\nand shall be in addition to any other fee or fees authorized by\nregulation and charged by such dealers for obtaining motor vehicle\nregistrations and/or titles.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>Annual accounting by town officers and employees</heading>
+        <content>
+          <p>  § 123.  Annual accounting by town officers and employees. On or before\nthe twentieth day of January each person, who as a town officer or\nemployee received or disbursed any moneys in the previous fiscal year,\nshall account with the town board for such moneys and shall produce all\nsupporting books, records, receipts, warrants, vouchers and cancelled\nchecks or check images as authorized by section ninety-nine-b of the\ngeneral municipal law. No member of the town board shall sit as such\nwhen any account in which he is interested is being audited.\n  In addition, the town board shall examine the criminal and civil\ndockets of each town justice and shall cause to be entered in the\nminutes of its proceedings that such dockets have been duly examined and\nthat the fines and fees therein shown to have been collected have been\nturned over to the proper officials as required by law.\n  Each town officer and employee, except a town justice, at the time of\nsubmitting his books and records, shall file with the town board a\nstatement in writing showing his receipts and disbursements for the\nfiscal year.  Such statement shall be in detail and shall be entered in\nthe minutes of the meeting by the town clerk.\n  The provisions of this section requiring an annual accounting and the\nsubmission of books and records by all town officers and employees to\nthe town board shall not apply to a town having a town comptroller, nor\nto a town which, prior to the twentieth day of January, shall have\nengaged the services of a certified public accountant or public\naccountant to make an annual audit to be completed within sixty days\nafter the close of the town's fiscal year.\n  Notwithstanding anything herein contained, the town board, at any\ntime, may require any town officer or employee to submit to the board or\nto such certified public accountant or public accountant for examination\nhis books, dockets, records, receipts, warrants, vouchers and cancelled\nchecks or check images as authorized by section ninety-nine-b of the\ngeneral municipal law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

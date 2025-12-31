@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-710"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-710"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="710"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-710/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-710/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-710/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-710/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_710">
+        <num>710</num>
+        <heading>Disposition of taxes and other charges against property in annexed territory</heading>
+        <content>
+          <p>  § 710. Disposition of taxes and other charges against property in\nannexed territory. 1. All unpaid or delinquent taxes levied or charges\nmade against or on account of any territory annexed pursuant to this\narticle and existing at the time such annexation takes effect, shall be\ndue and payable and collected in all respects the same as if such\nterritory had not been annexed.\n  2. Any other taxes levied or other charges made against or on account\nof any territory annexed pursuant to this article for the fiscal year in\nwhich an annexation shall take effect shall be apportioned. The affected\nlocal governments may agree to any fair and equitable basis on which\nsuch apportionment shall be computed, and such agreement may be\nincorporated into the agreement, if any, executed pursuant to section\nseven hundred seven or seven hundred eight of this article.\n  3. Any taxes levied or other charges made against or on account of any\nterritory annexed pursuant to this article for a fiscal year commencing\nafter the date such annexation takes effect shall be due and payable to\nand collected by the annexing local government.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-18-1800"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-18-1800"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="18-1800"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-18-1800/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-18-1800/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-18-1800/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-18-1800/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_1800">
+        <num>18-1800</num>
+        <heading>Change of name</heading>
+        <content>
+          <p>  § 18-1800 Change of name. The name of a village may be changed upon\nthe adoption of a proposition therefor at an annual or special election.\nThe proposition must contain the proposed new name, and be accompanied\nby written notice to the United States Postal Service of such change. If\nthe proposition be adopted a certificate thereof, attested by the mayor\nand clerk of the village, shall, within ten days after the election, be\nfiled in the office of such clerk, in the office of the county clerk of\neach county in which any part of the village is situated, and also in\nthe office of the secretary of state. The change of name takes effect\nupon the filing of the certificate in the office of the village clerk.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

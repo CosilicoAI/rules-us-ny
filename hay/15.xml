@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-15"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15">
+        <num>15</num>
+        <heading>Removal of vehicles</heading>
+        <content>
+          <p>  § 15. Removal of vehicles. 1. The commissioner of transportation shall\nhave the power to cause the removal and disposition of any vehicle left\nunattended for more than twenty-four hours within the right of way of\nany state highway or on any other public property under his\njurisdiction.\n  2. The commissioner of transportation shall have the power to cause\nthe immediate removal, from the right of way of any state highway, of\nany vehicle which obstructs or interferes with the use of such a highway\nfor public travel; or which obstructs or interferes with the\nconstruction, reconstruction or maintenance of such a highway; or which\nobstructs or interferes with the clearing or removal of snow or ice from\nsuch a highway; or which obstructs or interferes with any operation of\nthe department of transportation during a public emergency.\n  3. The owner of a vehicle removed under any of the provisions of this\nsection may be charged the reasonable cost of removal and disposition\nthereof.\n  4. The term vehicle, as used in this section, shall mean every device\nin, upon, or by which any person or property is or may be transported or\ndrawn upon a highway, except devices moved by human power or used\nexclusively upon stationary rails or tracks.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-169"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-169"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="169"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-169/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-169/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-169/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-169/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_169">
+        <num>169</num>
+        <heading>Eligibility</heading>
+        <content>
+          <p>  § 169. Eligibility. Each of the following persons who is a resident of\nthe state on the date of making application for veteran assistance shall\nbe eligible for such assistance if he or she is unable to provide for\nhimself or herself, or is unable to secure support from a legally\nresponsible relative, and is not receiving needed assistance or care\nunder other provisions of this chapter, or from other sources:\n  1. A veteran;\n  2. The wife, husband, child or grandchild under the age of twenty-one\nyears, father, mother, stepfather or stepmother of a veteran, if living\nwith the veteran;\n  3. The unremarried surviving spouse of a veteran;\n  4. The dependent children under the age of twenty-one years or the\nincapacitated children of a deceased veteran.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

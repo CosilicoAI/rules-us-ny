@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eml/section-13"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-13"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="13"/>
+          <FRBRname value="EML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eml/section-13/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-13/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eml/section-13/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eml/section-13/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_13">
+        <num>13</num>
+        <heading>Cancellation of consent</heading>
+        <content>
+          <p>  § 13. Cancellation of consent. When a consent to the plan shall have\nbeen filed in the office of the county clerk as herein provided, it\nshall be binding upon both parties thereto as long as the relation of\nemployer and employee exists between the parties, and expire at the end\nof such employment, but it may at any time be canceled on sixty days'\nnotice in writing from either party to the other. Such notice of\ncancellation shall be effective only if served personally or sent by\nregistered letter to the last known post-office address of the party to\nwhom it is addressed, but no notice of cancellation shall be effective\nas to a claim for injury occurring previous thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

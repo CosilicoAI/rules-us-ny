@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-401"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-401"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="401"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_401">
+        <num>401</num>
+        <heading>Births to inmates of public homes</heading>
+        <content>
+          <p>  § 401.  Births to inmates of public homes.  No commissioner of public\nwelfare shall provide care in a public home for any pregnant woman\nduring confinement unless such public home has adequate hospital or\ninfirmary facilities, is equipped to give the necessary medical and\nnursing care and has a certificate from the department authorizing such\npublic home to care for maternity cases.  Certificates authorizing a\npublic home to care for maternity cases may be issued by the department\nfor a one-year period, subject to renewal, but may be revoked at any\ntime by the department.  If the public home is not so certified, a\ncommissioner of public welfare shall, a reasonable time before the\nexpected confinement of any pregnant woman inmate, provide suitable\nmaintenance and medical care for her in a hospital or some other place\nequipped to give adequate care.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

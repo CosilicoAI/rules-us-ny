@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-AA"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-AA"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="142-AA"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-AA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-AA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-142-AA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-142-AA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_142_AA">
+        <num>142-AA</num>
+        <heading>Definitions and standards</heading>
+        <subsection eId="sec_142_AA__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Agricultural liming\nmaterial," means all materials and all calcium and magnesium products in\nthe oxide, hydrate, carbonate or silicate form or combinations thereof\nand intended for use in the correction of soil acidity, including such\nforms of material designated as burned lime, hydrated lime, carbonate of\nlime, agricultural limestone, slag and marl.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_142_AA__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Brand" means each agricultural liming material identified by and\ndiffering from others either in name, trademark, descriptive designation\nor other method of marking, composition, and total neutralizing value or\nfineness.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_142_AA__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Total neutralizing value" means the neutralizing value of an\nagricultural liming material expressed as calcium carbonate equivalence\nas determined in accordance with methods adopted by the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_142_AA__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"Fineness" means the percentage by weight of the material which\nwill pass sieves of specified number or mesh as established by the\ncommissioner. Fineness shall be measured in reference to a twenty mesh,\nsixty mesh, and a one hundred mesh sieve, in accordance with methods\nadopted by the commissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

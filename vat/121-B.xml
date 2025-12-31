@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="121-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-121-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-121-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_121_B">
+        <num>121-B</num>
+        <heading>Limited use motorcycle</heading>
+        <content>
+          <p>  § 121-b. Limited use motorcycle. A limited use vehicle having only two\nor three wheels, with a seat or saddle for the operator. A limited use\nmotorcycle having a maximum performance speed, of more than thirty miles\nper hour but not more than forty miles per hour shall be a class A\nlimited use motorcycle. A limited use motorcycle having a maximum\nperformance speed of more than twenty miles per hour but not more than\nthirty miles per hour, shall be a class B limited use motorcycle. A\nlimited use motorcycle having a maximum performance speed of not more\nthan twenty miles per hour shall be a class C limited use motorcycle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

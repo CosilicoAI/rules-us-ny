@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-438"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-438"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="438"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-438/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-438/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-438/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-438/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_438">
+        <num>438</num>
+        <heading>Surplus account</heading>
+        <content>
+          <p>  § 438. Surplus account. 1. The savings and loan bank shall accumulate\nfrom its profits a surplus account by carrying thereto annually a sum\nequal to one-half of one per centum of its capital, until such surplus\naccount shall be equal to at least fifteen per centum of its capital.\n  2. The guaranty fund on June thirtieth, nineteen hundred thirty-nine\nshall be transferred to the surplus account and shall constitute the\nsurplus account at that date.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

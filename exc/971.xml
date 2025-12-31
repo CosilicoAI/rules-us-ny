@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-971"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-971"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="971"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-971/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-971/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-971/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-971/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_971">
+        <num>971</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 971. Definitions. Whenever used in this article:\n  1. "Act" means the federal Job Training Partnership Act as enacted\ninto law by Public Law 97-300.\n  2. "Council" means the committee, board or council established by the\ngovernor to meet the requirements of section one hundred twenty-two of\nthe act for a state job training coordinating council.\n  3. "Plan" means the governor's coordination and special services plan\nas required by section one hundred twenty-one of the act.\n  4. "Workforce preparation programs" means employment and training\nprograms and human resource utilization activities including but not\nlimited to job training and development, vocational education, public\nassistance employment, labor market information and employment services.\n  5. "Service delivery areas" means the areas designated by the governor\nin accordance with the provisions of section one hundred one of the act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

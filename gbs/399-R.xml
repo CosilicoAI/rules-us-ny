@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-R"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-R"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="399-R"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-R/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-R/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-399-R/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-399-R/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_399_R">
+        <num>399-R</num>
+        <heading>Sale of paint pellet guns</heading>
+        <subsection eId="sec_399_R__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>No person, firm, or\ncorporation shall sell or offer to sell a paint pellet gun to any person\nunder sixteen years of age.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_399_R__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For purposes of this subdivision, the term "paint pellet gun"\nmeans a gun, air gun, pistol, rifle, or like device in appearance or\nfunction, capable of and designed for discharging and propelling through\nthe air to a target a small quantity of paint enclosed within a pellet\nor pellet-like device or capsule or capsule-like device that breaks upon\nimpact with the target, overspreading the target with paint.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_399_R__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Any person, firm, or corporation who violates the provisions of\nthis section shall be subject to a civil penalty of not more than five\nhundred dollars.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

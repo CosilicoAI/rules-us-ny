@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="339-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_339_A">
+        <num>339-A</num>
+        <heading>False statement or advertisement as to securities</heading>
+        <content>
+          <p>  § 339-a. False statement or advertisement as to securities. Any\nperson, who, with intent to deceive, makes, issues or publishes, or\ncauses to be made, issued or published, any statement or advertisement\nas to the value or as to facts affecting the value of the stocks, bonds\nor other evidences of debt of a corporation, company or association, or\nas to the financial condition or facts affecting the financial condition\nof any corporation, company or association which has issued, is issuing\nor is about to issue stocks, bonds or other evidences of debt, and who\nknows, or has reasonable ground to believe that any material\nrepresentation, prediction or promise made in such statement or\nadvertisement is false, is guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

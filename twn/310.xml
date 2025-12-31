@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-310"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-310"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="310"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-310/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-310/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-310/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-310/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_310">
+        <num>310</num>
+        <heading>Lien upon strays</heading>
+        <content>
+          <p>  § 310. Lien upon strays. Whenever any person shall have any strayed\nhorses, cattle, sheep, swine or other beast upon his inclosed land, or\nshall find any such beast on land owned or occupied by him doing damage,\nand such beast shall not have come upon such lands from adjoining lands,\nwhere they are lawfully kept, by reason of his refusal or neglect to\nmake or maintain a division fence required of him by law, such person\nmay have a lien with priority over all other liens upon such beasts, for\nso long as such person shall retain possession of such beasts, for the\ndamage sustained by reason of their so coming upon his lands and doing\ndamage, for his reasonable charges for keeping them, and all fees and\ncosts made thereon, and he may keep such beast until such damages,\ncharges, fees and costs are paid, or such lien is foreclosed, upon\ncomplying with the provisions of this article relating thereto.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

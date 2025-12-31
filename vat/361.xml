@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-361"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-361"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="361"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-361/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-361/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-361/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-361/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_361">
+        <num>361</num>
+        <heading>Self-insurers</heading>
+        <subsection eId="sec_361__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>This article, except sections three hundred\nthirty-nine and three hundred fifty-nine, shall not apply to any person\nhaving registered in his name in this state more than twenty-five motor\nvehicles if such person shall obtain from the commissioner a certificate\nof self-insurance as provided for in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_361__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of this section.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_361__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The commissioner may, in his discretion, upon the application of\nsuch a person, issue a certificate of self-insurance when he is\nreasonably satisfied that such person is possessed and will continue to\nbe possessed of financial ability to respond to judgments, as\nhereinbefore described, obtained against such person, arising out of the\nownership, maintenance, use or operation of any of such person's motor\nvehicles.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_361__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Upon due notice and hearing, the commissioner, may, in his\ndiscretion and upon reasonable grounds, cancel a certificate of\nself-insurance.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

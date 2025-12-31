@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1671"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1671"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1671"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1671/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1671/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1671/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1671/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1671">
+        <num>1671</num>
+        <heading>Access of motorcycles</heading>
+        <content>
+          <p>  § 1671. Access of motorcycles. No local authority may enact or enforce\na law that applies only to motorcycles and the principal purpose of\nwhich is to restrict the access of motorcycles to any highway or portion\nof a highway under the jurisdiction of any such local authority for\nwhich state funds have been utilized for planning, design, construction\nor maintenance. Provided, however, that nothing contained herein shall\nbe deemed to supersede the authority of any local authority to regulate\ntraffic pursuant to the provisions of this title, or to regulate noise.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

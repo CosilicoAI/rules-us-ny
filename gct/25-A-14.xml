@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-14"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-14"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="25-A-14"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-14/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-14/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-14/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-14/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_A_14">
+        <num>25-A-14</num>
+        <heading>City standard deduction of a resident individual</heading>
+        <subsection eId="sec_25_A_14__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nGeneral.-- The city standard deduction of a resident individual, or of\nhusband and wife whose city taxable income is determined jointly as if\nhusband and wife were one taxpayer, shall be ten per centum of city\nadjusted gross income or one thousand dollars, whichever is less.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_25_A_14__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Husband and wife determining income separately.-- The city\nstandard deductions of husband and wife whose city taxable incomes are\ndetermined separately (whether or not on a single form) shall not exceed\nten per centum of the aggregate of their separate city adjusted gross\nincomes or one thousand dollars, whichever is less, but may be taken by\neither or divided between them as they may elect.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

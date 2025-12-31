@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2723"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2723"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-2723"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2723/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2723/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2723/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2723/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_2723">
+        <num>15-2723</num>
+        <heading>Penalties and enforcement</heading>
+        <content>
+          <p>§ 15-2723. Penalties and enforcement.\n  Any person who violates any provision of this title or any regulation\nor order issued pursuant to this act by the commissioner or the agency\nmay be compelled to comply with or obey the same by injunction, mandamus\nor other appropriate remedy. In addition, any such person shall pay a\ncivil penalty of not less than one hundred dollars or more than one\nthousand dollars for each day of such violation. The commissioner or the\nagency as the case may be, is authorized to commence a civil action to\nrecover such civil penalties or other appropriate relief.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

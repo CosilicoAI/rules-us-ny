@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63"/>
+          <FRBRdate date="2024-02-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="63"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-63/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-63/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_63">
+        <num>63</num>
+        <heading>Seven day license to sell liquor at retail for consumption off the premises</heading>
+        <subsection eId="sec_63__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>items that are de minimis in value, but in no instance shall\nmerchandise be valued at more than fifteen dollars in total; (ii) items\nthat are imprinted with the wine or liquor brand logo on the gift or\npromotional item; and (iii) items that are included as part of a\nmanufactured pre-sealed package with the wine or liquor that is being\ngifted or promoted. Further, for the purposes of this section,\npromotional items shall not include any food, non-alcoholic beverage, or\nother drink or food mix, nor shall these items be offered for sale to\nthe general public as individual items.\n  5. Not more than one license shall be granted to any person under this\nsection.\n  6. Determinations under this section with respect to the issuance of a\nnew license or under section one hundred eleven with respect to the\ntransfer to any other premises of a license issued hereunder, shall be\nmade in accordance with public convenience and advantage.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

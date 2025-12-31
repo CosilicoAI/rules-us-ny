@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-461"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-461"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="461"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-461/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-461/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-461/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-461/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_461">
+        <num>461</num>
+        <heading>Permit required</heading>
+        <content>
+          <p>  § 461. Permit required. 1. No person shall be a body piercing\nspecialist or tattooist and no person, firm, corporation, partnership,\nor other association shall operate a body piercing studio or tattoo\nstudio without first obtaining a permit from the department.\n  2. All body piercing or tattooing shall be performed in accordance\nwith the rules and regulations promulgated by the commissioner pursuant\nto the public health law.\n  3. The department shall issue a permit if the body piercing specialist\nand body piercing studio or tattooist and tattoo studio are in\ncompliance with this article, the penal law and the state sanitary code\nand are not otherwise disqualified under this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

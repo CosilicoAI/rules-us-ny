@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-D"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="807-D"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-807-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-807-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_807_D">
+        <num>807-D</num>
+        <heading>Locating source of fires in schools</heading>
+        <content>
+          <p>  § 807-d. Locating source of fires in schools. 1. In all public and\nprivate school buildings having a central annunciator panel or fire\nalarm cabinet which displays a visual signal identifying any heat\ndetector, smoke detector, or manually operated fire alarm box within the\nbuilding which has been activated, there shall be provided as a part of\nor immediately adjacent to such panel or cabinet a chart or plan showing\nthe specific location within the building of each such device.\n  2. In the case of school buildings and additions to existing school\nbuildings, the construction of which is commenced after September first,\nnineteen hundred seventy-three, any such panel or cabinet and such chart\nor plan within such building or addition shall be so located that the\nsame may be read without entering the building.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

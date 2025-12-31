@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-519"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-519"/>
+          <FRBRdate date="2022-11-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="519"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-519/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-519/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-519/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-519/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_519">
+        <num>519</num>
+        <heading>Hemp economic development</heading>
+        <content>
+          <p>  § 519. Hemp economic development. The commissioner shall consult and\ncooperate with the New York state urban development corporation, the New\nYork state hemp workgroup created pursuant to section one hundred eight\nof the cannabis law, and representatives of industries that currently\nuse, or may potentially use, industrial hemp in their products, with\nrespect to the funding and support of research, and product and business\ndevelopment and promotion, concerning hemp and businesses involved in\ngrowing, cultivating, and processing hemp for uses including, but not\nlimited to food, fiber, packaging, cannabinoid content, and construction\nmaterials.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

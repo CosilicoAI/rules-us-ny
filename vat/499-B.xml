@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-499-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-499-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="499-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-499-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-499-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-499-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-499-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_499_B">
+        <num>499-B</num>
+        <heading>Collection of supplemental fee</heading>
+        <content>
+          <p>  § 499-b. Collection of supplemental fee. All registrants of motor\nvehicles who reside in the metropolitan commuter transportation district\nshall pay to the commissioner or his or her agent the supplemental\nregistration fee provided for in this article upon registration or\nrenewal of motor vehicles subject to registration fees pursuant to the\nfollowing sections of this chapter: paragraph a of subdivision six of\nsection four hundred one; schedules A, B, C, E, F, G, I and K of\nsubdivision seven of section four hundred one; paragraph a of\nsubdivision eight of section four hundred one; paragraph a of\nsubdivision five of section four hundred ten; and section four hundred\neleven-b.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

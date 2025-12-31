@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-489"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-489"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="489"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-489/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-489/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_489">
+        <num>489</num>
+        <heading>Charge for admission and participation; amount of prizes; award of prizes</heading>
+        <subsection eId="sec_489__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>no\nadmission fee shall be charged,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_489__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>not more than twenty-five cents\nshall be charged for a single opportunity to participate in any one\ngame, which charge, upon payment thereof, shall entitle the person\npaying the same to one card for participation in one such game, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_489__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>\nno licensee shall sell more than five opportunities to each player\nparticipating in any one game. Every winner shall be determined and\nevery prize shall be awarded and delivered within the same calendar day\nas that upon which the game was played. No alcoholic beverage shall be\noffered or given as a prize in any game of bingo.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

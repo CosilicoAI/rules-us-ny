@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-144"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-144"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="144"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-144/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-144/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-144/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-144/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_144">
+        <num>144</num>
+        <heading>Saving clause</heading>
+        <content>
+          <p>  § 144. Saving clause. In case it be judicially determined that any\nphrase, clause, part, paragraph or section of any of the provisions of\nsections one hundred thirty, one hundred thirty-one, one hundred\nthirty-two, one hundred thirty-three, one hundred thirty-five, one\nhundred thirty-six, one hundred thirty-seven and one hundred\nthirty-eight is unconstitutional or otherwise invalid, such\ndetermination shall not affect the validity or effect of the remaining\nprovisions of the aforementioned sections.  All persons heretofore\nappointed and still holding office as notaries public shall continue in\nsuch office after the effective date of this article, with the same\npowers and duties as herein provided until the expiration of the term\nfor which they were appointed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

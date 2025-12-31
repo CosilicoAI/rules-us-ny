@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-94"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-94"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="94"/>
+          <FRBRname value="GCN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-94/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-94/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gcn/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gcn/section-94/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_94">
+        <num>94</num>
+        <heading>Effect of repealing statute upon pending actions and proceedings</heading>
+        <content>
+          <p>  § 94. Effect of repealing statute upon pending actions and\nproceedings. Unless otherwise specially provided by law, all actions and\nproceedings, civil or criminal, commenced under or by virtue of any\nprovision of a statute so repealed, and pending immediately prior to the\ntaking effect of such repeal, may be prosecuted and defended to final\neffect in the same manner as they might if such provisions were not so\nrepealed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

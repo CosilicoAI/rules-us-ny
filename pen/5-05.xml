@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-5.05"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-5.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5.05"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-5.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-5.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-5.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-5.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_05">
+        <num>5.05</num>
+        <heading>Application of chapter to offenses committed before and after enactment</heading>
+        <content>
+          <p>§ 5.05 Application of chapter to offenses committed before and after\n         enactment.\n  1. The provisions of this chapter shall govern the construction of and\npunishment for any offense defined in this chapter and committed after\nthe effective date hereof, as well as the construction and application\nof any defense to a prosecution for such an offense.\n  2. Unless otherwise expressly provided, or unless the context\notherwise requires, the provisions of this chapter shall govern the\nconstruction of and punishment for any offense defined outside of this\nchapter and committed after the effective date thereof, as well as the\nconstruction and application of any defense to a prosecution for such an\noffense.\n  3. The provisions of this chapter do not apply to or govern the\nconstruction of and punishment for any offense committed prior to the\neffective date of this chapter, or the construction and application of\nany defense to a prosecution for such an offense. Such an offense must\nbe construed and punished according to the provisions of law existing at\nthe time of the commission thereof in the same manner as if this chapter\nhad not been enacted.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1600"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1600"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1600"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1600/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1600/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1600/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1600/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1600">
+        <num>1600</num>
+        <heading>Provisions of chapter uniform throughout state</heading>
+        <content>
+          <p>  § 1600. Provisions of chapter uniform throughout state. The provisions\nof this chapter shall be applicable and uniform throughout this state\nand in all political subdivisions and municipalities therein and no\nlocal authority shall enact or enforce any local law, ordinance, order,\nrule or regulation in conflict with the provisions of this chapter\nunless expressly authorized herein. No local authority shall enact or\nduplicate any provision of this chapter as a local law, ordinance,\norder, rule or regulation, except that any local authority authorized to\nsupersede any provision of this chapter may enact any such provision in\na modified or amended form.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

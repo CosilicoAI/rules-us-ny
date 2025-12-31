@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-907"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-907"/>
+          <FRBRdate date="2022-06-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="907"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-907/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-907/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-907/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-907/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_907">
+        <num>907</num>
+        <heading>Data privacy protections</heading>
+        <content>
+          <p>  § 907. Data privacy protections. Notwithstanding any other provision\nof the law to the contrary, all trip data, personal information, images,\nvideos, and other recorded images collected by any peer-to-peer car\nsharing program administrator that is authorized to operate pursuant to\nthis article shall be for the exclusive use of such peer-to-peer car\nsharing program and shall not be sold, distributed, or otherwise made\naccessible except:\n  1. to the person who is the subject of such data information or\nrecord, or to enable or facilitate such person's use of the car sharing\nprogram in accordance with the peer-to-peer car sharing agreement;\n  2. to respond to, process, facilitate, adjust, or defend an insurance\nclaim; or\n  3. if necessary to comply with a lawful court order, judicial warrant\nsigned by a judge appointed pursuant to article three of the United\nStates Constitution, or subpoena for individual data, information or\nrecords properly issued pursuant to the criminal procedure law or the\ncivil practice law and rules.\n  Provided, however, that nothing contained in this paragraph shall be\ndeemed to preclude the exchange of anonymized trip data, information, or\nrecorded images solely for the purpose of administering such authorized\ncar sharing program, and provided further that aggregated anonymized\ntrip data may be shared with this state or any of its political\nsubdivisions for non-commercial transportation research or traffic\nmanagement purposes. Any such exchanges or sharing shall exclude\npersonal information, images, videos, and other recorded images\ncollected by any peer-to-peer car sharing program administrator. For the\npurposes of this section, "personal information" shall mean information\nthat identifies an individual, including but not limited to name,\naddress, telephone number, and the type and form of payment including\ncredit card number, debit card number, or other payment method.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

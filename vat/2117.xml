@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2117"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2117"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2117"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2117/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2117/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2117/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2117/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2117">
+        <num>2117</num>
+        <heading>When commissioner to issue new certificate</heading>
+        <subsection eId="sec_2117__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The\ncommissioner, upon receipt of a properly assigned certificate of title,\nwith an application for a new certificate of title, the required fee and\nany other documents required by law, shall check the identifying number\nof the vehicle against the appropriate records of vehicles required to\nbe maintained, issue a new certificate of title in the name of the\ntransferee as owner and mail it to the owner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2117__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The commissioner, upon receipt of an application for a new\ncertificate of title by a transferee other than by voluntary transfer,\nwith proof of the transfer, the required fee and any other documents\nrequired by law, shall check the identifying number of the vehicle\nagainst the appropriate records of vehicles required to be maintained,\nissue a new certificate of title in the name of the transferee as owner\nand mail it to the owner. If the outstanding certificate of title is not\ndelivered to the commissioner, he shall demand it from the holder\nthereof.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2117__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner may require that any vehicle for which an\napplication for a certificate of title is made be inspected in a manner\nprescribed by him for conformity to the description given in the\napplication before he issues a certificate of title.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

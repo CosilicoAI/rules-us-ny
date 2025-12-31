@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1626"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1626"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1626"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1626/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1626/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1626/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1626/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1626">
+        <num>1626</num>
+        <heading>Regulation of rest and parking areas and scenic overlooks</heading>
+        <content>
+          <p>  § 1626. Regulation of rest and parking areas and scenic overlooks.\nThe department of transportation with respect to rest and parking areas\nand scenic overlooks provided by the department of transportation along\nstate highways maintained by the state, may prohibit, restrict or\nregulate traffic within such areas and overlooks or the use of such\nareas and overlooks. Any action taken pursuant to this section shall\nsupersede the provisions of this chapter where inconsistent or in\nconflict therewith in respect to the establishment of maximum and\nminimum speed limits and to the parking, standing, stopping and backing\nof vehicles.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

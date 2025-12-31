@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0701"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="33-0701"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_0701">
+        <num>33-0701</num>
+        <heading>Scope of registration</heading>
+        <content>
+          <p>§ 33-0701. Scope of registration.\n  Every pesticide which is used, distributed, sold, or offered for sale\nwithin this state or delivered for transportation or transported in\nintrastate commerce or between points within this state through any\npoint outside this state shall be registered every two years with the\noffice of the commissioner; provided that any pesticide imported into\nthis state, which is registered under the provisions of any federal act\nproviding for the registration of pesticides may, in the discretion of\nthe commissioner, be exempted from registration under this article, when\nsold or distributed in the unbroken immediate container in which it was\noriginally shipped.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

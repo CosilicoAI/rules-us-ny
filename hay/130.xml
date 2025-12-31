@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-130"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-130"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-130/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-130/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-130/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130">
+        <num>130</num>
+        <heading>Bridges on county road system</heading>
+        <content>
+          <p>  § 130. Bridges on county road system. Notwithstanding the provisions\nof sections two hundred and thirty-one and two hundred and thirty-three\nof this chapter, or any other statute, any bridge hereafter proposed to\nbe located on such county road system, when the same is to be\nconstructed, reconstructed, maintained or repaired with county road fund\nmoneys, or when the same is to be constructed, reconstructed, maintained\nor repaired with federal and any county moneys, shall be considered and\ndeemed for such purposes a part of the road on which it is located; and\nall the provisions of this section relative to such road system shall\napply with equal force and effect to such bridge thereon for such\npurposes.\n  Bridges under this section shall include bridges over and across\nnavigable streams, waters, bays or arms of the sea, whether or not the\ntitle to the bed thereof is in the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

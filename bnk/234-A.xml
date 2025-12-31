@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-234-A"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-234-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="234-A"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-234-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-234-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-234-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-234-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_234_A">
+        <num>234-A</num>
+        <heading>Settlement, modification or readjustment of investment</heading>
+        <content>
+          <p>  § 234-a. Settlement, modification or readjustment of investment.  A\nsavings bank may consent to any settlement, modification or readjustment\nof any investment in securities legally made by such savings bank, and\nmay accept and hold stocks, bonds, notes, securities or other property,\nreal or personal, offered in full or partial settlement, modification or\nreadjustment of any such investment.  The superintendent may, in his\ndiscretion, require any savings bank to dispose of any investment\nacquired by it pursuant to this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

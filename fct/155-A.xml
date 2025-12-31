@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-155-A"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-155-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="155-A"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-155-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-155-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-155-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-155-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_155_A">
+        <num>155-A</num>
+        <heading>Admission to bail</heading>
+        <content>
+          <p>  § 155-a. Admission to bail. A desk officer in charge at a police\nstation, county jail or police headquarters, or any of his or her\nsuperior officers, may, in such place, take cash bail for his or her\nappearance before the appropriate court the next morning from any person\narrested pursuant to a warrant issued by the family court; provided that\nsuch arrest occurs between eleven o'clock in the morning and eight\no'clock the next morning, except that in the city of New York bail shall\nbe taken between two o'clock in the afternoon and eight o'clock the next\nmorning. The amount of such cash bail shall be the amount fixed in the\nwarrant of arrest.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

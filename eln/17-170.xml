@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-170"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-170"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-170"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-170/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-170/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-170/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-170/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_170">
+        <num>17-170</num>
+        <heading>Destroying or delaying election returns</heading>
+        <content>
+          <p>  § 17-170. Destroying or delaying election returns. A messenger\nappointed by authority of law to receive and carry a report, certificate\nor certified copy of any statement relating to the result of any\nelection, who wilfully mutilates, tears, defaces, obliterates or\ndestroys the same, or does any other act which prevents the delivery of\nit as required by law; and a person who takes away from such messenger\nany such report, certificate or certified copy, with intent to prevent\nits delivery, or who wilfully does any injury or other act in this\nsection specified, is guilty of a felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

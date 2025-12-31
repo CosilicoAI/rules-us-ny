@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-U"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-U"/>
+          <FRBRdate date="2025-03-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2994-U"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2994_U">
+        <num>2994-U</num>
+        <heading>Rights to be publicized</heading>
+        <content>
+          <p>  § 2994-u. Rights to be publicized. The commissioner shall prepare a\nstatement summarizing the rights, duties, and requirements of this\narticle and shall require that a copy of such statement be furnished to\na patient or to the patient's surrogate, or to the parent or guardian of\na minor patient, at or prior to admission to the hospital, or within a\nreasonable time thereafter, and to any person on the surrogate list who\nrequests a copy of the statement from the hospital. The statement shall\nalso be made available to the hospital clinical staff.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

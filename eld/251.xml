@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELD">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eld/section-251"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-251"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="251"/>
+          <FRBRname value="ELD"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eld/section-251/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-251/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eld/section-251/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eld/section-251/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_251">
+        <num>251</num>
+        <heading>Penalties for fraud and abuse</heading>
+        <content>
+          <p>  § 251. Penalties for fraud and abuse. 1. Any person who knowingly\nmakes a false statement or representation, or who by deliberate\nconcealment of any material fact, or by impersonation or other\nfraudulent device, obtains or attempts to obtain or aids or abets any\nperson to obtain any benefit under this title to which he or she is not\nentitled, shall be guilty of a class A misdemeanor.\n  2. Any person who, having made application to receive any benefit\nunder this title for the use and benefit of another and having received\nit, knowingly and willfully converts such benefit or any part thereof to\na use other than for the use and benefit of such other person, shall be\nguilty of a class A misdemeanor.\n  3. Any person who, with intent to defraud, presents for allowance or\npayment any false or fraudulent claim for furnishing services or\nmerchandise, or knowingly submits false information for the purpose of\nobtaining greater compensation than that to which he or she is legally\nentitled for furnishing services or merchandise, or knowingly submits\nfalse information for the purpose of obtaining authorization for\nfurnishing services or merchandise under this title, shall be guilty of\na class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

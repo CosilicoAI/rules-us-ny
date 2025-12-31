@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2222"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2222"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2222"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2222/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2222/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2222/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2222/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2222">
+        <num>2222</num>
+        <heading>Tuberculosis; protection of patient's family; duty of physicians and health officers</heading>
+        <content>
+          <p>  § 2222. Tuberculosis; protection of patient's family; duty of\nphysicians and health officers.  1. It shall be the duty of a physician\nattending a patient having tuberculosis to take all proper precautions\nand to give proper instructions to provide for the safety of all\nindividuals occupying the same house or apartment, and if no physician\nbe attending such patient this duty shall devolve upon the state\ndistrict health officer or local health officer.\n  2. All duties imposed upon physicians by any sections of this article\nshall be performed by the state district health officer or local health\nofficer in all cases of tuberculosis not attended by a physician, or\nwhen the physician fails to perform the duties herein specified.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

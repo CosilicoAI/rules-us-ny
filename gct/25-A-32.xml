@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-32"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-32"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="25-A-32"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-32/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-32/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-25-A-32/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-25-A-32/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_A_32">
+        <num>25-A-32</num>
+        <heading>Time and place for filing returns and paying tax</heading>
+        <content>
+          <p>  § 32. Time and place for filing returns and paying tax.--A person\nrequired to make and file a return under this local law shall, without\nassessment, notice or demand, pay any tax due thereon to the\nadministrator on or before the date fixed for filing such return\n(determined without regard to any extension of time for filing the\nreturn). The administrator shall prescribe by regulation the place for\nfiling any return, declaration, statement, or other document required\npursuant to this local law and for payment of any tax.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

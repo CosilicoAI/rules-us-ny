@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-45"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="45"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45">
+        <num>45</num>
+        <heading>Authority to represent the state as owner of abutting property</heading>
+        <content>
+          <p>  § 45. Authority to represent the state as owner of abutting property.\nWhenever by law owners of property abutting upon a street or highway, or\nany number or percentage thereof, are authorized to petition or\notherwise initiate any proceeding respecting the use, occupation or\nimprovement of such street or highway, or the consent of such owners or\nof any number or percentage thereof is a prerequisite to the use,\noccupation or improvement of a street or highway, the comptroller in\nbehalf of the state, upon the approval of the attorney-general, is\nauthorized to join in any petition, take any action or consent to the\nuse, occupation or improvement of such a street or highway, affecting\nthe property of the state abutting upon such street or highway, with the\nsame force and effect, and subject to the same limitations and\nconditions, as the owners of other property abutting upon such street or\nhighway.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

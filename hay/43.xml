@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-43"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-43"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-43/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-43/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43">
+        <num>43</num>
+        <heading>Intersections, grading and paving on county roads and town highways at intersection with and during construction or reconstruction of sta...</heading>
+        <content>
+          <p>  § 43. Intersections, grading and paving on county roads and town\nhighways at intersection with and during construction or reconstruction\nof state highways. Whenever in the construction or reconstruction of a\nstate highway it is determined by the commissioner of transportation to\nmodify the grade or alignment of such state highway at its intersection\nwith a county road or a town highway, the commissioner of transportation\nshall have power and authority to provide for and to grade and pave a\nsafe intersection upon the intersecting county road or town highway as\nhe deems necessary and proper for the protection of the traveling public\nand the expense thereof shall be borne as a part of the cost of the\nconstruction or reconstruction of such state highway and shall be\npayable from any moneys appropriated for the construction or improvement\nor reconstruction of state highways.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

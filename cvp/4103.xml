@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4103"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4103"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4103">
+        <num>4103</num>
+        <heading>Issues triable by a jury revealed at trial; demand and waiver of trial by jury</heading>
+        <content>
+          <p>  § 4103. Issues triable by a jury revealed at trial; demand and waiver\nof trial by jury. When it appears in the course of a trial by the court\nthat the relief required, although not originally demanded by a party,\nentitles the adverse party to a trial by jury of certain issues of fact,\nthe court shall give the adverse party an opportunity to demand a jury\ntrial of such issues. Failure to make such demand within the time\nlimited by the court shall be deemed a waiver of the right to trial by\njury. Upon such demand, the court shall order a jury trial of any issues\nof fact which are required to be tried by jury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

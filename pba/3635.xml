@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3635"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3635"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3635"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3635/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3635/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3635/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3635/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3635">
+        <num>3635</num>
+        <heading>State and county not liable on corporation bonds</heading>
+        <content>
+          <p>  § 3635. State and county not liable on corporation bonds. 1. The state\nshall not be liable on the bonds or notes of the corporation, and such\nbonds or notes shall not be a debt of the state, and such bonds and\nnotes shall contain on the face thereof a statement to such effect.\n  2. Except as may be authorized by the county pursuant to section seven\nof article seventeen of the state constitution and section thirty-six\nhundred thirty-two of this title, the county shall not be liable on the\nbonds or notes of the corporation, and such bonds or notes shall not be\na debt of the county, and such bonds and notes shall contain on the face\nthereof a statement to such effect or a statement describing the county\nliability thereon, if any.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

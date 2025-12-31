@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-III"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-III"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-III"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-III/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-III/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-III/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-III/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_III">
+        <num>899-III</num>
+        <heading>Assignability; liens</heading>
+        <content>
+          <p>  * § 899-iii. Assignability; liens. 1. The contingent right to receive\nan amount of the potential proceeds of a legal claim is assignable by a\nconsumer.\n  2. Only attorney's liens related to the legal claim which is the\nsubject of the consumer litigation funding or medicare or other\nstatutory liens related to the legal claim shall take priority over any\nlien of the consumer litigation funding company. All other liens shall\ntake priority by normal operation of law.\n  * NB Effective June 17, 2026\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

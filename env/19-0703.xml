@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0703"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0703"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0703"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0703/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0703/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0703/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0703/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0703">
+        <num>19-0703</num>
+        <heading>Existing rights and remedies</heading>
+        <content>
+          <p>§ 19-0703. Existing rights and remedies.\n  It is the purpose of this article to provide additional and cumulative\nremedies to prevent and abate air pollution and air contamination.\nNothing in this article contained shall abridge or alter rights of\naction or remedies now or hereafter existing, nor shall any provision of\nthis article or anything done by virtue of this article be construed as\nestopping individuals, counties, cities, towns or villages or the state\nfrom the exercise of their respective rights to suppress nuisances or to\nprevent or abate air pollution or air contamination.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

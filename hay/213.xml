@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-213"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="213"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_213">
+        <num>213</num>
+        <heading>Construction and repair of approaches to private lands</heading>
+        <content>
+          <p>  § 213. Construction and repair of approaches to private lands. The\nowners or occupants of lands shall construct and keep in repair all\napproaches or driveways from the town highway, under the direction of\nthe town superintendent, and it shall be unlawful for such owner or\noccupant of lands to fill up any ditch or place any material of any kind\nor character in any ditch so as to in any manner obstruct or interfere\nwith the purposes for which it was made. The town superintendent may,\nwhen directed by the town board, construct and keep in repair such\napproaches and the expense thereof shall be a town charge.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

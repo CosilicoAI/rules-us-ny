@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-352.1"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-352.1"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="352.1"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-352.1/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-352.1/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-352.1/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-352.1/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_1">
+        <num>352.1</num>
+        <heading>Findings</heading>
+        <content>
+          <p>  § 352.1. Findings. 1. If, upon the conclusion of the dispositional\nhearing, the court determines that the respondent requires supervision,\ntreatment or confinement, the court shall enter a finding that such\nrespondent is a juvenile delinquent and order an appropriate disposition\npursuant to section 352.2.\n  2. If, upon the conclusion of the dispositional hearing, the court\ndetermines that the respondent does not require supervision, treatment\nor confinement, the petition shall be dismissed.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

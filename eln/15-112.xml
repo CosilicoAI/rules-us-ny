@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-112"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-112"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-112"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-112/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-112/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-15-112/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-15-112/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_112">
+        <num>15-112</num>
+        <heading>Registers and poll-books; how used</heading>
+        <content>
+          <p>  § 15-112. Registers and poll-books; how used. For any village election\nwhere permanent personal registration records are not used, all copies\nof the register in the polling place shall be referred to, if necessary,\nto determine the persons entitled to vote; but at any such election,\nincluding a primary election, ballot numbers shall be entered and other\nelection entries made in only two copies of the register, which shall\ninclude the copy used for taking signatures; provided, however, that if\nthe election be one for which poll-books are required to be provided,\nballot numbers shall be entered and other entries made in the two\npoll-books instead of the registers. The signatures of voters taken at\nthe election or at a primary election shall be made or identification\nnumbers entered, in one of the copies of the register having, when the\nelection opens, an unused signature column, if there be any such copy,\nand otherwise in one of the poll-books, to be known as the signature\npoll-book.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

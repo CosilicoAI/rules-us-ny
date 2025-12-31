@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-267"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-267"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="267"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-267/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-267/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-267/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-267/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_267">
+        <num>267</num>
+        <heading>Idem</heading>
+        <content>
+          <p>  § 267. Idem.; where recovery is had against trust mortgagee.--In every\ncase where recovery is had personally against a trust mortgagee as\nherein provided, and payment of the amount recovered has been made by\nsuch trust mortgagee, or where such trust mortgagee has voluntarily paid\nsuch tax, he shall be deemed to have and possess and to have become\nsubrogated to all the rights and interests in and to the tax lien\nimposed by section two hundred and sixty-five hereof, and may enforce\nthe repayment of any such sum so paid by him with interest at the rate\nof six per centum per annum and for that purpose may maintain an action\nin his own name in any court in the state having jurisdiction, against\nany person, association or corporation liable to pay such tax, or for\nthe sale of such mortgage and the debt secured thereby to which such\nlien attaches.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

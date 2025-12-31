@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-79.23"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-79.23"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79.23"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-79.23/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-79.23/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-79.23/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-79.23/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_23">
+        <num>79.23</num>
+        <heading>Investments by guardians</heading>
+        <subsection eId="sec_79_23__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A guardian of an infant ward, in the investment both of the funds\nof the estate and of other property of the infant which he may receive,\nshall be governed by the laws which govern investments by a guardian of\nan infant who has executed and filed a bond with surety.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_79_23__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A guardian of an incompetent ward, in the investment both of the\nfunds of the estate and other property of the incompetent which he may\nreceive, shall be governed by the laws which govern investments by a\ncommittee of an incompetent.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

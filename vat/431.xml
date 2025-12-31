@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-431"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-431"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="431"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-431/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-431/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-431/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-431/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_431">
+        <num>431</num>
+        <heading>Vehicle identification numbers</heading>
+        <content>
+          <p>  § 431. Vehicle identification numbers. 1. Every manufacturer or\nassembler of a vehicle sold in this state shall provide such vehicle\nwith a vehicle identification number and, upon request of the\ncommissioner, shall inform him concerning the location or locations of\nevery vehicle identification number and other identifying numbers on\nsuch vehicle. The commissioner may refuse to register or issue a\ncertificate of title for a vehicle made by a manufacturer or assembler\nwho fails to comply with this section.\n  2. Whenever a special vehicle identification number has been issued by\nthe commissioner, notification of such fact shall be promptly forwarded\nby the commissioner to the central organization designated by the\nsuperintendent of financial services pursuant to section three thousand\nfour hundred twelve of the insurance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

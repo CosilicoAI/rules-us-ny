@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-679"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-679"/>
+          <FRBRdate date="2019-01-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="679"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-679/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-679/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-679/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-679/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_679">
+        <num>679</num>
+        <heading>Public awareness; banking services</heading>
+        <content>
+          <p>  § 679. Public awareness; banking services. The superintendent shall\nconduct a public awareness campaign to educate consumers on different\nbanking services available in the state, particularly those that can\nassist vulnerable adults in financial planning, including, but not\nlimited to, citizens of an advanced age, individuals with cognitive or\ndevelopmental disabilities, or those who have health or physical issues\nthat impair their financial independence. The public awareness campaign\nshall include information regarding the differences between types of\naccounts, including joint and convenience accounts, as well as the\nrights and responsibilities generally recognized for each. The public\nawareness campaign shall also include, but not be limited to, answers to\ngeneral concerns and questions that individuals may have with respect to\nthe establishment of certain types of accounts and services, as well as\ninformation and recommendations for obtaining more information.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

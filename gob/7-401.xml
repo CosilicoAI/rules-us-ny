@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-401"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-401"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-401"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_401">
+        <num>7-401</num>
+        <heading>Buyer's right of redemption</heading>
+        <content>
+          <p>  § 7-401. Buyer's right of redemption. 1. No note or security agreement\nused in connection with a loan for the purpose of financing the purchase\nof a motor vehicle, used primarily for personal or household purposes,\nshall contain any provision for acceleration of payment which would\nprevent the buyer's right of redemption pursuant to section three\nhundred two of the personal property law. Any such provision shall be\nvoid but shall not otherwise affect the validity of the note or security\nagreement.\n  2. Within seventy-two hours after the repossession or surrender of\nsuch motor vehicle the holder shall personally deliver or mail to the\nborrower at his last known address a written notice setting forth the\nright granted to redeem the vehicle, the dollar amount necessary to\nredeem, and the name, address and telephone number of the holder where\ninformation may be obtained regarding redemption of the vehicle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

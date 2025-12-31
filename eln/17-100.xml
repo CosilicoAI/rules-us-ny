@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-100"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-100"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-100"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-17-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-17-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_100">
+        <num>17-100</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 17-100. Definitions. 1. The word "election" as used in this article\nshall be deemed to apply to and include all general, special and primary\nelections, unofficial primaries and all local elections relating to\ncandidates, ballot proposals, proceedings for the nominations of\ncandidates by petition, and all elections held pursuant to Article 52A\nof the education law.\n  2. The word "candidate" shall be deemed to apply to any person seeking\na nomination, designation, or election to a public office or party\noffice.\n  3. The term "election officer" shall mean any person who, pursuant to\nthe provisions of this chapter, performs any duty or function in the\nelectoral process.\n  4. The term "public officer" as used in this article shall be deemed\nto apply to any person who holds an elective or appointive office of the\nstate, separate authority or any political subdivision of the state with\nauthority to supervise other personnel within such subdivisions. The\nterm "public employee" shall be deemed to apply to all other personnel\nof the state or such authorities or subdivisions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

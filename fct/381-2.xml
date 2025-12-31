@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-381.2"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-381.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="381.2"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-381.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-381.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-381.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-381.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_381_2">
+        <num>381.2</num>
+        <heading>Use of records in other courts</heading>
+        <content>
+          <p>  § 381.2. Use of records in other courts. 1. Neither the fact that a\nperson was before the family court under this article for a hearing nor\nany confession, admission or statement made by him to the court or to\nany officer thereof in any stage of the proceeding is admissible as\nevidence against him or his interests in any other court.\n  2. Notwithstanding the provisions of subdivision one, another court,\nin imposing sentence upon an adult after conviction may receive and\nconsider the records and information on file with the family court,\nunless such records and information have been sealed pursuant to section\n375.1.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

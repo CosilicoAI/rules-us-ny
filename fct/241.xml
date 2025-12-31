@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-241"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-241"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="241"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-241/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-241/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-241/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-241/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_241">
+        <num>241</num>
+        <heading>Findings and purpose</heading>
+        <content>
+          <p>  § 241. Findings and purpose. This act declares that minors who are the\nsubject of family court proceedings or appeals in proceedings\noriginating in the family court should be represented by counsel of\ntheir own choosing or by assigned counsel. This declaration is based on\na finding that counsel is often indispensable to a practical realization\nof due process of law and may be helpful in making reasoned\ndeterminations of fact and proper orders of disposition. This part\nestablishes a system of attorneys for children who often require the\nassistance of counsel to help protect their interests and to help them\nexpress their wishes to the court. Nothing in this act is intended to\npreclude any other interested person from appearing by counsel.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

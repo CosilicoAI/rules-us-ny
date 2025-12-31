@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-71"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-71"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-71/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-71/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-71/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-71/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71">
+        <num>71</num>
+        <heading>Qualifications</heading>
+        <content>
+          <p>  § 71. Qualifications.  No person shall be appointed or promoted as a\ncommissioned officer of the organized militia unless he shall have\npassed such examination as to his physical, moral and professional\nqualifications as may be prescribed by the laws of the United States and\nby this chapter and the regulations issued thereunder.  No person shall\nbe recognized as a commissioned officer of the organized militia and no\nappointment as such shall become effective until he shall have taken and\nsubscribed an oath of office.\n  Any person who has been dismissed or dishonorably discharged from the\norganized militia of this or any other state or from the armed forces of\nthe United States and has not been restored to duty or any commissioned\nofficer who was discharged from the organized militia as a result of the\nfindings of an efficiency examining board or whose resignation from the\norganized militia was accepted by the governor at a time when such\nofficer was under arrest or under charges for the commission of an\noffense punishable by a court-martial shall not be eligible for\nappointment as a commissioned officer in any force of the organized\nmilitia.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

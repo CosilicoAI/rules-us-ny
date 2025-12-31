@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-628"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-628"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="628"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-628/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-628/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-628/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-628/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_628">
+        <num>628</num>
+        <heading>Liability of subscribers and shareholders</heading>
+        <subsection eId="sec_628__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A holder of or subscriber for shares of a corporation shall be\nunder no obligation to the corporation for payment for such shares other\nthan the obligation to pay the unpaid portion of his subscription which\nin no event shall be less than the amount of the consideration for which\nsuch shares could be issued lawfully.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_628__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any person becoming an assignee or transferee of shares or of a\nsubscription for shares in good faith and without knowledge or notice\nthat the full consideration therefor has not been paid shall not be\npersonally liable for any unpaid portion of such consideration, but the\ntransferor shall remain liable therefor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_628__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>No person holding shares in any corporation as collateral security\nshall be personally liable as a shareholder but the person pledging such\nshares shall be considered the holder thereof and shall be so liable.\nNo executor, administrator, guardian, trustee or other fiduciary shall\nbe personally liable as a shareholder, but the estate and funds in the\nhands of such executor, administrator, guardian, trustee or other\nfiduciary shall be liable.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

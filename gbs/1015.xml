@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1015"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1015"/>
+          <FRBRdate date="2016-09-09" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1015"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1015/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1015/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1015/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1015/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1015">
+        <num>1015</num>
+        <heading>Conduct of authorized professional combative sports</heading>
+        <subsection eId="sec_1015__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every individual, corporation, association or club holding any\nprofessional or amateur combative sport, including any professional\nwrestling match or exhibition, for which an admission fee is charged or\nreceived, shall notify the athletic commission at least ten days in\nadvance of the holding of such contest. All tickets of admission to any\nsuch professional or amateur combative sport or professional wrestling\nmatch or exhibition shall be procured from a printer duly authorized by\nthe state athletic commission to print such tickets and shall bear\nclearly upon the face thereof the purchase price and location of same.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1015__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Pursuant to direction by the commissioner of taxation and finance,\nemployees or officers of the commission shall act as agents of the\ncommissioner of taxation and finance to collect the tax imposed by\narticle nineteen of the tax law. The athletic commission shall provide\nthe commissioner of taxation and finance with such information and\ntechnical assistance as may be necessary for the proper administration\nof such tax.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

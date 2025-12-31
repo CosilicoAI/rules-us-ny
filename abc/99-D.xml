@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-D"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99-D"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-99-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-99-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_D">
+        <num>99-D</num>
+        <heading>Miscellaneous fees</heading>
+        <subsection eId="sec_99_D__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The provisions of this section shall not be applicable where there\nare ten or more stockholders and such change involves less than ten per\ncentum of the stock of the corporation and the stock holdings of any\nstockholder are not increased thereby to ten per centum or more of the\nstock.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_99_D__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where the same corporation operates two or more premises\nseparately licensed under this chapter a separate corporate change shall\nbe filed for each such licensed premises, except as otherwise provided\nfor by rule of the liquor authority. The corporate change fee provided\nfor herein shall not be applicable to more than one license held by the\nsame corporation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_99_D__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Notwithstanding any corporate change approved by the authority, a\nlicensed corporation or limited liability company shall be bound by the\nrepresentations set forth in the original application and any amendments\nthereto approved by the authority.\n  3. Before any removal of a license to any premises other than the\nlicensed premises or to any other part of the building containing the\nlicensed premises, the licensee shall make an application to the liquor\nauthority for permission to effect such removal and shall pay to the\nliquor authority in advance upon filing of the application a fee of one\nhundred ninety-two dollars where the base license fee is five hundred\ndollars or more and thirty-two dollars in all other instances.\n  4. The liquor authority may make such rules as it deems necessary to\ncarry out the provisions of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

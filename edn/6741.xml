@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6741"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6741"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6741"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6741/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6741/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6741/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6741/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6741">
+        <num>6741</num>
+        <heading>Exemption</heading>
+        <content>
+          <p>  § 6741. Exemption. a. This article shall not be construed to affect or\nprevent a physical therapist assistant student from engaging in clinical\nassisting under the supervision of a licensed physical therapist as part\nof a program conducted in an approved program for physical therapist\nassistants or in a clinical facility or health care agency affiliated\nwith the program for physical therapist assistants.\n  b. Supervision of a physical therapist assistant student by a licensed\nphysical therapist shall be on-site supervision and not necessarily\ndirect personal supervision.\n  c. Nothing in this article is intended to affect the overall medical\ndirection by a licensed physician of a physical therapist assistant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3003"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3003"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3003">
+        <num>3003</num>
+        <heading>Content of tax due, deficiency, and other notices</heading>
+        <content>
+          <p>  § 3003.  Content of tax due, deficiency, and other notices.  Any first\nletter of proposed deficiency or determination (commonly called a thirty\nday letter) issued by the commissioner, and any notice and demand,\nnotice of deficiency or notice of determination which is issued by the\ncommissioner, which is manually initiated and which is the first such\nletter or notice issued to the taxpayer with respect to the subject\nmatter of such notice, shall describe the basis for (such as the\nstatutory or regulatory law, or judicial or tax appeals tribunal\ndecision), and identify the amounts (if any) of the tax due.  An\ninadequate description under this section shall not invalidate such\nletter or notice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

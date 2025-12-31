@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-244-A"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-244-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="244-A"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-244-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-244-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-244-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-244-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_244_A">
+        <num>244-A</num>
+        <heading>Enforcement of arrears which accrue during pendency of an enforcement proceeding</heading>
+        <content>
+          <p>  § 244-a. Enforcement of arrears which accrue during pendency of an\nenforcement proceeding.  In any proceeding for enforcement of payment of\nany sum of money as required by judgment or order the party seeking\nenforcement may amend the papers in support of the application for\nenforcement to include any additional arrears which have accrued since\nthe commencement of such enforcement proceeding at the time of a hearing\nupon or submission of the matter, provided that written notice of the\nintention to so amend has been given eight days previously.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

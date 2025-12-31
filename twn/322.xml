@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TWN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/twn/section-322"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-322"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="322"/>
+          <FRBRname value="TWN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/twn/section-322/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-322/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/twn/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/twn/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_322">
+        <num>322</num>
+        <heading>Surplus money upon sale of strays</heading>
+        <content>
+          <p>  § 322. Surplus money upon sale of strays. If the owner of the beasts\nshall not appear and demand the residue of such moneys within one year\nafter the sale he shall be thereafter precluded from recovering any part\nthereof, and the same shall be paid by the officer making the sale to\nthe supervisor of the town, or, in cities, to the treasurer, and their\nreceipt shall be a legal discharge to the keeper of such beasts and the\nofficer selling the same. If the officer who shall have sold such beasts\nshall not, within thirty days after the expiration of the year, pay such\nmoneys to the supervisor of the town, or, in cities, to the treasurer he\nshall forfeit to the town or city double the sum so remaining in his\nhands, together with the amount of such moneys.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-195-A"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-195-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="195-A"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-195-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-195-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-195-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-195-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_195_A">
+        <num>195-A</num>
+        <heading>Participation by persons under eighteen</heading>
+        <content>
+          <p>  § 195-a. Participation by persons under eighteen. No person under the\nage of eighteen years shall be permitted to play any game or games of\nchance conducted pursuant to any license issued under this article.\nPersons under the age of eighteen years may be permitted to attend games\nof chance at the discretion of the games of chance licensee.  No person\nunder the age of eighteen years shall be permitted to operate any game\nof chance conducted pursuant to any license issued under this article or\nto assist therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

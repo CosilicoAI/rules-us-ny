@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.10"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-A-4.10"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-11-A-4.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-11-A-4.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_A_4_10">
+        <num>11-A-4.10</num>
+        <heading>Liquidating asset</heading>
+        <subsection eId="sec_11_A_4_10__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In this section, "liquidating asset" means an asset whose value\nwill diminish or terminate because the asset is expected to produce\nreceipts for a period of limited duration. The term includes a\nleasehold, patent, copyright, royalty right, and right to receive\npayments during a period of more than one year under an arrangement that\ndoes not provide for the payment of interest on the unpaid balance. The\nterm does not include a payment subject to 11-A-4.9, resources subject\nto 11-A-4.11, timber subject to 11-A-4.12, an activity subject to\n11-A-4.14, an asset subject to 11-A-4.15, or any asset for which the\ntrustee establishes a reserve for depreciation under 11-A-5.3.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_11_A_4_10__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A trustee shall allocate to income ten percent of the receipts\nfrom a liquidating asset and the balance to principal.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

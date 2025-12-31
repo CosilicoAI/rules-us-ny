@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-319"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-319"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="319"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-319/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-319/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-319/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-319/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_319">
+        <num>319</num>
+        <heading>Penalties</heading>
+        <subsection eId="sec_319__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>if he was the operator and not the\nowner of the motor vehicle, had no knowledge that the financial security\nrequired for such motor vehicle was not in effect; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_319__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>if he was the\nowner and not the operator of the motor vehicle, that he did not permit,\neither expressly or impliedly, the operation of such motor vehicle.\n  5. The civil penalty for a violation of subdivision one of this\nsection shall be seven hundred fifty dollars.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

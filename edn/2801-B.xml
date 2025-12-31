@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2801-B"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2801-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2801-B"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2801-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2801-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2801-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2801-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2801_B">
+        <num>2801-B</num>
+        <heading>New York state school safety improvement teams</heading>
+        <content>
+          <p>  § 2801-b. New York state school safety improvement teams. The governor\nshall establish New York state school safety improvement teams, which\nmay be composed of representatives from the division of homeland\nsecurity and emergency services, the division of state police, the\ndivision of criminal justice services, and the department. Such New York\nState School Safety Improvement Teams shall review and assess school\nsafety plans submitted, on a voluntary basis, by school districts having\na population of less than one hundred twenty-five thousand inhabitants,\nboards of cooperative educational services, nonpublic schools, and\ncounty vocational education and extension boards, and may make\nrecommendations to improve such school safety plans.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

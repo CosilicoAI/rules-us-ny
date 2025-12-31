@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-J"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-J"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="352-J"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_J">
+        <num>352-J</num>
+        <heading>Application of article</heading>
+        <content>
+          <p>  § 352-j. Application of article. All the provisions of this article\nshall be fully applicable to real estate syndication offerings and\nsecurity transactions described in subdivision one of section three\nhundred fifty-two-e of this article, with the exception that the\nadditional provisions contained in sections three hundred fifty-two-e,\nthree hundred fifty-two-ee, three hundred fifty-two-f, three hundred\nfifty-two-g, three hundred fifty-two-h and three hundred fifty-two-i\nshall also be applicable to such transactions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

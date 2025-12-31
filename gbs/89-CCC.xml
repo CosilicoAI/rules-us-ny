@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-CCC"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-CCC"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="89-CCC"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-CCC/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-CCC/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-89-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-89-CCC/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_89_CCC">
+        <num>89-CCC</num>
+        <heading>Doing business without a license prohibited</heading>
+        <content>
+          <p>  § 89-ccc. Doing business without a license prohibited. 1. No\nindividual, partnership, association, limited liability company,\ncorporation, or any other entity, shall operate in the state as an\narmored car carrier or provide armored car services, or hold themselves\nout as an armored car carrier or provider of armored car services,\nexcept as authorized by this article and without first being licensed by\nthe department. No armored car carrier shall employ any armored car\nguard who does not possess a conditional letter of authority or a valid\nregistration card in accordance with the provisions of article eight-C\nof this chapter.\n  2. Notwithstanding the provisions of subdivision one of this section,\neach armored car carrier engaging in the business of providing armored\ncar services in the state as of the effective date of this section, may\ncontinue to provide such services until the one hundred eightieth day\nafter this section shall have taken effect. No armored car carrier shall\nprovide armored car services after such date which has not complied with\nthe provisions of this article and article eight-C of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

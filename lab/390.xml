@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-390"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-390"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="390"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-390/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-390/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-390/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-390/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_390">
+        <num>390</num>
+        <heading>Contribution to benefit or insurance fund</heading>
+        <content>
+          <p>  § 390. Contribution to benefit or insurance fund. 1. A corporation\noperating a mercantile establishment shall not by deduction from salary,\ncompensation or wages, by direct payment or otherwise, compel any\nemployee in such establishment to contribute to a benefit or insurance\nfund maintained or managed for the employees of such establishment by\nsuch corporation, or by any other corporation or person. Every contract\nor agreement whereby such contribution is exacted shall be void.\n  2. A corporation violating this section shall be liable to a penalty\nof one hundred dollars recoverable by the person aggrieved in any court\nof competent jurisdiction.\n  3. A director, officer or agent of a corporation which compels any\nemployee to make a contribution in violation of this section or sign any\nagreement to make such contribution, or which imposes or requires such a\ncontribution as condition of entering into or continuing in the\nemployment of a mercantile establishment shall be guilty of a\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

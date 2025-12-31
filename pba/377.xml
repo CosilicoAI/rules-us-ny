@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-377"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-377"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="377"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-377/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-377/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-377/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-377/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_377">
+        <num>377</num>
+        <heading>Provision for servicing state vehicles with petroleum, etc</heading>
+        <content>
+          <p>  § 377. Provision for servicing state vehicles with petroleum, etc. The\nauthority shall have the power to provide and shall provide to\nstate-owned or leased motor vehicles, gasoline and other petroleum\nby-products that are presently provided or will be provided to motor\nvehicles owned, leased or operated by the authority. The charge for\nproviding such goods and services shall be equal to the cost to provide\nsuch to vehicles owned, leased or used by the authority except that a\nfee may also be charged to cover the necessary operating costs incurred\nas a result of providing such goods and services. Payment shall be\naccomplished by charging such cost-back against the centralized services\nfund established by state finance law section ninety-seven-g.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

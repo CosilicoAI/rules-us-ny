@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-343"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-343"/>
+          <FRBRdate date="2024-11-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-343/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-343/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-343/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-343/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343">
+        <num>343</num>
+        <heading>County or part-county boards of health; organization; appointment</heading>
+        <subsection eId="sec_343__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The members of the board of health shall be appointed by the\nboard of supervisors.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_343__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The county medical society of the county in which a county or\npart-county health district is established may submit to the board of\nsupervisors a list of physicians from which the board of supervisors may\nchoose the medical members of the board of health.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_343__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The additional city representative members of the board of health\nshall each be appointed by the board of supervisors from a list of three\npersons submitted by the mayor or other administrative head of such\ncity. Such city representative members so appointed shall have all the\npowers and duties conferred upon other members of said board.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-164"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-164"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="164"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-164/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-164/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-164/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-164/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164">
+        <num>164</num>
+        <heading>Saving clause on repeal of article three</heading>
+        <content>
+          <p>  § 164. Saving clause on repeal of article three.  1. The repeal of\narticle three by the chapter of the laws of nineteen hundred ninety-five\nwhich added this section shall not operate or be construed to invalidate\nor affect any action heretofore taken by the several county alcoholic\nbeverage control boards or the New York city alcoholic beverage control\nboard, as heretofore established by said article three, or by their\nboards or officers or employees, nor to require the discharge or the\nre-appointment of any of their employees.\n  2. Such chapter of the laws of nineteen hundred ninety-five shall not\naffect any action or proceeding now pending in any court on or before\nthe effective date of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Kinds of permits</heading>
+        <content>
+          <p>  § 90. Kinds of permits.  The following kinds of permits may be issued\nfor carrying on the activities enumerated in this article with respect\nto alcoholic beverages, alcohol or spirits. No person shall engage in\nany of such activities without having obtained the appropriate permit\nrequired hereby therefor:\n  1. Industrial alcohol permit.\n  2. Alcohol permit.\n  2-a. Alcohol distributors' permits.\n  3. Solicitor's permit.\n  3-a. Broker's permit.\n  4. Trucking permit.\n  5. Drug store permit.\n  6. Warehouse permit.\n  7. Temporary outdoor permit.\n  8. Caterer's permit.\n  9. Special permit to remain open during certain hours of the morning.\n  10. Bottling permit.\n  11. Reconditioning permit.\n  12. Miscellaneous permits.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-424"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-424"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="424"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-424/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-424/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-424/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-424/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_424">
+        <num>424</num>
+        <heading>Probation services</heading>
+        <content>
+          <p>  § 424. Probation services. 1. A local probation service may provide\nservices to a party seeking to establish, modify or enforce a support\nobligation where there is a contract with the appropriate social\nservices district for the performance of support collection services\nunder section one hundred eleven-h of the social services law.\n  2. A local probation service may provide services to persons ordered\nto pay support seeking to modify such orders.\n  3. The probation service may not prevent any person who wishes to file\na petition under this article from having access to the court for that\npurpose nor may the probation service compel any person to appear at any\nconference, produce any papers or visit any place.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

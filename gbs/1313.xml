@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1313"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1313"/>
+          <FRBRdate date="2021-10-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1313"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1313/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1313/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1313/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1313/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1313">
+        <num>1313</num>
+        <heading>Duty and liability of participating employers</heading>
+        <content>
+          <p>  § 1313. Duty and liability of participating employers. 1.\nParticipating employers shall not have any liability for an employee's\ndecision regarding whether to participate in, or opt out of, the program\nor for the investment decisions of the board or of any enrollee.\n  2. A participating employer is not establishing or maintaining the\nprogram's payroll deduction IRA. A participating employer shall not be a\nfiduciary, or considered to be a fiduciary, over the program. A\nparticipating employer shall not bear responsibility for the\nadministration, investment, or investment performance of the program. A\nparticipating employer shall not be liable with regard to investment\nreturns, program design, and benefits paid to program participants.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

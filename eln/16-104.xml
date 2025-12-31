@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-104"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-104"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16-104"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-16-104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-16-104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16_104">
+        <num>16-104</num>
+        <heading>Proceedings as to form of ballot, party name, etc</heading>
+        <content>
+          <p>  § 16-104. Proceedings as to form of ballot, party name, etc. 1. The\nform and content of any ballot, or portion thereof, to be used in an\nelection, and the right to use any emblem design, party or independent\nbody name, may be contested in a proceeding instituted in the supreme\ncourt by any aggrieved candidate or by the chairman of any party\ncommittee or independent body.\n  2. The wording of the abstract or form of submission of any proposed\namendment, proposition or question may be contested in a proceeding\ninstituted by any person eligible to vote on such amendment, proposition\nor question.\n  3. A proceeding pursuant to subdivision two of this section must be\ninstituted within seven days after the last day to certify the wording\nof any such abstract or form of submission.\n  4. A final order including the resolution of any appeals in any\nproceeding involving the contents of official ballots on voting machines\nshall be made, if possible, at least five weeks before the day of the\nelection at which such voting machines are to be used, or if such\nproceeding is commenced within five weeks of an election, no later than\nthe day following the day on which the case is heard.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

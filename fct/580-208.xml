@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-208"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-208"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-208"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-208/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-208/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-208/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-208/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_208">
+        <num>580-208</num>
+        <heading>Child support orders for two or more obligees</heading>
+        <content>
+          <p>  § 580-208. Child support orders for two or more obligees. In\nresponding to registrations or petitions for enforcement of two or more\nchild support orders in effect at the same time with regard to the same\nobligor and different individual obligees, at least one of which was\nissued by a tribunal of another state or a foreign country, a tribunal\nof this state shall enforce those orders in the same manner as if the\norders had been issued by a tribunal of this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

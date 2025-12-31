@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-304-A"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-304-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304-A"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-304-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-304-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-304-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-304-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304_A">
+        <num>304-A</num>
+        <heading>Unauthorized manufacture, sale or use of illuminating oils</heading>
+        <content>
+          <p>  § 304-a. Unauthorized manufacture, sale or use of illuminating oils. A\nperson who violates any provision of this article relating to the\nstandard, manufacture, sale, or use or storage of any oil or burning\nfluid, wholly or partly composed of naphtha, coal oil, petroleum or\nproducts manufactured therefrom, or of other substance or materials\nwhich will flash at a temperature below one hundred degrees Fahrenheit,\nor relating to the burning or carriage of any such oil or fluid which\nwill ignite at a temperature below three hundred degrees Fahrenheit, is\nguilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

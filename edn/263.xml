@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-263"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-263"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="263"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-263/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-263/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-263/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-263/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_263">
+        <num>263</num>
+        <heading>Reports</heading>
+        <content>
+          <p>  § 263. Reports.  Every library or museum, other than a school library,\nwhich enjoys any exemption from taxation or receives state aid or other\nprivilege not usually accorded to business corporations shall make the\nreport required by section two hundred fifteen of this chapter, and such\nreport shall relieve the institution from making any report now required\nby statute or charter to be made to the legislature or to any\ndepartment, court or other authority of the state.  These reports shall\nbe summarized and transmitted to the legislature by the regents with the\nannual reports of the university.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

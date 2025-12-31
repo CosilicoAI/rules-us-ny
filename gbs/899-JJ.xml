@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-JJ"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-JJ"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="899-JJ"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-JJ/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-JJ/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-899-JJ/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-899-JJ/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_899_JJ">
+        <num>899-JJ</num>
+        <heading>Protections for third-party operators</heading>
+        <content>
+          <p>  § 899-jj. Protections for third-party operators. Sections eight\nhundred ninety-nine-ff and eight hundred ninety-nine-gg of this article\nshall not apply where a third-party operator is processing the personal\ndata of a covered user of another website, online service, online\napplication, mobile application, or connected device, or portion\nthereof, provided that the third-party operator received reasonable\nwritten representations that the covered user provided informed consent\nfor such processing, or:\n  1. the operator does not have actual knowledge that the covered user\nis a minor; and\n  2. the operator does not have actual knowledge that the other website,\nonline service, online application, mobile application, or connected\ndevice, or portion thereof, is primarily directed to minors.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

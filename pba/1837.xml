@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1837"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1837"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1837"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1837/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1837/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1837/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1837/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1837">
+        <num>1837</num>
+        <heading>Legislative findings</heading>
+        <content>
+          <p>  § 1837. Legislative findings. The legislature hereby finds that one of\nthe major concerns of the existing economy is the limited access to\nfinancing assistance of businesses and services that support or\nfacilitate employment and economic development, but are not themselves\ndirectly involved in manufacturing or industrial production.\n  It is the purpose of this subtitle to encourage the development of\ncommunity development projects that promote and enhance economic\ndevelopment by providing loans and loan guarantees at a reasonable cost.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

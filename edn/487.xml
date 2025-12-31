@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-487"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-487"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="487"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-487/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-487/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-487/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-487/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_487">
+        <num>487</num>
+        <heading>Agreement with the state</heading>
+        <content>
+          <p>  § 487. Agreement with the state.  The state does hereby pledge to and\nagree with the holders of any notes or bonds issued under this article,\nthat the state will not limit or alter the rights hereby vested in the\nfund to fulfill the terms of any agreements made with the holders\nthereof, or in any way impair the rights and remedies of such holders\nuntil such notes or bonds, together with the interest thereon, with\ninterest on any unpaid installments of interest, and all costs and\nexpenses in connection with any action or proceeding by or on behalf of\nsuch holders, are fully met and discharged.  The fund is authorized to\ninclude this pledge and agreement of the state in any agreement with the\nholders of such notes or bonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

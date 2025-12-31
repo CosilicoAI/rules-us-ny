@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-343.2"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-343.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="343.2"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-343.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-343.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-343.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-343.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_343_2">
+        <num>343.2</num>
+        <heading>Rules of evidence; corroboration of accomplice testimony</heading>
+        <subsection eId="sec_343_2__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the crime charged; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_343_2__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a crime based on the same or some of the same facts or conduct\nwhich constitutes the crime charged in the petition.\n  3. A witness who is an accomplice as defined in subdivision two is no\nless such because a proceeding, conviction or finding of delinquency\nagainst him would be barred or precluded by some defense or exemption\nsuch as infancy, immunity or previous prosecution amounting to a\ncollateral impediment to such proceeding, conviction or finding, not\naffecting the conclusion that such witness engaged in the conduct\nconstituting the crime with the mental state required for the commission\nthereof.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

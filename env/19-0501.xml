@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0501"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0501"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0501">
+        <num>19-0501</num>
+        <heading>Notice of hearing; service of process</heading>
+        <content>
+          <p>§ 19-0501. Notice of hearing; service of process.\n  1. Notices of every public hearing held pursuant to the provisions of\nthis article shall specify the time, date, place and purpose of the\nhearing.\n  2. Service of all processes of the commissioner pursuant to the\nprovisions of this article, except subpoenas, shall be made in the same\nmanner as a summons in a civil action or by registered mail upon any\nperson to whom it is addressed, upon the mayor or counsel of a\nmunicipality or upon an officer of a district, authority, commission,\nprivate corporation or company, as the case may be.\n  3. Subpoenas issued pursuant to the provisions of this article shall\nbe served upon a prospective witness personally and at the same time he\nshall be paid such fees therefor as may be provided by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

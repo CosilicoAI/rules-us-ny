@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7561"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7561"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7561"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7561/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7561/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7561/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7561/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7561">
+        <num>7561</num>
+        <heading>Use of depositions; enforcement of discovery procedures</heading>
+        <subsection eId="sec_7561__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nOn application of a party to the arbitration, the chairperson may permit\nthe deposition of a witness to be used as evidence, in accordance with\nthe provisions of rule three thousand one hundred seventeen of this\nchapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7561__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Depositions shall be taken in the manner prescribed by law for the\ntaking of depositions in civil actions.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7561__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The chairperson may enforce the failure of parties to comply with\napplicable discovery obligations in the same manner as a court, pursuant\nto section three thousand one hundred twenty-six of this chapter,\nincluding through the imposition of costs, payable to the arbitration\nfund, provided, however, that the chairperson shall not have the power\nto find a party in contempt.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

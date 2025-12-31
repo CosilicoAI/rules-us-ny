@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3029"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3029"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3029"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3029/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3029/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3029/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3029/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3029">
+        <num>3029</num>
+        <heading>Hours of continuous duty for full time teachers</heading>
+        <content>
+          <p>  § 3029. Hours of continuous duty for full time teachers.  Except in a\ncity having a population of one million or more persons the school\nauthorities of any school district employing two or more teachers shall\nfix the hours of duty for full time teachers so that no teacher shall be\nassigned continuous duty for a length of time in excess of five hours.\nWhen the daily total hours of duty exceed five, duties must be assigned\nso as to provide a period of at least thirty minutes in length which\nshall be free from assigned duties and which shall be scheduled so far\nas practical during the hours normally allotted for pupils' lunch\nperiods.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

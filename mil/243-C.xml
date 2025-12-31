@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-243-C"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-243-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="243-C"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-243-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-243-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-243-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-243-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_243_C">
+        <num>243-C</num>
+        <heading>Application period for civil service examinations for military personnel</heading>
+        <content>
+          <p>  § 243-c. Application period for civil service examinations for\nmilitary personnel.  Notwithstanding any provision of this chapter, any\ngeneral or special law, rule or regulation to the contrary, a person\nserving on active duty in the armed forces of the United States during\nthe filing period for a civil service examination, or a person who has\nbeen discharged therefrom with other than a dishonorable discharge after\nthe filing period for a civil service examination has commenced, shall\nbe permitted to file an application for such examination no later than\nten business days prior to the scheduled date of such examination or the\nlast date to file for such examination, whichever is later, and if\nqualified shall be provided with an opportunity to compete in such\nexamination under terms and conditions deemed appropriate by the state\ndepartment of civil service or municipal commission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

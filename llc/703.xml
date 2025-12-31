@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-703"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-703"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="703"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-703/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-703/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_703">
+        <num>703</num>
+        <heading>Winding up</heading>
+        <subsection eId="sec_703__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In the event of a dissolution of a limited\nliability company, except for a dissolution pursuant to section seven\nhundred two of this article, unless otherwise provided in the operating\nagreement, the members may wind up the limited liability company's\naffairs. Upon cause shown, the supreme court in the judicial district in\nwhich the office of the limited liability company is located may wind up\nthe limited liability company's affairs upon application of any member,\nor his or her legal representative or assignee, and in connection\ntherewith may appoint a receiver or liquidating trustee.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_703__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Upon dissolution of a limited liability company, the persons\nwinding up the limited liability company's affairs may, in the name of\nand for and on behalf of the limited liability company, prosecute and\ndefend suits, whether civil, criminal or administrative, settle and\nclose the limited liability company's business, dispose of and convey\nthe limited liability company's property, discharge the limited\nliability company's liabilities and distribute to the members any\nremaining assets of the limited liability company, all without affecting\nthe liability of members including members participating in the winding\nup of the limited liability company's affairs.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

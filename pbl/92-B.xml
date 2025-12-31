@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-92-B"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-92-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="92-B"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-92-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-92-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-92-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-92-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_92_B">
+        <num>92-B</num>
+        <heading>Permits authorizing flow of springs</heading>
+        <content>
+          <p>  § 92-b. Permits authorizing flow of springs.  The commissioner of\nparks and recreation may issue an annual permit permitting the flow of\nsuch spring in such amount and at such times as such permit shall\nspecify.  No permit shall be issued unless it appears that the flow of\nsuch spring will not result in the depletion of the amount of flow, gas\nor mineral content of the spring for which a permit is asked, or of any\nother like spring, nor unless it also appears that the flow of said\nspring is of scenic interest or that the flow of such spring is\nnecessary to regulate or protect the flow of neighboring springs.  If at\nany time it satisfactorily appears to the commissioner of parks and\nrecreation that the required conditions for issuing a permit no longer\nexist, such permit may be revoked upon ten days notice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

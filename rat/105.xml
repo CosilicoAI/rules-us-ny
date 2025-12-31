@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rat/section-105"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="105"/>
+          <FRBRname value="RAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rat/section-105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rat/section-105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rat/section-105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_105">
+        <num>105</num>
+        <heading>Transfer of records</heading>
+        <content>
+          <p>  § 105. Transfer of records.  The transit commission shall transfer and\ndeliver to the board of transportation all contracts, books, maps,\nplans, papers and records of whatever description pertaining to subjects\nor matters, jurisdiction whereof was transferred to the board of\ntransportation; and such board is authorized to take possession of all\nsuch contracts, books, maps, plans, papers and records. If any documents\nor records of the transit commission pertaining to a subject or matter,\njurisdiction whereof was transferred to the board of transportation, are\nso combined or connected with documents or records pertaining to other\nsubjects or matters within the jurisdiction of such commission as to\nrender it impracticable to deliver such documents or records to the\nboard of transportation as required by this section, the transit\ncommission shall cause to be prepared certified copies of the parts of\nsuch documents and records as pertain to the subject or matter,\njurisdiction whereof was transferred to the board of transportation, and\nshall deliver the same to such board.  The transit commission shall also\nturn over to the board of transportation such supplies, furniture and\nequipment as such commission shall determine are no longer needed for\nits purposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

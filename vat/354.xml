@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-354"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-354"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="354"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-354/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-354/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-354/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-354/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_354">
+        <num>354</num>
+        <heading>Commissioner to furnish operating record</heading>
+        <content>
+          <p>  § 354. Commissioner to furnish operating record. The commissioner\nshall upon request furnish any insurance carrier or any person an\nabstract of the operating record of any person subject to the provisions\nof this article, which abstract shall include enumeration of any\nconvictions of such person of a violation of any provision of any\nstatute relating to the operation of a motor vehicle or any accidents in\nwhich a motor vehicle driven by such person has been involved during the\ncurrent calendar year and the three calendar years preceding that in\nwhich the request for the operating record is received and if\nspecifically requested shall also fully designate the motor vehicles, if\nany, registered in the name of such person and the name of the insurer\ninsuring such motor vehicle, for the registration year in which the\nrequest for the operating record is received. A request for an abstract\nof an operating record shall be subject to the provisions of section two\nhundred two of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

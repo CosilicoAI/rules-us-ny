@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103-A"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2103-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2103_A">
+        <num>2103-A</num>
+        <heading>Police officers and firefighters on boards of education</heading>
+        <content>
+          <p>  § 2103-a. Police officers and firefighters on boards of education.\nNotwithstanding any general, special or local law, ordinance or charter\nprovision to the contrary, or any rule or regulation, police officers\nand firefighters employed by any municipal subdivision of the state or\npolice district provided they are otherwise eligible, may be candidates\nfor election and serve as members of boards of education in school\ndistricts located: (1) other than in the municipality where they perform\ntheir duties as police officers and firefighters on a regular basis, or\n(2) unless prohibited by the legislative body for whom they are\nemployed, in school districts located in the locality where they perform\ntheir duties as police officers and firefighters.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-48-0109"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-48-0109"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="48-0109"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-48-0109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-48-0109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-48-0109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-48-0109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_48_0109">
+        <num>48-0109</num>
+        <heading>Agency responsibilities</heading>
+        <subsection eId="sec_48_0109__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>appoint a staff member of the agency to serve as environmental\njustice coordinator, to provide information to the public on the\npolicies, activities and operations of the agency related to\nenvironmental justice and to act as liaison to the environmental justice\nadvisory group;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_48_0109__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>notify the advisory group of the appointment of an environmental\njustice coordinator; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_48_0109__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>develop an environmental justice training plan which includes the\nprovision of workshops and written materials to appropriate staff\nregarding environmental justice and implementation of the agency's\nenvironmental justice policy.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

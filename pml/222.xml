@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-222"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-222"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="222"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-222/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-222/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222">
+        <num>222</num>
+        <heading>Notice to be posted upon grounds</heading>
+        <content>
+          <p>  § 222. Notice to be posted upon grounds. Every corporation to be\norganized under this article or which shall be entitled to exercise any\nof the powers conferred by section two hundred three of this article\nshall cause to be properly posted in conspicuous positions upon the\ngrounds whereon such races are held, printed notices or placards in\nlarge and legible type, which notices or placards shall be to the effect\nthat all disorderly conduct, pool-selling, bookmaking or any other kind\nof gambling is prohibited, and such notices or placards shall contain a\ncopy of subdivision nine of section 225.00 of the penal law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="WKC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-74"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-74"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="74"/>
+          <FRBRname value="WKC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-74/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-74/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/wkc/section-74/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/wkc/section-74/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74">
+        <num>74</num>
+        <heading>Manner of adoption of local laws</heading>
+        <content>
+          <p>  § 74. Manner of adoption of local laws. A local law authorized by this\narticle shall be adopted in the manner prescribed in the municipal home\nrule law, or, in the case of a county operating under an alternative\nform of county government, in the manner provided for such county for\nthe adoption of local laws.  Notwithstanding any general, special or\nlocal law, a local law adopted pursuant to this article shall not be\nsubject to a mandatory or permissive referendum.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

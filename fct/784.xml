@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-784"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-784"/>
+          <FRBRdate date="2024-03-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="784"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-784/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-784/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-784/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_784">
+        <num>784</num>
+        <heading>Use of police records</heading>
+        <content>
+          <p>  § 784. Use of police records. All police records relating to the\narrest and disposition of any person under this article shall be kept in\nfiles separate and apart from the arrests of adults and shall be\nwithheld from public inspection, but such records shall be open to\ninspection upon good cause shown by the parent, guardian, next friend or\nattorney of that person upon the written order of a judge of the family\ncourt in the county in which the order was made.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

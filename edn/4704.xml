@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4704"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4704"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4704"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4704/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4704/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4704/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4704/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4704">
+        <num>4704</num>
+        <heading>Powers and duties of board</heading>
+        <content>
+          <p>  § 4704. Powers and duties of board.  The board of managers of such\nschool shall be responsible for the operation and maintenance of the\nschool; employ a superintendent and such teachers and assistants as may\nbe required for the operation and maintenance of the school when\nauthorized so to do by the board of supervisors or other governing\nelective body of the county; fix the compensation of such\nsuperintendent, teachers and assistants within the amount made available\ntherefor by the said board or body; prescribe rules and regulations for\nthe management of the school and for the purpose of carrying into effect\nthe object thereof; provide for the detention, maintenance and\ninstruction of all children who are admitted to the school.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-C"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-C"/>
+          <FRBRdate date="2019-03-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40-C"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-40-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-40-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_C">
+        <num>40-C</num>
+        <heading>Discrimination</heading>
+        <content>
+          <p>  § 40-c. Discrimination. 1. All persons within the jurisdiction of this\nstate shall be entitled to the equal protection of the laws of this\nstate or any subdivision thereof.\n  2. No person shall, because of race, creed, color, national origin,\nsex, marital status, sexual orientation, gender identity or expression,\nor disability, as such term is defined in section two hundred ninety-two\nof the executive law, be subjected to any discrimination in his or her\ncivil rights, or to any harassment, as defined in section 240.25 of the\npenal law, in the exercise thereof, by any other person or by any firm,\ncorporation or institution, or by the state or any agency or subdivision\nof the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

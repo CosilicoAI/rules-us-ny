@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1197"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1197"/>
+          <FRBRdate date="2022-09-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1197"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1197/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1197/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1197/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1197/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1197">
+        <num>1197</num>
+        <heading>Deposit and disposition of revenue</heading>
+        <subsection eId="sec_1197__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>All taxes, fees,\ninterest and penalties collected or received by the commissioner under\nsection eleven hundred ninety-one of this article shall be deposited and\ndisposed of pursuant to the provisions of section one hundred\nseventy-one-a of this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1197__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>All taxes, fees, interest and penalties collected or received by\nthe commissioner under section eleven hundred ninety-two of this article\nshall be deposited and disposed into the corporate transportation\naccount of the metropolitan transportation authority special assistance\nfund established by section twelve hundred seventy-a of the public\nauthorities law, to be applied as provided in paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1197__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of\nsubdivision four of such section.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1197__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>All taxes, fees, interest and penalties collected or received by\nthe commissioner under section eleven hundred ninety-three of this\narticle shall be deposited and disposed into the public transportation\nsystems operating assistance account established by section\neighty-eight-a of the state finance law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

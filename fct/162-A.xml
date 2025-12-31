@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-162-A"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-162-A"/>
+          <FRBRdate date="2021-10-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="162-A"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-162-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-162-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-162-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-162-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_162_A">
+        <num>162-A</num>
+        <heading>Use of restraints on children in courtrooms</heading>
+        <subsection eId="sec_162_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Use of\nrestraints. Except as otherwise provided in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_162_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of this\nsection, restraints on children under the age of twenty-one, including,\nbut not limited to, handcuffs, chains, shackles, irons or straitjackets,\nare prohibited in the courtroom.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_162_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Exception. Permissible physical restraint consisting of handcuffs\nor footcuffs that shall not be joined to each other may be used in the\ncourtroom during a proceeding before the court only if the court\ndetermines on the record, after providing the child with an opportunity\nto be heard, why such restraint is the least restrictive alternative\nnecessary to prevent:\n</p>
+          </content>
+          <paragraph eId="sec_162_A__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>physical injury to the child or another person by the child;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_162_A__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>physically disruptive courtroom behavior by the child, as\nevidenced by a recent history of behavior that presented a substantial\nrisk of physical harm to the child or another person, where such\nbehavior indicates a substantial likelihood of current physically\ndisruptive courtroom behavior by the child; or\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_162_A__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>flight from the courtroom by the child, as evidenced by a recent\nhistory of absconding from the court.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

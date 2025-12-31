@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2311"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2311"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2311"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2311/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2311/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2311/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2311/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2311">
+        <num>2311</num>
+        <heading>Compensation, procurement and investment</heading>
+        <content>
+          <p>  § 2311. Compensation, procurement and investment. 1. The compensation\nof an officer or full-time employee of the authority (but not including\npart-time employees or consultants, including accountants, attorneys and\nbond counsel to the authority) shall not be contingent on the granting\nof financial assistance by the authority.\n  2. The provisions of section one hundred four-b of the general\nmunicipal law shall be applicable to the procurement of goods and\nservices paid for by the authority for its own use and account.\n  3. The provisions of sections ten and eleven of the general municipal\nlaw shall be applicable to deposits and investments of funds for an\nagency's own use and account.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

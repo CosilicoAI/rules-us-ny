@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-251-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-251-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="251-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-251-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-251-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-251-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-251-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_251_C">
+        <num>251-C</num>
+        <heading>Disqualification of a flight instruction school applicant</heading>
+        <content>
+          <p>  § 251-c. Disqualification of a flight instruction school applicant. An\napplicant to an aeronautical facility, flight school or institution of\nhigher learning shall be disqualified from receiving air or flight\ninstruction if, after reviewing criminal history information on the\napplicant and applying the criteria set forth in article twenty-three-A\nof the correction law, the commissioner of the division of criminal\njustice services or the authorized official of the aeronautical\nfacility, flight school or institution of higher education determines\nthat the individual should not be permitted to receive such instruction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

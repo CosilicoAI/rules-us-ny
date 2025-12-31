@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172-D"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="172-D"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_172_D">
+        <num>172-D</num>
+        <heading>Prosecutions for penalties</heading>
+        <content>
+          <p>  § 172-d. Prosecutions for penalties.  The state department of\nagriculture and markets and each district attorney to whom there is\npresented, or who in any way procures, satisfactory evidence of any\nviolation of the provisions of this article shall cause appropriate\nproceedings to be commenced and prosecuted in the proper courts, without\ndelay, for the enforcement of the penalties as in such cases herein\nprovided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

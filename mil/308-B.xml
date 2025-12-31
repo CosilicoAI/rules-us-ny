@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308-B"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="308-B"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-308-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-308-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_308_B">
+        <num>308-B</num>
+        <heading>Extension of license, certificate or registration</heading>
+        <content>
+          <p>  § 308-b. Extension of license, certificate or registration.\nNotwithstanding any other provision of general, special or local law,\ncode or ordinance, or rule or regulation to the contrary, military\npersonnel serving on active duty, who were licensed, certified or\nregistered to engage in a profession or occupation prior to being called\nto active duty, and whose license, certificate or registration shall\nexpire during such period of active duty, shall have such license,\ncertificate or registration automatically extended for the period of\nactive duty and for twelve months after such military personnel have\nbeen released from active duty, provided that with regard to professions\nsubject to title VIII of the education law, this section shall not apply\nto limited permits or other credentials issued for a period of two\nmonths or less and shall not extend the term of a limited permit that\nexpires for reasons other than the passage of time, including but not\nlimited to failure on a licensure examination, and further provided that\nthis section shall not be construed to permit any individual whose\nauthority to engage in a profession or occupation has been revoked or\nsuspended to engage in such profession or occupation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

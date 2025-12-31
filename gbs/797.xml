@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-797"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-797"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="797"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-797/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-797/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-797/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-797/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_797">
+        <num>797</num>
+        <heading>Fees</heading>
+        <subsection eId="sec_797__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>for a business certificate of registration for each permanent\nbusiness location with ten or less employees, one hundred fifty dollars\nand for the renewal of such registration, one hundred dollars;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_797__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>for a business certificate of registration for each permanent\nbusiness location with more than ten employees, two hundred dollars and\nfor the renewal of such registration, one hundred fifty dollars;\n  4. for a temporary certificate of registration, thirty dollars and for\nthe renewal of such registration, thirty dollars;\n  5. for filing a change of business address or change of name of the\nregistrant whether individual or business, ten dollars;\n  6. for a duplicate certificate of registration, ten dollars;\n  7. except fees associated with a temporary certificate of registration\nthe fees set forth shall be those for registrations issued for a period\nof two years; and\n  8. employees of a not-for-profit corporation doing business in this\nstate who are required to register pursuant to this article who are not\notherwise engaged in the dispensing of hearing aids for profit shall be\nexempt from payment of the registration fee required by this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

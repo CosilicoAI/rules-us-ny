@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVR">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-81"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-81"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="81"/>
+          <FRBRname value="CVR"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-81/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-81/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvr/section-81/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvr/section-81/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_81">
+        <num>81</num>
+        <heading>Commencement or threat of action unlawful</heading>
+        <content>
+          <p>  § 81. Commencement or threat of action unlawful. It shall be unlawful\nfor any person, either as a party or attorney, or in behalf of either,\nto file, serve or cause to be filed or served, or threaten to file,\nserve or cause to be filed or served, any process or pleading, in any\ncourt of the state, setting forth or seeking to recover a sum of money\nupon any cause of action abolished by this article, whether such cause\nof action arose within or without the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

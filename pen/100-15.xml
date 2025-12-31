@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.15"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100.15"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_15">
+        <num>100.15</num>
+        <heading>Criminal solicitation; no defense</heading>
+        <content>
+          <p>§ 100.15 Criminal solicitation; no defense.\n  It is no defense to a prosecution for criminal solicitation that the\nperson solicited could not be guilty of the crime solicited owing to\ncriminal irresponsibility or other legal incapacity or exemption, or to\nunawareness of the criminal nature of the conduct solicited or of the\ndefendant's criminal purpose or to other factors precluding the mental\nstate required for the commission of the crime in question.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

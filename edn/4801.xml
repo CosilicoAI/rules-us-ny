@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4801"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4801"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4801"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4801/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4801/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4801/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4801/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4801">
+        <num>4801</num>
+        <heading>Establishment of home schools</heading>
+        <content>
+          <p>  § 4801. Establishment of home schools.  The common council of any city\nhaving a population of over seventy thousand but less than two hundred\nfifty thousand inhabitants may adopt a resolution by a majority vote\nestablishing a home school for the purpose of giving instruction in the\ntrades, industrial, agricultural and homemaking subjects in addition to\ninstruction in public school subjects to children of the city and other\nchildren not more than eighteen years nor less than eight years of age\nwho may be admitted thereto as hereinafter provided.  Such school shall\nbe known as the Home School of.................(Name of city\nestablishing school).\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

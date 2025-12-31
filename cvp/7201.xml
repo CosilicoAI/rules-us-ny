@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7201"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7201"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7201">
+        <num>7201</num>
+        <heading>Action by state</heading>
+        <subsection eId="sec_7201__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Statutory penalty or forfeiture.  Where\nproperty has been forfeited or a penalty incurred to the state or to an\nofficer, for its use, pursuant to statute, the attorney-general, or the\ndistrict attorney of the county in which the action is triable, if such\nan action has not already been brought by the attorney-general, shall\ncommence an action to recover the property or penalty. A recovery in\nsuch an action bars the recovery in any other action brought for the\nsame cause.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7201__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Forfeiture on conviction for treason. Where personal property is\nforfeited to the state upon a conviction of outlawry for treason, the\nattorney-general shall commence an action to recover the property or its\nvalue.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7201__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Forfeiture of recognizance. Where the condition of a recognizance\nis broken, the recognizance is wholly forfeited by an order of the court\ndirecting its prosecution.  Where a recognizance to the state is\nforfeited, it is not necessary to allege or prove any damages.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

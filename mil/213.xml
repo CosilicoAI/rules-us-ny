@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-213"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="213"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_213">
+        <num>213</num>
+        <heading>Uniform allowance for officers</heading>
+        <content>
+          <p>  § 213. Uniform allowance for officers.  To assist in uniforming and\nequipping themselves, officers who have been on active duty or active\nservice as such and who have performed eighty percentum of all ordered\nduty during a calendar year of twelve months shall receive annually\nfifty dollars.  Officers who have been on active duty or active service\nas such during a period of less than a calendar year and who have\nperformed eighty percentum of all ordered duty during such period of\nservice shall receive such proportion of the uniform allowance for the\nyear as the period of duty or service performed by them bears to a\ncalendar year of twelve months.  The allowance herein prescribed shall\nnot be granted to any officer in respect to any period for which he\nshall have received pay or pay and allowances or uniform allowance from\nfederal funds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

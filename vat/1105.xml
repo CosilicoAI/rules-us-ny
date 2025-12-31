@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1105"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1105"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-1105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-1105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1105">
+        <num>1105</num>
+        <heading>Traffic laws apply to persons riding animals or driving animal-drawn vehicles</heading>
+        <content>
+          <p>  § 1105. Traffic laws apply to persons riding animals or driving\nanimal-drawn vehicles. Every person riding an animal or driving an\nanimal-drawn vehicle upon a roadway shall be granted all of the rights\nand shall be subject to all of the duties applicable to the driver of a\nvehicle by this title, except those provisions of this title which by\ntheir very nature can have no application.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

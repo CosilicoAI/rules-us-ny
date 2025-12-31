@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-413"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-413"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="413"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-413/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-413/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-413/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-413/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_413">
+        <num>413</num>
+        <heading>Election and term of managers</heading>
+        <subsection eId="sec_413__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as provided in the\noperating agreement, if the articles of organization provides that\nmanagement shall be vested in one or more managers, the members shall\nvote in accordance with section four hundred two of this article to\ndesignate or elect annually the manager or managers of the limited\nliability company.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_413__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each manager shall hold the office and have the terms (which may\nbe unlimited) and responsibilities accorded to him or her by the members\nand set out in the operating agreement until his or her successor has\nbeen elected and qualified or until his or her earlier resignation or\nremoval.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_413__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Except as provided in the operating agreement, the initial\nmanagers shall hold office until the first annual meeting of members and\nuntil their successors have been elected and qualified.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_413__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The number of managers may be increased or decreased by amendment\nto and in the manner provided in the operating agreement.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

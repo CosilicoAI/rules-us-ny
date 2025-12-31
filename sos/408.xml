@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-408"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-408"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="408"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-408/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-408/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-408/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-408/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_408">
+        <num>408</num>
+        <heading>Custodian of funds</heading>
+        <content>
+          <p>  § 408.  Custodian of funds.  The department of taxation and finance is\nhereby authorized to accept and receive on behalf of the state any and\nall grants or allotments of money made available to the state by or\npursuant to the federal social security act for such child welfare\nservices.  All moneys so accepted and received shall be deposited by the\ndepartment of taxation and finance to the credit of a special fund for\nuse exclusively for the purposes for which such grants or allotments\nwere made.  The department shall certify to the comptroller all\nexpenditures to be made from such special fund for payment of the part\nof the cost of district, county or other local child welfare services\nand for developing state services for the encouragement and assistance\nof adequate methods of community child welfare organization.  Such\nexpenditures may be made for personal service and for administrative and\nother costs of operation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

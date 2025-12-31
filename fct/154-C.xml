@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-154-C"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-154-C"/>
+          <FRBRdate date="2023-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="154-C"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-154-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-154-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-154-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-154-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_154_C">
+        <num>154-C</num>
+        <heading>Orders of protection; procedural requirements</heading>
+        <subsection eId="sec_154_C__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>the party\nrequesting the order of protection has served and filed a petition or\ncounter-claim in accordance with article four, five, six or eight of\nthis act and, (ii) the court has made a finding on the record that such\nparty is entitled to issuance of the order of protection which may\nresult from a judicial finding of fact, judicial acceptance of an\nadmission by the party against whom the order was issued or judicial\nfinding that the party against whom the order is issued has given\nknowing, intelligent and voluntary consent to its issuance. Nothing\nherein shall be deemed to limit or restrict the authority of the court\nto issue a temporary order of protection on an ex parte basis.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

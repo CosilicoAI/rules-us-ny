@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-514-B"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-514-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="514-B"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-514-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-514-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-514-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-514-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_514_B">
+        <num>514-B</num>
+        <heading>Certification of convictions, suspensions, revocations and disqualifications</heading>
+        <content>
+          <p>  § 514-b. Certification of convictions, suspensions, revocations and\ndisqualifications. Whenever the commissioner receives information\nrelating to a conviction or notice of a suspension, revocation,\ncancellations and disqualifications of a license or disqualification\nfrom operating a commercial motor vehicle through direct notification by\nthe appropriate officials of another state, District of Columbia or\nCanadian province or through an information system established pursuant\nto the commercial motor vehicle safety act of nineteen hundred\neighty-six, public law 99-570, title XII and regulations promulgated\nthereunder or through an admission made by an applicant for a driver's\nlicense, such information shall be presumptive evidence of the facts\ncontained therein, and the commissioner shall take action as may be\nrequired and may take action as may be permitted by this chapter based\nupon such conviction or notice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

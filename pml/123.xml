@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-123"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>Terms occurring in laws, contracts and other documents</heading>
+        <content>
+          <p>  § 123. Terms occurring in laws, contracts and other documents. Unless\nthe context shall otherwise require, whenever the "racing and wagering\nboard" or "board", "state racing commission", "state harness racing\ncommission", "state quarter horse racing commission", or "division of\nthe lottery" are referred to or designated in any law, contract or\ndocument pertaining to the functions, powers, obligations and duties\ntransferred and assigned to the commission, such reference or\ndesignation shall be deemed to refer to the "state gaming commission".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

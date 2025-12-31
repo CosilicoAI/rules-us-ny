@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.07"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.07"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="496.07"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.07/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.07/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-496.07/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-496.07/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_496_07">
+        <num>496.07</num>
+        <heading>Sentencing</heading>
+        <content>
+          <p>§ 496.07 Sentencing.\n  When a person is convicted of the crime of public corruption pursuant\nto section 496.06 of this article and the specified offense is a class\nC, D or E felony, the crime shall be deemed to be one category higher\nthan the specified offense the defendant committed, or one category\nhigher than the offense level applicable to the defendant's conviction\nfor an attempt or conspiracy to commit a specified offense, whichever is\napplicable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

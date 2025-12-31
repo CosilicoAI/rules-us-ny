@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-788"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-788"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="788"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-788/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-788/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-788/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-788/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_788">
+        <num>788</num>
+        <heading>Effect on actions and proceedings; disposition of records, books and papers</heading>
+        <content>
+          <p>  § 788. Effect on actions and proceedings; disposition of records,\nbooks and papers. 1. Except as otherwise provided for in this title, no\naction for or against the local government entity to be dissolved shall\nabate, nor shall any claim for or against it be affected by reason of\nits dissolution.\n  2. Upon the dissolution of a local government entity, all its records,\nbooks and papers shall be deposited with the town clerk of the town in\nwhich the principal portion of such entity is situated, and they shall\nthereupon become a part of the records of the town.\n  3. Upon the dissolution of a local justice court, all court records of\nsuch court shall be deposited with a justice court judge to be\ndesignated by the administrative judge of the judicial district within\nwhich the dissolving justice court is located. The designated justice\ncourt judge shall have authority to execute and complete all unfinished\nbusiness.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

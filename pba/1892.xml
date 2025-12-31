@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1892"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1892"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1892"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1892/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1892/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1892/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1892/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1892">
+        <num>1892</num>
+        <heading>Purpose</heading>
+        <content>
+          <p>  § 1892. Purpose. There is hereby created a green jobs-green New York\nprogram. The purpose of the program is to:\n  1. promote energy efficiency, energy conservation and the installation\nof clean energy technologies;\n  2. reduce energy consumption and energy costs;\n  3. reduce greenhouse gas emissions;\n  4. support sustainable community development;\n  5. create green job opportunities, including opportunities for new\nentrants into the state's workforce, the long-term unemployed and\ndisplaced workers; and\n  6. use innovative financing mechanisms to finance energy efficiency\nimprovements through energy cost savings.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

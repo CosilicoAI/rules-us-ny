@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EPT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/ept/section-1-2.20"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-1-2.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1-2.20"/>
+          <FRBRname value="EPT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/ept/section-1-2.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-1-2.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/ept/section-1-2.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/ept/section-1-2.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_2_20">
+        <num>1-2.20</num>
+        <heading>Lifetime trust</heading>
+        <content>
+          <p>§ 1-2.20 Lifetime trust\n  The term "lifetime trust" shall mean an express trust and all\namendments thereto created other than by will and shall not include; a\ntrust for the benefit of creditors, a resulting or constructive trust, a\nbusiness trust where certificates of beneficial interest are issued to\nthe beneficiary, an investment trust, voting trust, a security\ninstrument such as a deed of trust and a mortgage, a trust created by\nthe judgment or decree of a court, a liquidation or reorganization\ntrust, a trust for the sole purpose of paying dividends, interest,\ninterest coupons, salaries, wages, pensions or profits, instruments\nwherein persons are mere nominees for others, or a trust created in\ndeposits in any banking institution or savings and loan institution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

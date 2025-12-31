@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-M"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="199-M"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-199-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-199-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_199_M">
+        <num>199-M</num>
+        <heading>Dealers' rights of association</heading>
+        <content>
+          <p>  § 199-m. Dealers' rights of association. No distributor shall directly\nor indirectly, through any officer, agent or employee, restrict or\ninhibit the right of a dealer to join a trade association or to freely\nassociate with other dealers for any lawful purpose. A failure to comply\nwith this section shall be a violation punishable by a fine of up to one\nthousand dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

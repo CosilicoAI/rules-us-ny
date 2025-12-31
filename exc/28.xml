@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-28"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-28"/>
+          <FRBRdate date="2021-03-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="28"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-28/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-28/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-28/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_28">
+        <num>28</num>
+        <heading>State declaration of disaster emergency</heading>
+        <subsection eId="sec_28__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>notify the public that an emergency exists; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_28__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>take appropriate protective actions pursuant to the radiological\nemergency preparedness plan approved pursuant to sections twenty-two and\ntwenty-three of this article. The governor, or his designee, shall also\nhave authority to direct that other actions be taken by such chief\nexecutives pursuant to their authority under section twenty-four of this\narticle.\n  3. The executive order shall include a description of the disaster,\nand the affected area. Such order or orders shall remain in effect for a\nperiod not to exceed six months or until rescinded by the governor,\nwhichever occurs first. The governor may issue additional orders to\nextend the state disaster emergency for additional periods not to exceed\nsix months.\n  4. Whenever the governor shall find that a disaster is of such\nseverity and magnitude that effective response is beyond the\ncapabilities of the state and the affected jurisdictions, he shall make\nan appropriate request for federal assistance available under federal\nlaw, and may make available out of any funds provided under the\ngovernmental emergency fund or such other funds as may be available,\nsufficient funds to provide the required state share of grants made\nunder any federal program for meeting disaster related expenses\nincluding those available to individuals and families.\n  5. The legislature may terminate at any time a state disaster\nemergency issued under this section by concurrent resolution.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

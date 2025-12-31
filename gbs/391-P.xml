@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-P"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-P"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="391-P"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-391-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-391-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_391_P">
+        <num>391-P</num>
+        <heading>Prohibit the rental of clothing articles previously worn</heading>
+        <content>
+          <p>  § 391-p. Prohibit the rental of clothing articles previously worn. 1.\nNo person shall rent articles of clothing which have been previously\nworn unless such articles of clothing are cleaned prior to such rental.\n  2. A knowing violation of this section shall be punishable by a civil\npenalty not to exceed two hundred fifty dollars for the first violation\nand not to exceed one thousand dollars for each subsequent violation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

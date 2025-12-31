@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6-N"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6-N"/>
+          <FRBRdate date="2019-11-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-N"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_N">
+        <num>6-N</num>
+        <heading>Responsibility of banks for mortgages being processed for modification</heading>
+        <content>
+          <p>  § 6-n. Responsibility of banks for mortgages being processed for\nmodification. 1. If a mortgage that is the subject of an application for\na modification of the mortgage terms is sold or transferred during the\nmodification process, the bank or financial institution selling or\ntransferring such mortgage shall provide the borrower with a written\nlist of all documents relating to such application for modification that\nwere provided to the bank or financial institution to which such\nmortgage was sold or transferred.\n  2. If a borrower has been approved in writing for a first lien loan\nmodification or other modification to avoid foreclosure, and the\nservicing of such borrower's loan is transferred or sold to another\nmortgage servicer, the subsequent mortgage servicer shall assume all\nduties and obligations related to any previously approved first lien\nloan modification or other foreclosure prevention alternative in\naccordance with the provisions of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-717"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-717"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="717"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-717/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-717/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-717/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-717/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_717">
+        <num>717</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_717__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the creditor may permit the obligor\nto make purchases or obtain loans, from time to time, directly from the\ncreditor or indirectly by use of a credit card, check, or other device,\nas the plan may provide;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_717__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the customer has the privilege of paying\nthe balance in full or in installments; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_717__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a finance charge may be\ncomputed by the creditor from time to time on an outstanding unpaid\nbalance. The term does not include negotiated advances under an open end\nreal estate mortgage or a letter of credit.\n  4. "Interest" means that part of the entire amount agreed to be paid\nfor the purchase made or loan advanced which exceeds the aggregate of\nthe cash value of such purchases or loans and is deemed to include\nservice charges, time-price charges and per check charges.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

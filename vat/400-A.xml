@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-400-A"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-400-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="400-A"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-400-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-400-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-400-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-400-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_400_A">
+        <num>400-A</num>
+        <heading>Exceptions to registration provisions</heading>
+        <content>
+          <p>  § 400-a. Exceptions to registration provisions. Notwithstanding any\ninconsistent provision of this chapter or other law or regulation, the\ncommissioner may refuse to register any vehicle or class of vehicles for\nuse on the public highways where he determines that the characteristics\nof such vehicle or class of vehicles make such vehicle or vehicles\nunsafe for highway operation. Provided, however, that such authority\nshall not extend to any vehicle which is eligible for registration as a\nspecial purpose commercial vehicle under the provisions of schedule F of\nsubdivision seven of section four hundred one of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5200"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5200"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5200"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5200/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5200/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5200/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5200/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5200">
+        <num>5200</num>
+        <heading>Establishment of the research institute on addictions</heading>
+        <content>
+          <p>  § 5200. Establishment of the research institute on addictions. There\nis hereby established at the university center at Buffalo of the state\nuniversity of New York the research institute on addictions for research\nand teaching in the sciences related to addiction, including alcohol\nabuse and substance abuse, as such terms are defined in section 1.03 of\nthe mental hygiene law, and chemical dependence, as defined in section\n19.40 of the mental hygiene law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

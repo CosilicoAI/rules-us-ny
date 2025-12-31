@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-301-M"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-301-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="301-M"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-301-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-301-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-301-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-301-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_301_M">
+        <num>301-M</num>
+        <heading>Credit or reimbursement for certain governmental purchases by credit card</heading>
+        <content>
+          <p>  § 301-m. Credit or reimbursement for certain governmental purchases by\ncredit card. Notwithstanding any provision of the law to the contrary,\ntax paid pursuant to this article in respect to motor fuel or diesel\nmotor fuel purchased by a government entity and paid for by such\ngovernment entity with a credit card shall be reimbursed or credited to\nthe issuer of the credit card used for such purchase or the fuel\ndistributor designated in accordance with and subject to the provisions\nof sections eleven hundred thirty-eight, eleven hundred thirty-nine,\neleven hundred forty-two, and eleven hundred forty-five of this chapter\nconcerning such credit card issuers, fuel distributors and government\nentities. Such provisions shall apply with respect to the administration\nof and procedure with respect to the taxes imposed under this article in\nthe same manner and with the same force and effect as if the language of\nsuch provisions had been incorporated in full into this article and had\nexpressly referred to the tax under this article, with such\nmodifications as may be necessary in order to adapt the language of such\nprovisions to the taxes imposed by this article, except to the extent\nthat any such provision is not relevant to this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

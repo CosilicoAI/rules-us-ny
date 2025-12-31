@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1986"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1986"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1986"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1986/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1986/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1986/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1986/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1986">
+        <num>1986</num>
+        <heading>Assistance by state officers, departments, agencies and commissions</heading>
+        <content>
+          <p>  § 1986. Assistance by state officers, departments, agencies and\ncommissions.\n  (1) The department of audit and control, department of law, the\ndivision of housing and community renewal and all other state agencies\nmay render such services to the authority within their respective\nfunctions as may be requested by the authority.\n  (2) Upon request of the authority, any state agency is hereby\nauthorized and empowered to transfer to the authority such officers and\nemployees as it may deem necessary from time to time to assist the\nauthority in carrying out its functions and duties under this title.\nOfficers and employees so transferred shall not lose their civil service\nstatus or rights.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

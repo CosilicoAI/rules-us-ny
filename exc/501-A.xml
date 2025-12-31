@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="501-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-501-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-501-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_501_A">
+        <num>501-A</num>
+        <heading>Actions against persons designated foster parents of the division; defense and indemnification</heading>
+        <content>
+          <p>  § 501-a. Actions against persons designated foster parents of the\ndivision; defense and indemnification. The provisions of section\nseventeen of the public officers law shall apply to persons designated\nfoster parents whose duties involve the care, treatment or supervision\nof persons admitted to institutions operated by the division, whether\nwithin such institutions or released therefrom pursuant to section five\nhundred twenty-three of this article or whose duties involve services to\nor for applicants while rendering such care, treatment or services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2012"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2012"/>
+          <FRBRdate date="2025-03-14" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2012"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2012/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2012/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2012/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2012/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2012">
+        <num>2012</num>
+        <heading>Establishment of registry</heading>
+        <content>
+          <p>  § 2012. Establishment of registry. 1. The department shall establish a\nParkinson's disease registry for the collection of information on the\nincidence and prevalence of Parkinson's disease and Parkinsonisms. The\ndepartment may consult with Parkinson's disease experts, including\nneurologists, patients living with Parkinson's disease, and Parkinson's\ndisease researchers to assist in the development and implementation of\nsuch registry, and to determine what data shall be collected.\n  2. All information maintained by the department under the provisions\nof this section shall be confidential except as necessary to carry out\nthe provisions of this section and shall not be released for any other\npurpose.\n  3. The department may enter into an agreement to provide data\ncollected in the Parkinson's disease registry to the federal Centers for\nDisease Control and Prevention, or successor agency, to local health\nofficers, or health researchers for the study of Parkinson's disease for\npublic health and research purposes. Data shall be provided in summary,\nstatistical, aggregate, or other form such that no individual person can\nbe identified.\n  4. On or before January first, two thousand twenty-six, the department\nshall create and maintain a public website called the "New York state\nParkinson's disease registry" which shall include information on the\nincidence and prevalence of Parkinson's disease and Parkinsonisms in the\nstate by county, and demographic information on affected patients.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

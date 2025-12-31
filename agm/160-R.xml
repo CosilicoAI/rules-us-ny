@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-R"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-R"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-R"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-R/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-R/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-160-R/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-160-R/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_R">
+        <num>160-R</num>
+        <heading>Sale of lettuce</heading>
+        <content>
+          <p>  § 160-r. Sale of lettuce.  1. No person shall sell, expose for sale or\ntransport for sale within this state, regardless of place of origin,\nlettuce in closed packages which are not branded as required by section\n160-q, except that lettuce packaged by a retailer and sold or offered\nfor sale by such retailer, need only be branded to show that it is cull\nlettuce, if such is the case.\n  2. Cull lettuce offered or exposed for sale at retail shall be plainly\nand conspicuously marked as "culls".\n  3. No person shall sell, offer for sale, or transport for sale lettuce\nin open or closed packages, or unwrapped lettuce, if the branding,\nrepresentation as to grade, or any statement, design or device appearing\non the label, package or bulk display shall be false or misleading in\nany particular.\n  4. When lettuce in closed packages is delivered to a common carrier\nfor shipment, such delivery shall be presumptive evidence that the\nlettuce is intended for sale.\n  5. No lettuce shall be sold in closed cardboard containers unless it\nis vacuum cooled.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

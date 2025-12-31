@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-512-A"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-512-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512-A"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-512-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-512-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-512-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-512-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512_A">
+        <num>512-A</num>
+        <heading>Earnings of youth</heading>
+        <content>
+          <p>  § 512-a. Earnings of youth. The division for youth may grant\ncompensation to youth for work performed in division facility programs,\nor pursuant to work programs in accordance with rules and regulations\nestablished by the division for youth and approved by the director of\nthe budget. Such rules and regulations need not be uniform as to each\nprogram and may establish, on the basis of work performed, the amount of\ncompensation to be paid and the manner in which it is to be paid to each\nyouth, or paid to the youth's dependents, or credited to the youth's\naccount until his or her discharge from such program. Such compensation\nmay be paid from moneys appropriated to the division for youth for\nmaintenance and operation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

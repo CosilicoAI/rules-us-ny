@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79-B"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="79-B"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-79-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-79-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_79_B">
+        <num>79-B</num>
+        <heading>Authorization to sell wine products by certain licensees for consumption on the premises</heading>
+        <content>
+          <p>  § 79-b. Authorization to sell wine products by certain licensees for\nconsumption on the premises.  1. Any person licensed to sell beer at\nretail for consumption on the premises, pursuant to section fifty-five\nof this chapter, shall, by virtue of such license and upon payment to\nthe liquor authority of an additional fee in the sum of one hundred\nninety-two dollars in cities having a population of one hundred thousand\nor over and ninety-six dollars elsewhere, be granted authorization to\nsell from the licensed premises wine products in sealed containers at\nretail for consumption on or off such premises. Upon receipt of such\nadditional fee, the liquor authority shall promptly issue a permit\nauthorizing such sales by the licensee.\n  1-a. Any person licensed to sell beer at retail for consumption on the\npremises, pursuant to section fifty-five-a of this chapter, shall, by\nvirtue of such license and upon payment to the liquor authority of an\nadditional fee in the sum of one hundred ninety-two dollars in cities\nhaving a population of one hundred thousand or over and ninety-six\ndollars elsewhere, be granted authorization to sell from the licensed\npremises wine products in sealed containers at retail for consumption on\nsuch premises. Upon receipt of such additional fee, the liquor authority\nshall promptly issue a permit authorizing such sales by the licensee.\n  2. Notwithstanding any other provisions of this chapter, any person\nreceiving a permit pursuant to this section shall be subject to such\nprovisions of this chapter as are applicable to persons licensed\npursuant to section fifty-five of this chapter, and not to those\nprovisions which are applicable only to persons licensed pursuant to\nsections sixty-four and eighty of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

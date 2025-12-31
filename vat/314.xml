@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-314"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-314"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="314"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-314/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-314/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-314/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-314/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_314">
+        <num>314</num>
+        <heading>Acceptance of financial security deposits</heading>
+        <content>
+          <p>  § 314. Acceptance of financial security deposits. 1. All moneys or\nsecurities delivered to the commissioner as a financial security deposit\nshall be placed by the commissioner in the custody of the commissioner\nof taxation and finance and shall be subject to execution to satisfy any\njudgment for damages for bodily injury or death, or injury to or\ndestruction of property, arising out of the ownership, maintenance, use\nor operation of the motor vehicle with respect to which the deposit has\nbeen accepted, and subject to the same limits on amounts required by\nthis article for an owner's policy of liability insurance, and if such\nmoneys or securities shall be otherwise subjected to attachment or any\nexecution, the depositor shall immediately furnish such additional\nmoneys or securities, not otherwise subject to attachment or execution,\nto meet the requirements of this article.\n  2. The commissioner shall not accept such moneys or securities as a\nfinancial security deposit unless accompanied by evidence that there are\nno unsatisfied judgments against such person registered in the office of\nthe county clerk of the county where such person resides.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1115"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1115"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1115"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1115/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1115/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1115/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1115">
+        <num>1115</num>
+        <heading>Injunction</heading>
+        <subsection eId="sec_1115__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>At any stage of an action or special proceeding under this\narticle, the court may, in its discretion, grant an injunction,\neffective during the pendency of the action or special proceeding or\nsuch shorter period as it may specify in the injunction, for one or more\nof the following purposes:\n</p>
+          </content>
+          <paragraph eId="sec_1115__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>Restraining the corporation and its directors and officers from\ntransacting any unauthorized business and from exercising any corporate\npowers, except by permission of the court.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1115__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>Restraining the corporation and its directors and officers from\ncollecting or receiving any debt or other property of the corporation,\nand from paying out or otherwise transferring or delivering any property\nof the corporation, except by permission of the court.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1115__subsec_a__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>Restraining the creditors of the corporation from beginning any\naction against the corporation, or from taking any proceedings in an\naction theretofore commenced, except by permission of the court. Such\ninjunction shall have the same effect and be subject to the same\nprovisions of law as if each creditor upon whom it is served was named\ntherein.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

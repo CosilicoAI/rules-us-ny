@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3301"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3301"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3301">
+        <num>3301</num>
+        <heading>Applicability of this article to actions and matters occurring or arising before and after the effective date</heading>
+        <subsection eId="sec_3301__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the provisions of this article shall govern and control the\npossession, manufacture, dispensing, administering, and distribution of\ncontrolled substances with respect to any matter, act or omission,\narising or occurring on or after the effective date hereof;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3301__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the provisions of this article do not apply to or govern any\nmatter, act, or omission arising or occurring prior to the effective\ndate hereof.  Such matters, acts, or omissions must be governed and\nconstrued according to provisions of law existing at the time such\nmatter, act or omission arose or occurred in the same manner as if this\narticle had not been enacted.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

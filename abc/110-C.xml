@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-110-C"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-110-C"/>
+          <FRBRdate date="2022-12-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="110-C"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-110-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-110-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-110-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-110-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_110_C">
+        <num>110-C</num>
+        <heading>Public license query</heading>
+        <content>
+          <p>  § 110-c. Public license query. 1. The authority shall make available\nto the public all digitally archived information pertaining to any\nconditions it imposes on the operation of a premises licensed by the\nauthority pursuant to this chapter, including but not necessarily\nlimited to information pertaining to the hours during which the licensed\npremises is allowed to operate, the maximum permitted occupancy of the\nlicensed premises, and any special conditions imposed by the authority\non the licensed premises.\n  2. The authority shall make available to the public on its website a\ndaily updated list or lists of all pending license applications. Such\nlist shall include the serial, certificate or other identifying number\nassigned by the authority; the status of the application; the name of\nthe applicant; the complete address, including county, of the applied\nfor premises; the license type and class the applicant is seeking; the\ndate such application was received; based on the date submitted, an\nestimated timeframe, specified as a date, for a determination on the\napplication. For any unreasonable delay that is caused solely by an\naction of the authority, this timeframe will be updated; if the\nauthority has issued any temporary permit for the premises related to\nthe current application; and the final date of an applications\ndetermination.\n  3. The authority shall maintain a record of the number of licenses\napplied for and the length of time required for the approval or denial\nof such licenses on its public website. Such records shall be updated at\nleast monthly by the authority.\n  4. The authority shall, where feasible and resources permitting,\ndevelop or cause to be developed up-grades to their information\ntechnology systems that will enable greater transparency for applicants\nwith respect to their application status and estimated processing times\nfor final determination on a license application.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PML">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1338"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1338"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1338"/>
+          <FRBRname value="PML"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1338/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1338/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pml/section-1338/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pml/section-1338/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1338">
+        <num>1338</num>
+        <heading>Limitation on certain financial access</heading>
+        <content>
+          <p>  § 1338. Limitation on certain financial access. In order to protect\nthe public interest, the commission shall adopt regulations that include\nprovisions that:\n  1. limit the number and location of and maximum withdrawal amounts\nfrom automated teller machines;\n  2. prohibit authorized automated teller machines from accepting\nelectronic benefit cards, debit cards, or similar negotiable instruments\nissued by the state or political subdivisions for the purpose of\naccessing temporary public assistance;\n  3. prohibit the use of specified negotiable instruments at gaming\nfacilities and the use of credit cards, debit cards, and similar devices\nin slot machines or at table games; and\n  4. prohibit consumers from cashing paychecks at gaming facilities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

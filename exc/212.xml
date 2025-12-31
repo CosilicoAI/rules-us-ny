@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-212"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="212"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212">
+        <num>212</num>
+        <heading>Equipment</heading>
+        <content>
+          <p>  § 212. Equipment. The superintendent is authorized on behalf of the\nstate to purchase, lease or lease-purchase, within the amounts\nappropriated therefor, necessary equipment and supplies, including but\nnot limited to, vehicles and aircraft subject to the approval of the\ndirector of the budget, and uniforms; when any state property shall\nbecome unfit for use it shall be disposed of in accordance with the\nprovisions of the finance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

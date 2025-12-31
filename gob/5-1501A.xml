@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1501A"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1501A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-1501A"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1501A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1501A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-5-1501A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-5-1501A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_1501A">
+        <num>5-1501A</num>
+        <heading>Power of attorney not affected by incapacity</heading>
+        <content>
+          <p>  § 5-1501A. Power of attorney not affected by incapacity. 1. A power of\nattorney is durable unless it expressly provides that it is terminated\nby the incapacity of the principal.\n  2. The subsequent incapacity of a principal shall not revoke or\nterminate the authority of an agent who acts under a durable power of\nattorney. All acts done during any period of the principal's incapacity\nby an agent pursuant to a durable power of attorney shall have the same\neffect and inure to the benefit of and bind a principal and his or her\ndistributees, devisees, legatees and personal representatives as if such\nprincipal had capacity. If a guardian is thereafter appointed for such\nprincipal, such agent, during the continuance of the appointment, shall\naccount to the guardian rather than to such principal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

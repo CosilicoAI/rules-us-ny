@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-321"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-321"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="321"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-321/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-321/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-321/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321">
+        <num>321</num>
+        <heading>Certificates of service</heading>
+        <content>
+          <p>  § 321. Certificates of service.  1. In any proceeding under this act a\ncertificate executed by an officer of the applicable force of the armed\nforces of the United States or by an officer of the applicable force of\nthe organized militia shall, when produced, be prima facie evidence of\nthe facts therein certified and of the authority of the signer to issue\nthe same.\n  2. When a person in military service has been reported missing he\nshall be presumed to continue in such service until accounted for, and\nno period herein limited which begins or ends with the death of such\nperson shall begin or end until the death of such person is in fact\nreported to or proved by the applicable force of the armed forces of the\nUnited States or of the organized militia, or until such death is proved\nby a court of competent jurisdiction; provided, that no period herein\nlimited which begins or ends with the death of such person shall be\nextended beyond a period of six months after the time when this act\nceases to be in force.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

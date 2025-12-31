@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-301"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7-301"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-7-301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-7-301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7_301">
+        <num>7-301</num>
+        <heading>Liability of surety on an undertaking</heading>
+        <content>
+          <p>  § 7-301. Liability of surety on an undertaking. When any undertaking\nexecuted within or without the state specifies that it is to be void\nupon payment of an amount or performance of an act, the undertaking\nshall be deemed to contain a covenant either to pay the amount or to\nperform the act specified. In the event of payment, the amount\nrecoverable from a surety shall not exceed the amount specified in the\nundertaking except that interest in addition to this amount shall be\nawarded from the time of default by the surety.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

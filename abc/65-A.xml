@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-65-A"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-65-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="65-A"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-65-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-65-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-65-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-65-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_A">
+        <num>65-A</num>
+        <heading>Procuring alcoholic beverages for persons under the age of twenty-one years</heading>
+        <content>
+          <p>  § 65-a. Procuring alcoholic beverages for persons under the age of\ntwenty-one years.  Any person who misrepresents the age of a person\nunder the age of twenty-one years for the purpose of inducing the sale\nof any alcoholic beverage, as defined in the alcoholic beverage control\nlaw, to such person, is guilty of an offense and upon conviction thereof\nshall be punished by a fine of not more than two hundred dollars, or by\nimprisonment for not more than five days, or by both such fine and\nimprisonment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

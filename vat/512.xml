@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-512"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-512"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512">
+        <num>512</num>
+        <heading>Operation while registration or privilege is suspended or revoked</heading>
+        <content>
+          <p>  § 512. Operation while registration or privilege is suspended or\nrevoked. Any person who operates any motor vehicle upon a public highway\nwhile the certificate of registration of such motor vehicle or privilege\nof operation of such motor vehicle in this state or privilege of\nobtaining a certificate of registration issued by the commissioner is\nsuspended or revoked shall be guilty of a misdemeanor, and upon\nconviction shall be subject to a fine of not less than fifty dollars nor\nmore than one hundred dollars or by imprisonment for not exceeding\nthirty days or by both such fine and imprisonment for conviction of a\nfirst offense; by a fine of not less than one hundred dollars nor more\nthan two hundred dollars or by imprisonment for not exceeding ninety\ndays or by both such fine and imprisonment for a conviction of a second\noffense committed within a period of eighteen months; by a fine of not\nless than two hundred dollars nor more than five hundred dollars or by\nimprisonment for not exceeding one hundred eighty days or by both such\nfine and imprisonment for a conviction of a third or subsequent offense\ncommitted within a period of eighteen months.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3568"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3568"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3568"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3568/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3568/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-3568/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-3568/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3568">
+        <num>3568</num>
+        <heading>Audit and annual reports</heading>
+        <subsection eId="sec_3568__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The corporation shall also report on an annual basis the\nfollowing information: the name, principal business address and\nprincipal business activities of each subsidiary of the corporation; the\nname of all partners, managers, board members and officers of each\nsubsidiary; the number of employees of each subsidiary; a list of all\ncontracts in excess of one hundred thousand dollars entered into by the\ncorporation and its subsidiaries identifying the amount, purpose and\nduration of such contract; and a financial statement, income statement,\nand balance sheet of each of the corporation's subsidiaries, prepared by\nan independent certified public accountant all in accordance with\ngenerally accepted accounting principles.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3568__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The corporation shall also report no less than quarterly its\nincome, expenses and relevant fiscal, programmatic and clinical data.\n  5. All such reports and financial statements shall be furnished to the\ngovernor, the comptroller, the majority leader of the senate, the\nspeaker of the assembly, and to the chairperson of the senate finance\ncommittee and the chairperson of the assembly ways and means committee.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

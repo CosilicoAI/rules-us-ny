@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Actions to compel widening; how affected by petition</heading>
+        <content>
+          <p>  § 204. Actions to compel widening; how affected by petition. In case\nan action might lie in any court of this state against the town\nsuperintendent of any town or towns to compel such superintendent to\nwiden a part of a highway, the width of which has become less than that\nrequired by statute, or in case an action has been brought against such\nsuperintendent to compel him to widen a part of a highway, the width of\nwhich has become less than that required by statute, the presentation of\na verified petition to the county court as provided for in section one\nhundred and ninety-nine shall prevent the commencing of any such action\nas aforesaid and cause such an action already commenced, to cease, and\nshall be a bar to a recovery on the part of the plaintiff of a judgment\nagainst such superintendent in any such action instituted or prosecuted\nto judgment after the passage of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

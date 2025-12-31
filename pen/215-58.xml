@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.58"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.58"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215.58"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.58/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.58/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.58/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.58/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215_58">
+        <num>215.58</num>
+        <heading>Failing to respond to an appearance ticket</heading>
+        <content>
+          <p>§ 215.58 Failing to respond to an appearance ticket.\n  1. A person is guilty of failing to respond to an appearance ticket\nwhen, having been personally served with an appearance ticket, as\ndefined in subdivision two, based upon his alleged commission of a\ncrime, he does not appear personally in the court in which such\nappearance ticket is returnable on the return date thereof or\nvoluntarily within thirty days thereafter.\n  2. As used in this section, an appearance ticket means a written\nnotice, whether referred to as a summons or by any other name, issued by\na police officer, peace officer or other non-judicial public servant\nauthorized by law to issue the same, directing a designated person to\nappear in a designated court at a designated future time in connection\nwith a criminal action to be instituted in such court with respect to\nhis alleged commission of a designated offense.\n  3. This section does not apply to any case in which an alternative to\nresponse to an appearance ticket is authorized by law and the actor\ncomplies with such alternative procedure.\n  Failing to respond to an appearance ticket is a violation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

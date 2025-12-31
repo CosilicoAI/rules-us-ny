@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6008"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6008"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6008"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6008/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6008/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6008/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6008/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6008">
+        <num>6008</num>
+        <heading>Quorum of stockholders</heading>
+        <content>
+          <p>  § 6008. Quorum of stockholders. 1. The holders of a majority of the\nshares entitled to vote thereat shall constitute a quorum at a meeting\nof stockholders for the transaction of any business, provided that when\na specified item of business is required to be voted on by a class or\nseries, voting as a class, the holders of a majority of the shares of\nsuch class or series shall constitute a quorum for the transaction of\nsuch specified item of business.\n  2. The organization certificate or by-laws may provide for any lesser\nquorum not less than one-third of the shares entitled to vote, and the\norganization certificate may, under section six thousand sixteen,\nprovide for a greater quorum.\n  3. When a quorum is once present to organize a meeting, it is not\nbroken by the subsequent withdrawal of any stockholders.\n  4. The stockholders present may adjourn the meeting despite the\nabsence of a quorum.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

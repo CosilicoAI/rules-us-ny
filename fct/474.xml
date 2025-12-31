@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-474"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-474"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="474"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-474/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-474/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-474/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-474/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_474">
+        <num>474</num>
+        <heading>Default</heading>
+        <content>
+          <p>  § 474. Default. A default in the terms of the order shall constitute a\nbreach of the undertaking. When there has been a default the court shall\ncause an affidavit to be drawn, verified and filed by any person\nfamiliar with the facts. The surety shall thereupon be personally\nserved, or served by registered mail at the address given in the\nundertaking or subsequent address furnished by said surety in writing,\nwith notice of such default and shall be required to attend at the court\non a day certain and show cause why judgment should not be entered on\nthe undertaking and the amount thereof applied to the relief of the\npetitioner for the amount in default. If the surety appears and pays the\namount in arrears the court may remit the forfeiture. Inability to serve\nthe surety shall not be prejudicial to the renewal of proceedings\nagainst the respondent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

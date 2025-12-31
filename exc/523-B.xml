@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-B"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="523-B"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-523-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-523-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_523_B">
+        <num>523-B</num>
+        <heading>Office of the ombudsman</heading>
+        <content>
+          <p>  § 523-b. Office of the ombudsman. There is hereby established the\noffice of the ombudsman in the office of children and family services.\nThe commissioner shall appoint the director of the office of the\nombudsman.  The director shall be an attorney licensed to practice law\nin New York.  The director shall report to the commissioner. Persons\nemployed by the office of the ombudsman to act as "ombudsmen" shall be\nattorneys or shall have expertise in the areas of juvenile justice and\nyouth rights, as evidenced by experience in the field, or by academic\nbackground, the level and sufficiency of which shall be determined by\nthe director.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

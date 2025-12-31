@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-C"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="339-C"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-339-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-339-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_339_C">
+        <num>339-C</num>
+        <heading>Trading by brokers against customers' orders</heading>
+        <content>
+          <p>  § 339-c. Trading by brokers against customers' orders.  A broker, who,\nbeing employed by a customer to buy and carry upon margin the stocks,\nbonds or other evidences of debt of a corporation, company or\nassociation, while acting as broker for such customer in respect of such\nstocks, bonds or other evidences of debt, sells for his own account the\nsame kind or issue of stocks, bonds or other evidences of debt of such\ncorporation, company or association, with intent to trade against the\ncustomer's order, or, who, being employed by a customer to sell the\nstocks, bonds or other evidences of debt of a corporation, company or\nassociation, while acting as broker for such customer in respect to the\nsale of such stocks, bonds or other evidences of debt, purchases for his\nown account the same kind or issue of stock, bonds or other evidences of\ndebt of such corporation, company or association, with intent to trade\nagainst the customer's order, is guilty of a misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

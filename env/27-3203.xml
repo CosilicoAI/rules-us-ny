@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-3203"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-3203"/>
+          <FRBRdate date="2024-01-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-3203"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-3203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-3203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-3203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-3203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_3203">
+        <num>27-3203</num>
+        <heading>Small plastic bottle hospitality personal care products</heading>
+        <content>
+          <p>§ 27-3203. Small plastic bottle hospitality personal care products.\n  Effective January first, two thousand twenty-five for all hotels with\nfifty rooms or more and January first, two thousand twenty-six for all\nhotels with less than fifty rooms, a hotel shall not provide any small\nplastic bottle containing a hospitality personal care product.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

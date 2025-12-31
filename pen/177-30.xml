@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-177.30"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-177.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="177.30"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-177.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-177.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-177.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-177.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_177_30">
+        <num>177.30</num>
+        <heading>Health care fraud; affirmative defense</heading>
+        <content>
+          <p>§ 177.30 Health care fraud; affirmative defense.\n  In any prosecution under this article, it shall be an affirmative\ndefense that the defendant was a clerk, bookkeeper or other employee,\nother than an employee charged with the active management and control,\nin an executive capacity, of the affairs of the corporation, who,\nwithout personal benefit, merely executed the orders of his or her\nemployer or of a superior employee generally authorized to direct his or\nher activities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

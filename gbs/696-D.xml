@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-696-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-696-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="696-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-696-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-696-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-696-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-696-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_696_D">
+        <num>696-D</num>
+        <heading>Violations</heading>
+        <content>
+          <p>  § 696-d. Violations. It shall be deemed a violation of this article\nfor a dealer:\n  1. To require a retail purchaser of new equipment, as a condition of\nsale and delivery thereof, also to purchase special features,\nappliances, parts, or accessories not desired or requested by the\npurchaser. However, this prohibition shall not apply to special\nfeatures, appliances, parts or accessories which are already installed\nwhen the equipment is received by the dealer from the supplier thereof.\n  2. To represent and sell as new and unused any equipment which has\nbeen used and operated for demonstration or other purposes without\nstating to the purchaser prior to the sale the approximate amount of use\nthe equipment has experienced or undergone.\n  3. To use any false or misleading advertisement in connection with\nsuch dealer's business.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

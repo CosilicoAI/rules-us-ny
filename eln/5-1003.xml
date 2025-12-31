@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-1003"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-1003"/>
+          <FRBRdate date="2025-12-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5-1003"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-1003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-1003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-5-1003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-5-1003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5_1003">
+        <num>5-1003</num>
+        <heading>Use of information from a multistate voter list maintenance organization</heading>
+        <content>
+          <p>  § 5-1003. Use of information from a multistate voter list maintenance\norganization. 1. Notwithstanding any provision of law to the contrary,\nthe state board of elections shall use any information provided by a\nmultistate voter list maintenance organization that the state has joined\npursuant to section 5-1001 of this title, including but not limited to,\nthe use of such information in list maintenance activities performed\npursuant to section 5-614 of this article.\n  2. To avoid inadvertent or accidental registration of persons\nineligible to register to vote, any mailing to any potentially eligible\nbut unregistered person shall state the voter registration criteria,\nincluding but not limited to, any citizenship requirements.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

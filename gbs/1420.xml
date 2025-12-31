@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1420"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1420"/>
+          <FRBRdate date="2025-12-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1420"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1420/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1420/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1420/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1420/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1420">
+        <num>1420</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>protect public safety to the extent the developer can reasonably\npredict such risks;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>protect trade secrets;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>prevent the release of confidential information as required by\nstate or federal law;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>protect employee or customer privacy; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>prevent the release of information otherwise controlled by state\nor federal law.\n  2. "Artificial intelligence" means a machine-based system that can,\nfor a given set of human-defined objectives, make predictions,\nrecommendations, or decisions influencing real or virtual environments,\nand that uses machine- and human-based inputs to perceive real and\nvirtual environments, abstract such perceptions into models through\nanalysis in an automated manner, and use model inference to formulate\noptions for information or action.\n  3. "Artificial intelligence model" means an information system or\ncomponent of an information system that implements artificial\nintelligence technology and uses computational, statistical, or\nmachine-learning techniques to produce outputs from a given set of\ninputs.\n  4. "Compute cost" means the cost incurred to pay for compute used in\nthe final training run of a model when calculated using the average\npublished market prices of cloud compute in the United States at the\nstart of training such model as reasonably assessed by the person doing\nthe training.\n  5. "Deploy" means to use a frontier model or to make a frontier model\nforeseeably available to one or more third parties for use,\nmodification, copying, or a combination thereof with other software,\nexcept for training or developing the frontier model, evaluating the\nfrontier model or other frontier models, or complying with federal or\nstate laws.\n  6. "Frontier model" means either of the following:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>an artificial intelligence model trained using greater than 10^26\ncomputational operations (e.g., integer or floating-point operations),\nthe compute cost of which exceeds one hundred million dollars; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>an artificial intelligence model produced by applying knowledge\ndistillation to a frontier model as defined in paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of this\nsubdivision, provided that the compute cost for such model produced by\napplying knowledge distillation exceeds five million dollars.\n  7. "Critical harm" means the death or serious injury of one hundred or\nmore people or at least one billion dollars of damages to rights in\nmoney or property caused or materially enabled by a large developer's\nuse, storage, or release of a frontier model, through either of the\nfollowing:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The creation or use of a chemical, biological, radiological, or\nnuclear weapon; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>An artificial intelligence model engaging in conduct that does\nboth of the following:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>Acts with no meaningful human intervention; and\n  (ii) Would, if committed by a human, constitute a crime specified in\nthe penal law that requires intent, recklessness, or gross negligence,\nor the solicitation or aiding and abetting of such a crime.\n  A harm inflicted by an intervening human actor shall not be deemed to\nresult from a developer's activities unless such activities were a\nsubstantial factor in bringing about the harm, the intervening human\nactor's conduct was reasonably foreseeable as a probable consequence of\nthe developer's activities, and could have been reasonably prevented or\nmitigated through alternative design, or security measures, or safety\nprotocols.\n  8. "Knowledge distillation" means any supervised learning technique\nthat uses a larger artificial intelligence model or the output of a\nlarger artificial intelligence model to train a smaller artificial\nintelligence model with similar or equivalent capabilities as the larger\nartificial intelligence model.\n  9. "Large developer" means a person that has trained at least one\nfrontier model and has spent over one hundred million dollars in compute\ncosts in aggregate in training frontier models. Accredited colleges and\nuniversities shall not be considered large developers under this article\nto the extent that such colleges and universities are engaging in\nacademic research. If a person subsequently transfers full intellectual\nproperty rights of the frontier model to another person (including the\nright to resell the model) and retains none of those rights for\nthemself, then the receiving person shall be considered the large\ndeveloper and shall be subject to the responsibilities and requirements\nof this article after such transfer.\n  10. "Model weight" means a numerical parameter in an artificial\nintelligence model that is adjusted through training and that helps\ndetermine how inputs are transformed into outputs.\n  11. "Person" means an individual, proprietorship, firm, p...</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Describe reasonable protections and procedures that, if\nsuccessfully implemented would appropriately reduce the risk of critical\nharm;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Describe reasonable administrative, technical, and physical\ncybersecurity protections for frontier models within the large\ndeveloper's control that, if successfully implemented, appropriately\nreduce the risk of unauthorized access to, or misuse of, the frontier\nmodels leading to critical harm, including by sophisticated actors;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Describe in detail the testing procedure to evaluate if the\nfrontier model poses an unreasonable risk of critical harm and whether\nthe frontier model could be misused, be modified, be executed with\nincreased computational resources, evade the control of its large\ndeveloper or user, be combined with other software or be used to create\nanother frontier model in a manner that would increase the risk of\ncritical harm;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Enable the large developer or third party to comply with the\nrequirements of this article; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>Designate senior personnel to be responsible for ensuring\ncompliance.\n  13. "Safety incident" means a known incidence of critical harm or an\nincident of the following kinds that occurs in such a way that it\nprovides demonstrable evidence of an increased risk of critical harm:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A frontier model autonomously engaging in behavior other than at\nthe request of a user;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Theft, misappropriation, malicious use, inadvertent release,\nunauthorized access, or escape of the model weights of a frontier model;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The critical failure of any technical or administrative controls,\nincluding controls limiting the ability to modify a frontier model; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Unauthorized use of a frontier model.\n  14. "Trade secret" means any form and type of financial, business,\nscientific, technical, economic, or engineering information, including a\npattern, plan, compilation, program device, formula, design, prototype,\nmethod, technique, process, procedure, program, or code, whether\ntangible or intangible, and whether or how stored, compiled, or\nmemorialized physically, electronically, graphically, photographically\nor in writing, that:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Derives independent economic value, actual or potential, from not\nbeing generally known to, and not being readily ascertainable by proper\nmeans by, other persons who can obtain economic value from its\ndisclosure or use; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Is the subject of efforts that are reasonable under the\ncircumstances to maintain its secrecy.\n  * NB Effective March 19, 2026\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

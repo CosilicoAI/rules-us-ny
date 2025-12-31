@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="172"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-172/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_172">
+        <num>172</num>
+        <heading>Provisions governing sale and distribution</heading>
+        <content>
+          <p>  § 172. Provisions governing sale and distribution.  No person shall\nhereafter sell, barter, or exchange, or receive, hold, pack, display, or\noffer for sale, barter, or exchange, any dangerous caustic or corrosive\nsubstance in a misbranded parcel, package, or container, said parcel,\npackage, or container being designed for household use; provided, that\nhousehold products for cleaning and washing purposes, subject to this\nact and labeled in accordance therewith, may be sold, offered for sale,\nheld for sale and distributed by any dealer, wholesale or retail;\nprovided, further, that no person shall be liable to prosecution and\nconviction under this article when he establishes a guaranty bearing the\nsignature and address of a vendor residing in the United States from\nwhom he purchased the dangerous caustic or corrosive substance, to the\neffect that such substance is not misbranded within the meaning of this\narticle. No person shall give any such guaranty when such dangerous\ncaustic or corrosive substance is in fact misbranded within the meaning\nof this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

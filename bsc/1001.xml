@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1001"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1001"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1001"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1001/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1001/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-1001/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1001">
+        <num>1001</num>
+        <heading>Authorization of dissolution</heading>
+        <subsection eId="sec_1001__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A corporation may be dissolved under this article. Such\ndissolution shall be authorized at a meeting of shareholders by</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1001__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>for\ncorporations the certificate of incorporation of which expressly\nprovides such or corporations incorporated after the effective date of\nparagraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1001__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of this section, a majority of the votes of all\noutstanding shares entitled to vote thereon or (ii) for other\ncorporations, two-thirds of the votes of all outstanding shares entitled\nto vote thereon, except, in either case, as otherwise provided under\nsection 1002 (Dissolution under provision in certificate of\nincorporation).\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1001__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any corporation may adopt an amendment of the certificate of\nincorporation providing that such dissolution shall be authorized at a\nmeeting of shareholders by a specified proportion of votes of all\noutstanding shares entitled to vote thereon, provided that such\nproportion may not be less than a majority.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

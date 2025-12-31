@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-105-D"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-105-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="105-D"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-105-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-105-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-105-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-105-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_105_D">
+        <num>105-D</num>
+        <heading>Indemnification for rabies</heading>
+        <content>
+          <p>  § 105-d. Indemnification for rabies. Each county shall be liable for\ndamages resulting within the county to domestic animals from the disease\nknown as rabies and indemnification therefor shall be made in the manner\nprovided by this article. The term "domestic animals" as used in this\narticle shall mean domesticated sheep, horses, cattle, swine and goats.\nSuch indemnification shall not exceed the actual damage and shall in no\nevent exceed the sum of five hundred dollars for each animal in the case\nof damage to horses or cattle, or one hundred fifty dollars for each\nanimal in the case of damage to swine, goats or sheep, provided,\nhowever, that in the case of registered purebred bovine animals\nindemnification may be made in an amount not to exceed seven hundred\ndollars for each animal.\n  The board of supervisors of each county shall have power to cause to\nbe assessed, levied and collected in the same manner as other charges\nagainst the county, such sums of money as shall be necessary to pay\nindemnification on account of damages resulting from rabies as provided\nin this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

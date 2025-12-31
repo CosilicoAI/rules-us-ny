@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-820"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-820"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="820"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-820/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-820/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-820/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-820/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_820">
+        <num>820</num>
+        <heading>Statement of public policy</heading>
+        <content>
+          <p>  § 820. Statement of public policy.  There are persons who lack the\nacademic and career education and training necessary to obtain and hold\nemployment in the contemporary economy because of dislocations arising\nfrom automation and other technological developments, foreign\ncompetition, relocation of industry, shifts in market demands, and other\nchanges in the economy.  The skills of many other persons who are\ncurrently employed are being rendered obsolete by such dislocations in\nthe economy. Unless such persons are given appropriate career and\nrelated education and training, many of them and their families are\ndoomed to lifelong unemployment or underemployment and dependency on the\naid, care and support of the welfare agencies of the state and its\npolitical subdivisions; with appropriate career and related education\nand training; many of them would become qualified for occupational\ncategories which remain unfilled because of shortages of qualified\npersonnel.\n  Accordingly, it is the purpose of this act to authorize the state\ngovernment to develop programs of career and related education and\ntraining which will permit persons who face the hazards of unemployment\nand underemployment to develop skills which are useful in the\ncontemporary economy and to assist such persons to participate in such\nprograms.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.43"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.43"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.43"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.43/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.43/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.43/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.43/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_43">
+        <num>130.43</num>
+        <heading>Statute of limitations</heading>
+        <subsection eId="sec_130_43__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person charged with desertion\nor absence without leave in time of war, or with aiding the enemy or\nwith mutiny may be tried and punished at any time without limitation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_43__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except as otherwise provided in this section, a person charged\nwith desertion in time of peace or any of the offenses punishable under\nsections 130.112 and 130.113 shall not be liable to be tried by\ncourt-martial if the offense was committed more than three years before\nthe receipt of sworn charges and specifications by an officer exercising\nsummary court-martial jurisdiction over the command.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_43__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Except as otherwise provided in this article, a person charged\nwith any offense shall not be liable to be tried by court-martial or\npunished under section 130.15 if the offense was committed more than two\nyears before the receipt of sworn charges and specifications by an\nofficer exercising summary court-martial jurisdiction over the command\nor before the imposition of punishment under section 130.15.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_43__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Periods in which the accused was absent from territory in which\nthe state has the authority to apprehend him, or in the custody of civil\nauthorities, or in the hands of the enemy, shall be excluded in\ncomputing the period of limitation prescribed in this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

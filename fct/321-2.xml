@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.2"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.2"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="321.2"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.2/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.2/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-321.2/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-321.2/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_321_2">
+        <num>321.2</num>
+        <heading>Admissions to part of a petition; admissions concerning other petitions</heading>
+        <content>
+          <p>  § 321.2. Admissions to part of a petition; admissions concerning other\npetitions.\n  1. A respondent may as a matter of right enter an admission to those\nallegations in the petition which are determinable at the fact-finding\nhearing.\n  2. Where the petition charges but one crime, a respondent may, with\nthe consent of the court and the appropriate presentment agency, enter\nan admission of a lesser included crime as defined in section 1.20 of\nthe criminal procedure law.\n  3. Where the petition charges more than one crime in separate counts a\nrespondent may, with the consent of the court and the appropriate\npresentment agency, enter an admission to part of the petition or a\nlesser included crime upon the condition that such admission constitutes\na complete disposition of these allegations in the petition which are\ndeterminable at the fact-finding hearing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

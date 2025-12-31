@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BSC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-604"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-604"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="604"/>
+          <FRBRname value="BSC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-604/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-604/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bsc/section-604/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bsc/section-604/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_604">
+        <num>604</num>
+        <heading>Fixing record date</heading>
+        <subsection eId="sec_604__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For the purpose of determining the shareholders entitled to notice\nof or to vote at any meeting of shareholders or any adjournment thereof,\nor to express consent to or dissent from any proposal without a meeting,\nor for the purpose of determining shareholders entitled to receive\npayment of any dividend or the allotment of any rights, or for the\npurpose of any other action, the by-laws may provide for fixing or, in\nthe absence of such provision, the board may fix, in advance, a date as\nthe record date for any such determination of shareholders. Such date\nshall not be more than sixty nor less than ten days before the date of\nsuch meeting, nor more than sixty days prior to any other action.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_604__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If no record date is fixed:\n</p>
+          </content>
+          <paragraph eId="sec_604__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>The record date for the determination of shareholders entitled to\nnotice of or to vote at a meeting of shareholders shall be at the close\nof business on the day next preceding the day on which notice is given,\nor, if no notice is given, the day on which the meeting is held.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_604__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>The record date for determining shareholders for any purpose other\nthan that specified in subparagraph</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_604__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>shall be at the close of\nbusiness on the day on which the resolution of the board relating\nthereto is adopted.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_604__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>When a determination of shareholders of record entitled to notice\nof or to vote at any meeting of shareholders has been made as provided\nin this section, such determination shall apply to any adjournment\nthereof, unless the board fixes a new record date under this section for\nthe adjourned meeting.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="RCO">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-H"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225-H"/>
+          <FRBRname value="RCO"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/rco/section-225-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/rco/section-225-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_H">
+        <num>225-H</num>
+        <heading>Vacancies in board of trustees</heading>
+        <content>
+          <p>  § 225-h. Vacancies in board of trustees. If any trustee of such\nincorporated church declines to act, resigns or dies; or, having been a\nmember of such church, ceases to be a member; or removes beyond the\nbounds of the circuit in which he is elected, his office shall be vacant\nand a special corporate meeting may be called to fill that vacancy until\nthe next annual society meeting of such church when trustees are\nelected, at which meeting the vacancy shall be filled for the unexpired\nterm.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

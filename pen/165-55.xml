@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.55"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165.55"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_55">
+        <num>165.55</num>
+        <heading>Criminal possession of stolen property; presumptions</heading>
+        <content>
+          <p>§ 165.55 Criminal possession of stolen property; presumptions.\n  1. A person who knowingly possesses stolen property is presumed to\npossess it with intent to benefit himself or a person other than an\nowner thereof or to impede the recovery by an owner thereof.\n  2. A collateral loan broker or a person in the business of buying,\nselling or otherwise dealing in property who possesses stolen property\nis presumed to know that such property was stolen if he obtained it\nwithout having ascertained by reasonable inquiry that the person from\nwhom he obtained it had a legal right to possess it.\n  3. A person who possesses two or more stolen credit cards, debit cards\nor public benefit cards is presumed to know that such credit cards,\ndebit cards or public benefit cards were stolen.\n  4. A person who possesses three or more tickets or equivalent\ninstrument for air transportation service, which tickets or instruments\nwere stolen by reason of having been obtained from the issuer or agent\nthereof by the use of one or more stolen or forged credit cards, is\npresumed to know that such tickets or instruments were stolen.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

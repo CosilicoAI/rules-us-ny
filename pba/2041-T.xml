@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2041-T"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2041-T"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2041-T"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2041-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2041-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-2041-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-2041-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2041_T">
+        <num>2041-T</num>
+        <heading>Special powers of participating counties and municipalities</heading>
+        <subsection eId="sec_2041_T__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>monitoring of emissions for toxic air contaminants or surrogates\nthereof where appropriate to determine permit compliance at least twice\nduring the first year of operation and after any detection of permit\nviolations, and at least annually thereafter; such monitoring to include\nprovisions for use of statistically valid sampling procedures in all\nmonitoring; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2041_T__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>sampling and testing of ash and dust residues at least\nsemi-annually, pursuant to a method assuring statistical validity, to\ndetermine appropriate disposition or disposal based on relative\ntoxicity.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ABC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128"/>
+          <FRBRdate date="2014-10-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="128"/>
+          <FRBRname value="ABC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/abc/section-128/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/abc/section-128/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_128">
+        <num>128</num>
+        <heading>Certain officials not to be interested in manufacture or sale of alcoholic beverages</heading>
+        <content>
+          <p>  § 128. Certain officials not to be interested in manufacture or sale\nof alcoholic beverages. 1. Except as otherwise provided in section one\nhundred twenty-eight-a and section one hundred twenty-eight-b of this\narticle, it shall be unlawful for any police commissioner, police\ninspector, captain, sergeant, roundsman, patrolman or other police\nofficial or subordinate of any police department in the state, to be\neither directly or indirectly interested in the manufacture or sale of\nalcoholic beverages or to offer for sale, or recommend to any licensee\nany alcoholic beverages. A person may not be denied any license granted\nunder the provisions of sections fifty-four, fifty-five, fifty-nine,\nsixty-three, sixty-four, seventy-nine, eighty-one, or article seven of\nthis chapter solely on the grounds of being the spouse of a public\nservant described in this subdivision. The solicitation or\nrecommendation made to any licensee, to purchase any alcoholic beverages\nby any police official or subordinate as hereinabove described, shall be\npresumptive evidence of the interest of such official or subordinate in\nthe manufacture or sale of alcoholic beverages.\n  2. No elective village officer shall be subject to the limitations set\nforth in subdivision one of this section unless such elective village\nofficer shall be assigned duties directly relating to the operation or\nmanagement of the police department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

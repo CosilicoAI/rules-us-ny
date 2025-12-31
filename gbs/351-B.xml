@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-B"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="351-B"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-351-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-351-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_351_B">
+        <num>351-B</num>
+        <heading>Written statement to be furnished; presumption</heading>
+        <content>
+          <p>  § 351-b. Written statement to be furnished; presumption. Every person,\nfirm, association, copartnership or corporation shall furnish upon\nwritten demand to any customer, or principal for whom such person has\nexecuted an order for the actual purchase or sale of any such securities\nor commodities, either for immediate or future delivery, a written\nstatement containing the names of the persons from whom such property\nwas bought, or to whom it has been sold, as the case may be, the time\nwhen, place where, the amount of and the price at which the same was\neither bought or sold; and if such person, firm, association,\ncopartnership or corporation shall refuse or neglect to furnish such\nstatement within forty-eight hours after such demand, such refusal shall\nbe prima facie evidence that such purchase or sale was made in violation\nof this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

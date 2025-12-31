@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-H"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-H"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-71-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-71-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_H">
+        <num>71-H</num>
+        <heading>Vehicles used for transportation of frozen desserts</heading>
+        <content>
+          <p>  § 71-h. Vehicles used for transportation of frozen desserts.  All\nvehicles used for the transportation and distribution of frozen desserts\nshall be constructed of impervious material capable of being cleaned,\nshall be kept clean and sanitary, shall be so operated as to protect\ntheir contents from contamination, and shall have prominently displayed\nthereon the name and address of the licensee who sells, offers or\nexposes for sale, or holds with intent to sell, such frozen desserts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

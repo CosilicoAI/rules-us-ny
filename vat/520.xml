@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-520"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-520"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="520"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-520/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-520/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-520/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-520/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_520">
+        <num>520</num>
+        <heading>Statement of findings and declaration of purpose</heading>
+        <content>
+          <p>  § 520. Statement of findings and declaration of purpose. The\never-increasing number of accidents, personal injuries and deaths\nresulting from alcohol or drug-related traffic offenses is a matter of\ngreat concern to the legislature. The diminished perception of\nintoxicated and impaired operators of motor vehicles presents a constant\nand intolerable threat to the lives and well-being of the citizens of\nthe state. Efforts aimed at alleviating this threat have proven\ninadequate. The public interest in the cause of highway safety will be\nwell served by the implementation of a permanent program of\nrehabilitation for those operators convicted of alcohol or drug-related\ntraffic offenses and certain operators who have been adjudicated\nyouthful offenders for alcohol or drug-related traffic offenses. The\ncommissioner of motor vehicles should have the authority to offer to\nsuch operators an opportunity for rehabilitation, thereby reducing the\nthreat aimed at themselves and the people of the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-20"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="20"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_20">
+        <num>20</num>
+        <heading>Special population census: population data</heading>
+        <content>
+          <p>  § 20. Special population census: population data. 1. Any county on\nbehalf of all cities, towns and villages therein or any county, city,\ntown, or village on its own behalf is hereby authorized and empowered to\ncontract with the United States bureau of the census to supervise a\nspecial population census for purposes of computation of state\nassistance payable pursuant to section fifty-four of the state finance\nlaw in any year and the cost of such a census shall be an expense of the\ncounty, city, town, or village respectively. Such county, city, town, or\nvillage shall give written notice to the commissioner of taxation and\nfinance that such a contract has been entered into with the United\nStates bureau of the census within thirty days thereof.\n  2. A county, city, town, or village may request from the United States\nbureau of the census and pay such bureau for the cost of special data\nfor possible use in apportioning its local legislative body.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

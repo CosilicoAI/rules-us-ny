@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-226"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-226"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2-226"/>
+          <FRBRname value="VIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-226/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-226/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vil/section-2-226/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vil/section-2-226/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2_226">
+        <num>2-226</num>
+        <heading>Notice of proceeding for review of election</heading>
+        <content>
+          <p>  § 2-226 Notice of proceeding for review of election. A person\ninstituting a proceeding under section 2-224 of this article shall serve\na copy of the verified petition on which same is to be heard on each\ntown clerk with whom the original or a copy of the certificate of\nelection was filed and also upon each person designated in the petition\nfor incorporation, or designated in written objections to said petition,\nto receive service of papers in connection with the proceeding for\nincorporation.  In addition the person instituting such proceedings\nshall cause copies of such petition to be posted in five conspicuous\nplaces in such territory.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

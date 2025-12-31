@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99-V"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99-V"/>
+          <FRBRdate date="2023-04-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="99-V"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99-V/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99-V/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-99-V/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-99-V/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_99_V">
+        <num>99-V</num>
+        <heading>Veterans services; display of events</heading>
+        <content>
+          <p>  § 99-v. Veterans services; display of events. Each county, city, town\nor village may adopt a local law to provide a bulletin board to be\nconspicuously displayed in such county, city, town or village building\nholding its local legislative body or municipal offices. Such bulletin\nboard shall be used by veterans organizations, the New York state\ndepartment of veterans' services, the county veterans service agency or\ncity veterans service agency to display information regarding veterans\nin such county, city, town or village. Such information may include, but\nnot be limited to, benefits or upcoming veterans related events in the\ncommunity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

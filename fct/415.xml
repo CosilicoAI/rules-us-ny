@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-415"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-415"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="415"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-415/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-415/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-415/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-415/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_415">
+        <num>415</num>
+        <heading>Duties to support recipient of public assistance or welfare and patients in institutions in the department of mental hygiene</heading>
+        <content>
+          <p>  § 415. Duties to support recipient of public assistance or welfare and\npatients in institutions in the department of mental hygiene. Except as\notherwise provided by law, the spouse or parent of a recipient of public\nassistance or care or of a person liable to become in need thereof or of\na patient in an institution in the department of mental hygiene, if of\nsufficient ability, is responsible for the support of such person or\npatient, provided that a parent shall be responsible only for the\nsupport of his child or children who have not attained the age of\ntwenty-one years. In its discretion, the court may require any such\nperson to contribute a fair and reasonable sum for the support of such\nrelative and may apportion the costs of such support among such persons\nas may be just and appropriate in view of the needs of the petitioner\nand the other circumstances of the case and their respective means.\nStep-parents shall in like manner be responsible for the support of\nchildren under the age of twenty-one years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

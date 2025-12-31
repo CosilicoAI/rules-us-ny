@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-101"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="101"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_101">
+        <num>101</num>
+        <heading>Review by industrial board of appeals</heading>
+        <content>
+          <p>  § 101. Review by industrial board of appeals. 1. Except where\notherwise prescribed by law, any person in interest or his duly\nauthorized agent may petition the board for a review of the validity or\nreasonableness of any rule, regulation or order made by the commissioner\nunder the provisions of this chapter. Such petition shall be filed with\nthe board no later than sixty days after the issuance of such rule,\nregulation or order.\n  2. The petition shall be filed with the board in accordance with such\nrules as the board shall prescribe, and shall state the rule,\nregulation, or order proposed to be reviewed and in what respects it is\nclaimed to be invalid or unreasonable. Any objections to the rule,\nregulation or order not raised in such appeal shall be deemed waived.\nThe board may join in one proceeding all petitions alleging invalidity\nor unreasonableness of substantially similar rules, regulations or\norders. Except as otherwise prescribed by any provision of this chapter\nor any other law, the filing of such petition may, in the discretion of\nthe board, operate to stay all proceedings against the petitioner under\nsuch rule, regulation or order until the determination of such petition.\n  3. If the board finds that the rule, regulation or order, or any part\nthereof, is invalid or unreasonable it shall revoke, amend or modify the\nsame.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

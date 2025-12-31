@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LLC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/llc/section-611"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-611"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="611"/>
+          <FRBRname value="LLC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/llc/section-611/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-611/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/llc/section-611/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/llc/section-611/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_611">
+        <num>611</num>
+        <heading>Business transactions of a member with the limited liability company</heading>
+        <content>
+          <p>  § 611. Business transactions of a member with the limited liability\ncompany. Except as may be provided in the operating agreement, a member\nmay lend money to, borrow money from, act as a guarantor or surety for,\nprovide collateral for the obligations of and transact other business\nwith the limited liability company and, subject to other applicable law,\nhas the same rights and obligations with respect thereto as a person who\nis not a member.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

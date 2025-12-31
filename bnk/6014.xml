@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6014"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6014"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6014"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6014/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6014/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-6014/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-6014/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6014">
+        <num>6014</num>
+        <heading>Vote of stockholders</heading>
+        <content>
+          <p>  § 6014. Vote of stockholders. 1. Directors shall, except as otherwise\nrequired by this article or by the organization certificate as permitted\nby this article, be elected by a plurality of the votes cast at a\nmeeting of stockholders by the holders of shares entitled to vote in the\nelection.\n  2. Whenever any corporate action, other than the election of\ndirectors, is to be taken under this chapter by vote of the\nstockholders, it shall, except as otherwise required by this chapter or\nby the organization certificate as permitted by this article, be\nauthorized by a majority of the votes cast at a meeting of stockholders\nby the holders of shares entitled to vote thereon.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

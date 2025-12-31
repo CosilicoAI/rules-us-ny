@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-D"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="352-D"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-352-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-352-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_352_D">
+        <num>352-D</num>
+        <heading>Effect of prosecution under previous section</heading>
+        <content>
+          <p>  § 352-d. Effect of prosecution under previous section. A person,\npartnership, corporation, company, trust or association or any agent or\nemployee thereof that, having engaged in any act or practice\nconstituting a violation of section three hundred fifty-two-c of this\narticle, commits additional acts under such circumstances as to\nconstitute a felony, the crime of conspiracy, petit larceny, or more\nthan one of the aforesaid, is punishable therefor, as well as for the\nviolation of that section, and may be prosecuted for each crime,\nseparately or in the same information or indictment, notwithstanding any\nother provision of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

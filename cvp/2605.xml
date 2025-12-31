@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2605"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2605"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2605"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2605/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2605/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2605/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2605/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2605">
+        <num>2605</num>
+        <heading>Duties of depositories</heading>
+        <content>
+          <p>  Rule 2605. Duties of depositories. When property paid into court is\ndeposited with any depository, the entry of such deposit in the books of\nthe depository shall contain a short reference to the title of the cause\nor matter in relation to which the deposit is made and shall specify the\ntime from which any interest or accumulation on the deposit, if any, is\nto commence. On or before the first day of February in each year, such\ndepository shall transmit to the appellate division of the supreme court\nin the department in which the depository is situated a statement\ndescribing the property in its custody, including interest or\naccumulation, if any, to the credit of each cause or matter on the last\npreceding first day of January.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

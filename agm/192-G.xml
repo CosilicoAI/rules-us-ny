@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-192-G"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-192-G"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="192-G"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-192-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-192-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-192-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-192-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_192_G">
+        <num>192-G</num>
+        <heading>Methyl tertiary butyl ether; prohibited</heading>
+        <content>
+          <p>  § 192-g. Methyl tertiary butyl ether; prohibited. 1. For the purposes\nof this section, "gasoline" shall mean any fuel sold for use in motor\nvehicles and motor vehicle engines, and commonly or commercially known\nor sold as gasoline.\n  2. No person shall import into, or sell, dispense or offer for sale\nany gasoline which contains methyl tertiary butyl ether.\n  3. Any person who violates the provisions of this section shall be\nliable for a civil penalty of not less than five hundred dollars nor\nmore than ten thousand dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

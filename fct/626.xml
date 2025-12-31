@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-626"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-626"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="626"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-626/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-626/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-626/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-626/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_626">
+        <num>626</num>
+        <heading>Adjournments</heading>
+        <subsection eId="sec_626__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The court may adjourn a fact-finding hearing\nor a dispositional hearing for good cause shown on its own motion or on\nmotion made on behalf of the child, or on motion of the parent or other\nperson responsible for the care of the child.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_626__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>At the conclusion of a fact-finding hearing and after it has made\nfindings required before a dispositional hearing may commence, the court\nmay adjourn the proceedings to enable it to make inquiry into the\nsurroundings, conditions, and capacities of the persons involved in the\nproceedings.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

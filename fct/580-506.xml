@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-506"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-506"/>
+          <FRBRdate date="2016-01-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580-506"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-506/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-506/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-580-506/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-580-506/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_506">
+        <num>580-506</num>
+        <heading>Contest by obligor</heading>
+        <subsection eId="sec_580_506__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>An obligor may contest the validity\nor enforcement of an income withholding order issued in another state\nand received directly by an employer in this state by registering the\norder in a tribunal of this state and filing a contest to that order as\nprovided in part six of this article, or otherwise contesting the order\nin the same manner as if the order had been issued by a tribunal of this\nstate.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_580_506__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The obligor shall give notice of the contest to:\n</p>
+          </content>
+          <paragraph eId="sec_580_506__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a support enforcement agency providing services to the obligee;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_580_506__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>each employer that has directly received an income withholding\norder relating to the obligor; and\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_580_506__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>the person designated to receive payments in the income\nwithholding order or, if no person is designated, to the obligee.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

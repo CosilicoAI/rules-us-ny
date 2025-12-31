@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-G"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-G"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1500-G"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-G/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-G/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1500-G/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1500-G/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1500_G">
+        <num>1500-G</num>
+        <heading>Contract for employees</heading>
+        <content>
+          <p>  § 1500-g. Contract for employees. The authority is hereby authorized\nto enter into contracts under which such contractor would provide\nemployees to the authority for the purpose of operation and maintenance\nof the projects of the authority. All employees currently employed by\nthe city or by a contractor to support operations currently managed by\nthe city shall be retained by any contractor retained pursuant to this\nsection.  The authority shall not begin operation of any project until\nsuch a contract shall be in force. Such contract shall provide that all\nemployees engaged in the operation and maintenance of any authority\nproject shall be employees of the contractor and not employees of the\nauthority. Such employees shall receive their total compensation and any\nemployee benefits directly from the contractor for whom they are\nemployed provided any relevant local regulation, rule or ordinance\nrelated to wage shall apply. Except for roles considered to be\nmanagement or confidential pursuant to article fourteen of the civil\nservice law, including the board of the authority, established by\nsection fifteen hundred-c of this title, the authority shall have no\nemployees other than the employees of the contractor pursuant to any\ncontract authorized by this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

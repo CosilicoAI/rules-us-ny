@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-C"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="569-C"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_569_C">
+        <num>569-C</num>
+        <heading>Transfer and receipt of surplus funds</heading>
+        <subsection eId="sec_569_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>metropolitan transportation\nauthority or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_569_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>New York city transit authority, all in accordance with\nthe provisions of subdivision twelve of section five hundred fifty-three\nof this title and the determination of the proportional allocation of\nsuch amounts of surplus funds so deposited as between the New York city\ntransit authority and the commuter railroads operated by metropolitan\ntransportation authority shall be governed by the provisions of section\ntwelve hundred nineteen-a of this chapter and the authority may accept\nand use any moneys transferred and paid over to it by metropolitan\ntransportation authority or New York city transit authority.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

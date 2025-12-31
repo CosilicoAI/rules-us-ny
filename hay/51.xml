@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-51"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-51"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-51/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-51/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-51/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51">
+        <num>51</num>
+        <heading>Repair of highways at railroad crossings</heading>
+        <content>
+          <p>  § 51. Repair of highways at railroad crossings. Whenever a highway\ncrosses a railroad track at grade and such grade crossing is out of\nrepair, if it is the judgment of the commissioner of transportation, the\nboard of supervisors of a county, the board of aldermen of a city, the\nboard of trustees of a village or the town superintendent of highways of\na town that the same should be repaired, the commissioner of\ntransportation, the board of supervisors of a county, the board of\naldermen of a city, the board of trustees of a village or the town\nsuperintendent of a town may repair and maintain the same and charge the\nexpense thereof to the railroad company over whose railroad such\ncrossing is repaired and maintained, if after fifteen days' notice in\nwriting such railroad company neglects or refuses to repair the same.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

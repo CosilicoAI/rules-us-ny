@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-369"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-369"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="369"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-369/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-369/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-369/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-369/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_369">
+        <num>369</num>
+        <heading>Certain cities; appointment of experts; compensation</heading>
+        <content>
+          <p>  § 369. Certain cities; appointment of experts; compensation.  The\ncommissioner of health or health officer in cities having a population\nof less than one hundred seventy-five thousand, with the written consent\nof the mayor and subject to the approval of the board of estimate and\napportionment or other board having similar powers in such cities and\nthe common council or similar legislative authority in cities having no\nboards of estimate and apportionment or authorities with similar powers\nmay temporarily employ such health and sanitary experts as may be\nnecessary at a compensation fixed by the board of estimate and\napportionment or other authority having power by charter to fix salaries\nof appointive officials.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

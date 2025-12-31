@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-F"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-F"/>
+          <FRBRdate date="2023-06-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170-F"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-170-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-170-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170_F">
+        <num>170-F</num>
+        <heading>Website accessibility; contractors and vendors</heading>
+        <content>
+          <p>  § 170-f. Website accessibility; contractors and vendors. Each\ncontractor, subcontractor, vendor, consultant, or other person providing\nservices pursuant to a state contract shall be required to conform any\nwebsite provided by such contractor, subcontractor, vendor, consultant,\nor person in relation to and for the purpose of the provision of such\nservices to the most current version of the Web Content Accessibility\nGuidelines adopted by the World Wide Web Consortium for accessibility,\nor any successor standards.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-802"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-802"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="802"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-802/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-802/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-802/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-802/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_802">
+        <num>802</num>
+        <heading>Special provisions; not-for-profit sales</heading>
+        <content>
+          <p>  § 802. Special provisions; not-for-profit sales. 1. No\notolaryngologist or other licensed physician who has conducted a medical\nevaluation of hearing loss shall engage in the business of dispensing\nhearing aids for a profit. No otolaryngologist or other licensed\nphysician who has dispensed a hearing aid shall refuse or fail to\nperform repairs or service on any hearing aid that they have dispensed.\n  2. Every licensed physician who engages in the dispensing of hearing\naids in compliance with the provisions of this section shall be required\nto comply with sections seven hundred ninety-one, seven hundred\nninety-eight and eight hundred three of this article, in addition to\ncompliance with this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

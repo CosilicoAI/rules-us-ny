@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-I"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="360-I"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_I">
+        <num>360-I</num>
+        <heading>Classification</heading>
+        <content>
+          <p>  § 360-i. Classification. The secretary shall by regulation establish a\nclassification of goods and services for convenience of administration\nof this article, but not to limit or extend the applicant's or\nregistrant's rights, and a single application for registration of a mark\nmay include any or all goods upon which, or services with which, the\nmark is actually being used indicating the appropriate class or classes\nof goods or services.  When a single application includes goods or\nservices which fall within multiple classes, the secretary may require\npayment of a fee for each class. To the extent practical, the\nclassification of goods and services should conform to the\nclassification adopted by the United States Patent and Trademark Office.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

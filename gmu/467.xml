@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-467"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-467"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="467"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-467/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-467/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-467/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-467/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_467">
+        <num>467</num>
+        <heading>Appropriation and raising of funds</heading>
+        <content>
+          <p>  § 467. Appropriation and raising of funds. All costs and expenses\nwhich a contracting public agency of this state shall incur in\nconnection with the receiving, obtaining, providing or furnishing of\nservices, personnel, facilities, equipment, other property or resources,\nor the engaging in or performance of functions or activities under an\ninterlocal agreement shall be incurred, appropriated, raised, financed\nand audited in the same manner and subject to the same statutory\nprovisions and restrictions as though such contracting public agency\nwere receiving, obtaining or providing the same or substantially similar\nservices, personnel, facilities, equipment, other property or resources,\nor engaging in or performing the same or substantially similar functions\nor activities without an interlocal agreement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

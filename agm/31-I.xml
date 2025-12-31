@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-31-I"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-31-I"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="31-I"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-31-I/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-31-I/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-31-I/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-31-I/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_31_I">
+        <num>31-I</num>
+        <heading>Use of state or municipally owned land for community gardens</heading>
+        <content>
+          <p>  § 31-i. Use of state or municipally owned land for community gardens.\n1. Any state agency or municipality with title in fee or of a lesser\ninterest to vacant public land may permit community organizations to use\nsuch lands for community gardening purposes. Such use of vacant public\nland may be conditioned on the community organization possessing\nliability insurance and accepting liability for injury or damage\nresulting from use of the vacant public land for community gardening\npurposes.\n  2. State agencies and municipalities which have received an\napplication for use of public lands for community garden purposes shall\nrespond to the applicant within thirty days and make a final\ndetermination within one hundred eighty days.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-420.40"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-420.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="420.40"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-420.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-420.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-420.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-420.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_420_40">
+        <num>420.40</num>
+        <heading>Deferral of a mandatory surcharge; financial hardship hearings</heading>
+        <subsection eId="sec_420_40__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of rule five thousand sixteen of the\ncivil practice law and rules. The order shall direct that any unpaid\nbalance of the mandatory surcharge, sex offender registration fee or DNA\ndatabank fee may be collected in the same manner as a civil judgment.\nThe entered order shall be deemed to constitute a judgment-roll as\ndefined in section five thousand seventeen of the civil practice law and\nrules and immediately after entry of the order, the county clerk shall\ndocket the entered order as a money judgment pursuant to section five\nthousand eighteen of such law and rules.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

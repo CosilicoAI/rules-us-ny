@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-C"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="301-C"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-301-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-301-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_301_C">
+        <num>301-C</num>
+        <heading>Accident prevention course information</heading>
+        <content>
+          <p>  § 301-c. Accident prevention course information. The division of\nmilitary and naval affairs shall provide returning servicemen and women\nwho have returned from a combat theater or combat zone of operations\nwith information about accident prevention courses approved by the\ncommissioner of motor vehicles pursuant to article twelve-B of the\nvehicle and traffic law. This information may be provided in written\nform to be available at Yellow Ribbon Reintegration programs or any\nother reintegration programs offered by the division or may be made\navailable online on the division's website. The division shall also\nprovide a link to the department of motor vehicles website pages\ncontaining information about the accident prevention courses.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

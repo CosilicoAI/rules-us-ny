@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1005-A"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1005-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1005-A"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1005-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1005-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-1005-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-1005-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1005_A">
+        <num>1005-A</num>
+        <heading>Actions or contracts involving certain nuclear power plants</heading>
+        <subsection eId="sec_1005_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>all direct and indirect costs and expenses incurred by the\nauthority in connection with such actions or contracts;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1005_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>all direct and indirect costs incurred by the authority in\nconnection with damages to third parties resulting from any actions of\nthe authority in connection with such actions or contracts; provided,\nhowever, that the authority shall not be indemnified against damages for\ngross negligence or willful misconduct; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1005_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>all damages incurred by the authority in connection with such\nactions or contracts other than damages resulting from its gross\nnegligence or willful misconduct.\n  In no event shall the authority recover any costs or damages related\nto such actions or contracts from any of its customers other than such\ncorporation its successors or assigns.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

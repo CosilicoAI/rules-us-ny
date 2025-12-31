@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-701"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="701"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_701">
+        <num>701</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 701. Definitions.  As used in this title, the following words and\nterms shall have the following meanings, unless some other meaning is\nplainly intended.\n  1. The word "authority" shall mean the corporation created by section\nseven hundred two of this chapter.\n  2. The word "board" shall mean the members of the authority.\n  3. The word "bridge" shall include approaches and all construction\nnecessary to give access to the bridge from connecting roads, toll\nhouses, toll booths and such facilities as may be necessary to the\ncollection of tolls, buildings and structures necessary for the housing\nof customs and immigration officials and such other buildings and\nappurtenances necessary to the operation of the bridge as an\ninternational toll bridge.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

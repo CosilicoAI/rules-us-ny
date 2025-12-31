@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="VAT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2119"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2119"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2119"/>
+          <FRBRname value="VAT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2119/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2119/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/vat/section-2119/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/vat/section-2119/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2119">
+        <num>2119</num>
+        <heading>Security interest</heading>
+        <subsection eId="sec_2119__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The owner shall, if the lienholder so requests, execute the\napplication, in the space provided therefor on the certificate of title\nor on a separate form the commissioner prescribes, to name the\nlienholder on the certificate, showing the name and address of the\nlienholder, and cause the certificate, application and the required fee\nto be delivered to the lienholder.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2119__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The lienholder shall, immediately after the owner complies with\nsubdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2119__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>, cause the certificate, application and the required fee\nto be mailed or delivered to the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2119__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Upon receipt of the certificate of title, application and the\nrequired fee, the commissioner shall either endorse on the certificate,\nor issue a new certificate containing, the name and address of the new\nlienholder, and mail the certificate to the owner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

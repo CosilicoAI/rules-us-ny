@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-E"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21-E"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_E">
+        <num>21-E</num>
+        <heading>Powers of the commissioner to prepare and issue a notice to be posted at worksite</heading>
+        <subsection eId="sec_21_E__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The duties of employers with regard to the rights of employees to\nthe receipt and payment of wages;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_21_E__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A toll free number at the department to which employees may direct\nquestions or register complaints concerning an employer's failure to pay\nwages or the conditions of employment; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_21_E__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The address of the regional department to file a complaint.\n  2. The notice required pursuant to subdivision one of this section\nshall be distributed to employers in the apparel and garment industries\nto be posted in a visible and prominent location within the worksite.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

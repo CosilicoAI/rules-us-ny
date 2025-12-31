@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-543"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-543"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="543"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-543/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-543/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-543/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-543/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_543">
+        <num>543</num>
+        <heading>City laboratories; board of managers; power to enter into agreements with hospitals</heading>
+        <content>
+          <p>  § 543. City laboratories; board of managers; power to enter into\nagreements with hospitals. The board of managers of a city laboratory\nshall have the power to enter into an agreement annually with the\ngoverning board of any charitable corporation or municipality operating\nand maintaining a hospital to provide that the hospital collect fees for\nlaboratory services for the patients in such hospital in the same manner\nthat hospital charges are collected, and forward them to the laboratory,\nand to provide that the cost of collecting such fees be paid by the city\nto the hospital in an amount mutually acceptable and in lieu of actual\nand necessary expenses. No agreement shall become effective unless and\nuntil approved by the commissioner and by resolution of the common\ncouncil or other body exercising similar powers.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

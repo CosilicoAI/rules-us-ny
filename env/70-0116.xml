@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-70-0116"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-70-0116"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70-0116"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-70-0116/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-70-0116/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-70-0116/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-70-0116/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70_0116">
+        <num>70-0116</num>
+        <heading>Emergency authorization</heading>
+        <subsection eId="sec_70_0116__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Violations will be enforced pursuant to article seventy-one of\nthis chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_70_0116__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person who violates any provision of this section or any term or\ncondition of an emergency authorization shall also be required to\nperform restoration, mitigation, or elimination of environmental damage,\nwhich is necessary as a direct result of that action. In the event that\nsuch person fails to undertake such work, the department or its agent\nmay enter upon the lands and waters where the action took place and\nperform restoration or other activities which may be necessary to\nmitigate or eliminate environmental damage caused by such action. Should\nthe department undertake such work, or cause it to be undertaken, the\nfull cost for it shall be charged to and become the responsibility of\nthe person who conducted the action.\n  8. The provisions of this section and the regulations promulgated\nhereunder shall apply notwithstanding any inconsistent provision of law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

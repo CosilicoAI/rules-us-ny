@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-450"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-450"/>
+          <FRBRdate date="2021-12-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="450"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-450/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-450/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-450/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_450">
+        <num>450</num>
+        <heading>Declaration of legislative findings and intent</heading>
+        <content>
+          <p>  § 450. Declaration of legislative findings and intent. While the\nNourish New York program was developed in response to disrupted food\nsupply chains due to the COVID-19 pandemic, it has emerged as an\nimportant innovation, significantly supporting the state's farms while\nproviding nourishing fresh foods to people experiencing food insecurity.\nThe COVID-19 crisis unveiled the weaknesses in our state's food supply\nsystem and has caused serious economic hardships for the state's farms\nand agribusinesses. But, in the ten months since its inception, Nourish\nNew York has already strengthened the state's food supply network and\nexpanded markets for New York farm products. The local food movement has\nalso gained significant momentum during the pandemic, with increasing\nnumbers of New Yorkers wanting to know where their food is sourced. This\npresents the state with a major opportunity to support our local\neconomies and create greater equity in our food system by providing\ngreater access to local, healthy options in food insecure areas through\nmaking the Nourish New York program permanent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

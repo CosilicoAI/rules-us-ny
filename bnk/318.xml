@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-318"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-318"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="318"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-318/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-318/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-318/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-318/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_318">
+        <num>318</num>
+        <heading>Branch offices</heading>
+        <content>
+          <p>  § 318. Branch offices. Any safe deposit company having a capital of\none hundred thousand dollars or more may, in accordance with the\nprovisions of article two of this chapter, be permitted to open and\nmaintain a branch office or branch offices in the city or village where\nits principal office is located.\n  Any safe deposit company having a capital of one hundred thousand\ndollars or more, the majority of stock of which is owned by any other\nbanking organization or a national bank may, in accordance with the\nprovisions of article two of this chapter, be permitted to open and\nmaintain a branch office at a location at which such banking\norganization or national bank is maintaining a duly authorized branch\noffice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

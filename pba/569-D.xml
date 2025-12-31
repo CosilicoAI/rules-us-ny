@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-D"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="569-D"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-569-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-569-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_569_D">
+        <num>569-D</num>
+        <heading>Protection of bondholders</heading>
+        <content>
+          <p>  § 569-d. Protection of bondholders. Nothing in this title contained\nshall be deemed to limit or alter in any way the rights and obligations\nof the authority to establish and collect such tolls, fees, rentals and\nother charges as may be necessary or required to produce sufficient\nrevenues to meet and to fulfill the terms and provisions of the\ncontracts made with the holders and registered owners of the bonds or in\nany way impair the constitutional rights of the holders and registered\nowners of the bonds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

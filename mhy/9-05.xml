@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MHY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-9.05"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-9.05"/>
+          <FRBRdate date="2025-08-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9.05"/>
+          <FRBRname value="MHY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-9.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-9.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mhy/section-9.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mhy/section-9.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_05">
+        <num>9.05</num>
+        <heading>Examining physicians, examining psychiatric nurse practitioners and medical certificates</heading>
+        <subsection eId="sec_9_05__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person is disqualified from acting as an examining physician or\nexamining psychiatric nurse practitioner in the following cases:\n  1. if they are a relative of the person applying for the admission or\nof the person alleged to be mentally ill.\n  2. if they are a manager, trustee, visitor, proprietor, officer,\ndirector, or stockholder of the hospital in which the patient is\nhospitalized or to which it is proposed to admit such person, except as\notherwise provided in this chapter, or if they have any pecuniary\ninterest, directly or indirectly, in such hospital, provided that\nreceipt of fees, privileges, or compensation for treating or examining\npatients in such hospital shall not be deemed to be a pecuniary\ninterest.\n  3. if they are on the staff of a proprietary facility to which it is\nproposed to admit such person.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_9_05__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A certificate, as required by this article, must show that the\nperson is mentally ill and shall be based on an examination of the\nperson alleged to be mentally ill made within ten days prior to the date\nof admission. The date of the certificate shall be the date of such\nexamination. All certificates shall contain the facts and circumstances\nupon which the judgment of the physician or psychiatric nurse\npractitioner is based and shall show that the condition of the person\nexamined is such that they need involuntary care and treatment in a\nhospital and such other information as the commissioner may by\nregulation require.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

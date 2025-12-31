@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="HAY">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/hay/section-250"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-250"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250"/>
+          <FRBRname value="HAY"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/hay/section-250/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-250/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/hay/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/hay/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250">
+        <num>250</num>
+        <heading>Acquisition by attorney general</heading>
+        <content>
+          <p>  § 250. Acquisition by attorney general. Upon the receipt of such\ncertification of approval the attorney general shall, in the name of the\npeople of the state, acquire title to said toll bridge and its franchise\nrights in accordance with the provisions of the eminent domain procedure\nlaw for the acquisition of property for public purposes. When said court\nshall have determined the value of such toll bridge, the attorney\ngeneral shall certify such determination to the comptroller and to the\nboard or boards of supervisors of the county or counties wherein such\ntoll bridge is situated. After the receipt thereof, upon a majority vote\nof the board or boards of supervisors, they shall adopt a resolution\napproving the purchase of said toll bridge under the provisions of this\narticle and providing for the payment of the county's share thereof and\nthereupon shall transmit a certified copy of such resolution to the\nstate comptroller. The acquisition and purchase of toll bridges under\nthe provisions of this article shall be taken up and carried forward in\nthe order in which they are finally designated as determined by the date\nof the receipt in each case of the certified copy of the approval by the\ncommissioner of transportation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

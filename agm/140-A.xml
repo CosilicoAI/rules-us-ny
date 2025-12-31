@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140-A"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="140-A"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-140-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-140-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_A">
+        <num>140-A</num>
+        <heading>Provision for seed tests</heading>
+        <content>
+          <p>  § 140-a. Provision for seed tests. Any citizen of this state shall\nhave the privilege of submitting to the department samples of seeds for\ntesting and analysis subject to payment of a fee to the commissioner\nthat shall, at a minimum, cover the full costs of the services provided.\nAll monies received by the commissioner pursuant to this section shall\nbe deposited in an account within the miscellaneous special receive fund\nand shall be used to defray the expenses incidental to carrying out the\nservices authorized by this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

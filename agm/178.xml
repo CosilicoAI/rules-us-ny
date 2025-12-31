@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-178"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-178"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="178"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-178/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-178/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-178/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-178/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_178">
+        <num>178</num>
+        <heading>Physical standards of weights and measures</heading>
+        <content>
+          <p>  § 178. Physical standards of weights and measures. The primary\nstandards within this state shall be the weights and measures furnished\nby the government of the United States, based upon the federal prototype\nstandards, and such other standards as may be received from the federal\ngovernment in addition thereto or in renewal thereof, as well as other\nstandards which may be added by the state department of agriculture and\nmarkets and certified by the national bureau of standards or its\nsuccessor organization, the national institute of standards and\ntechnology.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1913"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1913"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-1913"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1913/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1913/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-1913/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-1913/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_1913">
+        <num>71-1913</num>
+        <heading>Enforcement of section 17-1713</heading>
+        <content>
+          <p>§ 71-1913. Enforcement of section 17-1713.\n  1. Any board of health named in subdivision 1 of section 17-1713 shall\nexamine into any alleged offense against section 17-1713 within its\njurisdiction and cause the same to be abated, by injunction or\notherwise, if found to exist.\n  2. Any person violating any provision of section 17-1713 shall be\nguilty of a misdemeanor, and punishable by a fine of not more than five\nhundred dollars or by imprisonment for not more than one year or by both\nsuch fine and imprisonment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

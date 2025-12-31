@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1701"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1701"/>
+          <FRBRdate date="2025-11-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1701"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-1701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-1701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1701">
+        <num>1701</num>
+        <heading>Prohibitions and requirements</heading>
+        <content>
+          <p>  § 1701. Prohibitions and requirements. It shall be unlawful for any\noperator to operate for or provide an AI companion to a user unless such\nAI companion contains a protocol to take reasonable efforts for\ndetecting and addressing suicidal ideation or expressions of self-harm\nexpressed by a user to the AI companion, that includes but is not\nlimited to, detection of user expressions of suicidal ideation or\nself-harm, and a notification to the user that refers them to crisis\nservice providers such as the 9-8-8 suicide prevention and behavioral\nhealth crisis hotline under section 36.03 of the mental hygiene law, a\ncrisis text line, or other appropriate crisis services upon detection of\nsuch user's expressions of suicidal ideation or self-harm.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

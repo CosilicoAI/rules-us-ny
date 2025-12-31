@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GMU">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-100"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-100"/>
+          <FRBRdate date="2019-01-11" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100"/>
+          <FRBRname value="GMU"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-100/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-100/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gmu/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gmu/section-100/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100">
+        <num>100</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 100. Definitions. As used in this article:\n  1. "Political subdivision" means a municipal corporation, school\ndistrict, district corporation and board of cooperative educational\nservices.\n  2. "Fire company" means:\n  a. A volunteer fire company of a county, city, town, village or fire\ndistrict fire department, whether or not any such company has been\nincorporated under any general or special law,\n  b. A fire corporation the members of which are volunteer firefighters\nand which was incorporated under or is subject to the provisions of\nsection fourteen hundred two of the not-for-profit corporation law,\nwhich is not included within paragraph a above, if such corporation is\nby law under the general control of, or recognized as a fire corporation\nby, the governing board of a city, town, village or fire district, or\n  c. A fire corporation the members of which are volunteer firefighters\nand which was incorporated under, or established pursuant to the\nprovisions of, any general or special law, which is not included within\nparagraphs a and b above, if such corporation is by law under the\ngeneral control of, or recognized as a fire corporation by, the\ngoverning board of a city, town, village, fire district or a district\ncorporation other than a fire district.\n  3. "Voluntary ambulance service" means a voluntary ambulance service\nas defined in article thirty of the public health law and possessing a\nvalid statement of registration or possessing a valid ambulance service\ncertificate pursuant to article thirty of the public health law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

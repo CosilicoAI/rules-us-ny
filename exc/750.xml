@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EXC">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/exc/section-750"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-750"/>
+          <FRBRdate date="2021-08-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="750"/>
+          <FRBRname value="EXC"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/exc/section-750/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-750/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/exc/section-750/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/exc/section-750/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_750">
+        <num>750</num>
+        <heading>Duties of the attorney general and district attorneys</heading>
+        <content>
+          <p>  § 750. Duties of the attorney general and district attorneys. If, in\nthe opinion of the board, any matter in regard to the management or\naffairs of any such institution, society or association, or any\nincarcerated individual or person in any way connected therewith,\nrequire legal investigation or action of any kind, notice thereof may be\ngiven by the board, to the attorney general, and he shall thereupon make\ninquiry and take such proceedings in the premises as he may deem\nnecessary and proper. The attorney general and every district attorney\nshall, when so required, furnish such legal assistance, counsel or\nadvice as the board may require in the discharge of its duties.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

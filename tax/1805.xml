@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1805"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1805"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1805"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1805/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1805/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1805/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1805/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1805">
+        <num>1805</num>
+        <heading>Criminal tax fraud in the second degree</heading>
+        <content>
+          <p>  § 1805. Criminal tax fraud in the second degree. A person commits\ncriminal tax fraud in the second degree when he or she commits a tax\nfraud act or acts and, with the intent to evade any tax due under this\nchapter, or to defraud the state or any subdivision of the state, the\nperson pays the state and/or a political subdivision of the state\n(whether by means of underpayment or receipt of refund or both), in a\nperiod of not more than one year in excess of fifty thousand dollars\nless than the tax liability that is due. Criminal tax fraud in the\nsecond degree is a class C felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

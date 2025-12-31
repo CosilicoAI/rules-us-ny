@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-N"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-N"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="360-N"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-N/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-N/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-360-N/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-360-N/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_360_N">
+        <num>360-N</num>
+        <heading>Forum for actions regarding registration; service on out of state registrants</heading>
+        <subsection eId="sec_360_N__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Actions to require cancellation of a mark\nregistered pursuant to this article or in mandamus to compel\nregistration of a mark pursuant to this article shall be brought in the\nsupreme court. In an action in mandamus, the proceeding shall be based\nsolely upon the record before the secretary. In an action for\ncancellation, the secretary shall not be made a party to the proceeding\nbut shall be notified of the filing of the complaint by the clerk of the\ncourt in which it is filed and shall be given the right to intervene in\nthe action.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_360_N__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>In any action brought against a non-resident registrant, service\nmay be effected upon the secretary as agent for service of the\nregistrant in accordance with the procedures established for service\nupon non-resident corporations and business entities.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

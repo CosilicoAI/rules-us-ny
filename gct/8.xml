@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gct/section-8"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-8"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8"/>
+          <FRBRname value="GCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gct/section-8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gct/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gct/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8">
+        <num>8</num>
+        <heading>Law applicable to conduct of elections at which ballot questions are submitted to all the voters of a city</heading>
+        <content>
+          <p>  § 8. Law applicable to conduct of elections at which ballot questions\nare submitted to all the voters of a city. The provisions of the\nelection law or any other law relating to the submission of questions at\ngeneral elections, so far as the same are applicable and not\ninconsistent with this chapter, shall apply to the conduct of all\nelections at which questions are submitted to all the voters of a city.\nWhere a specific provision of law exists in any other law which is\ninconsistent with the provisions of the election law, such provision\nshall apply unless a provision of the election law specifies that such\nprovision of the election law shall apply notwithstanding any other\nprovision of law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

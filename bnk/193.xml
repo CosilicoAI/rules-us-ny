@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="BNK">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-193"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-193"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="193"/>
+          <FRBRname value="BNK"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-193/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-193/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/bnk/section-193/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/bnk/section-193/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_193">
+        <num>193</num>
+        <heading>Limitation upon business which may be transacted at public accommodation office</heading>
+        <subsection eId="sec_193__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the receipt of deposits of money, currency, checks and other\nsimilar items;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_193__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the payment of withdrawals;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_193__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the cashing of checks, drafts and other similar items;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_193__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>the receipt of moneys due to the banking institution;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_193__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>the issuance of cashier's checks, treasurer's checks, money orders\nand other similar items; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_193__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>the disbursement of funds pursuant to an existing loan agreement\nor extension of credit which provides for advances to or for the account\nof the borrower, by means of honoring one or more checks or other\nwritten orders or by use of a credit card or other similar arrangement.\n  Nothing contained in this section shall be construed to authorize the\nperformance of any function or the rendition of any service in any\npublic accommodation office which such banking institution is not\notherwise authorized to engage in by other provisions of this chapter or\nother law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

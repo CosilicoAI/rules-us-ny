@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GOB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-311"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-311"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3-311"/>
+          <FRBRname value="GOB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-311/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-311/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gob/section-3-311/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gob/section-3-311/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3_311">
+        <num>3-311</num>
+        <heading>Marriage relationship not to affect construction of instruments and transactions involving personal property</heading>
+        <content>
+          <p>  § 3-311. Marriage relationship not to affect construction of\ninstruments and transactions involving personal property.  1. Where an\ninstrument or transaction creating or transferring an interest in\npersonal property would create a joint tenancy or a tenancy in common in\npersons not husband and wife, it shall create a joint tenancy or a\ntenancy in common, as the case may be, in persons who are husband and\nwife.\n  2. An instrument or transaction which does not create a right of\nsurvivorship in personal property between persons who are not husband\nand wife shall not create a right of survivorship in personal property\nbetween persons who are husband and wife.\n  3. This section applies without regard to the identity of the person\nwho makes the transfer or at whose instance it is had, or from whom the\nconsideration for the instrument or transaction proceeds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

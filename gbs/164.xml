@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-164"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-164"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="164"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-164/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-164/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-164/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-164/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_164">
+        <num>164</num>
+        <heading>Disposition of undelivered moneys</heading>
+        <content>
+          <p>  § 164. Disposition of undelivered moneys. Every steamship company,\nexpress company, or other company, to which moneys received for\ntransmission are returned for the reason that the same cannot be\ndelivered shall forthwith notify the transmitter thereof by mailing\nwritten notice to such transmitter at his last known address.  If such\nmoney be unclaimed for a period of ninety days after such notice, such\ncompany shall immediately turn over such money to the state comptroller\nwho shall maintain the same as a capital revolving fund for the purpose\nof paying claimants thereof. After such moneys have remained unclaimed\nin the hands of the comptroller for five years, the same shall escheat\nto the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

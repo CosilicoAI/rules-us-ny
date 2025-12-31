@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="MIL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.54"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.54"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.54"/>
+          <FRBRname value="MIL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.54/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.54/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/mil/section-130.54/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/mil/section-130.54/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_54">
+        <num>130.54</num>
+        <heading>Record of trial</heading>
+        <subsection eId="sec_130_54__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Each general court-martial shall keep\na separate record of the proceedings in each case brought before it, and\nthe record shall be authenticated by the signature of the military\njudge.  If the record cannot be authenticated by the military judge by\nreason of his death, disability, or absence, it shall be authenticated\nby the signature of the trial counsel or by that of a member if the\ntrial counsel is unable to authenticate it by reason of his death,\ndisability, or absence. In a court-martial consisting of only a military\njudge the record shall be authenticated by the court reporter under the\nsame conditions which would impose such a duty on a member under this\nsubdivision. If the proceedings have resulted in an acquittal of all\ncharges and specifications or, if not affecting a general or flag\nofficer, in a sentence not including discharge and not in excess of that\nwhich may otherwise be adjudged by a special court-martial, the record\nshall contain such matters as may be prescribed by regulations issued\npursuant to this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_54__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each special and summary court-martial shall keep a separate\nrecord of the proceedings in each case, which record shall contain such\nmatter and be authenticated in such manner as may be required by\nregulations issued pursuant to this chapter.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_130_54__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A copy of the record of the proceedings of each general and\nspecial court-martial shall be given to the accused as soon as\nauthenticated.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

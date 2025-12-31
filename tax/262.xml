@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-262"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-262"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="262"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-262/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-262/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262">
+        <num>262</num>
+        <heading>Expenses of officers</heading>
+        <content>
+          <p>  § 262.  Expenses of officers.  Recording officers and county\ntreasurers shall severally be entitled to receive all their necessary\nexpenses for the purposes of this article, including printing, hire of\nclerks and assistants, being first approved and allowed by the tax\ncommission and, after audit by the comptroller, shall be retained by\nthem out of the moneys coming into their hands.  In counties wholly\nwithin the city of New York for the purposes of retirement the recording\nofficers, clerks and assistants shall be considered as in the city\nservice to the same extent as though their salaries had actually been\npaid by the city of New York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

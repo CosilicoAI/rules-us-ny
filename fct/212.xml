@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-212"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="212"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_212">
+        <num>212</num>
+        <heading>Rules of court</heading>
+        <subsection eId="sec_212__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The administrative board of the judicial\nconference shall prepare rules of court when required by this act and\nmay prepare rules of court when authorized by this act. To the extent\npracticable, any rule of court prepared under this act shall apply\nuniformly throughout the state of New York.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_212__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>In exercising its responsibilities under paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_212__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>, the\nadministrative board may designate a committee of judges of the family\ncourt and of such consultants as it deems appropriate to draft rules for\napproval by the administrative board.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

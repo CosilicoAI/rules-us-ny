@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1394-D"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1394-D"/>
+          <FRBRdate date="2023-10-20" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1394-D"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1394-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1394-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1394-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1394-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1394_D">
+        <num>1394-D</num>
+        <heading>Requirement to check sex offender registry</heading>
+        <content>
+          <p>  § 1394-d. Requirement to check sex offender registry. Every person,\nfirm, limited liability company, association and corporation which\noperates a children's non-regulated camp as defined in section three\nhundred ninety-eight-f of the general business law shall be required to\nascertain whether an employee or volunteer is listed on the state sex\noffender registry pursuant to article six-C of the correction law and\nthe national sex offender registry using the United States department of\njustice national sex offender public website prior to the day such\nemployee or volunteer commences work at such camp and annually\nthereafter prior to their arrival at such camp.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

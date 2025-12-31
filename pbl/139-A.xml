@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="139-A"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-139-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-139-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_139_A">
+        <num>139-A</num>
+        <heading>Judgment-roll and effect of judgment</heading>
+        <content>
+          <p>  § 139-a. Judgment-roll and effect of judgment.  Where final judgment,\nvacating or annulling letters-patent, is rendered in an action, brought\nas prescribed in the last section, the attorney-general must cause a\ncopy of the judgment-roll to be forthwith filed in the office of the\ncommissioner of general services, who must make an entry in his records\nstating the substance and effect of the judgment, and the time when the\njudgment-roll was filed.  The real property, granted by those\nletters-patent, may thereafter be disposed of by the commissioner, as if\nthe letters-patent had not been issued.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

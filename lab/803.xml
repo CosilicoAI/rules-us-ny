@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-803"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-803"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="803"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-803/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-803/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-803/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_803">
+        <num>803</num>
+        <heading>Witnesses; production of documents; subpoenas and commissions</heading>
+        <content>
+          <p>  § 803. Witnesses; production of documents; subpoenas and commissions.\nA board of inquiry shall have power, if and to such extent as may be\nauthorized by rules made under this article, to require any person who\nappears to the board to have any knowledge of the subject matter of the\ninquiry to furnish in writing or otherwise such particulars in relation\nthereto as the board may require, to issue subpoenas for and compel the\nattendance of witnesses and the production of books, contracts, papers,\ndocuments and other evidence, and to administer oaths and take testimony\nand take or cause to be taken depositions of witnesses residing within\nor without this state. A subpoena issued under this section shall be\nregulated by the civil practice law and rules. Subpoenas and commissions\nto take testimony shall be issued under the seal of the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

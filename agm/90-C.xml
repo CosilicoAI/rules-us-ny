@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="AGM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-C"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-C"/>
+          <FRBRdate date="2024-08-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90-C"/>
+          <FRBRname value="AGM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/agm/section-90-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/agm/section-90-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90_C">
+        <num>90-C</num>
+        <heading>Prohibitions</heading>
+        <content>
+          <p>  § 90-c. Prohibitions. 1. It shall be unlawful for any person to\npurchase, deal in, sell, or rescue cattle, swine, horses, cervids,\ncamelids, sheep, goats or poultry; to operate or conduct an auction\nwhere cattle, swine, horses, cervids, camelids, sheep, goats or poultry\nare sold; or to transport poultry, unless such dealer, auctioneer,\npoultry transporter, or rescue holds a domestic animal health permit\ngranted by the commissioner.\n  2. No person who holds or is required to hold a domestic animal health\npermit shall purchase, sell, rescue, or otherwise deal in cattle,\ncervids, swine, camelids, sheep or goats unless and until an ear tag is\nsecurely affixed to the ear of such animal, unless such animal is\notherwise identified by a registration number, distinctive tattoo,\nelectronic identification device or some other unique permanent mark or,\nfor an animal that is moved directly to slaughter, an official backtag.\n  3. No person shall deface, obliterate or remove an official ear tag or\nother identification mark affixed to an animal under their control, or\nshall affix an official ear tag to the ear of an animal that has\npreviously been affixed to the ear of another animal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

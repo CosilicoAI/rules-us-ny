@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3707"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3707"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3707"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3707/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3707/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3707/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3707/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3707">
+        <num>3707</num>
+        <heading>Payment of apportionment of gospel funds</heading>
+        <content>
+          <p>  § 3707. Payment of apportionment of gospel funds.  1. When such\napportionment is authorized the supervisor shall pay to the collector,\nor if the district has a treasurer to the treasurer, of the several\nschool districts of his town its pro rata share according to the\naggregate school attendance of each school district in the preceding\nyear.\n  2. In the event that any of the school districts of the town shall\nhave been included in any central school district the pro rata share\nbelonging to such district shall be paid to the treasurer of the central\nschool district, to be used for school purposes of such central\ndistrict.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

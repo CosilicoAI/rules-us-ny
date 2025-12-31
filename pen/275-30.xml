@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.30"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="275.30"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-275.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-275.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_275_30">
+        <num>275.30</num>
+        <heading>Advertisement or sale of unauthorized recordings in the first degree</heading>
+        <content>
+          <p>§ 275.30 Advertisement or sale of unauthorized recordings in the first\n           degree.\n  A person is guilty of the advertisement or sale of unauthorized\nrecordings in the first degree when such person commits the crime of\nadvertisement or sale of unauthorized recordings in the second degree as\ndefined in section 275.25 of this article and either:\n  1. such person has previously been convicted of that crime within the\npast five years; or\n  2. commission of that crime involves at least one thousand\nunauthorized sound recordings or at least one hundred unauthorized\naudiovisual recordings.\n  Advertisement and sale of unauthorized recordings in the first degree\nis a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

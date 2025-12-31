@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-166"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-166"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="166"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-166/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-166/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-166/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-166/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_166">
+        <num>166</num>
+        <heading>Privacy of records</heading>
+        <content>
+          <p>  § 166. Privacy of records. The records of any proceeding in the family\ncourt shall not be open to indiscriminate public inspection. However,\nthe court in its discretion in any case may permit the inspection of any\npapers or records. Any duly authorized agency, association, society or\ninstitution to which a child is committed may cause an inspection of the\nrecord of investigation to be had and may in the discretion of the court\nobtain a copy of the whole or part of such record.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

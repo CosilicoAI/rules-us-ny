@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="FCT">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/fct/section-777"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-777"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="777"/>
+          <FRBRname value="FCT"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/fct/section-777/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-777/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/fct/section-777/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/fct/section-777/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_777">
+        <num>777</num>
+        <heading>Failure to comply with terms of placement at home</heading>
+        <content>
+          <p>  § 777. Failure to comply with terms of placement at home.  If a person\nplaced in his own home subject to orders of the court leaves home\nwithout the court's permission, he may be brought before the court and\nif, after hearing, the court is satisfied by competent proof that the\nrespondent left home without just cause, the court may revoke the order\nof placement and proceed to make any order that might have been made at\nthe time the order of placement was made. It may also continue the order\nof placement and, on due notice and after hearing, enter an order of\nprotection for the duration of the placement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

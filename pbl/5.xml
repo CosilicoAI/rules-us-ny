@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-5"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-5"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5"/>
+          <FRBRname value="PBL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-5/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-5/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbl/section-5/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbl/section-5/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5">
+        <num>5</num>
+        <heading>Letters patent, form and contents; to be recorded in the office of the secretary of state</heading>
+        <content>
+          <p>  § 5. Letters patent, form and contents; to be recorded in the office\nof the secretary of state.  All letters patent shall be in such form as\nthe commissioner of general services directs. All letters patent\ngranting unappropriated state lands, as defined by this chapter, shall\ncontain an exception and reservation of all gold and silver mines. All\nletters patent shall be recorded in a book or books to be kept for that\npurpose in the office of the department of state, and the record thereof\nin any such book or a copy of any letters patent duly certified by the\nsecretary of state to be a copy of such record thereof, whether\nheretofore or hereafter recorded, shall be received in evidence in any\ncourt in this state with the same force and effect as the original of\nsuch letters patent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

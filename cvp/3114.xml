@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3114"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3114"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3114"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3114/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3114/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3114/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3114/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3114">
+        <num>3114</num>
+        <heading>Examination of witness who does not understand the English language</heading>
+        <content>
+          <p>  Rule 3114. Examination of witness who does not understand the English\nlanguage. If the witness to be examined does not understand the English\nlanguage, the examining party must, at his own expense, provide a\ntranslation of all questions and answers. Where the court settles\nquestions, it may settle them in the foreign language and in English. It\nmay use the services of one or more experts whose compensation shall be\npaid by the party seeking the examination and may be taxed as a\ndisbursement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

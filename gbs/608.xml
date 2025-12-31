@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="GBS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-608"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-608"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="608"/>
+          <FRBRname value="GBS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-608/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-608/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/gbs/section-608/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/gbs/section-608/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_608">
+        <num>608</num>
+        <heading>Unlawful detention of goods</heading>
+        <content>
+          <p>  § 608. Unlawful detention of goods. 1. Notwithstanding the provisions\nof section 7-209 of the uniform commercial code, no warehouseman shall\nhave a lien on any household goods stored by him in a particular case\nwhere the charges demanded for storage are in excess of the charges\npermitted by this article.\n  2. It shall constitute an unlawful detention of goods for a\nwarehouseman to refuse to surrender household goods stored by him for a\nconsumer bailor upon payment by the consumer bailor of the storage\ncharges permitted by this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

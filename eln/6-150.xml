@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ELN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-150"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-150"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-150"/>
+          <FRBRname value="ELN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-150/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-150/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/eln/section-6-150/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/eln/section-6-150/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_150">
+        <num>6-150</num>
+        <heading>Nomination; vacancy caused by death or disqualification, unfilled at time of general or special election</heading>
+        <content>
+          <p>  § 6-150. Nomination; vacancy caused by death or disqualification,\nunfilled at time of general or special election. If a vacancy shall\noccur in a nomination, caused by disqualification or death of the\ncandidate subsequent to noon of the Tuesday before a general or special\nelection and prior to the closing of the polls on such election day,\nsuch vacancy shall not be filled, and the votes cast for such deceased\ncandidate shall be canvassed and counted, and if he shall receive a\nplurality of the votes cast, a vacancy shall exist in the office for\nwhich such nomination was made to be filled in the manner provided by\nlaw for vacancies in office occurring by reason of death after election.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

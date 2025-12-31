@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBA">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pba/section-888"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-888"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="888"/>
+          <FRBRname value="PBA"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pba/section-888/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-888/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pba/section-888/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pba/section-888/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_888">
+        <num>888</num>
+        <heading>Interest in claims and contracts prohibited</heading>
+        <content>
+          <p>  § 888. Interest in claims and contracts prohibited.  No member,\nofficer, agent or employee of the authority shall be interested,\ndirectly or indirectly, in any claim against or contract with the\nauthority except for lawful compensation and reimbursement for actual\nand necessary expenses incurred in the performance of official duties;\nprovided that any such member, officer, agent or employee may, as a\ngrower or dealer, lease from the authority a stall, store or other\nfacility upon a market and may engage in such transactions with the\nauthority as are reasonably and ordinarily incidental to such leasing.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
