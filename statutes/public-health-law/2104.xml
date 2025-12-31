@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2104"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2104"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2104">
+        <num>2104</num>
+        <heading>Communicable diseases; municipalities within a county or part-county health district; duty to report</heading>
+        <content>
+          <p>  § 2104. Communicable diseases; municipalities within a county or\npart-county health district; duty to report.  1. The health officer of\neach city, village, town and consolidated health district included as\npart of any county or part-county health district, shall transmit daily\nall original reports of communicable disease cases to the county health\ncommissioner.\n  2. The county health commissioner shall transmit to the department the\noriginal reports of communicable disease cases within twenty-four hours\nafter he receives them.\n  3. In lieu thereof, he may submit summary reports when authorized by\nthe department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8009"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8009"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8009"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8009/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8009/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8009/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8009/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8009">
+        <num>8009</num>
+        <heading>Oaths; acknowledgments; certification or exemplification</heading>
+        <content>
+          <p>  § 8009. Oaths; acknowledgments; certification or exemplification.  Any\nauthorized officer is entitled, for the services specified, to the\nfollowing fees:\n  1. for administering an oath or affirmation, and certifying it when\nrequired, except where another fee is specially prescribed by statute,\ntwo dollars;\n  2. for taking and certifying the acknowledgment or proof of the\nexecution of a written instrument, two dollars for one person and two\ndollars for each additional person, and two dollars for swearing each\nwitness thereto; and\n  3. for certifying or exemplifying a typewritten or printed copy of any\ndocument, paper, book or record in his custody, twenty-five cents for\neach folio with a minimum of one dollar.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

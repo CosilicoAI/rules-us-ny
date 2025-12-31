@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-149"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-149"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="149"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-149/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-149/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-149/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-149/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_149">
+        <num>149</num>
+        <heading>Penalty for bringing a needy person into the state</heading>
+        <content>
+          <p>  § 149. Penalty for bringing a needy person into the state.  1. Any\nperson who knowingly brings, or causes to be brought, a needy person\nfrom out of the state into this state for the purpose of making him a\npublic charge, shall be guilty of a misdemeanor punishable by a fine of\none hundred dollars, and shall be obligated to convey such person out of\nthe state or to support him at his own expense.\n  2. The commissioner of public welfare of the district to which such\nneedy person is brought may bring a suit in a court of competent\njurisdiction to enforce this obligation.\n  3. The court shall require satisfactory security from such person that\nhe will convey the needy person out of the state within the time fixed\nby the court or will indemnify the public welfare district for all\ncharges and expenses incurred for the assistance and care or\ntransportation of such needy person. If such person refuses to give\nsecurity when so required the court may commit him to jail for not\nexceeding three months.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

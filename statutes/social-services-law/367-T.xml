@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-367-T"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-367-T"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="367-T"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-367-T/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-367-T/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-367-T/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-367-T/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_367_T">
+        <num>367-T</num>
+        <heading>Payment for emergency physician services</heading>
+        <content>
+          <p>  § 367-t. Payment for emergency physician services. Amounts payable\nunder this title for medical assistance for items and services provided\nto eligible persons by qualified emergency physicians, provided in an\nemergency room of an entity certified pursuant to article twenty-eight\nof the public health law to treat an emergency condition, as defined in\nsubdivision three of section forty-nine hundred of the public health\nlaw, which are authorized pursuant to section three hundred sixty-five-a\nof this title shall be no less than twenty-five dollars per visit. For\nthe purpose of this section eligible persons shall not include persons\nprovided items and services by the medicaid managed care program.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

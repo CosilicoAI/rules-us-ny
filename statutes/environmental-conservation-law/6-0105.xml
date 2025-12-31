@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-6-0105"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-6-0105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6-0105"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-6-0105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-6-0105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-6-0105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-6-0105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6_0105">
+        <num>6-0105</num>
+        <heading>State smart growth public infrastructure policy</heading>
+        <content>
+          <p>§ 6-0105. State smart growth public infrastructure policy.\n  It is the purpose of this article to augment the state's environmental\npolicy by declaring a fiscally prudent state policy of maximizing the\nsocial, economic and environmental benefits from public infrastructure\ndevelopment through minimizing unnecessary costs of sprawl development\nincluding environmental degradation, disinvestment in urban and suburban\ncommunities and loss of open space induced by sprawl facilitated by the\nfunding or development of new or expanded transportation, sewer and\nwaste water treatment, water, education, housing and other publicly\nsupported infrastructure inconsistent with smart growth public\ninfrastructure criteria.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

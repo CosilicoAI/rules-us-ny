@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-211-E"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-211-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="211-E"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-211-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-211-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-211-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-211-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_211_E">
+        <num>211-E</num>
+        <heading>Educational partnership organizations</heading>
+        <subsection eId="sec_211_E__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>"educational partnership organization" means a board of\ncooperative educational services, a public or independent, non-profit\ninstitution of higher education, a cultural institution, or a private,\nnon-profit organization with a proven record of success in intervening\nin low-performing schools, as determined by the commissioner, provided\nthat such term shall not include a charter school;\n  (ii) "board of education" means the trustees or board of education of\na school district, or, in the case of a city school district of a city\nhaving a population of one million or more, the chancellor of such city\ndistrict;\n  (iii) "school district" means a common, union free, central, central\nhigh school or city school district, other than a special act school\ndistrict as defined in section four thousand one of this chapter.\n  (iv) "superintendent of schools" means the superintendent of schools\nof a school district, and, in the case of a city school district of a\ncity having a population of one million or more, a community\nsuperintendent and the chancellor of such city district when acting in\nthe role of a superintendent of schools.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

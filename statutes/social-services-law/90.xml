@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-90"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="90"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_90">
+        <num>90</num>
+        <heading>Appropriations in county public welfare districts</heading>
+        <subsection eId="sec_90__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nThe board of supervisors shall appoint a committee of its members to\nconsider the estimates presented by the town boards in the county public\nwelfare district.  If any town shall fail to submit an estimate as\nprovided by the previous section, the county commissioner shall prepare\nand submit to such committee an estimate of the amount needed for\nadministration and public assistance and care in such town.  The\ncommittee shall recommend to the board of supervisors the amount it\nconsiders necessary for the ensuing fiscal year for the various forms of\npublic assistance and care and administrative expenses in each of the\ntowns in the county public welfare district.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_90__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The board of supervisors shall approve an estimate for each town\nin the county public welfare district and shall levy taxes in each such\ntown for the amount of the approved estimate for such town.\n  2.  The legislative body of a city forming part of a county public\nwelfare district shall appropriate the amount it considers necessary for\nadministration and public assistance and care in such city and shall\ncause taxes to be levied for the amount of such appropriation.\n  Nothing contained in this section shall be construed to prevent the\nfinancing of any such expenditure, in whole or in part, pursuant to the\nlocal finance law.\n  3.  The board of supervisors shall appropriate, in the manner provided\nby law, the amount it considers necessary for the ensuing fiscal year\nfor the various forms of public assistance and care and administrative\nexpenses in the county public welfare district and shall cause the\nnecessary taxes to be levied therefor in the territory of the county\npublic welfare district.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

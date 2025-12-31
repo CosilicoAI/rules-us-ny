@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1178"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1178"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1178"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1178/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1178/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1178/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1178/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1178">
+        <num>1178</num>
+        <heading>Seller and third party liability</heading>
+        <subsection eId="sec_1178__subsec_a">
+          <num>(a)</num>
+          <paragraph eId="sec_1178__subsec_a__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>A certified\nservice provider is the agent of a seller, with whom the certified\nservice provider has contracted, for the collection and remittance of\nsales and use taxes. As the seller's agent, the certified service\nprovider is liable for sales and use tax due each member state on all\nsales transactions it processes for the seller except as set out in this\nsection.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_1178__subsec_a__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>A seller that contracts with a certified service provider is not\nliable to the state for sales or use tax due on transactions processed\nby the certified service provider unless the seller misrepresented the\ntype of items it sells or committed fraud. In the absence of probable\ncause to believe that the seller has committed fraud or made a material\nmisrepresentation, the seller is not subject to audit on the\ntransactions processed by the certified service provider. A seller is\nsubject to audit for transactions not processed by the certified service\nprovider. The member states acting jointly may perform a system check of\nthe seller and review the seller's procedures to determine if the\ncertified service provider's system is functioning properly and the\nextent to which the seller's transactions are being processed by the\ncertified service provider.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_1178__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person that provides a certified automated system is responsible\nfor the proper functioning of that system and is liable to the state for\nunderpayments of tax attributable to errors in the functioning of the\ncertified automated system. A seller that uses a certified automated\nsystem remains responsible and is liable to the state for reporting and\nremitting tax.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1178__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A seller that has a proprietary system for determining the amount\nof tax due on transactions and has signed an agreement establishing a\nperformance standard for that system is liable for the failure of the\nsystem to meet the performance standard.\n  * NB Not effective per letter by DOT received August 30, 2006\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

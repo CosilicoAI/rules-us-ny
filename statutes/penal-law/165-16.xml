@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.16"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.16"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165.16"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.16/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.16/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.16/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.16/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_16">
+        <num>165.16</num>
+        <heading>Unauthorized sale of certain transportation services</heading>
+        <subsection eId="sec_165_16__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>selling a\nfarecard containing value, other than a doctored farecard, relinquished\nall rights and privileges thereto upon consummation of the sale; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_165_16__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\nsold access to transportation services through the use of a farecard,\nother than a doctored farecard, when such sale was made at the request\nof the purchaser as an accommodation to the purchaser at a time when a\nfarecard was not immediately available to the purchaser, provided,\nhowever, that the seller lawfully acquired the farecard and did not, by\nmeans of an unlawful act, contribute to the circumstances that caused\nthe purchaser to make such request.\n  3. For purposes of this section:\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_165_16__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"farecard" means a value-based, magnetically encoded card\ncontaining stored monetary value from which a specified amount of value\nis deducted as payment of a fare;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_165_16__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"unlimited farecard" means a farecard that is time-based,\nmagnetically encoded and which permits entrance an unlimited number of\ntimes into facilities and conveyances for a specified period of time;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_165_16__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"doctored farecard" means a farecard that has been bent or\nmanipulated or altered so as to facilitate a person's access to\ntransportation services without paying the lawful charge.\n  Unauthorized sale of transportation service is a class B misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4111"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4111"/>
+          <FRBRdate date="2022-05-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4111"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4111/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4111/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4111/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4111/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4111">
+        <num>4111</num>
+        <heading>Arrest of truants</heading>
+        <content>
+          <p>  § 4111. Arrest of truants. Any attendance officer may arrest without\nwarrant anywhere within the state any Indian child between six and\nsixteen years of age, found away from his home and who is then a truant\nfrom instruction upon which he is lawfully required to attend within the\ndistricts of which such attendance officer has jurisdiction. He shall\nforthwith deliver a child so arrested either to the person in parental\nrelation to the child, or to the teacher of the school from which said\nchild is then a truant, or in case of habitual truants, shall bring them\nbefore a magistrate for commitment to a school for delinquents, as\nprovided in section forty-one hundred twelve of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-539"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-539"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="539"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-539/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-539/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-539/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-539/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_539">
+        <num>539</num>
+        <heading>Certain actions by retiring members</heading>
+        <subsection eId="sec_539__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>\nthirty days following the date on which such member's application for\ndisability retirement was approved by the retirement board or (ii)\nthirty days following the date on which the member was retired for\ndisability, whichever is later.\n  7. A member subject to the provisions of this article who has\naccumulated contributions credited to the member's individual account in\nthe annuity savings fund may elect to withdraw such contributions\npursuant to subdivision six of section five hundred sixteen of this\narticle within the period provided in subdivision six of this section\nfor the selection, change or withdrawal of an option selection.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

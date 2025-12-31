@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-312"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-312"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="312"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-312/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-312/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-312/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_312">
+        <num>312</num>
+        <heading>Personal service upon a court, board or commission</heading>
+        <content>
+          <p>  § 312. Personal service upon a court, board or commission. Personal\nservice upon a court consisting of three or more judges may be made by\ndelivering the summons to any one of them. Personal service upon a board\nor commission having a chairman or other presiding officer, secretary or\nclerk, by whatever official title he is called, may be made by\ndelivering the summons to him. Personal service upon a board or\ncommission of a town or village may also be made by delivering the\nsummons to the clerk of the town or village. Personal service upon any\nother board or commission shall be made by delivering the summons to any\none of the members.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

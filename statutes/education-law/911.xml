@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-911"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-911"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="911"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-911/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-911/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-911/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-911/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_911">
+        <num>911</num>
+        <heading>Enforcement</heading>
+        <content>
+          <p>  § 911. Enforcement. 1. It shall be the duty of the commissioner to\nenforce the provisions of this article, and the commissioner may adopt\nrules and regulations not inconsistent herewith, after consultation with\nthe state commissioner of health, for the purpose of carrying into full\nforce and effect the objects and intent of this article.\n  2. The commissioner may, in his or her discretion, withhold the public\nmoney from a district which willfully refuses or neglects to comply with\nthis article and the rules and regulations made under this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

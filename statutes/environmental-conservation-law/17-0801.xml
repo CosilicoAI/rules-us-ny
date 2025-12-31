@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0801"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0801"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-0801"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0801/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0801/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-0801/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-0801/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_0801">
+        <num>17-0801</num>
+        <heading>Purpose</heading>
+        <content>
+          <p>§ 17-0801. Purpose.\n  To create a state pollutant discharge elimination system (SPDES) to\ninsure that the State of New York shall possess adequate authority to\nissue permits regulating the discharge of pollutants from new or\nexisting outlets or point sources into the waters of the state, upon\ncondition that such discharges will conform to and meet all applicable\nrequirements of the Federal Water Pollution Control Act, as amended (33\nU.S.C. 1251, et seq.) hereinafter referred to as the "Act", and rules,\nregulations, guidelines, criteria, standards and limitations adopted\npursuant thereto relating to effluent limitations, water quality related\neffluent limitations, new source performance standards, toxic and\npretreatment effluent limitations, ocean discharge criteria, and\nmonitoring, and to participate in the national pollutant discharge\nelimination system (NPDES) created by the Act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

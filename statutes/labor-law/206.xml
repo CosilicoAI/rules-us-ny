@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-206"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-206"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="206"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-206/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-206/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-206/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_206">
+        <num>206</num>
+        <heading>Prevention of personal injuries to persons engaged in tree trimming</heading>
+        <content>
+          <p>  § 206. Prevention of personal injuries to persons engaged in tree\ntrimming. The board of standards and appeals may make rules guarding\nagainst personal injuries to persons engaged in cutting, trimming or\nremoving trees or brush for hire. Such rules shall not apply to persons\ncutting, trimming or removing trees or brush on behalf of, or employed\nby, a public service corporation subject to the jurisdiction of the\npublic service commission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

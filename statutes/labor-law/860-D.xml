@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-860-D"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-860-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="860-D"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-860-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-860-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-860-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-860-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_860_D">
+        <num>860-D</num>
+        <heading>Extension of mass layoff period</heading>
+        <content>
+          <p>  § 860-d. Extension of mass layoff period. A mass layoff of more than\nsix months which, at its outset, was announced to be a mass layoff of\nsix months or less shall be treated as an employment loss under this\narticle unless:\n  1. the extension beyond six months is caused by business circumstances\n(including unforeseeable changes in price or cost) not reasonably\nforeseeable at the time of the initial mass layoff; and\n  2. notice is given at the time it becomes reasonably foreseeable that\nthe extension beyond six months will be required.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

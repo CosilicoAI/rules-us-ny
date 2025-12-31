@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1330"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1330"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1330"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1330/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1330/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1330/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1330/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1330">
+        <num>1330</num>
+        <heading>Credit for tax withheld</heading>
+        <content>
+          <p>  § 1330. Credit for tax withheld. The city income tax surcharge\nwithheld shall not reduce net state tax for purposes of computing the\ncity income tax surcharge, but any amount of tax actually deducted and\nwithheld under the authority of this article in any calendar year shall\nbe deemed to have been paid to the state tax commission on behalf of the\nperson from whom withheld, and such person shall be credited with having\npaid the amount of tax for the taxable year beginning in such calendar\nyear. For a taxable year of less than twelve months, the credit shall be\nmade under regulations of the state tax commission.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

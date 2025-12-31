@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8212"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8212"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8212"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8212/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8212/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8212/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8212/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8212">
+        <num>8212</num>
+        <heading>Practice of acupuncture and use of title "licensed acupuncturist" or "certified acupuncturist"</heading>
+        <content>
+          <p>  § 8212. Practice of acupuncture and use of title "licensed\nacupuncturist" or "certified acupuncturist".  Only a person licensed or\nauthorized pursuant to section eighty-two hundred fourteen of this\narticle or certified pursuant to section eighty-two hundred sixteen of\nthis article shall practice acupuncture.  Only a person licensed\npursuant to section eighty-two hundred fourteen of this article shall\nuse the title "licensed acupuncturist" and only a person certified\npursuant to section eighty-two hundred sixteen of this article shall use\nthe title "certified acupuncturist".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

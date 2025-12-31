@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-52-0907"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-52-0907"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="52-0907"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-52-0907/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-52-0907/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-52-0907/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-52-0907/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52_0907">
+        <num>52-0907</num>
+        <heading>Restriction on alienation</heading>
+        <content>
+          <p>§ 52-0907. Restriction on alienation.\n  Real property acquired, developed, improved, restored or rehabilitated\nby a municipality pursuant to subdivision four of section 52-0901 of\nthis title with funds made available pursuant to this title shall not be\nsold or disposed of or used for other than public park purposes without\nthe express authority of an act of the legislature, which shall provide\nfor the substitution of other lands of equal fair market value and\nreasonably equivalent usefulness and location to those to be\ndiscontinued, sold or disposed of, and such other requirements as shall\nbe approved by the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

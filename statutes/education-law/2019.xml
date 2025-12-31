@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2019"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2019"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2019"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2019/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2019/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2019/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2019/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2019">
+        <num>2019</num>
+        <heading>Declaration in case of challenge of voter</heading>
+        <content>
+          <p>  § 2019. Declaration in case of challenge of voter. If a person\noffering to vote at any school district meeting or election shall be\nchallenged as unqualified, by any legal voter in such district, either\nat such meeting or election, or by the filing of a challenge pursuant to\nsection two thousand fifteen of this chapter, the chairman presiding at\nsuch meeting or election shall require the person so offering, to make\nthe following declaration: "I do declare and affirm that I am, and have\nbeen, for the thirty days last past, an actual resident of this school\ndistrict and that I am qualified to vote at this meeting." Every person\nmaking such declaration shall be permitted to vote on all questions\nproposed at such meeting or election; but if any person shall refuse to\nmake such declaration, his vote shall be rejected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

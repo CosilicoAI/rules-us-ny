@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-1103"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-1103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="51-1103"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-1103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-1103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-51-1103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-51-1103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_51_1103">
+        <num>51-1103</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 51-1103. Definitions.\n  As used in this title, the following terms shall mean and include:\n  1. "Metropolitan Park Project." A state project to provide new and\nexpanded public recreational opportunities in or near an urban\npopulation center to relieve serious overcrowding and prevent further\ndeterioration of urban recreation systems through land acquisition.\n  2. "Open Space Preservation Project." A state project to acquire\nrapidly disappearing open or natural lands in or near urban or suburban\nareas necessary to serve the recreation needs thereof.\n  3. "Waterway Project." A state project to acquire selected lands on\nmajor rivers, lakes, and coastal waters to provide public access to\nprotect the right of public use of such waters.\n  4. "Trailway Project." A state project to acquire lands and to develop\nrecreation trails thereon necessary to close gaps in the statewide\ninterconnecting trails network before irreversible development occurs.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

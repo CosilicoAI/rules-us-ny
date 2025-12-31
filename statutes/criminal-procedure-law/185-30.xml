@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-185.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-185.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="185.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-185.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-185.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-185.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-185.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_185_30">
+        <num>185.30</num>
+        <heading>Conditions and limitations on electronic arraignment</heading>
+        <content>
+          <p>* § 185.30 Conditions and limitations on electronic arraignment.\n  Whenever a person is arraigned by means of an electronic arraignment,\nthe following conditions and limitations shall apply:\n  1.  The defendant may not enter a plea of guilty;\n  2.  The electronic arraignment process may be used only when the\naccusatory instrument does not charge a felony;\n  3.  No electronic recording of an electronic arraignment may be made,\nviewed or inspected except as may be authorized by rules of the chief\nadministrator of the courts; and\n  4.  Stenographic recording of the arraignment shall be made to the\nsame extent as if it were an ordinary arraignment rather than an\nelectronic arraignment.\n* NB Expired September 1, 1983\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

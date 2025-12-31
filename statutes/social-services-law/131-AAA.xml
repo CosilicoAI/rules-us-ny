@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-AAA"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-AAA"/>
+          <FRBRdate date="2022-04-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="131-AAA"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-AAA/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-AAA/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-131-AAA/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-131-AAA/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_131_AAA">
+        <num>131-AAA</num>
+        <heading>Availability of adverse childhood experiences services</heading>
+        <content>
+          <p>  § 131-aaa. Availability of adverse childhood experiences services.\nEach local social services district shall be required to make available\nto applicants and recipients of public assistance who are a parent,\nguardian, custodian or otherwise responsible for a child's care,\neducational materials developed pursuant to subdivision two of section\nthree hundred seventy-c of this article to educate them about adverse\nchildhood experiences, the importance of protective factors and the\navailability of services for children at risk for or suffering from\nadverse childhood experiences. The educational materials may be made\navailable electronically and shall be offered at the time of application\nand recertification.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

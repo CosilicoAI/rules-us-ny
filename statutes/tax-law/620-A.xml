@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-620-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-620-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="620-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-620-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-620-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-620-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-620-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_620_A">
+        <num>620-A</num>
+        <heading>Credit against separate tax</heading>
+        <subsection eId="sec_620_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. A resident shall be\nallowed a credit against the separate tax otherwise due under section\nsix hundred three for any income tax imposed for the taxable year by\nanother state of the United States, a political subdivision of such\nstate, the District of Columbia or a province of Canada, upon the\nordinary income portion (or part thereof) of a lump sum distribution\nboth derived therefrom and subject to tax under such section. Where such\nordinary income portion (or part thereof) of a lump sum distribution is\nnot subject to separate income taxation by such other state or its\npolitical subdivision or the District of Columbia or a province of\nCanada, but is included as income under an income tax imposed by such\njurisdiction, the portion of the tax on such income which constitutes\nthe income tax imposed on such ordinary income portion (or part thereof)\nof a lump sum distribution shall be an amount bearing the same ratio to\nthe entire tax paid to such other jurisdiction as the amount of the\nordinary income portion (or part thereof) of a lump sum distribution\nincluded in the income subject to such tax bears to all income subject\nto such tax.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_620_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Limitations.</p>
+          </content>
+          <paragraph eId="sec_620_A__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>The credit under this section shall not exceed\nthe percentage of the tax otherwise due under section six hundred three\ndetermined by dividing the portion of the taxpayer's ordinary income\nportion of a lump sum distribution taxable both under section six\nhundred three and by such other jurisdiction by the total amount of the\ntaxpayer's ordinary income portion of a lump sum distribution taxable\nunder section six hundred three.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_620_A__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>The credit under this section shall not reduce the tax otherwise\ndue under section six hundred three to an amount less than would have\nbeen due if the portion of the ordinary income portion of a lump sum\ndistribution taxable both under section six hundred three and by such\nother jurisdiction were excluded from the computation of the separate\ntax imposed under section six hundred three.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_620_A__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>In the case of a taxpayer who elects to claim the foreign tax\ncredit for federal income tax purposes, the credit under this section\nfor income tax imposed by a province of Canada shall be allowed for that\nportion of the provincial tax not claimed for federal purposes for the\ntaxable year or a preceding taxable year, provided however, to the\nextent the provincial tax is claimed for federal purposes for a\nsucceeding taxable year, the credit under this section must be added\nback in such succeeding taxable year. The provincial tax shall be deemed\nto be claimed last for federal income tax purposes and for purposes of\nthis subsection.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

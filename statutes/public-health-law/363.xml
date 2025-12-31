@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-363"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-363"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="363"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-363/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-363/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-363/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-363/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_363">
+        <num>363</num>
+        <heading>Certain cities; appointment of deputy commissioners and others; removal</heading>
+        <content>
+          <p>  § 363. Certain cities; appointment of deputy commissioners and others;\nremoval. 1. The commissioner of health in cities having a population of\nfifty thousand to one hundred seventy-five thousand may appoint and at\npleasure remove a deputy commissioner of health who shall be qualified\nas prescribed in the sanitary code.\n  2. The commissioner of health in cities having a population of fifty\nthousand to one hundred seventy-five thousand or health officer in\ncities having a population of less than fifty thousand shall appoint\nsuch subordinates as shall be prescribed by the board of estimate and\napportionment or other board or authority in such cities which is by\ncharter authorized to designate the number of employees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

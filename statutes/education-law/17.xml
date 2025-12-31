@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-17"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-17"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-17/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-17/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-17/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-17/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17">
+        <num>17</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 17. Application. Nothing in this article shall:\n  1. Apply to private, religious or denominational educational\ninstitutions; or\n  2. Preclude or limit any right or cause of action provided under any\nlocal, state or federal ordinance, law or regulation including but not\nlimited to any remedies or rights available under the Individuals With\nDisabilities Education Act, Title VII of the Civil Rights Law of 1964,\nsection 504 of the Rehabilitation Act of 1973 or the Americans with\nDisabilities Act of 1990.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

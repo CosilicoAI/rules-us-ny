@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-H"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-H"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="630-H"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_630_H">
+        <num>630-H</num>
+        <heading>New York state campaign finance fund check-off</heading>
+        <subsection eId="sec_630_H__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For each\ntaxable year beginning on and after January first, two thousand twenty,\nevery resident taxpayer whose New York state income tax liability for\nthe taxable year for which the return is filed is forty dollars or more\nmay designate on such return that forty dollars be paid into the New\nYork state campaign finance fund established by section ninety-two-t of\nthe state finance law. Where a husband and wife file a joint return and\nhave a New York state income tax liability for the taxable year for\nwhich the return is filed is eighty dollars or more, or file separate\nreturns on a single form, each such taxpayer may make separate\ndesignations on such return of forty dollars to be paid into the New\nYork state campaign finance fund. The contribution shall not reduce the\namount of state tax owed by such taxpayer.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_630_H__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Notwithstanding any other provision of law, all revenue\ncontributed pursuant to this section shall be credited to the New York\nstate campaign finance fund, established pursuant to section\nninety-two-t of the state finance law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_630_H__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The commissioner shall include space on the personal income tax\nreturn to enable a taxpayer to make such contribution for a tax year\nbeginning on or after January first, two thousand twenty.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

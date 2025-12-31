@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-F"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="187-F"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_187_F">
+        <num>187-F</num>
+        <heading>Order of credits</heading>
+        <content>
+          <p>  § 187-f. Order of credits. Credits allowable under this article which\ncannot be carried over and which are not refundable shall be deducted\nfirst. Credits allowable under this article which can be carried over,\nand carryovers of such credits, shall be deducted next, and among such\ncredits, those whose carryover is of limited duration shall be deducted\nbefore those whose carryover is of unlimited duration. Credits allowable\nunder this article which are refundable shall be deducted last.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

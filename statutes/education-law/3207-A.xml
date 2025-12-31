@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3207-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3207-A"/>
+          <FRBRdate date="2023-07-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3207-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3207-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3207-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3207-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3207-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3207_A">
+        <num>3207-A</num>
+        <heading>Service of persons seventeen years of age as election inspectors or poll clerks</heading>
+        <content>
+          <p>  § 3207-a. Service of persons seventeen years of age as election\ninspectors or poll clerks. A school district may permit an enrolled\nstudent, with the consent of such student's parent, guardian, or other\nperson in parental relation, to serve as an election inspector or poll\nclerk pursuant to section 3-400 of the election law (and other\napplicable provisions of this chapter and the labor law). For the\npurposes of attendance, any student so serving while school is in\nsession shall be recorded as in attendance.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

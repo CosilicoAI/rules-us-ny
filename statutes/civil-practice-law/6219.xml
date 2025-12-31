@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6219"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6219"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6219"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6219/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6219/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6219/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6219/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6219">
+        <num>6219</num>
+        <heading>Garnishee's statement</heading>
+        <content>
+          <p>  § 6219. Garnishee's statement. Within ten days after service upon a\ngarnishee of an order of attachment, or within such shorter time as the\ncourt may direct, the garnishee shall serve upon the sheriff a statement\nspecifying all debts of the garnishee to the defendant, when the debts\nare due, all property in the possession or custody of the garnishee in\nwhich the defendant has an interest, and the amounts and value of the\ndebts and property specified.  If the garnishee has money belonging to,\nor is indebted to, the defendant in at least the amount of the\nattachment, he may limit his statement to that fact.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

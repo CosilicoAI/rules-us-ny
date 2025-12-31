@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2121"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2121"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2121"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2121/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2121/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2121/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2121/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2121">
+        <num>2121</num>
+        <heading>Communicable diseases; duty of committed patients; discipline</heading>
+        <content>
+          <p>  § 2121. Communicable diseases; duty of committed patients; discipline.\n1. Every person committed under the provisions of this article shall\nobserve all the rules and regulations of the hospital or institution to\nwhich he is committed.\n  2. Any person so committed who neglects or refuses to obey the rules\nand regulations of the institution may by direction of the chief medical\nofficer of the institution be placed apart from the other patients.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

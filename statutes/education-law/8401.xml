@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8401"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8401"/>
+          <FRBRdate date="2022-07-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8401"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8401/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8401/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8401/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8401/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8401">
+        <num>8401</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 8401. Definitions. For purposes of this article, the following terms\nshall have the following meanings:\n  1. "Board" means the state board for mental health practitioners\nauthorized by section eighty-four hundred six of this article.\n  2. "Psychotherapy" means the treatment of mental, nervous, emotional,\nbehavioral and addictive disorders, and ailments by the use of both\nverbal and behavioral methods of intervention in interpersonal\nrelationships with the intent of assisting the persons to modify\nattitudes, thinking, affect, and behavior which are intellectually,\nsocially and emotionally maladaptive.\n  3. "Diagnosis" means the process of distinguishing, beyond a general\nassessment, between similar mental, emotional, behavioral,\ndevelopmental, and addictive disorders, impairments, and disabilities\nwithin a psychosocial framework on the basis of their similar and unique\ncharacteristics consistent with accepted classification systems.\n  4. "Development of assessment-based treatment plans" means the\ndevelopment of an integrated plan of prioritized interventions, that is\nbased on the diagnosis and psychosocial assessment of the client, to\naddress mental, emotional, behavioral, developmental, and addictive\ndisorders, impairments, and disabilities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

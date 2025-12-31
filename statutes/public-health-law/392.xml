@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-392"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-392"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="392"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-392/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-392/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-392/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-392/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_392">
+        <num>392</num>
+        <heading>Consolidated health district; status of existing local boards of health</heading>
+        <content>
+          <p>  § 392. Consolidated health district; status of existing local boards\nof health. 1. When any consolidated health district is established, as\nprovided in this article, the boards of health of the towns, villages or\ncities included within such district, shall thereupon cease to exist as\nboards of health, and all their rights, powers, duties and obligations\nshall thereupon be transferred to the board of health of such district.\n  2. When the board of health of any such consolidated health district\nshall have appointed a health officer therefor, the terms of office of\nthe health officers of the towns, villages or cities included in such\ndistrict shall cease, and all their rights, powers, duties and\nobligations shall thereupon be transferred to and imposed upon the\nhealth officer appointed for such consolidated health district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

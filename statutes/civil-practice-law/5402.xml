@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5402"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5402"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5402"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5402/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5402/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5402/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5402/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5402">
+        <num>5402</num>
+        <heading>Filing and status of foreign judgments</heading>
+        <subsection eId="sec_5402__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Filing. A copy of\nany foreign judgment authenticated in accordance with an act of congress\nor the statutes of this state may be filed within ninety days of the\ndate of authentication in the office of any county clerk of the state.\nThe judgment creditor shall file with the judgment an affidavit stating\nthat the judgment was not obtained by default in appearance or by\nconfession of judgment, that it is unsatisfied in whole or in part, the\namount remaining unpaid, and that its enforcement has not been stayed,\nand setting forth the name and last known address of the judgment\ndebtor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5402__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Status of foreign judgments. The clerk shall treat the foreign\njudgment in the same manner as a judgment of the supreme court of this\nstate. A judgment so filed has the same effect and is subject to the\nsame procedures, defenses and proceedings for reopening, vacating, or\nstaying as a judgment of the supreme court of this state and may be\nenforced or satisfied in like manner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

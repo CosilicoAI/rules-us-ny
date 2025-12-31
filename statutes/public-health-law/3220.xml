@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3220"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3220"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3220"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3220/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3220/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3220/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3220/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3220">
+        <num>3220</num>
+        <heading>Findings</heading>
+        <content>
+          <p>  § 3220. Findings.  The legislature finds that new techniques of\ngenetic manipulation which allow researchers to accomplish exchanges of\ngenetic material between unlike organisms offer great potential for\nexpanding human knowledge of genetics but also may present significant\nrisks to public health, to the environment and to the health of research\nworkers.  These experiments are being conducted at research institutions\nin New York, including universities, hospitals and industrial\nfacilities. Industry plans to mass-produce recombinant organisms should\nsuch organisms be found to have commercial uses.  Such research and\nproduction should only be conducted under safe conditions as prescribed\nby the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

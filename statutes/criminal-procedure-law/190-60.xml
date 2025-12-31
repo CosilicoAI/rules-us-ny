@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.60"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.60"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190.60"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.60/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.60/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.60/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.60/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_60">
+        <num>190.60</num>
+        <heading>Grand jury; action to be taken</heading>
+        <content>
+          <p>§ 190.60  Grand jury; action to be taken.\n  After hearing and examining evidence as prescribed in section 190.55,\na grand jury may:\n  1.  Indict a person for an offense, as provided in section 190.65;\n  2.  Direct the district attorney to file a prosecutor's information\nwith a local criminal court, as provided in section 190.70;\n  3.  Direct the district attorney to file a request for removal to the\nfamily court, as provided in section 190.71 of this article.\n  4.  Dismiss the charge before it, as provided in section 190.75;\n  5.  Submit a grand jury report, as provided in section 190.85.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

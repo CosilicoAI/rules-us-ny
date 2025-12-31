@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7003"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7003"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7003">
+        <num>7003</num>
+        <heading>When the writ shall be issued</heading>
+        <subsection eId="sec_7003__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Generally. The court to\nwhom the petition is made shall issue the writ without delay on any day,\nor, where the petitioner does not demand production of the person\ndetained or it is clear that there is no disputable issue of fact, order\nthe respondent to show cause why the person detained should not be\nreleased. If it appears from the petition or the documents annexed\nthereto that the person is not illegally detained or that a court or\njudge of the United States has exclusive jurisdiction to order him\nreleased, the petition shall be denied.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7003__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Successive petitions for writ. A court is not required to issue a\nwrit of habeas corpus if the legality of the detention has been\ndetermined by a court of the state on a prior proceeding for a writ of\nhabeas corpus and the petition presents no ground not theretofore\npresented and determined and the court is satisfied that the ends of\njustice will not be served by granting it.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7003__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Penalty for violation.  For a violation of this section in\nrefusing to issue the writ, a judge, or, if the petition was made to a\ncourt, each member of the court who assents to the violation, forfeits\nto the person detained one thousand dollars, to be recovered by an\naction in his name or in the name of the petitioner to his use.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

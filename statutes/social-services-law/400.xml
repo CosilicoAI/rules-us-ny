@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-400"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-400"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="400"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-400/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-400/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-400/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-400/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_400">
+        <num>400</num>
+        <heading>Removal of children</heading>
+        <content>
+          <p>  § 400.  Removal of children. 1.  When any child shall have been placed\nin an institution or in a family home by a  social services official,\nthe social services official may remove such child from such institution\nor family home and make such disposition of such child as is provided by\nlaw, provided however, that in the case of a child who is a patient in a\nhospital licensed or operated by the office of mental health, such\nsocial services official may remove such child only upon the written\nauthorization of the medical director of the facility in which the child\nis a patient. A medical director may only refuse to authorize the\nremoval of a child if involuntary care and treatment of the child is\nwarranted. In such case the director shall institute necessary civil\ncommitment proceedings in accordance with article nine of the mental\nhygiene law.\n  2.  Any person aggrieved by such decision of a social services\nofficial may appeal to the department pursuant to the provisions of\nsection twenty-two of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

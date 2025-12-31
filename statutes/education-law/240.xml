@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-240"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-240"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="240"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-240/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-240/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-240/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-240/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_240">
+        <num>240</num>
+        <heading>The Stony Brook university Cody center for autism and developmental disabilities at Stony Brook university</heading>
+        <content>
+          <p>  § 240. The Stony Brook university Cody center for autism and\ndevelopmental disabilities at Stony Brook university. The Stony Brook\nuniversity Cody center for autism and developmental disabilities\n(hereinafter the "Cody center") is hereby established under the\njurisdiction of the state university of New York. The Cody center shall\nbe administered as a program of the state university in accordance with\nthe policies of the trustees of the state university.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

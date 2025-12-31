@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-43"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-43"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="43"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-43/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-43/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-43/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_43">
+        <num>43</num>
+        <heading>Transfer of funds to the unemployment insurance occupational training fund</heading>
+        <content>
+          <p>  § 43.  Transfer of funds to the unemployment insurance occupational\ntraining fund.  Notwithstanding any other law, rule or regulation to the\ncontrary, subject to approval by the director of the budget, the state\ncomptroller is hereby authorized and directed to transfer funds from\nother state operations and aid to localities appropriations to the\nunemployment insurance occupational training fund in the department to\nmeet requirements for payment of the state share of individual and\nfamily grants awarded pursuant to the federal disaster relief act of\n1974, public law 93-288.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

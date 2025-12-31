@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-70"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-70"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="70"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-70/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-70/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-70/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_70">
+        <num>70</num>
+        <heading>Habeas corpus for child detained by parent</heading>
+        <subsection eId="sec_70__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Where a minor\nchild is residing within this state, either parent may apply to the\nsupreme court for a writ of habeas corpus to have such minor child\nbrought before such court; and on the return thereof, the court, on due\nconsideration, may award the natural guardianship, charge and custody of\nsuch child to either parent for such time, under such regulations and\nrestrictions, and with such provisions and directions, as the case may\nrequire, and may at any time thereafter vacate or modify such order. In\nall cases there shall be no prima facie right to the custody of the\nchild in either parent, but the court shall determine solely what is for\nthe best interest of the child, and what will best promote its welfare\nand happiness, and make award accordingly.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_70__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any order under this section which applies to rights of visitation\nwith a child remanded or placed in the care of a person, official,\nagency or institution pursuant to article ten of the family court act or\npursuant to an instrument approved under section three hundred\nfifty-eight-a of the social services law, shall be enforceable pursuant\nto the provisions of part eight of article ten of such act, sections\nthree hundred fifty-eight-a and three hundred eighty-four-a of the\nsocial services law and other applicable provisions of law against any\nperson or official having care and custody, or temporary care and\ncustody, of such child.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

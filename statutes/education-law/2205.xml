@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2205"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2205"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2205"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2205/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2205/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2205/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2205/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2205">
+        <num>2205</num>
+        <heading>Qualifications of district superintendent</heading>
+        <content>
+          <p>  § 2205. Qualifications of district superintendent. 1. To be eligible\nto appointment to the office of district superintendent of schools a\nperson must be at least twenty-one years of age, a citizen of the United\nStates and a resident of the state. No person shall be ineligible on\naccount of sex.\n  2. In addition thereto he shall possess or be entitled to a\nsuperintendent's certificate as provided in section three thousand three\nof this chapter.\n  3. A district superintendent who is removed from office shall not be\neligible for appointment to such office in any supervisory district for\na period of five years.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

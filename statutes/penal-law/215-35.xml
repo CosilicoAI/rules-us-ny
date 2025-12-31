@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.35"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.35"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215.35"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.35/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.35/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-215.35/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-215.35/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215_35">
+        <num>215.35</num>
+        <heading>Tampering with physical evidence; definitions of terms</heading>
+        <content>
+          <p>§ 215.35 Tampering with physical evidence; definitions of terms.\n  The following definitions are applicable to section 215.40:\n  1. "Physical evidence" means any article, object, document, record or\nother thing of physical substance which is or is about to be produced or\nused as evidence in an official proceeding.\n  2. "Official proceeding" means any action or proceeding conducted by\nor before a legally constituted judicial, legislative, administrative or\nother governmental agency or official, in which evidence may properly be\nreceived.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

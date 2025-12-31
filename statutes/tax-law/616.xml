@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-616"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-616"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="616"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-616/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-616/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-616/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-616/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_616">
+        <num>616</num>
+        <heading>New York exemptions of a resident individual</heading>
+        <subsection eId="sec_616__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. For\ntaxable years beginning after nineteen hundred eighty-seven, a resident\nindividual shall be allowed a New York exemption of one thousand dollars\nfor each exemption for which he is entitled to a deduction for the\ntaxable year under section one hundred fifty-one</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_616__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of the Internal\nRevenue Code; and for taxable years beginning in nineteen hundred\neighty-seven, a resident individual other than a taxpayer whose federal\nexemption amount is zero shall be allowed a New York exemption of nine\nhundred dollars for each exemption for which he is entitled to a\ndeduction for the taxable year for federal income tax purposes.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_616__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Husband and wife. If the New York income taxes of a husband and\nwife are required to be separately determined but their federal income\ntax is determined on a joint return, each of them shall be separately\nentitled to the New York exemptions under subsection</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_616__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of this section\nto which each would be separately entitled for the taxable year if their\nfederal income taxes had been determined on separate returns.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

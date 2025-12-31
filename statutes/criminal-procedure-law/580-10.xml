@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-580.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-580.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="580.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-580.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-580.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-580.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-580.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_580_10">
+        <num>580.10</num>
+        <heading>Securing attendance of defendants confined as prisoners in institutions of other jurisdictions of the United States; methods</heading>
+        <content>
+          <p>§ 580.10  Securing attendance of defendants confined as prisoners in\n             institutions of other jurisdictions of the United States;\n             methods.\n  The attendance in a criminal action pending in a court of this state\nof a defendant confined as a prisoner in an institution of another\njurisdiction of the United States may, under prescribed circumstances,\nbe secured pursuant to:\n  1.  Section 570.12 of article five hundred seventy, known as the\nuniform criminal extradition act; or\n  2.  Section 580.20, known as the agreement on detainers; or\n  3.  Section 580.30.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0505"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0505"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21-0505"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0505/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0505/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-0505/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-0505/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_0505">
+        <num>21-0505</num>
+        <heading>Cooperation of other officers and agencies</heading>
+        <content>
+          <p>§ 21-0505. Cooperation of other officers and agencies.\n  All state and municipal departments, commissions, boards and bodies\nhaving to do with the waters of the state shall cooperate with the\ncommission and shall furnish to the commission such information as the\ncommission shall request, touching the pollution or the elimination\nthereof, of the waters of the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

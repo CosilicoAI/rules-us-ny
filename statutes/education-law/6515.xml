@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6515"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6515"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6515"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6515/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6515/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6515/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6515/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6515">
+        <num>6515</num>
+        <heading>Restraint of unlawful acts</heading>
+        <content>
+          <p>  § 6515. Restraint of unlawful acts. Where a violation of this title is\nalleged to have occurred, the attorney general, the department or, in\nthe event of alleged violations of article one hundred fifty-five of\nthis title occurring in cities having a population of one million or\nmore, the corporation counsel may apply to the supreme court within the\njudicial district in which such violation is alleged to have occurred\nfor an order enjoining or restraining commission or continuance of the\nunlawful acts complained of. The remedy provided in this section shall\nbe in addition to any other remedy provided by law or to the proceedings\ncommenced against a licensee under this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

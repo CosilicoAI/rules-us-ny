@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0312"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0312"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0312"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0312/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0312/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0312/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0312/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0312">
+        <num>19-0312</num>
+        <heading>Power plant emissions and performance standards</heading>
+        <content>
+          <p>§ 19-0312. Power plant emissions and performance standards.\n  1. Definitions. As used in this section:\n  a. "Mercury" means elemental, oxidized, and particle-bound mercury in\nsource emissions.\n  b. "Major electric generating facility" means any electricity\ngenerating facility with a nameplate capacity of twenty-five thousand\nkilowatts or more.\n  2. Any major electric generating facility shall demonstrate compliance\nwith all applicable emission requirements established by the department\nfor the purpose of complying with all state and federal air quality\nrequirements, including requirements for Sulfur Dioxide, Nitrogen\nOxides, Mercury, Carbon Dioxide and particulate matter of less than 2.5\nmicrons. Such facility must also comply with other applicable department\nair quality requirements relating to offsetting of emissions.\n  3. No later than twelve months after the effective date of this\nsection, the commissioner shall promulgate rules and regulations\ntargeting reductions in emissions of carbon dioxide that would apply to\nmajor electric generating facilities that commenced construction after\nthe effective date of the regulations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

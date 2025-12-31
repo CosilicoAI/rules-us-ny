@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-112-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-112-A"/>
+          <FRBRdate date="2022-03-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="112-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-112-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-112-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-112-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-112-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_112_A">
+        <num>112-A</num>
+        <heading>Students confined in certain facilities; responsibility for issuance of diplomas</heading>
+        <content>
+          <p>  § 112-a. Students confined in certain facilities; responsibility for\nissuance of diplomas. 1. A person under twenty-one years of age who has\nnot received a high school diploma and who is placed with, committed to,\nunder the supervision of, detained or otherwise confined in any facility\noperated or administered by a state department or agency or political\nsubdivision of the state which provides educational programs pursuant to\nsection one hundred twelve of this article, or who is confined in a\ncorrectional facility, as defined in subdivision four of section two of\nthe correction law, and who participates in an educational program\nprovided by such facility, shall be issued a high school diploma by the\nschool district of location except when credit bearing educational\nprogramming is provided by another school district. When credit bearing\neducational programming is provided by another school district, that\ndistrict shall be responsible for issuing the high school diploma. The\nschool district responsible for issuing the diploma must determine if\nsuch person has completed the minimum New York state diploma\nrequirements as set forth in the regulations of the commissioner while\nplaced with, committed to, under the supervision of, detained or\nconfined in such facility.\n  2. For purposes of this section the term "school district of location"\nmeans the school district in which the facility where such youth is\nplaced, committed, supervised, detained or confined is located.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

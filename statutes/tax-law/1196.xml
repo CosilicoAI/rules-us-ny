@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1196"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1196"/>
+          <FRBRdate date="2022-09-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1196"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1196/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1196/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1196/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1196/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1196">
+        <num>1196</num>
+        <heading>Administrative provisions</heading>
+        <subsection eId="sec_1196__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except as otherwise provided\nfor in this article, the taxes imposed by this article shall be\nadministered and collected in a like manner as and jointly with the\ntaxes imposed by sections eleven hundred five and eleven hundred ten of\nthis chapter. In addition, except as otherwise provided in this article,\nall of the provisions of article twenty-eight of this chapter (except\nsections eleven hundred seven, eleven hundred eight, eleven hundred\nnine, and eleven hundred forty-eight) relating to or applicable to the\nadministration, collection and review of the taxes imposed by such\nsections eleven hundred five and eleven hundred ten, including, but not\nlimited to, the provisions relating to definitions, returns, exemptions,\npenalties, tax secrecy, personal liability for the tax, and collection\nof tax from the customer, shall apply to the taxes imposed by this\narticle so far as such provisions can be made applicable to the taxes\nimposed by this article with such limitations as set forth in this\narticle and such modifications as may be necessary in order to adapt\nsuch language to the taxes so imposed. Such provisions shall apply with\nthe same force and effect as if the language of those provisions had\nbeen set forth in full in this article except to the extent that any\nprovision is either inconsistent with a provision of this article or is\nnot relevant to the taxes imposed by this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1196__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The tax imposed by this article is in lieu of and replaces any tax\nas may be imposed under sections eleven hundred sixty, eleven hundred\nsixty-six-a, and eleven hundred sixty-six-b of this chapter.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

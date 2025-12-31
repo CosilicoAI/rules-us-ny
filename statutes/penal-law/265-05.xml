@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-265.05"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-265.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="265.05"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-265.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-265.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-265.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-265.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_265_05">
+        <num>265.05</num>
+        <heading>Unlawful possession of weapons by persons under sixteen</heading>
+        <content>
+          <p>§ 265.05 Unlawful possession of weapons by persons under sixteen.\n  It shall be unlawful for any person under the age of sixteen to\npossess any air-gun, spring-gun or other instrument or weapon in which\nthe propelling force is a spring or air, or any gun or any instrument or\nweapon in or upon which any loaded or blank cartridges may be used, or\nany loaded or blank cartridges or ammunition therefor, or any dangerous\nknife; provided that the possession of rifle or shotgun or ammunition\ntherefor by the holder of a hunting license or permit issued pursuant to\narticle eleven of the environmental conservation law and used in\naccordance with said law shall not be governed by this section.\n  A person who violates the provisions of this section shall be adjudged\na juvenile delinquent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

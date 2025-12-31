@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0705"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0705"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-0705"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0705/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0705/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0705/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0705/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_0705">
+        <num>71-0705</num>
+        <heading>Enforcement</heading>
+        <content>
+          <p>§ 71-0705. Enforcement.\n  1. All police officers and peace officers, when acting pursuant to\ntheir special duties, shall have the power to arrest without warrant any\nperson committing an offense under the provisions of article 9 and may\ntake such persons immediately before a magistrate having jurisdiction\nfor trial, and exercise such other powers of peace officers as may be\nnecessary for the enforcement of the provisions of article 9. No\nemployees, police officers or peace officers shall compromise or settle\nany violation of article 9 without the order of the department.\n  2. In lieu of arrests, such persons designated pursuant hereto may\nissue appearance tickets as provided for in article one hundred fifty of\nthe criminal procedure law to persons committing an offense other than a\nfelony under the provisions of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

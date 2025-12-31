@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4701"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4701"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4701">
+        <num>4701</num>
+        <heading>Establishment of farm schools</heading>
+        <content>
+          <p>  § 4701. Establishment of farm schools.  The board of supervisors or\nother governing elective body of any county outside of the city of New\nYork may adopt a resolution by a majority vote of the members of such\nboard or body establishing a farm school for the purpose of giving\ninstruction in the trades and in industrial, agricultural and homemaking\nsubjects to children of the county not more than eighteen nor less than\neight years of age who may be admitted thereto as provided by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

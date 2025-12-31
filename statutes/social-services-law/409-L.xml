@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-L"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-L"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="409-L"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_409_L">
+        <num>409-L</num>
+        <heading>Advisory board</heading>
+        <content>
+          <p>  § 409-l. Advisory board. An advisory board shall be established by the\ncommissioner to assist in the development and implementation of the case\nmanagement provisions. It will be the responsibility of this board to\nassist in the development of various service models that local social\nservices districts shall employ, assist in the formulation of\nappropriate procedures for evaluating such case management services, and\ndetermine the fiscal impact of such services as defined in section four\nhundred nine-j of this title.  Appointments to the advisory board shall\nbe obtained from public and private organizations providing teenage and\nchild welfare services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

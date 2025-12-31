@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2103"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2103">
+        <num>2103</num>
+        <heading>Ineligibility to office</heading>
+        <content>
+          <p>  § 2103. Ineligibility to office.  1. No district superintendent or\nsupervisor is eligible to the office of trustee or member of a board of\neducation, and no trustee or member of a board of education can hold the\noffice of district clerk, collector, treasurer or librarian, except as\notherwise provided by section twenty-one hundred thirty.\n  2. A person removed from a school district office shall be ineligible\nto appointment or election to any district office for a period of one\nyear from the date of such removal.\n  3. Not more than one member of a family shall be a member of the same\nboard of education in any school district.\n  4. No employee of a board of education may be a member of such board;\nprovided, however, that in a city with a population of one million or\nmore nothing herein shall prohibit an employee of the board of education\nof a community school board from being a member of a community school\nboard except that such employee may not be a member of any community\nschool board that directly employs him.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1106"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1106"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1106">
+        <num>1106</num>
+        <heading>Limitations; city of New York</heading>
+        <content>
+          <p>  § 1106. Limitations; city of New York.  Nothing contained in this\nchapter shall extend the sanitary control of the board of water supply\nof the city of New York, beyond the sources of potable water supply,\ntributary to the Catskill and Delaware aqueducts; and the powers granted\nby this chapter to the board of water supply of the city of New York\nshall cease at the time of the transference of the jurisdiction over the\nsource of water supply, by the board of water supply to the commissioner\nof environmental protection of the city of New York; and at no time\nshall the commissioner of environmental protection of the city of New\nYork and the board of water supply of said city have or exercise\nconcurrent powers or sanitary control over any source of potable water\nsupply tributary to the Catskill or Delaware aqueduct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

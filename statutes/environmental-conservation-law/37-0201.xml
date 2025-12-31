@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0201"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="37-0201"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_0201">
+        <num>37-0201</num>
+        <heading>Legislative findings and intent</heading>
+        <content>
+          <p>§ 37-0201. Legislative findings and intent.\n  The legislature finds and declares that:\n  1. The management of solid waste can pose a wide range of hazards to\npublic health and safety and to the environment; and\n  2. Packaging comprises a significant percentage of the overall solid\nwaste stream; and\n  3. The presence of heavy metals in packaging is a part of the total\nconcern in light of their likely presence in emissions or ash when\npackaging is incinerated, or in leachate when packaging is landfilled;\nand\n  4. Lead, mercury, cadmium and hexavalent chromium, on the basis of\navailable scientific and medical evidence, are of particular concern;\nand\n  5. It is desirable as a first step in reducing the toxicity of\npackaging waste to eliminate the addition of these heavy metals to\npackaging; and\n  6. The intent of this title is to achieve this reduction in toxicity\nwithout impeding or discouraging the expanded use of post-consumer\nmaterials in the production of packaging and its components.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

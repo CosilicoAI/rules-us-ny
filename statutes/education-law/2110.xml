@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2110"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2110"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2110">
+        <num>2110</num>
+        <heading>Penalty for refusal to serve or perform duty</heading>
+        <content>
+          <p>  § 2110. Penalty for refusal to serve or perform duty.  1. Every person\nelected or appointed to a school district office and being duly\nqualified to fill the same who shall refuse to serve therein shall\nforfeit the sum of five dollars.\n  2. Every person elected or appointed to a school district office and\nnot refusing to accept the same who shall wilfully neglect or refuse to\nperform any duty thereof shall by such neglect or refusal vacate his\noffice and also forfeit the sum of ten dollars.\n  3. The district superintendent of the supervisory district wherein any\nsuch person resides may accept his written resignation of the office,\nand the filing of such resignation and acceptance in the office of the\ndistrict clerk shall be a bar to the recovery of either penalty under\nthis section.\n  4. These penalties shall be for the benefit of the district for which\nsuch officer was appointed or elected.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

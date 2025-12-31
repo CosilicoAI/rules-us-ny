@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1191"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1191"/>
+          <FRBRdate date="2022-09-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1191"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1191/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1191/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1191/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1191/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1191">
+        <num>1191</num>
+        <heading>Imposition of state-wide peer-to-peer tax</heading>
+        <subsection eId="sec_1191__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In addition to\nany tax imposed under any other article of this chapter, there is hereby\nimposed on every shared vehicle driver and there shall be paid a tax of\nthree percent of the gross receipts paid by the shared vehicle driver\nfor use of a shared vehicle when the transfer of possession of the\nshared vehicle to the shared vehicle driver occurs in this state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1191__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Except to the extent that the transfer of a shared vehicle\ndescribed in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1191__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of this section has already been or will be\nsubject to the tax imposed under such subdivision and except as\notherwise exempted under this article, there is hereby imposed on every\nshared vehicle driver and there shall be paid a use tax for the use\nwithin this state of any shared vehicle by the shared vehicle driver.\nFor purposes of this subdivision, the tax shall be at the rate of three\npercent of the gross receipts paid or contracted to be paid for such\nshared vehicle.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

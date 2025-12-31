@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6448"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6448"/>
+          <FRBRdate date="2017-08-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6448"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6448/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6448/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6448/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6448/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6448">
+        <num>6448</num>
+        <heading>Privacy in legal challenges</heading>
+        <subsection eId="sec_6448__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>of\nrule three thousand sixteen of the civil practice law and rules, in any\nproceeding brought against an institution which seeks to vacate or\nmodify a finding that a student was responsible for violating an\ninstitution's rules regarding a violation covered by this article, the\nname and identifying biographical information of any student shall be\npresumptively confidential and shall not be included in the pleadings\nand other papers from such proceeding absent a waiver or cause shown as\ndetermined by the court. Such witnesses shall be identified only as\nnumbered witnesses. If such a name or identifying biographical\ninformation appears in a pleading or paper filed in such a proceeding,\nthe court, absent such a waiver or cause shown, shall direct the clerk\nof the court to redact such name and identifying biographical\ninformation and so advise the parties.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

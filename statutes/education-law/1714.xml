@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1714"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1714"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1714"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1714/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1714/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1714/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1714/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1714">
+        <num>1714</num>
+        <heading>Contracts with academies</heading>
+        <content>
+          <p>  § 1714. Contracts with academies.  The board of education of a union\nfree school district, with the approval of the commissioner of\neducation, may adopt an academy as the academic department thereof, and\ncontract for the instruction therein of pupils of academic grade,\nresiding in the district.  The academy thereupon becomes the academic\ndepartment of such union free school district, and the district is\nentitled to the same rights and privileges, is subject to the same\nduties, and the apportionment and distribution of state school money\nshall be made to it, as if an academic department had been established\nin such district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

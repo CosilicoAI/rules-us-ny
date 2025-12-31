@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1006"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1006"/>
+          <FRBRdate date="2023-07-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1006"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1006/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1006/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1006/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1006/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1006">
+        <num>1006</num>
+        <heading>Funding</heading>
+        <content>
+          <p>  § 1006. Funding. The department shall identify and leverage any\navailable funds as necessary, including any private funds provided for\nthe purpose of supporting this article, which may be used to subsidize\nthe New York youth jobs connector program. The department may further\nidentify any private or not-for-profit entities which currently provide\njob placement or training services, or other services described in\nsection one thousand five of this article, whether as the entity's\nprimary purpose or coincidental to such entities' operations. Such\nentities may include, but not be limited to, boys and girls clubs, local\nor state-wide affiliated young persons' organizations, and employer\nassociations. The department may, to the extent practicable, contract\nwith such entities for the explicit purpose of using their membership or\nstaff to directly seek out and notify unemployed youths between the ages\nof sixteen and twenty-four years about the New York youth jobs connector\nprogram and the services offered thereunder.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

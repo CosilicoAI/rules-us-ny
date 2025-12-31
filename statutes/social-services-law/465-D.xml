@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-D"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="465-D"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_465_D">
+        <num>465-D</num>
+        <heading>Criteria for high risk areas</heading>
+        <content>
+          <p>  § 465-d. Criteria for high risk areas. In selecting those areas which\nwould be determined to be high risk and therefore eligible for a grant,\nthe commissioner may consider factors including, but not limited to:\n  1. fifty percent or more of those potentially eligible are not\nparticipating in the food stamp program or where a significant number of\nthe population potentially eligible, particularly the working poor and\nthe elderly, are not participating;\n  2. twenty-five percent or more of children are eligible for free or\nreduced price meals within the school lunch program;\n  3. infant mortality or morbidity rates;\n  4. economic indicators including, but not limited to, the unemployment\nrate, prevailing wages, and recent loss of job base;\n  5. high concentration of at risk populations; and\n  6. unavailability of food assistance programs in the area because of\nlack of provider participation or knowledge about the existence of such\nprograms.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

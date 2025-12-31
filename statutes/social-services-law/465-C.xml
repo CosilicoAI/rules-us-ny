@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-C"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-C"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="465-C"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_465_C">
+        <num>465-C</num>
+        <heading>Grants to community organizations</heading>
+        <content>
+          <p>  § 465-c. Grants to community organizations. The commissioner shall\nmake grants within the amount appropriated therefor to community-based\norganizations or consortia of community-based organizations in high risk\nareas for outreach activities. Such outreach activities shall include\nbut not be limited to:\n  1. identification of barriers to participation in food assistance\nprograms including the unavailability of such programs;\n  2. information as to program availability, individual or household\neligibility, and application procedure;\n  3. identification of at risk populations and individuals within the at\nrisk populations who are not participating;\n  4. assistance with eligibility requirements including verification and\nenrollment;\n  5. dissemination of information to and conducting training sessions\nfor local groups; and\n  6. nutrition education to at risk populations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

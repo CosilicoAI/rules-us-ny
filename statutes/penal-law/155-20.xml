@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="155.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-155.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-155.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_155_20">
+        <num>155.20</num>
+        <heading>Larceny; value of stolen property</heading>
+        <subsection eId="sec_155_20__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The value of an instrument constituting an evidence of debt, such\nas a check, draft or promissory note, shall be deemed the amount due or\ncollectable thereon or thereby, such figure ordinarily being the face\namount of the indebtedness less any portion thereof which has been\nsatisfied.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_155_20__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The value of a ticket or equivalent instrument which evidences a\nright to receive a transportation, entertainment or other service shall\nbe deemed the price stated thereon, if any; and if no price is stated\nthereon the value shall be deemed the price of such ticket or equivalent\ninstrument which the issuer charges the general public.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_155_20__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The value of any other instrument which creates, releases,\ndischarges or otherwise affects any valuable legal right, privilege or\nobligation shall be deemed the greatest amount of economic loss which\nthe owner of the instrument might reasonably suffer by virtue of the\nloss of the instrument.\n  3. Where the property consists of gas, steam, water or electricity,\nwhich is provided for charge or compensation, the value shall be the\nvalue of the property stolen in any consecutive twelve-month period.\n  4. When the value of property cannot be satisfactorily ascertained\npursuant to the standards set forth in subdivisions one and two of this\nsection, its value shall be deemed to be an amount less than two hundred\nfifty dollars.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

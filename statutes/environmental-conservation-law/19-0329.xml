@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0329"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0329"/>
+          <FRBRdate date="2021-11-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0329"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0329/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0329/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0329/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0329/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0329">
+        <num>19-0329</num>
+        <heading>Certain fuel oil; prohibited</heading>
+        <content>
+          <p>§ 19-0329. Certain fuel oil; prohibited.\n  1. On and after July first, two thousand twenty-three, no fuel oil,\ngrade number six, as classified by ASTM International D396-15c, shall be\nused for the purpose of providing heat for any building or facility in\nthe state.\n  2. Nothing in this section shall prevent a municipality from adopting\na law, code, ordinance or regulation which is more stringent than the\nrequirements of this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

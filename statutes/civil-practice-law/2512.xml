@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2512"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2512"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2512"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2512">
+        <num>2512</num>
+        <heading>Undertaking by the state, municipal corporation or public officer</heading>
+        <content>
+          <p>  § 2512. Undertaking by the state, municipal corporation or public\nofficer. 1. Any provision of law authorizing or requiring an undertaking\nto be given by a party shall be construed as excluding the state, a\ndomestic municipal corporation or a public officer in behalf of the\nstate or of such a corporation. Such parties shall, however, be liable\nfor damages as provided in such provision of law in an amount not\nexceeding an amount which shall be fixed by the court whenever it would\nrequire an undertaking of a private party.\n  2. Where an appeal is taken by any such party, only the court to which\nthe appeal is taken may fix the amount which shall limit the liability\nfor damages pursuant to this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

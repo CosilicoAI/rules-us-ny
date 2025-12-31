@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7802"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7802"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7802"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7802/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7802/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7802/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7802/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7802">
+        <num>7802</num>
+        <heading>Parties</heading>
+        <subsection eId="sec_7802__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Definition of "body or officer". The expression\n"body or officer" includes every court, tribunal, board, corporation,\nofficer, or other person, or aggregation of persons, whose action may be\naffected by a proceeding under this article\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7802__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Persons whose terms of office have expired; successors.  Whenever\nnecessary to accomplish substantial justice, a proceeding under this\narticle may be maintained against an officer exercising judicial or\nquasi-judicial functions, or member of a body whose term of office has\nexpired. Any party may join the successor of such officer or member of a\nbody or other person having custody of the record of proceedings under\nreview.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7802__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Prohibition in favor of another. Where the proceeding is brought\nto restrain a body or officer from proceeding without or in excess of\njurisdiction in favor of another, the latter shall be joined as a party.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7802__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Other interested persons. The court may direct that notice of the\nproceeding be given to any person. It may allow other interested persons\nto intervene.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

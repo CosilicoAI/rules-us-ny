@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0920"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0920"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="33-0920"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0920/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0920/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0920/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0920/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_0920">
+        <num>33-0920</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 33-0920. Definitions.\n  For the purposes of this title:\n  1. "Aquatic antifouling paint application business" shall mean a\nbusiness that commercially applies aquatic antifouling paints.\n  2. "Aquatic antifouling paints" are pesticide products used on vessel\nhulls, boat bottoms, structures and other marine surfaces to inhibit the\ngrowth of aquatic organisms.\n  3. "Application of aquatic antifouling paint" shall mean the\ncommercial application of aquatic antifouling paints.\n  4. "Aquatic antifouling paint applicator" shall be a person certified\nby the department pursuant to section 33-0921 of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

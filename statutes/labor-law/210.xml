@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-210"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-210"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-210/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-210/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-210/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210">
+        <num>210</num>
+        <heading>Proceedings for nonenforcement</heading>
+        <content>
+          <p>  § 210. Proceedings for nonenforcement. Any officer, agent or employee\nof this state or of a municipal corporation therein having a duty to act\nin the premises who violates, evades or knowingly permits the violation\nof any of the provisions of this chapter shall be guilty of malfeasance\nin office and shall be suspended or removed by the authority having\npower to appoint or remove such officer, agent or employee; otherwise by\nthe governor.  Any citizen of this state may maintain proceedings for\nthe suspension or removal of such officer, agent or employee who\nknowingly permits the violation of any of the provisions of this\nchapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

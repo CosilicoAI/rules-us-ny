@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="425-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425_A">
+        <num>425-A</num>
+        <heading>Presumption of taxability</heading>
+        <content>
+          <p>  § 425-a. Presumption of taxability. For the purpose of the proper\nadministration of the taxes imposed by this article and to prevent\nevasion thereof, it shall be presumed with respect to this chapter that\nall alcoholic beverages possessed or found in this state are subject to\nthe taxes imposed by this article until the contrary is established by\nsubstantial evidence. Except with respect to a purchase at retail of\nbeers or wines and a purchase at retail of ninety liters or less of\nliquors, no person shall purchase alcoholic beverages in this state\nunless the taxes imposed by this article with respect to such beverages\nhave been assumed by a distributor registered under this article or paid\nby such distributor pursuant to and in accordance with the manner\nprovided herein and evidenced in accordance with the manner provided\nherein. In the case of liquors, such taxes shall be assumed by a\ndistributor in accordance with the invoice required, and the\ncertification of tax payment included therein, under section four\nhundred twenty-seven of this article; in the case of other alcoholic\nbeverages, the taxes shall be assumed by such distributor pursuant to\nand in accordance with the rules or regulations of the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-660.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-660.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="660.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-660.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-660.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-660.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-660.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_660_30">
+        <num>660.30</num>
+        <heading>Examination of witnesses conditionally; when and to what courts application may be made</heading>
+        <subsection eId="sec_660_30__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If the action is pending in a local criminal court as a result of\nan accusatory instrument filed therewith, the application must be made\nto and determined by such local criminal court;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_660_30__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the defendant has been held by a local criminal court for the\naction of a grand jury on the basis of a felony complaint, or if an\nindictment has been filed against him, the application must be made to\nand determined by the superior court by which the grand jury was or is\nto be impaneled or in which the indictment is pending. If the superior\ncourt by which the grand jury is to be impaneled is the supreme court,\nthe motion may, in the alternative, be made in the county court of the\ncounty in which the action is pending.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

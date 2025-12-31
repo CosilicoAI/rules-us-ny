@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1520"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1520"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1520"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1520/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1520/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1520/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1520/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1520">
+        <num>1520</num>
+        <heading>Sale of property of dissolved district and disposition of proceeds</heading>
+        <content>
+          <p>  § 1520. Sale of property of dissolved district and disposition of\nproceeds.  1. When a district is divided into portions, which are\nannexed to other districts, its property shall be sold by the supervisor\nof the town or towns, within which its schoolhouse is situated, at\npublic auction after at least five days' notice.\n  2. Such notice shall be given by posting the same in three or more\npublic places of the town or towns in which the schoolhouse is situated\nand in one conspicuous place in the district so dissolved.\n  3. The supervisor, after deducting the expenses of the sale, shall\napply its proceeds to the payment of the debts of the district, and\napportion the residue, if any, among the owners or possessors of taxable\nproperty in the district, in the ratio of their several assessments on\nthe last corrected assessment-roll of the towns, and pay it over\naccordingly.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

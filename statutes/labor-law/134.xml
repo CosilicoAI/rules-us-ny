@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-134"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-134"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="134"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-134/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-134/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-134/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_134">
+        <num>134</num>
+        <heading>Placement of minors by employment agencies</heading>
+        <content>
+          <p>  § 134. Placement of minors by employment agencies. No employment\nagency shall place a minor in any employment, or shall procure or\nattempt to procure for a minor, any employment, unless such employment\nis authorized or permitted by the provisions of this article. The term\n"employment agency" as used in this section means and includes any\nperson, firm or corporation, as owner, agent, manager, employee, officer\nof a corporation, contractor, sub-contractor, or in any other capacity,\nplacing in employment or procuring or attempting to procure employment\nfor a minor, or for giving information as to where or of whom such\nemployment may be procured.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

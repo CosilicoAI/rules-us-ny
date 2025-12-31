@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="482"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_482">
+        <num>482</num>
+        <heading>Deposit and disposition of revenue</heading>
+        <subsection eId="sec_482__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>All taxes, fees,\ninterest and penalties collected or received by the commissioner under\nthis article and article twenty-A of this chapter shall be deposited and\ndisposed of pursuant to the provisions of section one hundred\nseventy-one-a of this chapter.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_482__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>From the taxes, interest and\npenalties collected or received by the commissioner under sections four\nhundred seventy-one and four hundred seventy-one-a of this article,\neffective on and after March first, two thousand, forty-nine and\nfifty-five hundredths, and effective on and after February first, two\nthousand two, forty-three and seventy hundredths; and effective on and\nafter May first, two thousand two, sixty-four and fifty-five hundredths;\nand effective on and after April first, two thousand three, sixty-one\nand twenty-two hundredths percent; and effective on and after June\nthird, two thousand eight, seventy and sixty-three hundredths percent;\nand effective on and after July first, two thousand ten, seventy-six\npercent collected or received under those sections must be deposited to\nthe credit of the tobacco control and insurance initiatives pool to be\nestablished and distributed by the commissioner of health in accordance\nwith section twenty-eight hundred seven-v of the public health law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

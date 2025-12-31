@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-120.09"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-120.09"/>
+          <FRBRdate date="2024-07-26" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120.09"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-120.09/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-120.09/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-120.09/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-120.09/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_09">
+        <num>120.09</num>
+        <heading>Assault on a judge</heading>
+        <content>
+          <p>§ 120.09 Assault on a judge.\n  A person is guilty of assault on a judge when, with intent to prevent\na judge from performing official judicial duties, such person causes\nserious physical injury to such judge. For the purposes of this section,\nthe term judge shall mean a judge of a court of record or a justice\ncourt.\n  Assault on a judge is a class C felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

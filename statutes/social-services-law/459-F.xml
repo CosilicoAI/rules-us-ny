@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-459-F"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-459-F"/>
+          <FRBRdate date="2019-04-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="459-F"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-459-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-459-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-459-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-459-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_459_F">
+        <num>459-F</num>
+        <heading>Payment for services</heading>
+        <content>
+          <p>  § 459-f. Payment for services. Payments by a social services district\nto a residential program for victims of domestic violence for the costs\nof emergency shelter and services provided to a victim of domestic\nviolence at the daily reimbursement rate determined by the department in\naccordance with section one hundred thirty-one-u of this chapter shall\nbe reduced by the sum of any other reimbursement available for such\ncosts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

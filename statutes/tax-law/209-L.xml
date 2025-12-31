@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-209-L"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-209-L"/>
+          <FRBRdate date="2019-01-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="209-L"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-209-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-209-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-209-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-209-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_209_L">
+        <num>209-L</num>
+        <heading>Gift for ALS research and education</heading>
+        <content>
+          <p>  * § 209-L. Gift for ALS research and education. Effective for any tax\nyear commencing on or after January first, two thousand nineteen, a\ntaxpayer in any taxable year may elect to contribute to the support of\nthe New York state ALS (Amyotrophic Lateral Sclerosis) research and\neducation fund. Such contribution shall be in any whole dollar amount\nand shall not reduce the amount of the state tax owed by such taxpayer.\nThe commissioner shall include space on the corporate income tax return\nto enable a taxpayer to make such contribution. Notwithstanding any\nother provision of law, all revenues collected pursuant to this section\nshall be credited to the New York state ALS research and education fund\nand shall be used only for those purposes enumerated in section\nninety-five-i of the state finance law.\n  * NB There are 3 § 209-L's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

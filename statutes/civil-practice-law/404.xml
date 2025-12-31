@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-404"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-404"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="404"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-404/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-404/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-404/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-404/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_404">
+        <num>404</num>
+        <heading>Objections in point of law</heading>
+        <subsection eId="sec_404__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>By respondent. The respondent\nmay raise an objection in point of law by setting it forth in his answer\nor by a motion to dismiss the petition, made upon notice within the time\nallowed for answer. If the motion is denied, the court may permit the\nrespondent to answer, upon such terms as may be just; and unless the\norder specifies otherwise, such answer shall be served and filed within\nfive days after service of the order with notice of entry; and the\npetitioner may re-notice the matter for hearing upon two days' notice,\nor the respondent may re-notice the matter for hearing upon service of\nthe answer upon seven days' notice.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_404__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>By petitioner. The petitioner may raise an objection in point of\nlaw to new matter contained in the answer by setting it forth in his\nreply or by moving to strike such matter on the day the petition is\nnoticed or re-noticed to be heard.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

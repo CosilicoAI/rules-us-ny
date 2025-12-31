@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1718"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1718"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1718"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1718/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1718/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1718/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1718/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1718">
+        <num>1718</num>
+        <heading>Limitation upon expenditures</heading>
+        <content>
+          <p>  § 1718. Limitation upon expenditures.  1. No board of education shall\nincur a district liability in excess of the amount appropriated by a\ndistrict meeting unless such board is specially authorized by law to\nincur such liability.\n  2. Notwithstanding the provisions of subdivision one of this section,\ngrants in aid received from the state and federal governments for\nspecific purposes, other state grants in aid identified by the\ncommissioner for general use as specified by the board of education,\nother gifts which are required to be spent for particular objects or\npurposes and insurance proceeds received for the loss, theft, damage or\ndestruction of real or personal property, when proposed to be used or\napplied to repair or replace such property, may be appropriated by\nresolution of the board of education at any time for such objects or\npurposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

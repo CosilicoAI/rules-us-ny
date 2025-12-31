@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-703"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-703"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="703"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-703/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-703/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_703">
+        <num>703</num>
+        <heading>Federal aid; allotments to municipalities and local health districts</heading>
+        <content>
+          <p>  § 703. Federal aid; allotments to municipalities and local health\ndistricts. 1. Notwithstanding the provisions of any general, special or\nlocal law, the governing body of any municipal corporation or of any\nhealth district by a majority vote may authorize the proper officials of\nsuch municipal corporation or local health district to accept grants or\nallotments made to such municipal corporation or health district by the\ncommissioner for the purpose of extending or improving within such\nmunicipal corporation or local health district the maternal and child\nhealth services, the care and treatment of children with physical\ndisabilities, and other public health work.\n  2. The commissioner is authorized and empowered to prescribe the terms\nand conditions, not inconsistent with law, which must be fulfilled, and\nthe standards of service which must be met by the authorities of any\nmunicipal corporation or health district in order to receive such\nallotment of federal-aid moneys.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

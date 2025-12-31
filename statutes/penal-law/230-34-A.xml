@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.34-A"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.34-A"/>
+          <FRBRdate date="2018-11-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.34-A"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.34-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.34-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.34-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.34-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_34_A">
+        <num>230.34-A</num>
+        <heading>Sex trafficking of a child</heading>
+        <subsection eId="sec_230_34_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A person "advances prostitution" when, acting other than as a\nperson in prostitution or as a patron thereof, and with intent to cause\nprostitution, he or she directly engages in conduct that facilitates an\nact or enterprise of prostitution.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_230_34_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A person "profits from prostitution" when, acting other than as a\nperson in prostitution receiving compensation for personally rendered\nprostitution services, and with intent to facilitate prostitution, he or\nshe accepts or receives money or other property pursuant to an agreement\nor understanding with any person whereby he or she participates in the\nproceeds of prostitution activity.\n  Sex trafficking of a child is a class B felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

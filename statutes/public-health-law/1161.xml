@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1161"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1161"/>
+          <FRBRdate date="2015-03-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1161"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1161/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1161/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1161/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1161/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1161">
+        <num>1161</num>
+        <heading>Eligible projects; priority ranking</heading>
+        <subsection eId="sec_1161__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>public health and safety; (ii)\npopulation affected; (iii) attainment of state drinking water quality\ngoals and standards; (iv) taking into consideration the water resources\nmanagement strategy pursuant to title twenty-nine of article fifteen of\nthe environmental conservation law;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1161__subsec_v">
+          <num>(v)</num>
+          <content>
+            <p>taking into consideration future\nphysical climate risk due to sea level rise, and/or storm surges and/or\nflooding, based on available data predicting the likelihood of future\nextreme weather events, including hazard risk analysis data if\napplicable; and (vi) compliance with state and federal law, rules and\nregulations.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-281"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-281"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="281"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-281/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-281/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-281/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_281">
+        <num>281</num>
+        <heading>Fireproof receptacles</heading>
+        <content>
+          <p>  § 281. Fireproof receptacles. Every factory shall be provided with\nproperly covered fireproof receptacles, the number, style and location\nof which shall be approved in the city of New York by the fire\ncommissioner and elsewhere by the commissioner. There shall be deposited\nin such receptacles waste materials, cuttings and rubbish of an\ninflammable nature. No waste materials, cuttings or rubbish shall be\npermitted to accumulate on the floors of any factory but shall be\nremoved therefrom not less than twice each day. All such waste\nmaterials, cuttings and rubbish shall be entirely removed from a factory\nbuilding at least once a day, except that baled waste material may be\nstored in fireproof enclosures. All such baled waste material shall be\nremoved from the building at least once a month.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

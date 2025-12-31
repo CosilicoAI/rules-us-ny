@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-150"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-150"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="150"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-150/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-150/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-150/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150">
+        <num>150</num>
+        <heading>Penalty for neglect to report or for making false report</heading>
+        <content>
+          <p>  § 150. Penalty for neglect to report or for making false report.  1.\nAny commissioner of public welfare, deputy commissioner, town or city\npublic welfare officer, service officer, or any officer or employee who\nshall neglect or refuse to render any account, statement or report\nrequired by or pursuant to this chapter, or who shall delay, neglect or\nrefuse to forward any application for public assistance or care, or\nshall wilfully make false report or shall neglect to pay over any money\nwithin the time required by law, shall forfeit two hundred dollars and\nshall be liable to an action for all money which shall be in his hands\nwith the interest thereon after the time the same should have been paid\nover.\n  2. Any officer, department or board, in case of failure to receive an\napplication for public assistance and care, or a report or account\nrequired by this chapter, shall notify the district attorney having\nauthority in such public welfare district.\n  3. The district attorney, upon receiving such notice, shall prosecute\nin the name of such officer, department or board for the recovery of the\npenalty or of such money, or both. The penalty and the sum recovered\nshall be deposited in the public welfare fund of the public welfare\ndistrict or of a town or city thereof, as the case may be.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

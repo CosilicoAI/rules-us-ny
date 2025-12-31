@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-715"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-715"/>
+          <FRBRdate date="2025-09-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="715"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-715/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-715/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-715/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-715/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_715">
+        <num>715</num>
+        <heading>Application of article</heading>
+        <subsection eId="sec_715__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>employees of any employer who concedes to and agrees\nwith the board that such employees are subject to and protected by the\nprovisions of the federal railway labor act;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_715__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>employees where the\nnational labor relations board successfully asserts jurisdiction over\nany employer, employees, trades, or industries pursuant to an order by\nthe federal district court established under article three of the United\nStates constitution; or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_715__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>employees of the state or of any political\nor civil subdivision or other agency thereof.\n  2. For all other employees, the board shall, upon application and\nverification, promptly certify the exclusive bargaining representative\nof any bargaining unit previously certified by another state or federal\nagency. All existing terms and conditions of employment between a\ncertified exclusive bargaining representative and an employer shall\nremain in full force and effect through the board's verification\nprocess.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

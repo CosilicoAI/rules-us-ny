@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-650"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-650"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="650"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-650/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-650/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-650/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-650/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_650">
+        <num>650</num>
+        <heading>Statement of public policy</heading>
+        <content>
+          <p>  § 650. Statement of public policy.  There are persons employed in some\noccupations in the state of New York at wages insufficient to provide\nadequate maintenance for themselves and their families. Such employment\nimpairs the health, efficiency, and well-being of the persons so\nemployed, constitutes unfair competition against other employers and\ntheir employees, threatens the stability of industry, reduces the\npurchasing power of employees, and requires, in many instances, that\nwages be supplemented by the payment of public moneys for relief or\nother public and private assistance. Employment of persons at these\ninsufficient rates of pay threatens the health and well-being of the\npeople of this state and injures the overall economy.\n  Accordingly, it is the declared policy of the state of New York that\nsuch conditions be eliminated as rapidly as practicable without\nsubstantially curtailing opportunities for employment or earning power.\nTo this end minimum wage standards shall be established and maintained.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

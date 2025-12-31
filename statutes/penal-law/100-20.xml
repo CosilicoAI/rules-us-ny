@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-100.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-100.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_20">
+        <num>100.20</num>
+        <heading>Criminal solicitation; exemption</heading>
+        <content>
+          <p>§ 100.20 Criminal solicitation; exemption.\n  A person is not guilty of criminal solicitation when his solicitation\nconstitutes conduct of a kind that is necessarily incidental to the\ncommission of the crime solicited. When under such circumstances the\nsolicitation constitutes an offense other than criminal solicitation\nwhich is related to but separate from the crime solicited, the actor is\nguilty of such related and separate offense only and not of criminal\nsolicitation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-NNNNNNN"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-NNNNNNN"/>
+          <FRBRdate date="2023-10-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1449-NNNNNNN"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-NNNNNNN/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-NNNNNNN/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-NNNNNNN/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-NNNNNNN/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1449_NNNNNNN">
+        <num>1449-NNNNNNN</num>
+        <heading>Miscellaneous</heading>
+        <content>
+          <p>  * § 1449-nnnnnnn. Miscellaneous. The local law adopted by the\nlegislative body of the county of Cortland may contain such other\nprovisions as such legislative body deems necessary for the proper\nadministration of the tax imposed pursuant to this article, including\nprovisions concerning the determination of tax, the imposition of\ninterest on underpayments and overpayments and the imposition of civil\npenalties. Such provisions shall be identical to the corresponding\nprovisions of the real estate transfer tax imposed by article thirty-one\nof this chapter, so far as such provisions can be made applicable to the\ntax imposed pursuant to this article.\n  * NB Repealed October 25, 2030\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

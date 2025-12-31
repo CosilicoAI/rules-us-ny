@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5901"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5901"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5901"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5901/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5901/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5901/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5901/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5901">
+        <num>5901</num>
+        <heading>Statement of objectives and legislative findings</heading>
+        <content>
+          <p>  § 5901. Statement of objectives and legislative findings.  The\nlegislative process, involving determination of public needs and\naspirations, the allocation of funds between private and public sectors,\nthe order of priorities within the public sector, the maintenance of\nstability within our society, the invigoration of the productive forces\nof the state, is a dynamic system.  As society becomes more specialized\nand scientific advances multiply and the legislature's role in decision\nmaking increases, it becomes more necessary than ever that the\nlegislative process provide an avenue for responsible closing of the gap\nbetween technological know-how and our social institutions.\n  The legislature finds that in order to promote public interest and\nwelfare, it is essential that there be provided a central institution\nwhere research, training and information on the legislative process be\nprovided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

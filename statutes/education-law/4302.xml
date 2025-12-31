@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4302"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4302"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4302"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4302/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4302/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4302/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4302/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4302">
+        <num>4302</num>
+        <heading>Object of institution</heading>
+        <content>
+          <p>  § 4302. Object of institution.  The primary object of the school shall\nbe, to furnish to the blind children of the state the best known\nfacilities for acquiring a thorough education, and to train them in some\nuseful profession or manual art, by means of which they may be enabled\nto contribute to their own support after leaving the school; but it may\nlikewise, through its industrial department, provide such of them with\nappropriate employment and boarding accommodations as find themselves\nunable, after completing their course of instruction and training, to\nprocure these elsewhere for themselves.  It shall, however, be in no\nsense an asylum for those who are helpless from age, infirmity or\notherwise, or a hospital for the treatment of blindness.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

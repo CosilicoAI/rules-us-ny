@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-41"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-41"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="41"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-41/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-41/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-41/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-41/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_41">
+        <num>41</num>
+        <heading>Legislative findings and purpose</heading>
+        <content>
+          <p>  § 41. Legislative findings and purpose. The legislature hereby finds\nthat large numbers of people in communities across our state are unable\nto secure housing for themselves and are living in the streets or in\nemergency shelters, despite current efforts by public and private\nagencies to provide adequate housing for those in need; that the present\ncondition is contrary to the public interest and threatens the health,\nsafety, welfare, comfort and security of the people of the state; that\ncommunities across the state must each do their share to assist the\nhomeless; and that the public interest requires that state financial\nassistance be provided to construct or rehabilitate housing units for\nthe homeless in communities throughout New York state and to explore\nalternative means of meeting their long-term housing needs, consistent\nwith the fiscal constraints faced by New York state. The legislature,\ntherefore, finds that a special fund should be established, to fund\ncapital programs sponsored by not-for-profit corporations, charitable\norganizations, wholly owned subsidiaries of not-for-profit corporations\nor of charitable organizations, public corporations and municipalities\nthat will expand and improve the supply of shelter and other housing\narrangements for homeless persons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-35"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-35"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="35"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-35/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-35/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-35/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-35/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35">
+        <num>35</num>
+        <heading>Use of electronic means of communication</heading>
+        <content>
+          <p>  * § 35. Use of electronic means of communication. Notwithstanding any\nother provision of New York state law, where the department has obtained\nauthorization of an online services account holder, in such form as may\nbe prescribed by the commissioner, the department may use electronic\nmeans of communication to furnish any document it is required to mail\nper law or regulation. If the department furnishes such document in\naccordance with this section, department records of such transaction\nshall constitute appropriate and sufficient proof of delivery thereof\nand be admissible in any action or proceeding. Provided, however, that\nif a taxpayer uses a department system to access taxpayer information,\nincluding, but not limited to, notices, documents and account balance\ninformation, that is not an electronic communication furnished in lieu\nof mailing in accordance with this section, such accessed information\nshall not give the taxpayer the right to a hearing in the division of\ntax appeals, unless the right to protest such information is expressly\nauthorized by this chapter or another provision of law.\n  * NB There are 2 § 35's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3806"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3806"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3806"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3806/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3806/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3806/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3806/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3806">
+        <num>3806</num>
+        <heading>Penalty for failure to render an account or pay over any balance</heading>
+        <content>
+          <p>  § 3806. Penalty for failure to render an account or pay over any\nbalance.  Every school officer in the city of New York who shall refuse\nor neglect to render an account or to pay over any balance in his hands\nat the expiration of his term of office shall for each offense forfeit\nthe sum of fifty dollars, which sum, together with such unpaid balance,\nshall be sued for and collected by the board of education of such city,\nwhich board shall prosecute without delay for the recovery of such\nforfeiture, together with the unpaid balance; and in case of the death\nof such school officer suit may be brought against his representatives,\nand all moneys recovered, after deducting expenses, shall be placed at\nthe disposal of the board of education of such city.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

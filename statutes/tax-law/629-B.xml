@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-629-B"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-629-B"/>
+          <FRBRdate date="2021-11-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="629-B"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-629-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-629-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-629-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-629-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_629_B">
+        <num>629-B</num>
+        <heading>Gift for substance use disorder education and recovery</heading>
+        <content>
+          <p>  § 629-b. Gift for substance use disorder education and recovery.\nEffective for any tax year commencing on or after January first, two\nthousand twenty-one, an individual in any taxable year may elect to\ncontribute to the substance use disorder education and recovery fund.\nSuch contribution shall be in any whole dollar amount and shall not\nreduce the amount of state tax owed by such individual. The commissioner\nshall include space on the personal income tax return to enable a\ntaxpayer to make such contribution. Notwithstanding any other provision\nof law all revenues collected pursuant to this section shall be credited\nto the substance use disorder education and recovery fund and used only\nfor those purposes enumerated in section eighty-nine-j of the state\nfinance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

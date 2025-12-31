@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1715"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1715"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1715"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1715/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1715/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1715/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1715/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1715">
+        <num>1715</num>
+        <heading>Retransfer of academy to its former trustees</heading>
+        <content>
+          <p>  § 1715. Retransfer of academy to its former trustees.  If there shall\nbe, in a dissolved union free school district, an academy which shall\nhave been adopted as the academic department of the union free school\ndistrict, under the provisions of title nine, chapter five hundred\nfifty-five of the laws of eighteen hundred sixty-four, and any amendment\nthereof, or title eight of chapter five hundred fifty-six of the laws of\neighteen hundred ninety-four, and any amendment thereof, or under this\nchapter, it shall, upon the application of a majority of the surviving\nresident former trustees or stockholders, be transferred by the board of\neducation to said former trustees or stockholders.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

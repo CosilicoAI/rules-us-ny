@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-16"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-16"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="16"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-16/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-16/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-16/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-16/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_16">
+        <num>16</num>
+        <heading>Summary action</heading>
+        <content>
+          <p>  § 16. Summary action.  Whenever the commissioner, after investigation,\nis of the opinion that any person is causing, engaging in or maintaining\na condition or activity which in his opinion constitutes danger to the\nhealth of the people, and that it therefore appears to be prejudicial to\nthe interests of the people to delay action for fifteen days until an\nopportunity for a hearing can be provided in accordance with the\nprovisions of section twelve-a of this chapter, the commissioner shall\norder the person, including any state agency or political subdivision\nhaving jurisdiction, by written notice to discontinue such dangerous\ncondition or activity or take certain action immediately or within a\nspecified period of less than fifteen days.  As promptly as possible\nthereafter, within not to exceed fifteen days, the commissioner shall\nprovide the person an opportunity to be heard and to present any proof\nthat such condition or activity does not constitute a danger to the\nhealth of the people.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

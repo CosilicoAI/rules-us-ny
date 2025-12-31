@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1370-E"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1370-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1370-E"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1370-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1370-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1370-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1370-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1370_E">
+        <num>1370-E</num>
+        <heading>Reporting lead exposure levels</heading>
+        <subsection eId="sec_1370_E__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>in health districts of less than fifty\nthousand population not having a full-time health officer, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1370_E__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>in\nstate institutions shall be reported directly to the department or its\ndistrict health officer.\n  3. Whenever an analysis of a clinical specimen for lead is performed\nby a laboratory or a physician or authorized practitioner, the director\nof such laboratory or such physician or authorized practitioner shall,\nwithin such period specified by the commissioner report the results and\nany related information in connection therewith to the local and state\nhealth officer to whom a physician or authorized practitioner is\nrequired to report such cases pursuant to this section.\n  4. The person in charge of every hospital, clinic, or other similar\npublic or private institution shall give notice of every child with an\nelevated blood lead level coming under the care of the institution to\nthe local or state health officer to whom a physician or authorized\npractitioner is required to report such cases pursuant to this section.\n  5. The notices required by this section shall be in a form and filed\nin such time period as shall be prescribed by the commissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

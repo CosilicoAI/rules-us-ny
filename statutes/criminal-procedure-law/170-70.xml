@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-170.70"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-170.70"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170.70"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-170.70/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-170.70/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-170.70/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-170.70/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170_70">
+        <num>170.70</num>
+        <heading>Release of defendant upon failure to replace misdemeanor complaint by information</heading>
+        <content>
+          <p>§ 170.70 Release of defendant upon failure to replace misdemeanor\n        complaint by information.\n  Upon application of a defendant against whom a misdemeanor complaint\nis pending in a local criminal court, and who, either at the time of his\narraignment thereon or subsequent thereto, has been committed to the\ncustody of the sheriff pending disposition of the action, and who has\nbeen confined in such custody for a period of more than five days, not\nincluding Sunday, without any information having been filed in\nreplacement of such misdemeanor complaint, the criminal court must\nrelease the defendant on his own recognizance unless:\n  1.  The defendant has waived prosecution by information and consented\nto be prosecuted upon the misdemeanor complaint, pursuant to subdivision\nthree of section 170.65; or\n  2.  The court is satisfied that there is good cause why such order of\nrelease should not be issued.  Such good cause must consist of some\ncompelling fact or circumstance which precluded replacement of the\nmisdemeanor complaint by an information or a prosecutor's information\nwithin the prescribed period.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

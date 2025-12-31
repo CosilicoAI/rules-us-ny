@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-120.85"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-120.85"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="120.85"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-120.85/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-120.85/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-120.85/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-120.85/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_120_85">
+        <num>120.85</num>
+        <heading>Child-sensitive arrests</heading>
+        <content>
+          <p>§ 120.85 Child-sensitive arrests.\n  A state or local law enforcement officer who arrests an individual\nlegally charged with the care or custody of a child less than eighteen\nyears old shall to the extent practicable, at the time of the arrest,\ntake appropriate action that is conducive to the child's safety and/or\nsecurity and is consistent with the policies and procedures established\npursuant to section two hundred fourteen-i or paragraph (f-2) of\nsubdivision three of section eight hundred forty of the executive law as\napplicable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

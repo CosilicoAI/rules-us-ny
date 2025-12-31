@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3211-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3211-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3211-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3211-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3211-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3211-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3211-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3211_A">
+        <num>3211-A</num>
+        <heading>Reports of reading tests</heading>
+        <content>
+          <p>  § 3211-a. Reports of reading tests.  The results of any standardized\nreading test administered by a district or school to determine the level\nat which a pupil is capable of reading shall be reported to the parents\n(including persons in parental relationship) of any pupil who shall\nattain a score at the twenty-third percentile or below. Local school\ndistricts shall determine the means of reporting these scores to\nparents. If the parent requests an interpretation of such test results,\nsuch scores shall be interpreted for the parent by a certified teacher\nof reading, or, in the absence of a certified teacher of reading, by\nother appropriate school district personnel.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

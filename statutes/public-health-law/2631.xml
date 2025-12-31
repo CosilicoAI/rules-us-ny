@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2631"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2631"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2631"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2631/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2631/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2631/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2631/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2631">
+        <num>2631</num>
+        <heading>Board of visitors; special provision</heading>
+        <content>
+          <p>  § 2631. Board of visitors; special provision.  The board of visitors\nof each such home shall consist of nine members appointed from the\nmembers of the New York departments of the major organizations of war\nveterans to which charters have been issued by Acts of Congress or of\ntheir women's auxiliaries. The terms of office of such visitors\nhereafter appointed shall be five years, and they shall be so appointed\nthat the terms of two of the members shall expire on the first day of\nFebruary of each year, except that the term of but one member shall so\nexpire every fifth year. Appointments shall be so made that there will\nbe at all times four women and five men members of such board.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-25.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-25.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="25.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-25.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-25.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-25.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-25.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_25_00">
+        <num>25.00</num>
+        <heading>Defenses; burden of proof</heading>
+        <content>
+          <p>§ 25.00 Defenses; burden of proof.\n  1. When a "defense," other than an "affirmative defense," defined by\nstatute is raised at a trial, the people have the burden of disproving\nsuch defense beyond a reasonable doubt.\n  2. When a defense declared by statute to be an "affirmative defense"\nis raised at a trial, the defendant has the burden of establishing such\ndefense by a preponderance of the evidence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

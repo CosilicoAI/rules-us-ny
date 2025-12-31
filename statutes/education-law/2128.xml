@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2128"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2128"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2128"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2128/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2128/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2128/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2128/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2128">
+        <num>2128</num>
+        <heading>Remedy of trustees against collector in default</heading>
+        <content>
+          <p>  § 2128.  Remedy of trustees against collector in default.  For the\nrecovery of all such forfeitures, and of all balances, in the hands of\nthe collector, which he shall have neglected or refused to pay to his\nsuccessor, or to the treasurer of such district, the trustees, in the\nname of their office, shall have their remedy upon the official\nundertaking of the collector, or any action and any remedy given by law;\nand they shall apply all such moneys, when recovered, in the same manner\nas if paid without suit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

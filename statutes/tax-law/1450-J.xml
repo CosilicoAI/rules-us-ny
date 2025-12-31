@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1450-J"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1450-J"/>
+          <FRBRdate date="2025-11-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1450-J"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1450-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1450-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1450-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1450-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1450_J">
+        <num>1450-J</num>
+        <heading>Refunds</heading>
+        <content>
+          <p>  * § 1450-j. Refunds. Whenever the treasurer shall determine that any\nmoneys received under the provisions of the local law enacted pursuant\nto this article were paid in error, they may cause such moneys to be\nrefunded pursuant to such requirements as they may prescribe, provided\nthat any application for such refund is filed with the treasurer within\ntwo years from the date the erroneous payment was made.\n  * NB Effective February 19, 2026\n  * NB Repealed December 31, 2045\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

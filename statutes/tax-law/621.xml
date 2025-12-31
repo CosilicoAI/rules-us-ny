@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-621"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-621"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="621"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-621/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-621/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-621/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-621/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_621">
+        <num>621</num>
+        <heading>Credits to trust beneficiary receiving accumulation distribution</heading>
+        <subsection eId="sec_621__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. A resident beneficiary of a trust whose New\nYork adjusted gross income includes all or part of an accumulation\ndistribution by such trust, as defined in section six hundred sixty-five\nof the internal revenue code, including a beneficiary who is required to\nmake the modification required by paragraph forty of subsection</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_621__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of\nsection six hundred twelve of this part, shall be allowed</p>
+          </content>
+          <paragraph eId="sec_621__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>a credit\nagainst the tax otherwise due under this article for all or a\nproportionate part of any tax paid by the trust under this article or\nunder former article sixteen of this chapter (as such article was in\neffect on or before December thirtieth, nineteen hundred sixty), for any\npreceding taxable year which would not have been payable if the trust\nhad in fact made distributions to its beneficiaries at the times and in\nthe amounts specified in section six hundred sixty-six of the internal\nrevenue code; and</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_621__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>a credit against the taxes imposed by this article\nfor the taxable year for any income tax imposed on the trust for the\ntaxable year or any prior taxable year by another state of the United\nStates, a political subdivision thereof, or the District of Columbia,\nupon income both derived therefrom and subject to tax under this\narticle, provided that the amount of the credit shall not exceed the\npercentage of the tax otherwise due under this article determined by\ndividing the portion of the income that is both taxable to the trust in\nsuch other jurisdiction and taxable to the beneficiary under this\narticle by the total amount of the beneficiary's New York income.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_621__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Limitation. The credits under this section shall not reduce the\ntax otherwise due from the beneficiary under this article to an amount\nless than would have been due if the accumulation distribution or his\npart thereof were excluded from his New York adjusted gross income.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

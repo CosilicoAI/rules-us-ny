@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-14-0105"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-14-0105"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="14-0105"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-14-0105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-14-0105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-14-0105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-14-0105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_14_0105">
+        <num>14-0105</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>§ 14-0105. Definitions.\n  As used in this article:\n  1. "Coastal waters" means lakes Erie and Ontario, the St. Lawrence and\nNiagara rivers, the Hudson river south of the federal dam at Troy, the\nEast river, the Harlem river, the Kill von Kull, and Arthur Kill, Long\nIsland sound, and the Atlantic ocean, and their connecting water bodies,\nbays, harbors, shallows, and marshes.\n  2. "Coastal ecosystems" mean the resources of coastal waters and their\nwatersheds.\n  3. "Council" means the New York ocean and Great Lakes ecosystem\nconservation council created by section 14-0107 of this article.\n  4. "Submerged aquatic vegetation" means native underwater plants found\nin coastal waters, including but not limited to, eelgrass (Zostera\nmarina), widgeon grass (Ruppia maritima), wild celery (Vallisineria\nAmericana), and pondweed (Potomageton crispus).\n  5. "Submerged aquatic vegetation meadows" means those habitats in\ncoastal waters vegetated with one or more species of submerged aquatic\nvegetation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

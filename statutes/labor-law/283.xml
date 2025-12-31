@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-283"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-283"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="283"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-283/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-283/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-283/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-283/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_283">
+        <num>283</num>
+        <heading>Smoking</heading>
+        <content>
+          <p>  § 283. Smoking. 1. No person shall smoke in a factory. A notice of\nsuch prohibition stating the penalty for violation thereof shall be kept\nposted in every entrance hall, elevator, stairhall and room of a factory\nin English, and in such other languages as the fire commissioner of the\ncity of New York in such city and elsewhere the commissioner shall\ndirect.\n  2. The board in its rules may permit smoking in protected portions of\na factory, or in such classes of occupancies where in its opinion the\nsafety of the employees will not be endangered thereby. The fire\ncommissioner of the city of New York in such city and elsewhere the\ncommissioner may issue such permits in accordance with rules adopted by\nthe board.\n  3. The fire commissioner of the city of New York in such city and\nelsewhere the commissioner shall enforce this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-203"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203">
+        <num>203</num>
+        <heading>Officers</heading>
+        <content>
+          <p>  § 203. Officers.  The elective officers of the university shall be a\nchancellor and a vice-chancellor who shall serve without salary, and\nsuch other officers as are deemed necessary by the regents, all of whom\nshall be chosen by ballot by the regents and shall hold office during\ntheir pleasure; but no election, removal or change of salary of an\nelective officer shall be made by less than six votes in favor thereof.\nEach regent and each elective officer shall, before entering on his\nduties, take and file with the secretary of state the oath of office\nrequired of state officers.\n  The chancellor shall preside at all convocations and at all meetings\nof the regents, and confer all degrees which they shall authorize.  In\nhis absence or inability to act, the vice-chancellor, or if he be also\nabsent, the senior regent present, shall perform all the duties and have\nall the powers of the chancellor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

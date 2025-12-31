@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-18-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-18-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="18-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-18-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-18-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-18-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-18-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_18_A">
+        <num>18-A</num>
+        <heading>Disclosure of information</heading>
+        <subsection eId="sec_18_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>information related to the health care professional's educational\nbackground, experience, training, specialty, and board certification, if\napplicable;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_18_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>affiliation with any health care facility licensed pursuant to\narticle twenty-eight, thirty-six or forty-four of this chapter, and any\nfacility licensed pursuant to article nineteen, twenty-three, thirty-one\nor thirty-two of the mental hygiene law;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_18_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>information regarding the health care professional's participation\nin continuing education programs and compliance with any licensure,\ncertification or registration requirements, if applicable; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_18_A__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>information regarding the health care professional's participation\nin clinical performance reviews conducted by the department where\napplicable and where available.\n  2. Nothing contained herein shall require written disclosure of the\ninformation described in subdivision one by the health care professional\nto the patient.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

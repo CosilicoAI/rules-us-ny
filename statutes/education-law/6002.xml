@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6002"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6002"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6002"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6002/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6002/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6002/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6002/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6002">
+        <num>6002</num>
+        <heading>Objects and purposes</heading>
+        <content>
+          <p>  § 6002. Objects and purposes.  The college shall have as its objects\nand purposes: 1. Teaching in the science and practice of environmental\nscience and forestry in its several branches including landscape\narchitecture; environmental design; environmental and resource\nengineering; environmental and resource management; wildlife studies;\nbiology, chemistry, ecology; the manufacture and marketing of forest\nproducts; and the technologies appropriate to these branches of\nenvironmental science and forestry.\n  2. The conduct of research, investigation, and experimentation\nrelating to such studies wherever appropriate, including suburban or\nurban areas, and in commercial or industrial facilities.\n  3. The conduct of experiments in forest and related resource\ndevelopment and management for public, commercial, recreational and\naesthetic purposes, and, generally the giving of popular instruction and\ninformation concerning the elements of environmental science and\nforestry.\n  4. The operation of demonstration and public service programs with a\nview to acquiring, transmitting, and applying knowledge concerning the\nscientific management and use of forest and related natural resources\nfor human benefit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

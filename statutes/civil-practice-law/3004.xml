@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3004"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3004"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3004"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3004/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3004/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3004/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3004/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3004">
+        <num>3004</num>
+        <heading>Where restoration of benefits before judgment unnecessary</heading>
+        <content>
+          <p>  § 3004. Where restoration of benefits before judgment unnecessary. A\nparty who has received benefits by reason of a transaction that is void\nor voidable because of fraud, misrepresentation, mistake, duress,\ninfancy or incompetency, and who, in an action or by way of defense or\ncounterclaim, seeks rescission, restitution, a declaration or judgment\nthat such transaction is void, or other relief, whether formerly\ndenominated legal or equitable, dependent upon a determination that such\ntransaction was void or voidable, shall not be denied relief because of\na failure to tender before judgment restoration of such benefits; but\nthe court may make a tender of restoration a condition of its judgment,\nand may otherwise in its judgment so adjust the equities between the\nparties that unjust enrichment is avoided.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

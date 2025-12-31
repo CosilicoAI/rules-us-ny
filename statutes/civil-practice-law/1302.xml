@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1302"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1302"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1302"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1302/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1302/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1302/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1302/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1302">
+        <num>1302</num>
+        <heading>Action brought on relation of a person</heading>
+        <content>
+          <p>  § 1302. Action brought on relation of a person. Where an action is\nbrought by the attorney-general on the relation or information of a\nperson having an interest in the question, the complaint shall allege,\nand the title of the action shall show, that the action is so brought.\nAs a condition of bringing an action for the benefit of a person having\nan interest in the question, the attorney-general shall require the\nrelator to give an undertaking to indemnify the state against costs and\nexpenses.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-D"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21-D"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-21-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-21-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_D">
+        <num>21-D</num>
+        <heading>Power of commissioner to enter into agreement relating to information obtained by the state directory of new hires</heading>
+        <content>
+          <p>  § 21-d.  Power of commissioner to enter into agreement relating to\ninformation obtained by the state directory of new hires.  The\ndepartment, through the commissioner, shall enter into the agreement\nprovided for in section one hundred seventy-one-h of the tax law, and\nshall take such other actions as may be necessary to carry out the\nagreement provided for in such section for matching beneficiary records\nof workers' compensation and state employment security programs with\ninformation provided by employers to the state directory of new hires\nfor the purposes of verifying eligibility for such benefits and for\nadministering workers' compensation and state employment security\nprograms.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

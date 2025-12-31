@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-1109"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-1109"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="21-1109"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-1109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-1109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-21-1109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-21-1109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_21_1109">
+        <num>21-1109</num>
+        <heading>Budget</heading>
+        <content>
+          <p>§ 21-1109. Budget.\n  The interstate commission on the Lake Champlain basin shall submit\nannually to the Director of the Budget, in accordance with the rules and\npractice of the state, for study and consideration by such Director, an\nestimate of moneys required to administer, manage and support, the\ncommission during the ensuing fiscal year. Such estimate shall include\nany request for appropriation of funds by New York and shall be\naccompanied by a tabulation of similar requests which the commission\nexpects to make to each other member and the formula or factors upon\nwhich such respective requests are based.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

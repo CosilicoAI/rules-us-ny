@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-103"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="103"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_103">
+        <num>103</num>
+        <heading>Form of civil judicial proceedings</heading>
+        <subsection eId="sec_103__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>One form of action.\nThere is only one form of civil action. The distinctions between actions\nat law and suits in equity, and the forms of those actions and suits,\nhave been abolished.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_103__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Action or special proceeding. All civil judicial proceedings shall\nbe prosecuted in the form of an action, except where prosecution in the\nform of a special proceeding is authorized. Except where otherwise\nprescribed by law, procedure in special proceedings shall be the same as\nin actions, and the provisions of the civil practice law and rules\napplicable to actions shall be applicable to special proceedings.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_103__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Improper form. If a court has obtained jurisdiction over the\nparties, a civil judicial proceeding shall not be dismissed solely\nbecause it is not brought in the proper form, but the court shall make\nwhatever order is required for its proper prosecution. If the court\nfinds it appropriate in the interests of justice, it may convert a\nmotion into a special proceeding, or vice-versa, upon such terms as may\nbe just, including the payment of fees and costs.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

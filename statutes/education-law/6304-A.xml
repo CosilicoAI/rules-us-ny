@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6304-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6304-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6304-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6304-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6304-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6304-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6304-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6304_A">
+        <num>6304-A</num>
+        <heading>Reports to local sponsors</heading>
+        <content>
+          <p>  § 6304-A. Reports to local sponsors.  The commissioner shall provide\nthe local sponsor or sponsors with a copy of each program review report\nof the sponsored community college prepared by the department pursuant\nto this chapter. The comptroller shall provide the local sponsor or\nsponsors with a copy of each final audit or final report on the\nsponsored community college prepared by the department of audit and\ncontrol. The president of the higher education services corporation\nshall provide the local sponsor or sponsors with a copy of each report\nof a financial aid program review of the sponsored community college.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-L"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-L"/>
+          <FRBRdate date="2023-10-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="630-L"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-L/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-L/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-630-L/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-630-L/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_630_L">
+        <num>630-L</num>
+        <heading>Gift for diabetes research and education</heading>
+        <content>
+          <p>  * § 630-l. Gift for diabetes research and education. Effective for any\ntax year commencing on or after the effective date of this section, an\nindividual in any taxable year may elect to contribute to the diabetes\nresearch and education fund. Such contribution shall be in any whole\ndollar amount and shall not reduce the amount of state tax owed by such\nindividual. The commissioner shall include space on the personal income\ntax return to enable a taxpayer to make such contribution.\nNotwithstanding any other provision of law all revenues collected\npursuant to this section shall be credited to the diabetes research and\neducation fund and used only for those purposes enumerated in section\neighty-nine-k of the state finance law.\n  * NB There are 2 § 630-l's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

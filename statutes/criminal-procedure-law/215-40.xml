@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-215.40"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-215.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="215.40"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-215.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-215.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-215.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-215.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_215_40">
+        <num>215.40</num>
+        <heading>Dismissal of action; effect thereof; records</heading>
+        <content>
+          <p>§ 215.40 Dismissal of action; effect thereof; records.\n  If an action has not been restored to the calendar within six months,\nor where the defendant has agreed to pay a fine, restitution or\nreparation but has not paid such fine, restitution or reparation, within\none year, of the issuance of an order adjourning the action in\ncontemplation of dismissal, the accusatory instrument shall be deemed to\nhave been dismissed by the court in furtherance of justice at the\nexpiration of such six month or one year period, as the case may be.\nUpon dismissal of an action, the arrest and prosecution shall be deemed\na nullity, and defendant shall be restored to the status he or she\noccupied before his or her arrest and prosecution. All papers and\nrecords relating to an action that has been dismissed pursuant to this\nsection shall be subject to the sealing provisions of section 160.50 of\nthis chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-512"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-512"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-512/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-512/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-512/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512">
+        <num>512</num>
+        <heading>Employer</heading>
+        <subsection eId="sec_512__subsec_f">
+          <num>(f)</num>
+          <paragraph eId="sec_512__subsec_f__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>of such act. Such "labor organizations" shall be considered\nemployers for the purpose of submitting information to the "statewide\nwage reporting system" as provided in section one hundred seventy-one-a\nof the tax law.\n  4. Whenever the commissioner determines that services performed by an\nindividual constitute employment but the supervision, direction and\ncontrol are exercised by one or more entities, and one entity places the\nindividual with, or provides the individual to, another entity to\nperform the services, the entity that pays the individual for the\nservices shall be the employer under this article unless by contract the\nindividual is specified to be the employee of another entity, in which\ncase the other entity shall be the employer. Whenever such employer is\nreplaced by another entity such replacement shall be considered a\ntransfer pursuant to section five hundred eighty-one of this article.\nThis subdivision shall not apply to a payroll agency that the\ncommissio...</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

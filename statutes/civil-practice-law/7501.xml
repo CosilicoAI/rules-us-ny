@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7501"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7501"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7501">
+        <num>7501</num>
+        <heading>Effect of arbitration agreement</heading>
+        <content>
+          <p>  § 7501. Effect of arbitration agreement.  A written agreement to\nsubmit any controversy thereafter arising or any existing controversy to\narbitration is enforceable without regard to the justiciable character\nof the controversy and confers jurisdiction on the courts of the state\nto enforce it and to enter judgment on an award. In determining any\nmatter arising under this article, the court shall not consider whether\nthe claim with respect to which arbitration is sought is tenable, or\notherwise pass upon the merits of the dispute.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

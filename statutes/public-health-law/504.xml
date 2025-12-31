@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-504"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-504"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="504"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-504/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-504/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-504/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-504/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_504">
+        <num>504</num>
+        <heading>Laboratories; scientific tests on living animals; rules; approval</heading>
+        <subsection eId="sec_504__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The commissioner shall promulgate rules under which such\napprovals shall be granted, and shall cause such rules to be published,\nand copies thereof shall be conspicuously posted in each such laboratory\nor institution.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_504__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such rules of the commissioner shall include requirements that all\nanimals shall be kindly and humanely treated, properly fed and suitably\nhoused, and that commensurate with experimental needs and with the\nphysiologic function under study, all tests, experiments and\ninvestigations involving pain shall be performed under adequate\nanesthesia.\n  3. The commissioner or his duly authorized representative shall\ninspect such laboratories or institutions to insure compliance with the\nrules and standards promulgated by him.\n  4.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_504__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The approval of a laboratory or institution by the commissioner\nfor the purposes herein set forth shall be limited to a period not\nexceeding one year but may be renewed from year to year upon proper\napplication to the commissioner.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_504__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each such approval may be revoked at any time for failure to\ncomply with the rules promulgated by the commissioner.\n  5. The performance of animal experimentation without approval by the\ncommissioner as herein provided shall constitute a misdemeanor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

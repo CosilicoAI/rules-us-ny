@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-E"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-E"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_E">
+        <num>111-E</num>
+        <heading>Reimbursement to the state</heading>
+        <content>
+          <p>  §  111-e.  Reimbursement to the state.  1.  A share of any support\npayments collected by the social services official, less any amount\ndisbursed to the family receiving family assistance, shall, subject to\nsection one hundred eleven-f, be paid to the state as reimbursement\ntoward the amount contributed by the state and federal governments to\nassistance furnished to such family.  Such share shall bear the same\nratio to the amounts collected as the state and federal funds bear to\nassistance granted.\n  2.  Whenever one social services district makes collections on behalf\nof a person or family for whom another social services district or\nanother state is responsible for providing assistance, the amount\ncollected shall be paid to the district or such other state responsible\nfor providing such assistance, in accordance with the regulations of the\ndepartment.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

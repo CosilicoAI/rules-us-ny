@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2024"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2024"/>
+          <FRBRdate date="2025-10-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2024"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2024/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2024/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2024/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2024/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2024">
+        <num>2024</num>
+        <heading>Duties of the commissioner</heading>
+        <content>
+          <p>  * § 2024. Duties of the commissioner. The commissioner may promulgate\nany regulations necessary to implement the provisions of this article,\nincluding but not limited to:\n  1. Establishing the form, content, and manner by which providers shall\nreport ALS and MND information into the registry established under\nsection two thousand twenty-two of this article;\n  2. Prescribing the permissible uses for the information made available\nunder this article; and\n  3. Establishing procedures to maintain confidentiality of information\ncollected by providers and provided to members of the department\npursuant to this article. This shall include a procedure to ensure that\nconfidential patient information is deidentified prior to being provided\nto authorized participants under this article.\n  * NB Effective January 14, 2026\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3601"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3601"/>
+          <FRBRdate date="2024-05-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3601"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3601">
+        <num>3601</num>
+        <heading>When apportioned and how applied</heading>
+        <subsection eId="sec_3601__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision three of\nsection thirteen hundred six-a of the real property tax law shall be\nwithheld due to the failure of the school district to submit general\nstate aid claims required by the commissioner, and except that no aids\nshall be withheld due to the failure of a school district to submit the\naudit report required by subdivision three of section twenty-one hundred\nsixteen-a of this chapter until the thirtieth day following the due date\nspecified in this section for such report.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

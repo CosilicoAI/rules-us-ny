@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-87"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-87"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="87"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-87/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-87/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-87/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-87/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_87">
+        <num>87</num>
+        <heading>Special funds</heading>
+        <content>
+          <p>  § 87.  Special funds. 1.  When a county commissioner shall receive any\nmoney as guardian of a minor or to be used for some particular person or\npurpose, he shall deposit it with the county treasurer, who shall keep\nsuch money in a special account to be drawn on by the county\ncommissioner for the person or purpose designated.\n  2.  When a town social services officer shall receive such money he\nshall deposit it in a bank approved by the town supervisor to be drawn\non by the town social services officer and the town supervisor jointly\nfor the person or purpose designated.\n  3.  When a city commissioner of social services shall receive such\nmoney, he shall deposit it with the official having charge of the funds\nof such city, who shall keep it either in a separate account to be\nrequisitioned by the city commissioner or in one or more common trust\nfunds established and maintained pursuant to the charter of such city.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

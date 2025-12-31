@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1374"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1374"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1374"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1374/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1374/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1374/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1374/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1374">
+        <num>1374</num>
+        <heading>Receivership</heading>
+        <subsection eId="sec_1374__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nremoving, replacing, repainting and covering surfaces of the dwelling\nnecessary to effectuate the provisions of the order of abatement,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1374__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>\ninterim operation and management of the dwelling,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1374__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>administration of\nthe receivership.\n  4. As soon as practicable after completion of his duties, the receiver\nshall render a full accounting to the court and, upon payment over of\nany surplus moneys to the owner or other persons as the court may\napprove or direct and upon the order of the court, he shall be relieved\nof any further responsibility or liability in connection with his\nreceivership.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

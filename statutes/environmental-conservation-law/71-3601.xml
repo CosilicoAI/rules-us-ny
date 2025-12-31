@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-3601"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-3601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-3601"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-3601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-3601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-3601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-3601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_3601">
+        <num>71-3601</num>
+        <heading>Declaration of policy and statement of purpose</heading>
+        <content>
+          <p>§ 71-3601. Declaration of policy and statement of purpose.\n  The legislature hereby finds and declares that contaminated site\nremedial programs are an important and necessary component of the\nstate's policy of restoring and revitalizing real property located\nthroughout New York state. The legislature further finds that when an\nenvironmental remediation project leaves residual contamination at\nlevels that have been determined to be safe for a specific use, but not\nall uses, or includes engineered structures that must be maintained or\nprotected against damage to be effective, it is necessary to provide an\neffective and enforceable means of ensuring the performance of\nmaintenance, monitoring or operation requirements, and of ensuring the\npotential restriction of future uses of the land, including restrictions\non drilling for or pumping groundwater for as long as any residual\ncontamination remains hazardous. The legislature declares, therefore,\nthat it is in the public interest to create environmental easements\nbecause such easements are necessary for the protection of human health\nand the environment and to achieve the requirements for remediation\nestablished at contaminated sites.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

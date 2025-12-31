@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-258"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-258"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="258"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-258/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-258/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-258/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-258/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_258">
+        <num>258</num>
+        <heading>Closing of museum; admission fee during certain hours</heading>
+        <content>
+          <p>  § 258. Closing of museum; admission fee during certain hours.  The\ntrustees of any institution supported under this chapter by public\nmoney, in whole or in part, may, so far as consistent with free use by\nthe public at reasonable or specified hours, close any of its museum\ncollections at certain other hours, for study, to meet the demands of\nspecial students or for exhibition purposes, and may charge an admission\nfee at such hours, provided that all receipts from such fees shall be\npaid into the treasury and be used for the maintenance or enlargement of\nthe institution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

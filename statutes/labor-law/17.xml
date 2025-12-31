@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-17"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-17"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-17/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-17/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-17/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-17/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17">
+        <num>17</num>
+        <heading>Expenses</heading>
+        <content>
+          <p>  § 17. Expenses. The commissioner shall devote his entire time to the\nduties of his office. The reasonable and necessary expenses of the\ndepartment and the reasonable and necessary traveling and other expenses\nof the commissioner, deputy commissioner and other officers and\nemployees of the department, while actually engaged in the performance\nof their duties, outside of the city of Albany, or if any such officer\nor employee be in charge of or actually employed at a branch office of\nthe department, the reasonable and necessary traveling and other\nexpenses outside of the place in which such branch office is located,\nshall be paid from the state treasury upon the audit and warrant of the\ncomptroller, upon vouchers approved by the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-585"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-585"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="585"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-585/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-585/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-585/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-585/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_585">
+        <num>585</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 585. Definitions. Whenever used in this title:\n  1. "Health services purveyor" means any person, firm, partnership,\ngroup, association, corporation or professional corporation, or any\nagent, employee, fiduciary, employer or representative thereof,\nincluding but not limited to a physician, dentist, podiatrist or\nchiropractor, either in individual practice, group practice or employed\nin a facility owned by any person, group, association, firm, partnership\nor corporation hiring any of the aforementioned practitioners, who\nprovide health or health related services.\n  2. "Clinical laboratory" shall have the same meaning as is set forth\nin subdivision one of section five hundred seventy-one of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

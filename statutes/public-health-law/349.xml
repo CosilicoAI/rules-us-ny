@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-349"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-349"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="349"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-349/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-349/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-349/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-349/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_349">
+        <num>349</num>
+        <heading>County or part-county boards of health; other health functions; hospitals and laboratories</heading>
+        <content>
+          <p>  § 349. County or part-county boards of health; other health functions;\nhospitals and laboratories.  In any county in which a county health\ndistrict has been or is hereafter established, the boundaries of which\nare coterminous with the county, the board of supervisors shall have\npower to abolish the board of managers of the county tuberculosis\nhospital, or of the county public general hospital, or of the county\nlaboratory, and, if so abolished, shall confer all the powers and duties\nof any or all of such boards of managers upon the county board of\nhealth.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

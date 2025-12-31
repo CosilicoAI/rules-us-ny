@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-A"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="465-A"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_465_A">
+        <num>465-A</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 465-a. Definitions. As used in this article:\n  1. "High risk areas" means any county or urban area where a\nsignificant percentage or number of those potentially eligible for food\nassistance programs are not participating in such programs.\n  2. "Food assistance programs" means programs including but not limited\nto food stamp programs, school breakfast and lunch programs, child care\nfood programs, summer food service programs, special supplemental\nprograms for women, infants and children, congregate meal programs and\nhome delivered meal programs.\n  3. "At risk populations" means populations including but not limited\nto families with children receiving family assistance, households\nreceiving federal supplemental security income payments, households with\nincomes at or below one hundred eighty-five percent of the poverty\nlevel, recipients of emergency food, elderly or disabled persons,\nhomeless persons, unemployed persons, and families and persons residing\nin rural households who are at risk of nutritional deficiencies.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

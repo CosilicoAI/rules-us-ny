@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-709"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-709"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="709"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-709/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-709/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-709/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-709/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_709">
+        <num>709</num>
+        <heading>Punitive provision</heading>
+        <content>
+          <p>  § 709. Punitive provision. Any person who shall wilfully resist,\nprevent, impede, or interfere with any member of the board or any of its\nagents or agencies in the performance of duties pursuant to this\narticle, or who shall in any manner interfere with the free exercise by\nemployees of their right to select representatives in an election\ndirected by the board pursuant to section seven hundred and five, shall\nbe punished by a fine of not more than five thousand dollars or by\nimprisonment for not more than one year, or both.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

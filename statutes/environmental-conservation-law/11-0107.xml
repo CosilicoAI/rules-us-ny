@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-0107"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-0107"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-0107"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-0107/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-0107/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-0107/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-0107/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_0107">
+        <num>11-0107</num>
+        <heading>Application of Fish and Wildlife Law</heading>
+        <content>
+          <p>§ 11-0107. Application of Fish and Wildlife Law.\n  1. No person shall, at any time of the year, pursue, take, wound or\nkill in any manner, number or quantity, any fish protected by law, game,\nprotected wildlife, shellfish, harbor seals, crustacea protected by law,\nor protected insects, except as permitted by the Fish and Wildlife Law.\n  2. No person shall, at any time of the year, buy, sell, offer or\nexpose for sale, transport, or have in his possession any fish protected\nby law, game, protected wildlife, shellfish, harbor seals, crustacea\nprotected by law, or part thereof, or protected insect, whether taken\nwithin the state or coming from without the state, except as permitted\nby the Fish and Wildlife Law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

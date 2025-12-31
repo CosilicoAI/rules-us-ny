@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-488"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-488"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="488"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-488/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-488/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-488/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-488/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_488">
+        <num>488</num>
+        <heading>State and city's right to require redemption of bonds</heading>
+        <content>
+          <p>  § 488. State and city's right to require redemption of bonds.\nNotwithstanding and in addition to any provisions for the redemption of\nbonds which may be contained in any contract with the holders of the\nbonds, either the state or the city of Yonkers may, upon furnishing\nsufficient funds therefor, require the fund to redeem, prior to\nmaturity, as a whole, any issue of bonds on any interest payment date\nnot less than twenty years after the date of the bonds of such issue at\none hundred five per centum of their face value and accrued interest or\nat such lower redemption price as may be provided in the bonds in case\nof the redemption thereof as a whole on the redemption date.  Notice of\nsuch redemption shall be published in at least two newspapers published\nand circulating in the city of Yonkers at least twice, the first\npublication to be at least thirty days before the date of redemption.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

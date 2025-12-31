@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.40"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.40"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-60.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-60.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_40">
+        <num>60.40</num>
+        <heading>Rules of evidence; proof of previous conviction; when allowed</heading>
+        <content>
+          <p>§ 60.40  Rules of evidence; proof of previous conviction; when allowed.\n  1.  If in the course of a criminal proceeding, any witness, including\na defendant, is properly asked whether he was previously convicted of a\nspecified offense and answers in the negative or in an equivocal manner,\nthe party adverse to the one who called him may independently prove such\nconviction.  If in response to proper inquiry whether he has ever been\nconvicted of any offense the witness answers in the negative or in an\nequivocal manner, the adverse party may independently prove any previous\nconviction of the witness.\n  2.  If a defendant in a criminal proceeding, through the testimony of\na witness called by him, offers evidence of his good character, the\npeople may independently prove any previous conviction of the defendant\nfor an offense the commission of which would tend to negate any\ncharacter trait or quality attributed to the defendant in such witness'\ntestimony.\n  3.  Subject to the limitations prescribed in section 200.60, the\npeople may prove that a defendant has been previously convicted of an\noffense when the fact of such previous conviction constitutes an element\nof the offense charged, or proof thereof is otherwise essential to the\nestablishment of a legally sufficient case.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

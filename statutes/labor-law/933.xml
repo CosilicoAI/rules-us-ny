@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-933"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-933"/>
+          <FRBRdate date="2015-07-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="933"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-933/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-933/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-933/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-933/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_933">
+        <num>933</num>
+        <heading>Exemptions</heading>
+        <content>
+          <p>  § 933. Exemptions. The following persons shall not be required to\nobtain a license as provided in this title in order to perform mold\nassessment, remediation, or abatement:\n  1. a residential property owner who performs mold inspection,\nassessment, remediation, or abatement on his or her own property;\n  2. a non-residential property owner, or the employee of such owner,\nwho performs mold assessment, remediation, or abatement on an apartment\nbuilding owned by that person that has not more than four dwelling\nunits;\n  3. an owner or a managing agent or a full-time employee of an owner or\nmanaging agent who performs mold assessment, remediation, or abatement\non commercial property or a residential apartment building of more than\nfour dwelling units owned by the owner provided, however, that this\nsubdivision shall not apply if the managing agent or employee engages in\nthe business of performing mold assessment, remediation, or abatement\nfor the public; and\n  4. a federal, state or local governmental unit or public authority and\nemployees thereof that perform mold assessment, remediation, or\nabatement on any property owned, managed or remediated by such\ngovernmental unit or authority.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

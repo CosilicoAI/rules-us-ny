@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-322"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-322"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="322"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-322/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-322/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-322/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_322">
+        <num>322</num>
+        <heading>Authority for appearance of attorney in real property action</heading>
+        <subsection eId="sec_322__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Authority of plaintiff's attorney. Where the defendant in\nan action affecting real property has not been served with evidence of\nthe authority of the plaintiff's attorney to begin the action, he may\nmove at any time before answering for an order directing the production\nof such evidence. Any writing by the plaintiff or his agent requesting\nthe attorney to begin the action or ratifying his conduct of the action\non behalf of the plaintiff is prima facie evidence of the attorney's\nauthority.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_322__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Authority of non-resident defendant's attorney. The attorney for a\nnon-resident defendant in an action affecting real property shall file\nwith the clerk written authority for his appearance, executed and\nacknowledged in the form required to entitle a deed to be recorded, and\nshall serve either a copy of such authority or notice of such filing on\nthe plaintiff's attorney within twenty days after appearing or making a\nmotion.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_322__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Agencies or wholly-owned corporations of the United States.  This\nrule does not apply to an attorney representing an official, agency or\ninstrumentality of, or corporation wholly owned by, the United States.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

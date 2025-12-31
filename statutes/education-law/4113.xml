@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4113"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4113"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4113"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4113/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4113/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4113/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4113/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4113">
+        <num>4113</num>
+        <heading>Census</heading>
+        <content>
+          <p>  § 4113. Census.  The commissioner of education shall cause to be taken\na complete annual census of the Indian children between birth and\neighteen years of age on any reservation; such census shall be taken\nbetween the first day of May and the last day of August and shall\ninclude all such facts and information as are required by section\nthirty-two hundred forty-one of this chapter. A report of such census\nshall be prepared in duplicate and a copy filed with the commissioner on\nor before the fifteenth day of October.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

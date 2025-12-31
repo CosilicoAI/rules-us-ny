@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2750"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2750"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2750"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2750/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2750/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2750/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2750/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2750">
+        <num>2750</num>
+        <heading>Legislative findings and purpose</heading>
+        <content>
+          <p>  § 2750. Legislative findings and purpose.  One of the three major\ncauses of accidental death in New York state is burn injury, and one of\nthe contributing factors to the high mortality rate from burn injuries\nis the lack of trained individuals and available facilities for the\ntreatment and rehabilitation of the victims of burn injury. In order to\nprovide for the improved delivery of medical care to the victims of burn\ninjury in the state, the department of health shall have the central and\ncomprehensive responsibility for the development and administration of\nthe state's policy with respect to medical care of victims of burn\ninjury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1022"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1022"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1022"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1022/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1022/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1022/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1022/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1022">
+        <num>1022</num>
+        <heading>Substitution: extension of time for taking procedural steps</heading>
+        <content>
+          <p>  § 1022. Substitution: extension of time for taking procedural steps.\nUnless the court orders otherwise, if the time for making a motion for a\nnew trial or for taking an appeal or for making a motion for permission\nto appeal or for taking any other procedural step in the action has not\nexpired before the occurrence of an event permitting substitution of a\nparty, the period is extended as to all parties until fifteen days after\nsubstitution is made, or, in case of dismissal of the action under\nsection 1021, is extended as to all parties until fifteen days after\nsuch dismissal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

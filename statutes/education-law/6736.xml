@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6736"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6736"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6736"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6736/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6736/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6736/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6736/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6736">
+        <num>6736</num>
+        <heading>Exempt persons</heading>
+        <subsection eId="sec_6736__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>applied and paid a fee for the licensing and\nexamination,</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_6736__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>applied and paid a fee for the temporary permit. This\nexemption shall not extend beyond ninety days after graduation;\n</p>
+          </content>
+          <paragraph eId="sec_6736__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>a physical therapist licensed in another state or country from\nconducting a teaching clinical demonstration in connection with a\nprogram of basic clinical education, graduate education, or\npost-graduate education in an approved school of physical therapy or in\nits affiliated clinical facility or health care agency, or before a\ngroup of licensed physical therapists who are members of a professional\nsociety;\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_6736__subsec_b__subsec_4">
+            <num>(4)</num>
+            <content>
+              <p>a physical therapist who is serving in the armed forces or the\npublic health service of the United States or is employed by the\nveterans administration from practicing the profession of physical\ntherapy, provided such practice is limited to such service or\nemployment.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-553"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-553"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="553"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-553/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-553/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-553/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-553/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_553">
+        <num>553</num>
+        <heading>Installments</heading>
+        <content>
+          <p>  § 553. Installments.  The amount to be apportioned to a qualifying\nschool in any current year shall be paid in two equal installments, the\nfirst to be made on or before January fifteenth and the other not later\nthan June fifteenth of such year, except that for the school year\ncommencing July first, nineteen hundred seventy-one such apportionment\nshall be made in one payment on or before June fifteenth, nineteen\nhundred seventy-two.  The commissioner may provide for later payments\nfor the purpose of adjusting and correcting apportionments.  The amount\nto be apportioned to a qualifying school shall be payable on order and\nwarrant of the comptroller on vouchers certified or approved by the\ncommissioner in the manner provided by law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8808"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8808"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8808"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8808/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8808/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8808/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8808/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8808">
+        <num>8808</num>
+        <heading>State board for applied behavior analysis</heading>
+        <subsection eId="sec_8808__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Three licensed behavior analysts;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8808__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>One certified behavior analyst assistant;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8808__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>One licensed psychologist, who may currently prescribe treatment\ninvolving applied behavior analysis in his or her professional practice;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8808__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Two public representatives, as defined in paragraph b of\nsubdivision one of section sixty-five hundred eight of this title.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

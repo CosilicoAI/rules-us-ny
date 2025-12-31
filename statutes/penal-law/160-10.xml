@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-160.10"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-160.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160.10"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-160.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-160.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-160.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-160.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_10">
+        <num>160.10</num>
+        <heading>Robbery in the second degree</heading>
+        <subsection eId="sec_160_10__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Causes physical injury to any person who is not a participant in\nthe crime; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_160_10__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Displays what appears to be a pistol, revolver, rifle, shotgun,\nmachine gun or other firearm; or\n  3. The property consists of a motor vehicle, as defined in section one\nhundred twenty-five of the vehicle and traffic law.\n  Robbery in the second degree is a class C felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

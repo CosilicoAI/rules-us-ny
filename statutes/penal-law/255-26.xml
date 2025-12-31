@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.26"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.26"/>
+          <FRBRdate date="2024-09-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="255.26"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.26/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.26/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.26/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.26/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_255_26">
+        <num>255.26</num>
+        <heading>Incest in the second degree</heading>
+        <content>
+          <p>§ 255.26 Incest in the second degree.\n  A person is guilty of incest in the second degree when he or she\ncommits the crime of rape in the second degree, as defined in section\n130.30 of this part, or a crime formerly defined in section 130.45 of\nthis part, against a person whom he or she knows to be related to him or\nher, whether through marriage or not, as an ancestor, descendant,\nbrother or sister of either the whole or the half blood, uncle, aunt,\nnephew or niece.\n  Incest in the second degree is a class D felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

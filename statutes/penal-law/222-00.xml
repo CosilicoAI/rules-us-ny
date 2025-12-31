@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-222.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-222.00"/>
+          <FRBRdate date="2021-04-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="222.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-222.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-222.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-222.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-222.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222_00">
+        <num>222.00</num>
+        <heading>Cannabis; definitions</heading>
+        <subsection eId="sec_222_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the separated resin, whether crude or purified, obtained from a\nplant of the genus Cannabis; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_222_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a material, preparation, mixture, compound or other substance\nwhich contains more than three percent by weight of delta-9\ntetrahydrocannabinol, or its isomer, delta-8 dibenzopyran numbering\nsystem, or delta-1 tetrahydrocannabinol or its isomer, delta 1</p>
+          </content>
+          <paragraph eId="sec_222_00__subsec_b__subsec_6">
+            <num>(6)</num>
+            <content>
+              <p>\nmonoterpene numbering system.\n  3. For the purposes of this article, "sell" shall mean to sell,\nexchange or dispose of for compensation. "Sell" shall not include the\ntransfer of cannabis or concentrated cannabis between persons twenty-one\nyears of age or older without compensation in the quantities authorized\nin paragraph</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_222_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of subdivision one of section 222.05 of this article.\n  4. For the purposes of this article, "smoking" shall have the same\nmeaning as that term is defined in section three of the cannabis law.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

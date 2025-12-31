@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1322"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1322"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1322"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1322/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1322/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1322/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1322/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1322">
+        <num>1322</num>
+        <heading>Levy upon real property</heading>
+        <content>
+          <p>  § 1322. Levy upon real property. The claiming agent shall levy upon\nany interest of the defendant in real property by filing with the clerk\nof the county in which the property is located a notice of attachment\nendorsed with the name and address of the claiming authority and stating\nthe names of the parties to the action, the amount specified in the\norder of attachment and a description of the property levied upon. The\nclerk shall record and index the notice in the same books, in the same\nmanner and with the same effect, as a notice of the pendency of an\naction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

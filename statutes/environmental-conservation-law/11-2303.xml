@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-2303"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-2303"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="11-2303"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-2303/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-2303/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-11-2303/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-11-2303/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_11_2303">
+        <num>11-2303</num>
+        <heading>Disposition of moneys</heading>
+        <content>
+          <p>§ 11-2303. Disposition of moneys.\n  1. Moneys received in accordance with the terms of any cooperative\nagreement for promoting fish and wildlife conservation practices\npursuant to paragraph d of subdivision 1 of section 11-2101 unless\notherwise expressly provided, shall be deposited in the conservation\nfund as provided by section 83 of the State Finance Law to be available,\nafter appropriation by the Legislature, for any of the purposes\nspecified in that section.\n  2. Any moneys received by gift or devise pursuant to subdivision 2 of\nsection 11-2103 shall be deposited and disbursed as provided by sections\n11 and 83 of the State Finance Law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

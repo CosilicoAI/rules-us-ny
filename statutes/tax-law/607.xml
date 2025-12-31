@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-607"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-607"/>
+          <FRBRdate date="2020-04-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="607"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-607/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-607/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-607/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-607/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_607">
+        <num>607</num>
+        <heading>Meaning of terms</heading>
+        <subsection eId="sec_607__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General. Any term used in this article\nshall have the same meaning as when used in a comparable context in the\nlaws of the United States relating to federal income taxes, unless a\ndifferent meaning is clearly required but such meaning shall be subject\nto the exceptions or modifications prescribed in this article or by\nstatute. Any reference in this article to the laws of the United States\nshall mean the provisions of the internal revenue code of nineteen\nhundred eighty-six (unless a reference to the internal revenue code of\nnineteen hundred fifty-four is clearly intended), and amendments\nthereto, and other provisions of the laws of the United States relating\nto federal income taxes, as the same may be or become effective at any\ntime or from time to time for the taxable year. Provided however, for\ntaxable years beginning before January first, two thousand twenty-two,\nany amendments made to the internal revenue code of nineteen hundred\neighty-six after March first, two thousand twenty shall not apply to\nthis article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_607__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Marital or other status. An individual's marital or other status\nunder section six hundred one, subsection</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_607__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of section six hundred six\nand section six hundred fourteen shall be the same as his marital or\nother status for purposes of establishing the applicable federal income\ntax rates.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1264"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1264"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1264"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1264/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1264/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1264/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1264/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1264">
+        <num>1264</num>
+        <heading>References to certain taxes or revenues from certain taxes administered by the commissioner</heading>
+        <subsection eId="sec_1264__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of section twelve hundred sixty-two of this part or a\nsection of this part refers to revenues or net collections, or the like,\nfrom a tax or taxes imposed pursuant to the authority of such subpart B,\nand such tax or taxes are imposed on motor fuel and diesel motor fuel,\nany such reference expressed as a percentage of the rate imposed as a\npercentage or as a percentage of such revenues or net collections, or\nthe like, shall be deemed also to refer to such tax or taxes imposed on\nsuch fuels at a rate of cents per gallon; and any such amount expressed\nas a percentage shall be calculated in a like manner as an equal\nfraction of such tax on such fuels imposed at a rate of cents per\ngallon.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

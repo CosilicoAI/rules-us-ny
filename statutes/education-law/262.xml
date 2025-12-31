@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-262"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-262"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="262"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-262/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-262/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-262/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_262">
+        <num>262</num>
+        <heading>Use of public and Indian libraries</heading>
+        <content>
+          <p>  § 262. Use of public and Indian libraries.  Every library established\nunder section two hundred fifty-five of this chapter shall be forever\nfree to the inhabitants of the municipality or district or Indian\nreservation, which establishes it, subject always to rules of the\nlibrary trustees who shall have authority to exclude any person who\nwilfully violates such rules; and the trustees may, under such\nconditions as they think expedient, extend the privileges of the library\nto persons living outside such municipality or district or Indian\nreservation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

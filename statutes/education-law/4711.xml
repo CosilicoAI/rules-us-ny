@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4711"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4711"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4711"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4711/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4711/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4711/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4711/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4711">
+        <num>4711</num>
+        <heading>Reports to board of supervisors; inspection</heading>
+        <content>
+          <p>  § 4711. Reports to board of supervisors; inspection.  The board of\nmanagers of such school shall report in writing to the board of\nsupervisors or other governing elective body of the county when called\nupon to do so, and shall transmit such report to the clerk of such board\nor body, annually, on or before the thirtieth day of June.  Such annual\nreport shall state such facts in respect to the school as the board of\nmanagers may deem advisable and as the board of supervisors or other\ngoverning elective body may require.  Such board or body may, by a\ncommittee or any of its members or appointees, inspect such school, and\nfor such purpose may enter upon the land and into the buildings of such\nschool at all reasonable times.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

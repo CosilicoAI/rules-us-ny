@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-304"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-304"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="304"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-304/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-304/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-304/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_304">
+        <num>304</num>
+        <heading>Application; verification</heading>
+        <content>
+          <p>  § 304. Application; verification. 1. A person requesting emergency\nassistance under this title shall make his application therefor in\nperson or through another on his behalf, on such form and in such manner\nas the department may by regulation require, to the social services\nofficial in the county in which the applicant resides.\n  2. Whenever such application is made, an investigation and record\nshall be promptly made of the circumstances of the applicant in\naccordance with the regulations of the department to ascertain the facts\nsupporting the application and to obtain such other information as may\nbe required by the department.\n  3. The social services official shall require that a person applying\nfor or receiving emergency assistance under this title or his duly\ndesignated representative be interviewed personally at a time and in a\nmanner provided by the regulations of the department.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

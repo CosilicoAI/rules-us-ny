@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-340.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-340.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="340.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-340.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-340.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-340.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-340.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_340_50">
+        <num>340.50</num>
+        <heading>Defendant's presence at trial</heading>
+        <content>
+          <p>§ 340.50  Defendant's presence at trial.\n  1.  Except as provided in subdivision two or three, a defendant must\nbe personally present during the trial.\n  2.  On motion of a defendant represented by counsel, the court may, in\nthe absence of an objection by the people, issue an order dispensing\nwith the requirement that the defendant be personally present at trial.\nSuch an order may be made only upon the filing of a written and\nsubscribed statement by the defendant declaring that he waives his right\nto be personally present at the trial and authorizing his attorney to\nconduct his defense.\n  3.  A defendant who conducts himself in so disorderly and disruptive a\nmanner that his trial cannot be carried on with him in the courtroom may\nbe removed from the courtroom if, after he has been warned by the court\nthat he will be removed if he continues such conduct, he continues to\nengage in such conduct.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

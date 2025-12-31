@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-146"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-146"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="146"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-146/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-146/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-146/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-146/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_146">
+        <num>146</num>
+        <heading>Judgment, how far conclusive</heading>
+        <content>
+          <p>  § 146.  Judgment, how far conclusive. A final judgment, annulling a\nmarriage rendered during the lifetime of both the parties is conclusive\nevidence of the invalidity of the marriage in every court of record or\nnot of record, in any action or special proceeding, civil or criminal.\nSuch a judgment rendered after the death of either party to the marriage\nis conclusive only as against the parties to the action and those\nclaiming under them.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-160"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-160"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-160/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-160/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-160/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-160/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160">
+        <num>160</num>
+        <heading>Hours to constitute a day's work</heading>
+        <content>
+          <p>  § 160. Hours to constitute a day's work. Unless otherwise provided by\nlaw, the following number of hours shall constitute a legal day's work:\n  1. For street surface or elevated railroad employees as affected by\nsection one hundred and sixty-four, ten consecutive hours, including\none-half hour for dinner.\n  2. For employees engaged in the operation of steam or electric\nsurface, subway or elevated railroads where the mileage system of\nrunning trains is not in use, except those employees affected by section\none hundred and sixty-six, ten hours, performed within twelve\nconsecutive hours.\n  3. For all other employees, except those engaged in farm work and\nthose affected by subdivision four of section two hundred twenty of this\nchapter, eight hours.\n  This subdivision shall not prevent an agreement for overwork at an\nincreased compensation, except upon work by or for the state or a\nmunicipal corporation, or by contractors or subcontractors therewith,\nand except as otherwise provided in this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

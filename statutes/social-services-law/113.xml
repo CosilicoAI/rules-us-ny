@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-113"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-113"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="113"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-113/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-113/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-113/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-113/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_113">
+        <num>113</num>
+        <heading>Participation in research and demonstration projects</heading>
+        <content>
+          <p>  § 113.  Participation in research and demonstration projects.  Public\nwelfare districts are authorized to sponsor, conduct and participate in\nthe operation of such research and demonstration projects as the\ndepartment may approve, for the purpose of reducing dependency and\neliminating the causes thereof.  Public welfare districts shall\ncooperate with the department in the conduct of such projects whenever\nthe department shall request or require such participation and\ncooperation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

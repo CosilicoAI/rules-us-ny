@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-640"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-640"/>
+          <FRBRdate date="2022-06-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="640"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-640/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-640/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-640/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-640/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_640">
+        <num>640</num>
+        <heading>Student debt; prohibited practices</heading>
+        <subsection eId="sec_640__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>withhold a transcript because a student owes a debt to such\ninstitution or school;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_640__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>condition the provision of a transcript on a student's payment of\na debt to such institution or school; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_640__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>charge a higher fee or provide less favorable treatment of a\ntranscript request because a student owes a debt to such institution or\nschool, provided however, that an institution or school may charge a fee\nfor the issuance of a transcript.\n  2. In addition to such penalties as may otherwise be applicable by\nlaw, the superintendent of financial services may, after notice and\nhearing, enjoin such transcript withholding practices and require any\ninstitution or school found to be in violation of the provisions of this\narticle to pay to the people of this state a penalty of five hundred\ndollars for each violation.\n  3. In addition to the right of action granted to the superintendent of\nfinancial services pursuant to this section, any person who has been\ninjured by reason of any violation of this section may bring an action\nin their own name to enjoin such unlawful act or practice. The court\nmay, in its discretion, award reasonable attorneys' fees to the\nprevailing plaintiff.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

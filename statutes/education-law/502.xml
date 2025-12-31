@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-502"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-502"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="502"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-502/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-502/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-502/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-502/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_502">
+        <num>502</num>
+        <heading>Retirement system</heading>
+        <content>
+          <p>  § 502. Retirement system.  1. The "New York state teachers' retirement\nsystem" is hereby continued.\n  2. Such retirement system shall have the powers and privileges of a\ncorporation, and under its corporate name, or in the name of its\nnominees, all of its business shall be transacted, all funds invested,\nall warrants for money drawn and payments made, and all cash and\nsecurities and other property shall be held.\n  3. In accordance with paragraph two of subsection a of section four\nhundred one of the Internal Revenue Code, it shall be impossible at any\ntime prior to the satisfaction of the retirement system's liabilities to\nits members and their beneficiaries under law, for any part of the\nassets of the retirement system, or income thereon, to be (within any\ntaxable year or thereafter) used for, or diverted to, purposes other\nthan for the exclusive benefit of the members of the retirement system\nor their beneficiaries.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

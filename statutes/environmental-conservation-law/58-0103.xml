@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0103"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0103"/>
+          <FRBRdate date="2023-08-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="58-0103"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-58-0103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-58-0103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_58_0103">
+        <num>58-0103</num>
+        <heading>Allocation of moneys</heading>
+        <content>
+          <p>§ 58-0103. Allocation of moneys.\n  The moneys received by the state from the sale of bonds pursuant to\nthe environmental bond act of 2022 shall be disbursed in the following\namounts pursuant to appropriations as specifically provided for in\ntitles three, five, seven, and nine of this article:\n  1. Not less than one billion one hundred million dollars\n($1,100,000,000) for restoration and flood risk reduction as set forth\nin title three of this article.\n  2. Up to six hundred fifty million dollars ($650,000,000) for open\nspace land conservation and recreation as set forth in title five of\nthis article.\n  3. Up to one billion five hundred million dollars ($1,500,000,000) for\nclimate change mitigation as set forth in title seven of this article.\n  4. Not less than six hundred fifty million dollars ($650,000,000) for\nwater quality improvement and resilient infrastructure as set forth in\ntitle nine of this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

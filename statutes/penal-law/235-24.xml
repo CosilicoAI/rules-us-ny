@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-235.24"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-235.24"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="235.24"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-235.24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-235.24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-235.24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-235.24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_235_24">
+        <num>235.24</num>
+        <heading>Disseminating indecent material to minors; limitations</heading>
+        <subsection eId="sec_235_24__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The limitations provided by this subdivision shall not be\napplicable to a person who is a conspirator with an entity actively\ninvolved in the creation or knowing distribution of communications that\nviolate such provisions, or who knowingly advertises the availability of\nsuch communications.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_235_24__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The limitations provided by this subdivision shall not be\napplicable to a person who provides access or connection to a facility,\nsystem, or network engaged in the violation of such provisions that is\nowned or controlled by such person.\n  2. No employer shall be held liable under such provisions for the\nactions of an employee or agent unless the employee's or agent's conduct\nis within the scope of his employment or agency and the employer having\nknowledge of such conduct, authorizes or ratifies such conduct, or\nrecklessly disregards such conduct.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

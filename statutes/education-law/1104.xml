@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1104"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1104"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1104"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1104/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1104/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1104/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1104">
+        <num>1104</num>
+        <heading>State aid</heading>
+        <content>
+          <p>  § 1104. State aid.  1. The commissioner of education in the annual\napportionment of public moneys shall apportion therefrom to each county\nmaintaining approved vocational education and extension work, a quota\namounting to one-half  of the salary paid each teacher, director,\nassistant, and supervisor, but not to exceed ten thousand five hundred\ndollars on account of the employment of such teacher, director,\nassistant or supervisor.\n  2. Notwithstanding the provisions of subdivision one of this section\nor chapters fifty-three and three hundred ninety-one of the laws of\nnineteen hundred eighty-nine or any other provision of law to the\ncontrary, aid payable to county vocational education and extension\nboards in the spring of nineteen hundred ninety shall be reduced by an\namount equal to the amount that would have been paid pursuant to section\nfive hundred twenty-one of this chapter to the New York state teachers'\nretirement system on behalf of such board.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

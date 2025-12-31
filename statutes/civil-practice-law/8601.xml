@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8601"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8601"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8601"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8601/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8601/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8601/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8601/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8601">
+        <num>8601</num>
+        <heading>Fees and other expenses in certain actions against the state</heading>
+        <subsection eId="sec_8601__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>When awarded. In addition to costs, disbursements and additional\nallowances awarded pursuant to sections eight thousand two hundred one\nthrough eight thousand two hundred four and eight thousand three hundred\none through eight thousand three hundred three of this chapter, and\nexcept as otherwise specifically provided by statute, a court shall\naward to a prevailing party, other than the state, fees and other\nexpenses incurred by such party in any civil action brought against the\nstate, unless the court finds that the position of the state was\nsubstantially justified or that special circumstances make an award\nunjust. Whether the position of the state was substantially justified\nshall be determined solely on the basis of the record before the agency\nor official whose act, acts, or failure to act gave rise to the civil\naction. Fees shall be determined pursuant to prevailing market rates for\nthe kind and quality of the services furnished, except that fees and\nexpenses may not be awarded to a party for any portion of the litigation\nin which the party has unreasonably protracted the proceedings.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8601__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Application for fees. A party seeking an award of fees and other\nexpenses shall, within thirty days of final judgment in the action,\nsubmit to the court an application which sets forth</p>
+          </content>
+          <paragraph eId="sec_8601__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>the facts\nsupporting the claim that the party is a prevailing party and is\neligible to receive an award under this section,</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_8601__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>the amount sought,\nand</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_8601__subsec_b__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>an itemized statement from every attorney or expert witness for\nwhom fees or expenses are sought stating the actual time expended and\nthe rate at which such fees and other expenses are claimed.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

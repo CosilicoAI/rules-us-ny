@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-8"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-8"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-8/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-8/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-8/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8">
+        <num>8</num>
+        <heading>Exemption from taxes granted to REMICs</heading>
+        <content>
+          <p>  § 8. Exemption from taxes granted to REMICs. An entity that is treated\nfor federal income tax purposes as a real estate mortgage investment\nconduit, hereinafter referred to as a REMIC, as such term is defined in\nsection 860D of the internal revenue code, shall be exempt from all\ntaxation imposed or authorized under this chapter, upon its capital\nstock, franchises or income. A REMIC shall not be treated as a\ncorporation, partnership or trust for purposes of this chapter. The\nassets of a REMIC shall not be included in the calculation of any\nfranchise tax liability under this chapter. This provision does not\nexempt the holders of regular or residual interests, as defined in\nsection 860G of the internal revenue code, in a REMIC from tax on or\nmeasured by such regular or residual interests, or on income from such\ninterests.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

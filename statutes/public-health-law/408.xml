@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-408"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-408"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="408"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-408/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-408/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-408/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-408/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_408">
+        <num>408</num>
+        <heading>Hospitals; admission of patients; in general</heading>
+        <content>
+          <p>  § 408. Hospitals; admission of patients; in general. 1. If in the\njudgment of the director of a hospital in the department the number of\npatients of the hospital at any time so far exceeds its proper capacity\nthat suitable care, training or discipline cannot be given to additional\npatients, or for other reasons the admission of such additional patients\nis impracticable, the commissioner in his discretion, may suspend the\nadmission of patients to such hospital until such time as they may\nproperly be admitted.\n  2. The commissioner shall promptly notify courts and other public\nofficers empowered to commit persons to such hospital of any such\nsuspension of admission and of its termination. A person committed to\nsuch hospital before the court receives notice of such a suspension may\nbe recommitted to another hospital to which he might have been lawfully\ncommitted in the first instance.\n  3. In the admission of patients to such hospital the several counties\nand the city of New York shall, so far as practicable, be entitled to\nhave in such hospital, patients in the ratio which their respective\npopulations bear to the population of the state as ascertained by the\nlatest federal census or state enumeration.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

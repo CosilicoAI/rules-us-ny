@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5102"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5102"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5102">
+        <num>5102</num>
+        <heading>Enforcement of judgment or order awarding possession of real property or a chattel</heading>
+        <content>
+          <p>  § 5102. Enforcement of judgment or order awarding possession of real\nproperty or a chattel. A judgment or order, or a part thereof, awarding\npossession of real property or a chattel may be enforced by an\nexecution, which shall particularly describe the property and designate\nthe party to whom the judgment or order awards its possession. The\nexecution shall comply with the provisions of section 5230, except that\nit shall direct the sheriff to deliver possession of the property to the\nparty designated.  In an action to recover a chattel, where the judgment\nawards possession of the chattel and in the alternative its value, the\nexecution shall also direct the sheriff, if the chattel cannot be found\nwithin his county, to levy upon real and personal property as upon an\nexecution to enforce a money judgment. After the death of a party\nagainst whom a judgment or order awarding possession of real property\nhas been obtained, an order granting leave to issue such execution may\nbe granted upon twenty days' notice, to be served in the same manner as\na summons, to the occupants of the real property and to the heirs or\ndevisees of the deceased party.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

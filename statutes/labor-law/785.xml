@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-785"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-785"/>
+          <FRBRdate date="2023-06-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="785"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-785/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-785/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-785/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-785/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_785">
+        <num>785</num>
+        <heading>Right to request</heading>
+        <content>
+          <p>  § 785. Right to request. 1. A current employee has the right to\nrequest a written description of each quota to which the employee is\nsubject. If a current or former employee believes that they have been\ndisciplined as the result of failing to meet a quota, or that meeting a\nquota caused a violation of their right to a meal or rest period or use\nof bathroom facilities, including reasonable travel time to and from\nbathroom facilities, they have the right to request, and the employer\nshall provide, a written description of each quota to which the employee\nis subject, a copy of the most recent ninety days of the employee's own\npersonal work speed data, and a copy of the aggregate work speed data\nfor similar employees at the same establishment for the same time\nperiod.\n  2. Such requested records pursuant to this section shall be provided\nat no cost to the current or former employee. A former employee is\nlimited to one request pursuant to this section.\n  3. An employer that receives a written or oral request for information\npursuant to this section shall comply with the request as soon as\npracticable, but no later than fourteen calendar days from the date of\nthe request.\n  4. Nothing in this section shall require an employer to use quotas as\ndefined in this article or monitor work speed data. An employer that\ndoes not monitor this data has no obligation to provide it.\n  5. The employer must provide the requested written description of any\nquota and personal work speed data pursuant to this section in English\nand in the language identified by each employee as the primary language\nof such employee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

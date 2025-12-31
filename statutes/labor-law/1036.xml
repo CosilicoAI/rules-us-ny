@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1036"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1036"/>
+          <FRBRdate date="2025-06-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1036"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1036/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1036/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-1036/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-1036/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1036">
+        <num>1036</num>
+        <heading>Power of attorney</heading>
+        <subsection eId="sec_1036__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>be presented as an optional component of the model management\ncompany's representation agreement;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1036__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>not be presented as a necessary condition of entering into an\nagreement with the model management company;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1036__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>be subject to termination by the model at any time and for any\nreason;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1036__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>not violate the provisions of subdivision one of section one\nthousand thirty-four of this article and extend only to matters directly\nrelated to the provision of modeling services, with the exclusion of the\nuse of the model's digital replica.\n  2. Any power of attorney agreement that violates this section shall be\nconsidered void as a matter of public policy.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

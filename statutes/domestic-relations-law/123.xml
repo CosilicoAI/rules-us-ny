@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-123"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-123"/>
+          <FRBRdate date="2024-12-27" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="123"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-123/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-123/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-123/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_123">
+        <num>123</num>
+        <heading>Prohibitions and penalties</heading>
+        <subsection eId="sec_123__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>payments in connection with the adoption of a child permitted by\nsubdivision six of section three hundred seventy-four of the social\nservices law and disclosed pursuant to subdivision eight of section one\nhundred fifteen of this chapter; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_123__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>payments for reasonable and actual medical fees and hospital\nexpenses for artificial insemination or in vitro fertilization services\nincurred by the genetic surrogate in connection with the birth of the\nchild.\n  2.</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_123__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any party to a genetic surrogate parenting agreement or the\nspouse of any party to a genetic surrogate parenting agreement who\nviolates this section shall be subject to a civil penalty not to exceed\nfive hundred dollars.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_123__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any other person or entity who or which induces, arranges or\notherwise assists in the formation of a genetic surrogate parenting\ncontract for a fee, compensation or other remuneration or otherwise\nviolates this section shall be subject to a civil penalty not to exceed\nten thousand dollars and forfeiture to the state of any such fee,\ncompensation or remuneration in accordance with the provisions of\nsubdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_123__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section seven thousand two hundred one of the civil\npractice law and rules, for the first such offense. Any person or entity\nwho or which induces, arranges or otherwise assists in the formation of\na genetic surrogate parenting contract for a fee, compensation or other\nremuneration or otherwise violates this section, after having been once\nsubject to a civil penalty for violating this section, shall be guilty\nof a felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

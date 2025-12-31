@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4521"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4521"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4521"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4521/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4521/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4521/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4521/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4521">
+        <num>4521</num>
+        <heading>Lack of record</heading>
+        <content>
+          <p>  Rule 4521. Lack of record. A statement signed by an officer or a\ndeputy of an officer having legal custody of specified official records\nof the United States or of any state, territory or jurisdiction of the\nUnited States, or of any court thereof, or kept in any public office\nthereof, that he has made diligent search of the records and has found\nno record or entry of a specified nature, is prima facie evidence that\nthe records contain no such record or entry, provided that the statement\nis accompanied by a certificate that legal custody of the specified\nofficial records belongs to such person, which certificate shall be made\nby a person described in rule 4540.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

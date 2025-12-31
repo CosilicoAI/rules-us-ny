@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.90"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.90"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="130.90"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.90/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.90/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-130.90/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-130.90/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_130_90">
+        <num>130.90</num>
+        <heading>Facilitating a sex offense with a controlled substance</heading>
+        <content>
+          <p>§ 130.90 Facilitating a sex offense with a controlled substance.\n  A person is guilty of facilitating a sex offense with a controlled\nsubstance when he or she:\n  1. knowingly and unlawfully possesses a controlled substance or any\npreparation, compound, mixture or substance that requires a prescription\nto obtain and administers such substance or preparation, compound,\nmixture or substance that requires a prescription to obtain to another\nperson without such person's consent and with intent to commit against\nsuch person conduct constituting a felony defined in this article; and\n  2. commits or attempts to commit such conduct constituting a felony\ndefined in this article.\n  Facilitating a sex offense with a controlled substance is a class D\nfelony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

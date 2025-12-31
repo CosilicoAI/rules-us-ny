@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8010"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8010"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8010"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8010">
+        <num>8010</num>
+        <heading>County treasurers</heading>
+        <content>
+          <p>  § 8010. County treasurers. The treasurer of a county or the\ncommissioner of finance of the city of New York is entitled for the\nservices specified to the following fees:\n  1. two per cent upon a sum of money paid out of court by him;\n  2. one-half of one per cent upon a sum of money invested by him;\n  3. two per cent of the par value of investments transferred or\nassigned out of court by him, when the investments have been made by\nhim;\n  4. two per cent of the par value of securities deposited into court\nand received by him, to be paid at the time of the deposit by the\nparties making it; and\n  5. one dollar for each certificate issued by him certifying as to the\namount of deposit to the credit of court funds.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-947"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-947"/>
+          <FRBRdate date="2015-07-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="947"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-947/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-947/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-947/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-947/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_947">
+        <num>947</num>
+        <heading>Post-remediation assessment and clearance</heading>
+        <subsection eId="sec_947__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the work area is free from all visible mold; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_947__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>all work has been completed in compliance with the remediation\nplan and remediation work plan and meets clearance criteria specified in\nthe plan.\n  2. Post-remediation assessment shall, to the extent feasible,\ndetermine that the underlying cause of the mold has been remediated so\nthat it is reasonably certain that the mold will not return from that\nremediated area. If it has been determined that the underlying cause of\nthe mold has not been remediated, the mold assessment licensee shall\nmake a recommendation to the client as to the type of contractor who\ncould remedy the source of the mold or the moisture causing the mold.\n  3. A mold assessment licensee who determines that remediation has been\nsuccessful shall issue a written passed clearance report to the client\nat the conclusion of each mold remediation project.\n  4. If the mold assessment licensee determines that remediation has not\nbeen successful, the licensee shall issue a written final status report\nto the client and to the remediation licensee and recommend to the\nclient that either a new assessment be conducted, that the remediation\nplan as originally developed be completed, or the underlying causes of\nmold be addressed, as appropriate.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

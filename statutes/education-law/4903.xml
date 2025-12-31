@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4903"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4903"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4903"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4903/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4903/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4903/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4903/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4903">
+        <num>4903</num>
+        <heading>Chamber of commerce to appoint committee to serve as council</heading>
+        <content>
+          <p>  § 4903. Chamber of commerce to appoint committee to serve as council.\nThe chamber of commerce of New York is authorized to provide for and\nappoint a committee of its members to serve as a council of the nautical\nschool, whose duty it shall be, as far as may be, to advise and\ncooperate with the board of education of the city of New York in the\nestablishment and management of such school and from time to time to\nvisit and examine the same, and to communicate in respect thereof with\nthe board of education or such executive committee thereof, and to make\nreports to the chamber of commerce which may transmit to the\ncommissioner of education such reports, or any thereof, or an abstract\nof the same, with such recommendations as may be deemed advisable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.24"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.24"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="260.24"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_24">
+        <num>260.24</num>
+        <heading>Endangering the welfare of an incompetent or physically disabled person in the second degree</heading>
+        <content>
+          <p>§ 260.24 Endangering the welfare of an incompetent or physically\n           disabled person in the second degree.\n  A person is guilty of endangering the welfare of an incompetent or\nphysically disabled person in the second degree when he or she\nrecklessly engages in conduct which is likely to be injurious to the\nphysical, mental or moral welfare of a person who is unable to care for\nhimself or herself because of physical disability, mental disease or\ndefect.\n  Endangering the welfare of an incompetent or physically disabled\nperson in the second degree is a class A misdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

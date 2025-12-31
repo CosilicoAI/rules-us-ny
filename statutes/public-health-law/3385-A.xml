@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3385-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3385-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3385-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3385-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3385-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3385-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3385-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3385_A">
+        <num>3385-A</num>
+        <heading>Access to criminal history information</heading>
+        <content>
+          <p>  § 3385-a. Access to criminal history information. Upon such terms and\nconditions as the commissioner of the division of criminal justice\nservices agrees, authorized employees of the department's bureau of\nnarcotic enforcement, designated by the commissioner pursuant to\nsubdivision two of section three thousand three hundred eighty-five of\nthis title, may access criminal history information in the central data\nfacility established pursuant to subdivision six of section eight\nhundred thirty-seven of the executive law upon request to the director\nof the bureau of narcotic enforcement demonstrating the necessity for\nsuch access as part of an identified, ongoing criminal investigation.\nAny information obtained as a result of such access shall not be\ndisseminated to persons not authorized to access such criminal history\ninformation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

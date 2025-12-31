@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-217"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-217"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="217"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-217/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-217/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-217/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_217">
+        <num>217</num>
+        <heading>Penalties</heading>
+        <content>
+          <p>  § 217.  Penalties.  1.  If any taxes, penalties or interest due under\nthis article are not paid, or any report required is not filed, and the\ntax commission is satisfied that the failure to make such payment or\nfile such report is intentional, it may so report to the\nattorney-general, who shall immediately bring an action in the name of\nthe people of the state, for the forfeiture of the charter or franchise\nof any corporation failing to make such payment, or file such report,\nand if it be found that such failure was intentional, judgment shall be\nrendered in such action for the forfeiture of such charter and for its\ndissolution if a domestic corporation and if a foreign corporation for\nthe annulment of its franchise to do business in this state.\n  2.  Whenever any corporation has failed to file an annual report for a\nperiod of two consecutive years or has been delinquent in the payment of\ntaxes for any two years duly assessed pursuant to this article or\narticle nine-a of the tax law heretofore in effect, all the authority\nand powers conferred on the tax commission and the secretary of state by\nsection two hundred three-a of this chapter and all of the provisions of\nsuch section shall have full force and effect in respect of and shall be\napplicable to such corporation.\n  3.  Whenever any foreign corporation has failed to file an annual\nreport or has been delinquent in the payment of taxes duly assessed\npursuant to this article for the periods of time specified in\nsubdivision two of this section, all the authority and powers conferred\non the tax commission and the secretary of state by section two hundred\nthree-b of this chapter and all of the provisions of such section shall\nhave full force and effect in respect of and shall be applicable to such\ncorporation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

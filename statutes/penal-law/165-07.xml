@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.07"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.07"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="165.07"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.07/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.07/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-165.07/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-165.07/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_165_07">
+        <num>165.07</num>
+        <heading>Unlawful use of secret scientific material</heading>
+        <content>
+          <p>§ 165.07 Unlawful use of secret scientific material.\n  A person is guilty of unlawful use of secret scientific material when,\nwith intent to appropriate to himself or another the use of secret\nscientific material, and having no right to do so and no reasonable\nground to believe that he has such right, he makes a tangible\nreproduction or representation of such secret scientific material by\nmeans of writing, photographing, drawing, mechanically or electronically\nreproducing or recording such secret scientific material.\n  Unlawful use of secret scientific material is a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

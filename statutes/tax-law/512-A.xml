@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-512-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-512-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="512-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-512-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-512-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-512-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-512-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_512_A">
+        <num>512-A</num>
+        <heading>Admissibility of weigh slips</heading>
+        <content>
+          <p>  § 512-a. Admissibility of weigh slips. An official weigh slip or\nticket issued and certified by any truck weigher in the employ of the\ndepartment of transportation or by any duly licensed weigh master shall\nconstitute prima facie evidence of the information therein set forth and\nof the operation of the vehicle therein described upon a public highway\nand shall be admissible before any court in any civil proceeding.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

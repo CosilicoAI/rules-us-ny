@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-231"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-231"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="231"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-231/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-231/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-231/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-231/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_231">
+        <num>231</num>
+        <heading>Town and county officers training school</heading>
+        <content>
+          <p>  § 231. Town and county officers training school.  The town and county\nofficers training school of the state of New York, a corporation created\nby the regents pursuant to section two hundred sixteen of the education\nlaw for the purpose of improving the administration of municipal affairs\nby providing courses of training for municipal officials in towns and\ncounties of the state and conducting school therefor having received an\nabsolute charter under section two hundred sixteen, and the regents\nhaving approved the courses of study and plan of instruction of such\ninstitute, the cost of carrying out the program of the training school\nmay be defrayed in part with grants of federal vocational education\nmoneys made to the regents under acts of congress for training those in\npublic and other service occupations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

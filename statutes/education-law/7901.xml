@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7901"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7901"/>
+          <FRBRdate date="2023-03-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7901"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7901/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7901/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7901/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7901/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7901">
+        <num>7901</num>
+        <heading>Definition</heading>
+        <subsection eId="sec_7901__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the licensed occupational therapist has practiced occupational\ntherapy on a full time basis equivalent to not less than three years;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7901__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>each occupational therapist licensed pursuant to this article\nshall provide written notice to each patient receiving treatment absent\na referral from a physician or nurse practitioner that occupational\ntherapy may not be covered by the patient's health care plan or insurer\nwithout such a referral and that such treatment may be a covered expense\nif rendered pursuant to a referral. The occupational therapist shall\nkeep on file with the patient's records a form attesting to the\npatient's notice of such advice. Such form shall be in duplicate, with\none copy to be retained by the patient, signed and dated by both the\noccupational therapist and the patient in such form as prescribed\npursuant to regulations promulgated by the commissioner.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

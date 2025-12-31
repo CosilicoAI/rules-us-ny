@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.19"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.19"/>
+          <FRBRdate date="2024-03-08" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="570.19"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.19/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.19/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.19/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.19/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_570_19">
+        <num>570.19</num>
+        <heading>Extradition of gender-affirming care providers, seekers, parents, guardians, and helpers</heading>
+        <subsection eId="sec_570_19__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision one of section sixty-five hundred thirty-one-b of the\neducation law, lawfully performed in New York shall be recognized by the\ngovernor unless the executive authority of the demanding state shall\nallege in writing that the accused was present in the demanding state at\nthe time of the commission of the alleged offense, and that thereafter\nhe, she or they fled from that state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

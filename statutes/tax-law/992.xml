@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-992"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-992"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="992"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-992/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-992/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-992/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-992/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_992">
+        <num>992</num>
+        <heading>Addition to tax in the case of valuation understatement</heading>
+        <subsection eId="sec_992__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>For purposes of this section, the applicable percentage shall be\ndetermined under the following table:\n  If the valuation claimed is\n  the following percent of the               The applicable\n  correct valuation:                         percentage is:\n       fifty percent or more but\n       not more than sixty-six\n       and two-thirds percent ....................  ten\n       forty percent or more but\n       less than fifty percent ...................  twenty\n       less than forty percent ...................  thirty\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_992__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>For purposes of this section, there is a valuation understatement\nif the claimed value of any property is sixty-six and two-thirds percent\nor less of the amount determined to be the correct amount of such\nvaluation.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_992__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>This section shall not apply if the underpayment is less than one\nthousand dollars with respect to the estate of the decedent.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_992__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>The commissioner may waive all or any part of the addition to tax\nprovided by this section on showing by the executor that there was a\nreasonable basis for the claimed valuation and that such claim was made\nin good faith.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

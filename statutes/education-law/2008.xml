@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2008"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2008"/>
+          <FRBRdate date="2019-04-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2008"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2008/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2008/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2008/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2008/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2008">
+        <num>2008</num>
+        <heading>Call of special district meeting by district superintendent</heading>
+        <subsection eId="sec_2008__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>that the purpose for which such meeting is sought to be called is\nnot within the power of the voters of the district, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2008__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>that such purpose is illegal, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2008__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>that a bond or note resolution has been adopted and such petition\nis not filed within twenty days after publication of notice of such\nresolution pursuant to section 81.00 of the local finance law, or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2008__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>that other valid reason exists for refusing to call such meeting\nwhich reason when appealed to the commissioner of education shall be\ndeemed by him to be sufficient cause for such refusal.\n  3. Notwithstanding any other provision of law to the contrary, any\nproposition submitted by the voters that requires the expenditure of\nmoney shall be subject to the requirements set forth in subdivision nine\nof section two thousand twenty-three-a of this part.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

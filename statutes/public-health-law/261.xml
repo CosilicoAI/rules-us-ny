@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-261"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-261"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="261"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-261/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-261/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-261/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_261">
+        <num>261</num>
+        <heading>Legislative intent</heading>
+        <content>
+          <p>  § 261. Legislative intent. The legislature hereby finds, determines,\nand declares that obesity is a serious medical problem affecting up to\none-third of all Americans. In addition, a nineteen ninety-seven Kaiser\nPermanente study concluded that there is a significant potential for a\nreduction in health care expenditures through obesity prevention. In\naddition:\n  1. Obesity is known to cause or exacerbate a number of serious\ndisorders including hypertension, dyslipidemia, cardiovascular disease,\ndiabetes, respiratory dysfunction, gout, and osteoarthritis;\n  2. Nearly eighty percent of patients with diabetes mellitus are obese;\n  3. Nearly seventy percent of diagnosed cases of cardiovascular disease\nare related to obesity; and\n  4. Obesity ranks second only to smoking as a preventable cause of\ndeath, with some three hundred thousand deaths annually attributable to\nobesity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

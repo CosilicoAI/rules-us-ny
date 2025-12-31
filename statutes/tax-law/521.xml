@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-521"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-521"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="521"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-521/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-521/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-521/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-521/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_521">
+        <num>521</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_521__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Person" shall include an individual, co-partner, society,\nassociation, corporation, joint stock company, lessee, and any\ncombinations of individuals; an executor, administrator, receiver,\ntrustee or other fiduciary.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_521__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Qualified motor vehicle.</p>
+          </content>
+          <paragraph eId="sec_521__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>"Qualified motor vehicle" means a\nvehicle, other than a recreational vehicle, used, designed or maintained\nfor transportation of persons or property and:\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_521__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>Having two axles and a gross vehicle weight or registered gross\nvehicle weight exceeding twenty-six thousand pounds; or\n  (ii) Having three or more axles regardless of weight; or\n  (iii) Is used in combination, when the weight of such combination\nexceeds twenty-six thousand pounds gross vehicle weight.\n</p>
+          </content>
+          <paragraph eId="sec_521__subsec_i__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>"Recreational vehicle" means vehicles such as motor homes, pickup\ntrucks with attached campers, and buses when used exclusively for\npersonal pleasure by individuals. In order to qualify as a recreational\nvehicle, the vehicle shall not be used in connection with any business\nendeavor.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_521__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Carrier" shall include any person having the lawful use or\ncontrol, or the right to the use or control of any qualified motor\nvehicle in this state.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_521__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"Public highway" shall include any public highway, street, avenue,\nroad, public place, public driveway or any other public way.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

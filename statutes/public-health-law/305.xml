@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-305"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-305"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="305"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-305/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-305/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_305">
+        <num>305</num>
+        <heading>Local boards of health; compensation and expenses of members</heading>
+        <content>
+          <p>  § 305. Local boards of health; compensation and expenses of members.\n1. The members of town boards and of village boards of trustees shall\nnot receive additional compensation by reason of serving as members of\nboards of health, except that in the case of a consolidated health\ndistrict, members of the board of health of such district, whether or\nnot they are members of a town board or a village board of trustees,\nshall be allowed a per diem compensation of not more than ten dollars\nfor each calendar day in actual attendance at a meeting of the board of\nhealth of the district, to be fixed and determined by the board of\nhealth of the district. Such per diem compensation in the case of any\nmember shall not exceed the total sum of one hundred and fifty dollars\nin any one year.\n  2. Members of boards of health of consolidated districts shall also be\nallowed their actual and necessary expenses.\n  3. The compensation and expenses of members of boards of health of\nconsolidated health districts shall be audited and paid in the same\nmanner as the other expenses of the consolidated health districts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

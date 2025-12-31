@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3004-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3004-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3004-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3004-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3004-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3004-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3004-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3004_A">
+        <num>3004-A</num>
+        <heading>Disclosure of overpayment to taxpayer</heading>
+        <subsection eId="sec_3004_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The department\nshall disclose to a taxpayer all instances of overpayment of tax by such\ntaxpayer discovered by the department during the course of an audit,\nassessment, collection or enforcement proceeding.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3004_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The time within which a taxpayer may apply for a refund or claim a\ncredit for an overpayment of tax disclosed pursuant to this section\nshall be one hundred twenty days from the date that notice of disclosure\nis given to such taxpayer by the department. Failure to apply for a\nrefund or credit within the one hundred twenty days shall result in the\nloss of the right to apply for a refund or credit. Provided, that this\nsubdivision shall not reduce the time within which a taxpayer may claim\na credit or refund of an overpayment of tax pursuant to any other\nprovision of this chapter or any other applicable law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3004_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Nothing in this section shall be construed as requiring or\npermitting the giving of notice or the payment of a refund or granting\nof a credit with respect to a period which, at the time such overpayment\nis discovered by the department, is not open for assessment or refund by\nvirtue of any period of limitations provided for in any tax.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

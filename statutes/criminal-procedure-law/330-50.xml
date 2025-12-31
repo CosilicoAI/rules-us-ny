@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="330.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_330_50">
+        <num>330.50</num>
+        <heading>Motion to set aside verdict; order granting motion</heading>
+        <subsection eId="sec_330_50__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>set aside such verdict or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_330_50__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>with the consent of\nthe people modify such verdict by reducing it to one of conviction of\nsuch lesser offense.\n  4.  Upon a new trial resulting from an order setting aside a verdict,\nthe indictment is deemed to contain all the counts and to charge all the\noffenses which it contained and charged at the time the previous trial\nwas commenced, regardless of whether any count was dismissed by the\ncourt in the course of such trial, except those upon or of which the\ndefendant was acquitted or is deemed to have been acquitted.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

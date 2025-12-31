@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-540.20"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-540.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="540.20"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-540.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-540.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-540.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-540.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_540_20">
+        <num>540.20</num>
+        <heading>Forfeiture of bail; certain local criminal courts</heading>
+        <subsection eId="sec_540_20__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If it is a city court, pay the forfeited bail to the treasurer or\nother financial officer of the city.  Such forfeited bail, unless\notherwise provided by law, is the property of such city.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_540_20__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If it is a town court or a village court, pay the forfeited bail\nto the state comptroller on or before the tenth day of the month next\nsucceeding such forfeiture. Such forfeited bail, unless otherwise\nprovided by law, is the property of the town or village in which the\noffense charged is alleged to have been committed; provided, however,\nthat when</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_540_20__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>a single amount of bail is posted for more than a single\noffense charged, and (ii) the town or village justice court does not\nattribute a specific amount of bail to each offense, and (iii) forfeited\nbail for at least two of the offenses would be the property of different\ngovernmental entities, the entire amount of forfeited bail shall be the\nproperty of the town or village in which the offenses charged are\nalleged to have been committed, except that, when forfeited bail for at\nleast one of the offenses would be the property of the state, the entire\namount of forfeited bail shall be the property of the state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

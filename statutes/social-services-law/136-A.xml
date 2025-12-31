@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-136-A"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-136-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="136-A"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-136-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-136-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-136-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-136-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136_A">
+        <num>136-A</num>
+        <heading>Information from state tax commission and the comptroller</heading>
+        <content>
+          <p>  § 136-a. Information from state tax commission and the comptroller. 1.\nSection six hundred ninety-seven or any other provision of the tax law\nshall in no way be construed to restrict the department from obtaining,\non behalf of itself or a local social services district, the name,\naddress, social security number, employment history and number of\ndependents claimed for any individual certified by the department to be\na welfare recipient and suspected of abusing, defrauding or otherwise\nviolating the welfare system.\n  2. Information furnished to the department by the state tax commission\nand the comptroller under or as a result of the agreement authorized by\nsection one hundred seventy-one-c of the tax law shall be considered\nconfidential and shall not be disclosed to persons or agencies other\nthan those entitled to such information because such disclosure is\nnecessary for the proper administration of title six-A of article three\nand title ten of article five of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

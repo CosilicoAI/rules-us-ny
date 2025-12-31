@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-403"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-403"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="403"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-403/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-403/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-403/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-403/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_403">
+        <num>403</num>
+        <heading>Notice of petition; service; order to show cause</heading>
+        <subsection eId="sec_403__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Notice of\npetition. A notice of petition shall specify the time and place of the\nhearing on the petition and the supporting affidavits, if any,\naccompanying the petition.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_403__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Time for service of notice of petition and answer. A notice of\npetition, together with the petition and affidavits specified in the\nnotice, shall be served on any adverse party at least eight days before\nthe time at which the petition is noticed to be heard. An answer and\nsupporting affidavits, if any, shall be served at least two days before\nsuch time. A reply, together with supporting affidavits, if any, shall\nbe served at or before such time. An answer shall be served at least\nseven days before such time if a notice of petition served at least\ntwelve days before such time so demands; whereupon any reply shall be\nserved at least one day before such time.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_403__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Manner of service. A notice of petition shall be served in the\nsame manner as a summons in an action.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_403__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Order to show cause. The court may grant an order to show cause to\nbe served, in lieu of a notice of petition at a time and in a manner\nspecified therein.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

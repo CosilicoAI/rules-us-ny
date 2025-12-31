@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8851"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8851"/>
+          <FRBRdate date="2017-12-01" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8851"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8851/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8851/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8851/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8851/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8851">
+        <num>8851</num>
+        <heading>Practice as pathologists' assistant and use of the title "pathologists' assistant"</heading>
+        <content>
+          <p>  § 8851. Practice as pathologists' assistant and use of the title\n"pathologists' assistant". Only persons licensed or otherwise authorized\nto practice as a pathologists' assistant under this article shall\npractice pathologist assisting or use the title "pathologists'\nassistant" or the term "pathologists' assistant" alone or in combination\nwith other terms and phrases in describing their services and activities\nor the designation "Path A".\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

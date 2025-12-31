@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.35"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.35"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210.35"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.35/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.35/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.35/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.35/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_35">
+        <num>210.35</num>
+        <heading>Motion to dismiss indictment; defective grand jury proceeding</heading>
+        <subsection eId="sec_210_35__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision one of section 210.20 when:\n  1.  The grand jury was illegally constituted; or\n  2.  The proceeding is conducted before fewer than sixteen grand\njurors; or\n  3.  Fewer than twelve grand jurors concur in the finding of the\nindictment; or\n  4.  The defendant is not accorded an opportunity to appear and testify\nbefore the grand jury in accordance with the provisions of section\n190.50; or\n  5.  The proceeding otherwise fails to conform to the requirements of\narticle one hundred ninety to such degree that the integrity thereof is\nimpaired and prejudice to the defendant may result.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

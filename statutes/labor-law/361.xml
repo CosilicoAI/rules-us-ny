@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-361"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-361"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="361"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-361/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-361/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-361/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-361/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_361">
+        <num>361</num>
+        <heading>Summary proceedings; when may be instituted</heading>
+        <content>
+          <p>  § 361. Summary proceedings; when may be instituted. The carrying on of\nmanufacture in a home or of industrial homework contrary to the\nprovisions of this article shall be cause for dispossessing its\noccupants by summary proceedings to recover possession of real property.\nUpon receipt from the commissioner of a notice showing such manufacture\nor such industrial homework in a home, the owner or his agent shall\ncause such manufacture or industrial homework to cease within ten days\nand, if unable to do so, shall institute within fifteen days and\nfaithfully prosecute proceedings to dispossess the occupants.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-905"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-905"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="905"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-905/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-905/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-905/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-905/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_905">
+        <num>905</num>
+        <heading>Grants for primary care practitioner education</heading>
+        <subsection eId="sec_905__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the need for primary care practitioners in the region in which the\napplicant is located;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_905__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the cost-effectiveness of the proposal; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_905__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the applicant's commitment to place graduates in primary care\nsettings and/or underserved areas.\n  4. The intent of the program is to augment or increase training\nprograms for nurse practitioners, physician assistants and midwives.\nGrant funding shall not be used to offset existing expenditures the\ninstitution or program has obligated or intends to obligate for such\ntraining programs.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

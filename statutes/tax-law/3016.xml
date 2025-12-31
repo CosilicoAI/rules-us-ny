@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3016"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3016"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3016"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3016/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3016/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-3016/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-3016/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3016">
+        <num>3016</num>
+        <heading>Notice to person liable to pay tax</heading>
+        <content>
+          <p>  § 3016. Notice to person liable to pay tax. Before the commissioner\ncollects any tax by levy, the commissioner shall give prominent written\nnotice to the person liable to pay the same that, in like manner as a\njudgment creditor, the department has certain rights to enforce the\nwarrant by levying upon real and personal property of the taxpayer. Such\nstatement shall be made in clear and concise language readily\ncomprehensible to the average reader and shall be set off from any other\ntext or notice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

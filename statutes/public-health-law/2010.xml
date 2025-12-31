@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2010"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2010"/>
+          <FRBRdate date="2025-03-14" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2010"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2010/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2010/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2010/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2010/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2010">
+        <num>2010</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 2010. Definitions. As used in this article, the following terms\nshall have the following meanings:\n  1. "Parkinson's disease" means a chronic and progressive neurologic\ndisorder resulting from deficiency of the neurotransmitter dopamine as\nthe consequence of specific degenerative changes in the area of the\nbrain called the basal ganglia.\n  2. "Parkinsonisms" means related conditions that cause a combination\nof the movement abnormalities seen in Parkinson's disease including, but\nnot limited to, tremor at rest, slow movement, muscle rigidity, impaired\nspeech, or muscle stiffness, which often overlap with and can evolve\nfrom what appears to be Parkinson's disease.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

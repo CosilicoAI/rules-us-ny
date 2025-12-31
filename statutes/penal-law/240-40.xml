@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.40"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="240.40"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-240.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-240.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_240_40">
+        <num>240.40</num>
+        <heading>Appearance in public under the influence of narcotics or a drug other than alcohol</heading>
+        <content>
+          <p>§ 240.40 Appearance in public under the influence of narcotics or a drug\n           other than alcohol.\n  A person is guilty of appearance in public under the influence of\nnarcotics or a drug other than alcohol when he appears in a public place\nunder the influence of narcotics or a drug other than alcohol to the\ndegree that he may endanger himself or other persons or property, or\nannoy persons in his vicinity.\n  Appearance in public under the influence of narcotics or a drug other\nthan alcohol is a violation.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

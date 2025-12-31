@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-333"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-333"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="333"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-333/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-333/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-333/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-333/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_333">
+        <num>333</num>
+        <heading>Local plans and requirements</heading>
+        <subsection eId="sec_333__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of subdivision two of section three\nhundred thirty-two of this title;\n  5.  A list of education and training providers, such as job training\npartnership act agencies, educational agencies and other public agencies\nor private organizations with which the district expects to enter into\nagreements or contracts with a description of such contracts;\n  6. A description of the orientation to be provided to participants\npursuant to section three hundred thirty-four of this title;\n  7. A description of the assessment tools chosen and the employee\nqualifications, district administrative unit or contracting entity that\nwill be responsible for the assessments and the development of the\nemployability plans;\n  8. A description of the conciliation procedures to be made available\nto participants pursuant to section three hundred forty-one of this\ntitle; and\n  9. Such additional information as is necessary to comply with federal\nrequirements and to provide the report required under section three\nhundred thirty-nine of this title.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

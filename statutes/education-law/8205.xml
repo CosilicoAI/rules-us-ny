@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8205"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8205"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8205"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8205/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8205/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8205/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8205/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8205">
+        <num>8205</num>
+        <heading>State board for speech-language pathology and audiology</heading>
+        <content>
+          <p>  § 8205. State board for speech-language pathology and audiology.  A\nstate board for speech-language pathology and audiology shall be\nappointed by the board of regents on recommendation of the commissioner\nfor the purpose of assisting the board of regents and the department on\nmatters of professional licensing and professional conduct in accordance\nwith section sixty-five hundred eight of this title. The board shall\nconsist of not less than seven members, three of whom shall be\naudiologists and four of whom shall be speech-language pathologists.\nEach speech-language pathologist and audiologist on the board shall be\nlicensed and have practiced in this state for at least five years, as\nprovided under this article except that the members of the first board\nneed not be licensed prior to their appointment to the board. An\nexecutive secretary to the board shall be appointed by the board of\nregents on recommendation of the commissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

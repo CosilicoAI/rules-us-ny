@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-152"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-152"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="152"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-152/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-152/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-152/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-152/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_152">
+        <num>152</num>
+        <heading>Educational requirement</heading>
+        <subsection eId="sec_152__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any person, or agent or officer employing, either directly or\nindirectly through a third person, a child performer certified pursuant\nto this article shall provide a teacher, who is either certified or has\ncredentials recognized by the state of New York, to such child performer\nto fulfill educational requirements pursuant to the education law. Such\nchild performer shall not be declared absent from school while working\npursuant to the permit requirement in accordance with this article. The\nrequirements of this section shall only be applicable when the child\nperformer is not receiving educational instruction due to his or her\nemployment schedule.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_152__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A child performer receiving educational instruction pursuant to\nthis subdivision, and such child's parents or guardians, shall work with\nthe certified teacher provided to the child performer and the child's\nschool of enrollment to fulfill such educational requirements.\n  3. No minor having a permit to work issued by the department and no\nminor under eighteen years of age, who is otherwise required by law to\nbe enrolled and attend school, shall be without educational instruction\nand unemployed for a period longer than ten consecutive days while the\nschool of enrollment is in session.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

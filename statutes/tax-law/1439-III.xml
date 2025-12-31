@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-III"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-III"/>
+          <FRBRdate date="2025-11-28" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1439-III"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-III/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-III/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1439-III/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1439-III/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1439_III">
+        <num>1439-III</num>
+        <heading>Liability of recording officer</heading>
+        <content>
+          <p>  * § 1439-iii. Liability of recording officer. A recording officer\nshall not be liable for any inaccuracy in the amount of tax imposed\npursuant to this article that they shall collect so long as they shall\ncompute and collect such tax on the amount of consideration or the value\nof the interest conveyed as such amounts are provided to them by the\nperson paying the tax.\n  * NB Effective January 14, 2026\n  * NB Repealed December 31, 2045\n  * NB There are 2 § 1439-iii's\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

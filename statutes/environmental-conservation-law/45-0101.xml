@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-45-0101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-45-0101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="45-0101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-45-0101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-45-0101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-45-0101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-45-0101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_45_0101">
+        <num>45-0101</num>
+        <heading>Declaration of findings and purpose</heading>
+        <content>
+          <p>§ 45-0101. Declaration of findings and purpose.\n  The overwhelming approval by the people of section 4 of article XIV of\nthe Constitution, clearly demonstrates the public awareness and desire\nto preserve the great natural resources and heritage of the state.\n  Accordingly, the legislature now finds it necessary to provide for a\nstate nature and historical preserve to assure the protection of lands,\noutside of forest preserve counties, of special natural beauty,\nwilderness character or geological, ecological, or historical\nsignificance so that present and future generations may share their\necological, educational and recreational value.\n  Lands dedicated to the preserve shall include only those lands in\nstate ownership in need of the highest level of protection. The\ndedication of ecologically significant lands to the preserve is intended\nfor unique and irreplaceable state-owned lands that are relatively\nundisturbed and not presently being actively managed through modern\nforest management practices, including old-growth forests.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

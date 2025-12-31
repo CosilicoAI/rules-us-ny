@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-P"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-P"/>
+          <FRBRdate date="2018-01-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="187-P"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-P/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-P/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-187-P/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-187-P/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_187_P">
+        <num>187-P</num>
+        <heading>Temporary deferral refundable payout credit</heading>
+        <content>
+          <p>  § 187-p. Temporary deferral refundable payout credit. 1. Allowance of\ncredit. A taxpayer shall be allowed a credit, to be computed as provided\nin subdivision two of section thirty-four of this chapter, against the\ntaxes imposed by sections one hundred eighty-three and one hundred\neighty-four of this article, or the tax imposed by section one hundred\neighty-six-a of this article. However, the amount of such credit against\nthe tax imposed by section one hundred eighty-four of this article shall\nbe the excess of the amount of that credit over the amount of any credit\nallowed by this section against the tax imposed by section one hundred\neighty-three of this article.\n  2. Application of credit. In no event shall the credit under this\nsection be allowed in an amount which will reduce the tax to less than\nthe applicable minimum tax fixed by section one hundred eighty-three of\nthis article. If, however, the amount of credit allowed under this\nsection for any taxable year reduces the tax to such amount, any amount\nof credit not deductible in such taxable year shall be treated as an\noverpayment of tax to be refunded in accordance with the provisions of\nsection one thousand eighty-six of this chapter, provided however, that\nno interest shall be paid thereon.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

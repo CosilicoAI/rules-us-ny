@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3201"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3201"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3201">
+        <num>3201</num>
+        <heading>Confession of judgment before default on certain installment contracts invalid</heading>
+        <content>
+          <p>  § 3201. Confession of judgment before default on certain installment\ncontracts invalid.  Notwithstanding the provisions of section thirty-two\nhundred eighteen, no judgment by confession shall be entered on any\naffidavit which was executed prior to the time a default in the payment\nof an installment occurs in connection with the purchase for fifteen\nhundred dollars or less of any commodities for any use other than a\ncommercial or business use upon any plan of deferred payments whereby\nthe price or cost is payable in two or more installments. Any judgment\nentered in violation of this section is void and unenforceable.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5903"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5903"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5903"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5903/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5903/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-5903/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-5903/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5903">
+        <num>5903</num>
+        <heading>Functions of institute</heading>
+        <content>
+          <p>  § 5903. Functions of institute.  The legislative institute shall\nprovide a center for research, training and information on the\nlegislative process.  The institute is hereby empowered to conduct\nclasses both credit and non-credit on the legislative process; to\norganize inter-disciplinary groups of scholars to study the legislative\nprocess; to convoke seminars involving the legislative scholars and\nlegislators; to establish a central library on legislative systems; to\npublish such books and periodicals as it shall deem appropriate on the\nlegislative process; to assist in orientation of new legislators; and to\nprovide such assistance as may be requested by the legislature in\nimproving its management and operations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

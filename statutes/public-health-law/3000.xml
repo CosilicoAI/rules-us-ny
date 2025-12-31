@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3000"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3000/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3000/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3000">
+        <num>3000</num>
+        <heading>Declaration of policy and statement of purpose</heading>
+        <content>
+          <p>  § 3000. Declaration of policy and statement of purpose. The furnishing\nof medical assistance in an emergency is a matter of vital concern\naffecting the public health, safety and welfare. Prehospital emergency\nmedical care, the provision of prompt and effective communication among\nambulances and hospitals and safe and effective care and transportation\nof the sick and injured are essential public health services.\n  It is the purpose of this article to promote the public health, safety\nand welfare by providing for certification of all advanced life support\nfirst response services and ambulance services; the creation of regional\nemergency medical services councils; and a New York state emergency\nmedical services council to develop minimum training standards for\ncertified first responders, emergency medical technicians and advanced\nemergency medical technicians and minimum equipment and communication\nstandards for advanced life support first response services and\nambulance services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4203"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4203"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4203">
+        <num>4203</num>
+        <heading>Persons eligible for appointment as pupils to institutions for instruction of the deaf</heading>
+        <content>
+          <p>  § 4203. Persons eligible for appointment as pupils to institutions for\ninstruction of the deaf.  All deaf children resident in this state, of\nthe age of three years and upwards and of suitable capacity, and who\nshall have been resident in this state for one year immediately\npreceding the application, or, if an orphan, whose nearest friend shall\nhave been resident in this state for one year immediately preceding the\napplication, shall be eligible to appointment as state pupils in one of\nthe institutions for the instruction of the deaf of this state,\nauthorized by law to receive such pupils; provided, however, the\nforegoing requirement as to length of residence in this state may be\nwaived in the discretion of the commissioner of education.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

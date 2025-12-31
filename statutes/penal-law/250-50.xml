@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.50"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250.50"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_50">
+        <num>250.50</num>
+        <heading>Unlawful surveillance in the first degree</heading>
+        <content>
+          <p>§ 250.50 Unlawful surveillance in the first degree.\n  A person is guilty of unlawful surveillance in the first degree when\nhe or she commits the crime of unlawful surveillance in the second\ndegree and has been previously convicted within the past ten years of\nunlawful surveillance in the first or second degree.\n  Unlawful surveillance in the first degree is a class D felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

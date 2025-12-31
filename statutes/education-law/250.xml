@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-250"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-250"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-250/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-250/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250">
+        <num>250</num>
+        <heading>Duplicate department</heading>
+        <content>
+          <p>  § 250. Duplicate department.  The regents shall have charge of the\npreparation, publication and distribution, whether by sale, exchange or\ngift, of the colonial history, natural history and all other state\npublications not otherwise assigned by law.  To guard against waste or\ndestruction of state publications, and to provide for the completion of\nsets to be permanently preserved in American and foreign libraries, the\nregents shall maintain a duplicate department to which each state\ndepartment, bureau, board, commission, authority, division, office or\npublic benefit corporation shall send after completing its distribution,\nany remaining copies which it no longer requires.  The above, with any\nother publications not needed in the state library, shall be the\nduplicate department, and rules for sale, exchange or distribution from\nit shall be fixed by the regents, who shall use all receipts from such\nexchanges or sales for the expenses of and for increasing the duplicate\ndepartment or depository of the state library.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1202"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1202"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1202"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1202/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1202/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-1202/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-1202/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1202">
+        <num>1202</num>
+        <heading>Appointment of guardian ad litem</heading>
+        <subsection eId="sec_1202__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>By whom motion made.\nThe court in which an action is triable may appoint a guardian ad litem\nat any stage in the action upon its own initiative or upon the motion\nof:\n  1. an infant party if he is more than fourteen years of age; or\n  2. a relative, friend or a guardian, committee of the property, or\nconservator; or\n  3. any other party to the action if a motion has not been made under\nparagraph one or two within ten days after completion of service.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1202__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Notice of motion. Notice of a motion for appointment of a guardian\nad litem for a person shall be served upon the guardian of his property,\nupon his committee or upon his conservator, or if he has no such\nguardian, committee, or conservator, upon the person with whom he\nresides. Notice shall also be served upon the person who would be\nrepresented if he is more than fourteen years of age and has not been\njudicially declared to be incompetent.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1202__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Consent. No order appointing a guardian ad litem shall be\neffective until a written consent of the proposed guardian has been\nsubmitted to the court together with an affidavit stating facts showing\nhis ability to answer for any damage sustained by his negligence or\nmisconduct.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

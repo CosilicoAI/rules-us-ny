@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-422"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-422"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="422"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-422/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-422/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-422/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-422/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_422">
+        <num>422</num>
+        <heading>Bonds of distributors</heading>
+        <content>
+          <p>  § 422. Bonds of distributors. The tax commission may require any\ndistributor to file with the department of taxation and finance a bond\nissued by a surety company approved by the superintendent of financial\nservices as to solvency and responsibility and authorized to transact\nbusiness in the state or other security acceptable to the tax\ncommission, in such amount as the tax commission may fix, to secure the\npayment of any sums due from such distributor pursuant to this article.\nThe tax commission may require that such a bond or other security be\nfiled before a distributor is registered, or at any time when in its\njudgment the same is necessary as a protection to the revenues under\nthis article. If securities are deposited as security under this\nsubdivision, such securities shall be kept in the joint custody of the\ncomptroller and the commissioner of taxation and finance and may be sold\nby the tax commission if it becomes necessary so to do in order to\nrecover any sums due from such distributor pursuant to this article; but\nno such sale shall be had until after such distributor shall have had\nopportunity to litigate the validity of any tax if it elects so to do.\nUpon any such sale, the surplus, if any, above the sums due under this\narticle, shall be returned to such distributor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

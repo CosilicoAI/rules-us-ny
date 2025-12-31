@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-786"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-786"/>
+          <FRBRdate date="2025-06-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="786"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-786/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-786/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-786/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-786/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_786">
+        <num>786</num>
+        <heading>Unlawful retaliation</heading>
+        <content>
+          <p>  § 786. Unlawful retaliation. For purposes of this article, there shall\nbe a rebuttable presumption of unlawful retaliation if an employer in\nany manner discriminates, retaliates, or takes any adverse action\nagainst any employee within ninety days of the employee doing either of\nthe following:\n  1. Initiating the employee's first request in a calendar year for\ninformation about a quota or personal work speed data pursuant to\nsubdivisions one through three of section seven hundred eighty-five of\nthis article.\n  2. Making a complaint related to a quota alleging any violation of\nsections seven hundred eighty-one to seven hundred eighty-five of this\narticle, inclusive, to the commissioner, the department, other local or\nstate governmental agency, or the employer.\n  3. Making a complaint related to section seven hundred eighty-nine of\nthis article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

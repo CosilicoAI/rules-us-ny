@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.05"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.05"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="175.05"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-175.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-175.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_175_05">
+        <num>175.05</num>
+        <heading>Falsifying business records in the second degree</heading>
+        <content>
+          <p>§ 175.05 Falsifying business records in the second degree.\n  A person is guilty of falsifying business records in the second degree\nwhen, with intent to defraud, he:\n  1. Makes or causes a false entry in the business records of an\nenterprise; or\n  2. Alters, erases, obliterates, deletes, removes or destroys a true\nentry in the business records of an enterprise; or\n  3. Omits to make a true entry in the business records of an enterprise\nin violation of a duty to do so which he knows to be imposed upon him by\nlaw or by the nature of his position; or\n  4. Prevents the making of a true entry or causes the omission thereof\nin the business records of an enterprise.\n  Falsifying business records in the second degree is a class A\nmisdemeanor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

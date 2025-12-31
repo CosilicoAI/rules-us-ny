@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7806"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7806"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7806"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7806/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7806/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7806/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7806/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7806">
+        <num>7806</num>
+        <heading>Limited permits</heading>
+        <content>
+          <p>  § 7806. Limited permits. 1. The department may issue a limited permit\nto practice massage therapy as a licensed massage therapist, masseur or\nmasseuse to a person who has not previously held such a permit and who\nfulfills all except the examination and citizenship requirements for a\nlicense, provided however that a permit shall not be issued to a person\nwho has failed the state licensing examination.\n  2. The limited permit shall be valid for a period of not more than\ntwelve months or until the results of the next licensing examination for\nwhich the person is eligible are officially available, whichever comes\nfirst.\n  3. A limited permit shall entitle the holder to practice massage\ntherapy only under the personal supervision of a person currently\nlicensed and registered to practice massage therapy in this state.\n  4. The fee for a limited permit shall be thirty-five dollars.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

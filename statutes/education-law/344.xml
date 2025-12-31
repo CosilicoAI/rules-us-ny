@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-344"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-344"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="344"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-344/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-344/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-344/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-344/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_344">
+        <num>344</num>
+        <heading>Disclosure of test scores</heading>
+        <content>
+          <p>  § 344. Disclosure of test scores.  The score of any test subject shall\nnot be released or disclosed by the test agency to any person,\norganization, corporation, association, college, university, or\ngovernmental agency or subdivision unless specifically authorized by the\ntest subject.  A test agency may, however, release all scores received\nby a test subject on a test to anyone designated by the test subject to\nreceive the current score.\n  This section shall not be construed to prohibit release of scores and\nother information in the possession of a test agency for purposes of\nresearch leading to studies and reports concerning the tests themselves.\nSuch studies and reports must contain no information identifiable with\nany individual test subject or user institution unless authorized by\nthat individual or institution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

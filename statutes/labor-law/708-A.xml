@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-708-A"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-708-A"/>
+          <FRBRdate date="2022-12-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="708-A"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-708-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-708-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-708-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-708-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_708_A">
+        <num>708-A</num>
+        <heading>E-filing program for the purpose of filing papers electronically</heading>
+        <subsection eId="sec_708_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the\ncommencement of a proceeding; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_708_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the filing and service of papers\nin pending proceedings. The board's website shall contain the e-filing\nprogram along with instructions for e-filing, such rules regarding\ne-filing, and certain forms promulgated by the board that parties or\nother persons may use to prepare their documents for e-filing.\n  2. Unless otherwise permitted under this section, all documents filed\nin cases before the board shall be filed electronically (hereinafter\nreferred to as "e-filed"), on the board's website, unless the party can\nestablish to the board that it does not have access to the means for\ne-filing or that e-filing would impose an undue burden.\n  * NB Effective November 22, 2023\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

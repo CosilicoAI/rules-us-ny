@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-204"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-204"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="204"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-204/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-204/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-204/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_204">
+        <num>204</num>
+        <heading>Commissioner; appointment; term of office</heading>
+        <content>
+          <p>  § 204. Commissioner; appointment; term of office.  1. The commissioner\nshall be appointed by the governor, by and with the advice and consent\nof the senate and shall hold office until the end of the term of the\ngovernor by whom he was appointed and until his successor is appointed\nand has qualified.\n  2. The present commissioner shall be the head of the department and\nshall hold office until the expiration of his present term and until his\nsuccessor is appointed and has qualified. If, prior to the expiration of\nsuch present term, a vacancy shall occur or exist in the office of the\ncommissioner it shall be filled by appointment by the governor, by and\nwith the advice and consent of the senate, for a term expiring with that\nof the governor by whom the appointment was made.\n  3. During his term of office the commissioner shall not engage in any\noccupation which conflicts with the performance of his official duties.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

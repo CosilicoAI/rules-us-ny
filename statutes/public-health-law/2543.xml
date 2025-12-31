@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2543"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2543"/>
+          <FRBRdate date="2022-01-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2543"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2543/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2543/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2543/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2543/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2543">
+        <num>2543</num>
+        <heading>Service coordinators</heading>
+        <content>
+          <p>  § 2543. Service coordinators. 1. Upon referral to the early\nintervention official of a child thought to be an eligible child by a\nparent or professional, the early intervention official shall promptly\ndesignate an initial service coordinator, selecting whenever appropriate\na service coordinator who has an established relationship with the child\nor family, and shall promptly notify the parent of such designation.\n  2. The initial service coordinator shall promptly arrange a contact\nwith the parent after such designation, provided that such contact must\nbe in a time, place and manner reasonably convenient for the parent and\nconsistent with the timeliness requirements of this title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

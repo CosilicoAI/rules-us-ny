@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1254"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1254"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1254"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1254/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1254/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1254/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1254/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1254">
+        <num>1254</num>
+        <heading>Duty to collect taxes</heading>
+        <subsection eId="sec_1254__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every person required to collect\ntax, as defined in section eleven hundred thirty-one, who is required to\ncollect any state tax imposed under sections eleven hundred five, eleven\nhundred six or eleven hundred ten, shall at the same time collect any\napplicable tax imposed by a city, county or school district under the\nauthority of sections twelve hundred ten, twelve hundred eleven, twelve\nhundred twelve or twelve hundred twelve-A, and where the state tax is a\nretail sales tax, shall also collect any compensating use tax which may\nbe applicable as provided in sections twelve hundred thirteen or twelve\nhundred fourteen.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1254__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where the state of New York, any of its agencies,\ninstrumentalities, public corporations (including a public corporation\ncreated pursuant to agreement or compact with another state or Canada)\nor political subdivisions sells services or property of a kind\nordinarily sold by private persons it shall be considered a vendor for\npurposes of the taxes imposed under the authority of sections twelve\nhundred ten, twelve hundred eleven, twelve hundred twelve and twelve\nhundred twelve-A and shall be required to collect the taxes imposed by\ncities, counties and school districts under the authority of such\nsections.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

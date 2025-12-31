@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-219-D"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-219-D"/>
+          <FRBRdate date="2023-11-17" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="219-D"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-219-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-219-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-219-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-219-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_219_D">
+        <num>219-D</num>
+        <heading>Emergency alert notification system employer registration</heading>
+        <content>
+          <p>  § 219-d. Emergency alert notification system employer registration. 1.\nThe department, in consultation with the state office of information\ntechnology services, shall provide every employer in the state with a\nregistration form which shall be created by the state office of\ninformation technology services, to voluntarily register with the\nemergency alert notification system. Such registration form shall be\naccompanied by a summary of the benefits of registering for alerts from\nthe emergency alert notification system, including a description of how\nthe use of the emergency alert system can be utilized to preserve the\nhealth and safety of workers, and an example for dissemination to\nworkers of information received from an emergency alert notification.\n  2. For the purposes of this section, the "emergency alert notification\nsystem" shall mean the state office of information technology services\nalert system known as alert.ny.gov, or NY-Alert.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

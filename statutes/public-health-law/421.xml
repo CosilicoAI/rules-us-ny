@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-421"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-421"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="421"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-421/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-421/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-421/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-421/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_421">
+        <num>421</num>
+        <heading>Boards of visitors; officers; meetings</heading>
+        <subsection eId="sec_421__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The board of visitors of each hospital in the department, other\nthan the institute for the study of malignant diseases, shall hold\nregular meetings at least once every three months throughout the year,\nand cause to be typewritten within ten days after each such meeting, the\nminutes and proceedings of such meeting, and cause a copy thereof, to be\nsent forthwith to each member of the board of visitors, to the\ncommissioner and to the governor.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_421__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The board of visitors of the state institute for the study of\nmalignant diseases shall meet quarterly to consider the affairs of the\ninstitute and at the last quarterly meeting in a calendar year shall\nprepare and transmit to the commissioner, a report of the work of the\ninstitute for the twelve months preceding such meeting.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_421__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The board of visitors of each hospital in the department may meet\nat any time on call of the chairman.\n  3. Members of a board of visitors who fail to attend meetings of the\nboard at least twice in each calendar year shall be deemed to have\nvacated their membership in such board of visitors, whereupon the\ngovernor shall fill the vacancies so created as provided by this\nchapter, unless the absence of such visitors shall be excused by the\ngovernor.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

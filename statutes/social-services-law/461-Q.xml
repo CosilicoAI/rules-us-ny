@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-461-Q"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-461-Q"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="461-Q"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-461-Q/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-461-Q/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-461-Q/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-461-Q/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_461_Q">
+        <num>461-Q</num>
+        <heading>Temperature standards in adult homes, enriched housing programs and residences for adults</heading>
+        <content>
+          <p>  § 461-q. Temperature standards in adult homes, enriched housing\nprograms and residences for adults. The commissioner of health shall\npromulgate rules and regulations with respect to an allowable\ntemperature in all areas occupied by residents of an adult home,\nenriched housing program and residence for adults, including any areas\nintended for use by its residents in common including auditoriums,\nmeeting rooms and cafeterias.  One common room in such adult home,\nenriched housing program and residence for adults shall be required to\nbe air conditioned.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

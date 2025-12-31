@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-695-B"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-695-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="695-B"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-695-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-695-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-695-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-695-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_695_B">
+        <num>695-B</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_695_B__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of subdivision one of section three hundred ninety of the social\nservices law or\n  2. A family day care home as defined in paragraph</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_695_B__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of subdivision\none of section three hundred ninety of the social services law or\n  3. An individual providing child care in reference to one or more\nchildren who are receiving child care assistance under title five-c of\narticle six of the social services law under circumstances where the\nindividual is not required to be licensed or registered under section\nthree hundred ninety of the social services law or to be licensed under\nthe administrative code of the city of New York.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

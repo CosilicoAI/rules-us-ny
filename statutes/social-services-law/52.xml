@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-52"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-52"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="52"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-52/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-52/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-52/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-52/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_52">
+        <num>52</num>
+        <heading>Reports</heading>
+        <content>
+          <p>  § 52. Reports. On or before February first, nineteen hundred\neighty-nine and on or before February first of each year thereafter in\nwhich contracts under this article are in force, the commissioner shall\nsubmit to the governor, the temporary president of the senate and the\nspeaker of the assembly a report detailing progress and evaluating\nresults, to date, of the program. Such report shall include, but not be\nlimited to a review of the basis for selection of eligible applicants;\nthe number of persons served; a review of the efforts made to prevent\nhomelessness and to provide permanent housing for homeless households,\nincluding a list of the number of persons and families, by project, who\nreceived services; an identification of the estimated savings and costs\nof the program to the state and localities; and an evaluation of\ncontinuing needs for homelessness intervention services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

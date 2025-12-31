@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-1011"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-1011"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="17-1011"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-1011/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-1011/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-17-1011/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-17-1011/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_17_1011">
+        <num>17-1011</num>
+        <heading>Access to records and facilities</heading>
+        <content>
+          <p>§ 17-1011. Access to records and facilities.\n  1. Every owner or operator shall, upon reasonable notice of the\ncommissioner or his designee, permit a duly designated officer or\nemployee of the department at all reasonable times to have access to and\nto copy all books, papers, documents and records relating to the daily\nmeasurement and inventory of petroleum stored at a facility.\n  2. Any duly designated officer or employee of the department may, at\nreasonable times and upon reasonable notice of the commissioner or a\ndesignee, enter and inspect any facility, provided that such officer or\nemployee shall be accompanied by the owner or operator or their\ndesignee.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

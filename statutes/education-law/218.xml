@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-218"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-218"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="218"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-218/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-218/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-218/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-218/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_218">
+        <num>218</num>
+        <heading>Conditions of incorporation</heading>
+        <content>
+          <p>  § 218. Conditions of incorporation.  1. No institution shall be given\npower to confer baccalaureate or higher degrees in this state unless it\nshall have financial resources which, in the judgment of the regents,\nare adequate to insure satisfactory conduct of its degree program and\nachievement of its stated educational goals; and no institution for\nhigher education shall be incorporated without suitable provision,\napproved by the regents, for educational resources and programs.  No\ninstitution shall institute or have any faculty or department of\neducation in any place or be given power to confer any degree not\nspecifically authorized by its charter; and no corporation shall, under\nauthority of any general act, extend its business to include\nestablishing or carrying on any educational institution or work, without\nthe consent of the board of regents.\n  2. No institution shall be given power to confer associate degrees in\nthis state unless it shall possess financial resources which, in the\njudgment of the regents, are adequate to insure satisfactory conduct of\nits degree programs and achievement of its stated educational goals.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-973"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-973"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="973"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-973/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-973/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-973/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-973/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_973">
+        <num>973</num>
+        <heading>Signing of returns and other documents</heading>
+        <subsection eId="sec_973__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>General.  Any\nreturn, statement or other document required to be made pursuant to this\narticle shall be signed in accordance with instructions prescribed by\nthe commissioner of taxation and finance.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_973__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Signature presumed authentic. The fact that the name of the\nexecutor or other individual is signed to a return, statement or other\ndocument, or copies thereof, shall be prima facie evidence for all\npurposes that the return, statement or other document, or copy was\nactually signed by him.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_973__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Certifications. The making or filing of any return, statement or\nother document, or copy thereof, required to be made or filed pursuant\nto this article, including a copy of a federal return, shall constitute\na certification by the person making or filing such return, statement or\nother document or copy thereof that the statements contained therein are\ntrue and that any copy filed is a true copy.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

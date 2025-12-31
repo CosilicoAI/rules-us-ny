@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-74-H"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-74-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="74-H"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-74-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-74-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-74-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-74-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_74_H">
+        <num>74-H</num>
+        <heading>Appeals and reviews</heading>
+        <content>
+          <p>  § 74-h.  Appeals and reviews.  1.  A social services official\nresponsible in an individual case for either the authorization of\nassistance or the investigation of the application for assistance and\nthe making of a recommendation relative to such application shall have\nthe right to appeal to the department from a decision made in such case\nby another social services official.\n  Upon receiving such an appeal, the department shall issue a written\ndetermination which shall be binding on all the social services\nofficials involved in such appeal.\n  2.  The department on its own motion may review any case for the\npurpose of determining whether assistance and care has been adequately\nor properly provided.  After making such a review, the department may\nissue such written determination as it may deem proper, and such\ndetermination shall be binding on all the social services officials\nconcerned.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

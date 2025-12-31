@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-270.25"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-270.25"/>
+          <FRBRdate date="2025-10-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="270.25"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-270.25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-270.25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-270.25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-270.25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_270_25">
+        <num>270.25</num>
+        <heading>Trial jury; peremptory challenge of an individual juror</heading>
+        <subsection eId="sec_270_25__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Twenty for the regular jurors if the highest crime charged is a\nclass A felony, and two for each alternate juror to be selected.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_270_25__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Fifteen for the regular jurors if the highest crime charged is a\nclass B or class C felony, and two for each alternate juror to be\nselected.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_270_25__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Ten for the regular jurors in all other cases, and two for each\nalternate juror to be selected.\n  3. When two or more defendants are tried jointly, the number of\nperemptory challenges prescribed in subdivision two of this section is\nnot multiplied by the number of defendants, but such defendants are to\nbe treated as a single party. In any such case, a peremptory challenge\nby one or more defendants must be allowed if a majority of the\ndefendants join in such challenge, or if there is a tie when there is an\neven number of defendants. Otherwise, it must be disallowed.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

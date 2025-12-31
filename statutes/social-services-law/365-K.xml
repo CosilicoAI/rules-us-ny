@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-365-K"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-365-K"/>
+          <FRBRdate date="2023-04-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="365-K"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-365-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-365-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-365-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-365-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_365_K">
+        <num>365-K</num>
+        <heading>Provision of prenatal care services</heading>
+        <subsection eId="sec_365_K__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The commissioner\nshall establish standards and guidelines for the provision of prenatal\ncare services under the medical assistance program. In establishing such\nstandards and guidelines, the commissioner shall consider generally\naccepted standards of professional practice, including, but not limited\nto, standards issued by the American College of Obstetricians and\nGynecologists and the American Academy of Pediatrics, and shall consult\nwith prenatal care providers and other interested parties.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_365_K__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The standards and guidelines established under this section for\nproviding non-invasive prenatal testing shall not limit availability and\ncoverage for a test based on the age of the pregnant patient, unless the\nlimit is explicitly called for by the generally accepted standards of\nprofessional practice or is otherwise recommended by safety\ncommunications or guidance issued by the United States food and drug\nadministration, the centers for Medicare and medicaid services, or the\nUnited States department of health and human services.\n  2. For purposes of this title, "prenatal care provider" means a\nmedical care facility or public or private not-for-profit agency or\norganization, physician, licensed nurse practitioner, or licensed\nmidwife practicing on an individual or group basis that provides\nprenatal care or managed care plan that contracts with prenatal\nproviders.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

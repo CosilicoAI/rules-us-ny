@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1725"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1725/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1725/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1725">
+        <num>1725</num>
+        <heading>Lease of personal property</heading>
+        <content>
+          <p>  § 1725. Lease of personal property.  1. Notwithstanding any incon-\nsistent provision of law, a board of education of any union free school\ndistrict may enter into agreements for the lease of personal property.\n  2. Before executing any such agreement, the board of education must\nadopt a resolution determining that such agreement is in the best\nfinancial interests of the school district and stating the bases of that\ndetermination.\n  3. No agreement for the lease of personal property shall be for a term\nof more than the current school year unless such agreement shall be\napproved by the voters of the district, either as a separate proposition\nor as an appropriation with indication that a lease is intended or\npossible, or unless the board of education shall have determined that\nsuch lease of property is an ordinary contingent expense.\n  4. Such agreements shall be subject to the bidding requirements of the\ngeneral municipal law for purchase contracts.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

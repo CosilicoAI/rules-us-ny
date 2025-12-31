@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-111-D"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-111-D"/>
+          <FRBRdate date="2022-01-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-D"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-111-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-111-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-111-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-111-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_D">
+        <num>111-D</num>
+        <heading>Consideration of blindness during adoption proceedings</heading>
+        <content>
+          <p>  § 111-d. Consideration of blindness during adoption proceedings. 1.\nThe court may not deny or decide a petition for adoption solely on the\nbasis that the petitioner is blind. The blindness of the petitioner\nshall be considered relevant only to the extent that the court finds,\nbased on evidence in the record, that the blindness affects the best\ninterests of the child whose adoption is the subject of the petition.\n  2. As used in this section, "blind" or "blindness" means:\n  a. vision that is 20/200 or less in the best corrected eye; or\n  b. vision that subtends an angle of not greater than twenty degrees in\nthe best corrected eye.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-72-0203"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-72-0203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="72-0203"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-72-0203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-72-0203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-72-0203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-72-0203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_72_0203">
+        <num>72-0203</num>
+        <heading>Annual report</heading>
+        <content>
+          <p>§ 72-0203. Annual report.\n  Notwithstanding any other provision of law, the department shall\nsubmit, no later than January fifteenth in each year, a report to the\ngovernor, the chairmen of the senate finance committee and assembly ways\nand means committee, consisting of a summary and analysis of all moneys\npaid pursuant to this article and all penalties, fines and other sums\ncollected or received pursuant to titles nineteen, twenty-one and\ntwenty-seven of article seventy-one of this chapter. The report shall\nalso include data relating to the moneys paid pursuant to this article\nto the costs of regulation by permit category as defined in this\narticle.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

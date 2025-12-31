@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-540"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-540"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="540"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-540/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-540/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-540/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-540/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_540">
+        <num>540</num>
+        <heading>City laboratories; continuation and establishment</heading>
+        <subsection eId="sec_540__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nNothing contained in sections five hundred twenty-five to five hundred\ntwenty-eight, inclusive, of this chapter, shall be construed to repeal\nor amend any provision of law under which any health function or\nactivity may be carried on in any city, or to transfer or affect any\nauthority in relation to health activities now being exercised in any\ncity by any public board or officer.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_540__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Any public board or officer of a city now exercising health\nfunctions may, with the approval of the mayor, contract with the board\nof managers or other governing authority of any laboratory for the\npurpose of cooperation and to join and share facilities.\n  2. If it is the intention of the common council or similar authority\nof a city to apply for state aid for a proposed laboratory, under the\nprovisions of section six hundred twenty to six hundred twenty-three,\ninclusive, of this chapter, the common council or similar authority with\nthe approval of the board of estimate, if such exists, shall have the\npower to establish a laboratory in such city.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

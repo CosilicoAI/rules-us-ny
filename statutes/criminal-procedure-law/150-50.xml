@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-150.50"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-150.50"/>
+          <FRBRdate date="2019-11-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="150.50"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-150.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-150.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-150.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-150.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_150_50">
+        <num>150.50</num>
+        <heading>Appearance ticket; filing a local criminal court accusatory instrument; dismissal of insufficient instrument</heading>
+        <subsection eId="sec_150_50__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of subdivision one of section 1.20 of this chapter.\nNothing herein contained shall authorize the use of a simplified\ninformation when not authorized by law.\n  2. If such accusatory instrument is not sufficient on its face, as\nprescribed in section 100.40, and if the court is satisfied that on the\nbasis of the available facts or evidence it would be impossible to draw\nand file an accusatory instrument which is sufficient on its face, it\nmust dismiss such accusatory instrument.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

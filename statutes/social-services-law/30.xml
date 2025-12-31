@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-30"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="30"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_30">
+        <num>30</num>
+        <heading>Continuation of salaries of local and state welfare employees receiving training for the better performance of their duties</heading>
+        <content>
+          <p>  § 30.  Continuation of salaries of local and state welfare employees\nreceiving training for the better performance of their duties.  Subject\nto the approval of the department, the board of supervisors of a county\nand the appropriating body of a city or town may include in its\nappropriations moneys for the continuation of the salaries of their\nlocal welfare employees who are on leave receiving additional training\nfor the better performance of their duties, provided that no such\nsalaries shall be so continued to a greater extent than will reimburse\nsuch employee for the loss of earnings while on such leave.  Salaries of\nthe employees of the department may be continued in a similar fashion.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

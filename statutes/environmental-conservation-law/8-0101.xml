@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-8-0101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-8-0101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8-0101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-8-0101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-8-0101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-8-0101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-8-0101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8_0101">
+        <num>8-0101</num>
+        <heading>Purpose</heading>
+        <content>
+          <p>§ 8-0101. Purpose.\n  It is the purpose of this act to declare a state policy which will\nencourage productive and enjoyable harmony between man and his\nenvironment; to promote efforts which will prevent or eliminate damage\nto the environment and enhance human and community resources; and to\nenrich the understanding of the ecological systems, natural, human and\ncommunity resources important to the people of the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

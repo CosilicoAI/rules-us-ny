@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-490.37"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-490.37"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="490.37"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-490.37/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-490.37/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-490.37/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-490.37/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_490_37">
+        <num>490.37</num>
+        <heading>Criminal possession of a chemical weapon or biological weapon in the third degree</heading>
+        <content>
+          <p>§ 490.37 Criminal possession of a chemical weapon or biological weapon\n           in the third degree.\n  A person is guilty of criminal possession of a chemical weapon or\nbiological weapon in the third degree when he or she possesses any\nselect chemical agent or select biological agent under circumstances\nevincing an intent by the defendant to use such weapon to cause serious\nphysical injury or death to another person.\n  Criminal possession of a chemical weapon or biological weapon in the\nthird degree is a class C felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1174"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1174"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1174"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1174/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1174/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1174/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1174/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1174">
+        <num>1174</num>
+        <heading>Relationship to state law</heading>
+        <content>
+          <p>  § 1174. Relationship to state law. No provision of the agreement\nauthorized by this article in whole or part invalidates or amends any\nprovision of the law of New York state. Adoption of the agreement by New\nYork state does not amend or modify any law of New York state.\nImplementation of any condition of the agreement in New York state,\nwhether adopted before, at, or after membership of New York state in the\nagreement, shall be exclusively done by a separate act or acts of the\nlegislature.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

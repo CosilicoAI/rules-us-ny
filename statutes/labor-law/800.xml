@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-800"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-800"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="800"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-800/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-800/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-800/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-800/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_800">
+        <num>800</num>
+        <heading>Boards of inquiry in labor disputes</heading>
+        <content>
+          <p>  § 800. Boards of inquiry in labor disputes. Where any strike, lockout,\nor other labor dispute exists or is apprehended, the commissioner, for\nthe purpose of inquiring into the causes and circumstances of the\ndispute may, if he thinks fit, refer any matters appearing to him to be\nconnected with or relevant to the dispute to a board of inquiry\nappointed by him for the purpose of such reference; and the board shall,\neither in public or in private, at its discretion, and at any place\nwithin the state, inquire into the matters referred to it and report\nthereon to the commissioner. Provided, however, that no such reference\nshall be made unless and until there shall have been filed with the\ncommissioner a certificate of the state board of mediation stating that\nin its opinion efforts to effect a voluntary settlement of the dispute\nhave been unsuccessful.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

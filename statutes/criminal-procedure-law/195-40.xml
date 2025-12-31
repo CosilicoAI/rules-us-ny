@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-195.40"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-195.40"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="195.40"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-195.40/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-195.40/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-195.40/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-195.40/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_195_40">
+        <num>195.40</num>
+        <heading>Waiver of indictment; filing of superior court information</heading>
+        <subsection eId="sec_195_40__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The failure of the district attorney to file a superior court\ninformation during such period of confinement was due to defendant's\nrequest, action or condition or occurred with his consent; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_195_40__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The people have shown good cause why such order of release should\nnot be issued.  Such good cause must consist of some compelling fact or\ncircumstance which precluded the filing of the superior court\ninformation within the prescribed period.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

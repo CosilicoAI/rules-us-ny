@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-46-0101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-46-0101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="46-0101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-46-0101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-46-0101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-46-0101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-46-0101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_46_0101">
+        <num>46-0101</num>
+        <heading>Legislative declaration and intent</heading>
+        <content>
+          <p>§ 46-0101. Legislative declaration and intent.\n  The pitch pine-scrub oak barrens or pine barrens in the city of Albany\nand towns of Guilderland and Colonie and known as the "Albany Pine Bush"\nor "Pine Bush" is a landscape of rare and endangered natural communities\nand species identified by the New York natural heritage program. Its\nlocation at the center of a major urban area makes it especially\nvaluable as an open space resource and, if properly managed, as a\npassive recreation area and educational laboratory.\n  Both state, municipal and private actions have been taken to protect\nthe remaining Albany Pine Bush. Because of the fragile qualities of the\nPine Bush and its dependence on periodic fires, effective, coordinated\nmanagement of the remaining Albany Pine Bush is essential.\n  The legislature hereby declares it to be in the public interest to\nprotect and manage the Albany Pine Bush by establishing an Albany Pine\nBush preserve consisting of dedicated public and dedicated private land\nand a commission made up of representatives of state and local\ngovernments and private citizens to manage the preserve for purposes of\nits protection and controlled and appropriate recreation and education\npurposes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

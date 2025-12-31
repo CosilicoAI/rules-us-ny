@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-36-C"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-36-C"/>
+          <FRBRdate date="2022-04-15" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="36-C"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-36-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-36-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-36-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-36-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_36_C">
+        <num>36-C</num>
+        <heading>Savings plan for the city of New York</heading>
+        <subsection eId="sec_36_C__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the recipient's need for the shelter component of\ntemporary housing assistance shall not be reduced by the portion of a\nrecipient's earned income that the recipient would have been required\nunder subdivision two of this section to deposit in a savings plan, and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_36_C__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>funds collected from recipients pursuant to this section prior to\nthe effective date of this subdivision shall continue to be treated and\nmade payable to recipients in accordance with the provisions of\nsubdivision three of this section.\n  * NB Repealed March 31, 2030\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

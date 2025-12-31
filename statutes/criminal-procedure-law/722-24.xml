@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-722.24"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-722.24"/>
+          <FRBRdate date="2019-10-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="722.24"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-722.24/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-722.24/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-722.24/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-722.24/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_722_24">
+        <num>722.24</num>
+        <heading>Applicability of chapter to actions and matters involving juvenile offenders or adolescent offenders</heading>
+        <content>
+          <p>§ 722.24 Applicability of chapter to actions and matters involving\n           juvenile offenders or adolescent offenders.\n  Except where inconsistent with this article, all provisions of this\nchapter shall apply to all criminal actions and proceedings, and all\nappeals and post-judgment motions relating or attached thereto,\ninvolving a juvenile offender or adolescent offender.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

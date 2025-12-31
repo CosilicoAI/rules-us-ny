@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4906"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4906"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4906"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4906/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4906/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4906/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4906/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4906">
+        <num>4906</num>
+        <heading>Waiver</heading>
+        <content>
+          <p>  § 4906. Waiver. 1. Any agreement which purports to waive, limit,\ndisclaim, or in any way diminish the rights set forth in this article,\nexcept as provided pursuant to section four thousand nine hundred ten of\nthis article shall be void as contrary to public policy.\n  2. Notwithstanding subdivision one of this section, in lieu of the\nexternal appeal process as set forth in this article, a health care plan\nand a facility licensed pursuant to article twenty-eight of this chapter\nmay agree to an alternative dispute resolution mechanism to resolve\ndisputes otherwise subject to this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

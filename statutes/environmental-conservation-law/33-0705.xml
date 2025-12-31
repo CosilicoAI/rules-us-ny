@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0705"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0705"/>
+          <FRBRdate date="2023-07-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="33-0705"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0705/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0705/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-0705/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-0705/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_0705">
+        <num>33-0705</num>
+        <heading>Fee for registration</heading>
+        <content>
+          <p>§ 33-0705. Fee for registration.\n  The applicant for registration shall pay a fee as follows:\n  a. Six hundred dollars for each pesticide proposed to be registered,\nprovided that the applicant has submitted to the department proof in the\nform of a federal income tax return for the previous year showing gross\nannual sales, for federal income tax purposes, of three million five\nhundred thousand dollars or less; and\n  b. For all others, six hundred twenty dollars for each pesticide\nproposed to be registered.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

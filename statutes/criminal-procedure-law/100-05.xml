@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.05"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.05"/>
+          <FRBRdate date="2019-10-04" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="100.05"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.05/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.05/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-100.05/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-100.05/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_100_05">
+        <num>100.05</num>
+        <heading>Commencement of action; in general</heading>
+        <content>
+          <p>§ 100.05 Commencement of action; in general.\n  A criminal action is commenced by the filing of an accusatory\ninstrument with a criminal court, or, in the case of a juvenile offender\nor adolescent offender, other than an adolescent offender charged with\nonly a violation or traffic infraction, the youth part of the superior\ncourt, and if more than one such instrument is filed in the course of\nthe same criminal action, such action commences when the first of such\ninstruments is filed. The only way in which a criminal action can be\ncommenced in a superior court, other than a criminal action against a\njuvenile offender or adolescent offender is by the filing therewith by a\ngrand jury of an indictment against a defendant who has never been held\nby a local criminal court for the action of such grand jury with respect\nto any charge contained in such indictment. Otherwise, a criminal action\ncan be commenced only in a local criminal court, by the filing therewith\nof a local criminal court accusatory instrument, namely:\n  1. An information; or\n  2. A simplified information; or\n  3. A prosecutor's information; or\n  4. A misdemeanor complaint; or\n  5. A felony complaint.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

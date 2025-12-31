@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-75-0113"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-75-0113"/>
+          <FRBRdate date="2020-01-03" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="75-0113"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-75-0113/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-75-0113/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-75-0113/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-75-0113/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_75_0113">
+        <num>75-0113</num>
+        <heading>Value of carbon</heading>
+        <content>
+          <p>§ 75-0113. Value of carbon.\n  1. No later than one year after the effective date of this article,\nthe department, in consultation with the New York state energy research\nand development authority, shall establish a social cost of carbon for\nuse by state agencies, expressed in terms of dollars per ton of carbon\ndioxide equivalent.\n  2. The social cost of carbon shall serve as a monetary estimate of the\nvalue of not emitting a ton of greenhouse gas emissions. As determined\nby the department, the social cost of carbon may be based on marginal\ngreenhouse gas abatement costs or on the global economic, environmental,\nand social impacts of emitting a marginal ton of greenhouse gas\nemissions into the atmosphere, utilizing a range of appropriate discount\nrates, including a rate of zero.\n  3. In developing the social cost of carbon, the department shall\nconsider prior or existing estimates of the social cost of carbon issued\nor adopted by the federal government, appropriate international bodies,\nor other appropriate and reputable scientific organizations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

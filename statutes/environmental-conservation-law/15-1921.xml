@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1921"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1921"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-1921"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1921/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1921/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-1921/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-1921/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_1921">
+        <num>15-1921</num>
+        <heading>Proceedings on enhancements</heading>
+        <content>
+          <p>§ 15-1921. Proceedings on enhancements.\n  1. The drainage enhancements shall be set forth in a statement signed\nby the department, which together with the map of the district shall be\nfiled and notice of a hearing thereon at which grievances will be heard\nshall be given. At such hearing objectors shall be heard as to the\nproperty lines shown on the maps and the drainage enhancements shown on\nthe statement thereof.\n  2. After the close of the hearing the department may amend both maps\nand statement, adopt the statement in final form and shall file such\namended maps and final statement and give notice of such filing.\nThereupon such amended maps and final statement shall be recorded when\nand as provided in section 15-1927.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0103"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0103"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0103"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0103/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0103/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0103/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0103/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0103">
+        <num>19-0103</num>
+        <heading>Declaration of policy</heading>
+        <content>
+          <p>§ 19-0103. Declaration of policy.\n  It is declared to be the policy of the state of New York to maintain a\nreasonable degree of purity of the air resources of the state, which\nshall be consistent with the public health and welfare and the public\nenjoyment thereof, the industrial development of the state, the\npropagation and protection of flora and fauna, and the protection of\nphysical property and other resources, and to that end to require the\nuse of all available practical and reasonable methods to prevent and\ncontrol air pollution in the state of New York. It is further declared\nthat this can be done most effectively by focusing on goals to be\nachieved by a maximum of cooperation among all parties concerned and\nthat codes, rules and regulations established under the provisions of\nthis article should be clearly premised upon scientific knowledge of\ncauses as well as of effects.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

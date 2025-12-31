@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.25"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.25"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210.25"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-210.25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-210.25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_25">
+        <num>210.25</num>
+        <heading>Motion to dismiss indictment; as defective</heading>
+        <subsection eId="sec_210_25__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision one of section 210.20 when:\n  1.  It does not substantially conform to the requirements stated in\narticle two hundred; provided that an indictment may not be dismissed as\ndefective, but must instead be amended, where the defect or irregularity\nis of a kind that may be cured by amendment, pursuant to section 200.70,\nand where the people move to so amend; or\n  2.  The allegations demonstrate that the court does not have\njurisdiction of the offense charged; or\n  3.  The statute defining the offense charged is unconstitutional or\notherwise invalid.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

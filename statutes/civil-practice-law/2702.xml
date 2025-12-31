@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2702"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2702"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2702"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2702/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2702/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2702/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2702/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2702">
+        <num>2702</num>
+        <heading>Sale of property</heading>
+        <content>
+          <p>  § 2702. Sale of property.  On motion of any party, the court may order\nthe sale, in such manner and on such terms as it deems proper, of any\npersonal property capable of delivery which is the subject of the action\nif it shall appear likely that its value will be substantially decreased\nduring the pendency of the action. Any party to the action may purchase\nsuch property at a judicially-directed sale held pursuant to this\nsection without prejudice to his claim.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

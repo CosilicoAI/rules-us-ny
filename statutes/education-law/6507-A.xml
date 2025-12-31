@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6507-A"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6507-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6507-A"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6507-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6507-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6507-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6507-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6507_A">
+        <num>6507-A</num>
+        <heading>Registration fee surcharge</heading>
+        <content>
+          <p>  § 6507-a. Registration fee surcharge. The commissioner is hereby\nauthorized to impose and collect a fifteen percent surcharge, rounded\nupward to the nearest dollar, on any professional registration fee\nimposed under this title that is subject to deposit in the office of the\nprofessions account established pursuant to section ninety-seven-nnn of\nthe state finance law. Such surcharge shall not be imposed on any such\nfee dedicated for deposit in the professional medical conduct account.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

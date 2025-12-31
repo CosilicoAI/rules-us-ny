@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6701"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6701"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6701">
+        <num>6701</num>
+        <heading>Definition of practice of veterinary medicine</heading>
+        <content>
+          <p>  § 6701. Definition of practice of veterinary medicine. The practice of\nthe profession of veterinary medicine is defined as diagnosing,\ntreating, operating, or prescribing for any animal disease, pain,\ninjury, deformity or dental or physical condition, or the subcutaneous\ninsertion of a microchip intended to be used to identify an animal.\n"Animal" includes every living creature except a human being.\nNotwithstanding the foregoing provisions of this section, no provisions\nof this section shall be construed to include the floating of equine\nteeth as being within the practice of veterinary medicine.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

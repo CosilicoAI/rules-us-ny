@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8701"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8701"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8701"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8701/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8701/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-8701/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-8701/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8701">
+        <num>8701</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_8701__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Diagnostic radiological physics" shall mean the branch of medical\nphysics relating to the diagnostic application of radiation, the\nanalysis and interpretation of image quality, performance measurements\nand the calibration of equipment associated with the production and use\nof such radiation, the analysis and interpretation of measurements\nassociated with patient doses and exposures, and the radiation safety\naspects associated with the production and use of such radiation;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8701__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Medical health physics" shall mean the branch of medical physics\npertaining to the radiation safety aspects of the use of radiation for\nboth diagnostic and therapeutic purposes, and the use of equipment to\nperform appropriate radiation measurements;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8701__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>"Medical nuclear physics" shall mean the branch of medical physics\npertaining to the therapeutic and diagnostic application of\nradionuclides, excluding those used in sealed sources for therapeutic\npurposes, the analysis and interpretation of performance measurements\nassociated with radiation imaging equipment and performance oversight of\nradionuclide calibration equipment associated with the use and\nproduction of radionuclides, the analysis and interpretation of\nmeasurements and calculations associated with patient organ doses, and\nthe radiation safety aspects associated with the production and use of\nsuch radionuclides; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8701__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>"Therapeutic radiological physics" or "radiation oncology physics"\nshall mean the branch of medical physics relating to the therapeutic\napplication of radiation, the analysis and interpretation of radiation\nequipment performance measurements and the calibration of equipment\nassociated with the production and use of such radiation, the analysis\nand interpretation of measurements associated with patient doses, and\nthe radiation safety aspects associated with the production and use of\nsuch radiation.\n  3. "Medical physics" shall mean the branch of physics limited to the\nfield of radiological physics.\n  4. "Radiation" shall mean all ionizing radiation above background\nlevels or any non-ionizing radiation used in diagnostic imaging or in\nradiation oncology.\n  5. "Radiological physics" shall mean diagnostic radiological physics,\ntherapeutic radiological physics or radiation oncology physics, medical\nnuclear physics and medical health physics.\n  6. "Radiological procedure" shall mean any test, measurement,\ncalculation or radiation exposure for the purpose of diagnosis or\ntreatment of any medical condition of a human, including therapeutic\nradiation, diagnostic imaging and measurements, and nuclear medicine\nprocedures.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-683-B"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-683-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="683-B"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-683-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-683-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-683-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-683-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_683_B">
+        <num>683-B</num>
+        <heading>Information furnished by the state tax commission and the comptroller</heading>
+        <content>
+          <p>  § 683-b. Information furnished by the state tax commission and the\ncomptroller.  Information furnished to the New York state higher\neducation services corporation by the state tax commission and the\ncomptroller under or as a result of the agreement authorized by section\none hundred seventy-one-d of the tax law shall be considered\nconfidential and shall not be disclosed except to such federal\ndepartment or agency entitled to such information because such\ndisclosure is necessary for the proper administration of this part.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

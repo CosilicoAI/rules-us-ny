@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0301"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0301"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-0301"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_0301">
+        <num>9-0301</num>
+        <heading>Use and diminution of Adirondack and Catskill parks</heading>
+        <content>
+          <p>§ 9-0301. Use and diminution of Adirondack and Catskill parks.\n  1. All lands in the Catskill park and in the Adirondack park, except\nthose lying within the town of Dannemora, now owned or which may\nhereafter be acquired by the state, shall be forever reserved and\nmaintained for the free use of all the people, except that nothing\nherein shall prohibit the charging of a fee for services rendered or\nfacilities provided.\n  2. No law diminishing the area of the Adirondack and Catskill parks,\nas defined in section 9-0101 hereof, shall be effective unless enacted\nby the legislature at two successive regular sessions.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

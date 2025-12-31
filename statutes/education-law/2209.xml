@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2209"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2209"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2209"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2209/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2209/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2209/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2209/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2209">
+        <num>2209</num>
+        <heading>Salary of district superintendent</heading>
+        <content>
+          <p>§ 2209. Salary of district superintendent. 1.  Each district\nsuperintendent shall receive an annual salary from the state of\nforty-three thousand four hundred ninety-nine dollars, payable by the\ncommissioner of education from moneys appropriated therefor, and in no\nevent shall any moneys in excess of such amount be paid for such\nsalaries unless this section is amended or explicitly notwithstood.\n  2.  The supervisors of the towns composing any supervisory district\nmay by adopting a resolution by a majority vote increase the salary to\nbe paid by such district to its district superintendent.  Such\nsupervisors must thereupon file with the clerk of the board of\nsupervisors a certificate showing the amount of such increase.  The\nboard of supervisors of each county shall levy such amount annually by\ntax on the towns composing such supervisory district within the county.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

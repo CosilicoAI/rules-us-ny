@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.15"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.15"/>
+          <FRBRdate date="2016-01-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.15"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_15">
+        <num>230.15</num>
+        <heading>Promoting prostitution; definitions of terms</heading>
+        <content>
+          <p>§ 230.15 Promoting prostitution; definitions of terms.\n  The following definitions are applicable to this article:\n  1. "Advance prostitution." A person "advances prostitution" when,\nacting other than as a person in prostitution or as a patron thereof, he\nor she knowingly causes or aids a person to commit or engage in\nprostitution, procures or solicits patrons for prostitution, provides\npersons or premises for prostitution purposes, operates or assists in\nthe operation of a house of prostitution or a prostitution enterprise,\nor engages in any other conduct designed to institute, aid or facilitate\nan act or enterprise of prostitution.\n  2. "Profit from prostitution." A person "profits from prostitution"\nwhen, acting other than as a person in prostitution receiving\ncompensation for personally rendered prostitution services, he or she\naccepts or receives money or other property pursuant to an agreement or\nunderstanding with any person whereby he or she participates or is to\nparticipate in the proceeds of prostitution activity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

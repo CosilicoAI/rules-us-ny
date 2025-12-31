@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-19"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-19"/>
+          <FRBRdate date="2023-04-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-19/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-19/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-19/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-19/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19">
+        <num>19</num>
+        <heading>Records to be kept by town and city clerks</heading>
+        <subsection eId="sec_19__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>In lieu of the requirement of maintaining a book supplied by\nthe state department of health pursuant to subdivision one hereof, each\ntown or city clerk may cause all information as is required by law or\nrule or regulation of the department to be kept in such books to be\nphotocopied, photographed, microphotographed or reproduced on film which\nshall be kept and preserved as part of the public records of his office\ntogether with an index thereto. Such photographic film shall be of\ndurable material and the device used to reproduce such records on such\nfilm shall be one which accurately reproduces the original record in all\ndetails.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_19__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Such photocopy or photographic film shall be deemed to be an\noriginal record for all purposes, including introduction in evidence in\nall courts or administrative agencies. A transcript, exemplification or\ncertified copy thereof shall, for all purposes, be deemed to be a\ntranscript, exemplification or certified copy of the original.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

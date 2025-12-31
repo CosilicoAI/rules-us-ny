@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0805"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0805"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9-0805"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0805/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0805/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-9-0805/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-9-0805/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9_0805">
+        <num>9-0805</num>
+        <heading>Forest resources plan</heading>
+        <content>
+          <p>§ 9-0805. Forest resources plan.\n  The department shall prepare a comprehensive statewide forest\nresources plan. The plan shall be prepared no later than March\nthirtieth, nineteen hundred eighty-seven and shall be updated at least\nevery fifth year thereafter. The plan shall include but not be limited\nto the following:\n  1. an inventory of significant forest resources issues, specific\nneeds, and opportunities facing public and private forest resources;\n  2. an identification of alternative goals and strategies which address\nsuch issues, needs and opportunities and which propose specific actions\nto be taken; and\n  3. an identification of final recommended goals and strategies.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4213"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4213"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4213">
+        <num>4213</num>
+        <heading>Other persons eligible for appointment</heading>
+        <content>
+          <p>  § 4213. Other persons eligible for appointment.  In accordance with\nthe provisions of the charter of the New York Institute for Special\nEducation, and amendments thereto, as issued by the board of regents,\nchildren with handicapping conditions, other than handicapping\nconditions which would establish eligibility for appointment to the\nschools enumerated in this article, shall be eligible for appointment to\nthe New York Institute for Special Education as state pupils. The\nprovisions of this article shall apply but not necessarily be limited to\nthe appointment, education, maintenance and support of such pupils. Such\npupils eligible for appointment, pursuant to this section, shall be\npersons over five and under twenty-one years of age who have not\nreceived a high school diploma.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

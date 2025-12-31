@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.35"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.35"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="225.35"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.35/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.35/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-225.35/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-225.35/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_225_35">
+        <num>225.35</num>
+        <heading>Gambling offenses; presumptions</heading>
+        <content>
+          <p>§ 225.35 Gambling offenses; presumptions.\n  1. Proof of possession of any gambling device or of any gambling\nrecord specified in sections 225.15 and 225.20, is presumptive evidence\nof possession thereof with knowledge of its character or contents.\n  2. In any prosecution under this article in which it is necessary to\nprove the occurrence of a sporting event, a published report of its\noccurrence in any daily newspaper, magazine or other periodically\nprinted publication of general circulation shall be admissible in\nevidence and shall constitute presumptive proof of the occurrence of\nsuch event.\n  3. Possession of three or more coin operated gambling devices or\npossession of a coin operated gambling device in a public place shall be\npresumptive evidence of intent to use in the advancement of unlawful\ngambling activity.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-505"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-505"/>
+          <FRBRdate date="2021-04-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="505"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-505/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-505/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-505/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-505/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_505">
+        <num>505</num>
+        <heading>Returns</heading>
+        <content>
+          <p>  § 505. Returns. Every carrier subject to this article and every\ncarrier to whom a certificate of registration was issued shall file on\nor before the last day of each month a return for the preceding calendar\nmonth where a carrier's total tax liability under this article for the\npreceding calendar year exceeded twelve thousand dollars. Where a\ncarrier's total tax liability under this article for the preceding\ncalendar year did not exceed twelve thousand dollars or where a carrier\nwas not subject to such tax in the preceding calendar year, returns\nshall be filed quarterly, on or before the last day of the calendar\nmonth following each of the calendar quarters: January through March,\nApril through June, July through September and October through December.\nProvided, however, if the commissioner consents thereto in writing, any\ncarrier may file a return on or before the thirtieth day after the close\nof any different period, if the carrier's books are regularly kept on a\nperiodic basis other than a calendar month or quarter. The commissioner\nmay permit the filing of returns on an annual basis, provided the\ncarrier was subject to the tax under this article during the entire\npreceding calendar year and the carrier's total tax liability under this\narticle for such year did not exceed twelve hundred dollars. Such annual\nreturns shall be filed on or before January thirty-first of the\nsucceeding calendar year. Returns shall be filed with the commissioner\non forms to be furnished by such commissioner for such purpose and shall\ncontain such data, information or matter as the commissioner may require\nto be included therein. The fact that a carrier's name is signed to a\nfiled return shall be prima facie evidence for all purposes that the\nreturn was actually signed by such carrier. The commissioner may grant a\nreasonable extension of time for filing returns whenever good cause\nexists and may waive the filing of returns if a carrier is not subject\nto the tax imposed by this article for the period covered by the return.\nEvery return shall have annexed thereto a certification to the effect\nthat the statements contained therein are true.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.01"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.01"/>
+          <FRBRdate date="2021-02-05" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.01"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.01/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.01/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.01/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.01/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_01">
+        <num>230.01</num>
+        <heading>Prostitution; affirmative defense</heading>
+        <content>
+          <p>§ 230.01 Prostitution; affirmative defense.\n  In any prosecution under section 230.00, section 230.03, section\n230.19, section 230.20, subdivision 2 of section 230.25, subdivision 2\nof section 230.30 or section 230.34-a of this article, it is an\naffirmative defense that the defendant's participation in the offense\nwas a result of having been a victim of compelling prostitution under\nsection 230.33 of this article, a victim of sex trafficking under\nsection 230.34 of this article, a victim of sex trafficking of a child\nunder section 230.34-a of this article or a victim of trafficking in\npersons under the trafficking victims protection act (United States\nCode, Title 22, Chapter 78).\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

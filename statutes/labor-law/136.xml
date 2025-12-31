@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-136"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-136"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="136"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-136/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-136/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-136/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-136/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_136">
+        <num>136</num>
+        <heading>Employment of minors fourteen to eighteen years of age under physical disability</heading>
+        <content>
+          <p>  § 136. Employment of minors fourteen to eighteen years of age under\nphysical disability. No employer shall employ a child whose employment\ncertificate or permit states that the occupation in which the child may\nengage is limited because of his physical disability, for more than six\nmonths from the date of issuance of said certificate or permit, nor in\nany other occupation than that to which the employment of the child is\nlimited by the terms of the certificate or permit.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-K"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-K"/>
+          <FRBRdate date="2020-06-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2994-K"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-K/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-K/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2994-K/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2994-K/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2994_K">
+        <num>2994-K</num>
+        <heading>Implementation and review of decisions</heading>
+        <subsection eId="sec_2994_K__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>include such determination in the patient's medical record;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2994_K__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>cancel any orders or plans of care implementing the decision to\nwithhold or withdraw life-sustaining treatment;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2994_K__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>notify the person who made the decision to withhold or withdraw\ntreatment, or, if that person is not reasonably available, to at least\none person on the surrogate list highest in order of priority listed\nwhen persons in prior classes are not reasonably available pursuant to\nsubdivision one of section twenty-nine hundred ninety-four-d of this\narticle; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2994_K__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>notify the hospital staff directly responsible for the patient's\ncare of any cancelled orders or plans of care.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

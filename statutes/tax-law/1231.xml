@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1231"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1231"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1231"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1231/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1231/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1231/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1231/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1231">
+        <num>1231</num>
+        <heading>Certain restrictions against double taxation</heading>
+        <content>
+          <p>  § 1231. Certain restrictions against double taxation. Except as\nexpressly otherwise provided in this article, nothing in this article\nshall limit or prevent the imposition of a tax on gross income or a tax\non gross receipts of persons, firms and corporations doing business in\nany city with a population of one million or more. No such person, firm\nor corporation, however, shall be subject to the imposition under the\nprovisions of this article of more than one tax by any such city on\ngross income or gross receipts for the privilege of doing business.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

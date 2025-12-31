@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1309"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1309"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1309"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1309/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1309/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1309/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1309/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1309">
+        <num>1309</num>
+        <heading>Requirement of withholding tax from wages</heading>
+        <subsection eId="sec_1309__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section\nsix hundred seventy-four of this chapter shall mean the aggregate of the\naggregate amounts of New York state personal income tax, city personal\nincome tax on residents and city earnings tax on nonresidents authorized\npursuant to article two-E of the general city law required to be\ndeducted and withheld and provided, however, that the provisions of such\nparagraphs shall not be applicable to employer's returns required to be\nfiled with respect to taxes required to be deducted and withheld during\nthe calendar year nineteen hundred seventy-six, but such returns shall\nbe required to be filed with the state tax commission at the times and\nin the manner provided for in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1309__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section fifty-four\ncontained in section twenty-five-a of the general city law except the\nterm "administrator" in such subdivision shall be read as "state tax\ncommission."\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

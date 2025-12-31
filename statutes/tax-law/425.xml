@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="425"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-425/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_425">
+        <num>425</num>
+        <heading>Special provision as to imposition of taxes on certain alcoholic beverages</heading>
+        <content>
+          <p>  § 425. Special provision as to imposition of taxes on certain\nalcoholic beverages. If a person shall receive any alcoholic beverages\nfrom the distributor with respect thereto, under such circumstances so\nas to preclude the collection of the taxes under this article, because\nthis state was without power to impose such taxes under this article\nagainst such distributor by reason of the constitution or the law of the\nUnited States enacted pursuant thereto or the constitution or laws of\nthis state, and such person shall thereafter sell or use any such\nalcoholic beverages in such manner and under such circumstances as may\nsubject the same to the taxing power of this state with respect to any\nsale or use thereof, such person shall be liable for the tax imposed by\nsection four hundred twenty-four with respect to such sale or use, and\nshall make the same reports and returns, pay the same taxes and be\nsubject to the other applicable provisions of this article relating to\ndistributors, except that with respect to beers and wines such a person\nshall not be subject to the provisions of sections four hundred\ntwenty-one and four hundred twenty-two of this article if such person\ndoes not offer such alcoholic beverages for sale or use such alcoholic\nbeverages for any commercial purpose. Provided, further, that if the\ntaxing power of this state does not extend to the imposition of such\ntaxes on, and the requirement of payment of such taxes by, such person\nselling or using such beverages, then such person shall be required to\ncollect such taxes from its purchaser on the sale of such beverages and\nto pay over such taxes to the commissioner. In such event, the same\nreports and returns relating to distributors, along with remittance,\nshall be required by such person and all the other provisions of this\narticle relating to distributors shall apply. If such taxes are not so\ncollected, then such purchaser shall, along with such person, be liable\nfor such taxes.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-B"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="465-B"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-465-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-465-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_465_B">
+        <num>465-B</num>
+        <heading>Responsibilities of the commissioner</heading>
+        <content>
+          <p>  § 465-b. Responsibilities of the commissioner. The commissioner shall\ndirectly or through contract administer a program of nutrition outreach\nthat shall include but not be limited to:\n  1. statewide coordination;\n  2. provision of information as to the availability of, eligibility\ncriteria for, and application procedure for food assistance programs;\n  3. coordination of efforts among state agencies including, but not\nlimited to, the department of health, the office for the aging, and the\neducation department and community agencies involved in food assistance\nprograms;\n  4. compilation of statistical data from state and local agencies and\ndissemination to community organizations; and\n  5. nutrition education.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

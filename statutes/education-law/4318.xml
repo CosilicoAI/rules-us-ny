@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4318"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4318"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4318"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4318/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4318/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4318/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4318/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4318">
+        <num>4318</num>
+        <heading>Publications, bequests and donations</heading>
+        <content>
+          <p>  § 4318. Publications, bequests and donations.  The school shall be\nentitled to receive copies of all books and other publications which are\ndistributed gratuitously by the state to township or county libraries,\ncommon schools, academies, colleges and societies.  It may also receive\nin the name of the state, bequests or donations of money or any kind of\nproperty, but such money or property shall, in all cases, belong to the\nstate, and be subject to its control; provided that the same shall not\nbe diverted from the particular object for which it shall be bequeathed\nor donated.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

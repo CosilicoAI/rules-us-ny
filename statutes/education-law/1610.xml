@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1610"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1610"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1610"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1610/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1610/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1610/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1610/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1610">
+        <num>1610</num>
+        <heading>Trustees' annual report to district</heading>
+        <content>
+          <p>  § 1610. Trustees' annual report to district.  The trustees shall\nrender to the district, at its annual meeting, a just, full and true\naccount in writing, of all moneys received by them respectively for the\nuse of the district, or raised or collected by taxes, in the preceding\nyear, and of the manner in which the same shall have been expended, and\nshowing to which of them an unexpended balance, or any part thereof, is\nchargeable; and of all drafts or orders made by them upon the county\ntreasurer, collector, treasurer or other custodian of moneys of the\ndistrict; and a full statement of all appeals, actions or suits and\nproceedings brought by or against them, and of every special matter\ntouching the condition of the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

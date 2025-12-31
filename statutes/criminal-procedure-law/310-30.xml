@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="310.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-310.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-310.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_310_30">
+        <num>310.30</num>
+        <heading>Jury deliberation; request for information</heading>
+        <content>
+          <p>§ 310.30  Jury deliberation; request for information.\n  At any time during its deliberation, the jury may request the court\nfor further instruction or information with respect to the law, with\nrespect to the content or substance of any trial evidence, or with\nrespect to any other matter pertinent to the jury's consideration of the\ncase.  Upon such a request, the court must direct that the jury be\nreturned to the courtroom and, after notice to both the people and\ncounsel for the defendant, and in the presence of the defendant, must\ngive such requested information or instruction as the court deems\nproper. With the consent of the parties and upon the request of the jury\nfor further instruction with respect to a statute, the court may also\ngive to the jury copies of the text of any statute which, in its\ndiscretion, the court deems proper.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

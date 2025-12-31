@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-210.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-210.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="210.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-210.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-210.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-210.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-210.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_210_00">
+        <num>210.00</num>
+        <heading>Perjury and related offenses; definitions of terms</heading>
+        <subsection eId="sec_210_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>while\ngiving testimony, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_210_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>under oath in a subscribed written instrument.\nA false swearing in a subscribed written instrument shall not be deemed\ncomplete until the instrument is delivered by its subscriber, or by\nsomeone acting in his behalf, to another person with intent that it be\nuttered or published as true.\n  6. "Attesting officer" means any notary public or other person\nauthorized by law to administer oaths in connection with affidavits,\ndepositions and other subscribed written instruments, and to certify\nthat the subscriber of such an instrument has appeared before him and\nhas sworn to the truth of the contents thereof.\n  7. "Jurat" means a clause wherein an attesting officer certifies,\namong other matters, that the subscriber has appeared before him and\nsworn to the truth of the contents thereof.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2829"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2829"/>
+          <FRBRdate date="2021-10-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2829"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2829/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2829/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2829/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2829/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2829">
+        <num>2829</num>
+        <heading>Nursing homes; disclosure requirements</heading>
+        <subsection eId="sec_2829__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>publicly list all owners on a website maintained by the facility\nand shall submit such list to the department for posting on its website\nand update such information within thirty days of any change or\ntransaction affecting ownership;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2829__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>publicly disclose on such facility's website and regularly update\nthe name and business address of any landlord of such facility's\npremises; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2829__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>publicly provide a summary of all contracts for provision of goods\nor services for which such facility pays with any portion of Medicaid or\nMedicare funds or other agreements entered into by the nursing home on\nits website within thirty days of execution of such agreement or\ncontract.\n  3. The commissioner may make regulations necessary or appropriate to\nimplement this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

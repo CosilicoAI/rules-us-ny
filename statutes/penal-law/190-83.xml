@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.83"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.83"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190.83"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.83/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.83/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.83/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.83/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_83">
+        <num>190.83</num>
+        <heading>Unlawful possession of personal identification information in the first degree</heading>
+        <subsection eId="sec_190_83__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>he or she supervises more than two accomplices, and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_190_83__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>he or she knows that the person whose personal identification\ninformation that he or she possesses is a member of the armed forces,\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_190_83__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>he or she knows that such member of the armed forces is presently\ndeployed outside of the continental United States.\n  Unlawful possession of personal identification information in the\nfirst degree is a class D felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

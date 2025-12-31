@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.19"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.19"/>
+          <FRBRdate date="2016-01-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.19"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.19/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.19/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-230.19/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-230.19/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_19">
+        <num>230.19</num>
+        <heading>Promoting prostitution in a school zone</heading>
+        <content>
+          <p>§ 230.19 Promoting prostitution in a school zone.\n  1. A person is guilty of promoting prostitution in a school zone when,\nbeing nineteen years old or more, he or she knowingly advances or\nprofits from prostitution that he or she knows or reasonably should know\nis or will be committed in violation of section 230.03 of this article\nin a school zone during the hours that school is in session.\n  2. For purposes of this section, "school zone" shall mean "school\nzone" as defined in subdivision two of section 230.03 of this article.\n  Promoting prostitution in a school zone is a class E felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

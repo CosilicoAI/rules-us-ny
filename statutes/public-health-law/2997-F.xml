@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2997-F"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2997-F"/>
+          <FRBRdate date="2015-12-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2997-F"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2997-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2997-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2997-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2997-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2997_F">
+        <num>2997-F</num>
+        <heading>Provision of information relating to aging services</heading>
+        <content>
+          <p>  § 2997-f. Provision of information relating to aging services.\nWhenever a hospital is discharging an individual aged sixty years of age\nor older, the hospital's discharge coordinator shall provide such\nindividual with a copy of the information provided to them pursuant to\nsubdivision eleven of section two hundred three of the elder law that\ncorresponds to the individual's county of residence.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

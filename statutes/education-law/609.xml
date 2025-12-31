@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-609"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-609"/>
+          <FRBRdate date="2017-08-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="609"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-609/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-609/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-609/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-609/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_609">
+        <num>609</num>
+        <heading>Tuition, aid and placement report</heading>
+        <subsection eId="sec_609__subsec_c">
+          <num>(c)</num>
+          <paragraph eId="sec_609__subsec_c__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>of the internal revenue code for federal income\ntax purposes that does not offer a program of study that leads to a\nbaccalaureate degree, shall report to the senate and assembly chairs of\nthe higher education committees on or before August fifteenth, two\nthousand sixteen, on the following: factors that drive cost increases;\ntuition trends for the past six years and percentage of year to year\nincreases; total cost of fees; if the institution has an endowment and\nthe amount of such endowment; the average institutional financial aid\npackage by income bracket as defined by the National Center for\nEducation Statistics' Integrated Post-Secondary Education Data System;\ngraduation rates for four, five and six years; enrollment trends over\nthe past six years; the amount spent to educate students per FTE; the\npercentage of students who are TAP and Pell eligible; administrative and\noperating costs and the percentage of those costs funded by tuition; and\ncost saving measures implemen...</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

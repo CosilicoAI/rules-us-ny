@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-705.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-705.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="705.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-705.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-705.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-705.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-705.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_705_30">
+        <num>705.30</num>
+        <heading>Nondisclosure of existence of pen register or a trap and trace device</heading>
+        <content>
+          <p>§ 705.30  Nondisclosure of existence of pen register or a trap and trace\n             device.\n  An order authorizing or approving the installation and use of a pen\nregister or a trap and trace device shall direct that:\n  1. the order be sealed until otherwise ordered by the court; and\n  2. the person owning or leasing the line to which the pen register or\na trap and trace device is attached, or who has been ordered by the\ncourt to provide assistance to the applicant, not disclose the existence\nof the pen register or trap and trace device or the existence of the\ninvestigation to the listed subscriber, or to any other person, unless\nor until otherwise ordered by the court.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1180"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1180"/>
+          <FRBRdate date="2019-12-06" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1180"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1180/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1180/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1180/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1180/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1180">
+        <num>1180</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_1180__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>"Vapor product" means any noncombustible liquid or gel, regardless\nof the presence of nicotine therein, that is manufactured in to a\nfinished product for use in an electronic cigarette, electronic cigar,\nelectronic cigarillo, electronic pipe, vaping pen, hookah pen or other\nsimilar device. "Vapor product" shall not include any product approved\nby the United States food and drug administration as a drug or medical\ndevice, or manufactured and dispensed pursuant to title five-A of\narticle thirty-three of the public health law.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1180__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>"Vapor products dealer" means a person licensed by the\ncommissioner to sell vapor products in this state.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-121"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-121"/>
+          <FRBRdate date="2021-02-19" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="121"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-121/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-121/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-121/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-121/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_121">
+        <num>121</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_121__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a genetic surrogate agrees either to be inseminated with the sperm\nof a person who is not their spouse or to be impregnated with an embryo\nthat is the product of the genetic surrogate's ovum fertilized with the\nsperm of a person who is not their spouse; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_121__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the genetic surrogate agrees to, or intends to, surrender or\nconsent to the adoption of the child born as a result of such\ninsemination or impregnation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

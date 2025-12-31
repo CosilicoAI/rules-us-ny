@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-525"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-525"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="525"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-525/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-525/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-525/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-525/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_525">
+        <num>525</num>
+        <heading>Protection against fraud</heading>
+        <content>
+          <p>  § 525. Protection against fraud. 1. Any person who shall knowingly\nmake any false statement, or shall falsify or permit to be falsified any\nrecord or records of this retirement system in any attempt to defraud\nsuch system as a result of such act, shall be guilty of a misdemeanor,\nand shall be punishable therefor under the laws of the state of New\nYork.\n  2. Any violation of subdivision one of this section that results in a\nmember or beneficiary of the retirement system receiving a benefit or\npayment in excess of one thousand dollars more than he or she would have\nbeen entitled to shall be a class E felony. Any violation of subdivision\none of this section that results in a member or beneficiary of the\nretirement system to receive a benefit or payment in excess of three\nthousand dollars more than he or she would have been entitled to shall\nbe a class D felony.\n  3. Should any change or error in records result in any employee or\nbeneficiary receiving from the retirement system more or less than he\nwould have been entitled to receive had the records been correct, then,\non the discovery of any such error, the retirement board shall correct\nsuch error, and, as far as practicable, shall adjust the payments in\nsuch a manner that the actuarial equivalent of the benefit to which he\nwas correctly entitled shall be paid.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

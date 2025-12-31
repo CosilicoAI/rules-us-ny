@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2020"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2020"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2020"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2020/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2020/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2020/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2020/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2020">
+        <num>2020</num>
+        <heading>Penalty for false declaration or unauthorized vote</heading>
+        <content>
+          <p>  § 2020. Penalty for false declaration or unauthorized vote.  1.  A\nperson who shall wilfully make a false statement to a board of\nregistration, or to any member or members thereof, or the clerk of the\ndistrict, for the purpose of having his name placed upon the register,\nas provided for in section two thousand fifteen, shall be guilty of a\nmisdemeanor.\n  2. A person who shall wilfully make a false declaration of his right\nto vote at a school district meeting or election after his right to vote\nthereat has been challenged, shall be deemed guilty of a misdemeanor.\n  3. Any person not qualified to vote at such meeting or election, who\nshall vote thereat, shall thereby forfeit ten dollars, to be sued for by\nthe supervisor for the benefit of the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

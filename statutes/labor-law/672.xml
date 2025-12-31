@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-672"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-672"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="672"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-672/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-672/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-672/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-672/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_672">
+        <num>672</num>
+        <heading>Application of article</heading>
+        <content>
+          <p>  § 672. Application of article. This article shall apply to every\nemployer during any part of the twelve consecutive months beginning\nFebruary first, nineteen hundred seventy and February first of each\nsubsequent year, preceded by a calendar year in which the cash\nremuneration paid to all employees aggregated twelve hundred dollars or\nmore, provided, however, that one hundred eighty days after this act\nshall take effect this article shall apply to every employer if in the\nprevious calendar year the cash remuneration paid to all employees\naggregated two thousand dollars or more and on July first, nineteen\nhundred eighty-four this article shall apply to every employer if in the\nprevious calendar year the cash remuneration paid to all employees\naggregated three thousand dollars or more.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

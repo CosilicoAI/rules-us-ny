@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-390"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-390"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="390"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-390/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-390/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-390/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-390/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_390">
+        <num>390</num>
+        <heading>Consolidated health district; establishment</heading>
+        <content>
+          <p>  § 390. Consolidated health district; establishment. The commissioner,\non the written request of the town board of any town and the board of\ntrustees of any village and the common council or other like authority\nof any city, may combine into one health district, hereinafter referred\nto as a consolidated health district, any two or more of such towns,\nvillages or cities and may on the written request of the town board of\nany town, board of trustees of any village or common council or other\nlike authority of any city at any time thereafter set apart such town,\nvillage or city as a separate health district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

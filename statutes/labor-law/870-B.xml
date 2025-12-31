@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-B"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-B"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="870-B"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-B/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-B/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-870-B/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-870-B/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_870_B">
+        <num>870-B</num>
+        <heading>Application</heading>
+        <content>
+          <p>  § 870-b. Application. 1. This article applies to amusement devices,\nviewing stands and tents at carnivals, fairs and amusement parks where\nan admission or fee is customarily or usually charged located within the\nstate, and to the managers of such devices, to the persons employed in\nconnection with the same and to their employees.\n  2. This article shall not apply to single passenger, coin-operated,\nmanually, mechanically or electrically operated rides, except where\nadmission is charged for the use of the equipment, nor shall this\narticle be construed so as to limit the right of any person to conduct\nany hotel, restaurant or eating place at any amusement park.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

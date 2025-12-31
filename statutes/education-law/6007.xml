@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6007"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6007"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6007"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6007/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6007/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6007/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6007/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6007">
+        <num>6007</num>
+        <heading>Tuition; disposition of fees and income</heading>
+        <content>
+          <p>  § 6007. Tuition; disposition of fees and income.  The state university\ntrustees shall regulate tuition fees and other fees and charges to be\npaid by students after prior consultation with the board of trustees of\nthe college.  All moneys received for tuition from students, those\nderived from the sale of the products of property belonging to the state\nadministered by the college, and from fees and charges or any other\nsources in the course of the administration of the college,\nnotwithstanding the provisions of section one hundred twenty-one of the\nstate finance law, shall be credited to a separate fund and shall be\nexpended as provided by subdivision four of section three hundred\nfifty-five of this chapter.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-42-0105"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-42-0105"/>
+          <FRBRdate date="2015-09-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="42-0105"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-42-0105/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-42-0105/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-42-0105/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-42-0105/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_42_0105">
+        <num>42-0105</num>
+        <heading>The Historic Hudson-Hoosic Rivers Partnership Reserve</heading>
+        <content>
+          <p>§ 42-0105. The Historic Hudson-Hoosic Rivers Partnership Reserve.\n  The area encompassed within the municipal boundaries in the towns of\nSaratoga, Stillwater, Northumberland, Easton, Fort Edward, Waterford,\nHalfmoon, Moreau, Schaghticoke, Cambridge, White Creek, Pittstown,\nHoosick, Kingsbury, Corinth and Greenwich; the villages of South Glens\nFalls, Cambridge, Hudson Falls, Valley Falls, Schaghticoke, Corinth and\nHoosick Falls; and the city of Mechanicville is hereby designated to be\nthe Historic Hudson-Hoosic Rivers Partnership Reserve.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

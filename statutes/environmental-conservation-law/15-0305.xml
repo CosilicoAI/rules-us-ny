@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0305"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0305"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-0305"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0305/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0305/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-0305/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-0305/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_0305">
+        <num>15-0305</num>
+        <heading>Access to property for inspection or investigation</heading>
+        <content>
+          <p>§ 15-0305. Access to property for inspection or investigation.\n  The department or its duly appointed agents shall have the right to\nenter at all times in or upon any property, public or private, for the\npurpose of inspecting or investigating conditions relating to matters\nwithin the jurisdiction of the department pursuant to article 15. The\ndepartment shall be liable only for actual damage done by reason of any\nsuch entry, inspection, or investigation. The amount of such damages may\nbe agreed upon between the department and the owner and occupant of the\ndamaged property, or if they cannot agree the amount of such damages\nshall be ascertained and determined by proper court action.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3011"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3011"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3011"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3011/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3011/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3011/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3011/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3011">
+        <num>3011</num>
+        <heading>Kinds of pleadings</heading>
+        <content>
+          <p>  § 3011. Kinds of pleadings. There shall be a complaint and an answer.\nAn answer may include a counterclaim against a plaintiff and a\ncross-claim against a defendant. A defendant's pleading against another\nclaimant is an interpleader complaint, or against any other person not\nalready a party is a third-party complaint. There shall be a reply to a\ncounterclaim denominated as such, an answer to an interpleader complaint\nor third-party complaint, and an answer to a cross-claim that contains a\ndemand for an answer. If no demand is made, the cross-claim shall be\ndeemed denied or avoided. There shall be no other pleading unless the\ncourt orders otherwise.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

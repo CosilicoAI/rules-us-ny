@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-170.75"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-170.75"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="170.75"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-170.75/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-170.75/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-170.75/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-170.75/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_170_75">
+        <num>170.75</num>
+        <heading>Fraudulent making of an electronic access device in the second degree</heading>
+        <content>
+          <p>§ 170.75 Fraudulent making of an electronic access device in the second\n           degree.\n  A person is guilty of fraudulent making of an electronic access device\nin the second degree when, with intent to defraud, deceive or injure\nanother, he falsely makes, completes or alters two or more electronic\naccess devices, as that term is defined in subdivision eight of section\n170.00 of this article.\n  Fraudulent making of an electronic access device in the second degree\nis a class D felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

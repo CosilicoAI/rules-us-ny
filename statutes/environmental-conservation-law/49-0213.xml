@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0213"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="49-0213"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-49-0213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-49-0213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_49_0213">
+        <num>49-0213</num>
+        <heading>Annual report</heading>
+        <content>
+          <p>§ 49-0213. Annual report.\n  No later than January thirty-first, nineteen hundred ninety-one, and\non an annual basis thereafter, the commissioners shall report on the\ndepartment's and the office's land acquisition activities, including:\n  1. lands acquired, whether in fee title or by easement, funds\nobligated and disbursed and acreage obtained over the past year and\ncumulatively since the effective date of this title;\n  2. a description of the state's land acquisition plans and priorities\nfor the coming year; and\n  3. the recommendations of the regional advisory committees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

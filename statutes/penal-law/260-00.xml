@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="260.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-260.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-260.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_260_00">
+        <num>260.00</num>
+        <heading>Abandonment of a child</heading>
+        <subsection eId="sec_260_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>with the intent that the child be safe from physical injury and\ncared for in an appropriate manner;</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_260_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the child is left with an\nappropriate person, or in a suitable location and the person who leaves\nthe child promptly notifies an appropriate person of the child's\nlocation; and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_260_00__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>the child is not more than thirty days old.\n  Abandonment of a child is a class E felony.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

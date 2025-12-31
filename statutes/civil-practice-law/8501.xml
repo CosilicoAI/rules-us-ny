@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8501"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8501"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="8501"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8501/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8501/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-8501/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-8501/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_8501">
+        <num>8501</num>
+        <heading>Security for costs</heading>
+        <subsection eId="sec_8501__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>As of right. Except where the\nplaintiff has been granted permission to proceed as a poor person or is\nthe petitioner in a habeas corpus proceeding, upon motion by the\ndefendant without notice, the court or a judge thereof shall order\nsecurity for costs to be given by the plaintiffs where none of them is a\ndomestic corporation, a foreign corporation licensed to do business in\nthe state or a resident of the state when the motion is made.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_8501__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>In court's discretion. Upon motion by the defendant with notice,\nor upon its own initiative, the court may order the plaintiff to give\nsecurity for costs in an action by or against an assignee or trustee for\nthe benefit of creditors, a trustee, a receiver or debtor in possession\nin bankruptcy, an official trustee or committee of a person imprisoned\nin this state, an executor or administrator, the committee of a person\njudicially declared to be incompetent, the conservator of a conservatee,\na guardian ad litem, or a receiver.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

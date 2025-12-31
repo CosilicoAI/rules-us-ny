@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4211"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4211"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-4211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-4211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4211">
+        <num>4211</num>
+        <heading>Tuition</heading>
+        <content>
+          <p>  § 4211. Tuition.  The term "tuition" as used in this article and in\nthe provisions of chapter ten hundred sixty of the laws of nineteen\nhundred seventy-four shall mean the per pupil cost of all instructional\nservices, supplies, equipment and the operation of instructional\nfacilities as determined by the commissioner. Approved tuition shall be\ncomputed from expenditures for which no revenue has been received from\nthe following sources:\n  a. receipts from the federal government;\n  b. any cash receipts, except gifts, bequests, donations and earned\ninterest dedicated by the directors of the institution in accordance\nwith the regulations of the commissioner; and\n  c. any refund made or any apportionment or payment received from the\nstate for experimental or special programs as approved by the\ncommissioner.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

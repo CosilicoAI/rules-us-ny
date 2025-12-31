@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-690.55"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-690.55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="690.55"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-690.55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-690.55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-690.55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-690.55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_690_55">
+        <num>690.55</num>
+        <heading>Search warrants; disposition of seized property</heading>
+        <subsection eId="sec_690_55__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Retain it in the custody of the court pending further disposition\nthereof pursuant to subdivision two or some other provision of law; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_690_55__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Direct that it be held in the custody of the person who applied\nfor the warrant, or of the police officer who executed it, or of the\ngovernmental or official agency or department by which either such\npublic servant is employed, upon condition that upon order of such court\nsuch property be returned thereto or delivered to another court.\n  2.  A local criminal court which retains custody of such property\nmust, upon request of another criminal court in which a criminal action\ninvolving or relating to such property is pending, cause it to be\ndelivered thereto.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

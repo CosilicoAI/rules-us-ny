@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3223"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3223"/>
+          <FRBRdate date="2025-05-16" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3223"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3223/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3223/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3223/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3223/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3223">
+        <num>3223</num>
+        <heading>Duties of employers</heading>
+        <content>
+          <p>  * § 3223.  Duties of employers.  The employer of any minor required to\nhave an employment certificate:\n  1. Shall satisfy himself that the minor presenting an employment\ncertificate is in fact the minor named therein.\n  2. Shall before employment begins, file at the place of the minor's\nemployment such certificate so that it may be readily accessible to any\nauthorized person to examine such document.\n  3. Shall, upon termination of the minor's employment, return the\nemployment certificate to the minor.\n  * NB Effective until May 9, 2027\n  * § 3223.  Duties of employers. The employer of any minor required to\nhave an employment certificate:\n  1. Shall personally confirm that the minor presenting an employment\ncertificate is in fact the minor named therein.\n  2. Shall before employment begins, physically or electronically file\nat the place of the minor's employment such certificate so that it may\nbe readily accessible to any authorized person to examine such document.\n  3. Shall, upon termination of the minor's employment, destroy any\nphysical or electronic copies of such certificate.\n  * NB Effective May 9, 2027\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

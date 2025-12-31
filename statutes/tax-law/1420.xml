@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1420"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1420"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1420"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1420/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1420/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1420/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1420/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1420">
+        <num>1420</num>
+        <heading>Limitations of time</heading>
+        <subsection eId="sec_1420__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The provisions of the civil practice\nlaw and rules or any other law relative to limitations of time for the\nenforcement of a civil remedy shall not apply to any proceeding or\naction taken by the state or the commissioner of taxation and finance to\nlevy, appraise, assess, determine or enforce the collection of any tax\nor penalty provided by this article. No assessment of additional tax\nshall be made after the expiration of more than three years from the\ndate of the filing of a return; provided, however, that where no return\nhas been filed as provided by law or in the case of a willfully false or\nfraudulent return, the tax may be assessed at any time.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1420__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where, before the expiration of the period prescribed herein for\nthe assessment of additional tax, a taxpayer has consented in writing\nthat such period be extended, the amount of such additional tax due may\nbe determined at any time within such extended period. The period so\nextended may be further extended by subsequent consents in writing made\nbefore the expiration of the extended period. If a taxpayer has\nconsented in writing to the extension of the period for assessment, the\nperiod for filing an application for a refund pursuant to section\nfourteen hundred twelve shall not expire prior to six months after the\nexpiration of the period within which an assessment may be made pursuant\nto the consent to extend the time for assessment of additional tax.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

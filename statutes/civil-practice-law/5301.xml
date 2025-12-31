@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5301"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5301"/>
+          <FRBRdate date="2021-06-18" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5301"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5301/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5301/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5301/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5301/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5301">
+        <num>5301</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_5301__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Foreign country. "Foreign country" means a government other than:\n  1. the United States;\n  2. a state, district, commonwealth, territory or insular possession of\nthe United States; or\n  3. any other government with regard to which the decision in this\nstate as to whether to recognize a judgment of that government's courts\nis initially subject to determination under the Full Faith and Credit\nClause of the United States Constitution.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_5301__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Foreign country judgment. "Foreign country judgment" means a\njudgment of a court of a foreign country.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

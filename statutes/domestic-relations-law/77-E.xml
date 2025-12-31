@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-E"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="77-E"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-77-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-77-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_77_E">
+        <num>77-E</num>
+        <heading>Enforcement of registered determination</heading>
+        <content>
+          <p>  § 77-e. Enforcement of registered determination. 1. A court of this\nstate may grant any relief normally available under the laws of this\nstate to enforce a registered child custody determination made by a\ncourt of another state.\n  2. A court of this state shall recognize and enforce, but may not\nmodify, except in accordance with title two of this article, a\nregistered child custody determination of a court of another state;\nprovided, however, that recognition and enforcement of the determination\nwould not violate subdivision one-c of section two hundred forty of this\nchapter or section one thousand eighty-five of the family court act.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

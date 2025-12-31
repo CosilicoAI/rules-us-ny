@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-670"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-670"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="670"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-670/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-670/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-670/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-670/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_670">
+        <num>670</num>
+        <heading>Statement of public policy; findings</heading>
+        <content>
+          <p>  § 670. Statement of public policy; findings.  The legislature of the\nstate of New York declares that it is the public policy of the state and\nthe purpose of this act that minimum wage standards shall apply to farm\nworkers, so as to eliminate as rapidly as practicable the employment of\nfarm workers at wages insufficient to provide adequate maintenance and\nprotection of health, without substantially curtailing opportunities for\nemployment or earning power.\n  The legislature hereby finds that the establishment of minimum wage\nstandards for farm laborers involves distinct and unusual problems; that\nthe agricultural labor force is made up of regular all-year workers as\nwell as short-term seasonal workers; that although some workers are paid\non an hourly basis, many are paid on a piecework, weekly, monthly, or\nother basis; and that the agricultural industry is particularly affected\nby weather and market conditions and by perishability of products.\nAccordingly, the legislature further declares that it is the purpose of\nthis act to provide a flexible approach with full consideration of the\nunusual problems involved.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

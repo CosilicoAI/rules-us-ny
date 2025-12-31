@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-40.15"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-40.15"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="40.15"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-40.15/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-40.15/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-40.15/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-40.15/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_40_15">
+        <num>40.15</num>
+        <heading>Mental disease or defect</heading>
+        <content>
+          <p>§ 40.15 Mental disease or defect.\n  In any prosecution for an offense, it is an affirmative defense that\nwhen the defendant engaged in the proscribed conduct, he lacked criminal\nresponsibility by reason of mental disease or defect. Such lack of\ncriminal responsibility means that at the time of such conduct, as a\nresult of mental disease or defect, he lacked substantial capacity to\nknow or appreciate either:\n  1. The nature and consequences of such conduct; or\n  2. That such conduct was wrong.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

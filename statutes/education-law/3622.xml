@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3622"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3622"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3622"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3622/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3622/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3622/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3622/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3622">
+        <num>3622</num>
+        <heading>Routes</heading>
+        <content>
+          <p>  § 3622. Routes. The board of education or trustees shall plan each\nschool transportation route, as defined in subdivision three of section\nthirty-six hundred twenty-one of this article, in such manner as to\npromote maximum efficiency in the operation of a school bus on such\nroute. Whenever practicable each route shall be planned to operate\nwithin the boundary of a school district. If any or all pupils of a\nschool district receive instruction in a school or schools beyond the\nboundary of such district, the board shall plan a route or routes beyond\nthe boundary of such district to such school or schools for such pupils.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

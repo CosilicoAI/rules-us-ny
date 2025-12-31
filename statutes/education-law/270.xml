@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-270"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-270"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="270"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-270/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-270/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-270/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-270/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_270">
+        <num>270</num>
+        <heading>Acceptance of surplus library books or property</heading>
+        <content>
+          <p>  § 270. Acceptance of surplus library books or property.  The state\neducation department is hereby authorized to cooperate with the United\nStates commissioner of education, the war assets administration, and/or\nother federal officers and officials in the administration of any\nstatute heretofore or hereafter enacted for the disposal of surplus\nlibrary books or property, and to accept for and on behalf of the state\nof New York or its political subdivisions surplus library books or other\nproperty suitable and necessary to the operation of public and free\nlibraries and Indian libraries and for the improvement and extension of\nlibrary service for New York state, and any funds, which may be made\navailable to the state of New York by the federal government for these\nand related public and Indian library services.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

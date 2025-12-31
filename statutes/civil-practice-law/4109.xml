@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4109"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4109"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4109"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4109">
+        <num>4109</num>
+        <heading>Peremptory challenges</heading>
+        <content>
+          <p>  § 4109. Peremptory challenges.  The plaintiff or plaintiffs shall have\na combined total of three peremptory challenges plus one peremptory\nchallenge for every two alternate jurors. The defendant or defendants\n(other than any third-party defendant or defendants) shall have a\ncombined total of three peremptory challenges, plus one peremptory\nchallenge for every two alternate jurors. The court, in its discretion\nbefore the examination of jurors begins, may grant an equal number of\nadditional challenges to both sides as may be appropriate. In any case\nwhere a side has two or more parties, the court, in its discretion, may\nallocate that side's combined total of peremptory challenges among those\nparties in such manner as may be appropriate.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

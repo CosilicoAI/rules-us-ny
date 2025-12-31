@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-102"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-102"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="102"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-102/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-102/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-102/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-102/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_102">
+        <num>102</num>
+        <heading>Powers of public welfare officials to bring and defend suits</heading>
+        <content>
+          <p>  § 102.  Powers of public welfare officials to bring and defend suits.\nA public welfare official responsible, by or pursuant to any provision\nof this chapter, for the administration of the public assistance or care\ngranted or applied for is empowered to bring proceedings in a court of\ncompetent jurisdiction\n  1.  to compel any person liable by law for support to contribute to\nthe support of any person cared for at public expense, or person liable\nto become so dependent.  A bond may be required of such person liable\nfor support to indemnify the public welfare district against the cost of\nthe support of such person;\n  2.  to recover penalties, forfeitures and prosecute any bonds,\nundertakings and recognizances;\n  3.  and defend in any court all matters relating to the support of\npersons at public expense.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

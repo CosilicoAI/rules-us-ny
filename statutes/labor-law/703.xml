@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-703"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-703"/>
+          <FRBRdate date="2020-01-10" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="703"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-703/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-703/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-703/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_703">
+        <num>703</num>
+        <heading>Rights of employees</heading>
+        <content>
+          <p>  § 703. Rights of employees. Employees shall have the right of\nself-organization, to form, join, or assist labor organizations, to\nbargain collectively through representatives of their own choosing, and\nto engage in concerted activities, for the purpose of collective\nbargaining or other mutual aid or protection, free from interference,\nrestraint, or coercion of employers, but nothing contained in this\narticle shall be interpreted to prohibit employees from exercising the\nright to confer with their employer at any time, provided that during\nsuch conference there is no attempt by the employer, directly or\nindirectly, to interfere with, restrain or coerce employees in the\nexercise of the rights guaranteed by this section.\n  Notwithstanding any other provision of law, for farm laborers the term\n"concerted activities" shall not include a right to strike or other\nconcerted stoppage of work or slowdown.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

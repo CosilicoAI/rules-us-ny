@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.65"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.65"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="440.65"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.65/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.65/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-440.65/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-440.65/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_440_65">
+        <num>440.65</num>
+        <heading>Notice to child protective agency of conviction for certain crimes against a child</heading>
+        <content>
+          <p>§ 440.65 Notice to child protective agency of conviction for certain\n           crimes against a child.\n  Upon conviction of any person for a crime under article one hundred\ntwenty, article one hundred twenty-five, article one hundred thirty,\narticle two hundred sixty or article two hundred sixty-three of the\npenal law committed against a child under the age of eighteen by a\nperson legally responsible for such child, as defined in subdivision\nthree of section four hundred twelve of the social services law, the\ndistrict attorney serving the jurisdiction in which such conviction is\nentered shall notify the local child protective services agency of such\nconviction including the name of the defendant, the name of the child,\nthe court case number and the name of the prosecutor who appeared for\nthe people.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

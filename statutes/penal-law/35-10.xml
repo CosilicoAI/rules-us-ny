@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-35.10"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-35.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="35.10"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-35.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-35.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-35.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-35.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_35_10">
+        <num>35.10</num>
+        <heading>Justification; use of physical force generally</heading>
+        <subsection eId="sec_35_10__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nthe treatment is administered with the consent of the patient or, if the\npatient is under the age of eighteen years or an incompetent person,\nwith the consent of the parent, guardian or other person entrusted with\nthe patient's care and supervision, or</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_35_10__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the treatment is administered\nin an emergency when the physician reasonably believes that no one\ncompetent to consent can be consulted and that a reasonable person,\nwishing to safeguard the welfare of the patient, would consent.\n  6. A person may, pursuant to the ensuing provisions of this article,\nuse physical force upon another person in self-defense or defense of a\nthird person, or in defense of premises, or in order to prevent larceny\nof or criminal mischief to property, or in order to effect an arrest or\nprevent an escape from custody. Whenever a person is authorized by any\nsuch provision to use deadly physical force in any given circumstance,\nnothing contained in any other such provision may be deemed to negate or\nqualify such authorization.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

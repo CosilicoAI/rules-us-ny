@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2211"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2211"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2211">
+        <num>2211</num>
+        <heading>Salary of district superintendent may be withheld</heading>
+        <content>
+          <p>  § 2211. Salary of district superintendent may be withheld. The\ncommissioner of education may, whenever he is satisfied that a district\nsuperintendent of schools has persistently neglected to perform an\nofficial duty, withhold payment of the whole or any part of such\nsuperintendent's salary as it shall become due and he may also withhold\nany sum to which such superintendent shall be entitled for expenses and\nthe amount thus withheld shall be forfeited; but said commissioner may\nin his discretion remit such forfeiture in whole or in part\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

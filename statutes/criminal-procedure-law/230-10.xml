@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-230.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-230.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-230.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-230.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-230.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-230.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230_10">
+        <num>230.10</num>
+        <heading>Removal of action; from supreme court to county court and from county court to supreme court; at instance of court</heading>
+        <subsection eId="sec_230_10__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>an indictment filed with the supreme court\nat a term held in a particular county outside of New York City may,\nprior to entry of a plea of guilty thereto or commencement of a trial\nthereof, be removed to the county court of such county, and</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_230_10__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>an\nindictment filed in a county court may similarly be removed to the\nsupreme court at a term held or to be held in the same county.  Each of\nthe appellate divisions of the second, third and fourth departments may\nestablish rules authorizing such removals with respect to the superior\ncourts within its department, and prescribing the courts or judges who\nmay order such removals and other procedural matters involved therein.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

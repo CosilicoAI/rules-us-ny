@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.21"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.21"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.21"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.21/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.21/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.21/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.21/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_21">
+        <num>60.21</num>
+        <heading>Authorized dispositions; driving while intoxicated or aggravated driving while intoxicated</heading>
+        <subsection eId="sec_60_21__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of subdivision two of section 60.01 of\nthis article, when a person is to be sentenced upon a conviction for a\nviolation of subdivision two, two-a or three of section eleven hundred\nninety-two of the vehicle and traffic law, the court may sentence such\nperson to a period of imprisonment authorized by article seventy of this\ntitle and shall sentence such person to a period of probation or\nconditional discharge in accordance with the provisions of section 65.00\nof this title and shall order the installation and maintenance of a\nfunctioning ignition interlock device. Such period of probation or\nconditional discharge shall run consecutively to any period of\nimprisonment and shall commence immediately upon such person's release\nfrom imprisonment.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

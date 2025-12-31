@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-A"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-A"/>
+          <FRBRdate date="2024-08-30" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="483-A"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_483_A">
+        <num>483-A</num>
+        <heading>Utilization of other agency assistance</heading>
+        <content>
+          <p>  § 483-a. Utilization of other agency assistance. To effectuate the\npurposes of this article, any department, division, board, bureau,\ncommission or agency of the state or of any political subdivision\nthereof shall, at the request of the executive director, provide to the\ncouncil such facilities, assistance and data as will enable the council\nto properly carry out its powers and duties.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

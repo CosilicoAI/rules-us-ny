@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-250.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-250.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250_00">
+        <num>250.00</num>
+        <heading>Eavesdropping; definitions of terms</heading>
+        <subsection eId="sec_250_00__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>any telephonic or telegraphic communication; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_00__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>any communication made through a tone only paging device; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_00__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>any communication made through a tracking device consisting of an\nelectronic or mechanical device which permits the tracking of the\nmovement of a person or object; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250_00__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>any communication that is disseminated by the sender through a\nmethod of transmission that is configured so that such communication is\nreadily accessible to the general public.\n  6. "Intercepting or accessing of an electronic communication" and\n"intentionally intercepted or accessed" mean the intentional acquiring,\nreceiving, collecting, overhearing, or recording of an electronic\ncommunication, without the consent of the sender or intended receiver\nthereof, by means of any instrument, device or equipment, except when\nused by a telephone company in the ordinary course of its business or\nwhen necessary to protect the rights or property of such company.\n  7. "Electronic communication service" means any service which provides\nto users thereof the ability to send or receive wire or electronic\ncommunications.\n  8. "Unlawfully" means not specifically authorized pursuant to article\nseven hundred or seven hundred five of the criminal procedure law for\nthe purposes of this section and sections 250.05, 250.10, 250.15,\n250.20, 250.25, 250.30 and 250.35 of this article.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

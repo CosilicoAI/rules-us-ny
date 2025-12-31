@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-12"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-12"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="12"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-12/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-12/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-12/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_12">
+        <num>12</num>
+        <heading>Discrimination and harassment prohibited</heading>
+        <subsection eId="sec_12__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of subdivision two of section twenty-eight hundred\nfifty-four of this chapter and title IX of the Education Amendments of\n1972 (20 U.S.C. section 1681, et. seq.), or to prohibit, as\ndiscrimination based on disability, actions that would be permissible\nunder section 504 of the Rehabilitation Act of 1973.\n  2. An age-appropriate version of the policy outlined in subdivision\none of this section, written in plain-language, shall be included in the\ncode of conduct adopted by boards of education and the trustees or sole\ntrustee pursuant to section twenty-eight hundred one of this chapter and\na summary of such policy shall be included in any summaries required by\nsuch section twenty-eight hundred one.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

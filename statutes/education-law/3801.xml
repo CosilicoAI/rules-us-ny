@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3801"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3801"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3801"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3801/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3801/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3801/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3801/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3801">
+        <num>3801</num>
+        <heading>Disposition of fines for benefit of common schools</heading>
+        <content>
+          <p>  § 3801. Disposition of fines for benefit of common schools.  Whenever,\nby any statute, a penalty or fine is imposed for the benefit of common\nschools, and not expressly of the common schools of a town or school\ndistrict, it shall be taken to be for the benefit of the common schools\nof the county within which the conviction is had; and the fine or\npenalty, when paid or collected, shall be paid forthwith into the county\ntreasury, and the treasurer shall credit the same as school moneys of\nthe county, unless the county comprise a city, in which case he shall\nreport it to the commissioner of education, who shall apportion it upon\nthe basis of population by the last census, between the city and the\nresidue of the county, and the portion belonging to the city shall be\npaid into its treasury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

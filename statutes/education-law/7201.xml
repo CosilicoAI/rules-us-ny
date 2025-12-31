@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7201"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7201"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7201"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7201">
+        <num>7201</num>
+        <heading>Definition of practice of engineering</heading>
+        <content>
+          <p>  § 7201. Definition of practice of engineering.  The practice of the\nprofession of engineering is defined as performing professional service\nsuch as consultation, investigation, evaluation, planning, design or\nsupervision of construction or operation in connection with any\nutilities, structures, buildings, machines, equipment, processes, works,\nor projects wherein the safeguarding of life, health and property is\nconcerned, when such service or work requires the application of\nengineering principles and data.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

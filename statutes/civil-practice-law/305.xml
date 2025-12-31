@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-305"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-305"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="305"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-305/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-305/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-305/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_305">
+        <num>305</num>
+        <heading>Summons; supplemental summons, amendment</heading>
+        <subsection eId="sec_305__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Summons;\nsupplemental summons. A summons shall specify the basis of the venue\ndesignated and if based upon the residence of the plaintiff it shall\nspecify the plaintiff's address, and also shall bear the index number\nassigned and the date of filing with the clerk of the court. A\nthird-party summons shall also specify the date of filing of the\nthird-party summons with the clerk of the court.  The summons in an\naction arising out of a consumer credit transaction shall prominently\ndisplay at the top of the summons the words "consumer credit\ntransaction" and, where a purchaser, borrower or debtor is a defendant,\nshall specify the county of residence of a defendant, if one resides\nwithin the state, and the county where the consumer credit transaction\ntook place, if it is within the state.  Where, upon order of the court\nor by stipulation of all parties or as of right pursuant to section\n1003, a new party is joined in the action and the joinder is not made\nupon the new party's motion, a supplemental summons specifying the\npleading which the new party must answer shall be filed with the clerk\nof the court and served upon such party.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_305__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Summons and notice.  If the complaint is not served with the\nsummons, the summons shall contain or have attached thereto a notice\nstating the nature of the action and the relief sought, and, except in\nan action for medical malpractice, the sum of money for which judgment\nmay be taken in case of default.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_305__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Amendment. At any time, in its discretion and upon such terms as\nit deems just, the court may allow any summons or proof of service of a\nsummons to be amended, if a substantial right of a party against whom\nthe summons issued is not prejudiced.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

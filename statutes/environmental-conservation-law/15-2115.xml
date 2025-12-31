@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2115"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2115"/>
+          <FRBRdate date="2022-04-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="15-2115"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2115/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2115/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-15-2115/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-15-2115/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_15_2115">
+        <num>15-2115</num>
+        <heading>Taxation of real estate</heading>
+        <content>
+          <p>§ 15-2115. Taxation of real estate.\n  Lands owned by the state and acquired pursuant to the provisions of\ntitle 21 of this article, exclusive of the improvements erected thereon\nby the regulating districts, shall be assessed and taxed in the same\nmanner as state lands subject to taxation pursuant to title 2 of article\n5 of the Real Property Tax Law, provided, however, that the aggregate\nassessed valuations of such lands in any town shall not be reduced below\nthe aggregate assessed valuations thereof with the improvements thereon\nat the time of their acquisition by the regulating districts, and\nprovided further that in case of a general increase in assessments in\nany town the assessed valuations of the lands and improvements at the\ntime of their acquisition by the regulating districts shall be deemed to\nhave been increased proportionately with the increase of other real\nproperty in such tax district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

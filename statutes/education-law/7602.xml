@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7602"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7602"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7602"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7602/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7602/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-7602/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-7602/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7602">
+        <num>7602</num>
+        <heading>State board for psychology</heading>
+        <content>
+          <p>  § 7602. State board for psychology.  A state board for psychology\nshall be appointed by the board of regents on recommendation of the\ncommissioner for the purpose of assisting the board of regents and the\ndepartment on matters of professional licensing and professional conduct\nin accordance with section sixty-five hundred eight of this title.  The\nboard shall be composed of not less than eleven psychologists licensed\nin this state.  An executive secretary to the board shall be appointed\nby the board of regents upon the recommendation of the commissioner and\nshall be a psychologist, licensed in this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

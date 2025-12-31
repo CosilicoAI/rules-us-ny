@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-879"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-879"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="879"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-879/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-879/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-879/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-879/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_879">
+        <num>879</num>
+        <heading>Records</heading>
+        <content>
+          <p>  § 879. Records. Employers shall keep a record of the name, address and\nsocial security number of every employee who handles or uses a substance\nor substances included in section nineteen hundred ten of the federal\noccupational safety and health regulations, subparagraph z and which\nsuch substance or substances was or were handled or used by which\nemployee. Such record shall be made available to each affected employee,\nformer employee, designated physician or representative and the\ncommissioner of health, upon request, for examination and copying. Such\nrecord shall be kept for forty years. Such records shall be sent to the\ndepartment of health if the employer's establishment ceases to operate\nwithin the state of New York.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

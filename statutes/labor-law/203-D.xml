@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-D"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="203-D"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-203-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-203-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_203_D">
+        <num>203-D</num>
+        <heading>Employee personal identifying information</heading>
+        <subsection eId="sec_203_D__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Publicly post or display an employee's social security number;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_203_D__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Visibly print a social security number on any identification badge\nor card, including any time card;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_203_D__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Place a social security number in files with unrestricted access;\nor\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_203_D__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Communicate an employee's personal identifying information to the\ngeneral public. For purposes of this section, "personal identifying\ninformation" shall include social security number, home address or\ntelephone number, personal electronic mail address, Internet\nidentification name or password, parent's surname prior to marriage, or\ndrivers' license number.\n  2. A social security number shall not be used as an identification\nnumber for purposes of any occupational licensing.\n  3. The commissioner may impose a civil penalty of up to five hundred\ndollars on any employer for any knowing violation of this section. It\nshall be presumptive evidence that a violation of this section was\nknowing if the employer has not put in place any policies or procedures\nto safeguard against such violation, including procedures to notify\nrelevant employees of these provisions.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

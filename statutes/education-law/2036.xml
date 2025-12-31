@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2036"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2036"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2036"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2036/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2036/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-2036/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-2036/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2036">
+        <num>2036</num>
+        <heading>Effect of failure to appoint or elect qualified voters as district meeting or election officials</heading>
+        <content>
+          <p>  § 2036. Effect of failure to appoint or elect qualified voters as\ndistrict meeting or election officials. The proceedings of no annual or\nspecial school district meeting or election shall be held illegal for\nfailure to appoint or elect a qualified voter (or a person satisfying\nthe requirements of subdivision eight of section 3-400 of the election\nlaw) as an official at such district meeting or election, unless it\nshall appear that the acts of such official or officials were improper\nor that the action of such meeting or election was prejudiced thereby.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

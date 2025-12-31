@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-519"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-519"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="519"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-519/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-519/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-519/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-519/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_519">
+        <num>519</num>
+        <heading>Expense fund</heading>
+        <content>
+          <p>  § 519.  Expense fund.  The expense fund shall be the fund from which\nthe expense of the administration of the retirement system shall be paid\nexclusive of amounts payable as retirement allowances and as other\nbenefits provided herein.  Contributions shall be made to the expense\nfund as follows:\n  1. The retirement board shall determine the amount required to defray\nthe expenses allocated to those functions which directly or indirectly\naffect the system's investment operations. This amount so determined\nshall be collected from net investment income which shall include but\nnot be limited to interest, dividends, and realized gains and losses.\n  2. The retirement board shall determine annually the amount required\nto defray the remaining estimated expenses in the ensuing fiscal year\nand shall certify such amount to the commissioner of education who shall\napportion to each employer a proportionate part thereof as provided\nunder subdivision two of section five hundred twenty-one.  Each employer\nshall make payment for the amount so apportioned to him in the same way\nas he shall make other payments provided for by this article.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

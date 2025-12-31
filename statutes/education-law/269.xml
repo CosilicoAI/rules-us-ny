@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-269"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-269"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="269"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-269/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-269/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-269/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-269/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_269">
+        <num>269</num>
+        <heading>Library extension service</heading>
+        <content>
+          <p>  § 269. Library extension service.  By such means, in such manner and\nupon such conditions as the regents may prescribe, they shall make\nprovision for a library extension service for the promotion,\norganization and supervision of free libraries; for supplying\ninformation, advice, assistance or instruction on any matter pertaining\nto library methods or practice or to the establishment, equipment,\norganization or administration of libraries; for the acquisition,\npreparation and circulation of traveling libraries and other educational\nmaterial; for aiding and encouraging study clubs; and for the employment\nof all suitable efforts to bring within the reach of all the people of\nthe state, and awaken their desire for, increased opportunities and\nfacilities for reading and study.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

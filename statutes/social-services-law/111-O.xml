@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-O"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-O"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="111-O"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-O/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-O/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-111-O/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-111-O/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_111_O">
+        <num>111-O</num>
+        <heading>Data matches with financial institutions</heading>
+        <subsection eId="sec_111_O__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of\nsection three hundred twenty of the insurance law, and is authorized to\nfurnish to and receive from those and any other financial institutions,\nas defined in paragraph one of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_111_O__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of section four hundred\nsixty-nine A of the federal social security act, such information as may\nbe necessary to carry out the agreements provided for in section four of\nthe banking law and section three hundred twenty of the insurance law,\nfor the enforcement of child support orders.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

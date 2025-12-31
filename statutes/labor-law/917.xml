@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-917"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-917"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="917"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-917/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-917/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-917/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-917/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_917">
+        <num>917</num>
+        <heading>Continuing obligations</heading>
+        <subsection eId="sec_917__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Every individual who is required to be licensed, registered or\ncertified according to law and who is a worksite employee shall be\ndeemed an employee of the client for purposes of any license,\nregistration or certification requirement.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_917__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A professional employer organization shall not be deemed to be\nengaged in an occupation, trade or profession that is subject to\nlicensing, registration or certification requirements, or is otherwise\nregulated by a governmental entity solely by entering into a\nprofessional employer agreement with a client or an employment\nrelationship with worksite employees.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

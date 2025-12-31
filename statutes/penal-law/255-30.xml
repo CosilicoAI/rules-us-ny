@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.30"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="255.30"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-255.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-255.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_255_30">
+        <num>255.30</num>
+        <heading>Adultery and incest; corroboration</heading>
+        <content>
+          <p>§ 255.30 Adultery and incest; corroboration.\n  1. A person shall not be convicted of adultery or of an attempt to\ncommit adultery solely upon the testimony of the other party to the\nadulterous act or attempted act, unsupported by other evidence tending\nto establish that the defendant attempted to engage with the other party\nin sexual intercourse, and that the defendant or the other party had a\nliving spouse at the time of the adulterous act or attempted act.\n  2. A person shall not be convicted of incest or of an attempt to\ncommit incest solely upon the testimony of the other party unsupported\nby other evidence tending to establish that the defendant married the\nother party, or that the defendant was a relative of the other party of\na kind specified in section 255.25.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

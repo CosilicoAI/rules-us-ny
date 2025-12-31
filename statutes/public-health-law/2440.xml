@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2440"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2440"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2440"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2440/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2440/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2440/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2440/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2440">
+        <num>2440</num>
+        <heading>Policy and purpose</heading>
+        <content>
+          <p>  § 2440. Policy and purpose.  The use of human subjects in medical\nresearch projects has brought about many beneficial scientific advances\nresulting in the increased health and well-being of the human race.\nSafeguarding the rights and welfare of individual human subjects in the\nconduct of these human research projects is a matter of vital state\nconcern. Every human being has the right to be protected against the\npossible conduct of medical or psychological research upon his body\nwithout his voluntary informed consent. Human research may effect\ndangerous and unanticipated results causing irreversible damage to the\nhuman subject. Accordingly, it shall be the policy of this state to\nprotect its people against the unnecessary and improper risk of pain,\nsuffering or injury resulting from human research conducted without\ntheir knowledge or consent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

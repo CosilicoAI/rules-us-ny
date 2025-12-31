@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6811-C"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6811-C"/>
+          <FRBRdate date="2019-10-25" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6811-C"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6811-C/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6811-C/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6811-C/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6811-C/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6811_C">
+        <num>6811-C</num>
+        <heading>Patient notification of recalled drugs</heading>
+        <content>
+          <p>  § 6811-c. Patient notification of recalled drugs. 1. For purposes of\nthis section the term "class I recall" shall mean a situation in which\nthe United States food and drug administration deems there is reasonable\nprobability that the use of or exposure to a violative product will\ncause serious adverse health consequences or death.\n  2. Where there has been a class I recall of a prescription drug,\npharmacies shall make a reasonable attempt to notify all patients that\nhave been prescribed and who are currently taking such recalled drug\ndispensed from such pharmacy by phone or by mail within three days of\nthe pharmacy being notified by the United States food and drug\nadministration, a manufacturer, a wholesaler or by other notice of such\nrecall.\n  3. The notification required by this section may be provided by an\nindividual pharmacy or by a central office in the case of a pharmacy\nthat is part of a chain.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

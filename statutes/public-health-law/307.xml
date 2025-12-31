@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-307"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-307"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="307"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-307/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-307/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-307/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-307/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_307">
+        <num>307</num>
+        <heading>Local boards of health; meetings</heading>
+        <content>
+          <p>  § 307. Local boards of health; meetings.  1. Every local board of\nhealth shall meet at stated intervals to be fixed by it.\n  2. The presiding officer of every local board of health may call\nspecial meetings thereof when in his judgment the protection of the\npublic health of the municipality requires it, and shall call such a\nmeeting upon the petition of at least twenty-five residents thereof, of\nfull age, setting forth the necessity of such meetings.\n  3. Any matter within the jurisdiction of a town or village board of\nhealth may be considered and acted upon at any regular or special\nmeeting of such town board or village board of trustees.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

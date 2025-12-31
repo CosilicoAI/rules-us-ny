@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1115-A"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1115-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1115-A"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1115-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1115-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-1115-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-1115-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1115_A">
+        <num>1115-A</num>
+        <heading>Remedy for purchaser of one parcel of unapproved realty subdivision</heading>
+        <subsection eId="sec_1115_A__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>acquired by the owner-applicant prior to January first, nineteen\nhundred seventy-one; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1115_A__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>acquired by the owner-applicant through devise or intestate\nsuccession; or\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1115_A__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>not at the time of acquisition of title by the owner-applicant, a\npart of a subdivision, as such term is defined in section eleven hundred\nfifteen of this title.\n  In addition, this section shall apply to a single residential lot\nwhich the appropriate department deems proper for approval because of\nhardship or other special circumstances established to its satisfaction\nby the owner-applicant.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

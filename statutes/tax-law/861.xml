@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-861"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-861"/>
+          <FRBRdate date="2023-05-12" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="861"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-861/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-861/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-861/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-861/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_861">
+        <num>861</num>
+        <heading>Pass-through entity tax election</heading>
+        <subsection eId="sec_861__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Any eligible partnership\nor eligible S corporation shall be allowed to make an annual election to\nbe taxed pursuant to this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_861__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>In order to be effective, the annual election must be made</p>
+          </content>
+          <paragraph eId="sec_861__subsec_b__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>if\nthe entity is an S corporation, by any officer, manager or shareholder\nof the S corporation who is authorized under the law of the state where\nthe corporation is incorporated or under the S corporation's\norganizational documents to make the election and who represents to\nhaving such authorization under penalty of perjury; or</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_861__subsec_b__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>if the entity\nis not an S corporation, by any member, partner, owner, or other\nindividual with authority to bind the entity or sign returns pursuant to\nsection six hundred fifty-three of this chapter.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+        <subsection eId="sec_861__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>The annual election must be made on or before the due date of the\nfirst estimated payment under section eight hundred sixty-four of this\narticle and will take effect for the current taxable year. Only one\nelection may be made during each calendar year. An election made under\nthis section is irrevocable after the due date.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_861__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>Special rules for electing S corporations.</p>
+          </content>
+          <paragraph eId="sec_861__subsec_d__subsec_1">
+            <num>(1)</num>
+            <content>
+              <p>An electing S\ncorporation must certify at the time of its election that all\nshareholders are residents of New York for purposes of article\ntwenty-two of this chapter to be considered an electing resident S\ncorporation.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_861__subsec_d__subsec_2">
+            <num>(2)</num>
+            <content>
+              <p>If an electing S corporation does not make a certification under\nparagraph one of this subsection at the time of its election, the\nelecting S corporation is automatically treated as an electing standard\nS corporation.\n</p>
+            </content>
+          </paragraph>
+          <paragraph eId="sec_861__subsec_d__subsec_3">
+            <num>(3)</num>
+            <content>
+              <p>If an electing S corporation makes a certification under paragraph\none of this subsection to be an electing resident S corporation, this\ncertification is irrevocable as of the due date of the election.\n</p>
+            </content>
+          </paragraph>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

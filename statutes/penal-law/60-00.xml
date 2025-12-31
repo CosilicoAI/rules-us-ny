@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.00"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.00"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.00"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.00/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.00/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.00/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.00/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_00">
+        <num>60.00</num>
+        <heading>Applicability of provisions</heading>
+        <content>
+          <p>§ 60.00 Applicability of provisions.\n  1. The sentences prescribed by this article shall apply in the case of\nevery offense, whether defined within or outside of this chapter.\n  2. The sole provision of this article that shall apply in the case of\nan offense committed by a juvenile offender is section 60.10 of this\narticle and no other provisions of this article shall be deemed or\nconstrued to apply in any such case.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

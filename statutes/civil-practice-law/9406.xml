@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-9406"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-9406"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="9406"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-9406/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-9406/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-9406/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-9406/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_9406">
+        <num>9406</num>
+        <heading>Proof</heading>
+        <content>
+          <p>  Rule 9406. Proof.  No person shall receive said certificate from any\ncommittee and no person shall be admitted to practice as an attorney and\ncounselor at law in the courts of this state, unless he shall furnish\nsatisfactory proof to the effect:\n  1. that he supports the constitutions of the United States and of the\nstate of New York; and\n  2. that he has complied with all the requirements of the applicable\nstatutes of this state, the applicable rules of the court of appeals and\nthe applicable rules of the appellate division in which his application\nis pending, relating to the admission to practice as an attorney and\ncounselor at law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

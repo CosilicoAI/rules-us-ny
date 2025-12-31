@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-213"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-213"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="213"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-213/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-213/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-213/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_213">
+        <num>213</num>
+        <heading>Payment and lien of tax</heading>
+        <subsection eId="sec_213__subsec_i">
+          <num>(i)</num>
+          <content>
+            <p>not less than ninety per centum of the tax as finally\ndetermined, or (ii) not less than the tax shown on the taxpayer's report\nfor the preceding taxable year, if such preceding year was a taxable\nyear of twelve months; and\n  b. the time when a report is required to be filed shall be determined\nwithout regard to any extension of time for filing such report.\n  3. The commissioner may grant a reasonable extension of time for\npayment of any tax imposed by this article under such conditions as he\nor she deems just and proper.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

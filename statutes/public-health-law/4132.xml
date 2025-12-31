@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4132"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4132"/>
+          <FRBRdate date="2021-12-24" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4132"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4132/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4132/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4132/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4132/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4132">
+        <num>4132</num>
+        <heading>Birth certificate; form and content</heading>
+        <subsection eId="sec_4132__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The certificate shall be signed by the attending physician or\nnurse-midwife, with date of signature and his or her address.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_4132__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If there was no physician or nurse-midwife, in attendance, then\nthe certificate of birth shall be signed by the father or mother of the\nchild, householder, owner of the premises, director or other person in\ncharge of the public or private institution where the birth occurred, or\nby any other competent person whose duty it is to notify the local\nregistrar of such birth.\n  4. The registrar shall enter the exact date of filing of the\ncertificate of birth in his office attested by his official signature\nand registered number of birth.\n  5. Each parent of the child may choose to be designated on the\noriginal certificate of birth or by amendment as "father" or "mother" or\n"parent".\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

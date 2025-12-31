@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-317"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-317"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="317"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-317/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-317/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-317/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_317">
+        <num>317</num>
+        <heading>Defense by person to whom summons not personally delivered</heading>
+        <content>
+          <p>  § 317. Defense by person to whom summons not personally delivered.  A\nperson served with a summons other than by personal delivery to him or\nto his agent for service designated under rule 318, within or without\nthe state, who does not appear may be allowed to defend the action\nwithin one year after he obtains knowledge of entry of the judgment, but\nin no event more than five years after such entry, upon a finding of the\ncourt that he did not personally receive notice of the summons in time\nto defend and has a meritorious defense. If the defense is successful,\nthe court may direct and enforce restitution in the same manner and\nsubject to the same conditions as where a judgment is reversed or\nmodified on appeal. This section does not apply to an action for\ndivorce, annulment or partition.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

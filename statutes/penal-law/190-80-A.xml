@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.80-A"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.80-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190.80-A"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.80-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.80-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-190.80-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-190.80-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_80_A">
+        <num>190.80-A</num>
+        <heading>Aggravated identity theft</heading>
+        <content>
+          <p>§ 190.80-a Aggravated identity theft.\n  A person is guilty of aggravated identity theft when he or she\nknowingly and with intent to defraud assumes the identity of another\nperson by presenting himself or herself as that other person, or by\nacting as that other person or by using personal identifying information\nof that other person, and knows that such person is a member of the\narmed forces, and knows that such member is presently deployed outside\nof the continental United States and:\n  1. thereby obtains goods, money, property or services or uses credit\nin the name of such member of the armed forces in an aggregate amount\nthat exceeds five hundred dollars; or\n  2. thereby causes financial loss to such member of the armed forces in\nan aggregate amount that exceeds five hundred dollars.\n  Aggravated identity theft is a class D felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.11"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.11"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.11"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.11/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.11/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.11/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.11/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_11">
+        <num>60.11</num>
+        <heading>Authorized dispositions; criminal possession of a weapon in the fourth degree</heading>
+        <content>
+          <p>§ 60.11 Authorized dispositions; criminal possession of a weapon in the\n          fourth degree.\n  When a person is to be sentenced upon a conviction of the crime of\ncriminal possession of a weapon in the fourth degree as defined in\nsubdivision one of section 265.01 as a result of a plea of guilty\nentered in satisfaction of an indictment or count thereof charging the\ndefendant with the class D violent felony offense of criminal possession\nof a weapon in the third degree as defined in subdivision four of\nsection 265.02, the court must sentence the defendant in accordance with\nthe provisions of section 70.15.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

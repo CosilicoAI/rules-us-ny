@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-1003"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-1003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="33-1003"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-1003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-1003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-33-1003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-33-1003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_33_1003">
+        <num>33-1003</num>
+        <heading>Visual notification</heading>
+        <content>
+          <p>§ 33-1003. Visual notification.\n  1. All persons providing commercial lawn application shall affix\nmarkers to be placed within or along the perimeter of the area where\npesticides will be applied. Markers are to be placed so as to be clearly\nvisible to persons immediately outside the perimeter of such property.\nSuch markers shall be posted at least twelve inches above the ground and\nshall be at least four inches by five inches in size.\n  2. The markers required pursuant to this section shall be in place on\nthe day during which the pesticide is being applied and shall instruct\npersons not to enter the property and not to remove the signs for a\nperiod of at least twenty-four hours. Such instruction shall be printed\nboldly in letters at least three-eighths of an inch in height.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.46"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.46"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="570.46"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.46/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.46/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-570.46/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-570.46/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_570_46">
+        <num>570.46</num>
+        <heading>Guilt or innocence of accused; when inquired into</heading>
+        <content>
+          <p>§ 570.46  Guilt or innocence of accused; when inquired into.\n  The guilt or innocence of the accused as to the crime with which he is\ncharged may not be inquired into by the governor, or in any proceeding\nafter the demand for extradition accompanied by a charge of crime in\nlegal form as above provided shall have been presented to the governor,\nexcept as it may be involved in identifying the person held as the\nperson charged with the crime.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

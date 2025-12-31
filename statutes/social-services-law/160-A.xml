@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-160-A"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-160-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="160-A"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-160-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-160-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-160-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-160-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_160_A">
+        <num>160-A</num>
+        <heading>Unexpended welfare balances</heading>
+        <content>
+          <p>  § 160-a. Unexpended welfare balances. 1. Notwithstanding the\nprovisions of any general special or local law, where a city is no\nlonger responsible for the cost of public assistance or care or any form\nthereof as provided by sections seventy-two and seventy-three of this\nchapter or operates pursuant to section seventy-four-a of this chapter,\nany unexpended city welfare funds not due and owing to the state or to a\nsocial services district which shall remain in the treasury of such city\non the first day of January of any year may be transferred, appropriated\nand expended for any lawful city purpose.\n  2. Notwithstanding the provisions of any general or special law, where\na town is no longer responsible for the cost of any type of public\nassistance or care, any unexpended town welfare funds which shall remain\nin the hands of the supervisor or any other town officer on the first\nday of January of any year and which are not due and owing to the state\nor to a public welfare district may be transferred, appropriated and\nexpended for any lawful town purpose.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0403"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0403"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="71-0403"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0403/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0403/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-71-0403/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-71-0403/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_71_0403">
+        <num>71-0403</num>
+        <heading>Delegation of criminal enforcement authority</heading>
+        <content>
+          <p>§ 71-0403. Delegation of criminal enforcement authority.\n  Whenever the attorney general is authorized under this chapter to\nprosecute a criminal proceeding on behalf of the department, such\nauthority may in the discretion of the attorney general be delegated to\nthe department, to initiate or conduct any such prosecution. Provided,\nhowever, that in any event the district attorney of the county in which\nthe violation occurs may initiate or conduct any such prosecution.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

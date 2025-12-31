@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-379"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-379"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="379"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-379/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-379/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-379/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-379/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_379">
+        <num>379</num>
+        <heading>Revocation of certificates and licenses</heading>
+        <content>
+          <p>  § 379.  Revocation of certificates and licenses. 1.  A certificate or\nlicense to receive, board or keep any child and/or minor under the age\nof eighteen years may be revoked for cause by the authorized agency or\nthe commissioner of social services by which it was issued and any such\ncertificate or license to receive, board or keep any child may be\nrevoked for cause by the commissioner.\n  2.  An agency revoking any such certificate and a commissioner of\nsocial services revoking any such license shall notify the department of\nsuch revocation at once.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

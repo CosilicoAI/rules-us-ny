@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1708"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1708"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1708"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1708/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1708/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-1708/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-1708/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1708">
+        <num>1708</num>
+        <heading>Regular meetings; visitation of schools</heading>
+        <content>
+          <p>  § 1708. Regular meetings; visitation of schools.  1. It shall be the\nduty of each board of education elected pursuant to the provisions of\nthis article to have a regular meeting at least once in each quarter.\n  2. Each board shall appoint one or more committees, to visit every\nschool or department under its supervision and such committee or\ncommittees shall visit such schools at least once annually, and report\nat the next regular meeting of the board on the condition thereof.\n  3. The meetings of all such boards shall be open to the public, but\nsaid boards may hold executive sessions, at which sessions only the\nmembers of such boards or the persons invited shall be present.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

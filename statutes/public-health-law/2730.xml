@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2730"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2730"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2730"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2730/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2730/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2730/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2730/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2730">
+        <num>2730</num>
+        <heading>Declaration of policy</heading>
+        <content>
+          <p>  § 2730. Declaration of policy.  Occurrence of malformation or\ninherited disease at the time of birth is a tragedy for the child, the\nfamily and the community, and a matter of vital concern to the public\nhealth. In order to provide for the protection and promotion of the\nhealth of the inhabitants of the state, the department of health shall\nhave the central and comprehensive responsibility for the development\nand administration of the state's policy with respect to the conduct of\nscientific investigations and research concerning the causes,\nprevention, treatment and cure of birth defects and genetic and allied\ndiseases.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

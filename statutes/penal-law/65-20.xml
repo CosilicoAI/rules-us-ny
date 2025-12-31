@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-65.20"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-65.20"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="65.20"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-65.20/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-65.20/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-65.20/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-65.20/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_65_20">
+        <num>65.20</num>
+        <heading>Sentence of unconditional discharge</heading>
+        <content>
+          <p>§ 65.20 Sentence of unconditional discharge.\n  1. Criteria. The court may impose a sentence of unconditional\ndischarge in any case where it is authorized to impose a sentence of\nconditional discharge under section 65.05 if the court is of the opinion\nthat no proper purpose would be served by imposing any condition upon\nthe defendant's release.\n  When a sentence of unconditional discharge is imposed for a felony,\nthe court shall set forth in the record the reasons for its action.\n  2. Sentence. When the court imposes a sentence of unconditional\ndischarge, the defendant shall be released with respect to the\nconviction for which the sentence is imposed without imprisonment, fine\nor probation supervision. A sentence of unconditional discharge is for\nall purposes a final judgment of conviction.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

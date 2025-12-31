@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-250"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-250"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="250"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-250/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-250/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-250/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_250">
+        <num>250</num>
+        <heading>Definitions</heading>
+        <subsection eId="sec_250__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The term "mortgage" as used in this article includes every\nmortgage or deed of trust which imposes a lien on or affects the title\nto real property, notwithstanding that such property may form a part of\nthe security for the debt or debts secured thereby. An assignment of\nrents to accrue from tenancies, subtenancies, leases or subleases of\nreal property, within any city in the state having a population of one\nmillion or more, given as security for an indebtedness, shall be deemed\na mortgage of real property for purposes of this article. Executory\ncontracts for the sale of real property under which the vendee has or is\nentitled to possession shall be deemed to be mortgages for the purposes\nof this article and shall be taxable at the amount unpaid on such\ncontracts. A contract or agreement by which the indebtedness secured by\nany mortgage is increased or added to, shall be deemed a mortgage of\nreal property for the purpose of this article, and shall be taxable as\nsuch upon the amount of such increase or addition. Notwithstanding\nanything in this section or section two hundred fifty-five of this\narticle to the contrary, a contract or agreement whereby the proceeds of\nany indebtedness secured by a mortgage of real property in any city in\nthe state having a population of one million or more are used to reduce\nall or any part of a mortgagee's equity interest in a wraparound or\nsimilar mortgage of such real property shall be deemed a mortgage of\nreal property for the purposes of this article and shall be taxable as\nsuch to the extent of the amount of such proceeds so used, without\nregard to whether the aggregate amount of indebtedness secured by\nmortgages of such real property is increased or added to.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_250__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Where all or part of the indebtedness secured by a mortgage of\nreal property within any city in the state having a population of one\nmillion or more has been paid and new funds are advanced or re-advanced\nwhich are to be secured by such mortgage, the contract or agreement by\nwhich such funds are advanced or re-advanced shall be deemed a mortgage\nof real property for purposes of this article, and shall be taxable as\nsuch upon the amount of such new funds, except as otherwise provided in\nsection two hundred fifty-three-b of this article.\n  3. The term "tax district" as used in this article means a city or\ntown.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

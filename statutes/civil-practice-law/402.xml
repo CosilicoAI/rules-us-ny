@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-402"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-402"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="402"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-402/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-402/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-402/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_402">
+        <num>402</num>
+        <heading>Pleadings</heading>
+        <content>
+          <p>  § 402. Pleadings. There shall be a petition, which shall comply with\nthe requirements for a complaint in an action, and an answer where there\nis an adverse party. There shall be a reply to a counterclaim\ndenominated as such and there may be a reply to new matter in the answer\nin any case. The court may permit such other pleadings as are authorized\nin an action upon such terms as it may specify. Where there is no\nadverse party the petition shall state the result of any prior\napplication for similar relief and shall specify the new facts, if any,\nthat were not previously shown.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

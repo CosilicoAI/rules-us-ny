@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-489"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-489"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="489"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-489/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-489/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-489/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_489">
+        <num>489</num>
+        <heading>Applicability</heading>
+        <content>
+          <p>  § 489. Applicability. The provisions of this article shall apply to\nfacilities and provider agencies provided, however, nothing in this\narticle shall be deemed to relieve any facility or provider agency or\ncustodian thereof covered by this article of its or their obligations to\ncomply with the requirements of federal laws or regulations to which\nthat facility, provider agency or custodian thereof is subject,\nincluding any requirements that are a condition of federal financial\nparticipation in medical assistance payments. To the extent that federal\nrequirements conflict with any of the provisions in this article, the\nfederal requirements shall supersede the conflicting provisions in this\narticle with respect to any such facility or provider agency.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

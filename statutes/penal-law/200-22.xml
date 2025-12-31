@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.22"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.22"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="200.22"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.22/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.22/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-200.22/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-200.22/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_200_22">
+        <num>200.22</num>
+        <heading>Rewarding official misconduct in the first degree</heading>
+        <content>
+          <p>§ 200.22 Rewarding official misconduct in the first degree.\n  A person is guilty of rewarding official misconduct in the first\ndegree when he knowingly confers, or offers or agrees to confer, any\nbenefit upon a public servant for having violated his duty as a public\nservant in the investigation, arrest, detention, prosecution, or\nincarceration of any person for the commission or alleged commission of\na class A felony defined in article two hundred twenty of the penal law\nor the attempt to commit any such class A felony.\n  Rewarding official misconduct in the first degree is a class C felony.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

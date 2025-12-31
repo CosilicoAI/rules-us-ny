@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.10"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="60.10"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-60.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-60.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_60_10">
+        <num>60.10</num>
+        <heading>Authorized disposition; juvenile offender</heading>
+        <content>
+          <p>§ 60.10 Authorized disposition; juvenile offender.\n  1. When a juvenile offender is convicted of a crime, the court shall\nsentence the defendant to imprisonment in accordance with section 70.05\nor sentence him upon a youthful offender finding in accordance with\nsection 60.02 of this chapter.\n  2. Subdivision one of this section shall apply when sentencing a\njuvenile offender notwithstanding the provisions of any other law that\ndeals with the authorized sentence for persons who are not juvenile\noffenders. Provided, however, that the limitation prescribed by this\nsection shall not be deemed or construed to bar use of a conviction of a\njuvenile offender, other than a juvenile offender who has been\nadjudicated a youthful offender pursuant to section 720.20 of the\ncriminal procedure law, as a previous or predicate felony offender under\nsection 70.04, 70.06, 70.08 or 70.10, when sentencing a person who\ncommits a felony after he has reached the age of sixteen.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5211"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5211"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="5211"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5211/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5211/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-5211/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-5211/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_5211">
+        <num>5211</num>
+        <heading>Privilege on examination; immunity</heading>
+        <content>
+          <p>  § 5211. Privilege on examination; immunity.  The court may confer\nimmunity upon any witness in accordance with the provisions of section\n50.20 of the criminal procedure law for testimony or evidence in an\nenforcement procedure relating to disposition of property in which the\njudgment debtor has an interest, or relating to his or another person's\nclaim to be entitled, as against the judgment creditor or a receiver, to\nhold property derived from or through the judgment debtor, or to be\ndischarged from the payment of a debt which was due to the judgment\ndebtor; provided, however, that no immunity shall be conferred except\nupon twenty-four hours' written notice to the appropriate district\natorney having an official interest therein.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

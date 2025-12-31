@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.45"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.45"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="140.45"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.45/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.45/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-140.45/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-140.45/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_140_45">
+        <num>140.45</num>
+        <heading>Arrest without a warrant; dismissal of insufficient local criminal court accusatory instrument</heading>
+        <content>
+          <p>§ 140.45 Arrest without a warrant; dismissal of insufficient local\n             criminal court accusatory instrument.\n  If a local criminal court accusatory instrument filed with a local\ncriminal court pursuant to section 140.20, 140.25 or 140.40 is not\nsufficient on its face, as prescribed in section 100.40, and if the\ncourt is satisfied that on the basis of the available facts or evidence\nit would be impossible to draw and file an accusatory instrument which\nis sufficient on its face, it must dismiss such accusatory instrument\nand discharge the defendant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

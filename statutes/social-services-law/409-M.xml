@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-M"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-M"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="409-M"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-M/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-M/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-409-M/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-409-M/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_409_M">
+        <num>409-M</num>
+        <heading>Reports</heading>
+        <subsection eId="sec_409_M__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>of section seventeen of\nthis chapter to be filed with the governor and the legislature prior to\nDecember fifteenth of each year, a progress report on the planning and\nimplementation of the provisions of this title.\n  2. The report shall contain, but not be limited to, information\nreported statewide and by districts, the number of individuals certified\nas eligible for services under this title, and those for whom services\nwere rendered and expenditures made for services identified by type,\nprovider, and funding source. Such report shall also include progress\nmade in implementing the provisions of this title with particular\nreference to efforts made to insure the effectiveness of the case\nmanagement provisions.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

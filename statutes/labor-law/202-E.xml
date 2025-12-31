@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-202-E"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-202-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="202-E"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-202-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-202-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-202-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-202-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_202_E">
+        <num>202-E</num>
+        <heading>Protection of persons employed on/in vehicular bridges and/or tunnels</heading>
+        <content>
+          <p>  § 202-e. Protection of persons employed on/in vehicular bridges and/or\ntunnels. The board of standards and appeals may make such rules as may\nbe necessary for the protection of the lives, health and safety of\npersons employed on/in vehicular bridges and/or tunnels by bridge and\ntunnel authorities subject to the public authorities law of this state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

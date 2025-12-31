@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="482-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-482-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-482-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_482_A">
+        <num>482-A</num>
+        <heading>Joint administration</heading>
+        <content>
+          <p>  § 482-a. Joint administration. In addition to the powers granted to\nthe tax commission in this chapter, the commission is hereby authorized\nto make provisions pursuant to rules and regulations for the joint\nadministration, in whole or in part, of the tax imposed by this article\nand the cigarette marketing standards contained in article twenty-A of\nthis chapter, including the joint reporting of information, and for that\npurpose to prescribe that any of the commission's functions under such\narticles, and any returns, forms, statements, documents or information\nto be submitted to the commission under such articles, any books and\nrecords to be kept for purposes of such articles, or any license under\nsuch articles shall be on a joint basis.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

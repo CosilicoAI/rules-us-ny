@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7562"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7562"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7562"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7562/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7562/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7562/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7562/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7562">
+        <num>7562</num>
+        <heading>Witnesses' fees and mileage; arbitrators' fees and expenses</heading>
+        <subsection eId="sec_7562__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Except for the parties to the arbitration and their agents,\nofficers, and employees, all witnesses appearing pursuant to subpoena\nare entitled to receive fees and mileage in the same amount and under\nthe same circumstances as prescribed by law for witnesses in civil\nactions. The fee and mileage of a witness subpoenaed upon the\napplication of a party to the arbitration shall be paid by that party.\nThe fee and mileage of a witness subpoenaed solely at the request of an\narbitrator shall be deemed to be a cost of the proceeding.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7562__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Each arbitrator's salary or fees and expenses, together with any\nother costs of the proceeding shall be paid from the arbitration\nadministration fund established pursuant to section five thousand six\nhundred three of the insurance law. The range of such salary or fees and\nexpenses and the manner of their payment shall be established by\nregulation of the superintendent of financial services.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

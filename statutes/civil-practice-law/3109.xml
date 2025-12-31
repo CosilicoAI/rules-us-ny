@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3109"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3109"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3109"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3109/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3109/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3109/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3109/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3109">
+        <num>3109</num>
+        <heading>Notice of taking deposition on written questions</heading>
+        <subsection eId="sec_3109__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>\nNotice of taking; service of questions and cross-questions. A party\ndesiring to take the deposition of any person upon written questions\nshall serve such questions upon each party together with a notice\nstating the name and address of the person to be examined, if known,\nand, if the name is not known, a general description sufficient to\nidentify him or the particular class or group to which he belongs, and\nthe name or descriptive title and address of the officer before whom the\ndeposition is to be taken. Within fifteen days thereafter a party so\nserved may serve written cross-questions upon each party. Within seven\ndays thereafter the original party may serve written redirect questions\nupon each party. Within five days after being served with written\nredirect questions, a party may serve written recross-questions upon\neach party.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_3109__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Officer asking written questions. A copy of the notice and copies\nof all written questions served shall be delivered by the party taking\nthe deposition to the officer designated in the notice. The officer\nshall proceed promptly to take the testimony of the witness in response\nto the written questions and to prepare the deposition.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

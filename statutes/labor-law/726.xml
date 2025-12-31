@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-726"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-726"/>
+          <FRBRdate date="2015-07-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="726"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-726/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-726/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-726/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-726/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_726">
+        <num>726</num>
+        <heading>Financial reporting</heading>
+        <content>
+          <p>  § 726. Financial reporting. 1. Every labor organization and employer\norganization shall make available to each of its members a copy of its\nannual financial report, or such portions thereof as the industrial\ncommissioner shall find relevant and appropriate, in such manner as the\nindustrial commissioner shall prescribe. The president or chief\nexecutive officer and the treasurer or chief financial officer of the\norganization personally shall be responsible for the preparation of such\nreport, and both shall verify such report. The officers responsible for\nthe preparation of reports shall be responsible for providing copies of\nreports under this section.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

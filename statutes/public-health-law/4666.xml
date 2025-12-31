@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4666"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4666"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4666"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4666/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4666/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-4666/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-4666/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4666">
+        <num>4666</num>
+        <heading>Advertisements</heading>
+        <content>
+          <p>  § 4666. Advertisements. No person, partnership, corporation, company,\ntrust or association, or any agent or employee thereof, shall publish or\ncause to be published, circulated, or disseminated any financial\nstatement, pamphlet, circular, form letter, advertisement, or other\nsales literature or advertising communication addressed or intended for\ndistribution to prospective residents of fee-for-service continuing care\nretirement communities that contains statements or illustrations that\nare untrue, deceptive, misleading, or omit material facts or omit any\nother information required by regulations appropriate to a\nfee-for-service continuing care retirement community.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

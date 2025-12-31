@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3398-U"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3398-U"/>
+          <FRBRdate date="2021-04-02" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3398-U"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3398-U/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3398-U/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3398-U/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3398-U/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3398_U">
+        <num>3398-U</num>
+        <heading>Severability</heading>
+        <content>
+          <p>  * § 3398-u. Severability. If any provision of this article or the\napplication thereof to any person or circumstances is held invalid, such\ninvalidity shall not affect other provisions or applications of this\narticle which can be given effect without the invalid provision or\napplication, and to this end the provisions of this article are declared\nto be severable.\n  * NB Repealed 6 months after the full cannabis control board created\nby Article 2 of the cannabis law has been appointed\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

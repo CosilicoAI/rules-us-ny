@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2807-R"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2807-R"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2807-R"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2807-R/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2807-R/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2807-R/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2807-R/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2807_R">
+        <num>2807-R</num>
+        <heading>Funding for expansion of cancer services</heading>
+        <content>
+          <p>  § 2807-r. Funding for expansion of cancer services. To the extent of\nfunds available therefor pursuant to section twenty-eight hundred\nseven-l of this article, the commissioner may allocate funds for\ncompetitive grants or reimbursement for the expansion of cancer services\ninto medically underserved or high need areas or medically underserved\npopulations, and for training programs for physicians and other\npractitioners from medically underserved areas to upgrade their training\nand education in relation to providing cancer education, detection and\ntreatment services in such areas.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-252"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-252"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="252"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-252/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-252/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-252/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_252">
+        <num>252</num>
+        <heading>Responsibility</heading>
+        <subsection eId="sec_252__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>If the state's plan makes provision for services to be provided\nto eligible persons cared for in certain state institutions or\nfacilities, the department, or other appropriate state department or\nagency acting pursuant to an agreement with the department, shall\nfurnish services to such persons.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>There shall be such cooperative arrangements, between and among\nthe department, and the state departments of health, mental hygiene,\neducation and other appropriate state departments and agencies as shall\nbe necessary to assure that there will be compliance with federal law\nand regulation and that the objectives of this title will be effectively\naccomplished.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_252__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Services for the aged, blind or disabled persons shall be\nadministered uniformly throughout the state, except when otherwise\nrequired or permitted by the department which shall first obtain the\napproval of the secretary of health, education and welfare.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PEN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.50"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="205.50"/>
+          <FRBRname value="PEN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pen/section-205.50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pen/section-205.50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_205_50">
+        <num>205.50</num>
+        <heading>Hindering prosecution; definition of term</heading>
+        <content>
+          <p>§ 205.50 Hindering prosecution; definition of term.\n  As used in sections 205.55, 205.60 and 205.65, a person "renders\ncriminal assistance" when, with intent to prevent, hinder or delay the\ndiscovery or apprehension of, or the lodging of a criminal charge\nagainst, a person who he knows or believes has committed a crime or is\nbeing sought by law enforcement officials for the commission of a crime,\nor with intent to assist a person in profiting or benefiting from the\ncommission of a crime, he:\n  1. Harbors or conceals such person; or\n  2. Warns such person of impending discovery or apprehension; or\n  3. Provides such person with money, transportation, weapon, disguise\nor other means of avoiding discovery or apprehension; or\n  4. Prevents or obstructs, by means of force, intimidation or\ndeception, anyone from performing an act which might aid in the\ndiscovery or apprehension of such person or in the lodging of a criminal\ncharge against him; or\n  5. Suppresses, by any act of concealment, alteration or destruction,\nany physical evidence which might aid in the discovery or apprehension\nof such person or in the lodging of a criminal charge against him; or\n  6. Aids such person to protect or expeditiously profit from an\nadvantage derived from such crime.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

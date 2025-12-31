@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-50"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-50"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="50"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-50/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-50/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-50/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_50">
+        <num>50</num>
+        <heading>Homeless intervention contracts</heading>
+        <subsection eId="sec_50__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>a description of the homeless intervention services to be\nprovided, including procedures for intake, referral, outreach, the\nprovision of services, follow-up and anticipated outcomes;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>the specific population that will be served and how the services\nprovided will address the population's special needs;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>a description of the manner in which coordination with other\nfederal, state, local and privately funded services will be achieved;\nand\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_50__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>a description of how the services will be designed to assist\nhouseholds transition from a reliance on outside interventions and move\ntoward housing stability and economic self reliance.\n  3. Prior to entering into a contract pursuant to this section, the\ncommissioner shall determine that the eligible applicant is a bona fide\norganization which shall have demonstrated by its past and current\nactivities that it has the ability to provide such services, that the\norganization is financially responsible and that the operating plan is\nappropriate for the needs of households to be served.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

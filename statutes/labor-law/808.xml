@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-808"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-808"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="808"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-808/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-808/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-808/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_808">
+        <num>808</num>
+        <heading>Contempt of injunction order to be tried by jury</heading>
+        <subsection eId="sec_808__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A case shall be held to involve or to grow out of a labor dispute\nwhen the case involves persons who are engaged in the same industry,\ntrade, craft or occupation; or who are employees of one employer; or who\nare members of the same or an affiliated organization of employers or\nemployees; whether such dispute is between one or more employers or\nassociations of employers and one or more employees or associations of\nemployees; between one or more employers or associations of employers\nand one or more employers or associations of employers; or between one\nor more employees or associations of employees and one or more employees\nor associations of employees; or when the case involves any conflicting\nor competing interests in a "labor dispute" (as hereinafter defined) of\n"persons participating or interested" therein (as hereinafter defined);\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_808__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The term "labor dispute" includes any controversy concerning terms\nor conditions of employment, or concerning the association or\nrepresentation of persons in negotiating, fixing, maintaining, changing\nor seeking to arrange terms or conditions of employment, or concerning\nemployment relations, or any other controversy arising out of the\nrespective interests of employer and employee, regardless of whether or\nnot the disputants stand in the relation of employer and employee;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_808__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A person or association shall be held to be a person participating\nor interested in a labor dispute if relief is sought against him or it\nand if he or it is engaged in the industry, trade, craft, or occupation\nin which such dispute occurs, or is a member, officer or agent of any\nassociation of employers or employees engaged in such industry, trade,\ncraft, or occupation.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

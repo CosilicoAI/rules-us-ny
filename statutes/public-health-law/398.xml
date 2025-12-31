@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-398"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-398"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="398"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-398/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-398/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-398/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-398/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_398">
+        <num>398</num>
+        <heading>Consolidated health district; compensation of board members</heading>
+        <content>
+          <p>  § 398. Consolidated health district; compensation of board members. 1.\nMembers of the board of health of a consolidated health district,\nwhether or not members of a town board or a village board of trustees,\nshall be allowed a per diem compensation of not more than ten dollars\nfor each calendar day in actual attendance at a meeting of the board of\nhealth of the district, to be fixed and determined by the board of\nhealth of the district and which compensation in the case of any member\nshall not exceed the sum of one hundred and fifty dollars in any one\nyear.\n  2. Members of the board of health of a consolidated health district\nshall also be allowed their actual and necessary expenses.\n  3. The compensation and expenses of members of the board of health of\na consolidated health district shall be audited and paid in the same\nmanner as the other expenses of the consolidated health district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

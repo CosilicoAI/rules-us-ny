@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-390.10"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-390.10"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="390.10"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-390.10/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-390.10/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-390.10/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-390.10/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_390_10">
+        <num>390.10</num>
+        <heading>Requirement of fingerprint report</heading>
+        <content>
+          <p>§ 390.10  Requirement of fingerprint report.\n  In any case where the defendant is convicted of an offense specified\nin subdivision one of section 160.10, the court may not pronounce\nsentence until it has received a fingerprint report from the division of\ncriminal justice services or a police department report with respect to\nthe defendant's prior arrest record.   For such purpose, the court may\nuse the original fingerprint report obtained after the arrest or\narraignment of the defendant, or it may direct that a new report be\nprepared and transmitted to it.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

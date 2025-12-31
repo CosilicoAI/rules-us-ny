@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7106"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7106"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="7106"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7106/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7106/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-7106/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-7106/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_7106">
+        <num>7106</num>
+        <heading>Payment of sheriff's fees and expenses; liability of sheriff</heading>
+        <subsection eId="sec_7106__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Payment of sheriff's fees and expenses. The sheriff shall not\ndeliver a chattel to the person entitled to possession unless such\nperson shall, upon request, pay to the sheriff his lawful fees and the\nexpenses necessarily incurred in taking and keeping the chattel. Such\nfees and expenses shall be taxed as costs in the action or may be taxed\nimmediately upon motion and the sheriff may be required to refund any\namount not found to be necessarily incurred.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_7106__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Liability of sheriff. A sheriff is liable for damages caused by\nhis delivery of a chattel in violation of this article only to the\nextent that such damages can not be collected from the party to whom the\nchattel was delivered, or his surety. When a chattel is delivered by the\nsheriff to any party, as prescribed in this article, the sheriff ceases\nto be responsible for the sufficiency of the sureties of any party;\nuntil then, he is responsible for the sufficiency of the sureties of any\nparty.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

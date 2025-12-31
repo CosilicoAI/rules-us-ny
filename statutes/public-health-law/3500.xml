@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3500"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3500"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3500"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3500/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3500/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-3500/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-3500/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3500">
+        <num>3500</num>
+        <heading>Declaration of policy and statement of purpose</heading>
+        <content>
+          <p>  § 3500. Declaration of policy and statement of purpose. It is declared\nto be the policy of the state of New York that the health and safety of\nthe people of the state must be protected against the harmful effects of\nexcessive and improper exposure to ionizing radiation and from\ninadequately performed diagnostic tests and radiation therapy\ntreatments. Such protection can best be accomplished by requiring\nadequate training and experience of persons under the supervision of\nlicensed practitioners as defined in this title. It is the purpose of\nthis article to establish standards of education, training and\nexperience and to require the examination and licensure of\nradiographers, radiation therapists and nuclear medicine technologists.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

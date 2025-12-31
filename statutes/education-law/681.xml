@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-681"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-681"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="681"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-681/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-681/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-681/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_681">
+        <num>681</num>
+        <heading>Capacity of minors</heading>
+        <content>
+          <p>  § 681. Capacity of minors.  Any person otherwise qualifying for a loan\nfrom the corporation, or qualifying for a loan guaranteed by the\ncorporation, shall not be disqualified by reason of his being under the\nage of eighteen years and for the purposes of applying for, receiving\nand repaying such a loan any such person shall be deemed to have full\nlegal capacity to act; provided, however, that the signature of both\nparents of an applicant not meeting emancipated status requirements\nshall be required for the purposes of receiving such a loan unless the\npresident determines in accordance with rules and regulations to be\npromulgated by the board that unusual family circumstances preclude the\navailability of such signatures.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

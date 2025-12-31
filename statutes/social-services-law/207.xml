@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-207"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-207"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="207"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-207/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-207/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-207/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-207/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_207">
+        <num>207</num>
+        <heading>Declaration of purpose</heading>
+        <content>
+          <p>  § 207. Declaration of purpose. The legislature hereby declares its\ncommitment to meeting the income needs of aged, blind and disabled\npersons who are receiving basic supplemental security income benefits or\nwhose income and resources, though above the standard of need for the\nsupplemental security income program, is not sufficient to meet those\nneeds. In order to maintain assistance for such persons at a level\nconsistent with their needs, and in order to fully employ available\nfederal aid for the benefit of such persons residing in this state,\nthere is hereby established a state-wide program of additional state\npayments for aged, blind and disabled persons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

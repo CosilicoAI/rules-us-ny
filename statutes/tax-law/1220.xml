@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1220"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1220"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1220"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1220/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1220/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1220/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1220/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1220">
+        <num>1220</num>
+        <heading>Territorial limitations</heading>
+        <subsection eId="sec_1220__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>of section eleven hundred five and\nclauses (E), (G) and (H) of subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1220__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>of section eleven hundred\nten or the tax described in subdivision</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1220__subsec_e">
+          <num>(e)</num>
+          <content>
+            <p>of section eleven hundred\nfive is imposed by a city, as provided in section twelve hundred ten or\ntwelve hundred eleven of this chapter, any establishment located\npartially within such city and partially within a town or towns and\nreceiving or using any services or utilities provided by the city shall\nbe deemed to be wholly within such city for the purposes of such taxes.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

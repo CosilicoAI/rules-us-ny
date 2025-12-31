@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6203"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6203"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6203"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6203/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6203/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-6203/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-6203/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6203">
+        <num>6203</num>
+        <heading>Attaching creditor's rights in personal property</heading>
+        <content>
+          <p>  § 6203. Attaching creditor's rights in personal property. Where a\nplaintiff has delivered an order of attachment to a sheriff, the\nplaintiff's rights in a debt owed to the defendant or in an interest of\nthe defendant in personal property against which debt or property a\njudgment may be enforced, are superior to the extent of the amount of\nthe attachment to the rights of any transferee of the debt or property,\nexcept:\n  1. a transferee who acquired the debt or property before it was levied\nupon for fair consideration or without knowledge of the order of\nattachment; or\n  2. a transferee who acquired the debt or property for fair\nconsideration after it was levied upon without knowledge of the levy\nwhile it was not in the possession of the sheriff.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

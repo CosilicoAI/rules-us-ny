@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBBBBB"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBBBBB"/>
+          <FRBRdate date="2022-07-29" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1449-BBBBBB"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBBBBB/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBBBBB/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1449-BBBBBB/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1449-BBBBBB/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1449_BBBBBB">
+        <num>1449-BBBBBB</num>
+        <heading>Imposition of tax</heading>
+        <content>
+          <p>  § 1449-bbbbbb. Imposition of tax. Notwithstanding any other provisions\nof law to the contrary, the county of Madison, acting through its local\nlegislative body, is hereby authorized and empowered to adopt and amend\nlocal laws imposing in such county a tax on each conveyance of real\nproperty or interest therein when the consideration exceeds five hundred\ndollars, at the rate of two dollars for each five hundred dollars or\nfractional part thereof. Such local law may apply to any conveyance\noccurring on or after the date designated by such legislative body, but\nshall not apply to conveyances made on or after such date pursuant to\nbinding written contracts entered into prior to such date, provided that\nthe date of execution of such contract is confirmed by independent\nevidence such as the recording of the contract, payment of a deposit or\nother facts and circumstances as determined by the treasurer.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

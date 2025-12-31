@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-201"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-201"/>
+          <FRBRdate date="2022-12-23" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="201"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-201/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-201/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-201/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-201/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_201">
+        <num>201</num>
+        <heading>Laws and orders to be posted</heading>
+        <content>
+          <p>  § 201. Laws and orders to be posted. Wherever persons are employed who\nare affected by the provisions of this chapter or of the industrial\ncode, the commissioner shall furnish to the employer copies or abstracts\nof such provisions, rules and orders as he may deem necessary affecting\nsuch persons. The copies or abstracts shall be in such language as the\ncommissioner may require and shall be kept posted by the employer in a\nconspicuous place on each floor of the premises. Digital versions of\nsuch copies and abstracts shall also be made available through the\nemployer's website or by email. Employers shall provide notice that\ndocuments required for physical posting are also available\nelectronically. All other documents required to be physically posted at\na worksite pursuant to state or federal law or regulation shall also be\nmade electronically available in the manner described pursuant to this\nsection.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

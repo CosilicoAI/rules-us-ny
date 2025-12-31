@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.55"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.55"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="190.55"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.55/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.55/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-190.55/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-190.55/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_190_55">
+        <num>190.55</num>
+        <heading>Grand jury; matters to be heard and examined; duties and authority of district attorney</heading>
+        <subsection eId="sec_190_55__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A district attorney must submit to a grand jury evidence\nconcerning a felony allegedly committed by a defendant who, on the basis\nof a felony complaint filed with a local criminal court of the county,\nhas been held for the action of a grand jury of such county, except\nwhere indictment has been waived by the defendant pursuant to article\none hundred ninety-five.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_190_55__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>A district attorney must submit to a grand jury evidence\nconcerning a misdemeanor allegedly committed by a defendant who has been\ncharged therewith by a local criminal court accusatory instrument, in\nany case where a superior court of the county has, pursuant to\nsubdivision one of section 170.25, ordered that such misdemeanor charge\nbe prosecuted by indictment in a superior court.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_190_55__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A district attorney may submit to a grand jury any available\nevidence concerning an offense prosecutable in the courts of the county,\nor concerning misconduct, nonfeasance or neglect in public office by a\npublic servant, whether criminal or otherwise.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

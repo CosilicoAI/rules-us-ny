@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2193"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2193"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2193"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2193/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2193/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2193/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2193/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2193">
+        <num>2193</num>
+        <heading>Resident immunization</heading>
+        <content>
+          <p>  § 2193. Resident immunization. 1. Upon admission, a long-term care\nfacility shall notify the resident of the immunization requirements of\nthis article and request that the resident agree to be immunized against\ninfluenza virus and pneumococcal disease.\n  2. Every long-term care facility shall document the annual\nimmunization against influenza virus and immunization against\npneumococcal disease for each resident. Upon finding that a resident is\nlacking such immunization or the long-term care facility or individual\nis unable to provide documentation that the individual has received the\nappropriate immunization, the long-term care facility shall provide or\narrange for immunization. Immunization and the documentation thereof\nshall take place no later than November thirtieth of each year.\n  3. An individual who becomes a resident after November thirtieth but\nbefore April first shall have his or her status for influenza and\npneumococcal immunization determined by the facility, and if found to be\ndeficient, the facility shall provide or arrange for the necessary\nimmunization.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

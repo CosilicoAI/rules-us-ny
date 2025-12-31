@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-202"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-202"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="202"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-202/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-202/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-202/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-202/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_202">
+        <num>202</num>
+        <heading>Construction and administration of public homes</heading>
+        <content>
+          <p>  § 202. Construction and administration of public homes. 1. No building\nto be used as a public home shall be constructed, or remodeled, in whole\nor in part, except on plans and designs approved in writing by the\ndepartment provided that such approval in writing in the city of New\nYork shall be by the mayor of said city, and except that plans and\ndesigns for the construction of or remodeling in whole or in part of a\npublic home infirmary, or the infirmary of a public home, shall be\napproved in accordance with the provisions of article twenty-eight of\nthe public health law.\n  2. It shall be the duty of the department to send to the legislative\nbody and the public welfare official in charge of a public home a\nwritten statement as to any abuses, defects or evils, which it may find\nin the public home or in the administration thereof, and such\nlegislative body and official shall take action to remedy such condition\nin accordance with such advice.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

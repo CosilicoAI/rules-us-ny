@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="DOM">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/dom/section-230"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-230"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="230"/>
+          <FRBRname value="DOM"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/dom/section-230/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-230/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/dom/section-230/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/dom/section-230/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_230">
+        <num>230</num>
+        <heading>Required residence of parties</heading>
+        <content>
+          <p>  § 230. Required residence of parties. An action to annul a marriage,\nor to declare the nullity of a void marriage, or for divorce or\nseparation may be maintained only when:\n  1. The parties were married in the state and either party is a\nresident thereof when the action is commenced and has been a resident\nfor a continuous period of one year immediately preceding, or\n  2. The parties have resided in this state as husband and wife and\neither party is a resident thereof when the action is commenced and has\nbeen a resident for a continuous period of one year immediately\npreceding, or\n  3. The cause occurred in the state and either party has been a\nresident thereof for a continuous period of at least one year\nimmediately preceding the commencement of the action, or\n  4. The cause occurred in the state and both parties are residents\nthereof at the time of the commencement of the action, or\n  5. Either party has been a resident of the state for a continuous\nperiod of at least two years immediately preceding the commencement of\nthe action.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

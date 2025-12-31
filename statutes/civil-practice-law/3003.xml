@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3003"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3003"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3003"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3003/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3003/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3003/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3003">
+        <num>3003</num>
+        <heading>Action for periodic payments due under pension or retirement contract no bar to action for future installments</heading>
+        <content>
+          <p>  § 3003. Action for periodic payments due under pension or retirement\ncontract no bar to action for future installments. The commencement or\nmaintenance of an action for the recovery of payments which have become\ndue under the terms of a written agreement providing for the payment of\na pension or retirement compensation or deferred compensation for a\nperiod of years or for life, whether or not such agreement is part of an\nemployment contract, shall not be deemed to bar subsequent actions to\nrecover payments thereafter becoming due under the terms of such\nagreement.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

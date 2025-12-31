@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-600"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-600"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="600"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-600/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-600/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-600/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-600/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_600">
+        <num>600</num>
+        <heading>Effect of retirement payments</heading>
+        <subsection eId="sec_600__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>The benefit rate of a claimant who is receiving a governmental or\nother pension, retirement or retired pay, annuity, or any other similar\nperiodic payment which is based on his previous work, shall be reduced\nas hereinafter provided, if such payment is made under a plan maintained\nor contributed to by his base period employer and, except for payments\nmade under the social security act or the railroad retirement act of\n1974, the claimant's employment with, or remuneration from, such\nemployer after the beginning of the base period affected his eligibility\nfor, or increased the amount of, such pension, retirement or retired\npay, annuity, or other similar periodic payment.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_600__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>The claimant's benefit rate shall be reduced by the largest number\nof whole dollars which is not more than the pro-rated weekly amount of\nsuch payment. If the claimant was the sole contributor for the pension,\nretirement or retired pay, annuity, or other similar periodic payment,\nno reduction shall apply.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_600__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>If, at the time benefits are payable, it has not been established\nthat the claimant will be receiving such pension, retirement or retired\npay, annuity or other payment, benefits due shall be paid without a\nreduction, subject to review within the period and under the conditions\nas provided in subdivisions three and four of section five hundred\nninety-seven with respect to retroactive payment of remuneration.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_600__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>For the purposes of this section, the terms "pension or retirement\npayment" and "governmental or other pension, retirement or retired pay,\nannuity, or any other similar periodic payment which is based on\nprevious work" shall not include payments made from a qualified trust to\nan eligible retirement plan under the terms and conditions specified in\nsection four hundred two of the internal revenue code for federal income\ntax purposes, such payments commonly known as eligible rollover\ndistributions.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

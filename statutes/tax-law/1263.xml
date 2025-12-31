@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1263"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1263"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1263"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1263/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1263/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1263/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1263/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1263">
+        <num>1263</num>
+        <heading>Deposit of funds and use of funds not having assigned purposes</heading>
+        <subsection eId="sec_1263__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Deposit and use of net collections from taxes imposed by\ncities of over one million administered and collected by state tax\ncommission.  Net collections paid to the director of finance of the city\nof New York and any other appropriate fiscal officer of any city having\na population of over one million, as provided for in section twelve\nhundred sixty-one, shall be deposited by such fiscal officer in the\ngeneral fund of such city, but no part of such revenues may be expended\nby such city unless appropriated in the annual budget of such city.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_1263__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Deposit and use of net collections by cities, counties and\nvillages. Net collections received by or distributed to a county, a city\nwith a population of less than one million or a village from taxes\nimposed pursuant to this article shall be paid into the treasury of the\ncounty, city or village and shall be credited to and deposited in the\ngeneral fund thereof and, unless restricted by local law, ordinance or\nresolution to a specified purpose or purposes, shall be available for\nany county, city or village purpose of such county, city or village.\nExpenditures from the proceeds of any such tax shall not be considered\nas part of the cost of government within the meaning of any limitation\non expenditures contained in any general, special or local law\napplicable to such county, city or village.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

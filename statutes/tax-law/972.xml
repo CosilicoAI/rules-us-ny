@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-972"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-972"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="972"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-972/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-972/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-972/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-972/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_972">
+        <num>972</num>
+        <heading>Time and place for filing returns</heading>
+        <subsection eId="sec_972__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Time for filing returns.\nA person required to make and file a return under this article shall\nfile returns, statements, or other documents, or copies thereof, within\nnine months after the date of the decedent's death.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_972__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Place for filing returns. The commissioner of taxation and finance\nshall prescribe the place for filing any return, statement, other\ndocument, or copies thereof, required to be filed with such commissioner\npursuant to this article.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_972__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>Simultaneous filing of returns with surrogate's court. If required\nby rule of any surrogate's court, a person required to make and file\nreturns, statements, or other documents, or copies thereof, under this\narticle shall simultaneously file a duplicate copy of such returns,\nstatements, or other documents, or copies thereof, with the surrogate's\ncourt in the county where the petition was filed to commence either a\nproceeding for probate of a will or a proceeding for administration in\nintestacy. The office of court administration shall promptly notify the\ncommissioner after receiving notice that any surrogate's court has\nadopted such a rule, so that the commissioner will be able to properly\ninform taxpayers of their responsibility to file such returns,\nstatements or other documents with the surrogate's court.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

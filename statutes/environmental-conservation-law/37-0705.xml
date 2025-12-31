@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0705"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0705"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="37-0705"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0705/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0705/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-37-0705/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-37-0705/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_37_0705">
+        <num>37-0705</num>
+        <heading>Child care products</heading>
+        <content>
+          <p>§ 37-0705. Child care products.\n  1. Beginning December first, two thousand thirteen, no person, firm,\npartnership, association, limited liability company or corporation shall\nsell or offer for sale any child care product intended for use by a\nchild three years of age or younger containing TRIS.\n  2. The provisions of this section shall not apply to the sale or\ndistribution of child care products resold or offered for resale, or\ndistributed by consumers for consumer use.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

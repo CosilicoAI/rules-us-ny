@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2220"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2220"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2220"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2220/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2220/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-2220/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-2220/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2220">
+        <num>2220</num>
+        <heading>Entry and filing of order; service</heading>
+        <subsection eId="sec_2220__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>Entry and filing.\nAn order determining a motion shall be entered and filed in the office\nof the clerk of the court where the action is triable, and all papers\nused on the motion and any opinion or memorandum in writing shall be\nfiled with that clerk unless the order dispenses with such filing.  When\na statute or civil practice rule requires such filing and entry in a\ncounty other than that in which the order was made, the party prevailing\non the motion shall file the order and the papers used on the motion\nwith the proper clerk after receiving them. If a party fails to file any\npapers required to be filed under this subdivision, the order may be\nvacated as irregular, with costs.\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2220__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>Service. Service of an order shall be made by serving a copy of\nthe order.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

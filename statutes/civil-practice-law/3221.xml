@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3221"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3221"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3221"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3221/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3221/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3221/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3221/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3221">
+        <num>3221</num>
+        <heading>Offer to compromise</heading>
+        <content>
+          <p>  Rule 3221. Offer to compromise. Except in a matrimonial action, at any\ntime not later than ten days before trial, any party against whom a\nclaim is asserted, and against whom a separate judgment may be taken,\nmay serve upon the claimant a written offer to allow judgment to be\ntaken against him for a sum or property or to the effect therein\nspecified, with costs then accrued. If within ten days thereafter the\nclaimant serves a written notice that he accepts the offer, either party\nmay file the summons, complaint and offer, with proof of acceptance, and\nthereupon the clerk shall enter judgment accordingly.  If the offer is\nnot accepted and the claimant fails to obtain a more favorable judgment,\nhe shall not recover costs from the time of the offer, but shall pay\ncosts from that time. An offer of judgment shall not be made known to\nthe jury.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

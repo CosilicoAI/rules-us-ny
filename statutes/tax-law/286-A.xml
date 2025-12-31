@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-286-A"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-286-A"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="286-A"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-286-A/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-286-A/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-286-A/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-286-A/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_286_A">
+        <num>286-A</num>
+        <heading>Records and reports of transportation of motor fuel and diesel motor fuel</heading>
+        <content>
+          <p>  § 286-a. Records and reports of transportation of motor fuel and\ndiesel motor fuel. Every person transporting motor fuel or diesel motor\nfuel within this state, whether such transportation originates within or\nwithout this state, when required by the commissioner, shall keep a true\nand accurate record of all motor fuel and diesel motor fuel so\ntransported, including ingredients which may be manufactured or\ncompounded into motor fuel or diesel motor fuel, showing such facts with\nrelation to such fuel and ingredients and their transportation as the\ncommissioner may require. Such record shall be open to inspection by the\nrepresentatives of the department at any time and the commissioner may\nrequire from any such person sworn returns of all or any part of the\ninformation shown by such records.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2170"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2170"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2170"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2170/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2170/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2170/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2170/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2170">
+        <num>2170</num>
+        <heading>Hepatitis C; educational materials</heading>
+        <content>
+          <p>  § 2170. Hepatitis C; educational materials. The commissioner shall\ndevelop and make available to physicians, other health care providers,\nveterans and other persons at high risk for hepatitis C educational\nmaterials, in written and electronic forms, on the diagnosis, treatment\nand prevention of hepatitis C. Such materials shall include the\nrecommendations of the federal Centers for Disease Control and\nPrevention and any other person or entity having knowledge on hepatitis\nC, including the American Liver Foundation. Such materials shall be\nwritten in terms which are understandable by members of the general\npublic.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

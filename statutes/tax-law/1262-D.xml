@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-D"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-D"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1262-D"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-D/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-D/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1262-D/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1262-D/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1262_D">
+        <num>1262-D</num>
+        <heading>Allocation and distribution of revenues from sales and use taxes to villages within the county of Albany</heading>
+        <subsection eId="sec_1262_D__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>of section twelve hundred sixty-two of this chapter;\nprovided, however, that commencing with the July, nineteen hundred\neighty-one quarterly distribution, one-eighth of the amount of such net\ncollections allocated to the town of Colonie and each successive quarter\nthereafter, cumulatively, an additional one-eighth part of each such\nquarterly town allocation shall be distributed between such village or\nvillages and the town of Colonie in proportion to their respective full\nvaluations of real property, with the remainder of each such town\nquarterly allocation through and including that distributable in\nJanuary, nineteen hundred eighty-three, being an evenly declining\nportion of each such quarterly allocation, to be distributed in\nproportion to population as hereinbefore set forth for the remainder of\nAlbany county, so that the April, nineteen hundred eighty-three\nquarterly allocation to the town of Colonie and those allocations\nthereafter received shall be divided between said town and the villages\ntherein solely in proportion to their respective full valuations of real\nproperty as provided herein.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

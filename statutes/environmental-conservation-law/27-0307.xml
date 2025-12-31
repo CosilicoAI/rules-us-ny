@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0307"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0307"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-0307"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0307/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0307/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0307/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0307/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_0307">
+        <num>27-0307</num>
+        <heading>Waste transporter permit revocation notifications</heading>
+        <content>
+          <p>§ 27-0307. Waste transporter permit revocation notifications.\n  After the issuance of an order of suspension or revocation of the\npermit of a waste transporter, the department shall publish notice of\nsuch suspension or revocation in a newspaper or newspapers having a\ngeneral circulation in the area or areas served by the permittee and in\nthe environmental notice bulletin published by the department. Such\nnotice shall include a statement that the permittee is no longer\nlicensed or permitted to handle such waste. The department shall publish\nsuch notice once each week for two consecutive weeks with the first\npublication to be completed on or before the fifteenth day following\nsuch revocation or suspension.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

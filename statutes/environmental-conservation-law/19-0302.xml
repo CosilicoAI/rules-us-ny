@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0302"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0302"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="19-0302"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0302/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0302/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-19-0302/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-19-0302/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_19_0302">
+        <num>19-0302</num>
+        <heading>Permits and certificates</heading>
+        <content>
+          <p>§ 19-0302. Permits and certificates.\n  1. The rules and regulations adopted by the department to implement\nthis article and the provisions of article 70 of this chapter and rules\nand regulations adopted thereunder and the provisions of the state\nadministrative procedure act shall govern permit and certificate\napplications, renewals, modifications, suspensions and revocations under\nthis article unless otherwise provided for in this article.\n  2. No permit issued pursuant to this article shall include\nperformance, emission or control standards more stringent than any\nestablished by the Act or by the United States environmental protection\nagency unless such standards are authorized by rules or regulations.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

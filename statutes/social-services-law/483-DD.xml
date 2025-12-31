@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-DD"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-DD"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="483-DD"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-DD/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-DD/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-483-DD/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-483-DD/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_483_DD">
+        <num>483-DD</num>
+        <heading>Law enforcement assistance with respect to immigration</heading>
+        <content>
+          <p>  § 483-dd. Law enforcement assistance with respect to immigration. Upon\nthe request of a human trafficking victim or a representative of a human\ntrafficking victim, the state or local law enforcement agency or\ndistrict attorney's office shall provide the victim with the United\nStates Citizenship and Immigration Service (USCIS) Form I-914 Supplement\nB Declaration of Law Enforcement Officer for Victim of Trafficking in\nPersons. In order to provide persuasive evidence, the state or local law\nenforcement agency endorsement must contain a description of the\nvictimization upon which the application is based, including the dates\nthe trafficking in persons occurred. The endorsement must address\nwhether the victim had been recruited, harbored, transported, provided,\nor obtained specifically for either labor servitude or services or for\nthe purposes of a commercial sex act as defined in subdivision three of\nsection 7102 of title 22 of the United States Code.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-220-H"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-220-H"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="220-H"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-220-H/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-220-H/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-220-H/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-220-H/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_220_H">
+        <num>220-H</num>
+        <heading>Occupational Safety and Health Administration (OSHA) construction safety and health course</heading>
+        <content>
+          <p>  § 220-h. Occupational Safety and Health Administration (OSHA)\nconstruction safety and health course. The advertised specifications for\nevery contract for the construction, reconstruction, maintenance and/or\nrepair of public work to which the state or a municipality is a party,\nwhere the total cost of all work to be performed under the contract is\nat least two hundred fifty thousand dollars, shall contain a provision\nrequiring that all laborers, workers, and mechanics employed in the\nperformance of the contract on the public work site, either by the\ncontractor, sub-contractor or other person doing or contracting to do\nthe whole or a part of the work contemplated by the contract, shall be\ncertified prior to performing any work on the project as having\nsuccessfully completed a course in construction safety and health\napproved by the United States department of labor's occupational safety\nand health administration that is at least ten hours in duration.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

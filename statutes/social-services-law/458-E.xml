@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-458-E"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-458-E"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="458-E"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-458-E/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-458-E/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-458-E/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-458-E/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_458_E">
+        <num>458-E</num>
+        <heading>Independent living services</heading>
+        <content>
+          <p>  § 458-e. Independent living services. In accordance with regulations\nof the office of children and family services, any child who leaves\nfoster care for guardianship with a relative after attaining sixteen\nyears of age for whom kinship guardianship assistance payments are being\nmade under this title shall be eligible:\n  1. to receive those independent living services that are made\navailable by the social services district to foster children pursuant to\nsection 477 of the federal social security act; and\n  2. to apply for educational and training vouchers made available\npursuant to such section, which will be awarded based on the priorities\nestablished by the office of children and family services and the amount\nof funds made available therefor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3816"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3816"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3816"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3816/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3816/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3816/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3816/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3816">
+        <num>3816</num>
+        <heading>Duty of trustees or board of education to carry out order</heading>
+        <content>
+          <p>  § 3816. Duty of trustees or board of education to carry out order.  It\nshall be the duty of the trustees or board of education of any school\ndistrict, within thirty days after service upon them or upon the\ndistrict clerk of a copy of an order of the county judge and notice\nthereof to them or any two of them, to cause the same to be entered at\nlength in the book of record of said district, and to raise the amount\nthereby directed to be paid, by a tax upon the district, to be by them\nassessed and levied in the same manner as a tax voted by the district.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

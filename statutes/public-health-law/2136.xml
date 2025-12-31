@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2136"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2136"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2136"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2136/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2136/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2136/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2136/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2136">
+        <num>2136</num>
+        <heading>Liability</heading>
+        <content>
+          <p>  § 2136. Liability. 1. Good faith reporting or disclosure pursuant to\nthis title shall not constitute libel or slander or a violation of the\nright of privacy or privileged communication.\n  2. Any person who in good faith complies with this title shall be\nimmune from civil and criminal liability for any action taken in\ncompliance with its provisions.\n  3. No criminal or civil liability shall arise against any protected\nindividual solely due to his or her failure to cooperate in contact\ntracing conducted pursuant to section twenty-one hundred thirty-three of\nthis title.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

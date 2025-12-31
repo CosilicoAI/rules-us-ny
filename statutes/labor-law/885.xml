@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-885"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-885"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="885"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-885/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-885/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-885/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-885/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_885">
+        <num>885</num>
+        <heading>Definitions</heading>
+        <content>
+          <p>  § 885. Definitions. As used in this article:\n  1. "Board" shall mean the New York state occupational safety and\nhealth hazard abatement board created pursuant to the provisions of\nsection twenty-seven-a of this chapter.\n  2. The term "program" shall mean the training and education program on\noccupational safety and health created pursuant to the provisions of\nsection eight hundred eighty-six of this article.\n  3. The term "fund" shall mean the training and education program on\noccupational safety and health fund created pursuant to the provisons of\nsection ninety-seven-c of the state finance law.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

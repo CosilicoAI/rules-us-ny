@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-957"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-957"/>
+          <FRBRdate date="2022-01-07" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="957"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-957/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-957/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-957/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-957/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_957">
+        <num>957</num>
+        <heading>Exempt persons</heading>
+        <content>
+          <p>  § 957. Exempt persons. 1. This article shall not be construed to apply\nto the practice, conduct, activities, or services by a person licensed\nto practice architecture within this state pursuant to article one\nhundred forty-seven of the education law or engineering within this\nstate pursuant to article one hundred forty-five of the education law.\n  2. This article shall not be construed to apply to the outfitting,\nremoval, refinishing, or replacement of interior finishes of elevators,\nincluding wall panels, drop ceilings, handrails and flooring, removal or\nreplacement of interior lighting, recladding of doors, transoms and\nfront return panels, finishing or ornamental work on elevator car\noperating panels.\n  3. This article shall not be construed to apply to the operation of an\nelevator by any person employed as an operator of such elevator,\nincluding elevators operating under a temporary certificate of occupancy\nas issued by the appropriate issuing agency.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

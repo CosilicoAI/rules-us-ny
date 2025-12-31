@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="TAX">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1827"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1827"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1827"/>
+          <FRBRname value="TAX"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1827/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1827/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/tax/section-1827/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/tax/section-1827/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1827">
+        <num>1827</num>
+        <heading>Commissioner not to be interested in tax sa1e</heading>
+        <content>
+          <p>  § 1827. Commissioner not to be interested in tax sa1e.--The\ncommissioner, or any person employed in such commissioner's office, who\nshall be directly or indirectly interested in any tax sale made by such\ncommissioner, or in the title acquired by such sale, or in any money\npaid or to be paid for the redemption of any lands sold for taxes by the\ncommissioner or on the cancellation of any such tax sale; or any person\nwho shall pay or give to the commissioner, or to any employee of such\ncommissioner's office, any compensation, reward or promise thereof for\nany service or services performed in regard to such sale, redemption,\ncancellation or such tax title, is guilty of a misdemeanor. A sale in\nviolation of this section is void.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4509"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4509"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="4509"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4509/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4509/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-4509/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-4509/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_4509">
+        <num>4509</num>
+        <heading>Library records</heading>
+        <content>
+          <p>  § 4509. Library records.  Library records, which contain names or\nother personally identifying details regarding the users of public, free\nassociation, school, college and university libraries and library\nsystems of this state, including but not limited to records related to\nthe circulation of library materials, computer database searches,\ninterlibrary loan transactions, reference queries, requests for\nphotocopies of library materials, title reserve requests, or the use of\naudio-visual materials, films or records, shall be confidential and\nshall not be disclosed except that such records may be disclosed to the\nextent necessary for the proper operation of such library and shall be\ndisclosed upon request or consent of the user or pursuant to subpoena,\ncourt order or where otherwise required by statute.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="27-0101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-27-0101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-27-0101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_27_0101">
+        <num>27-0101</num>
+        <heading>Legislative purposes</heading>
+        <content>
+          <p>§ 27-0101. Legislative purposes.\n  1. It is the purpose of the legislature of the state of New York in\nenacting this article to encourage the development of economical\nprojects for the present and future collection, treatment and management\nof solid and hazardous waste in such a manner as will assure full\nconsideration of all aspects of planning for proper and effective solid\nand hazardous waste disposal, coordinated, so far as practicable, with\nother related state, regional and local planning activities, and\nconsistent with the protection of the public health, including such\nfactors as population change, urban and metropolitan development, land\nuse planning, water pollution and air pollution control, and the\nfeasibility of regional resource recovery programs.\n  2. It is furthermore the purpose of the legislature of the state of\nNew York to effect maximum resource recovery from solid waste on a\ncost-effective basis, with minimum environmental debit, energy-efficient\nmaterials recovery, prudent land use, maximum economic benefits and\nmaximum effective private sector participation, with due concern for the\nprimacy of the local and regional role in resource recovery procedures\nupon the basis of public knowledge and consent.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

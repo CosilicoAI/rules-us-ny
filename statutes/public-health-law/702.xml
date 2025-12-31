@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-702"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-702"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="702"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-702/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-702/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-702/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-702/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_702">
+        <num>702</num>
+        <heading>Federal aid; custody and payment of funds</heading>
+        <content>
+          <p>  § 702. Federal aid; custody and payment of funds. 1. The department of\ntaxation and finance is designated as custodian of all federal-aid funds\nallotted to the state for the purposes of this article by the United\nStates.\n  2. Such funds shall be payable only on the audit and warrant of the\ncomptroller on the certificate of the commissioner as provided in\nsection one hundred ten of the state finance law.\n  3. Subject to the rules and regulations of the commissioner, such\nfunds may be allocated to any municipal corporation, including the city\nof New York, and to any health district for the use of such municipal\ncorporation or local health district in carrying out the purposes of\nsuch act of the congress.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

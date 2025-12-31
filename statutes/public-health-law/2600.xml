@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2600"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2600"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2600"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2600/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2600/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2600/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2600/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2600">
+        <num>2600</num>
+        <heading>Helen Hayes Hospital; hospital care and treatment</heading>
+        <content>
+          <p>  § 2600. Helen Hayes Hospital; hospital care and treatment.  1. The\nHelen Hayes Hospital is continued for the care and treatment of persons\nwho are physically disabled, deformed or are suffering from disease from\nwhich they are likely to become physically disabled or deformed.\n  2. The patients in such hospital shall be permitted to exercise and\nenjoy religious profession and worship freely and without discrimination\nor preference.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

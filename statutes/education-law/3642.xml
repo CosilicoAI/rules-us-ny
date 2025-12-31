@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3642"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3642"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3642"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3642/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3642/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-3642/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-3642/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3642">
+        <num>3642</num>
+        <heading>Severability</heading>
+        <content>
+          <p>  § 3642. Severability.  If any clause, sentence, paragraph, or section\nof this part shall be adjudged by any court of competent jurisdiction to\nbe invalid and after exhaustion of all further judicial review, the\njudgment shall not affect, impair or invalidate the remainder thereof,\nbut shall be confined in its operation to the clause, sentence,\nparagraph, or section of this part directly involved in the controversy\nin which the judgment shall have been rendered. The provisions of this\nsection shall apply to all sections of this part except those sections\nwhich are expressly subject to separate severability provisions\ncontained hereinbefore in this part.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

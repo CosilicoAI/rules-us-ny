@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-222"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-222"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="222"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-222/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-222/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-222/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_222">
+        <num>222</num>
+        <heading>Public health and health planning council; meetings; by-laws</heading>
+        <content>
+          <p>  § 222. Public health and health planning council; meetings; by-laws.\n1. The public health and health planning council shall meet as\nfrequently as its business may require, and at least twice in each year.\n  2. The governor shall designate one of the members of the public\nhealth and health planning council as its chair.\n  3. The public health and health planning council shall enact and from\ntime to time may amend by-laws in relation to its meetings and the\ntransactions of its business.\n  4. All meetings of the public health and health planning council shall\nin every proceeding be deemed to have been duly called and regularly\nheld, and all regulations and proceedings to have been duly authorized\nunless the contrary be proved.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

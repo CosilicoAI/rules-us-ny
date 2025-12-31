@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CVP">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3110"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3110"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="3110"/>
+          <FRBRname value="CVP"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3110/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3110/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cvp/section-3110/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cvp/section-3110/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_3110">
+        <num>3110</num>
+        <heading>Where the deposition is to be taken within the state</heading>
+        <content>
+          <p>  Rule 3110. Where the deposition is to be taken within the state. A\ndeposition within the state on notice shall be taken:\n  1. when the person to be examined is a party or an officer, director,\nmember or employee of a party, within the county in which he resides or\nhas an office for the regular transaction of business in person or where\nthe action is pending; or\n  2. when any other person to be examined is a resident, within the\ncounty in which he resides, is regularly employed or has an office for\nthe regular transaction of business in person, or if he is not a\nresident, within the county in which he is served, is regularly employed\nor has an office for the regular transaction of business in person; or\n  3. when the party to be examined is a public corporation or any\nofficer, agent or employee thereof, within the county in which the\naction is pending; the place of such examination shall be the office of\nany of the attorneys for such a public corporation or any officer, agent\nor authorized employee thereof unless the parties stipulate otherwise.\n  For the purpose of this rule New York city shall be considered one\ncounty.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

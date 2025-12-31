@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-625"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-625"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="625"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-625/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-625/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-625/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-625/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_625">
+        <num>625</num>
+        <heading>Undertaking on appeal</heading>
+        <content>
+          <p>  § 625. Undertaking on appeal. No appeal shall be taken by an employer\nfrom a decision of the appeal board determining a sum to be due from\nsuch employer unless the amount involved, with interest and penalties\nthereon, if any, shall be first deposited with the commissioner and an\nundertaking filed with the commissioner, in such amount and with such\nsureties as a justice of the supreme court shall approve, to the effect\nthat the employer will pay all costs and charges which may be adjudged\nagainst him in the prosecution of such appeal. At the option of the\nemployer, such undertaking may be in a sum sufficient to cover the said\namount, interest, penalties, costs, and charges as aforesaid, in which\nevent the employer shall not be required to deposit such amount, with\nthe interest and penalties, as a condition precedent to the taking of an\nappeal.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-355"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-355"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="355"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-355/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-355/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-355/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-355/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_355">
+        <num>355</num>
+        <heading>Rules, regulations and forms</heading>
+        <content>
+          <p>  § 355.  Rules, regulations and forms.  The department shall  1.\nsupervise the administration of family assistance,\n  2.  prescribe the form of and print and supply to the public welfare\nofficials blanks for applications, reports, affidavits and such other\nforms as it may deem advisable,\n  3.  make regulations necessary for the carrying out of the provisions\nof this title to the end that allowances may be granted and the\nprovisions of this title administered uniformly throughout the state.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

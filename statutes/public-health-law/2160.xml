@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2160"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2160"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2160"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2160/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2160/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2160/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2160/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2160">
+        <num>2160</num>
+        <heading>Poliomyelitis; persons twenty-one years of age and over; medical inspection</heading>
+        <content>
+          <p>  § 2160. Poliomyelitis; persons twenty-one years of age and over;\nmedical inspection.  In addition to the powers and duties prescribed by\nsection two thousand one hundred of this chapter, every local board of\nhealth and every health officer shall exercise proper and vigilant\nmedical inspection of all persons twenty-one years of age or over,\ninfected or who have been infected with poliomyelitis.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

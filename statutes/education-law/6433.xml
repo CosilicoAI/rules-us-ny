@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="EDN">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6433"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6433"/>
+          <FRBRdate date="2023-10-13" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="6433"/>
+          <FRBRname value="EDN"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6433/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6433/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/edn/section-6433/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/edn/section-6433/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_6433">
+        <num>6433</num>
+        <heading>Campus crime reporting and statistics</heading>
+        <subsection eId="sec_6433__subsec_f">
+          <num>(f)</num>
+          <content>
+            <p>.\n  The information on each college's website shall include the United\nStates Department of Education's website address for campus crime\nstatistics and a link to statistics for that college. Each college shall\nreport and post incidents of hate crime offenses as a separate, clearly\ndesignated category on their website.\n  The president or chief administrative officer of each college shall,\nworking with the advisory committee on campus safety, inform students\nand prospective students of the existence of the campus crime statistics\nand other campus safety policies and procedures as part of the college's\nonboarding process.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

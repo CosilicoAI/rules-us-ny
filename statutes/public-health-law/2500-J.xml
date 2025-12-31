@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2500-J"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2500-J"/>
+          <FRBRdate date="2018-08-31" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="2500-J"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2500-J/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2500-J/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-2500-J/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-2500-J/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_2500_J">
+        <num>2500-J</num>
+        <heading>Autism spectrum disorders; screening of children</heading>
+        <subsection eId="sec_2500_J__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>the routine employment of objective autism spectrum disorder\nscreening tools at regular intervals during critical childhood\ndevelopmental stages;\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2500_J__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>a provider/parental dialogue, utilizing the modified checklist for\nautism in toddlers as a reference, intended to educate parents in regard\nto autism spectrum disorders; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_2500_J__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>an appropriate referral mechanism for children who, based upon\nresults of the aforementioned screening process, require further\nevaluation.\n  2. The modified checklist for autism in toddlers referred to in\nsubdivision one of this section shall be accessible by the public on the\ndepartment's internet website.\n  3. The commissioner shall promulgate any rules and regulations\nnecessary to implement the provisions of this section.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

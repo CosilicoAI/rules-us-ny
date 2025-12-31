@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-276"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-276"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="276"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-276/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-276/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-276/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-276/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_276">
+        <num>276</num>
+        <heading>Education and outreach</heading>
+        <content>
+          <p>  § 276. Education and outreach. The department or the panel may conduct\neducation and outreach programs for consumers and health care providers\nrelating to the safe, therapeutic and cost-effective use of prescription\ndrugs and appropriate treatment practices for containing prescription\ndrug costs. The department or the panel shall provide information as to\nhow prescribers, pharmacists, patients and other interested parties can\nobtain information regarding drugs included on the preferred drug list,\nwhether any change has been made to the preferred drug list since it was\nlast issued, and the process by which prior authorization may be\nobtained.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

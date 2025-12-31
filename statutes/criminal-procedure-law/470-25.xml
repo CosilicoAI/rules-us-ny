@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.25"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.25"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="470.25"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.25/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.25/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-470.25/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-470.25/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_470_25">
+        <num>470.25</num>
+        <heading>Determination of appeals by intermediate appellate courts; form and content of order</heading>
+        <subsection eId="sec_470_25__subsec_a">
+          <num>(a)</num>
+          <content>
+            <p>A statement of whether the determination was upon the law or upon\nthe facts or as a matter of discretion in the interest of justice, or\nupon any specified two or all three of such bases; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_470_25__subsec_b">
+          <num>(b)</num>
+          <content>
+            <p>If the decision is rendered without opinion, a brief statement of\nthe specific grounds of the reversal or modification; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_470_25__subsec_c">
+          <num>(c)</num>
+          <content>
+            <p>A statement of the corrective action taken or directed by the\ncourt; and\n</p>
+          </content>
+        </subsection>
+        <subsection eId="sec_470_25__subsec_d">
+          <num>(d)</num>
+          <content>
+            <p>If the determination is exclusively upon the law, a statement of\nwhether or not the facts upon which the criminal court's judgment,\nsentence or order is based have been considered and determined to have\nbeen established.  In the absence of such a statement, it is presumed\nthat the intermediate appellate court did not consider or make any\ndetermination with respect to such facts.\n</p>
+          </content>
+        </subsection>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

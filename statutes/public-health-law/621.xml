@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="PBH">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-621"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-621"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="621"/>
+          <FRBRname value="PBH"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-621/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-621/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/pbh/section-621/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/pbh/section-621/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_621">
+        <num>621</num>
+        <heading>State aid; public health emergencies</heading>
+        <content>
+          <p>  § 621. State aid; public health emergencies. If the state commissioner\nor a county health department or part-county department of health or\nmunicipality, with the approval of the state commissioner, determines\nthat there is an imminent threat to public health, the department shall\nreimburse counties or municipalities at fifty per centum for the cost of\nemergency measures as approved by the department and subject to the\napproval of the director of the budget, except that aerial spraying for\nmosquitoes on state land shall be reimbursed at one hundred per centum,\nwithin amounts appropriated. Such funds shall be made available from\nfunds appropriated for public health emergencies, only to those counties\nor municipalities, which have expended all other state aid which may be\navailable for related activities and have developed measures to\nadequately address the emergency. Reimbursement is conditioned upon\navailability of appropriated funds. For purposes of this section,\n"municipality" means a health department of a city that is not located\nin a county or part-county health district or a county in which the\nlegislature has the powers and duties of a board of health of a county\nor part-county health district and cities with a population of over one\nmillion persons.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

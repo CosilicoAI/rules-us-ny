@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="ENV">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/env/section-1-0101"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-1-0101"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="1-0101"/>
+          <FRBRname value="ENV"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/env/section-1-0101/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-1-0101/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/env/section-1-0101/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/env/section-1-0101/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_1_0101">
+        <num>1-0101</num>
+        <heading>Declaration of policy</heading>
+        <content>
+          <p>§ 1-0101. Declaration of policy.\n  1. The quality of our environment is fundamental to our concern for\nthe quality of life. It is hereby declared to be the policy of the State\nof New York to conserve, improve and protect its natural resources and\nenvironment and to prevent, abate and control water, land and air\npollution, in order to enhance the health, safety and welfare of the\npeople of the state and their overall economic and social well being.\n  2. It shall further be the policy of the state to improve and\ncoordinate the environmental plans, functions, powers and programs of\nthe state, in cooperation with the federal government, regions, local\ngovernments, other public and private organizations and the concerned\nindividual, and to develop and manage the basic resources of water,\nland, and air to the end that the state may fulfill its responsibility\nas trustee of the environment for the present and future generations.\n  3. It shall further be the policy of the state to foster, promote,\ncreate and maintain conditions under which man and nature can thrive in\nharmony with each other, and achieve social, economic and technological\nprogress for present and future generations by:\n  a. Assuring surroundings which are healthful and aesthetically\npleasing;\n  b. Guaranteeing that the widest range of beneficial uses of the\nenvironment is attained without risk to health or safety, unnecessary\ndegradation or other undesirable or unintended  consequences;\n  c. Promoting patterns of development and technology which minimize\nadverse impact on the environment;\n  d. Preserving the unique qualities of special resources such as the\nAdirondack and Catskill forest preserves;\n  e. Providing that care is taken for the air, water and other resources\nthat are shared with the other states of the United States and with\nCanada in the manner of a good neighbor.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

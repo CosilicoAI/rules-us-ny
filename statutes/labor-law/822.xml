@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="LAB">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/lab/section-822"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-822"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="822"/>
+          <FRBRname value="LAB"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/lab/section-822/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-822/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/lab/section-822/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/lab/section-822/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_822">
+        <num>822</num>
+        <heading>Authorization and standards for allowances</heading>
+        <content>
+          <p>  § 822. Authorization and standards for allowances.  The commissioner,\nin accordance with standards established by him, may pay to a person\nenrolled in such courses, training, subsistence, and transportation\nallowances. In setting standards for:\n  1. training allowances, the commissioner shall consider the relative\nneeds of the trainees, wages earned by them, and benefits payable to\nthem under the general provisions of article eighteen of this chapter,\nprovided, however, that no training allowance shall exceed by more than\nten dollars the average statewide gross benefit rate under such article\nfor a week of total unemployment during the most recent\nfour-calendar-quarter period for which such data are available,\naugmented by five dollars a week for each dependent over two up to a\nmaximum of four additional dependents.\n  2. subsistence allowances, the commissioner shall consider the cost to\nthe trainees of living away from their normal residences where this is\nnecessitated by the location and nature of the training facilities,\nprovided, however, that no such allowance shall exceed five dollars a\nday.\n  3. transportation allowances, the commissioner shall consider the cost\nto the trainees of commuting and long-distance travel necessitated by\nthe nature and location of the training facilities.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

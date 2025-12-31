@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="CPL">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.30"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.30"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="330.30"/>
+          <FRBRname value="CPL"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.30/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.30/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/cpl/section-330.30/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/cpl/section-330.30/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_330_30">
+        <num>330.30</num>
+        <heading>Motion to set aside verdict; grounds for</heading>
+        <content>
+          <p>§ 330.30  Motion to set aside verdict; grounds for.\n  At any time after rendition of a verdict of guilty and before\nsentence, the court may, upon motion of the defendant, set aside or\nmodify the verdict or any part thereof upon the following grounds:\n  1.  Any ground appearing in the record which, if raised upon an appeal\nfrom a prospective judgment of conviction, would require a reversal or\nmodification of the judgment as a matter of law by an appellate court.\n  2.  That during the trial there occurred, out of the presence of the\ncourt, improper conduct by a juror, or improper conduct by another\nperson in relation to a juror, which may have affected a substantial\nright of the defendant and which was not known to the defendant prior to\nthe rendition of the verdict; or\n  3.  That new evidence has been discovered since the trial which could\nnot have been produced by the defendant at the trial even with due\ndiligence on his part and which is of such character as to create a\nprobability that had such evidence been received at the trial the\nverdict would have been more favorable to the defendant.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>

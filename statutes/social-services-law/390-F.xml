@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0">
+  <act name="SOS">
+    <meta>
+      <identification source="#ny-legislature">
+        <FRBRWork>
+          <FRBRthis value="/akn/us-ny/act/sos/section-390-F"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-390-F"/>
+          <FRBRdate date="2014-09-22" name="enacted"/>
+          <FRBRauthor href="#ny-legislature"/>
+          <FRBRcountry value="us-ny"/>
+          <FRBRnumber value="390-F"/>
+          <FRBRname value="SOS"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/us-ny/act/sos/section-390-F/eng@2025-12-31"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-390-F/eng@2025-12-31"/>
+          <FRBRdate date="2025-12-31" name="publication"/>
+          <FRBRauthor href="#arch"/>
+          <FRBRlanguage language="eng"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/us-ny/act/sos/section-390-F/eng@2025-12-31/main.xml"/>
+          <FRBRuri value="/akn/us-ny/act/sos/section-390-F/eng@2025-12-31/main.xml"/>
+          <FRBRdate date="2025-12-31" name="generation"/>
+          <FRBRauthor href="#arch"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#arch">
+        <TLCOrganization eId="arch" href="https://cosilico.ai" showAs="Cosilico Arch"/>
+        <TLCOrganization eId="ny-legislature" href="https://legislation.nysenate.gov" showAs="New York State Legislature"/>
+      </references>
+    </meta>
+    <body>
+      <section eId="sec_390_F">
+        <num>390-F</num>
+        <heading>Report on child care insurance</heading>
+        <content>
+          <p>  § 390-f. Report on child care insurance. The commissioner of the\noffice of children and family services in consultation with the\nsuperintendent of financial services, shall undertake a study of the\navailability, accessibility, and affordability of insurance policies to\nchild care providers. The study shall include, but not be limited to, a\nreview of homeowner insurance policies and health insurance policies.\nThe study shall be completed and a report submitted no later than\nJanuary first, two thousand nine, to the governor, the commissioner of\nthe office of children and family services, the temporary president of\nthe senate and the speaker of the assembly.\n</p>
+        </content>
+      </section>
+    </body>
+  </act>
+</akomaNtoso>
